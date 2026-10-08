@@ -19,9 +19,11 @@ changed 1,886 predictions while preserving the old file. The user reported
 52.39% public accuracy for the old version; no public score for the candidate
 version has been reported here.
 
-The original test run recorded 1,051 fallback robot observations. A separate
-audit rerun is in progress to identify specific causes; no claim that all of
-them are CV errors is established by that count alone. Fallback chooses the
+The test audit reproduced 1,051 fallback observations over 112 scenes with
+identical predictions. All have unreachable mission routes on the predicted
+graph. The resolver also replaced 245 goals, including 96 scenes where the
+parser returned no goal. See `FALLBACK_AUDIT.md` for the complete statistics;
+these cannot all be attributed to CV. Fallback chooses the
 robot's heading if legal, otherwise the lowest numbered legal action.
 
 Local comparison layout:
@@ -33,7 +35,7 @@ results/solver_comparison_20261008/
   v1_submitted/          old submission, solver artifact and source snapshot
   v2_candidate/         new submission, solver artifact and validation report
   shared_cv_nlp/        shared CV artifacts and progress notes
-  v2_fallback_audit/    independent rerun and diagnostic output
+  v2_fallback_audit/    completed rerun and diagnostic output
 ```
 
 Datasets, model binaries, test submissions and local results remain outside Git.
