@@ -5,6 +5,7 @@ __pycache__/
 old/
 data/solver/
 data/cv/
+data/nlp/
 artifacts/
 models/
 Phenikaa_Campus_Courier_2026_v3/delivery_public/

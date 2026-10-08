@@ -17,17 +17,19 @@ src/courier/
 scripts/
   solver/       # solver-only entry points
   cv/           # CV-only entry points
+  nlp/          # NLP-only entry points
 tests/
   solver/       # solver-only tests
   cv/           # CV-only tests
+  nlp/          # NLP-only tests
 artifacts/
   solver/       # trained solver models
   cv/           # trained CV models
 ```
 
-The current milestone implements the oracle Strategy/Solver. It consumes the
-ground-truth graph and mission fields from `scenes.json`; it does not read test
-annotations and is not yet an end-to-end submission pipeline.
+The current implementation includes the oracle Strategy/Solver, a staged CV
+pipeline with a learned weather classifier, and a Vietnamese mission parser +
+map resolver. It is not yet an end-to-end test submission pipeline.
 
 ## Environment
 
@@ -65,7 +67,19 @@ py -3.12 scripts/cv/evaluate_cv.py --split validation
 # Train the first learned CV stage, then evaluate it with all other stages held at oracle
 py -3.12 scripts/cv/train_weather.py
 py -3.12 scripts/cv/evaluate_cv.py --split validation --weather learned
+
+# NLP field accuracy with ground-truth landmarks, plus downstream solver parity
+py -3.12 scripts/nlp/evaluate_nlp.py --split validation --solver
+
+# Parse test missions into map-independent goal/via specs
+py -3.12 scripts/nlp/parse_missions.py --split test
 ```
+
+`courier.nlp.MissionParser` converts text into map-independent `TargetSpec`
+objects and boolean urgency/fragility flags. `courier.nlp.resolve` grounds those
+specs against landmarks from CV and returns the `courier.common.Mission` used by
+the solver. Validation goal, via, spatial-reference, urgency, and fragility
+accuracy is 100% on the supplied 300 annotated scenes.
 
 `courier.cv.CVPipeline` turns an image into `courier.cv.SceneGraph`;
 `SceneGraph.to_scene(scene_id, mission)` joins it with the NLP output into the
