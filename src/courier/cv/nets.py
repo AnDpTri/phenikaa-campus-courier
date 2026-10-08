@@ -79,6 +79,9 @@ def load_net(path: str | Path, device: torch.device | str | None = None) -> nn.M
     payload = torch.load(path, map_location="cpu", weights_only=True)
     net = {"NodeNet": NodeNet, "EdgeNet": EdgeNet, "DetectorNet": DetectorNet}[payload["kind"]](**payload["meta"].get("init", {}))
     net.load_state_dict(payload["state"])
+    # Primitive artifact metadata is safe to retain and lets inference reproduce
+    # detector preprocessing (notably the training input resolution).
+    net.artifact_meta = payload["meta"]
     if device is not None:
         net = net.to(device)
     return net.eval()

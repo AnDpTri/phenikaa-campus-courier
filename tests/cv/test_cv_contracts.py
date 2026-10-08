@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+from tempfile import TemporaryDirectory
 from pathlib import Path
 
 import numpy as np
@@ -24,6 +25,8 @@ from courier.cv import (
 )
 from courier.cv.features import extract_weather_features
 from courier.cv.learned import SklearnWeatherClassifier
+from courier.cv.detector import DetectorNet, KeypointDetector, letterbox
+from courier.cv.nets import load_net, save_net
 
 
 DATA_ROOT = Path(__file__).parents[2] / "Phenikaa_Campus_Courier_2026_v3" / "delivery_public"
@@ -98,6 +101,24 @@ class CropGeometryTests(unittest.TestCase):
         self.assertTrue((patch[2:8, 2:8] == (255, 0, 0)).all())
         corner = crop_square(self.image, (0.0, 0.0), side=40, out_size=40)
         self.assertEqual(corner.shape, (40, 40, 3))
+
+
+class DetectorArtifactTests(unittest.TestCase):
+    def test_letterbox_supports_higher_resolution(self) -> None:
+        image = np.zeros((480, 960, 3), dtype=np.uint8)
+        boxed, scale = letterbox(image, 768)
+        self.assertEqual(boxed.shape, (768, 768, 3))
+        self.assertEqual(scale, 0.8)
+
+    def test_detector_input_size_round_trips_in_artifact_metadata(self) -> None:
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "detector.pt"
+            save_net(DetectorNet(8), path, init={"width": 8}, input_size=768)
+            loaded = load_net(path)
+            self.assertEqual(loaded.artifact_meta["input_size"], 768)
+            detector = KeypointDetector(loaded, input_size=loaded.artifact_meta["input_size"])
+            heat, _, _ = detector.predict_maps(np.zeros((80, 120, 3), dtype=np.uint8))
+            self.assertEqual(heat.shape[-2:], (192, 192))
 
 
 class WeatherClassifierTests(unittest.TestCase):

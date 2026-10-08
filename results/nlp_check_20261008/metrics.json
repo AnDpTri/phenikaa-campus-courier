@@ -1,0 +1,220 @@
+{
+  "notes": [
+    "Official metrics use oracle landmarks and the unmodified parser/resolver.",
+    "Stress checks transform train/validation only, retain intended labels, and are not estimates of test accuracy.",
+    "Test audit is used only as aggregate diagnostic evidence; no test text is inspected or used to add rules."
+  ],
+  "train": {
+    "original": {
+      "scenes": 2000,
+      "correct_counts": {
+        "goal_nodes": 2000,
+        "goal_type": 2000,
+        "goal_ref": 2000,
+        "via_nodes": 1999,
+        "urgent": 2000,
+        "fragile": 2000,
+        "all": 1999
+      },
+      "accuracy": {
+        "goal_nodes": 1.0,
+        "goal_type": 1.0,
+        "goal_ref": 1.0,
+        "via_nodes": 0.9995,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 0.9995
+      },
+      "warnings": {
+        "no_parsed_goal": 0,
+        "goal_replaced": 0,
+        "via_dropped": 0
+      }
+    },
+    "accent_folded": {
+      "scenes": 2000,
+      "correct_counts": {
+        "goal_nodes": 2000,
+        "goal_type": 2000,
+        "goal_ref": 2000,
+        "via_nodes": 1999,
+        "urgent": 2000,
+        "fragile": 2000,
+        "all": 1999
+      },
+      "accuracy": {
+        "goal_nodes": 1.0,
+        "goal_type": 1.0,
+        "goal_ref": 1.0,
+        "via_nodes": 0.9995,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 0.9995
+      },
+      "warnings": {
+        "no_parsed_goal": 0,
+        "goal_replaced": 0,
+        "via_dropped": 0
+      }
+    },
+    "no_sentence_punctuation": {
+      "scenes": 2000,
+      "correct_counts": {
+        "goal_nodes": 1891,
+        "goal_type": 1895,
+        "goal_ref": 1956,
+        "via_nodes": 1979,
+        "urgent": 1987,
+        "fragile": 1973,
+        "all": 1849
+      },
+      "accuracy": {
+        "goal_nodes": 0.9455,
+        "goal_type": 0.9475,
+        "goal_ref": 0.978,
+        "via_nodes": 0.9895,
+        "urgent": 0.9935,
+        "fragile": 0.9865,
+        "all": 0.9245
+      },
+      "warnings": {
+        "no_parsed_goal": 121,
+        "goal_replaced": 121,
+        "via_dropped": 0
+      }
+    },
+    "extra_typos_5pct": {
+      "scenes": 2000,
+      "correct_counts": {
+        "goal_nodes": 1996,
+        "goal_type": 1996,
+        "goal_ref": 1997,
+        "via_nodes": 1998,
+        "urgent": 2000,
+        "fragile": 1999,
+        "all": 1993
+      },
+      "accuracy": {
+        "goal_nodes": 0.998,
+        "goal_type": 0.998,
+        "goal_ref": 0.9985,
+        "via_nodes": 0.999,
+        "urgent": 1.0,
+        "fragile": 0.9995,
+        "all": 0.9965
+      },
+      "warnings": {
+        "no_parsed_goal": 3,
+        "goal_replaced": 3,
+        "via_dropped": 1
+      }
+    }
+  },
+  "validation": {
+    "original": {
+      "scenes": 300,
+      "correct_counts": {
+        "goal_nodes": 300,
+        "goal_type": 300,
+        "goal_ref": 300,
+        "via_nodes": 300,
+        "urgent": 300,
+        "fragile": 300,
+        "all": 300
+      },
+      "accuracy": {
+        "goal_nodes": 1.0,
+        "goal_type": 1.0,
+        "goal_ref": 1.0,
+        "via_nodes": 1.0,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 1.0
+      },
+      "warnings": {
+        "no_parsed_goal": 0,
+        "goal_replaced": 0,
+        "via_dropped": 0
+      }
+    },
+    "accent_folded": {
+      "scenes": 300,
+      "correct_counts": {
+        "goal_nodes": 300,
+        "goal_type": 300,
+        "goal_ref": 300,
+        "via_nodes": 300,
+        "urgent": 300,
+        "fragile": 300,
+        "all": 300
+      },
+      "accuracy": {
+        "goal_nodes": 1.0,
+        "goal_type": 1.0,
+        "goal_ref": 1.0,
+        "via_nodes": 1.0,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 1.0
+      },
+      "warnings": {
+        "no_parsed_goal": 0,
+        "goal_replaced": 0,
+        "via_dropped": 0
+      }
+    },
+    "no_sentence_punctuation": {
+      "scenes": 300,
+      "correct_counts": {
+        "goal_nodes": 283,
+        "goal_type": 284,
+        "goal_ref": 289,
+        "via_nodes": 298,
+        "urgent": 293,
+        "fragile": 297,
+        "all": 273
+      },
+      "accuracy": {
+        "goal_nodes": 0.9433333333333334,
+        "goal_type": 0.9466666666666667,
+        "goal_ref": 0.9633333333333334,
+        "via_nodes": 0.9933333333333333,
+        "urgent": 0.9766666666666667,
+        "fragile": 0.99,
+        "all": 0.91
+      },
+      "warnings": {
+        "no_parsed_goal": 13,
+        "goal_replaced": 13,
+        "via_dropped": 0
+      }
+    },
+    "extra_typos_5pct": {
+      "scenes": 300,
+      "correct_counts": {
+        "goal_nodes": 300,
+        "goal_type": 300,
+        "goal_ref": 300,
+        "via_nodes": 300,
+        "urgent": 300,
+        "fragile": 300,
+        "all": 300
+      },
+      "accuracy": {
+        "goal_nodes": 1.0,
+        "goal_type": 1.0,
+        "goal_ref": 1.0,
+        "via_nodes": 1.0,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 1.0
+      },
+      "warnings": {
+        "no_parsed_goal": 0,
+        "goal_replaced": 0,
+        "via_dropped": 0
+      }
+    }
+  },
+  "vocabulary_equals_rebuilt_train_content": true
+}

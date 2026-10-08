@@ -35,9 +35,8 @@ Committed and pushed as `6b90a38` (`Add learned weather CV stage`).
 
 ## Completed CNN pipeline (2026-10-08)
 
-The SVM node baseline below was replaced by small CNNs. Detector training automatically
-uses CUDA when available and falls back to CPU; the current crop training script
-runs on CPU. Inference uses one shared
+The SVM node baseline below was replaced by small CNNs. Training automatically
+uses CUDA when available and falls back to CPU. Inference uses one shared
 detector pass followed by crop classifiers.
 
 ### Code
@@ -167,39 +166,10 @@ uses the legend from the same image as a style-specific reference:
 This should generalize better because the four drawing styles and symbol
 appearance are defined by each image's own legend.
 
-## Print detector experiment — 2026-10-08
-
-A separate DetectorNet candidate was trained at 768 px, width 24, with JPEG
-quality 30–85 (probability 0.65) and Gaussian blur (probability 0.45). Training
-was stopped after epoch 10 using a two-epoch no-improvement decision; the best
-checkpoint was epoch 8 with validation focal loss 0.011664. The artifact remains
-under `results/cv_experiments/print_768_aug_20261008` and does not replace the
-512 px baseline.
-
-At node threshold 0.30, validation changed as follows:
-
-| Metric | 512 px baseline | 768 px candidate |
-|---|---:|---:|
-| Overall scene exact | 85.67% | **90.00%** |
-| Overall node set | 90.00% | **94.67%** |
-| Overall edge set | 90.67% | **95.00%** |
-| Print scene exact | 66.22% | **85.14%** |
-| Print node set | 74.32% | **91.89%** |
-| Print edge set | 75.68% | **90.54%** |
-
-The improvement is not yet a submission improvement: with the same NLP and
-candidate solver, complete-system macro action accuracy changed from 73.10% to
-72.87%. Classic scene exact also decreased from 97.26% to 94.52%, and sketch
-from 93.85% to 87.69%. Threshold 0.40 was rejected (89.00% overall and 78.38%
-print scene exact). The candidate must remain separate until a selector or
-training change preserves its print gains and recovers end-to-end accuracy.
-
 ## Remaining roadmap
 
-1. Develop a train-only lattice/style selector for the 768 px candidate, then
-   verify it once on validation and end-to-end before promotion.
-2. Completed: test-split submission entry point in `scripts/create_submission.py`;
-   the command writes each new run separately and can export fallback diagnostics.
+1. Improve print-style node detection and robot heading classification.
+2. Add a test-split submission entry point around the completed pipeline.
 3. Package or download ignored artifacts for clean-machine deployment.
 
 ## Reproduction

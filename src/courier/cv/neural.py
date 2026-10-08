@@ -42,10 +42,12 @@ class SharedDetector:
             **{f"swatch_{kind}": semantic_threshold for kind in LEGEND_ROAD_ORDER},
             "weather": semantic_threshold,
         }
+        net = load_net(path, device="cpu" if resolved == "auto" else resolved)
         self.detector = KeypointDetector(
-            load_net(path, device="cpu" if resolved == "auto" else resolved),
+            net,
             threshold,
             channel_thresholds,
+            input_size=int(getattr(net, "artifact_meta", {}).get("input_size", 512)),
         )
         self._key: str | None = None
         self._peaks: dict[str, list[Peak]] = {}

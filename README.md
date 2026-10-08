@@ -34,7 +34,8 @@ evaluate validation and generate test submissions from images and mission text.
 Current validation on 300 scenes: oracle-input solver 73.60%; complete
 CV -> NLP -> solver 73.10%; CV scene exact 85.67%. These are development
 validation scores. The previously submitted version scored 52.39% on the public
-leaderboard; the new submission has not been scored here.
+leaderboard. The user-reported score for the candidate submission is 55.67%,
+with 49.44% accuracy for its weakest robot.
 
 ## Environment
 

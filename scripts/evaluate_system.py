@@ -73,9 +73,12 @@ def main() -> None:
         type=Path,
         default=Path("artifacts/solver/candidate_strategy.joblib"),
     )
+    parser.add_argument("--detector-artifact", type=Path, help="override artifacts/cv/detector.pt")
     parser.add_argument("--limit", type=int)
     parser.add_argument("--report", type=Path, help="Save metrics to a new JSON file")
     parser.add_argument("--detector-device", choices=("auto", "cpu", "cuda"), default="auto")
+    parser.add_argument("--detector-threshold", type=float, default=0.4)
+    parser.add_argument("--semantic-threshold", type=float, default=0.15)
     args = parser.parse_args()
     if args.report is not None and args.report.exists():
         parser.error(f"report already exists: {args.report}; choose a new --report path")
@@ -88,7 +91,12 @@ def main() -> None:
     truth_scenes = dataset.scenes[: len(annotations)]
     labels = np.asarray(dataset.labels, dtype=np.int8).reshape(-1, 10)[: len(annotations)]
 
-    shared = SharedDetector(args.artifacts / "cv" / "detector.pt", device=args.detector_device)
+    shared = SharedDetector(
+        args.detector_artifact or args.artifacts / "cv" / "detector.pt",
+        threshold=args.detector_threshold,
+        semantic_threshold=args.semantic_threshold,
+        device=args.detector_device,
+    )
     cv = CVPipeline(
         legend=NeuralLegendReader(shared),
         weather=SklearnWeatherClassifier.load(args.artifacts / "cv" / "weather_classifier.joblib"),

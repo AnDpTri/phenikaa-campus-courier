@@ -1,0 +1,50 @@
+{
+  "scenes": 1200,
+  "observations": 12000,
+  "seconds": 495.0911271999994,
+  "strategy_artifact": "results\\solver_comparison_20261008\\v2_candidate\\candidate_strategy.joblib",
+  "original_counters": {
+    "strategy_fallbacks": 1051
+  },
+  "fallback_scenes": 112,
+  "fallback_robot_observations": 1051,
+  "categories": {
+    "goal_unreachable": 721,
+    "goal_unreachable_after_via": 218,
+    "via_unreachable": 112
+  },
+  "by_robot": {
+    "0": 112,
+    "1": 112,
+    "2": 112,
+    "3": 112,
+    "5": 112,
+    "6": 112,
+    "7": 112,
+    "8": 112,
+    "9": 112,
+    "4": 43
+  },
+  "fallback_modes": {
+    "heading": 567,
+    "lowest_legal_action": 484
+  },
+  "fallback_actions": {
+    "2": 182,
+    "1": 233,
+    "3": 217,
+    "0": 419
+  },
+  "fallbacks_per_scene": {
+    "0": 1088,
+    "9": 69,
+    "10": 43
+  },
+  "weak_undirected_route_exists": {
+    "False": 724,
+    "True": 327
+  },
+  "resolver_goal_replaced_scenes": 245,
+  "resolver_via_dropped_scenes": 9,
+  "structural_graph_warning_scenes": 0
+}

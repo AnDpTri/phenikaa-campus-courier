@@ -1,0 +1,216 @@
+{
+  "split": "validation",
+  "detector": "results\\cv_experiments\\print_768_aug_20261008\\detector.pt",
+  "input_size": 768,
+  "seconds": 33.7579330999979,
+  "thresholds": {
+    "0.2": {
+      "grid_shape": 0.93,
+      "node_set": 0.8933333333333333,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 0.9315068493150684,
+          "node_set": 0.9041095890410958
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 0.9886363636363636,
+          "node_set": 0.9886363636363636
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 0.8918918918918919,
+          "node_set": 0.8108108108108109
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 0.8923076923076924,
+          "node_set": 0.8461538461538461
+        }
+      }
+    },
+    "0.25": {
+      "grid_shape": 0.9633333333333334,
+      "node_set": 0.9333333333333333,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 0.958904109589041,
+          "node_set": 0.9315068493150684
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 0.9886363636363636,
+          "node_set": 0.9886363636363636
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 0.9594594594594594,
+          "node_set": 0.9054054054054054
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 0.9384615384615385,
+          "node_set": 0.8923076923076924
+        }
+      }
+    },
+    "0.3": {
+      "grid_shape": 0.98,
+      "node_set": 0.9433333333333334,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 0.9726027397260274,
+          "node_set": 0.9315068493150684
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 0.9886363636363636,
+          "node_set": 0.9886363636363636
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 0.9864864864864865,
+          "node_set": 0.918918918918919
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 0.9692307692307692,
+          "node_set": 0.9230769230769231
+        }
+      }
+    },
+    "0.35": {
+      "grid_shape": 0.9866666666666667,
+      "node_set": 0.9366666666666666,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 1.0,
+          "node_set": 0.958904109589041
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 0.9886363636363636,
+          "node_set": 0.9886363636363636
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 0.9864864864864865,
+          "node_set": 0.8648648648648649
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 0.9692307692307692,
+          "node_set": 0.9230769230769231
+        }
+      }
+    },
+    "0.4": {
+      "grid_shape": 0.9933333333333333,
+      "node_set": 0.9366666666666666,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 1.0,
+          "node_set": 0.958904109589041
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 1.0,
+          "node_set": 1.0
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 1.0,
+          "node_set": 0.8513513513513513
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 0.9692307692307692,
+          "node_set": 0.9230769230769231
+        }
+      }
+    },
+    "0.45": {
+      "grid_shape": 1.0,
+      "node_set": 0.93,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 1.0,
+          "node_set": 0.958904109589041
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 1.0,
+          "node_set": 0.9886363636363636
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 1.0,
+          "node_set": 0.8513513513513513
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 1.0,
+          "node_set": 0.9076923076923077
+        }
+      }
+    },
+    "0.5": {
+      "grid_shape": 1.0,
+      "node_set": 0.9133333333333333,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 1.0,
+          "node_set": 0.958904109589041
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 1.0,
+          "node_set": 0.9772727272727273
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 1.0,
+          "node_set": 0.7972972972972973
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 1.0,
+          "node_set": 0.9076923076923077
+        }
+      }
+    },
+    "0.55": {
+      "grid_shape": 1.0,
+      "node_set": 0.8866666666666667,
+      "by_style": {
+        "classic": {
+          "count": 73,
+          "grid_shape": 1.0,
+          "node_set": 0.9315068493150684
+        },
+        "night": {
+          "count": 88,
+          "grid_shape": 1.0,
+          "node_set": 0.9772727272727273
+        },
+        "print": {
+          "count": 74,
+          "grid_shape": 1.0,
+          "node_set": 0.7432432432432432
+        },
+        "sketch": {
+          "count": 65,
+          "grid_shape": 1.0,
+          "node_set": 0.8769230769230769
+        }
+      }
+    }
+  }
+}

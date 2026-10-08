@@ -5,6 +5,7 @@ __pycache__/
 old/
 data/solver/
 data/cv/
+data/cv_detector_*/
 data/nlp/
 artifacts/
 results/

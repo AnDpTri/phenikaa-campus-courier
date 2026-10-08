@@ -1,0 +1,24 @@
+{
+  "provenance": "Recorded output from the completed evaluation before the solver update; not re-evaluated after integration",
+  "split": "validation",
+  "scenes": 300,
+  "seconds": 113.376,
+  "cv_scene_exact": 0.8566666666666667,
+  "scenarios": {
+    "oracle": {"macro_accuracy": 0.691},
+    "nlp_only": {"macro_accuracy": 0.691},
+    "cv_only": {"macro_accuracy": 0.6873333333333334},
+    "full": {"macro_accuracy": 0.6856666666666666}
+  },
+  "public_result_reported_by_user": {
+    "macro_accuracy": 0.5239,
+    "weakest_robot_accuracy": 0.4333,
+    "temporary_rank": 9
+  },
+  "submission": {
+    "file": "predictions.json",
+    "predictions": 12000,
+    "sha256": "3ACC42B280C0141FEEE713413FF225D965E8AFD335F4AC7CEF61628884333B67",
+    "strategy_fallbacks": 1051
+  }
+}

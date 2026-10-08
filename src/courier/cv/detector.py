@@ -51,12 +51,12 @@ class DetectorNet(nn.Module):
         return self.heat(u4), self.size(u4)
 
 
-def letterbox(image: np.ndarray) -> tuple[np.ndarray, float]:
-    """Resize so the long side is INPUT, pad bottom/right with edge colour. Returns (image, scale)."""
+def letterbox(image: np.ndarray, input_size: int = INPUT) -> tuple[np.ndarray, float]:
+    """Resize to a square canvas, padding bottom/right with the median edge colour."""
     height, width = image.shape[:2]
-    scale = INPUT / max(height, width)
+    scale = input_size / max(height, width)
     resized = cv2.resize(image, (round(width * scale), round(height * scale)), interpolation=cv2.INTER_AREA)
-    out = np.empty((INPUT, INPUT, 3), dtype=np.uint8)
+    out = np.empty((input_size, input_size, 3), dtype=np.uint8)
     out[:] = np.median(resized.reshape(-1, 3), axis=0).astype(np.uint8)
     out[: resized.shape[0], : resized.shape[1]] = resized
     return out, scale
@@ -94,14 +94,18 @@ class KeypointDetector:
         net: DetectorNet,
         threshold: float = 0.3,
         channel_thresholds: dict[str, float] | None = None,
+        input_size: int = INPUT,
     ) -> None:
+        if input_size <= 0 or input_size % 16:
+            raise ValueError("detector input_size must be a positive multiple of 16")
         self.net = net.eval()
         self.threshold = threshold
         self.channel_thresholds = channel_thresholds or {}
+        self.input_size = input_size
 
     @torch.no_grad()
     def predict_maps(self, image: np.ndarray) -> tuple[np.ndarray, np.ndarray, float]:
-        boxed, scale = letterbox(image)
+        boxed, scale = letterbox(image, self.input_size)
         device = next(self.net.parameters()).device
         x = torch.from_numpy(boxed).permute(2, 0, 1)[None].float().div_(255.0).to(device)
         heat, size = self.net(x)

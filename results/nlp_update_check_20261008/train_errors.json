@@ -1,0 +1,48 @@
+[
+ {
+  "scene_id": "train-01552",
+  "failed": [
+   "via_nodes",
+   "all"
+  ],
+  "text": "yeu cau moi: ghe khu the tao lay bo vot truoc, roi gui tap tai lieu den dia diem gan khu gui xe nhat gip minh. (tin truc ghi cong a la nham) nguoi nhan da roi bai xe roi. chieu nay gioa cung duoc.",
+  "truth": {
+   "goal": "office",
+   "goal_ref": [
+    "anchor_near",
+    "parking",
+    [
+     2,
+     3
+    ]
+   ],
+   "via": "sports",
+   "via_ref": null,
+   "urgent": false,
+   "fragile": false
+  },
+  "predicted": {
+   "goal": "office",
+   "goal_ref": [
+    "anchor_near",
+    "parking",
+    [
+     2,
+     3
+    ]
+   ],
+   "via": null,
+   "via_ref": null,
+   "urgent": false,
+   "fragile": false
+  },
+  "parsed": {
+   "goal": {
+    "type": null,
+    "ref": "anchor_near",
+    "anchor": "parking"
+   },
+   "via": null
+  }
+ }
+]

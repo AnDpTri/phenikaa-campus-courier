@@ -16,8 +16,8 @@ three additional synthetic graph tests verify fallback reason classification.
 
 Both test submissions contain 12,000 integers in 0..3. The candidate version
 changed 1,886 predictions while preserving the old file. The user reported
-52.39% public accuracy for the old version; no public score for the candidate
-version has been reported here.
+52.39% public accuracy for the old version and 55.67% for the candidate, with
+the weakest robot improving from 43.33% to 49.44%.
 
 The test audit reproduced 1,051 fallback observations over 112 scenes with
 identical predictions. All have unreachable mission routes on the predicted
