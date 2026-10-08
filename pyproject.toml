@@ -16,9 +16,11 @@ solver = [
     "scikit-learn>=1.7,<2",
 ]
 cv = [
+    "joblib>=1.5,<2",
     "numpy>=2.0,<3",
     "opencv-python>=4.10",
     "pillow>=10",
+    "scikit-learn>=1.7,<2",
 ]
 
 [tool.setuptools.packages.find]

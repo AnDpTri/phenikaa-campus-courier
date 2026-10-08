@@ -61,6 +61,10 @@ py -3.12 scripts/solver/evaluate_strategy_model.py --split validation
 # can be switched independently, the rest stay at ground truth
 py -3.12 -m pip install -e ".[cv]"
 py -3.12 scripts/cv/evaluate_cv.py --split validation
+
+# Train the first learned CV stage, then evaluate it with all other stages held at oracle
+py -3.12 scripts/cv/train_weather.py
+py -3.12 scripts/cv/evaluate_cv.py --split validation --weather learned
 ```
 
 `courier.cv.CVPipeline` turns an image into `courier.cv.SceneGraph`;

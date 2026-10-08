@@ -4,6 +4,8 @@ Layout:
   types.py        intermediate results (LegendReading, GridLayout, NodeContents, SceneGraph)
   annotations.py  scenes.json with image-side fields (node xy, legend boxes, road_look, degradation)
   imaging.py      image loading and geometry-aware crops (node squares, rotated edge strips)
+  features.py     fixed feature extractors for lightweight learned stages
+  learned.py      artifact-backed learned stage implementations
   stages.py       one Protocol per stage: legend, weather, grid, edges, nodes
   oracle.py       ground-truth stage implementations, for ablating one stage at a time
   pipeline.py     CVPipeline composing the stages, plus structural validation
@@ -12,6 +14,7 @@ Layout:
 
 from .annotations import Degradation, SceneAnnotation, load_annotations, scene_image_paths
 from .imaging import crop_box, crop_edge_strip, crop_square, load_rgb
+from .learned import SklearnWeatherClassifier
 from .metrics import CVReport
 from .oracle import (
     OracleEdgeClassifier,
@@ -55,6 +58,7 @@ __all__ = [
     "OracleWeatherClassifier",
     "SceneAnnotation",
     "SceneGraph",
+    "SklearnWeatherClassifier",
     "crop_box",
     "crop_edge_strip",
     "crop_square",

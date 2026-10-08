@@ -20,6 +20,7 @@ from courier.cv import (
     OracleLegendReader,
     OracleNodeClassifier,
     OracleWeatherClassifier,
+    SklearnWeatherClassifier,
     load_annotations,
     load_rgb,
     validate_graph,
@@ -28,7 +29,7 @@ from courier.cv import (
 # stage name -> implementation name -> factory(annotations)
 STAGES = {
     "legend": {"oracle": OracleLegendReader},
-    "weather": {"oracle": OracleWeatherClassifier},
+    "weather": {"oracle": OracleWeatherClassifier, "learned": SklearnWeatherClassifier},
     "grid": {"oracle": OracleGridDetector},
     "edges": {"oracle": OracleEdgeClassifier},
     "nodes": {"oracle": OracleNodeClassifier},
@@ -40,12 +41,24 @@ def main() -> None:
     parser.add_argument("--data", type=Path, default=Path("Phenikaa_Campus_Courier_2026_v3/delivery_public"))
     parser.add_argument("--split", choices=("train", "validation"), default="validation")
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--weather-artifact",
+        type=Path,
+        default=Path("artifacts/cv/weather_classifier.joblib"),
+    )
     for stage, options in STAGES.items():
         parser.add_argument(f"--{stage}", choices=tuple(options), default="oracle")
     args = parser.parse_args()
 
     annotations = load_annotations(args.data, args.split)[: args.limit]
-    pipeline = CVPipeline(**{stage: STAGES[stage][getattr(args, stage)](annotations) for stage in STAGES})
+    implementations = {}
+    for stage in STAGES:
+        choice = getattr(args, stage)
+        if stage == "weather" and choice == "learned":
+            implementations[stage] = SklearnWeatherClassifier.load(args.weather_artifact)
+        else:
+            implementations[stage] = STAGES[stage][choice](annotations)
+    pipeline = CVPipeline(**implementations)
 
     report = CVReport()
     by_style: dict[str, CVReport] = {}

@@ -10,6 +10,7 @@ from courier.cv import (
     CVInput,
     CVPipeline,
     CVReport,
+    LegendReading,
     OracleEdgeClassifier,
     OracleGridDetector,
     OracleLegendReader,
@@ -21,6 +22,8 @@ from courier.cv import (
     scene_image_paths,
     validate_graph,
 )
+from courier.cv.features import extract_weather_features
+from courier.cv.learned import SklearnWeatherClassifier
 
 
 DATA_ROOT = Path(__file__).parents[2] / "Phenikaa_Campus_Courier_2026_v3" / "delivery_public"
@@ -95,6 +98,42 @@ class CropGeometryTests(unittest.TestCase):
         self.assertTrue((patch[2:8, 2:8] == (255, 0, 0)).all())
         corner = crop_square(self.image, (0.0, 0.0), side=40, out_size=40)
         self.assertEqual(corner.shape, (40, 40, 3))
+
+
+class WeatherClassifierTests(unittest.TestCase):
+    class ConstantModel:
+        def predict(self, features):
+            assert features.shape[0] == 1
+            assert np.isfinite(features).all()
+            return np.asarray(["rain"])
+
+    @staticmethod
+    def artifact(model) -> dict:
+        return {
+            "kind": SklearnWeatherClassifier.ARTIFACT_KIND,
+            "artifact_version": SklearnWeatherClassifier.ARTIFACT_VERSION,
+            "feature_version": 1,
+            "crop_pad": 4.0,
+            "model": model,
+        }
+
+    def test_features_have_fixed_shape_across_crop_sizes(self) -> None:
+        small = extract_weather_features(np.zeros((20, 31, 3), dtype=np.uint8))
+        large = extract_weather_features(np.zeros((101, 87, 3), dtype=np.uint8))
+        self.assertEqual(small.shape, large.shape)
+        self.assertGreater(small.size, 1_000)
+
+    def test_artifact_classifier_uses_weather_box(self) -> None:
+        classifier = SklearnWeatherClassifier(self.artifact(self.ConstantModel()))
+        cv_input = CVInput(scene_id="synthetic", image=np.zeros((80, 80, 3), dtype=np.uint8))
+        legend = LegendReading(entries=(), weather_box=(20.0, 20.0, 60.0, 60.0))
+        self.assertEqual(classifier.classify(cv_input, legend), "rain")
+
+    def test_missing_weather_box_is_explicit(self) -> None:
+        classifier = SklearnWeatherClassifier(self.artifact(self.ConstantModel()))
+        cv_input = CVInput(scene_id="synthetic", image=np.zeros((20, 20, 3), dtype=np.uint8))
+        with self.assertRaisesRegex(ValueError, "weather icon was not located"):
+            classifier.classify(cv_input, LegendReading(entries=(), weather_box=None))
 
 
 if __name__ == "__main__":
