@@ -81,6 +81,66 @@ class ParserTests(unittest.TestCase):
         self.assertTrue(parse_mission("Giao tới thư viện. Không được cậm trễ.").urgent)
         self.assertFalse(parse_mission("Giao tới thư viện. Rơi cũng cẳng sao.").fragile)
 
+    def test_missing_punctuation_does_not_merge_clauses(self) -> None:
+        for text in (
+            "Cần mũ bảo hiểm ở bãi xe Không cần ghé nơi mượn giáo trình Nhẹ tay vì đồ rất dễ vỡ",
+            "can mu bao hiem o bai xe khong can ghe noi muon giao trinh nhe tay vi do rat de vo",
+        ):
+            parsed = parse_mission(text)
+            self.assertEqual(parsed.goal, TargetSpec("parking"))
+            self.assertIsNone(parsed.via)
+            self.assertTrue(parsed.fragile)
+
+    def test_clause_split_keeps_place_names_whole(self) -> None:
+        parsed = parse_mission("Điểm giao: phòng ở sinh viên. Nhưng phải tạt qua căng tin trước đã.")
+        self.assertEqual(parsed.via, TargetSpec("canteen"))
+
+    def test_capitalised_words_mark_sentences_only_without_punctuation(self) -> None:
+        parsed = parse_mission("Bếp trưởng cần nhận két nước ngọt tin trước ghi cổng trường là nhầm Việc này khẩn cấp")
+        self.assertEqual(parsed.goal, TargetSpec("canteen"))
+        self.assertIsNone(parsed.via)
+        self.assertTrue(parsed.urgent)
+
+    def test_do_not_pass_is_negation_not_via(self) -> None:
+        parsed = parse_mission("Giao tới phòng thí nghiệm. Đừng đi qua bãi xe nhé.")
+        self.assertEqual(parsed.goal, TargetSpec("lab"))
+        self.assertIsNone(parsed.via)
+
+    def test_capitalised_landmarks_keep_roles_and_anchors(self) -> None:
+        for name in ("Thư viện", "Thư Viện", "THƯ VIỆN"):
+            self.assertEqual(parse_mission(f"Giao tới {name}").goal, TargetSpec("library"))
+            parsed = parse_mission(f"Ghé {name} rồi giao tới ký túc xá")
+            self.assertEqual(parsed.goal, TargetSpec("dorm"))
+            self.assertEqual(parsed.via, TargetSpec("library"))
+        self.assertEqual(
+            parse_mission("Giao tới thư viện gần Cổng trường hơn").goal,
+            TargetSpec("library", "near", "gate"),
+        )
+        self.assertEqual(
+            parse_mission("Ghé nơi Khám sức khỏe rồi giao tới thư viện").via,
+            TargetSpec("clinic"),
+        )
+
+    def test_unpunctuated_nonurgent_clause_preserves_goal(self) -> None:
+        parsed = parse_mission("Giao tới thư viện không cần gấp")
+        self.assertEqual(parsed.goal, TargetSpec("library"))
+        self.assertFalse(parsed.urgent)
+
+    def test_hand_written_challenge_missions(self) -> None:
+        import json
+
+        items = json.loads((Path(__file__).with_name("challenge_missions.json")).read_text(encoding="utf-8"))
+        parser = MissionParser()
+        wrong = []
+        for item in items:
+            parsed = parser.parse(item["text"])
+            expected_via = TargetSpec(*item["via"]) if item.get("via") else None
+            ok = parsed.goal == TargetSpec(*item["goal"]) and parsed.via == expected_via
+            ok = ok and all(getattr(parsed, flag) == item[flag] for flag in ("urgent", "fragile") if flag in item)
+            if not ok:
+                wrong.append(item["text"])
+        self.assertEqual(wrong, [])
+
     def test_parser_accepts_explicit_vocabulary(self) -> None:
         parsed = MissionParser({"unigrams": {}, "bigrams": {}}).parse("giao toi thu vien")
         self.assertEqual(parsed.goal, TargetSpec("library"))
@@ -133,7 +193,7 @@ class AnnotatedMissionTests(unittest.TestCase):
                 and mission.urgent == truth.urgent
                 and mission.fragile == truth.fragile
             )
-        self.assertGreaterEqual(correct / len(dataset.scenes), 0.97)
+        self.assertEqual(correct, len(dataset.scenes), "official validation NLP baseline must not regress")
 
 
 if __name__ == "__main__":

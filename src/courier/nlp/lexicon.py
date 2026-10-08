@@ -153,7 +153,7 @@ URGENT_FORCE_FALSE = (
 URGENT_WORDS = (
     "gap", "khan cap", "khan", "hoa toc", "cang nhanh cang tot", "nhanh", "can ngay", "di ngay",
     "giao ngay", "ngay lap tuc", "lap tuc", "ngay bay gio", "uu tien", "toc hanh", "som nhat",
-    "cap bach", "cap toc", "khong tre", "dung tre",
+    "cap bach", "cap toc", "khong tre", "dung tre", "som cang tot", "cang som", "trong vong",
 )
 FRAGILE_FORCE_FALSE = (
     "chang sao", "khong sao", "hang ben", "do ben", "khong lo vo", "khong so vo", "chac chan",
@@ -170,6 +170,7 @@ NEGATORS = frozenset(("khong", "chang", "cha", "chua", "dung", "ko", "k"))
 NEGATE_BEFORE = (
     r"khong (?:can )?(?:phai )?(?:ghe|qua|den|toi|giao|tat qua|di)(?: qua| vao| o| den| toi| sang)?",
     r"dung (?:nham|lan)(?: voi| sang| la| thanh)?",
+    r"dung(?: co)?(?: di)?(?: qua| ghe| vao| toi| den| sang)(?: qua| vao| o)?",
     r"da roi(?: khoi)?",
     r"da giao(?: o| den| toi| cho| xong o)?",
     r"tin truoc(?: \w+){0,2} (?:ghi|noi|nhan|bao)(?: la)?",
@@ -193,7 +194,7 @@ NEGATE_AFTER = (
 VIA_BEFORE = (
     r"ghe(?: qua| vao| ngang| tham| sang| lai)?(?: o)?",
     r"tat(?: qua| vao| ngang)",
-    r"truoc (?:tien|het|da) (?:qua|den|toi|ghe|di|ra)(?: qua)?",
+    r"truoc (?:tien|het|da) (?:qua|den|toi|ghe|di|ra|vao|sang)(?: qua)?",
     r"di ngang(?: qua)?",
     r"ghe toi",
     r"di qua",
@@ -201,9 +202,22 @@ VIA_BEFORE = (
 )
 # A mention followed by a pick-up and "truoc" is a stop-over even without "ghe".
 VIA_AFTER = (
-    r"(?:\S+ ){0,2}(?:lay|nhan|don|lay ve|nhan lai)\b.*\btruoc\b",
+    r"(?:\S+ ){0,2}(?:lay|nhan|don|lay ve|nhan lai)(?: \S+){0,6} truoc\b",
     r"truoc(?: da| tien| het)?\b",
     r"(?:\S+ ){0,4}xong(?: thi| roi)?\b",
+)
+# Phrases that open a new clause. Missions normally separate clauses with
+# punctuation; when it is missing, a cue from the next clause ("... bai xe Khong can
+# ghe ...") would otherwise be read as part of the previous one. Splitting before
+# these phrases is harmless when punctuation is present.
+CLAUSE_STARTS = (
+    "khong can ghe", "dung nham", "nguoi nhan", "hom qua", "huy don", "tin truoc", "luc nay",
+    "thay vao do", "dung ra", "doi lai", "yeu cau moi", "xin chao", "chao robot", "robot oi",
+    "nho ban", "nhan robot", "cam on", "thanks", "diem giao", "dich den", "chu y", "ben trong",
+    "hang de vo", "hang chac chan", "hang ben", "hang ky", "do gom", "do khong", "nhe tay",
+    "gap nhe", "hoa toc", "cang nhanh", "dang can gap", "can ngay", "viec nay", "khong gap", "khong can gap",
+    "cu tu tu", "chieu nay", "mai giao", "uu tien", "khong duoc cham", "roi cung", "bo qua",
+    "nhung phai", "truoc khi", "truoc tien", "kien hang", "khong can voi", "chua di thang",
 )
 # Grammar words the parser's regexes depend on; protected from typo repair.
 CORE_WORDS = tuple(

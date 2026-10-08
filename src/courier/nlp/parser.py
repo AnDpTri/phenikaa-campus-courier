@@ -120,8 +120,8 @@ class MissionParser:
         self.speller = Speller(words, bigrams)
 
     def parse(self, text: str) -> ParsedMission:
-        tokens = self.speller(tokenize(text))
-        sentences = split_sentences(tokens)
+        tokens = self.speller(tokenize(_mark_capital_breaks(text)))
+        sentences = [clause for sentence in split_sentences(tokens) for clause in _split_clauses(sentence)]
         goals: list[_Mention] = []
         vias: list[_Mention] = []
         urgent: bool | None = None
@@ -146,6 +146,74 @@ class MissionParser:
             urgent=bool(urgent),
             fragile=bool(fragile),
         )
+
+
+_SENTENCE_PUNCTUATION = re.compile(r"[.!?;]")
+_CAPITAL_BREAK = re.compile(r"(?<=[^\W\d_])\s+(?=[^\W\d_][^\W\d_])")
+
+
+def _mark_capital_breaks(text: str) -> str:
+    """Without any sentence punctuation, treat "word Capitalised" as a sentence break.
+
+    Only used when the text has no . ! ? ; at all. Preserve names, generic
+    descriptions and the links introducing destinations or spatial anchors.
+    """
+    if _SENTENCE_PUNCTUATION.search(text):
+        return text
+
+    tokens = tokenize(text)
+    protected = set()
+    for mention in _tag_mentions(tokens):
+        protected.update(range(mention.start + 1, mention.end))
+
+    def boundary(match: re.Match) -> str:
+        following = text[match.end() : match.end() + 2]
+        if not (following[0].isupper() and following[1].islower()):
+            return match.group(0)
+        index = len(tokenize(text[:match.end()]))
+        if (
+            index in protected
+            or _starts_phrase(tokens, index, _lexicon())
+            or (index and tokens[index - 1] in {
+                "toi", "den", "qua", "ghe", "vao", "sang", "tai", "o", "cho",
+                "gan", "xa", "canh", "sat", "voi", "ben", "ke",
+            })
+        ):
+            return match.group(0)
+        return ". "
+
+    return _CAPITAL_BREAK.sub(boundary, text)
+
+
+@cache
+def _clause_starts() -> frozenset[tuple[str, ...]]:
+    return frozenset(tuple(phrase.split()) for phrase in lx.CLAUSE_STARTS)
+
+
+def _inside_known_phrase(tokens: list[str], i: int) -> bool:
+    """True when a lexicon name crosses position i ("cang tin truoc": "tin truoc" is not a new clause)."""
+    phrases = _lexicon().phrases
+    for start in range(max(0, i - MAX_PHRASE + 1), i):
+        for end in range(i + 1, min(len(tokens), start + MAX_PHRASE) + 1):
+            if tuple(tokens[start:end]) in phrases:
+                return True
+    return False
+
+
+def _split_clauses(tokens: list[str]) -> list[list[str]]:
+    """Split a sentence before every clause-opening phrase (see lexicon.CLAUSE_STARTS)."""
+    starts = _clause_starts()
+    lengths = sorted({len(phrase) for phrase in starts}, reverse=True)
+    clauses: list[list[str]] = [[]]
+    for i, token in enumerate(tokens):
+        if (
+            clauses[-1]
+            and any(tuple(tokens[i : i + n]) in starts for n in lengths)
+            and not _inside_known_phrase(tokens, i)
+        ):
+            clauses.append([])
+        clauses[-1].append(token)
+    return [clause for clause in clauses if clause]
 
 
 def _spec(mention: _Mention | None) -> TargetSpec | None:
