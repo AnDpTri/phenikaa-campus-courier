@@ -10,20 +10,22 @@ from pathlib import Path
 import numpy as np
 
 from courier.common import load_dataset
-from courier.solver import OracleStrategyModel
+from courier.solver import load_strategy
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=Path, default=Path("Phenikaa_Campus_Courier_2026_v3/delivery_public"))
     parser.add_argument("--split", choices=("train", "validation"), default="validation")
-    parser.add_argument("--model", type=Path, default=Path("artifacts/solver/oracle_strategy.joblib"))
+    parser.add_argument("--model", type=Path, default=Path("artifacts/solver/candidate_strategy.joblib"))
     parser.add_argument("--report", type=Path, help="Optional machine-readable evaluation report")
     args = parser.parse_args()
+    if args.report is not None and args.report.exists():
+        parser.error(f"report already exists: {args.report}; choose a new --report path")
 
     dataset = load_dataset(args.data, args.split)
     assert dataset.scenes is not None and dataset.labels is not None
-    model = OracleStrategyModel.load(args.model)
+    model = load_strategy(args.model)
     started = time.perf_counter()
     predictions = model.predict_scenes(dataset.scenes)
     elapsed = time.perf_counter() - started
@@ -57,7 +59,8 @@ def main() -> None:
             "groups": groups,
         }
         args.report.parent.mkdir(parents=True, exist_ok=True)
-        args.report.write_text(json.dumps(report, indent=2), encoding="utf-8")
+        with args.report.open("x", encoding="utf-8") as handle:
+            json.dump(report, handle, indent=2)
         print("report:", args.report)
 
 

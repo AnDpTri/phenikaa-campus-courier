@@ -25,14 +25,21 @@ from courier.cv import (
     load_rgb,
     validate_graph,
 )
+from courier.cv.neural import (
+    NeuralEdgeClassifier,
+    NeuralGridDetector,
+    NeuralLegendReader,
+    NeuralNodeClassifier,
+    SharedDetector,
+)
 
 # stage name -> implementation name -> factory(annotations)
 STAGES = {
-    "legend": {"oracle": OracleLegendReader},
+    "legend": {"oracle": OracleLegendReader, "learned": NeuralLegendReader},
     "weather": {"oracle": OracleWeatherClassifier, "learned": SklearnWeatherClassifier},
-    "grid": {"oracle": OracleGridDetector},
-    "edges": {"oracle": OracleEdgeClassifier},
-    "nodes": {"oracle": OracleNodeClassifier},
+    "grid": {"oracle": OracleGridDetector, "learned": NeuralGridDetector},
+    "edges": {"oracle": OracleEdgeClassifier, "learned": NeuralEdgeClassifier},
+    "nodes": {"oracle": OracleNodeClassifier, "learned": NeuralNodeClassifier},
 }
 
 
@@ -46,37 +53,65 @@ def main() -> None:
         type=Path,
         default=Path("artifacts/cv/weather_classifier.joblib"),
     )
+    parser.add_argument("--artifacts", type=Path, default=Path("artifacts/cv"), help="detector/edge/node nets")
+    parser.add_argument("--detector-threshold", type=float, default=0.4, help="node heatmap threshold")
+    parser.add_argument("--semantic-threshold", type=float, default=0.15, help="legend/weather heatmap threshold")
+    parser.add_argument("--detector-device", choices=("auto", "cpu", "cuda"), default="auto")
+    parser.add_argument("--all", choices=("oracle", "learned"), help="set every stage at once")
     for stage, options in STAGES.items():
         parser.add_argument(f"--{stage}", choices=tuple(options), default="oracle")
     args = parser.parse_args()
+    if args.all:
+        for stage in STAGES:
+            setattr(args, stage, args.all)
 
     annotations = load_annotations(args.data, args.split)[: args.limit]
+    shared = None
     implementations = {}
     for stage in STAGES:
         choice = getattr(args, stage)
-        if stage == "weather" and choice == "learned":
-            implementations[stage] = SklearnWeatherClassifier.load(args.weather_artifact)
-        else:
+        if choice == "oracle":
             implementations[stage] = STAGES[stage][choice](annotations)
+        elif stage == "weather":
+            implementations[stage] = SklearnWeatherClassifier.load(args.weather_artifact)
+        elif stage in ("legend", "grid"):
+            shared = shared or SharedDetector(
+                args.artifacts / "detector.pt",
+                threshold=args.detector_threshold,
+                semantic_threshold=args.semantic_threshold,
+                device=args.detector_device,
+            )
+            implementations[stage] = STAGES[stage][choice](shared)
+        else:
+            implementations[stage] = STAGES[stage][choice](args.artifacts / f"{stage[:-1]}_net.pt")
     pipeline = CVPipeline(**implementations)
 
     report = CVReport()
     by_style: dict[str, CVReport] = {}
     invalid = Counter()
+    invalid_details = []
     started = time.perf_counter()
     for annotation in annotations:
         cv_input = CVInput(scene_id=annotation.scene_id, image=load_rgb(annotation.image_path))
         graph = pipeline.extract(cv_input)
-        invalid[bool(validate_graph(graph))] += 1
+        problems = validate_graph(graph)
+        invalid[bool(problems)] += 1
+        if problems:
+            invalid_details.append((annotation.scene_id, problems))
         report.add(graph, annotation.graph)
         by_style.setdefault(annotation.style, CVReport()).add(graph, annotation.graph)
     elapsed = time.perf_counter() - started
 
     print("stages:", {stage: getattr(args, stage) for stage in STAGES})
     print(f"scenes: {len(annotations)}  invalid_graphs: {invalid[True]}  sec/scene: {elapsed / max(len(annotations), 1):.3f}")
+    if invalid_details:
+        print("invalid_details:", invalid_details)
     for name, value in report.summary().items():
         print(f"  {name:22s} {value:.4f}")
     print("scene_exact_by_style:", {style: round(r.summary()["scene_exact"], 4) for style, r in sorted(by_style.items())})
+    print("metrics_by_style:")
+    for style, style_report in sorted(by_style.items()):
+        print(f"  {style}: { {name: round(value, 4) for name, value in style_report.summary().items()} }")
 
 
 if __name__ == "__main__":

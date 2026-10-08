@@ -47,6 +47,23 @@ PROFILE_LIBRARY: tuple[tuple[str, CostProfile], ...] = (
     ("cover06_turn05", CostProfile(covered=-0.6, turn=0.5, u_turn=1.0)),
     ("crowd2_prefer_right", CostProfile(crowded=2.0, left_turn=0.2, right_turn=-0.2, u_turn=0.4)),
     ("cover04_prefer_left", CostProfile(covered=-0.4, left_turn=-0.2, right_turn=0.2, u_turn=0.4)),
+    # Reversing against the robot's heading is the main difference between robots: when they
+    # leave the shortest path it is almost always by exactly two steps to avoid a U-turn.
+    ("uturn_1", CostProfile(u_turn=1.0)),
+    ("uturn_3", CostProfile(u_turn=3.0)),
+    ("uturn_5", CostProfile(u_turn=5.0)),
+    ("uturn_10", CostProfile(u_turn=10.0)),
+    # Per-robot weights from a coordinate search on train (scripts/solver/fit_cost_weights.py).
+    ("fit_r1", CostProfile(crowded=2.0, covered=0.25, u_turn=0.25, left_turn=0.1)),
+    ("fit_r1_rain", CostProfile(crowded=2.0, covered=2.0, u_turn=0.25, left_turn=-0.5, right_turn=-0.25)),
+    ("fit_r3_rain", CostProfile(crowded=0.75, covered=-0.4, u_turn=0.5, right_turn=0.1)),
+    ("fit_r3_dry", CostProfile(crowded=2.0, covered=0.5, left_turn=-0.1)),
+    ("fit_r5", CostProfile(crowded=0.75, covered=-0.1, turn=0.5, u_turn=5.0, right_turn=0.1)),
+    ("fit_r6_urgent", CostProfile(crowded=0.1, u_turn=3.0, left_turn=0.1, right_turn=0.1)),
+    ("fit_r6_calm", CostProfile(crowded=0.5, covered=-0.4, u_turn=3.0, left_turn=0.1, right_turn=0.1)),
+    ("fit_r7_fragile", CostProfile(crowded=2.0, covered=-0.1, turn=0.25, u_turn=5.0, left_turn=-0.1, right_turn=0.25)),
+    ("fit_r7_sturdy", CostProfile(crowded=0.75, covered=-0.1, u_turn=0.5, left_turn=0.1, right_turn=0.1)),
+    ("fit_r4", CostProfile(crowded=0.5, covered=-0.1, turn=0.1, right_turn=0.1)),
 )
 
 LANDMARK_TYPES = ("library", "dorm", "sports", "clinic", "canteen", "parking", "lecture", "lab", "office", "gate")

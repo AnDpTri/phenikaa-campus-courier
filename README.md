@@ -27,9 +27,14 @@ artifacts/
   cv/           # trained CV models
 ```
 
-The current implementation includes the oracle Strategy/Solver, a staged CV
-pipeline with a learned weather classifier, and a Vietnamese mission parser +
-map resolver. It is not yet an end-to-end test submission pipeline.
+The current implementation includes a complete learned CV pipeline, a Vietnamese
+mission parser and map resolver, and a candidate-action strategy ranker. It can
+evaluate validation and generate test submissions from images and mission text.
+
+Current validation on 300 scenes: oracle-input solver 73.60%; complete
+CV -> NLP -> solver 73.10%; CV scene exact 85.67%. These are development
+validation scores. The previously submitted version scored 52.39% on the public
+leaderboard; the new submission has not been scored here.
 
 ## Environment
 
@@ -53,10 +58,11 @@ py -3.12 -m unittest discover -s tests -v
 # Uniform shortest-route baseline
 py -3.12 scripts/solver/evaluate_oracle_solver.py --split validation
 
-# Train strategy models and create artifacts/solver/oracle_strategy.joblib
-py -3.12 scripts/solver/train_oracle_strategy.py
+# Train the candidate-action strategy and create its artifact
+$env:PYTHONPATH = "src;scripts/solver"
+py -3.12 scripts/solver/train_candidate_strategy.py --out artifacts/solver/candidate_strategy.joblib
 
-# Re-evaluate the saved artifact
+# Re-evaluate the saved artifact (73.60% oracle-input validation)
 py -3.12 scripts/solver/evaluate_strategy_model.py --split validation
 
 # CV: per-stage accuracy; each stage (--legend/--weather/--grid/--edges/--nodes)
@@ -73,6 +79,17 @@ py -3.12 scripts/nlp/evaluate_nlp.py --split validation --solver
 
 # Parse test missions into map-independent goal/via specs
 py -3.12 scripts/nlp/parse_missions.py --split test
+
+# Evaluate the complete pipeline
+py -3.12 scripts/evaluate_system.py --detector-device cuda
+
+# Generate a test submission; a new timestamped results folder is created
+py -3.12 scripts/create_submission.py --detector-device cuda
+
+# Collect a fallback audit in a separate run folder
+py -3.12 scripts/create_submission.py --detector-device cuda `
+  --out results/fallback_audit/predictions.json `
+  --diagnostics-dir results/fallback_audit/diagnostics
 ```
 
 `courier.nlp.MissionParser` converts text into map-independent `TargetSpec`
@@ -88,3 +105,7 @@ accuracy is 100% on the supplied 300 annotated scenes.
 The trained strategy layer masks illegal moves after classification, so it
 cannot enter closed roads, violate one-way roads, or use stairs with a robot
 other than robot 4.
+
+Submission and candidate training commands refuse to overwrite existing output
+files. Models, datasets and local comparison results are ignored by Git. Local
+versions are kept separately under `results/solver_comparison_20261008`.

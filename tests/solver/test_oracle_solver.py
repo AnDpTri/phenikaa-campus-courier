@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 
 from courier.common import ACTION_DELTAS, Action, CostProfile, Edge, Mission, Scene, load_dataset
-from courier.solver import OracleSolver, OracleStrategyModel
+from courier.solver import OracleSolver, OracleStrategyModel, load_strategy
 from courier.solver.features import feature_names
 
 
@@ -37,11 +37,11 @@ class OracleSolverTests(unittest.TestCase):
             self.assertAlmostEqual(scores[label], min(scores.values()))
 
     def test_saved_strategy_only_predicts_legal_actions(self) -> None:
-        model_path = Path(__file__).parents[2] / "artifacts" / "solver" / "oracle_strategy.joblib"
+        model_path = Path(__file__).parents[2] / "artifacts" / "solver" / "candidate_strategy.joblib"
         if not model_path.exists():
             self.skipTest("strategy artifact has not been trained")
         assert self.train.scenes is not None
-        model = OracleStrategyModel.load(model_path)
+        model = load_strategy(model_path)
         for scene in self.train.scenes[:10]:
             predictions = model.predict_scene(scene)
             for robot_id, prediction in enumerate(predictions):

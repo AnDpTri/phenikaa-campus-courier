@@ -52,11 +52,19 @@ def feature_schema_id() -> str:
     return hashlib.sha256(payload).hexdigest()[:16]
 
 
-def load_or_build_features(cache_path: Path, train_scenes, validation_scenes):
+def load_or_build_features(cache_path: Path, train_scenes, validation_scenes, data_root: Path):
     schema = feature_schema_id()
+    provenance = hashlib.sha256()
+    for relative in ("train/scenes.json", "validation/scenes.json"):
+        with (data_root / relative).open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                provenance.update(chunk)
+    for source in ("features.py", "graph.py"):
+        provenance.update((Path(__file__).parents[2] / "src" / "courier" / "solver" / source).read_bytes())
+    fingerprint = provenance.hexdigest()
     if cache_path.exists():
         with np.load(cache_path) as cached:
-            if str(cached["schema"]) == schema:
+            if str(cached["schema"]) == schema and "fingerprint" in cached and str(cached["fingerprint"]) == fingerprint:
                 print(f"loading cached graph features from {cache_path}")
                 return tuple(cached[name] for name in ("train_normal", "train_legged", "validation_normal", "validation_legged"))
         print("feature schema changed; rebuilding cache")
@@ -72,6 +80,7 @@ def load_or_build_features(cache_path: Path, train_scenes, validation_scenes):
     np.savez_compressed(
         cache_path,
         schema=np.asarray(schema),
+        fingerprint=np.asarray(fingerprint),
         train_normal=matrices[0],
         train_legged=matrices[1],
         validation_normal=matrices[2],
@@ -108,7 +117,7 @@ def main() -> None:
     assert train.scenes and train.labels and validation.scenes and validation.labels
 
     train_normal, train_legged, validation_normal, validation_legged = load_or_build_features(
-        args.cache, train.scenes, validation.scenes
+        args.cache, train.scenes, validation.scenes, args.data
     )
     y_train = np.asarray(train.labels, dtype=np.int8).reshape(-1, 10)
     y_validation = np.asarray(validation.labels, dtype=np.int8).reshape(-1, 10)
