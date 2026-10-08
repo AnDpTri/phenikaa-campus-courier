@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+old/
+data/solver/
+data/cv/
+artifacts/
+models/
+Phenikaa_Campus_Courier_2026_v3/delivery_public/
