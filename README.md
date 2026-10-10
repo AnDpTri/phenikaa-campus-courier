@@ -1,4 +1,4 @@
-# 🏆 Top13-Phenikaa-AI-Hackathon-2026
+# Top13-Phenikaa-AI-Hackathon-2026
 
 [![Hackathon](https://img.shields.io/badge/Phenikaa%20AI%20Hackathon%202026-Top%2013-gold?style=for-the-badge&logo=target)](https://github.com/AnDpTri)
 [![Peak Score](https://img.shields.io/badge/Peak%20Score-71.17%25-brightgreen?style=for-the-badge&logo=speedtest)](https://github.com/AnDpTri)
