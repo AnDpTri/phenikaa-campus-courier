@@ -12,6 +12,9 @@ Phenikaa_Campus_Courier_2026_v3/
 *.tmp
 *.log
 docs/*.lnk
+scratch/
+_release_upload/
+
 
 # Trọng số artifacts
 artifacts/*

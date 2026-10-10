@@ -1,112 +1,120 @@
-# Phenikaa Campus Courier 2026
+# 🏆 Top13-Phenikaa-AI-Hackathon-2026
 
-Clean-room implementation split into three independent modules:
+[![Hackathon](https://img.shields.io/badge/Phenikaa%20AI%20Hackathon%202026-Top%2013-gold?style=for-the-badge&logo=target)](https://github.com/AnDpTri)
+[![Peak Score](https://img.shields.io/badge/Peak%20Score-71.17%25-brightgreen?style=for-the-badge&logo=speedtest)](https://github.com/AnDpTri)
+[![Team](https://img.shields.io/badge/Team-Devil%20May%20Cry-red?style=for-the-badge&logo=playstation)](https://github.com/AnDpTri)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)](https://github.com/AnDpTri)
+[![PyTorch](https://img.shields.io/badge/PyTorch-CUDA%20Accelerated-orange?style=for-the-badge&logo=pytorch)](https://github.com/AnDpTri)
 
-1. `CV`: map image to `SceneGraph`.
-2. `NLP`: Vietnamese mission text to structured mission fields.
-3. `Strategy/Solver`: graph + structured mission + robot ID to the first action.
+> **Official Solution by Team Devil May Cry for the Phenikaa Campus Courier 2026 (COURIER2) Challenge.**  
+> **Official Public/Private Scores:** **71.17%** (Submission `#1208`) & **70.83%** (Submission `#1201`).
 
-The package layout reserves an independent namespace for each workstream:
+---
+
+## 📖 Overview
+
+This repository contains the complete clean-room, production-grade AI pipeline developed by **Team Devil May Cry** for the **Phenikaa Campus Courier 2026** competition. 
+
+The task requires solving autonomous multimodal multi-robot delivery routing under complex constraints:
+* **Inputs:** Raw aerial campus map images + Vietnamese natural language delivery orders.
+* **Outputs:** Optimal discrete navigational actions (`0: UP`, `1: DOWN`, `2: LEFT`, `3: RIGHT`) for **10 specialized robot classes** (motorbikes, vans, legged drones, emergency rovers, fragile-cargo carriers, etc.).
+
+---
+
+## 🏛️ System Architecture
+
+The solution follows a strict, decoupled 3-tier architecture with explicit schema contracts:
+
+```
+Campus Image ──> [ Computer Vision Pipeline ] ──> SceneGraph
+                                                      │
+Mission Text ──> [ Hybrid NLP Parser        ] ──> Mission ──> [ Multi-Robot Solver ] ──> Action (0..3)
+```
+
+### 1. Computer Vision Pipeline (`src/courier/cv/`)
+* **Lattice & Landmark Extraction:** Custom deep detector resolving campus lattice nodes, road types, and landmark bounding regions.
+* **Directional Edge Classifier:** Classifies road connectivity, slope/stairs, and one-way directional constraints.
+* **Weather Classifier:** Gradient-boosted model identifying weather factors that modulate transit velocity.
+* **Hardware Acceleration:** Native PyTorch inference optimized for CUDA GPUs.
+
+### 2. Hybrid Vietnamese NLP Parser (`src/courier/nlp/`)
+* **Campus Idiom Normalizer:** Domain-specific spatial grammar resolving intricate Vietnamese expressions (*"nơi tít phía nam nhất"*, *"tòa nhà ở sinh viên"*, *"trạm xá"*, *"điểm chăm sóc sức khỏe"*).
+* **Neural BiGRU Semantic Fusion (`neural_parser_v5_v9`):** Multi-task neural network predicting delivery `Goal`, checkpoint `Via`, `Urgent` urgency flags, and `Fragile` handling tags.
+* **Map Grounding:** Maps semantic landmarks to graph coordinates extracted from CV.
+
+### 3. Multi-Robot Strategy Solver (`src/courier/solver/`)
+* **Per-Robot Strategy Model:** 10 independent machine learning models trained on 10 distinct physical robot specifications.
+* **Ultra Ensemble Solver:** Multi-seed HistGradientBoosting ranking candidate graph outgoing edges with strict legal move masking (no one-way violations, no stair climbing for wheeled robots).
+* **Personality Tie-Breaking Calibration:** Differentiates ambiguous paths when nominal shortest-path costs are tied.
+
+---
+
+## 📊 Benchmark & Score Progression
+
+| Milestone | Architecture / Configuration | Public Test Score |
+| :--- | :--- | :---: |
+| **Initial Baseline** | Rule Parser + Uniform Shortest Path | `52.39%` |
+| **Stage 1 (V1 Solver)** | Neural CV 512 + Candidate Strategy Ranker | `65.50%` |
+| **Stage 2 (NLP V4)** | Fine-tuned 200k Curated Synthetic NLP | `70.39%` |
+| **Stage 3 (Ultra Solver)** | 5-Seed Ensemble Solver on Full 2.300 Scenes | `70.83%` |
+| **Stage 4 (Peak Submission)** | V5+V9 Ensemble NLP + Learned Strategy Policy | **`71.17%` 🔥** |
+
+---
+
+## 📂 Repository Structure
 
 ```text
 src/courier/
-  common/       # stable contracts and dataset I/O; shared, change carefully
-  solver/       # graph search and learned robot strategy
-  cv/           # owned by the CV workstream
-  nlp/          # owned by the NLP workstream
+  common/       # Contracts and dataset I/O (Scene, Mission, SceneGraph)
+  cv/           # Vision extraction (Detector, Nets, Classifiers)
+  nlp/          # Natural language understanding and spatial resolution
+  solver/       # Multi-robot pathfinding and learned action policy
 scripts/
-  solver/       # solver-only entry points
-  cv/           # CV-only entry points
-  nlp/          # NLP-only entry points
-tests/
-  solver/       # solver-only tests
-  cv/           # CV-only tests
-  nlp/          # NLP-only tests
-artifacts/
-  solver/       # trained solver models
-  cv/           # trained CV models
+  cv/           # CV training and evaluation benchmarks
+  nlp/          # NLP synthetic data generators and neural training
+  solver/       # Strategy model training and oracle graph solvers
+  create_submission.py # Production end-to-end submission generator
+artifacts/      # Serialized neural weights (.pt) and ML models (.joblib)
+tests/          # Unit and integration test suites
 ```
 
-The current implementation includes a complete learned CV pipeline, a Vietnamese
-mission parser and map resolver, and a candidate-action strategy ranker. It can
-evaluate validation and generate test submissions from images and mission text.
+---
 
-Current validation on 300 scenes: oracle-input solver 73.60%; complete
-CV -> NLP -> solver 73.10%; CV scene exact 85.67%. These are development
-validation scores. The previously submitted version scored 52.39% on the public
-leaderboard. The user-reported score for the candidate submission is 55.67%,
-with 49.44% accuracy for its weakest robot.
+## 🚀 Getting Started & Reproducibility
 
-## Environment
+### 1. Installation
+
+Python 3.12 is recommended:
 
 ```powershell
-py -3.12 -m pip install -e ".[solver]"
+# Clone the repository
+git clone https://github.com/AnDpTri/Top13-Phenikaa-AI-Hackathon-2026.git
+cd Top13-Phenikaa-AI-Hackathon-2026
+
+# Install in editable mode
+py -3.12 -m pip install -e ".[solver,cv]"
 $env:PYTHONPATH = "src"
 ```
 
-`courier.common.Scene` is the output contract for CV.
-`courier.common.Mission` is the output contract for NLP.
-The solver consumes only those contracts. Workstreams should avoid editing
-`courier.common` without coordinating the schema change; everything beneath
-their own package and script/test directories is independently owned.
-
-## Commands
+### 2. Run Verification Tests
 
 ```powershell
-# Graph correctness tests
 py -3.12 -m unittest discover -s tests -v
-
-# Uniform shortest-route baseline
-py -3.12 scripts/solver/evaluate_oracle_solver.py --split validation
-
-# Train the candidate-action strategy and create its artifact
-$env:PYTHONPATH = "src;scripts/solver"
-py -3.12 scripts/solver/train_candidate_strategy.py --out artifacts/solver/candidate_strategy.joblib
-
-# Re-evaluate the saved artifact (73.60% oracle-input validation)
-py -3.12 scripts/solver/evaluate_strategy_model.py --split validation
-
-# CV: per-stage accuracy; each stage (--legend/--weather/--grid/--edges/--nodes)
-# can be switched independently, the rest stay at ground truth
-py -3.12 -m pip install -e ".[cv]"
-py -3.12 scripts/cv/evaluate_cv.py --split validation
-
-# Train the first learned CV stage, then evaluate it with all other stages held at oracle
-py -3.12 scripts/cv/train_weather.py
-py -3.12 scripts/cv/evaluate_cv.py --split validation --weather learned
-
-# NLP field accuracy with ground-truth landmarks, plus downstream solver parity
-py -3.12 scripts/nlp/evaluate_nlp.py --split validation --solver
-
-# Parse test missions into map-independent goal/via specs
-py -3.12 scripts/nlp/parse_missions.py --split test
-
-# Evaluate the complete pipeline
-py -3.12 scripts/evaluate_system.py --detector-device cuda
-
-# Generate a test submission; a new timestamped results folder is created
-py -3.12 scripts/create_submission.py --detector-device cuda
-
-# Collect a fallback audit in a separate run folder
-py -3.12 scripts/create_submission.py --detector-device cuda `
-  --out results/fallback_audit/predictions.json `
-  --diagnostics-dir results/fallback_audit/diagnostics
 ```
 
-`courier.nlp.MissionParser` converts text into map-independent `TargetSpec`
-objects and boolean urgency/fragility flags. `courier.nlp.resolve` grounds those
-specs against landmarks from CV and returns the `courier.common.Mission` used by
-the solver. Validation goal, via, spatial-reference, urgency, and fragility
-accuracy is 100% on the supplied 300 annotated scenes.
+### 3. Generate Submission Predictions
 
-`courier.cv.CVPipeline` turns an image into `courier.cv.SceneGraph`;
-`SceneGraph.to_scene(scene_id, mission)` joins it with the NLP output into the
-`courier.common.Scene` the solver consumes.
+```powershell
+py -3.12 scripts/create_submission.py `
+  --detector-device cuda `
+  --strategy-artifact artifacts/solver/candidate_strategy_ultra.joblib `
+  --nlp-model artifacts/nlp/neural_parser_v5_sf200_scratch_via095.pt `
+  --out results/submission_reproduced/predictions.json `
+  --diagnostics-dir results/submission_reproduced/diagnostics
+```
 
-The trained strategy layer masks illegal moves after classification, so it
-cannot enter closed roads, violate one-way roads, or use stairs with a robot
-other than robot 4.
+---
 
-Submission and candidate training commands refuse to overwrite existing output
-files. Models, datasets and local comparison results are ignored by Git. Local
-versions are kept separately under `results/solver_comparison_20261008`.
+## 📜 License
+
+Licensed under the [MIT License](LICENSE). Developed by **Team Devil May Cry** for the Phenikaa Campus Courier 2026 Challenge.
