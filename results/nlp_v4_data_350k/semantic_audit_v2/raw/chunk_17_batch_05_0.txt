@@ -1,0 +1,52 @@
+v4_0161897	P	-
+v4_0161900	F	goal type: provided '-', corrected 'lecture' (giang vien dung lop giang duong dang doi loa tai o o mep tren cung)
+v4_0161923	P	-
+v4_0161926	P	-
+v4_0161930	P	-
+v4_0161938	P	-
+v4_0161941	P	-
+v4_0161957	P	-
+v4_0161973	P	-
+v4_0161980	P	-
+v4_0162013	P	-
+v4_0162018	U	Ambiguous recipient/destination description ('gio hay nguoi nhan la co cpa duong')
+v4_0162027	P	-
+v4_0162028	P	-
+v4_0162060	P	-
+v4_0162071	P	-
+v4_0162078	P	-
+v4_0162086	P	-
+v4_0162091	P	-
+v4_0162108	P	-
+v4_0162110	P	-
+v4_0162122	P	-
+v4_0162123	P	-
+v4_0162125	P	-
+v4_0162131	P	-
+v4_0162147	P	-
+v4_0162161	P	-
+v4_0162165	P	-
+v4_0162203	P	-
+v4_0162211	P	-
+v4_0162220	P	-
+v4_0162250	P	-
+v4_0162256	P	-
+v4_0162266	P	-
+v4_0162268	P	-
+v4_0162287	P	-
+v4_0162301	P	-
+v4_0162308	P	-
+v4_0162310	P	-
+v4_0162311	P	-
+v4_0162315	P	-
+v4_0162316	P	-
+v4_0162320	P	-
+v4_0162335	P	-
+v4_0162346	P	-
+v4_0162358	P	-
+v4_0162359	P	-
+v4_0162371	P	-
+v4_0162383	P	-
+v4_0162384	P	-
+
+STDERR:

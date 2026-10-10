@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0089564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089654",
+      "status": "F",
+      "reason": "goal type: provided '-' but text specifies 'nguoi giu xe o can phong' -> parking"
+    },
+    {
+      "id": "v4_0089682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089693",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089930",
+      "status": "U",
+      "reason": "Contradictory urgency phrases: 'khong vi phai nhanh' vs urgent=0"
+    },
+    {
+      "id": "v4_0089941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0089980",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

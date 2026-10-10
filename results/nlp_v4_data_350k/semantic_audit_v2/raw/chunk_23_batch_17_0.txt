@@ -1,0 +1,860 @@
+v4_0228081	P	-
+v4_0228084	F	urgent: provided 0, corrected 1 ('rat khan' not present here? wait: 'chao tat vao giang duong lon lay ve xe roi moi luc nay nhan nham la san co dung ra giao xuong acn phong o le trai cua campus iup toi tram y te thi khong can toi khong can di ngang phong thuc tap hang chac chan khong de vo nho nhe' -> west_most, via lecture, 0, 0: actually let's recheck)
+v4_0228081	P	-
+v4_0228084	P	-
+v4_0228099	P	-
+v4_0228124	F	goal: provided parking/north/-, corrected parking/-/- ('nha giu xe o ren' means 'o tren' north_most or parking/north? wait, 'o ren' is typo of 'o tren' -> extreme north_most or north? 'o ren' -> 'o tren' which is north_most without type, or ambiguous direction typo 'o ren' -> U)
+v4_0228124	U	Ambiguous typo 'o ren' (possibly 'o tren' indicating north_most or north)
+v4_0228128	P	-
+v4_0228150	P	-
+v4_0228160	P	-
+v4_0228162	P	-
+v4_0228164	P	-
+v4_0228188	P	-
+v4_0228189	P	-
+v4_0228195	P	-
+v4_0228212	P	-
+v4_0228219	P	-
+v4_0228226	P	-
+v4_0228229	P	-
+v4_0228232	P	-
+v4_0228241	P	-
+v4_0228242	P	-
+v4_0228247	P	-
+v4_0228260	P	-
+v4_0228265	P	-
+v4_0228269	P	-
+v4_0228288	P	-
+v4_0228289	P	-
+v4_0228308	P	-
+v4_0228311	P	-
+v4_0228317	P	-
+v4_0228320	P	-
+v4_0228323	P	-
+v4_0228327	P	-
+v4_0228333	P	-
+v4_0228335	P	-
+v4_0228337	P	-
+v4_0228350	P	-
+v4_0228371	P	-
+v4_0228375	P	-
+v4_0228377	P	-
+v4_0228383	P	-
+v4_0228388	P	-
+v4_0228392	P	-
+v4_0228394	P	-
+v4_0228402	P	-
+v4_0228410	P	-
+v4_0228415	P	-
+v4_0228433	F	via: provided dorm/-/-, corrected -/-/- ('ve toa nha o canh cong truong nhat' is goal, 'can ghe day nha ktx truoc' -> dorm is via? Wait: 've toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc' -> goal is -/anchor_near/gate or dorm/near/gate?)
+v4_0228433	F	goal: provided -/anchor_near/gate, corrected dorm/near/gate ('toa nha o canh cong truong nhat')
+v4_0228438	P	-
+v4_0228440	P	-
+v4_0228461	P	-
+v4_0228466	P	-
+
+Let's double check each carefully:
+1. v4_0228081:
+hang di khu vuc cao nhat (north_most), khan cap (1), do thuy tinh (1).
+Provided: -/north_most/-	-/-/-	1	1
+Result: P
+
+2. v4_0228084:
+tat vao giang duong lon lay ve xe (via: lecture/-/-)
+giao xuong can phong o le trai cua campus (goal: -/west_most/-)
+tram y te khong can toi, khong can di ngang phong thuc tap.
+hang chac chan khong de vo (fragile: 0), urgent: 0.
+Provided: -/west_most/-	lecture/-/-	0	0
+Result: P
+
+3. v4_0228099:
+dung de o phong an, khong phai phong doc.
+phan loai khu vuc tiep can gan nhat toi moc benh xa (goal: -/anchor_near/clinic)
+cang nhanh cang tot (urgent: 1), fragile: 0.
+Provided: -/anchor_near/clinic	-/-/-	1	0
+Result: P
+
+4. v4_0228124:
+"xin edm cuc pin xuong nha giu xe o ren"
+"o ren" -> typo of "o tren"? "tren" = north_most or north? "o tren" usually north_most or relative? And is "o ren" destroyed/corrupted direction word?
+The prompt says: "Missing or destroyed direction words are U, do not guess near or far." "Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"o ren" is clearly unreadable / corrupted direction word ("o tren"? "o ven"?).
+Result: U	Unreadable or corrupted direction word 'o ren' for parking destination
+
+5. v4_0228128:
+toa nha o khong phai diem giao.
+xuat phat tu lab.
+dia diem nhan hang la thu vien (goal: library/-/-)
+cang nhanh cang tot (1), coi chung vo nhe (1).
+Provided: library/-/-	-/-/-	1	1
+Result: P
+
+6. v4_0228150:
+dung de o toa ktx.
+nhan hang tai lop hoc phia xa san bong ro (goal: lecture/far/sports).
+cang nhanh cang tot (1), fragile: 0.
+Provided: lecture/far/sports	-/-/-	1	0
+Result: P
+
+7. v4_0228160:
+dung de o cho gui xe may, dung di qua cong b, tu bo can tin.
+diem den la toa nha o cua sinh vien (goal: dorm/-/-).
+chieu nay giao cung duoc (urgent: 0), ben trong la chen su (fragile: 1).
+Provided: dorm/-/-	-/-/-	0	1
+Result: P
+
+8. v4_0228162:
+cong trinh nao nam sat phong thi nghiem nhat (goal: -/anchor_near/lab).
+nho dung o cong ngoai truoc (via: gate/-/-).
+hoa toc (urgent: 1), fragile: 0.
+Provided: -/anchor_near/lab	gate/-/-	1	0
+Result: P
+
+9. v4_0228164:
+tranh thu vien, di qua phong thuc hanh khong dung, luot qua khu de xe khong dung.
+chay sang cho xa nhat ve ben trai ho minh (goal: -/west_most/-).
+gap gap (urgent: 1), do de nut vo (fragile: 1).
+Provided: -/west_most/-	-/-/-	1	1
+Result: P
+
+10. v4_0228188:
+ban hay qua toa nha o cua sinh vien truoc (via: dorm/-/-).
+roi co thu thu vua chuyen sang o o duoi cung, giao sach tham khao cho ho (goal: -/south_most/-).
+khong gap lam (urgent: 0), fragile: 0.
+Provided: -/south_most/-	dorm/-/-	0	0
+Result: P
+
+11. v4_0228189:
+co don giao khay com o loi ra vao (goal: gate/-/-).
+nhung phai tat qua phong cap cuu truoc da (via: clinic/-/-).
+hoa toc (1), tranh rung lac vi de vo (1).
+Provided: gate/-/-	clinic/-/-	1	1
+Result: P
+
+12. v4_0228195:
+thay doi lo trinh da chon o toa lop hoc, gio hay chuyen ho den phong lab sinh giup (goal: lab/-/-).
+truoc do phai di qua cang tin (via: canteen/-/-).
+hang de be (1), urgent: 0.
+Provided: lab/-/-	canteen/-/-	0	1
+Result: P
+
+13. v4_0228212:
+can dua thung nuoc uong toi cong b (goal: gate/-/-).
+rat khan (urgent: 1), fragile: 0.
+Provided: gate/-/-	-/-/-	1	0
+Result: P
+
+14. v4_0228219:
+di qua cong ngoai o dau xa khu o cua sinh vien truoc (via: gate/far/dorm).
+sau do dia chi la phong thuc nghiem (goal: lab/-/-).
+hang chac chan khong de vo (0), urgent: 0.
+Provided: lab/-/-	gate/far/dorm	0	0
+Result: P
+
+15. v4_0228226:
+ghe vao khu doc sach nhat ao dong phuc roi moi (via: library/-/-).
+nhom nghien cuu o dia diem nao do ma phia bac nhat can lo hang (goal: -/north_most/-).
+urgent: 0, fragile: 0.
+Provided: -/north_most/-	library/-/-	0	0
+Result: P
+
+16. v4_0228229:
+dau tien toi tram xa nhan hop phan (via: clinic/-/-).
+tiep theo sang tan o nao danh dau diem moc tien sau nhat ve phuong bac giup toi (goal: -/north_most/-).
+khong gap lam (urgent: 0), hang ben khong lo vo (fragile: 0).
+Provided: -/north_most/-	clinic/-/-	0	0
+Result: P
+
+17. v4_0228232:
+giao giup bang ten cho thay chu nhiem o phan loai o tiep can gan nhat toi moc quay tra cuu luan van do an (goal: -/anchor_near/library).
+uu tien giao truoc (urgent: 1), ben trong co trung nhe tay (fragile: 1).
+Provided: -/anchor_near/library	-/-/-	1	1
+Result: P
+
+18. v4_0228241:
+diem den la trong cac lua chon lay diem gan ky tuc xa hon ca (goal: -/anchor_near/dorm).
+cang nhanh cang tot (urgent: 1), fragile: 0.
+Provided: -/anchor_near/dorm	-/-/-	1	0
+Result: P
+
+19. v4_0228242:
+khach hen lay goi hang o rut ra cho cach diem tua kho tai lieu it buoc nhat ho minh (goal: -/anchor_near/library).
+phai qua cong ngoai lay phong thu da (via: gate/-/-).
+som cang tot (urgent: 1), fragile: 0.
+Provided: -/anchor_near/library	gate/-/-	1	0
+Result: P
+
+20. v4_0228247:
+ghe vao loi vao danh cho phuong tien co gioi nhat qua bong roi moi (via: gate/-/-).
+giang vien dang day o toa gan ke nha an nhat can tai nghe (goal: -/anchor_near/canteen or lecture/near/canteen? Wait: "giang vien dang day o toa gan ke nha an nhat" -> "toa" means building/building of any type or lecture? Wait, "giang vien dang day o toa gan ke nha an nhat" -> "toa gan ke nha an nhat" has no explicit building type mentioned other than "toa" (which means building, could be dorm/lecture/etc), or is it -/anchor_near/canteen? Yes, "toa" is generic building, so type is '-'.
+Wait! What about fragile and urgent? "hang de be cam nhe" (1), "thong tha" (0).
+Provided: -/anchor_near/canteen	gate/-/-	0	1
+Result: P
+
+21. v4_0228260:
+diem giao: can phong gan nhat voi phong thi nghiem hoa (goal: -/anchor_near/lab).
+khong voi dau (0), fragile: 0.
+Provided: -/anchor_near/lab	-/-/-	0	0
+Result: P
+
+22. v4_0228265:
+dau tien toi nha an chung nhan buu kien (via: canteen/-/-).
+tiep theo muc tieu: tram nam o cuoi ban do (goal: -/south_most/-).
+viec nay khan cap (urgent: 1), fragile: 0.
+Provided: -/south_most/-	canteen/-/-	1	0
+Result: P
+
+23. v4_0228269:
+can dua laptop len noi ngay sat khu hoc tap (goal: -/anchor_near/lecture).
+khong voi dau (0), hang de vo (1).
+Provided: -/anchor_near/lecture	-/-/-	0	1
+Result: P
+
+24. v4_0228288:
+chuyen nay di noi o cua sinh vien o phia phai (goal: dorm/east/-).
+khong can gap (0), can than do su (1).
+Provided: dorm/east/-	-/-/-	0	1
+Result: P
+
+25. v4_0228289:
+thay day the duc hien dang o thu vien truong nam cach xa khu noi tru sinh vien tap trung (goal: library/far/dorm).
+vong qua phong dao tao lay thung thuc pham truoc (via: office/-/-).
+thong tha (0), do chac lam (0).
+Provided: library/far/dorm	office/-/-	0	0
+Result: P
+
+26. v4_0228308:
+bao ve dang doi tui do tai hay tim o cach phong hanh chinh it buoc di nhat (goal: -/anchor_near/office).
+khong can voi (0), fragile: 0.
+Provided: -/anchor_near/office	-/-/-	0	0
+Result: P
+
+27. v4_0228311:
+giao ho laptop den thang nha thi dau the thao da nang ben dong nhe (goal: sports/east/-).
+khong vi phai nhanh (0), hang ben khong lo vo (0).
+Provided: sports/east/-	-/-/-	0	0
+Result: P
+
+28. v4_0228317:
+chia khoa xe can duoc chuyen len o nam gan cong truong nhat (goal: -/anchor_near/gate).
+urgent: 0, fragile: 0.
+Provided: -/anchor_near/gate	-/-/-	0	0
+Result: P
+
+29. v4_0228320:
+dua sang dia diem nao do ma o phia phai nhat giup toi (goal: -/east_most/-).
+urgent: 0, fragile: 0.
+Provided: -/east_most/-	-/-/-	0	0
+Result: P
+
+30. v4_0228323:
+truoc tien vao toa hoc xong roi (via: lecture/-/-).
+mang ho ho bom xe toi phong doc canh trai giup toi (goal: library/west/-).
+dang gap (1), nhe tay vi do rat de vo (1).
+Provided: library/west/-	lecture/-/-	1	1
+Result: P
+
+31. v4_0228327:
+buoc dau ghe khu nha o sinh vien (via: dorm/-/-).
+sau do can bo tiep nhan ho so sinh vien hien dang o tram y te cham soc sinh vien nho giao ho nguyen lieu nau an toi do (goal: clinic/-/-).
+khong gap lam (0), fragile: 0.
+Provided: clinic/-/-	dorm/-/-	0	0
+Result: P
+
+32. v4_0228333:
+truoc do phai di qua khu ktx (via: dorm/-/-).
+truy tim noi ke can moc phong thuc nghiem hon ca (goal: -/anchor_near/lab).
+toc hanh nhe (1), can than do su (1).
+Provided: -/anchor_near/lab	dorm/-/-	1	1
+Result: P
+
+33. v4_0228335:
+truoc tien vao phong gym thuoc tay ban do (via: sports/west/-).
+xong roi kien hang nay di o nam trai cung (goal: -/west_most/-).
+urgent: 0, fragile: 0.
+Provided: -/west_most/-	sports/west/-	0	0
+Result: P
+
+34. v4_0228337:
+dich den la can phong nam tao do can ve huong tay nhieu nhat toan vung (goal: -/west_most/-).
+gap gap (1), fragile: 0.
+Provided: -/west_most/-	-/-/-	1	0
+Result: P
+
+35. v4_0228350:
+can bo phu trach phong thuc hanh o toa nao sat vach phong cong vu dang cho micro khong day (goal: -/anchor_near/office).
+dong thoi tat qua phong hoc ly thuyet lay kt unoc ngot da (via: lecture/-/-).
+hang khong de vo dau (0), urgent: 0.
+Provided: -/anchor_near/office	lecture/-/-	0	0
+Result: P
+
+36. v4_0228371:
+pien robot chuyen giup thug sua toi hoi truong gan voi cong a hon (goal: lecture/near/gate).
+urgent: 0, fragile: 0.
+Provided: lecture/near/gate	-/-/-	0	0
+Result: P
+
+37. v4_0228375:
+thay giao o dia diem canh ham gui xe nhat can con dau (goal: -/anchor_near/parking).
+dang rat gap (1), hang de be cam nhe (1).
+Provided: -/anchor_near/parking	-/-/-	1	1
+Result: P
+
+38. v4_0228377:
+nguoi gac cong nho gui may tinh bang (goal: gate/-/-).
+can gap (1), hang de be cam nhe (1).
+Provided: gate/-/-	-/-/-	1	1
+Result: P
+
+39. v4_0228383:
+giao sang truy tim noi ke can moc phong thuc nghiem hon ca voi (goal: -/anchor_near/lab).
+chieu nay giao cung duoc (0), khong can nhe tay (0).
+Provided: -/anchor_near/lab	-/-/-	0	0
+Result: P
+
+40. v4_0228388:
+diem giao khu luyen tap the duc the thao (goal: sports/-/-).
+hang bo dam (fragile: 0), urgent: 0.
+Provided: sports/-/-	-/-/-	0	0
+Result: P
+
+41. v4_0228392:
+dich den la can phong nam cao nhat tren ban do (goal: -/north_most/-).
+khong can gap (0), fragile: 0.
+Provided: -/north_most/-	-/-/-	0	0
+Result: P
+
+42. v4_0228394:
+truoc tien qua khu nha o sinh vien nhan chong giao trinh (via: dorm/-/-).
+sau do huan luyen vien doi tuyen the thao truong dang doi mau vat tai noi ngay canh phong mot cua (goal: -/anchor_near/office).
+cu tu tu khong voi (0), hang chac chan khong de vo (0).
+Provided: -/anchor_near/office	dorm/-/-	0	0
+Result: P
+
+43. v4_0228402:
+sau khi lay ho so o van phong (via: office/-/-).
+chuyen giup tai nghe qua nut it buoc nhat tu trung tam y te (goal: -/anchor_near/clinic).
+uu tien giao truoc (1), do khong vo duoc dau (0).
+Provided: -/anchor_near/clinic	office/-/-	1	0
+Result: P
+
+44. v4_0228410:
+quen don cu o lop ly thuyet di, dua hop thuoc cho co cap duong (goal: canteen/-/-).
+khong gap dau (0), fragile: 0.
+Provided: canteen/-/-	-/-/-	0	0
+Result: P
+
+45. v4_0228415:
+sach tham khao gui ra phong cham soc suc khoe ban dau (goal: clinic/-/-).
+toc hanh nhe (1), fragile: 0.
+Provided: clinic/-/-	-/-/-	1	0
+Result: P
+
+46. v4_0228433:
+"chao robot! khong phai giao nha giu x.e huong nay chi chay song song voi nha the chat, khong re vao do. ve toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc. khong vi phai nhanh. nho ky nhe."
+Wait! Look at the wording:
+"ve toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc."
+"toa nha o" = dorm!
+"toa nha o canh cong truong nhat" = dorm near gate?
+Wait, or is "toa nha o" dorm, so goal is `dorm/near/gate`?
+Wait! In Vietnamese, "toa nha o" = dormitory (khu nha o / toa nha o sinh vien).
+Wait, look at the label:
+Provided: `-/anchor_near/gate	dorm/-/-	0	0`
+Wait, does "toa nha o canh cong truong nhat" specify the type "dorm"?
+"Types: library=thu vien, dorm=ky tuc xa, sports=the thao, clinic=y te, canteen=nha an, parking=bai xe, lecture=giang duong, lab=thi nghiem, office=hanh chinh, gate=cong/bao ve."
+In v4_0228128: "toa nha o ua sinh vien" -> dorm.
+In v4_0228160: "toa nha o cua sinh vien" -> dorm.
+In v4_0228188: "toa nha o cua sinh vien" -> dorm.
+In v4_0228265: "nha o sinh vien" -> dorm.
+In v4_0228392: "nha o sinh vien" -> dorm.
+In v4_0228394: "khu nha o sinh vien" -> dorm.
+In v4_0228433: "ve toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc."
+Wait, "can ghe day nha ktx truoc" -> via is dorm/-/-!
+If via is "day nha ktx" (dorm), can goal also be "toa nha o" (dorm/near/gate)? Or does "toa nha o" mean "the residential building / dorm closest to gate"?
+Wait, why did the label say `-/anchor_near/gate`? Because anchor_near is "regardless of type"! But here it explicitly says "toa nha o" (dorm) OR is "toa nha o" just "residential building" / "toa nha o canh cong truong nhat" = "toa nha [ma] o canh cong truong nhat" (the building located next to the campus gate)?
+Wait! In Vietnamese:
+"ve toa nha o canh cong truong nhat" can be parsed as:
+1) "toa nha o" (residential building) "canh cong truong nhat" (closest to the campus gate) -> dorm/near/gate.
+2) "toa nha" (building) "o canh cong truong nhat" (located next to the campus gate) -> "toa nha o [vi tri] canh cong truong nhat" -> building located next to campus gate!
+Notice: "o" in Vietnamese means "at/located at": "toa nha o canh cong truong nhat" = "the building located closest to the campus gate"!
+Notice the lack of accents: "ve toa nha o canh cong truong nhat gioa tui so cuu" -> "ve toa nha o canh cong truong nhat giao tui so cuu". "toa nha o canh..." = "toa nha o gan...". If it meant dormitory, it would be "toa nha o cua sinh vien" or "toa nha ktx". In fact, right after that, it says "can ghe day nha ktx truoc".
+Moreover, "o canh cong truong nhat" = located closest to campus gate -> anchor_near/gate!
+Therefore, `-/anchor_near/gate` perfectly matches!
+Wait, could it be ambiguous between "toa nha o" (residential building) vs "toa nha [nam] o canh..."?
+Let's re-read: "Types: dorm=ky tuc xa". The list of types specifies: "dorm=ky tuc xa".
+Throughout these prompts, when they mean dorm, they almost always say "ky tuc xa", "ktx", or "nha o sinh vien / toa nha o cua sinh vien".
+Here, "toa nha o canh cong truong nhat" = building [which is] next to campus gate.
+So `-/anchor_near/gate` is valid.
+
+Wait, let's check ALL 50 items to see if there is ANY definitive mismatch (F) or ambiguity (U).
+Let's check item by item:
+
+1. v4_0228081:
+goal: -/north_most/-, via: -/-/-, urgent: 1, fragile: 1
+"robot than men, hang di khu vuc cao nhat. viec nay khan cap. ben trong la do thuy tinh. nho ky nhe."
+cao nhat = north_most. khan cap = 1. do thuy tinh = 1.
+-> P
+
+2. v4_0228084:
+goal: -/west_most/-, via: lecture/-/-, urgent: 0, fragile: 0
+"chao tat vao giang duong lon lay ve xe roi moi luc nay nhan nham la san co dung ra giao xuong acn phong o le trai cua campus iup toi tram y te thi khong can toi khong can di ngang phong thuc tap hang chac chan khong de vo nho nhe"
+tat vao giang duong lon lay ve xe -> via lecture/-/-.
+can phong o le trai cua campus -> -/west_most/-.
+hang chac chan khong de vo -> fragile 0.
+urgent -> 0.
+-> P
+
+3. v4_0228099:
+goal: -/anchor_near/clinic, via: -/-/-, urgent: 1, fragile: 0
+"chao ban dung de o phong an khong phai phong doc tu chon dau phan loai khu vuc tiep can gan nhat toi moc benh xa la noi can giao cang nhanh cang tot cam on ban nhe"
+gan nhat toi moc benh xa -> -/anchor_near/clinic.
+cang nhanh cang tot -> 1.
+fragile -> 0.
+-> P
+
+4. v4_0228124:
+goal: parking/north/-, via: -/-/-, urgent: 1, fragile: 0
+"phien ban chut: doan duong chay qua phnog cuu thuong, khong co y dinh dung lai. can tin ti khong can toi. tranh cong ra vao ra nhe. cap nhat: bo thu vien truong, xin edm cuc pin xuong nha giu xe o ren. lam nhanh giup minh. cam on robot."
+Wait! "nha giu xe o ren" ->
+Is it "o tren"? If it is "nha giu xe o tren", what does "o tren" mean?
+Map convention: "cao nhat/tren cung = north_most".
+Does "o tren" mean north, or north_most, or is "o ren" a typo?
+"Missing or destroyed direction words are U, do not guess near or far. Flag contradictory urgency phrases as U. Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"o ren" is a destroyed/corrupted word ("o tren"? "o ben"? "o tren" vs north vs north_most).
+Thus, v4_0228124 is U!
+
+5. v4_0228128:
+library/-/-	-/-/-	1	1
+"robot than men toa nha o ua sinh vien khong phai diem giao chyen nay xuat phat tu lab di tiep khong phai deim cuoi dia diem nhan hang la thu vien cang nhanh cang tot coi chung vo nhe nho nhe"
+-> P
+
+6. v4_0228150:
+lecture/far/sports	-/-/-	1	0
+"hello robot, dung de o toa ktx. nhan hang tai lop hoc phia xa san bong ro. cang nhanh cang tot. cam on robot."
+-> P
+
+7. v4_0228160:
+dorm/-/-	-/-/-	0	1
+"Robot oi, dung de o cho gui xe may. Dung di qua cong b. Toi da tu bo y dinh den can tin, ma se diem den cua don nay la toa nha o cua sinh vien. Chieu nay giao cung duoc. Ben trong la chen su. Nho nhe."
+-> P
+
+8. v4_0228162:
+-/anchor_near/lab	gate/-/-	1	0
+"Ma don 4880 hm qua da giao o phong kham cua truong roi khu bep thi khong can toi hoa toc ida chi giao cong trinh nao nam sat phong thi nghiem nhat nho dung o cong ngoai truoc khong can di ngang khu o cua sinh vien cam on nhieu"
+sat phong thi nghiem nhat -> -/anchor_near/lab.
+dung o cong ngoai truoc -> via gate/-/-.
+hoa toc -> 1, fragile -> 0.
+-> P
+
+9. v4_0228164:
+-/west_most/-	-/-/-	1	1
+"Alo robot, tranh thu vien truong ra nhe. Lo trinh co di qua phong thuc hanh nhung khong dung chan o do. Minh chi luot qua khu vuc khu de xe, khong dung chan. Dung dung cho cu nua chay sang cho xa nhat ve ben trai ho minh. Gap gap! do de nut vo. Thanks robot."
+xa nhat ve ben trai -> -/west_most/-.
+Gap gap -> 1, do de nut vo -> 1.
+-> P
+
+10. v4_0228188:
+-/south_most/-	dorm/-/-	0	0
+"Chao! minh chi luot qua khu vuc bo phan mot cua giai quyet ho so, khong dung chan. Ban hay qua toa nha o cua sinh vien truoc roi co thu thu vua chuyen sang o o duoi cung, giao sach tham khao cho ho. Khong gap lam. Tranh toa van phong ra nhe. Thanks robot."
+toa nha o cua sinh vien truoc -> via dorm/-/-.
+o duoi cung -> -/south_most/-.
+khong gap lam -> 0, fragile -> 0.
+-> P
+
+11. v4_0228189:
+gate/-/-	clinic/-/-	1	1
+"nho robot: dung di qua noi muon giao trinh. hom qua da giao o khu gui xe roi. phong hanh chinh dang sua chua, tranh ra. co don giao khay com o loi ra vao. nhung phai tat qua phong cap cuu truoc da. hoa toc! tranh rung lac vi de vo. cam on ban nhe."
+giao khay com o loi ra vao -> gate/-/-.
+tat qua phong cap cuu truoc -> clinic/-/-.
+hoa toc -> 1, de vo -> 1.
+-> P
+
+12. v4_0228195:
+lab/-/-	canteen/-/-	0	1
+"Thong Bao Don: Thay Doi Lo Trinh Da Chon O Toa Lop Hoc, Gio Hay Chuyen Ho Den Phong Lab Sinh Giup. Truoc Do Phai Di Qua Cang Tin. Hang De Be, Cam Nhe. Cam On Ban Nhe."
+lab -> lab/-/-.
+truoc do qua cang tin -> canteen/-/-.
+hang de be -> 1, urgent -> 0.
+-> P
+
+13. v4_0228212:
+gate/-/-	-/-/-	1	0
+"Hello robot toi da tu bo y dinh den quan an truong ma se can dua thung nuoc uong toi cong b khu lop hoc thi khong can toi rat khan khong can di ngang khu tap luyen cam on"
+cong b -> gate/-/-.
+rat khan -> 1, fragile -> 0.
+-> P
+
+14. v4_0228219:
+lab/-/-	gate/far/dorm	0	0
+"Alo robot dung di qua cho gui xe may di qua cong ngoai o dau xa khu o cua sinh vien truoc sau do co ho so can giao dia chi la phong thuc nghiem toa lop hoc khong phai diem giao hang chac chan khong de vo tks"
+cong ngoai o dau xa khu o cua sinh vien -> gate/far/dorm.
+phong thuc nghiem -> lab/-/-.
+hang chac chan khong de vo -> 0, urgent -> 0.
+-> P
+
+15. v4_0228226:
+-/north_most/-	library/-/-	0	0
+"Hello robot, phong cong vu dang sua chua, tranh ra. Tranh phong thuc hanh ra nhe. Ghe vao khu doc sach nhat ao dong phuc roi moi nhom nghien cuu o dia diem nao do ma phia bac nhat can lo hang. Nho nhe."
+ghe vao khu doc sach -> library/-/-.
+phia bac nhat -> -/north_most/-.
+urgent -> 0, fragile -> 0.
+-> P
+
+16. v4_0228229:
+-/north_most/-	clinic/-/-	0	0
+"Dau tien oti tram xa nhan hop phan, tiep heo lma phien mang hop thuoc sang tan o nao danh dau diem moc tien sau nat ve phuong bac giup toi. Khong gap lam. Hang ben, khog lo vo. Cm on ban nhe."
+tram xa -> clinic/-/-.
+tien sau nhat ve phuong bac -> -/north_most/-.
+khong gap lam -> 0, hang ben -> 0.
+-> P
+
+17. v4_0228232:
+-/anchor_near/library	-/-/-	1	1
+"nho ban nhe: lo trinh co di qua nha giu xe nhung khong dung chn o do. giao giup bang ten cho thay hcu nhiem o phan loai o tiep can gan nhat toi oc qauy tra cuu luan van do an. uu tien giao truoc. ben trong co trung, nhe tay. cam on ban nhe."
+quay tra cuu luan van do an -> library. tiep can gan nhat -> -/anchor_near/library.
+uu tien giao truoc -> 1. ben trong co trung -> 1.
+-> P
+
+18. v4_0228241:
+-/anchor_near/dorm	-/-/-	1	0
+"don #3962 doan duong chay qua phong thuc hanh khong co y dinh dung lai minh chi luot qua khu vuc day phong hoc giang duong lon khong dung chan diem den cua don nay la trong cac lua chon lay diem gan ky tuc xa hon ca cang nhanh cang tot cam on ban nhe"
+gan ky tuc xa hon ca -> -/anchor_near/dorm.
+cang nhanh cang tot -> 1, fragile -> 0.
+-> P
+
+19. v4_0228242:
+-/anchor_near/library	gate/-/-	1	0
+"chao ban, lan truoc giao nham khu ktx. khach hen lay goi hang o rut ra cho cach dim tua kho tai lieu it buoc nhat ho minh. pai qua cong ngoai lay phong thu da. som cang tot. tks."
+kho tai lieu -> library. cach kho tai lieu it buoc nhat -> -/anchor_near/library.
+qua cong ngoai -> gate/-/-.
+som cang tot -> 1, fragile -> 0.
+-> P
+
+20. v4_0228247:
+-/anchor_near/canteen	gate/-/-	0	1
+"nho ban nhe hang de be cam nhe khong phai giao khu nghien cuu va thi nghiem chuyen sau thong tha ghe vao oi vao danh cho phuong tien co gioi nhat qua bong roi moi giang vien dang day o toa gan ke nha an nhat can tai nghe nho ky nhe"
+loi vao -> gate/-/-.
+toa gan ke nha an nhat -> -/anchor_near/canteen.
+hang de be -> 1, thong tha -> 0.
+-> P
+
+21. v4_0228260:
+-/anchor_near/lab	-/-/-	0	0
+"Robot than men, bai gui xe dang sua chua, tranh ra. Khong voi dau. Cap nhat: bo day nha o sinh vien noi tru, diem giao: an pohng agn nhat voi phong hi nghiem hoa. Hang: tai nghe. Nho nhe."
+gan nhat voi phong thi nghiem hoa -> -/anchor_near/lab.
+khong voi dau -> 0, fragile -> 0.
+-> P
+
+22. v4_0228265:
+-/south_most/-	canteen/-/-	1	0
+"[don #8270] tuan truoc da giao khu hanh chinh roi. Chuyen nay xuat phat tu nha o sinh vien di tiep, khong phai diem cuoi. Minh chi luot qua khu vuc khu nghien cuu va thi nghiem chuyen sau, kohng dung chan. Dau tien oi nha an chung nhan buu kien, tiep theo muc tieu: tram nam o cuoi ban do. Viec nay kan cap. Cam on!"
+nha an chung -> canteen/-/-.
+tram nam o cuoi ban do -> -/south_most/-.
+viec nay khan cap -> 1, fragile -> 0.
+-> P
+
+23. v4_0228269:
+-/anchor_near/lecture	-/-/-	0	1
+"Robot than men, khong voi dau. Can dua laptop len noi ngay sat khu hoc tap. Doan duong chay qua cong rao, khong co y dinh dung lai. Hang de vo, di can than. Nho nhe."
+ngay sat khu hoc tap -> -/anchor_near/lecture.
+khong voi dau -> 0, hang de vo -> 1.
+-> P
+
+24. v4_0228288:
+dorm/east/-	-/-/-	0	1
+"Yeu cau moi: khong can gap. Nguoi nhan khong con o avn phong. Sua lai: kong phai tram y te cham soc sinh vien, chuyen nay di noi o cua sinh vien o phia phai. Khong phai loi ra dau. Can than do su. Cam on robot."
+noi o cua sinh vien o phia phai -> dorm/east/-.
+khong can gap -> 0, do su -> 1.
+-> P
+
+25. v4_0228289:
+library/far/dorm	office/-/-	0	0
+"yeu cau moi: thay day the duc hien dang o thu vien truong nam cach xa khu noi tru sinh vien tap trung, nho phat bo dung cu thi nghiem toi do. do chac lam. tuy nhien hay vong qua phong dao tao lay thung thuc pham truoc. khong phai giao xuong thuc hanh. thong tha. cam on nhieu."
+thu vien truong nam cach xa khu noi tru sinh vien -> library/far/dorm.
+phong dao tao -> office/-/-.
+thong tha -> 0, do chac lam -> 0.
+-> P
+
+26. v4_0228308:
+-/anchor_near/office	-/-/-	0	0
+"alo robot, huong nay chi chay song song voi cong ruong chinh, khong re vao o. day nha ktx dang sa chua, tranh ra. dung de o giang duong. bao ve dang doi tui do tai hay tim o cach phong hanh chinh it buoc di nhat. khong can voi. no nhe."
+cach phong hanh chinh it buoc di nhat -> -/anchor_near/office.
+khong can voi -> 0, fragile -> 0.
+-> P
+
+27. v4_0228311:
+sports/east/-	-/-/-	0	0
+"Hang ben, khong lo vo. Hom qua da giao o khu thi nghiem roi. Dia chi cu la trung tam thi nghiem, bo qua. Khong vi phai nhanh. Doi dia chi tu phong cuu thuong sang cam phien giao ho laptop den thang nha thi dau the thao da nang ben dog nhe. Nho nhe."
+nha thi dau the thao da nang ben dong -> sports/east/-.
+khong vi phai nhanh -> 0, hang ben -> 0.
+-> P
+
+28. v4_0228317:
+-/anchor_near/gate	-/-/-	0	0
+"Thong Bao Don: Lo Trinh Co Di Qua Thu Vien Trung Tam Nhung Khong Dung Chan O Do. Khong Can Ghe San Tap Bong Ro Va Cau Long. Chuyen Nay Xuat Phat Tu Xuong Thuc Hanh Di Tiep, Khong Phai Diem Cuoi. Doi Dia Chi Tu Khu Noi Tru Sinh Vien Tap Trung Sang Chia Khoa Xe Can Duoc Chuyen Len O Nam Gan Cong Truong Nhat. Cam On Robot."
+nam gan cong truong nhat -> -/anchor_near/gate.
+urgent -> 0, fragile -> 0.
+-> P
+
+29. v4_0228320:
+-/east_most/-	-/-/-	0	0
+"Thong bao don: tranh cong lon ra nhe. Khong can di ngang cho de xe. Tinh hinh thay doi nen dua sang dia diem nao do ma o phia phai nhat giup toi. Cam on ban nhe."
+o phia phai nhat -> -/east_most/-.
+urgent -> 0, fragile -> 0.
+-> P
+
+30. v4_0228323:
+library/west/-	lecture/-/-	1	1
+"nho ban nhe truoc tien vao toa hoc xong roi chu y mang ho ho bom xe toi phong doc canh trai giup toi dang gap nhe tay vi do rat de vo cam on robot"
+toa hoc -> lecture/-/-.
+phong doc canh trai -> library/west/-.
+dang gap -> 1, de vo -> 1.
+-> P
+
+31. v4_0228327:
+clinic/-/-	dorm/-/-	0	0
+"Don #2910 nha an sinh vien khong phai diem giao hom qua da giao o phong thi nghiem roi buoc dau hge khu nha o sinh vien sau do can bo tiep nhan ho so sinh ien hien dang o tram y te cham soc sinh vien nho giao ho nguyen lieu nau an toi do khong gap lam nho nhe"
+khu nha o sinh vien -> dorm/-/-.
+tram y te -> clinic/-/-.
+khong gap lam -> 0, fragile -> 0.
+-> P
+
+32. v4_0228333:
+-/anchor_near/lab	dorm/-/-	1	1
+"Nho robot: can than do su. Toc hanh nhe. Truoc do phai di qua khu ktx. Chi nau bep o truy tim noi ke can moc phong thuc nghiem hon ca can ban photo. Thank you."
+khu ktx -> dorm/-/-.
+noi ke can moc phong thuc nghiem hon ca -> -/anchor_near/lab.
+toc hanh nhe -> 1, do su -> 1.
+-> P
+
+33. v4_0228335:
+-/west_most/-	sports/west/-	0	0
+"Chao ban, truoc tien vao phong gym thuoc tay ban do, xong roi kien hang nay di o nam trai cung. Cam on nhieu."
+phong gym thuoc tay ban do -> sports/west/-.
+nam trai cung -> -/west_most/-.
+urgent -> 0, fragile -> 0.
+-> P
+
+34. v4_0228337:
+-/west_most/-	-/-/-	1	0
+"Xin chao gpa gap nguoi nhan khong con o khu luyen tap the duc the thao xe chi chay ngang tam toa lop hoc do khong phai cho muon toi thay doi lo trinh da chon o bai xe gio hay dich den la can phong nam tao do can ve huong tay nhieu nhat toan vung"
+nam tao do can ve huong tay nhieu nhat toan vung -> -/west_most/-.
+gap gap -> 1, fragile -> 0.
+-> P
+
+35. v4_0228350:
+-/anchor_near/office	lecture/-/-	0	0
+"robot than men khu o cua sinh vien hom any odng cua chuyen nya xuat phat tu cong ngoai di tiep khong phai diem cuoi nham roi khong phai khu nghien cuu va thi nghiem chuyen sau can bo phu trach phong thuc hanh o toa nao sat vach phong cong vu dang cho micro khong day dong thoi tat qua phong hoc ly thuyet lay kt unoc ngot da hang khong de vo dau nho nhe"
+tat qua phong hoc ly thuyet -> lecture/-/-.
+toa nao sat vach phong cong vu -> -/anchor_near/office.
+hang khong de vo -> 0, urgent -> 0.
+-> P
+
+36. v4_0228371:
+lecture/near/gate	-/-/-	0	0
+"Robot giao hang oi khong can ghe cho tap the duc luc nay nhan nham la phong thuc nhiem dung ra pien robot chuyen giup thug sua toi hoi truong gan voi ong a hon cam on"
+hoi truong gan voi cong a hon -> lecture/near/gate.
+urgent -> 0, fragile -> 0.
+-> P
+
+37. v4_0228375:
+-/anchor_near/parking	-/-/-	1	1
+"Robot oi, dung ghe khu an trua. Noi muon tra sach giao trinh hom nay dong cua. Luc nay nhan nham la toa ktx. Dung ra: thay giao o dia diem canh ham gui xe nhat can con dau. Dang rat gap. Hang de be, cam nhe. Thank you."
+canh ham gui xe nhat -> -/anchor_near/parking.
+dang rat gap -> 1, hang de be -> 1.
+-> P
+
+38. v4_0228377:
+gate/-/-	-/-/-	1	1
+"don #8882 dung nham voi thu vien truong nhe doan duong chay qua ky tuc xa khong co y dinh dung lai nguoi gac cong nho gui may tinh bang can gap hang de be cam nhe cam on robot"
+nguoi gac cong -> gate/-/-.
+can gap -> 1, hang de be -> 1.
+-> P
+
+39. v4_0228383:
+-/anchor_near/lab	-/-/-	0	0
+"Nho ban nhe: khu de xe khong phai diem giao. Giao sang truy tim noi ke can moc phong thuc nghiem hon ca voi. Chieu nay giao cung duoc. Khong can nhe tay. Thanks robot."
+noi ke can moc phong thuc nghiem hon ca -> -/anchor_near/lab.
+chieu nay giao cung duoc -> 0, khong can nhe tay -> 0.
+-> P
+
+40. v4_0228388:
+sports/-/-	-/-/-	0	0
+"chao diem giao khu luyen tap teh duc hte thao hang bo dam minh hi luot qua khu vuc ram y te cham soc sinh vien khong dung chan khong can di ngang loi vao cam on nhieu"
+khu luyen tap the duc the thao -> sports/-/-.
+hang bao dam -> 0, urgent -> 0.
+-> P
+
+41. v4_0228392:
+-/north_most/-	-/-/-	0	0
+"ROBOT GIAO HANG OI, DUNG DE O CHO GUI XE MAY. KHONG CAN GAP. SUA LAI: KHONG PHAI NHA O SINH VIEN, DICH DEN LA CAN PHONG NAM CAO NHAT TREN BAN DO. CAM ON NHIEU."
+cao nhat tren ban do -> -/north_most/-.
+khong can gap -> 0, fragile -> 0.
+-> P
+
+42. v4_0228394:
+-/anchor_near/office	dorm/-/-	0	0
+"chao ban, dung di qua bai xe sinh vien. truoc tien qua khu nha o sinh vien nhan chong giao trinh, sau do huan luyen vien doi tuyen the thao truong dang doi mau vat tai noi ngay canh phong mot cua. cu tu tu, khong voi. hang chac chan, khong de vo. thanks robot."
+khu nha o sinh vien -> dorm/-/-.
+noi ngay canh phong mot cua -> -/anchor_near/office.
+khong voi -> 0, khong de vo -> 0.
+-> P
+
+43. v4_0228402:
+-/anchor_near/clinic	office/-/-	1	0
+"Phien Ban Chut: Trung Tam Thi Nghiem Thi Khong Can Toi. Sau Khi Lay Ho So O Van Phong, Chuyen Giup Tai Nghe Qua Nut It Buoc Nhat Tu Trung Tam Y Te. Uu Tien Giao Truoc. Do Khong Vo Duoc Dau. Nho Ky Nhe."
+lay ho so o van phong -> office/-/-.
+nut it buoc nhat tu trung tam y te -> -/anchor_near/clinic.
+uu tien giao truoc -> 1, do khong vo duoc dau -> 0.
+-> P
+
+44. v4_0228410:
+canteen/-/-	-/-/-	0	0
+"Chao robot! khong gap dau. Quen don cu o lop ly thuyet di, dua hop thuoc cho co cap duong. Nho nhe."
+co cap duong -> canteen/-/-.
+khong gap dau -> 0, fragile -> 0.
+-> P
+
+45. v4_0228415:
+clinic/-/-	-/-/-	1	0
+"Chao khu thu vien khong phai diem giao chuyen nay xuat phat tu bo phan mot cua giai quyet ho so di tiep khong phai diem cuoi thay doi khong giao phong an nua sach tham khao gui ra phong cham soc suc khoe ban dau toc hanh nhe nho ky nhe"
+phong cham soc suc khoe ban dau -> clinic/-/-.
+toc hanh nhe -> 1, fragile -> 0.
+-> P
+
+46. v4_0228433:
+-/anchor_near/gate	dorm/-/-	0	0
+"chao robot! khong phai giao nha giu x.e huong nay chi chay song song voi nha the chat, khong re vao do. ve toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc. khong vi phai nhanh. nho ky nhe."
+Wait! Let's examine:
+"ve toa nha o canh cong truong nhat gioa tui so cuu."
+Wait! Does "toa nha o canh cong truong nhat" mean:
+A) goal is dorm/near/gate?
+Wait! In Vietnamese, "nha o" means residential building / dormitory? Or does "toa nha o canh cong truong nhat" mean "toa nha [nam] o canh cong truong nhat"?
+Wait, why did they say "toa nha o canh cong truong nhat gioa tui so cuu. can ghe day nha ktx truoc"?
+Notice: "day nha ktx" is dorm! If via is "day nha ktx", why would goal also be dorm? Or could goal just be "toa nha o canh cong truong nhat" where "toa nha o" = dorm, meaning:
+"ve toa nha o [ma] canh cong truong nhat" -> dorm/near/gate?
+Wait, if it's dorm/near/gate, then provided is `-/anchor_near/gate`, which omitted the type `dorm`!
+Wait, but is "toa nha o" a dorm or "toa nha [o canh...]"?
+Let's see: "toa nha" = building. "o" = at / located at.
+"toa nha o canh cong truong nhat" -> "toa nha o gan cong truong nhat".
+Wait! Could it be ambiguous whether "toa nha o" means "dorm" or "building located at"?
+Wait, look at other examples:
+v4_0228188: "Ban hay qua toa nha o cua sinh vien truoc" -> "toa nha o cua sinh vien"
+v4_0228128: "toa nha o ua sinh vien" -> "toa nha o cua sinh vien"
+v4_0228160: "toa nha o cua sinh vien" -> "toa nha o cua sinh vien"
+They all say "toa nha o cua sinh vien"! None says just "toa nha o" to mean dorm.
+Wait, what about v4_0228265: "nha o sinh vien" -> has "sinh vien".
+v4_0228392: "nha o sinh vien" -> has "sinh vien".
+v4_0228394: "nha o sinh vien" -> has "sinh vien".
+When "sinh vien" is absent, "toa nha o canh cong truong nhat" means: "toa nha" (building) "o canh cong truong nhat" (at/next to the campus gate the closest)!
+Wait, does "toa nha" have a type in the schema?
+Types: library, dorm, sports, clinic, canteen, parking, lecture, lab, office, gate.
+"toa nha" is NOT in the type list! The rule says:
+"anchor_near means closest location to anchor regardless of type".
+So when a generic place like "khu vuc", "toa", "can phong", "toa nha", "dia diem", "nut", "o" is mentioned next to an anchor, the type is `-`!
+For example:
+v4_0228247: "toa gan ke nha an nhat" -> `-/anchor_near/canteen`!
+v4_0228350: "toa nao sat vach phong cong vu" -> `-/anchor_near/office`!
+v4_0228269: "noi ngay sat khu hoc tap" -> `-/anchor_near/lecture`!
+v4_0228375: "dia diem canh ham gui xe nhat" -> `-/anchor_near/parking`!
+v4_0228394: "noi ngay canh phong mot cua" -> `-/anchor_near/office`!
+v4_0228402: "nut it buoc nhat tu trung tam y te" -> `-/anchor_near/clinic`!
+v4_0228433: "toa nha o canh cong truong nhat" -> "toa nha" (building) "o" (located) "canh cong truong nhat" (next to campus gate the most)!
+This is 100% consistent and unambiguous: "toa nha [nam] o canh cong truong nhat" -> `-/anchor_near/gate`!
+So v4_0228433 is P!
+
+47. v4_0228438:
+-/south_most/-	sports/-/-	1	0
+"Xin chao! viec nay khan cap. Di den san bong ro lay chia khoa phong da roi minh muon giao hop phan den toa nao chon khu vuc vuot qua moi diem khac ve phia nam. Lop ly thuyet hom nay dong cua. Hang khong de vo dau. Nguoi nhan da roi loi ra vao roi. Tks."
+san bong ro -> sports/-/-.
+vuot qua moi diem khac ve phia nam -> -/south_most/-.
+khan cap -> 1, khong de vo -> 0.
+-> P
+
+48. v4_0228440:
+-/anchor_near/gate	lab/-/-	1	0
+"Xin Cho Khong Phai Giao Phong Hoc Thay Day The Duc Hien Dang O Vi Tri Nam Gan Cong Phia Truoc Nhat Nho Chuyen Ho Chia Khoa Xe Qua Do Tuy Nhien Hay Vong Qua Xuong Lay Tui Do Giat Truoc Khan Cap Khong Can Nhe Tay Tks"
+vong qua xuong -> lab/-/-.
+vi tri nam gan cong phia truoc nhat -> -/anchor_near/gate.
+khan cap -> 1, khong can nhe tay -> 0.
+-> P
+
+49. v4_0228461:
+gate/-/-	-/-/-	1	1
+"ROBOT OI THAY TRUONG PHONG O COGN A CAN KHAY COM XE CHI CHAY NGANG TAM COH DE XE DO KHONG PHAI CHO MUON TOI BEN TRONG LA DO THUY TNIH VIEC NAY KAN CAP CAM ON BAN NHE"
+cong a -> gate/-/-.
+do thuy tinh -> 1, kan cap -> 1.
+-> P
+
+50. v4_0228466:
+sports/near/clinic	-/-/-	0	0
+"DON #7652 KHONG LIEN QUAN GI TOI VAN PHONG KHOA DO CUNG KHONG SAO KHI NAO TIEN THI GIAO CHUYEN NAY DI NHA DA NANG GAN VOI KHU Y TE HON CAM ON ROBOT"
+nha da nang gan voi khu y te hon -> sports/near/clinic.
+khi nao tien thi giao -> 0, do cung khong sao -> 0.
+-> P
+
+Let's double-check v4_0228124:
+Text: "phien ban chut: doan duong chay qua phnog cuu thuong, khong co y dinh dung lai. can tin ti khong can toi. tranh cong ra vao ra nhe. cap nhat: bo thu vien truong, xin edm cuc pin xuong nha giu xe o ren. lam nhanh giup minh. cam on robot."
+Provided: parking/north/-	-/-/-	1	0
+"nha giu xe o ren" -> "o ren" is either typo for "o tren", but even if "o tren", does "o tren" mean "north" or "north_most"?
+Remember the prompt:
+"Map convention: cao nhat/tren cung = north_most; thap nhat/duoi cung = south_most; cot dau = west_most; cot cuoi = east_most. These conventions are valid, not height ambiguity."
+Notice it specifies: "tren cung = north_most", while "o tren" is ambiguous (could be extreme or ordinary direction, or corrupted typo "o ren").
+And prompt instructions state:
+"Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"Missing or destroyed direction words are U, do not guess near or far."
+Here, "o ren" is clearly a destroyed/unreadable/ambiguous direction word, perfectly matching U!
+
+Everything is fully verified and matches all constraints. Output format:
+Exactly one TSV line per id: id<TAB>P|F|U<TAB>short reason. P uses reason '-'. No markdown, no summary.v4_0228081	P	-
+v4_0228084	P	-
+v4_0228099	P	-
+v4_0228124	U	Destroyed or ambiguous direction text 'o ren' for parking
+v4_0228128	P	-
+v4_0228150	P	-
+v4_0228160	P	-
+v4_0228162	P	-
+v4_0228164	P	-
+v4_0228188	P	-
+v4_0228189	P	-
+v4_0228195	P	-
+v4_0228212	P	-
+v4_0228219	P	-
+v4_0228226	P	-
+v4_0228229	P	-
+v4_0228232	P	-
+v4_0228241	P	-
+v4_0228242	P	-
+v4_0228247	P	-
+v4_0228260	P	-
+v4_0228265	P	-
+v4_0228269	P	-
+v4_0228288	P	-
+v4_0228289	P	-
+v4_0228308	P	-
+v4_0228311	P	-
+v4_0228317	P	-
+v4_0228320	P	-
+v4_0228323	P	-
+v4_0228327	P	-
+v4_0228333	P	-
+v4_0228335	P	-
+v4_0228337	P	-
+v4_0228350	P	-
+v4_0228371	P	-
+v4_0228375	P	-
+v4_0228377	P	-
+v4_0228383	P	-
+v4_0228388	P	-
+v4_0228392	P	-
+v4_0228394	P	-
+v4_0228402	P	-
+v4_0228410	P	-
+v4_0228415	P	-
+v4_0228433	P	-
+v4_0228438	P	-
+v4_0228440	P	-
+v4_0228461	P	-
+v4_0228466	P	-
+
+STDERR:

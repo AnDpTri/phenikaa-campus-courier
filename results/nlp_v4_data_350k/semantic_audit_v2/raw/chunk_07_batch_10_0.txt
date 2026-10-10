@@ -1,0 +1,52 @@
+v4_0064646	P	-
+v4_0064655	P	-
+v4_0064665	P	-
+v4_0064680	P	-
+v4_0064702	P	-
+v4_0064749	P	-
+v4_0064754	P	-
+v4_0064762	P	-
+v4_0064774	P	-
+v4_0064782	P	-
+v4_0064785	P	-
+v4_0064790	P	-
+v4_0064796	P	-
+v4_0064804	P	-
+v4_0064821	F	urgent: provided 0, corrected 1 ('ngay di')
+v4_0064832	P	-
+v4_0064841	P	-
+v4_0064842	P	-
+v4_0064843	P	-
+v4_0064860	P	-
+v4_0064873	P	-
+v4_0064876	P	-
+v4_0064895	P	-
+v4_0064901	P	-
+v4_0064903	P	-
+v4_0064904	P	-
+v4_0064910	P	-
+v4_0064915	P	-
+v4_0064927	P	-
+v4_0064932	P	-
+v4_0064938	P	-
+v4_0064941	P	-
+v4_0064949	P	-
+v4_0064966	P	-
+v4_0064969	P	-
+v4_0064978	P	-
+v4_0064986	P	-
+v4_0065017	P	-
+v4_0065034	P	-
+v4_0065062	P	-
+v4_0065063	P	-
+v4_0065070	P	-
+v4_0065071	P	-
+v4_0065073	U	Unclear recipient/goal type: 'lop dang hoc' could refer to a lecture class or other location; only relative anchor 'lab' is clear.
+v4_0065105	P	-
+v4_0065125	P	-
+v4_0065130	P	-
+v4_0065134	P	-
+v4_0065147	F	urgent: provided 0, corrected 1 ('ngay')
+v4_0065151	F	urgent: provided 0, corrected 1 ('ngay')
+
+STDERR:

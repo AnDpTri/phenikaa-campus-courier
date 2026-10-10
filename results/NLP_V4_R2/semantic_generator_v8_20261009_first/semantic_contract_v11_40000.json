@@ -1,0 +1,47 @@
+{
+  "status": "PROGRAMMATIC_CONTRACT_AUDIT_PENDING_SEMANTIC_REVIEW",
+  "population": 40000,
+  "quality_ref_rows": 40000,
+  "counts": {
+    "n": 40000,
+    "via_present": 18947,
+    "accented": 23502,
+    "double_noun": 0,
+    "temporal_nominal_mismatch": 0,
+    "awkward_buu_kien": 0,
+    "holdout_frame": 0,
+    "via_explicit": 16663,
+    "no_via_take": 15400,
+    "correction": 23982,
+    "distractor": 14792,
+    "spatial": 28686,
+    "none_with_pickup_verb": 9246,
+    "via_without_before": 9327,
+    "audit_sample_n": 311
+  },
+  "issues": {},
+  "token_p50": 74,
+  "token_p90": 94,
+  "original_p50": 63,
+  "original_p90": 85,
+  "strata_counts": {
+    "goal_anchor_near": 4902,
+    "goal_near_far": 9339,
+    "goal_most": 5007,
+    "goal_direction": 6674,
+    "via_near_far": 3133,
+    "via_direction": 3179,
+    "via_named_no_before": 6237,
+    "via_none_take": 9246,
+    "both_flags": 8271,
+    "neither_flag": 11945,
+    "past_correction": 23982,
+    "accents": 23502,
+    "no_accents": 16498
+  },
+  "pointers": {
+    "data": "D:\\phenikaa\\results\\NLP_V4_R2\\semantic_generator_v8_20261009_first\\specialized_new_40000_v11.jsonl",
+    "sample": "D:\\phenikaa\\results\\NLP_V4_R2\\semantic_generator_v8_20261009_first\\semantic_stratified_v11_300.jsonl"
+  },
+  "spec": "Schema + item fragility + map references + known grammar patterns checked, independent semantic judgement pending."
+}

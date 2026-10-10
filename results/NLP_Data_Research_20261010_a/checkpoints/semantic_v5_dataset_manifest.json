@@ -1,0 +1,229 @@
+{
+  "experiment": "sf5_counterfactual_8way_family_split",
+  "created_utc": "2026-10-09T22:29:40.263281+00:00",
+  "seed": 2026101055,
+  "groups": 1000,
+  "total_rows": 8000,
+  "family_assignment": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "challenge": [
+      6,
+      7
+    ]
+  },
+  "dataset": {
+    "candidate_train": {
+      "n": 6000,
+      "groups": 750,
+      "positive_rates": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "accent_fraction": 0.5213,
+      "feature_conditional": {
+        "lay": {
+          "support": 4000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "nhan": {
+          "support": 4750,
+          "via": 0.4737,
+          "fragile": 0.5,
+          "urgent": 0.5263
+        },
+        "truoc": {
+          "support": 2032,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "huy": {
+          "support": 3750,
+          "via": 0.5,
+          "fragile": 0.4667,
+          "urgent": 0.4667
+        },
+        "khong": {
+          "support": 4592,
+          "via": 0.3972,
+          "fragile": 0.4236,
+          "urgent": 0.475
+        },
+        "vo": {
+          "support": 2000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "gap": {
+          "support": 2000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "khan": {
+          "support": 2000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "nhay": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "sau": {
+          "support": 1104,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        }
+      },
+      "mode_counts": {
+        "goal_anchor_near": 456,
+        "via_far": 504,
+        "goal_near": 416,
+        "via_west": 600,
+        "goal_named": 2240,
+        "via_near": 520,
+        "goal_east": 488,
+        "via_named": 2904,
+        "goal_north": 552,
+        "goal_far": 512,
+        "via_south": 472,
+        "goal_west": 512,
+        "via_east": 440,
+        "via_north": 560,
+        "goal_north_most": 408,
+        "goal_south": 416
+      },
+      "avg_tokens": 76.4,
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v5_balanced_train.jsonl",
+      "sha256": "ff77398f87159e2ef04c7bfd74b7e0e9360bec3d7fb03c7f7ce53ce2badb5c43"
+    },
+    "family_challenge": {
+      "n": 2000,
+      "groups": 250,
+      "positive_rates": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "accent_fraction": 0.624,
+      "feature_conditional": {
+        "lay": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "nhan": {
+          "support": 2000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "truoc": {
+          "support": 1504,
+          "via": 0.6649,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "huy": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "khong": {
+          "support": 1528,
+          "via": 0.3455,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "vo": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "gap": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "khan": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        },
+        "nhay": {
+          "support": 0,
+          "via": null,
+          "fragile": null,
+          "urgent": null
+        },
+        "sau": {
+          "support": 1000,
+          "via": 0.5,
+          "fragile": 0.5,
+          "urgent": 0.5
+        }
+      },
+      "mode_counts": {
+        "goal_named": 840,
+        "via_named": 1048,
+        "goal_far": 144,
+        "via_east": 216,
+        "goal_near": 128,
+        "goal_anchor_near": 152,
+        "goal_north": 160,
+        "via_north": 176,
+        "via_west": 168,
+        "via_south": 120,
+        "via_near": 104,
+        "via_far": 168,
+        "goal_west": 144,
+        "goal_south": 120,
+        "goal_east": 160,
+        "goal_north_most": 152
+      },
+      "avg_tokens": 74.8,
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v5_family_challenge.jsonl",
+      "sha256": "0f372dc15ada00eeb31194003e799e2dcde59727c5656d62201da3e8375c9131"
+    }
+  },
+  "exact_overlap_prior_scratch_epoch1": 0,
+  "frozen_generator_read_only_sha256": "5379ebcb7083bf15488fe713fbe9378a27b57c7b4ea38ba538269960902e437a",
+  "qa_checks": [
+    "8 label combinations per base scene",
+    "within-scene same goal, same target words",
+    "role complement 4/8 per dimension",
+    "MAX_TOKENS",
+    "no exact duplicates",
+    "template-family holdout",
+    "no exact overlap original 200k",
+    "all 8 spec_labels defined"
+  ],
+  "limits": [
+    "No human annotation audit",
+    "Template-family holdout is still synthetic, not real external test",
+    "Semantics of spatial targets require future manual QA",
+    "Do not train on family_challenge data; avoid using it to select checkpoints",
+    "No active train/source/model changes"
+  ],
+  "elapsed_s": 15.9
+}

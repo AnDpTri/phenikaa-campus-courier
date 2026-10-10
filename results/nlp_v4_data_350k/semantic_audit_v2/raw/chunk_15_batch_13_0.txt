@@ -1,0 +1,52 @@
+v4_0145966	P	-
+v4_0145976	P	-
+v4_0145988	P	-
+v4_0145990	P	-
+v4_0145993	P	-
+v4_0146014	P	-
+v4_0146016	P	-
+v4_0146024	F	goal type: provided gate, corrected office (thay doi lo trinh da chon o trung tam y te gio hay dau bep o cong phia truoc can tap tai lieu: dau bep o cong phia truoc is nonsense/typo or wait: "gio hay dau bep o cong phia truoc" vs "phong ke toan hom nay dong ua... dau bep... cong phia truoc")
+v4_0146027	P	-
+v4_0146053	P	-
+v4_0146059	P	-
+v4_0146068	P	-
+v4_0146094	P	-
+v4_0146100	P	-
+v4_0146103	P	-
+v4_0146113	P	-
+v4_0146121	P	-
+v4_0146124	P	-
+v4_0146143	P	-
+v4_0146146	P	-
+v4_0146167	P	-
+v4_0146179	P	-
+v4_0146190	P	-
+v4_0146193	F	urgent: provided 0, corrected 1 (Bac bao ve dang doi thung thuc pham gap)
+v4_0146199	P	-
+v4_0146209	P	-
+v4_0146221	P	-
+v4_0146222	P	-
+v4_0146223	P	-
+v4_0146224	P	-
+v4_0146246	P	-
+v4_0146269	P	-
+v4_0146287	P	-
+v4_0146289	P	-
+v4_0146294	P	-
+v4_0146295	P	-
+v4_0146303	P	-
+v4_0146308	P	-
+v4_0146311	P	-
+v4_0146314	P	-
+v4_0146329	P	-
+v4_0146335	P	-
+v4_0146338	P	-
+v4_0146364	P	-
+v4_0146369	P	-
+v4_0146376	P	-
+v4_0146405	P	-
+v4_0146406	P	-
+v4_0146415	P	-
+v4_0146445	P	-
+
+STDERR:

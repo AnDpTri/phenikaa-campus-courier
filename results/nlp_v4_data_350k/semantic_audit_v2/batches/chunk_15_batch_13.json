@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_15_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0145966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145990",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146016",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146024",
+      "status": "F",
+      "reason": "goal type: provided gate, corrected office (thay doi lo trinh da chon o trung tam y te gio hay dau bep o cong phia truoc can tap tai lieu: dau bep o cong phia truoc is nonsense/typo or wait: \"gio hay dau bep o cong phia truoc\" vs \"phong ke toan hom nay dong ua... dau bep... cong phia truoc\")"
+    },
+    {
+      "id": "v4_0146027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146193",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 (Bac bao ve dang doi thung thuc pham gap)"
+    },
+    {
+      "id": "v4_0146199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0146445",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

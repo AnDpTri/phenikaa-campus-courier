@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_07_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0065154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065368",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065399",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065446",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065524",
+      "status": "F",
+      "reason": "goal ref: south_most -> - (hang cuoi indicates row, ambiguous between south_most or ordinary direction/matrix row without column context, but here provided south_most vs 'o nam o hang cuoi')"
+    },
+    {
+      "id": "v4_0065535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065555",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065570",
+      "status": "F",
+      "reason": "goal type: clinic -> - (nhan vien y te nho gui ket nuoc ngot to unknown recipient location, clinic is sender role not goal destination)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "candidate_compositional_counterfactual_v2",
+  "generated_at": "2026-10-09T19:29:47.242674+00:00",
+  "pairs": 1000,
+  "rows": 2000,
+  "positive_via_pct": 50.0,
+  "fragile_positive_pct": 50.0,
+  "urgent_positive_pct": 50.0,
+  "accented_pct": 75.0,
+  "via_given_words": {
+    "lay": 0.5762,
+    "nhan": 0.5,
+    "huy": null,
+    "khong": 0.4467,
+    "truoc": 1.0
+  },
+  "pass_all_label_checks": true,
+  "limitations": [
+    "Only named target modes; spatial counterfactual variants remain to be built",
+    "Generator-created labels verified structurally, not human-audited",
+    "Candidate data is for research only; not incorporated into active 5-epoch run"
+  ],
+  "candidate_jsonl": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\counterfactual_candidate_v2.jsonl",
+  "sha256": "ddba0b08e4aea651d696ed68af9c5c8fd1f48367d81d3158b764cc7c7c65515d"
+}

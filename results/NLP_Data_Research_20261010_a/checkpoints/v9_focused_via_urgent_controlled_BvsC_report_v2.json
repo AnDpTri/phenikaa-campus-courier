@@ -1,0 +1,593 @@
+{
+  "experiment": "V9-focused B existing baseline versus C focused semantic repair",
+  "utc": "2026-10-10T02:36:55.950810+00:00",
+  "design": {
+    "same_initial_weights": true,
+    "same_V9_previous_1000": true,
+    "same_synthetic_generator": true,
+    "same_real_train": true,
+    "same_optimizer_hparams": true,
+    "same_training_rng": true,
+    "new_semantic_replacements": 600,
+    "optimizer_updates": 282
+  },
+  "baseline_B_checkpoint": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_pilot_B_continuation.pt",
+  "experimental_C_checkpoint": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_focused_C_seed0_continuation_v2.pt",
+  "manifest": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_focused_BvsC_sampling_manifest_v2.json",
+  "old_B": {
+    "v2_new": {
+      "n": 1800,
+      "exact": {
+        "goal": 0.82167,
+        "via": 0.89556,
+        "urgent": 0.72611,
+        "fragile": 0.90611,
+        "all": 0.49944
+      },
+      "urgent": {
+        "counts": {
+          "tn": 956,
+          "fn": 453,
+          "tp": 351,
+          "fp": 40
+        },
+        "sensitivity": 0.43657,
+        "specificity": 0.95984,
+        "false_positive_rate": 0.04016,
+        "false_negative_rate": 0.56343
+      },
+      "fragile": {
+        "counts": {
+          "fp": 169,
+          "tn": 916,
+          "tp": 715
+        },
+        "sensitivity": 1.0,
+        "specificity": 0.84424,
+        "false_positive_rate": 0.15576,
+        "false_negative_rate": 0.0
+      },
+      "via": {
+        "counts": {
+          "tn": 866,
+          "tp": 785,
+          "fn": 139,
+          "fp": 10
+        },
+        "sensitivity": 0.84957,
+        "specificity": 0.98858,
+        "false_positive_rate": 0.01142,
+        "false_negative_rate": 0.15043
+      }
+    },
+    "weighted_new": {
+      "n": 1800,
+      "exact": {
+        "goal": 0.79611,
+        "via": 0.80389,
+        "urgent": 0.87833,
+        "fragile": 0.83611,
+        "all": 0.47
+      },
+      "urgent": {
+        "counts": {
+          "tp": 595,
+          "fn": 200,
+          "tn": 986,
+          "fp": 19
+        },
+        "sensitivity": 0.74843,
+        "specificity": 0.98109,
+        "false_positive_rate": 0.01891,
+        "false_negative_rate": 0.25157
+      },
+      "fragile": {
+        "counts": {
+          "tn": 928,
+          "fn": 192,
+          "tp": 577,
+          "fp": 103
+        },
+        "sensitivity": 0.75033,
+        "specificity": 0.9001,
+        "false_positive_rate": 0.0999,
+        "false_negative_rate": 0.24967
+      },
+      "via": {
+        "counts": {
+          "tp": 815,
+          "tn": 725,
+          "fn": 168,
+          "fp": 92
+        },
+        "sensitivity": 0.82909,
+        "specificity": 0.88739,
+        "false_positive_rate": 0.11261,
+        "false_negative_rate": 0.17091
+      }
+    },
+    "hard_new": {
+      "n": 1200,
+      "exact": {
+        "goal": 0.82,
+        "via": 0.74583,
+        "urgent": 1.0,
+        "fragile": 0.82833,
+        "all": 0.53417
+      },
+      "urgent": {
+        "counts": {
+          "tp": 585,
+          "tn": 615
+        },
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0
+      },
+      "fragile": {
+        "counts": {
+          "tn": 674,
+          "tp": 320,
+          "fn": 206
+        },
+        "sensitivity": 0.60837,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.39163
+      },
+      "via": {
+        "counts": {
+          "fp": 60,
+          "tn": 525,
+          "tp": 447,
+          "fn": 168
+        },
+        "sensitivity": 0.72683,
+        "specificity": 0.89744,
+        "false_positive_rate": 0.10256,
+        "false_negative_rate": 0.27317
+      }
+    },
+    "v8_family_fixed1200": {
+      "n": 1200,
+      "exact": {
+        "goal": 0.96917,
+        "via": 0.62417,
+        "urgent": 0.5,
+        "fragile": 0.79,
+        "all": 0.23917
+      },
+      "urgent": {
+        "counts": {
+          "fp": 600,
+          "tp": 600
+        },
+        "sensitivity": 1.0,
+        "specificity": 0.0,
+        "false_positive_rate": 1.0,
+        "false_negative_rate": 0.0
+      },
+      "fragile": {
+        "counts": {
+          "fp": 244,
+          "tp": 592,
+          "tn": 356,
+          "fn": 8
+        },
+        "sensitivity": 0.98667,
+        "specificity": 0.59333,
+        "false_positive_rate": 0.40667,
+        "false_negative_rate": 0.01333
+      },
+      "via": {
+        "counts": {
+          "tn": 393,
+          "fn": 239,
+          "fp": 207,
+          "tp": 361
+        },
+        "sensitivity": 0.60167,
+        "specificity": 0.655,
+        "false_positive_rate": 0.345,
+        "false_negative_rate": 0.39833
+      }
+    },
+    "v9_focused_heldout192": {
+      "n": 192,
+      "exact": {
+        "goal": 0.96875,
+        "via": 0.71875,
+        "urgent": 0.79688,
+        "fragile": 0.55208,
+        "all": 0.26562
+      },
+      "urgent": {
+        "counts": {
+          "tp": 63,
+          "tn": 90,
+          "fn": 25,
+          "fp": 14
+        },
+        "sensitivity": 0.71591,
+        "specificity": 0.86538,
+        "false_positive_rate": 0.13462,
+        "false_negative_rate": 0.28409
+      },
+      "fragile": {
+        "counts": {
+          "tn": 40,
+          "tp": 66,
+          "fp": 86
+        },
+        "sensitivity": 1.0,
+        "specificity": 0.31746,
+        "false_positive_rate": 0.68254,
+        "false_negative_rate": 0.0
+      },
+      "via": {
+        "counts": {
+          "tn": 103,
+          "tp": 36,
+          "fn": 34,
+          "fp": 19
+        },
+        "sensitivity": 0.51429,
+        "specificity": 0.84426,
+        "false_positive_rate": 0.15574,
+        "false_negative_rate": 0.48571
+      }
+    }
+  },
+  "new_C": {
+    "v2_new": {
+      "n": 1800,
+      "exact": {
+        "goal": 0.82,
+        "via": 0.90333,
+        "urgent": 0.725,
+        "fragile": 0.91056,
+        "all": 0.49833
+      },
+      "urgent": {
+        "counts": {
+          "tn": 949,
+          "fn": 448,
+          "tp": 356,
+          "fp": 47
+        },
+        "sensitivity": 0.44279,
+        "specificity": 0.95281,
+        "false_positive_rate": 0.04719,
+        "false_negative_rate": 0.55721
+      },
+      "fragile": {
+        "counts": {
+          "fp": 161,
+          "tn": 924,
+          "tp": 715
+        },
+        "sensitivity": 1.0,
+        "specificity": 0.85161,
+        "false_positive_rate": 0.14839,
+        "false_negative_rate": 0.0
+      },
+      "via": {
+        "counts": {
+          "tn": 857,
+          "tp": 814,
+          "fp": 19,
+          "fn": 110
+        },
+        "sensitivity": 0.88095,
+        "specificity": 0.97831,
+        "false_positive_rate": 0.02169,
+        "false_negative_rate": 0.11905
+      }
+    },
+    "weighted_new": {
+      "n": 1800,
+      "exact": {
+        "goal": 0.78167,
+        "via": 0.82278,
+        "urgent": 0.87722,
+        "fragile": 0.7,
+        "all": 0.39111
+      },
+      "urgent": {
+        "counts": {
+          "tp": 594,
+          "fn": 201,
+          "tn": 985,
+          "fp": 20
+        },
+        "sensitivity": 0.74717,
+        "specificity": 0.9801,
+        "false_positive_rate": 0.0199,
+        "false_negative_rate": 0.25283
+      },
+      "fragile": {
+        "counts": {
+          "tn": 939,
+          "fn": 448,
+          "tp": 321,
+          "fp": 92
+        },
+        "sensitivity": 0.41743,
+        "specificity": 0.91077,
+        "false_positive_rate": 0.08923,
+        "false_negative_rate": 0.58257
+      },
+      "via": {
+        "counts": {
+          "tp": 866,
+          "tn": 712,
+          "fn": 117,
+          "fp": 105
+        },
+        "sensitivity": 0.88098,
+        "specificity": 0.87148,
+        "false_positive_rate": 0.12852,
+        "false_negative_rate": 0.11902
+      }
+    },
+    "hard_new": {
+      "n": 1200,
+      "exact": {
+        "goal": 0.815,
+        "via": 0.7775,
+        "urgent": 1.0,
+        "fragile": 0.56667,
+        "all": 0.36583
+      },
+      "urgent": {
+        "counts": {
+          "tp": 585,
+          "tn": 615
+        },
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0
+      },
+      "fragile": {
+        "counts": {
+          "tn": 674,
+          "fn": 520,
+          "tp": 6
+        },
+        "sensitivity": 0.01141,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.98859
+      },
+      "via": {
+        "counts": {
+          "fp": 81,
+          "tn": 504,
+          "tp": 506,
+          "fn": 109
+        },
+        "sensitivity": 0.82276,
+        "specificity": 0.86154,
+        "false_positive_rate": 0.13846,
+        "false_negative_rate": 0.17724
+      }
+    },
+    "v8_family_fixed1200": {
+      "n": 1200,
+      "exact": {
+        "goal": 0.98583,
+        "via": 0.63167,
+        "urgent": 0.54833,
+        "fragile": 0.7975,
+        "all": 0.2925
+      },
+      "urgent": {
+        "counts": {
+          "fp": 542,
+          "tn": 58,
+          "tp": 600
+        },
+        "sensitivity": 1.0,
+        "specificity": 0.09667,
+        "false_positive_rate": 0.90333,
+        "false_negative_rate": 0.0
+      },
+      "fragile": {
+        "counts": {
+          "tn": 454,
+          "tp": 503,
+          "fp": 146,
+          "fn": 97
+        },
+        "sensitivity": 0.83833,
+        "specificity": 0.75667,
+        "false_positive_rate": 0.24333,
+        "false_negative_rate": 0.16167
+      },
+      "via": {
+        "counts": {
+          "tn": 343,
+          "fn": 184,
+          "fp": 257,
+          "tp": 416
+        },
+        "sensitivity": 0.69333,
+        "specificity": 0.57167,
+        "false_positive_rate": 0.42833,
+        "false_negative_rate": 0.30667
+      }
+    },
+    "v9_focused_heldout192": {
+      "n": 192,
+      "exact": {
+        "goal": 0.98958,
+        "via": 0.73438,
+        "urgent": 0.88542,
+        "fragile": 1.0,
+        "all": 0.61979
+      },
+      "urgent": {
+        "counts": {
+          "tp": 72,
+          "tn": 98,
+          "fn": 16,
+          "fp": 6
+        },
+        "sensitivity": 0.81818,
+        "specificity": 0.94231,
+        "false_positive_rate": 0.05769,
+        "false_negative_rate": 0.18182
+      },
+      "fragile": {
+        "counts": {
+          "tn": 126,
+          "tp": 66
+        },
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0
+      },
+      "via": {
+        "counts": {
+          "tn": 103,
+          "tp": 38,
+          "fn": 32,
+          "fp": 19
+        },
+        "sensitivity": 0.54286,
+        "specificity": 0.84426,
+        "false_positive_rate": 0.15574,
+        "false_negative_rate": 0.45714
+      }
+    }
+  },
+  "comparison": {
+    "v2_new": {
+      "n": 1800,
+      "exact_all_delta_pp": -0.111,
+      "head_accuracy_delta_pp": {
+        "goal": -0.167,
+        "via": 0.777,
+        "urgent": -0.111,
+        "fragile": 0.445
+      },
+      "false_positive_rate_delta_pp": {
+        "via": 1.027,
+        "urgent": 0.703,
+        "fragile": -0.737
+      },
+      "false_negative_rate_delta_pp": {
+        "via": -3.138,
+        "urgent": -0.622,
+        "fragile": 0.0
+      }
+    },
+    "weighted_new": {
+      "n": 1800,
+      "exact_all_delta_pp": -7.889,
+      "head_accuracy_delta_pp": {
+        "goal": -1.444,
+        "via": 1.889,
+        "urgent": -0.111,
+        "fragile": -13.611
+      },
+      "false_positive_rate_delta_pp": {
+        "via": 1.591,
+        "urgent": 0.099,
+        "fragile": -1.067
+      },
+      "false_negative_rate_delta_pp": {
+        "via": -5.189,
+        "urgent": 0.126,
+        "fragile": 33.29
+      }
+    },
+    "hard_new": {
+      "n": 1200,
+      "exact_all_delta_pp": -16.834,
+      "head_accuracy_delta_pp": {
+        "goal": -0.5,
+        "via": 3.167,
+        "urgent": 0.0,
+        "fragile": -26.166
+      },
+      "false_positive_rate_delta_pp": {
+        "via": 3.59,
+        "urgent": 0.0,
+        "fragile": 0.0
+      },
+      "false_negative_rate_delta_pp": {
+        "via": -9.593,
+        "urgent": 0.0,
+        "fragile": 59.696
+      }
+    },
+    "v8_family_fixed1200": {
+      "n": 1200,
+      "exact_all_delta_pp": 5.333,
+      "head_accuracy_delta_pp": {
+        "goal": 1.666,
+        "via": 0.75,
+        "urgent": 4.833,
+        "fragile": 0.75
+      },
+      "false_positive_rate_delta_pp": {
+        "via": 8.333,
+        "urgent": -9.667,
+        "fragile": -16.334
+      },
+      "false_negative_rate_delta_pp": {
+        "via": -9.166,
+        "urgent": 0.0,
+        "fragile": 14.834
+      }
+    },
+    "v9_focused_heldout192": {
+      "n": 192,
+      "exact_all_delta_pp": 35.417,
+      "head_accuracy_delta_pp": {
+        "goal": 2.083,
+        "via": 1.563,
+        "urgent": 8.854,
+        "fragile": 44.792
+      },
+      "false_positive_rate_delta_pp": {
+        "via": 0.0,
+        "urgent": -7.693,
+        "fragile": -68.254
+      },
+      "false_negative_rate_delta_pp": {
+        "via": -2.857,
+        "urgent": -10.227,
+        "fragile": 0.0
+      }
+    }
+  },
+  "train_history_C": [
+    {
+      "epoch": 1,
+      "steps": 94,
+      "loss": 0.976202
+    },
+    {
+      "epoch": 2,
+      "steps": 94,
+      "loss": 0.610729
+    },
+    {
+      "epoch": 3,
+      "steps": 94,
+      "loss": 0.510646
+    }
+  ],
+  "runtime_seconds": 194.4,
+  "limitations": [
+    "One training seed, synthetic tests, no independent human holdout",
+    "Focused holdout uses unseen templates from same generator shell",
+    "No official validation/test read or trained on",
+    "Pilot only, never promote without independent validation"
+  ]
+}

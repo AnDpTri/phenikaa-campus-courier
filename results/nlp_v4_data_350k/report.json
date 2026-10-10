@@ -1,0 +1,72 @@
+{
+  "count": 350000,
+  "seed": 20261100,
+  "holdout": false,
+  "sampling_seed": 20261009,
+  "sample_count": 20,
+  "unique_case_insensitive_texts": 350000,
+  "duplicates_skipped": 0,
+  "sha256": "447c97b5a6719facee06422d5a61e37fbe36d76a2ea4c7518d95ac8e58d8bc19",
+  "bytes": 129317567,
+  "generator_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "distribution": {
+    "goal_type": {
+      "None": 180443,
+      "office": 16898,
+      "gate": 16865,
+      "clinic": 16930,
+      "dorm": 16939,
+      "sports": 17111,
+      "canteen": 16913,
+      "parking": 17106,
+      "lab": 16744,
+      "library": 17123,
+      "lecture": 16928
+    },
+    "goal_ref": {
+      "anchor_near": 108144,
+      "None": 108375,
+      "south_most": 18119,
+      "near": 17901,
+      "south": 7255,
+      "west_most": 18057,
+      "far": 14444,
+      "north_most": 18077,
+      "north": 7247,
+      "east_most": 18046,
+      "east": 7152,
+      "west": 7183
+    },
+    "via_type": {
+      "None": 174783,
+      "sports": 17210,
+      "lab": 17495,
+      "lecture": 17529,
+      "library": 17540,
+      "dorm": 17536,
+      "office": 17563,
+      "clinic": 17815,
+      "canteen": 17627,
+      "parking": 17366,
+      "gate": 17536
+    },
+    "via_ref": {
+      "None": 315123,
+      "near": 10426,
+      "far": 10613,
+      "east": 3463,
+      "north": 3513,
+      "south": 3546,
+      "west": 3316
+    },
+    "urgent": {
+      "False": 192194,
+      "True": 157806
+    },
+    "fragile": {
+      "False": 209635,
+      "True": 140365
+    }
+  },
+  "note": "Labels come from generator construction; schema checks do not prove semantic correctness. No training performed."
+}

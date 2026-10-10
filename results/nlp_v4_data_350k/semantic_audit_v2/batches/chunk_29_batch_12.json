@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_29_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0285609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285961",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0285994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286103",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (text: cho co giang vien without specifying lecture building)"
+    },
+    {
+      "id": "v4_0286105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0286125",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

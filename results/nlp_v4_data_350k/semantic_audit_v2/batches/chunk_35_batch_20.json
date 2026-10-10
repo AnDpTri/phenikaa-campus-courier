@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_35_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0349561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349624",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'canteen' (bep truong o cong trinh gan sat cong ngoai can khay com)"
+    },
+    {
+      "id": "v4_0349646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349668",
+      "status": "F",
+      "reason": "goal type: provided 'lecture' should be '-' (van chuyen bo dam cho thay giao)"
+    },
+    {
+      "id": "v4_0349711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349727",
+      "status": "F",
+      "reason": "goal type: provided 'sports' should be '-' (Thay Day The Duc Dang Cho Dung Cu)"
+    },
+    {
+      "id": "v4_0349731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349763",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349893",
+      "status": "F",
+      "reason": "goal type: provided 'library' should be '-' (phong ach dang cho con dau)"
+    },
+    {
+      "id": "v4_0349899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349961",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349984",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349991",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

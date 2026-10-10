@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_35_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0344067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344123",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344133",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Gap')"
+    },
+    {
+      "id": "v4_0344135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344151",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344199",
+      "status": "U",
+      "reason": "contradictory urgency phrases ('dang doi kien hang gap' vs 'Thong tha')"
+    },
+    {
+      "id": "v4_0344203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344235",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344381",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided office/-/- corrected office/head/lecture ('cho chuyen vien' is office, but text says 'cho chuyen vien' without head/direction mismatch or goal ref/anchor check) -> wait, check goal: 'cho chuyen vien' -> office/-/-. Wait, v4_0344381 labels are fully supported."
+    },
+    {
+      "id": "v4_0344385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0344392",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

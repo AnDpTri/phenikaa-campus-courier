@@ -1,0 +1,35 @@
+{
+  "seed_index": 0,
+  "epoch": 5,
+  "data_seed": 2026110505,
+  "rows": 200000,
+  "weighted_quotas": {
+    "v2_general": 84000,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "stats": {
+    "v2_general": 84000,
+    "via": 113888,
+    "accented": 65103,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "rejects": {
+    "known_grammar": 1665,
+    "repeat_opening": 140883,
+    "duplicate": 13
+  },
+  "unique_first8": 92030,
+  "max_first8_repeat": 35,
+  "sha256": "e1b76edc0d41043e01b4069a018eb716677971d61be9ce7fb004f680454698d1",
+  "data_file": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch_5EP_20261010_a\\scratch_s0_e05_seed2026110505.jsonl",
+  "roles_file": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch_5EP_20261010_a\\scratch_s0_e05_roles.jsonl",
+  "elapsed_s": 121.3
+}

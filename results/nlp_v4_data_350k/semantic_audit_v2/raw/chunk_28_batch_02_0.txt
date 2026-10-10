@@ -1,0 +1,52 @@
+v4_0270481	P	-
+v4_0270487	P	-
+v4_0270488	F	urgent: provided 0, corrected 1 ('Giang Vien Dang Doi Cai Hop Gap' conflicts with 'Cu Tu Tu, Khong Voi') -> wait: contradictory urgency phrase should be U
+v4_0270492	P	-
+v4_0270512	P	-
+v4_0270545	P	-
+v4_0270547	P	-
+v4_0270561	P	-
+v4_0270566	P	-
+v4_0270580	P	-
+v4_0270584	P	-
+v4_0270590	P	-
+v4_0270591	P	-
+v4_0270613	P	-
+v4_0270616	P	-
+v4_0270642	P	-
+v4_0270658	P	-
+v4_0270662	P	-
+v4_0270686	P	-
+v4_0270687	P	-
+v4_0270697	P	-
+v4_0270707	P	-
+v4_0270723	P	-
+v4_0270727	P	-
+v4_0270786	P	-
+v4_0270788	U	Garbled text 'ria phia cua ampus' missing directional indicator word
+v4_0270791	P	-
+v4_0270795	P	-
+v4_0270807	P	-
+v4_0270823	P	-
+v4_0270827	P	-
+v4_0270875	P	-
+v4_0270887	P	-
+v4_0270889	P	-
+v4_0270895	P	-
+v4_0270909	P	-
+v4_0270910	P	-
+v4_0270913	P	-
+v4_0270922	U	Garbled distance/anchor 'xa trm xa nhahn nhat' is ambiguous
+v4_0270923	P	-
+v4_0270941	P	-
+v4_0270946	P	-
+v4_0270951	P	-
+v4_0270955	P	-
+v4_0270973	U	Garbled text 'o diem nam tim diem co kinh do nho nhat' creates conflicting/unclear cues between south and west
+v4_0270976	P	-
+v4_0270987	P	-
+v4_0271012	F	via: provided canteen/near/office, corrected canteen/-/- ('gan phia toa hanh chinh' describes direction or relative location without anchor near semantics)
+v4_0271014	P	-
+v4_0271023	P	-
+
+STDERR:

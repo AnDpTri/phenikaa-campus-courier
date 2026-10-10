@@ -1,0 +1,52 @@
+v4_0207098	P	-
+v4_0207121	P	-
+v4_0207137	P	-
+v4_0207139	P	-
+v4_0207166	P	-
+v4_0207170	P	-
+v4_0207178	P	-
+v4_0207183	P	-
+v4_0207203	P	-
+v4_0207211	P	-
+v4_0207218	P	-
+v4_0207221	P	-
+v4_0207224	P	-
+v4_0207238	P	-
+v4_0207243	P	-
+v4_0207255	F	via: dorm/far/lab -> dorm/-/- ("Nho di ngang khu ky tuc xa lab lay may tinh bang truoc" lab belongs to tablet)
+v4_0207265	P	-
+v4_0207273	P	-
+v4_0207281	P	-
+v4_0207291	P	-
+v4_0207310	P	-
+v4_0207316	P	-
+v4_0207320	P	-
+v4_0207336	P	-
+v4_0207337	P	-
+v4_0207343	P	-
+v4_0207349	P	-
+v4_0207359	P	-
+v4_0207364	P	-
+v4_0207377	P	-
+v4_0207383	P	-
+v4_0207384	P	-
+v4_0207396	P	-
+v4_0207400	P	-
+v4_0207410	P	-
+v4_0207411	P	-
+v4_0207414	P	-
+v4_0207416	P	-
+v4_0207431	U	Uncertain destination: "mang ho op thuoc cho thay chu nhiem" does not specify lecture room or any campus building as goal
+v4_0207442	P	-
+v4_0207454	P	-
+v4_0207471	P	-
+v4_0207473	P	-
+v4_0207477	P	-
+v4_0207482	P	-
+v4_0207489	P	-
+v4_0207502	P	-
+v4_0207512	P	-
+v4_0207525	P	-
+v4_0207533	P	-
+
+STDERR:

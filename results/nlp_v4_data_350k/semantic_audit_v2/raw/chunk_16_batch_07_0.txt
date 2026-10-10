@@ -1,0 +1,52 @@
+v4_0153010	P	-
+v4_0153015	P	-
+v4_0153018	P	-
+v4_0153019	P	-
+v4_0153021	P	-
+v4_0153040	P	-
+v4_0153055	P	-
+v4_0153097	P	-
+v4_0153123	F	goal type: provided '-' should be 'library' ("thu thu o toa cach khu nha o sinh vien ngan nhat")
+v4_0153125	P	-
+v4_0153128	P	-
+v4_0153129	P	-
+v4_0153130	P	-
+v4_0153136	P	-
+v4_0153152	P	-
+v4_0153155	P	-
+v4_0153175	P	-
+v4_0153185	P	-
+v4_0153186	F	goal type: provided '-' should be 'dorm' ("sinh vien o ky tuc o khu vuc gan voi noi muon giao trinh nhat")
+v4_0153200	P	-
+v4_0153209	P	-
+v4_0153216	P	-
+v4_0153241	P	-
+v4_0153242	P	-
+v4_0153246	P	-
+v4_0153256	P	-
+v4_0153270	P	-
+v4_0153275	P	-
+v4_0153293	P	-
+v4_0153299	P	-
+v4_0153313	P	-
+v4_0153314	U	contradictory/garbled directional cues ("hoa oc ben trong la chen su kien hang nay di trung tam y te sat uong hon")
+v4_0153324	P	-
+v4_0153377	P	-
+v4_0153384	P	-
+v4_0153388	P	-
+v4_0153393	P	-
+v4_0153407	P	-
+v4_0153409	P	-
+v4_0153421	P	-
+v4_0153427	P	-
+v4_0153428	P	-
+v4_0153441	P	-
+v4_0153468	P	-
+v4_0153481	P	-
+v4_0153538	P	-
+v4_0153541	F	urgent: provided '0' should be '1' ("Dem phong bi cong van den bai xe o sat phong tu hoc ngay")
+v4_0153550	P	-
+v4_0153565	P	-
+v4_0153566	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0080021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080237",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080272",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080316",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080351",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080465",
+      "status": "U",
+      "reason": "Destination has no clear building type/goal specified (\"thay chu nhiem vua dat may chieu\" mentions recipient, not destination location)"
+    },
+    {
+      "id": "v4_0080469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0080487",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_31_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0308514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308557",
+      "status": "F",
+      "reason": "goal type: provided - but text specifies office/library (thu vien/kho sach)"
+    },
+    {
+      "id": "v4_0308562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308572",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308839",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308867",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308902",
+      "status": "U",
+      "reason": "Toa Nha Lech Ve Phi Nhat missing direction word between phi and nhat (e.g. phia phai/phia tay/dong/bac/nam)"
+    },
+    {
+      "id": "v4_0308905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0308944",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

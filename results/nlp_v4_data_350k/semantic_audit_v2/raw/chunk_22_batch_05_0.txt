@@ -1,0 +1,52 @@
+v4_0212022	P	-
+v4_0212023	U	Unclear if "adu xa cong lon" means "o dau xa cong lon" (sports/far/gate) or typo/truncated phrase creating ambiguity
+v4_0212026	P	-
+v4_0212029	P	-
+v4_0212035	P	-
+v4_0212051	F	goal type: provided '-' should be 'lab' ("Tro giang phong lab o toa nha nam xa nhat ve ben trai dang cho dung cu thi nghiem")
+v4_0212057	P	-
+v4_0212060	P	-
+v4_0212065	P	-
+v4_0212077	P	-
+v4_0212084	P	-
+v4_0212093	P	-
+v4_0212110	P	-
+v4_0212126	P	-
+v4_0212132	F	goal type: provided 'canteen' should be 'gate' ("CA TRUC BAO VE O POHNG AN O XA CHO TRA SACH CAN BIEN TEN KHACH" - bao ve at dining room is gate post)
+v4_0212158	P	-
+v4_0212169	P	-
+v4_0212179	P	-
+v4_0212182	P	-
+v4_0212192	P	-
+v4_0212202	P	-
+v4_0212231	P	-
+v4_0212234	P	-
+v4_0212238	P	-
+v4_0212246	F	goal type: provided '-' should be 'gate' ("nguoi gac hien dang o toa nha o canh phong kham nhat, nho chuyen ho so ghi khach ra do")
+v4_0212247	P	-
+v4_0212279	P	-
+v4_0212287	F	goal type: provided '-' should be 'parking' ("Nguoi trong xe o toa nha nao chon khu vuc lech sang dong vuot qua toan bo dang cho chia khoa xe")
+v4_0212320	P	-
+v4_0212321	P	-
+v4_0212322	P	-
+v4_0212332	P	-
+v4_0212334	P	-
+v4_0212336	P	-
+v4_0212339	P	-
+v4_0212340	P	-
+v4_0212345	P	-
+v4_0212350	P	-
+v4_0212352	P	-
+v4_0212361	P	-
+v4_0212362	P	-
+v4_0212374	P	-
+v4_0212383	P	-
+v4_0212398	P	-
+v4_0212401	P	-
+v4_0212403	P	-
+v4_0212410	P	-
+v4_0212420	P	-
+v4_0212428	P	-
+v4_0212452	U	Ambiguous whether "o cuoi ban do" refers to south_most or east_most (last column vs bottom)
+
+STDERR:

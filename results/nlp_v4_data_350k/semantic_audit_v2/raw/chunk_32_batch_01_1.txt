@@ -1,0 +1,52 @@
+v4_0310008	P	-
+v4_0310015	F	goal type: canteen -> library ("ke noi ta sach")
+v4_0310020	P	-
+v4_0310024	P	-
+v4_0310041	P	-
+v4_0310042	P	-
+v4_0310054	P	-
+v4_0310064	P	-
+v4_0310071	P	-
+v4_0310075	P	-
+v4_0310081	P	-
+v4_0310096	P	-
+v4_0310113	P	-
+v4_0310149	P	-
+v4_0310162	P	-
+v4_0310166	F	goal type: library -> office ("nhan vien phong oc")
+v4_0310190	P	-
+v4_0310206	P	-
+v4_0310212	P	-
+v4_0310219	P	-
+v4_0310232	P	-
+v4_0310236	P	-
+v4_0310250	P	-
+v4_0310253	U	ria phi cua campus: missing/corrupted direction word in "ria phi" (cannot determine east vs west vs other direction)
+v4_0310265	P	-
+v4_0310268	P	-
+v4_0310269	P	-
+v4_0310277	P	-
+v4_0310279	P	-
+v4_0310280	P	-
+v4_0310283	P	-
+v4_0310297	P	-
+v4_0310308	P	-
+v4_0310309	P	-
+v4_0310311	P	-
+v4_0310312	P	-
+v4_0310322	P	-
+v4_0310337	P	-
+v4_0310340	P	-
+v4_0310342	P	-
+v4_0310345	P	-
+v4_0310350	P	-
+v4_0310353	P	-
+v4_0310367	P	-
+v4_0310389	P	-
+v4_0310397	P	-
+v4_0310399	P	-
+v4_0310404	F	goal ref: anchor_near -> - ("cong trinh lien ke phong an sinh vien" specifies canteen type, not anchor_near)
+v4_0310430	P	-
+v4_0310463	P	-
+
+STDERR:

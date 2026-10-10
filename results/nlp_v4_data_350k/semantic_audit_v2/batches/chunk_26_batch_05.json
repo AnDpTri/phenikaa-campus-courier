@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_26_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0252012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252118",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252185",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252259",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252349",
+      "status": "U",
+      "reason": "Urgent label missing or unclear (prompt text contains all-caps instruction with no explicit urgency mention, defaults to 0)"
+    },
+    {
+      "id": "v4_0252350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0252376",
+      "status": "F",
+      "reason": "goal type: canteen provided, but recipient is co cap duong (canteen staff) requesting delivery to their unspecified current location, not canteen building"
+    },
+    {
+      "id": "v4_0252380",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

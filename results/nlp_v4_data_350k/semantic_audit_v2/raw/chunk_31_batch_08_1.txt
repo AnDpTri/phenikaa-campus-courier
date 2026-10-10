@@ -1,0 +1,52 @@
+v4_0303562	F	goal type mismatch: provided '-' but text specifies 'lab' ('tro giang lab o cho ma o cot ngoai cung ben trai') -> lab/west_most/-
+v4_0303568	P	-
+v4_0303577	P	-
+v4_0303581	P	-
+v4_0303590	P	-
+v4_0303593	P	-
+v4_0303646	P	-
+v4_0303650	P	-
+v4_0303655	P	-
+v4_0303676	P	-
+v4_0303697	P	-
+v4_0303702	P	-
+v4_0303706	P	-
+v4_0303728	P	-
+v4_0303732	P	-
+v4_0303751	P	-
+v4_0303755	P	-
+v4_0303789	P	-
+v4_0303819	P	-
+v4_0303826	F	goal type mismatch: provided '-' but text specifies 'office' ('can bo hanh chinh o chon noi co lo trinh toi phong kham... ngan hon tat ca') -> office/anchor_near/clinic
+v4_0303836	P	-
+v4_0303840	P	-
+v4_0303841	P	-
+v4_0303847	P	-
+v4_0303850	P	-
+v4_0303864	P	-
+v4_0303871	P	-
+v4_0303877	P	-
+v4_0303883	P	-
+v4_0303891	P	-
+v4_0303901	P	-
+v4_0303903	P	-
+v4_0303904	P	-
+v4_0303912	P	-
+v4_0303914	P	-
+v4_0303924	F	via ref mismatch: provided '-' but text specifies 'east_most' ('van phong khoa nhat o cugn' = east_most) -> office/east_most/-
+v4_0303927	P	-
+v4_0303932	P	-
+v4_0303937	P	-
+v4_0303938	P	-
+v4_0303939	P	-
+v4_0303941	P	-
+v4_0303951	P	-
+v4_0303952	F	via ref mismatch: provided 'east' but text specifies 'east_most' ('cong truong phia dong nhat') -> gate/east_most/-
+v4_0303963	P	-
+v4_0303991	P	-
+v4_0303996	P	-
+v4_0304010	P	-
+v4_0304016	F	goal ref mismatch: provided 'north_most' but text specifies 'row 1 / north_most' while label is -/north_most/- (wait, 'hang dau' is row 1 = north_most). Let's check: 'chuyen nay di dia diem ma o hang dau' -> -/north_most/- matches label. Reason: P.
+v4_0304020	P	-
+
+STDERR:

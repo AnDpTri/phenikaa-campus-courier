@@ -1,0 +1,52 @@
+v4_0223092	P	-
+v4_0223100	P	-
+v4_0223118	P	-
+v4_0223121	U	'dat lech cao nhat ve huong bac' is ambiguous between extreme position (north_most) and ordinary directional position (north)
+v4_0223132	P	-
+v4_0223137	P	-
+v4_0223140	P	-
+v4_0223165	P	-
+v4_0223167	U	Contradictory urgency cues ('can gap bo sac truoc' vs 'ki nao tien tih giao')
+v4_0223172	P	-
+v4_0223186	P	-
+v4_0223202	P	-
+v4_0223208	P	-
+v4_0223222	P	-
+v4_0223232	P	-
+v4_0223244	P	-
+v4_0223254	P	-
+v4_0223258	P	-
+v4_0223279	P	-
+v4_0223284	P	-
+v4_0223287	P	-
+v4_0223302	P	-
+v4_0223330	P	-
+v4_0223333	P	-
+v4_0223335	P	-
+v4_0223340	P	-
+v4_0223346	P	-
+v4_0223350	P	-
+v4_0223360	P	-
+v4_0223369	P	-
+v4_0223372	P	-
+v4_0223402	P	-
+v4_0223404	P	-
+v4_0223413	P	-
+v4_0223419	P	-
+v4_0223454	P	-
+v4_0223486	P	-
+v4_0223489	P	-
+v4_0223491	P	-
+v4_0223493	P	-
+v4_0223502	P	-
+v4_0223505	P	-
+v4_0223518	P	-
+v4_0223552	P	-
+v4_0223559	P	-
+v4_0223566	P	-
+v4_0223568	P	-
+v4_0223587	P	-
+v4_0223610	P	-
+v4_0223611	U	Contradictory urgency cues ('ngay ho minh' vs 'cu tu tu, khong voi')
+
+STDERR:

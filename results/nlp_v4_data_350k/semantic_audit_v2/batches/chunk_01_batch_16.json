@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_01_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0007261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007277",
+      "status": "F",
+      "reason": "goal type: provided library, corrected clinic (\"xe chi chay ngang tam khu nha o tap the sinh vien, do khong hai cho muon toi... tren duong di nho ghe quay phat thuoc va kham ban dau\")"
+    },
+    {
+      "id": "v4_0007284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007290",
+      "status": "U",
+      "reason": "\"khoang lech lon hon moi dime\" contains garbled/unclear text describing the directional reference"
+    },
+    {
+      "id": "v4_0007292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007302",
+      "status": "U",
+      "reason": "\"o adu ban do\" contains garbled/unclear directional text"
+    },
+    {
+      "id": "v4_0007336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007446",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007549",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007595",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007619",
+      "status": "U",
+      "reason": "\"cong trinh it xa phong hoc lon nhat\" has ambiguous/garbled anchor phrasing (\"it xa\")"
+    },
+    {
+      "id": "v4_0007654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0007752",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

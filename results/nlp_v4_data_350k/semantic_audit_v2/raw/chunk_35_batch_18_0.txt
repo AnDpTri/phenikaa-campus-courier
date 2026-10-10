@@ -1,0 +1,52 @@
+v4_0348458	P	-
+v4_0348464	F	goal: lab/-/- -> parking/near/lab ("bac giu xe o pong thuc hanh can sach tham khao")
+v4_0348465	P	-
+v4_0348467	P	-
+v4_0348471	P	-
+v4_0348505	P	-
+v4_0348514	P	-
+v4_0348534	P	-
+v4_0348537	P	-
+v4_0348598	P	-
+v4_0348605	P	-
+v4_0348614	P	-
+v4_0348616	P	-
+v4_0348655	P	-
+v4_0348670	P	-
+v4_0348674	P	-
+v4_0348704	U	ambiguous location description ("khu vuc nao o dau ban do" could mean north_most or start/top)
+v4_0348706	U	unreadable/garbled required information ("toa ma o ria tri")
+v4_0348715	P	-
+v4_0348716	P	-
+v4_0348724	P	-
+v4_0348729	P	-
+v4_0348733	P	-
+v4_0348744	P	-
+v4_0348746	P	-
+v4_0348767	P	-
+v4_0348772	P	-
+v4_0348782	P	-
+v4_0348785	P	-
+v4_0348814	P	-
+v4_0348816	P	-
+v4_0348838	P	-
+v4_0348852	P	-
+v4_0348863	P	-
+v4_0348873	P	-
+v4_0348882	P	-
+v4_0348886	P	-
+v4_0348894	P	-
+v4_0348901	P	-
+v4_0348906	P	-
+v4_0348910	P	-
+v4_0348921	P	-
+v4_0348923	P	-
+v4_0348952	P	-
+v4_0348957	P	-
+v4_0348997	P	-
+v4_0348998	F	goal: -/anchor_near/canteen -> canteen/-/- ("dua bep nau com trua sinh vien dang doi nguyen lieu nau an tai tram di bo tu khu bep gan nhat")
+v4_0349013	P	-
+v4_0349017	P	-
+v4_0349021	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0034735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034801",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034902",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034990",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035193",
+      "status": "F",
+      "reason": "goal clinic/north/- should be clinic/-/- ('phong kham da khoa bne bac' - 'bne bac' is side/north, but here it specifies clinic/north/-: let's recheck - actually clinic/north/- is provided and matches 'ben bac')"
+    },
+    {
+      "id": "v4_0035194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035214",
+      "status": "U",
+      "reason": "'phong oc ve phia tay' is ambiguous whether type is lecture or office (phong hoc vs phong oc)"
+    },
+    {
+      "id": "v4_0035222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035237",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035259",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035277",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

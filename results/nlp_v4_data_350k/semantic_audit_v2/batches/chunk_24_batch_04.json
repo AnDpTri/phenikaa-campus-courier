@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0231732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231900",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231919",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231964",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0231965",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (tro giang / thay chu nhiem does not specify building type)"
+    },
+    {
+      "id": "v4_0231969",
+      "status": "F",
+      "reason": "goal type: provided office, corrected - (nhan vien hanh chinh is recipient, no delivery location specified)"
+    },
+    {
+      "id": "v4_0231984",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232046",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (nguoi nhan la giang vien, destination building type not specified)"
+    },
+    {
+      "id": "v4_0232064",
+      "status": "F",
+      "reason": "goal type: provided office, corrected - (thu ky khoa is person, no building type specified)"
+    },
+    {
+      "id": "v4_0232069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232171",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232196",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (mau vat cua tro giang, destination building type not specified)"
+    },
+    {
+      "id": "v4_0232205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0232243",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

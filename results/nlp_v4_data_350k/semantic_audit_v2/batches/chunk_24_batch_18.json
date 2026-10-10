@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0238501",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238572",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238595",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238651",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238706",
+      "status": "F",
+      "reason": "via: provided 'dorm/east/-', should be 'dorm/-/-' (typo 'cia nha luu tru o phia phai truco' = cua nha luu tru; no directional instance 'east' of dorm specified, or missing via direction)"
+    },
+    {
+      "id": "v4_0238726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238922",
+      "status": "U",
+      "reason": "ambiguous/corrupted direction word 'phia phia nha' makes clinic directional instance unreadable"
+    },
+    {
+      "id": "v4_0238931",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0238988",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

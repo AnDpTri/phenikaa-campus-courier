@@ -1,0 +1,33 @@
+{
+  "status": "GENERATED_PENDING_INDEPENDENT_QA",
+  "count": 200000,
+  "seed": 2026101061,
+  "recipe_counts": {
+    "v2_general": 84000,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "statistics": {
+    "v2_general": 84000,
+    "via": 114526,
+    "accented": 65167,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "rejected": {
+    "grammar": 1848,
+    "prefix_cap": 141294,
+    "duplicate": 5
+  },
+  "unique_prefix8": 91747,
+  "max_prefix8": 35,
+  "no_overlap_with_epoch1_and_reference": true,
+  "sha256": "96c2c136bf79d66d7846bd28fbd6867ee843a4ed562cf9a5cd91d1f405c7a266",
+  "elapsed_seconds": 131.0
+}

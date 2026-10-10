@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0104933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104990",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104993",
+      "status": "F",
+      "reason": "goal type: provided lab, corrected - (can bo phong thi nghiem la chu so huu nguyen lieu, khong phai diem den)"
+    },
+    {
+      "id": "v4_0104995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105293",
+      "status": "U",
+      "reason": "can gap hop thoc co the la khan cap nhung cu tu tu khong voi mau thuan ve muc do gap"
+    },
+    {
+      "id": "v4_0105298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105428",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

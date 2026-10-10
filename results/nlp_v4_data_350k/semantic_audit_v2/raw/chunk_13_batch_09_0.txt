@@ -1,0 +1,52 @@
+v4_0124234	P	-
+v4_0124240	P	-
+v4_0124252	P	-
+v4_0124256	P	-
+v4_0124266	P	-
+v4_0124285	P	-
+v4_0124287	P	-
+v4_0124289	P	-
+v4_0124293	P	-
+v4_0124304	P	-
+v4_0124317	P	-
+v4_0124330	P	-
+v4_0124332	P	-
+v4_0124343	P	-
+v4_0124354	P	-
+v4_0124364	P	-
+v4_0124400	P	-
+v4_0124406	P	-
+v4_0124409	P	-
+v4_0124412	P	-
+v4_0124415	P	-
+v4_0124427	P	-
+v4_0124442	P	-
+v4_0124450	P	-
+v4_0124453	P	-
+v4_0124454	P	-
+v4_0124504	P	-
+v4_0124544	P	-
+v4_0124548	P	-
+v4_0124567	P	-
+v4_0124568	P	-
+v4_0124576	P	-
+v4_0124579	P	-
+v4_0124582	P	-
+v4_0124599	P	-
+v4_0124604	P	-
+v4_0124618	P	-
+v4_0124620	P	-
+v4_0124629	P	-
+v4_0124634	P	-
+v4_0124641	P	-
+v4_0124646	F	urgent: provided 0, corrected 1 ('gap')
+v4_0124647	P	-
+v4_0124657	P	-
+v4_0124667	P	-
+v4_0124671	P	-
+v4_0124678	P	-
+v4_0124686	U	ambiguous recipient/destination: 'nguoi gac cong o vi tri nam o duoi cung' vs missing predicate/garbled clause
+v4_0124688	P	-
+v4_0124703	U	ambiguous destination: 'giao vien the duc nho gui op thuo.c' lacks explicit delivery location
+
+STDERR:

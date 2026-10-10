@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0320004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320016",
+      "status": "F",
+      "reason": "goal type: provided canteen, should be parking (bac giu xe o nha an)"
+    },
+    {
+      "id": "v4_0320022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320057",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320151",
+      "status": "F",
+      "reason": "goal type: provided -, should be canteen (bep truong o dia diem nao do o mep tren cung)"
+    },
+    {
+      "id": "v4_0320161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320470",
+      "status": "F",
+      "reason": "goal type: provided -, should be gate (bao ve hien dang o cho sat khu hanh chinh)"
+    },
+    {
+      "id": "v4_0320482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320492",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0320494",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

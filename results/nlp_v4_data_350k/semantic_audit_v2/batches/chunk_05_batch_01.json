@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0040004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040007",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/anchor_near/canteen', corrected '-/-/-' (\"giao sang dia diem ngay acnh khu nha an\" -> anchor_near/canteen supported, wait: text says \"khong gap dau co do thuy tinh\" -> urgent=0, fragile=1. Provided: urgent=1, fragile=1 -> urgent: provided 1, corrected 0 (\"khong gap dau\"))"
+    },
+    {
+      "id": "v4_0040026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040104",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040169",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'clinic/-/-', corrected 'gate/-/-' (\"se bao ve cong o tram y te can o cung\" head place is bao ve cong / gate)"
+    },
+    {
+      "id": "v4_0040172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040185",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040214",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'sports/-/-', corrected '-/-/-' (\"bo vto la cua huan luyen vien\" bo vot is item; no valid delivery destination specified)"
+    },
+    {
+      "id": "v4_0040227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040305",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040362",
+      "status": "U",
+      "reason": "\"DUNG GHE CHO O NOI TRU CO NAU AN NHO GUI BO DUNG CU THI NGHIEM\": ambiguous whether \"CO NAU AN\" is an alias for canteen or part of negated dorm"
+    },
+    {
+      "id": "v4_0040379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040404",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 (\"CAN GAP MAU VAT\")"
+    },
+    {
+      "id": "v4_0040435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040450",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0040491",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

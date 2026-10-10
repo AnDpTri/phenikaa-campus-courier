@@ -1,0 +1,687 @@
+{
+  "experiment": "V9 none class via head-only loss controlled",
+  "created_utc": "2026-10-10T02:57:06.793024+00:00",
+  "initial": "B0 all except urgent from D1",
+  "only_via_heads_trainable": true,
+  "same_data_rng_budget": true,
+  "n_train": 6400,
+  "focused_train_rows": 600,
+  "loss_weights": {
+    "E0_normal": 1.0,
+    "E25_none": 2.5
+  },
+  "time_s": 98.3,
+  "results": {
+    "H_untrained": {
+      "metrics": {
+        "v2_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.836,
+            "via": 0.900667,
+            "urgent": 0.74,
+            "fragile": 0.889333,
+            "all": 0.501333
+          },
+          "via": {
+            "counts": {
+              "tp": 606,
+              "tn": 773,
+              "fn": 115,
+              "fp": 6
+            },
+            "FPR": 0.007702,
+            "FNR": 0.159501
+          },
+          "urgent": {
+            "counts": {
+              "tn": 820,
+              "fn": 373,
+              "tp": 290,
+              "fp": 17
+            },
+            "FPR": 0.020311,
+            "FNR": 0.562594
+          },
+          "fragile": {
+            "counts": {
+              "tn": 757,
+              "tp": 577,
+              "fp": 166
+            },
+            "FPR": 0.179848,
+            "FNR": 0.0
+          }
+        },
+        "weighted_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.782667,
+            "via": 0.766,
+            "urgent": 0.888667,
+            "fragile": 0.843333,
+            "all": 0.448
+          },
+          "via": {
+            "counts": {
+              "tn": 616,
+              "tp": 613,
+              "fn": 184,
+              "fp": 87
+            },
+            "FPR": 0.123755,
+            "FNR": 0.230866
+          },
+          "urgent": {
+            "counts": {
+              "tn": 826,
+              "tp": 507,
+              "fn": 159,
+              "fp": 8
+            },
+            "FPR": 0.009592,
+            "FNR": 0.238739
+          },
+          "fragile": {
+            "counts": {
+              "tn": 794,
+              "tp": 471,
+              "fn": 177,
+              "fp": 58
+            },
+            "FPR": 0.068075,
+            "FNR": 0.273148
+          }
+        },
+        "hard_fresh": {
+          "n": 1000,
+          "exact": {
+            "goal": 0.821,
+            "via": 0.726,
+            "urgent": 1.0,
+            "fragile": 0.839,
+            "all": 0.529
+          },
+          "via": {
+            "counts": {
+              "fn": 195,
+              "tp": 350,
+              "tn": 414,
+              "fp": 41
+            },
+            "FPR": 0.09011,
+            "FNR": 0.357798
+          },
+          "urgent": {
+            "counts": {
+              "tn": 526,
+              "tp": 474
+            },
+            "FPR": 0.0,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "tn": 557,
+              "fn": 161,
+              "tp": 282
+            },
+            "FPR": 0.0,
+            "FNR": 0.363431
+          }
+        },
+        "family1200": {
+          "n": 1200,
+          "exact": {
+            "goal": 0.969167,
+            "via": 0.625833,
+            "urgent": 0.608333,
+            "fragile": 0.79,
+            "all": 0.313333
+          },
+          "via": {
+            "counts": {
+              "tn": 406,
+              "fn": 251,
+              "fp": 194,
+              "tp": 349
+            },
+            "FPR": 0.323333,
+            "FNR": 0.418333
+          },
+          "urgent": {
+            "counts": {
+              "fp": 470,
+              "tp": 600,
+              "tn": 130
+            },
+            "FPR": 0.783333,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "fp": 244,
+              "tp": 592,
+              "tn": 356,
+              "fn": 8
+            },
+            "FPR": 0.406667,
+            "FNR": 0.013333
+          }
+        },
+        "focused192": {
+          "n": 192,
+          "exact": {
+            "goal": 0.96875,
+            "via": 0.723958,
+            "urgent": 0.802083,
+            "fragile": 0.552083,
+            "all": 0.286458
+          },
+          "via": {
+            "counts": {
+              "tn": 104,
+              "tp": 36,
+              "fn": 34,
+              "fp": 18
+            },
+            "FPR": 0.147541,
+            "FNR": 0.485714
+          },
+          "urgent": {
+            "counts": {
+              "tp": 56,
+              "tn": 98,
+              "fn": 32,
+              "fp": 6
+            },
+            "FPR": 0.057692,
+            "FNR": 0.363636
+          },
+          "fragile": {
+            "counts": {
+              "tn": 40,
+              "tp": 66,
+              "fp": 86
+            },
+            "FPR": 0.68254,
+            "FNR": 0.0
+          }
+        }
+      }
+    },
+    "E0_normal": {
+      "loss_weight_none": 1.0,
+      "epochs": [
+        {
+          "epoch": 1,
+          "loss": 0.641136
+        },
+        {
+          "epoch": 2,
+          "loss": 0.586917
+        }
+      ],
+      "metrics": {
+        "v2_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.836,
+            "via": 0.9,
+            "urgent": 0.74,
+            "fragile": 0.889333,
+            "all": 0.500667
+          },
+          "via": {
+            "counts": {
+              "tp": 610,
+              "tn": 773,
+              "fn": 111,
+              "fp": 6
+            },
+            "FPR": 0.007702,
+            "FNR": 0.153953
+          },
+          "urgent": {
+            "counts": {
+              "tn": 820,
+              "fn": 373,
+              "tp": 290,
+              "fp": 17
+            },
+            "FPR": 0.020311,
+            "FNR": 0.562594
+          },
+          "fragile": {
+            "counts": {
+              "tn": 757,
+              "tp": 577,
+              "fp": 166
+            },
+            "FPR": 0.179848,
+            "FNR": 0.0
+          }
+        },
+        "weighted_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.782667,
+            "via": 0.764667,
+            "urgent": 0.888667,
+            "fragile": 0.843333,
+            "all": 0.449333
+          },
+          "via": {
+            "counts": {
+              "tn": 615,
+              "tp": 614,
+              "fn": 183,
+              "fp": 88
+            },
+            "FPR": 0.125178,
+            "FNR": 0.229611
+          },
+          "urgent": {
+            "counts": {
+              "tn": 826,
+              "tp": 507,
+              "fn": 159,
+              "fp": 8
+            },
+            "FPR": 0.009592,
+            "FNR": 0.238739
+          },
+          "fragile": {
+            "counts": {
+              "tn": 794,
+              "tp": 471,
+              "fn": 177,
+              "fp": 58
+            },
+            "FPR": 0.068075,
+            "FNR": 0.273148
+          }
+        },
+        "hard_fresh": {
+          "n": 1000,
+          "exact": {
+            "goal": 0.821,
+            "via": 0.725,
+            "urgent": 1.0,
+            "fragile": 0.839,
+            "all": 0.526
+          },
+          "via": {
+            "counts": {
+              "fn": 197,
+              "tp": 348,
+              "tn": 414,
+              "fp": 41
+            },
+            "FPR": 0.09011,
+            "FNR": 0.361468
+          },
+          "urgent": {
+            "counts": {
+              "tn": 526,
+              "tp": 474
+            },
+            "FPR": 0.0,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "tn": 557,
+              "fn": 161,
+              "tp": 282
+            },
+            "FPR": 0.0,
+            "FNR": 0.363431
+          }
+        },
+        "family1200": {
+          "n": 1200,
+          "exact": {
+            "goal": 0.969167,
+            "via": 0.6225,
+            "urgent": 0.608333,
+            "fragile": 0.79,
+            "all": 0.31
+          },
+          "via": {
+            "counts": {
+              "tn": 403,
+              "fn": 252,
+              "fp": 197,
+              "tp": 348
+            },
+            "FPR": 0.328333,
+            "FNR": 0.42
+          },
+          "urgent": {
+            "counts": {
+              "fp": 470,
+              "tp": 600,
+              "tn": 130
+            },
+            "FPR": 0.783333,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "fp": 244,
+              "tp": 592,
+              "tn": 356,
+              "fn": 8
+            },
+            "FPR": 0.406667,
+            "FNR": 0.013333
+          }
+        },
+        "focused192": {
+          "n": 192,
+          "exact": {
+            "goal": 0.96875,
+            "via": 0.71875,
+            "urgent": 0.802083,
+            "fragile": 0.552083,
+            "all": 0.28125
+          },
+          "via": {
+            "counts": {
+              "tn": 103,
+              "tp": 36,
+              "fn": 34,
+              "fp": 19
+            },
+            "FPR": 0.155738,
+            "FNR": 0.485714
+          },
+          "urgent": {
+            "counts": {
+              "tp": 56,
+              "tn": 98,
+              "fn": 32,
+              "fp": 6
+            },
+            "FPR": 0.057692,
+            "FNR": 0.363636
+          },
+          "fragile": {
+            "counts": {
+              "tn": 40,
+              "tp": 66,
+              "fp": 86
+            },
+            "FPR": 0.68254,
+            "FNR": 0.0
+          }
+        }
+      },
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_via_E0_normal_control_v1.pt"
+    },
+    "E25_none": {
+      "loss_weight_none": 2.5,
+      "epochs": [
+        {
+          "epoch": 1,
+          "loss": 0.626868
+        },
+        {
+          "epoch": 2,
+          "loss": 0.567885
+        }
+      ],
+      "metrics": {
+        "v2_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.836,
+            "via": 0.894667,
+            "urgent": 0.74,
+            "fragile": 0.889333,
+            "all": 0.498
+          },
+          "via": {
+            "counts": {
+              "tp": 601,
+              "tn": 773,
+              "fn": 120,
+              "fp": 6
+            },
+            "FPR": 0.007702,
+            "FNR": 0.166436
+          },
+          "urgent": {
+            "counts": {
+              "tn": 820,
+              "fn": 373,
+              "tp": 290,
+              "fp": 17
+            },
+            "FPR": 0.020311,
+            "FNR": 0.562594
+          },
+          "fragile": {
+            "counts": {
+              "tn": 757,
+              "tp": 577,
+              "fp": 166
+            },
+            "FPR": 0.179848,
+            "FNR": 0.0
+          }
+        },
+        "weighted_fresh": {
+          "n": 1500,
+          "exact": {
+            "goal": 0.782667,
+            "via": 0.765333,
+            "urgent": 0.888667,
+            "fragile": 0.843333,
+            "all": 0.45
+          },
+          "via": {
+            "counts": {
+              "tn": 642,
+              "fn": 216,
+              "tp": 581,
+              "fp": 61
+            },
+            "FPR": 0.086771,
+            "FNR": 0.271016
+          },
+          "urgent": {
+            "counts": {
+              "tn": 826,
+              "tp": 507,
+              "fn": 159,
+              "fp": 8
+            },
+            "FPR": 0.009592,
+            "FNR": 0.238739
+          },
+          "fragile": {
+            "counts": {
+              "tn": 794,
+              "tp": 471,
+              "fn": 177,
+              "fp": 58
+            },
+            "FPR": 0.068075,
+            "FNR": 0.273148
+          }
+        },
+        "hard_fresh": {
+          "n": 1000,
+          "exact": {
+            "goal": 0.821,
+            "via": 0.717,
+            "urgent": 1.0,
+            "fragile": 0.839,
+            "all": 0.515
+          },
+          "via": {
+            "counts": {
+              "fn": 218,
+              "tp": 327,
+              "tn": 424,
+              "fp": 31
+            },
+            "FPR": 0.068132,
+            "FNR": 0.4
+          },
+          "urgent": {
+            "counts": {
+              "tn": 526,
+              "tp": 474
+            },
+            "FPR": 0.0,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "tn": 557,
+              "fn": 161,
+              "tp": 282
+            },
+            "FPR": 0.0,
+            "FNR": 0.363431
+          }
+        },
+        "family1200": {
+          "n": 1200,
+          "exact": {
+            "goal": 0.969167,
+            "via": 0.636667,
+            "urgent": 0.608333,
+            "fragile": 0.79,
+            "all": 0.319167
+          },
+          "via": {
+            "counts": {
+              "tn": 430,
+              "fn": 266,
+              "fp": 170,
+              "tp": 334
+            },
+            "FPR": 0.283333,
+            "FNR": 0.443333
+          },
+          "urgent": {
+            "counts": {
+              "fp": 470,
+              "tp": 600,
+              "tn": 130
+            },
+            "FPR": 0.783333,
+            "FNR": 0.0
+          },
+          "fragile": {
+            "counts": {
+              "fp": 244,
+              "tp": 592,
+              "tn": 356,
+              "fn": 8
+            },
+            "FPR": 0.406667,
+            "FNR": 0.013333
+          }
+        },
+        "focused192": {
+          "n": 192,
+          "exact": {
+            "goal": 0.96875,
+            "via": 0.739583,
+            "urgent": 0.802083,
+            "fragile": 0.552083,
+            "all": 0.302083
+          },
+          "via": {
+            "counts": {
+              "tn": 108,
+              "tp": 35,
+              "fn": 35,
+              "fp": 14
+            },
+            "FPR": 0.114754,
+            "FNR": 0.5
+          },
+          "urgent": {
+            "counts": {
+              "tp": 56,
+              "tn": 98,
+              "fn": 32,
+              "fp": 6
+            },
+            "FPR": 0.057692,
+            "FNR": 0.363636
+          },
+          "fragile": {
+            "counts": {
+              "tn": 40,
+              "tp": 66,
+              "fp": 86
+            },
+            "FPR": 0.68254,
+            "FNR": 0.0
+          }
+        }
+      },
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_via_E25_none_weight_v1.pt"
+    }
+  },
+  "comparison": {
+    "v2_fresh": {
+      "n": 1500,
+      "E25_minus_E0_all_pp": -0.267,
+      "E25_minus_H_all_pp": -0.333,
+      "E25_minus_E0_via_FPR_pp": 0.0,
+      "E25_minus_H_via_FPR_pp": 0.0,
+      "E25_minus_E0_via_FNR_pp": 1.248,
+      "E25_minus_H_via_FNR_pp": 0.693
+    },
+    "weighted_fresh": {
+      "n": 1500,
+      "E25_minus_E0_all_pp": 0.067,
+      "E25_minus_H_all_pp": 0.2,
+      "E25_minus_E0_via_FPR_pp": -3.841,
+      "E25_minus_H_via_FPR_pp": -3.698,
+      "E25_minus_E0_via_FNR_pp": 4.14,
+      "E25_minus_H_via_FNR_pp": 4.015
+    },
+    "hard_fresh": {
+      "n": 1000,
+      "E25_minus_E0_all_pp": -1.1,
+      "E25_minus_H_all_pp": -1.4,
+      "E25_minus_E0_via_FPR_pp": -2.198,
+      "E25_minus_H_via_FPR_pp": -2.198,
+      "E25_minus_E0_via_FNR_pp": 3.853,
+      "E25_minus_H_via_FNR_pp": 4.22
+    },
+    "family1200": {
+      "n": 1200,
+      "E25_minus_E0_all_pp": 0.917,
+      "E25_minus_H_all_pp": 0.583,
+      "E25_minus_E0_via_FPR_pp": -4.5,
+      "E25_minus_H_via_FPR_pp": -4.0,
+      "E25_minus_E0_via_FNR_pp": 2.333,
+      "E25_minus_H_via_FNR_pp": 2.5
+    },
+    "focused192": {
+      "n": 192,
+      "E25_minus_E0_all_pp": 2.083,
+      "E25_minus_H_all_pp": 1.562,
+      "E25_minus_E0_via_FPR_pp": -4.098,
+      "E25_minus_H_via_FPR_pp": -3.279,
+      "E25_minus_E0_via_FNR_pp": 1.429,
+      "E25_minus_H_via_FNR_pp": 1.429
+    }
+  },
+  "limitations": [
+    "One seed and synthetic probes",
+    "Evaluation holds reused family and focus suites",
+    "No official val/test accessed",
+    "Only experimental research files"
+  ]
+}

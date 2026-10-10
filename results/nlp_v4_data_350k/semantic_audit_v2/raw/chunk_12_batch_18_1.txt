@@ -1,0 +1,52 @@
+v4_0118519	P	-
+v4_0118525	P	-
+v4_0118535	P	-
+v4_0118539	P	-
+v4_0118547	P	-
+v4_0118558	P	-
+v4_0118569	F	goal type/ref/anchor provided -/anchor_near/canteen but text specifies office/anchor_near/canteen ("can bo tiep nhan ho so sinh vien o nut it buoc nhat tu khu phuc vu bua trua sinh vien")
+v4_0118571	P	-
+v4_0118591	P	-
+v4_0118593	P	-
+v4_0118611	P	-
+v4_0118616	P	-
+v4_0118625	P	-
+v4_0118627	P	-
+v4_0118654	P	-
+v4_0118662	P	-
+v4_0118686	P	-
+v4_0118689	P	-
+v4_0118701	P	-
+v4_0118708	P	-
+v4_0118713	P	-
+v4_0118724	P	-
+v4_0118743	P	-
+v4_0118761	P	-
+v4_0118765	P	-
+v4_0118772	P	-
+v4_0118798	P	-
+v4_0118799	P	-
+v4_0118804	P	-
+v4_0118812	P	-
+v4_0118817	P	-
+v4_0118827	P	-
+v4_0118830	P	-
+v4_0118846	P	-
+v4_0118848	P	-
+v4_0118849	P	-
+v4_0118877	P	-
+v4_0118889	P	-
+v4_0118894	P	-
+v4_0118895	P	-
+v4_0118929	P	-
+v4_0118947	P	-
+v4_0118959	P	-
+v4_0118968	P	-
+v4_0118978	P	-
+v4_0118983	P	-
+v4_0119003	P	-
+v4_0119010	P	-
+v4_0119013	P	-
+v4_0119016	U	Ambiguous destination: only mentions recipient's role ("Nhan Vien Y Te") without stating a target location, and previous location is an origin ("Chuyen Nay Xuat Phat Tu...").
+
+STDERR:

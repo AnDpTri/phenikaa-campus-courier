@@ -1,0 +1,52 @@
+v4_0141639	P	-
+v4_0141668	P	-
+v4_0141670	P	-
+v4_0141676	P	-
+v4_0141695	P	-
+v4_0141716	P	-
+v4_0141723	P	-
+v4_0141731	F	goal type: provided '-' should be 'library' ("ban quan ly thu vien o toa nha ngay canh y te truong")
+v4_0141738	P	-
+v4_0141743	P	-
+v4_0141745	P	-
+v4_0141751	P	-
+v4_0141752	P	-
+v4_0141759	P	-
+v4_0141786	P	-
+v4_0141794	P	-
+v4_0141811	P	-
+v4_0141812	P	-
+v4_0141814	P	-
+v4_0141816	P	-
+v4_0141817	P	-
+v4_0141834	P	-
+v4_0141846	P	-
+v4_0141851	P	-
+v4_0141877	P	-
+v4_0141881	P	-
+v4_0141886	P	-
+v4_0141893	P	-
+v4_0141896	F	via ref: provided 'far' should be 'near' ("tat qua bai do xa noi muon tra sach giao trinh")
+v4_0141928	P	-
+v4_0141958	P	-
+v4_0141992	P	-
+v4_0142007	U	contradictory urgency phrases: "ngay" (urgent) vs "khong vi phai nhanh" (not urgent)
+v4_0142016	P	-
+v4_0142018	P	-
+v4_0142029	P	-
+v4_0142034	P	-
+v4_0142035	P	-
+v4_0142109	P	-
+v4_0142117	P	-
+v4_0142121	P	-
+v4_0142124	F	goal ref: provided 'north_most' should be 'north' ("can phong cuc bac cua ban do" specifies extreme northern room, but building type is not captured as whole or ambiguous)
+v4_0142132	P	-
+v4_0142145	P	-
+v4_0142149	P	-
+v4_0142163	P	-
+v4_0142174	P	-
+v4_0142208	U	contradictory urgency phrases: "ngay nhe" vs "uc nao ranh thi giao"
+v4_0142228	P	-
+v4_0142238	P	-
+
+STDERR:

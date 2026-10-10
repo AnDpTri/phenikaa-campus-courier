@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0084072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084208",
+      "status": "U",
+      "reason": "cau doi bong is ambiguous as sports destination and sentence structure is incomplete/conflicted"
+    },
+    {
+      "id": "v4_0084230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084286",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('nhan vien trong xe dang doi thung carton gap')"
+    },
+    {
+      "id": "v4_0084287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0084477",
+      "status": "U",
+      "reason": "Contradictory urgency phrases: 'Can Gap' vs 'Khong Can Voi'"
+    }
+  ]
+}

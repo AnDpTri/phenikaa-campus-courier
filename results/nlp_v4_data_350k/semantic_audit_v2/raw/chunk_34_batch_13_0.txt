@@ -1,0 +1,53 @@
+v4_0335877	P	-
+v4_0335904	P	-
+v4_0335931	P	-
+v4_0335937	P	-
+v4_0335940	P	-
+v4_0335943	P	-
+v4_0335951	P	-
+v4_0335955	P	-
+v4_0335957	P	-
+v4_0335960	P	-
+v4_0335976	P	-
+v4_0335977	P	-
+v4_0335990	P	-
+v4_0335995	P	-
+v4_0336004	P	-
+v4_0336011	P	-
+v4_0336012	P	-
+v4_0336023	P	-
+v4_0336059	P	-
+v4_0336067	P	-
+v4_0336093	P	-
+v4_0336096	P	-
+v4_0336097	P	-
+v4_0336111	P	-
+v4_0336118	P	-
+v4_0336141	P	-
+v4_0336166	P	-
+v4_0336181	P	-
+v4_0336190	P	-
+v4_0336192	U	urgent phrase is contradictory ('Dang Doi Bo Sach Gap' vs 'Chieu Nay Giao Cung Uoc')
+v4_0336207	P	-
+v4_0336212	P	-
+v4_0336217	P	-
+v4_0336219	lecture/-/-	F: goal is person giang vien dang day, but recipient is teacher who may be in lecture/classroom; wait, 'dung ra nguoi nhan la giang vien dang day' refers to lecture or person? Wait: 'nhan vien dang day' means giang vien at lecture
+v4_0336219	P	-
+v4_0336231	P	-
+v4_0336234	P	-
+v4_0336237	P	-
+v4_0336248	P	-
+v4_0336249	P	-
+v4_0336250	P	-
+v4_0336271	P	-
+v4_0336316	P	-
+v4_0336337	P	-
+v4_0336383	P	-
+v4_0336395	P	-
+v4_0336410	P	-
+v4_0336443	P	-
+v4_0336448	P	-
+v4_0336466	P	-
+v4_0336501	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0218554	P	-
+v4_0218572	P	-
+v4_0218577	P	-
+v4_0218597	P	-
+v4_0218611	P	-
+v4_0218613	P	-
+v4_0218614	P	-
+v4_0218628	P	-
+v4_0218632	P	-
+v4_0218636	P	-
+v4_0218639	P	-
+v4_0218669	P	-
+v4_0218676	P	-
+v4_0218679	U	"nha hoc lech dong" ambiguous whether it means east-most (lecture/east_most/-) or directional east instance (lecture/east/-)
+v4_0218690	P	-
+v4_0218695	P	-
+v4_0218704	P	-
+v4_0218705	P	-
+v4_0218708	P	-
+v4_0218716	P	-
+v4_0218718	P	-
+v4_0218748	P	-
+v4_0218759	P	-
+v4_0218764	P	-
+v4_0218781	P	-
+v4_0218783	P	-
+v4_0218799	P	-
+v4_0218804	P	-
+v4_0218843	P	-
+v4_0218847	P	-
+v4_0218856	P	-
+v4_0218864	P	-
+v4_0218869	U	"xa nhat ve phia bac" ambiguous extreme north_most vs north directional extreme with respect to reference
+v4_0218876	P	-
+v4_0218891	P	-
+v4_0218910	P	-
+v4_0218915	P	-
+v4_0218927	P	-
+v4_0218933	P	-
+v4_0218935	P	-
+v4_0218939	P	-
+v4_0218958	P	-
+v4_0218960	P	-
+v4_0218976	P	-
+v4_0218986	P	-
+v4_0218988	P	-
+v4_0219002	P	-
+v4_0219012	P	-
+v4_0219018	P	-
+v4_0219034	P	-
+
+STDERR:

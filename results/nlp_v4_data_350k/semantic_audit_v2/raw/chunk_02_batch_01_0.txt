@@ -1,0 +1,52 @@
+v4_0010003	P	-
+v4_0010004	P	-
+v4_0010018	P	-
+v4_0010020	P	-
+v4_0010033	P	-
+v4_0010038	P	-
+v4_0010040	P	-
+v4_0010052	F	goal type/ref/anchor: provided -/south_most/- should be parking/south_most/- ("chu giu xe o khu vuc ma chon toa do tien sat ranh gioi phia nam")
+v4_0010068	P	-
+v4_0010079	P	-
+v4_0010080	P	-
+v4_0010082	P	-
+v4_0010094	P	-
+v4_0010096	P	-
+v4_0010103	P	-
+v4_0010123	F	goal type/ref/anchor: provided office/-/- should be parking/-/- ("chuyen phat laptop cho nguoi giu xe o khu hanh chinh")
+v4_0010124	P	-
+v4_0010172	P	-
+v4_0010173	F	urgent: provided 0 should be 1 ("ngay")
+v4_0010180	P	-
+v4_0010188	P	-
+v4_0010198	P	-
+v4_0010199	P	-
+v4_0010219	P	-
+v4_0010223	P	-
+v4_0010228	P	-
+v4_0010236	P	-
+v4_0010245	P	-
+v4_0010260	P	-
+v4_0010281	P	-
+v4_0010287	P	-
+v4_0010303	P	-
+v4_0010304	P	-
+v4_0010310	P	-
+v4_0010322	P	-
+v4_0010336	P	-
+v4_0010349	P	-
+v4_0010352	P	-
+v4_0010370	F	urgent: provided 0 should be 1 ("ngay di")
+v4_0010378	P	-
+v4_0010380	P	-
+v4_0010387	P	-
+v4_0010400	P	-
+v4_0010401	P	-
+v4_0010406	P	-
+v4_0010407	P	-
+v4_0010425	P	-
+v4_0010446	P	-
+v4_0010453	P	-
+v4_0010458	P	-
+
+STDERR:

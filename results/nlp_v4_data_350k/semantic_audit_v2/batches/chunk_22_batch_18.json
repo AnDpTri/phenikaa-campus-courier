@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0218554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218572",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218597",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218679",
+      "status": "U",
+      "reason": "\"nha hoc lech dong\" ambiguous whether it means east-most (lecture/east_most/-) or directional east instance (lecture/east/-)"
+    },
+    {
+      "id": "v4_0218690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218869",
+      "status": "U",
+      "reason": "\"xa nhat ve phia bac\" ambiguous extreme north_most vs north directional extreme with respect to reference"
+    },
+    {
+      "id": "v4_0218876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0219002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0219012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0219018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0219034",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

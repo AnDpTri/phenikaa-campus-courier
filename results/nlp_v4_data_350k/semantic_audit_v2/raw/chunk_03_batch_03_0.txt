@@ -1,0 +1,52 @@
+v4_0021061	U	Loi vao/quan an khong ro phai via hay reject; huong dan khong xac dinh ro
+v4_0021063	P	-
+v4_0021078	P	-
+v4_0021081	P	-
+v4_0021083	P	-
+v4_0021097	P	-
+v4_0021107	P	-
+v4_0021109	P	-
+v4_0021115	P	-
+v4_0021125	P	-
+v4_0021138	P	-
+v4_0021151	P	-
+v4_0021152	P	-
+v4_0021161	P	-
+v4_0021173	P	-
+v4_0021190	P	-
+v4_0021197	P	-
+v4_0021199	P	-
+v4_0021218	P	-
+v4_0021227	P	-
+v4_0021234	P	-
+v4_0021245	P	-
+v4_0021257	P	-
+v4_0021263	P	-
+v4_0021264	P	-
+v4_0021265	P	-
+v4_0021273	P	-
+v4_0021274	P	-
+v4_0021279	P	-
+v4_0021284	P	-
+v4_0021304	P	-
+v4_0021312	P	-
+v4_0021317	P	-
+v4_0021321	P	-
+v4_0021326	P	-
+v4_0021334	P	-
+v4_0021353	P	-
+v4_0021377	P	-
+v4_0021384	P	-
+v4_0021401	P	-
+v4_0021435	P	-
+v4_0021438	P	-
+v4_0021449	P	-
+v4_0021452	P	-
+v4_0021461	P	-
+v4_0021468	P	-
+v4_0021508	P	-
+v4_0021524	P	-
+v4_0021530	P	-
+v4_0021532	F	goal type provided sports corrected - text chi noi thay day the duc vua dat sach khong phai diem den la nha the thao
+
+STDERR:

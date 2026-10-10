@@ -1,0 +1,52 @@
+v4_0196513	P	-
+v4_0196528	F	goal type: provided '-', expected 'office' ("acn phong gan sat chot bao ve cong")
+v4_0196533	P	-
+v4_0196543	P	-
+v4_0196575	P	-
+v4_0196602	P	-
+v4_0196619	P	-
+v4_0196626	P	-
+v4_0196639	P	-
+v4_0196645	P	-
+v4_0196646	U	ambiguous whether destination is pick up or delivery ("nhan hang tai o gan voi loi ra nhat")
+v4_0196648	P	-
+v4_0196655	F	goal type: provided '-', expected 'office' ("can phong lien ke diem kiem soat the ra vao")
+v4_0196679	P	-
+v4_0196686	U	unreadable corrupted text for intermediate stop ("nha the cat thuoc nua phai ban do")
+v4_0196688	P	-
+v4_0196700	P	-
+v4_0196704	P	-
+v4_0196708	P	-
+v4_0196716	P	-
+v4_0196717	P	-
+v4_0196721	P	-
+v4_0196723	P	-
+v4_0196728	P	-
+v4_0196732	P	-
+v4_0196734	P	-
+v4_0196742	P	-
+v4_0196747	P	-
+v4_0196765	P	-
+v4_0196775	P	-
+v4_0196777	P	-
+v4_0196785	P	-
+v4_0196795	P	-
+v4_0196796	P	-
+v4_0196828	P	-
+v4_0196846	F	goal type: provided 'office', expected '-' ("phong mot ca hne do la bo ho so" corrupted/unknown place type)
+v4_0196851	P	-
+v4_0196861	P	-
+v4_0196865	P	-
+v4_0196868	P	-
+v4_0196872	P	-
+v4_0196884	U	ambiguous whether 'o dau ban do' means north_most or west_most (cot dau vs cao nhat)
+v4_0196902	P	-
+v4_0196936	P	-
+v4_0196951	P	-
+v4_0196955	P	-
+v4_0196963	F	goal type: provided '-', expected 'dorm' ("Nguoi O Ktx O Nut Sat Phong Sach Dang Cho Tui So Cuu")
+v4_0196973	P	-
+v4_0196998	P	-
+v4_0197005	P	-
+
+STDERR:

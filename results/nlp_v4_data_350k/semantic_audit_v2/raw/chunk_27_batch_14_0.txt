@@ -1,0 +1,52 @@
+v4_0266529	P	-
+v4_0266540	P	-
+v4_0266566	P	-
+v4_0266577	P	-
+v4_0266580	P	-
+v4_0266582	P	-
+v4_0266604	P	-
+v4_0266612	P	-
+v4_0266613	P	-
+v4_0266614	P	-
+v4_0266617	P	-
+v4_0266620	P	-
+v4_0266632	P	-
+v4_0266656	P	-
+v4_0266671	P	-
+v4_0266685	P	-
+v4_0266688	P	-
+v4_0266700	P	-
+v4_0266703	P	-
+v4_0266720	P	-
+v4_0266724	P	-
+v4_0266757	P	-
+v4_0266768	U	"ngay di" contradicts "Khong co gi gap" / default urgency, causing ambiguity
+v4_0266773	P	-
+v4_0266784	P	-
+v4_0266789	P	-
+v4_0266799	P	-
+v4_0266814	P	-
+v4_0266821	P	-
+v4_0266873	P	-
+v4_0266874	P	-
+v4_0266878	P	-
+v4_0266879	P	-
+v4_0266880	P	-
+v4_0266897	P	-
+v4_0266903	P	-
+v4_0266910	P	-
+v4_0266943	P	-
+v4_0266951	P	-
+v4_0266977	P	-
+v4_0266982	P	-
+v4_0266986	P	-
+v4_0267012	P	-
+v4_0267037	P	-
+v4_0267039	U	"xa hon ngay" contains ambiguous "ngay" (immediately vs right away) or unexpressed urgent flag conflicting with urgent=0
+v4_0267052	P	-
+v4_0267054	P	-
+v4_0267064	P	-
+v4_0267092	P	-
+v4_0267094	P	-
+
+STDERR:

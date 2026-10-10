@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0327497",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327512",
+      "status": "F",
+      "reason": "goal type: provided gate, corrected - (ve loi vao giao don hang can rta do khong vo duoc)"
+    },
+    {
+      "id": "v4_0327522",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327598",
+      "status": "F",
+      "reason": "goal type: provided -, corrected canteen (dau bep nau com trua sinh vien dang doi khay com tai diem ma tien sat ve phuong tay xa hon toan bo)"
+    },
+    {
+      "id": "v4_0327631",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327647",
+      "status": "F",
+      "reason": "goal type: provided -, corrected parking (nhan vien trong xe vua chuyen sang vi tri nao nam o phia duoi nhat)"
+    },
+    {
+      "id": "v4_0327664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327710",
+      "status": "U",
+      "reason": "Ambiguous whether 'o hang dau' refers to north_most (cao nhat/tren cung) or front/row"
+    },
+    {
+      "id": "v4_0327719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327843",
+      "status": "U",
+      "reason": "Contradictory urgency phrase 'ai giao cung duoc' vs 'mai giao cung duoc'"
+    },
+    {
+      "id": "v4_0327856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327933",
+      "status": "F",
+      "reason": "goal type: provided -, corrected parking (nhan vien bai xe dang doi micro khong day tai vi tri nm nam trai cung)"
+    },
+    {
+      "id": "v4_0327940",
+      "status": "F",
+      "reason": "goal type: provided -, corrected gate (bac bao ve trong giu xe truong o cho nam tim diem co kinh do nho nhat tren ban do dang cho hp banh)"
+    },
+    {
+      "id": "v4_0327946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0327998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328036",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328049",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

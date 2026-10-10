@@ -1,0 +1,52 @@
+v4_0202680	P	-
+v4_0202702	P	-
+v4_0202705	P	-
+v4_0202712	P	-
+v4_0202726	P	-
+v4_0202730	P	-
+v4_0202740	P	-
+v4_0202749	P	-
+v4_0202753	P	-
+v4_0202754	P	-
+v4_0202758	P	-
+v4_0202775	P	-
+v4_0202793	P	-
+v4_0202795	P	-
+v4_0202797	P	-
+v4_0202800	P	-
+v4_0202804	P	-
+v4_0202818	P	-
+v4_0202841	P	-
+v4_0202847	P	-
+v4_0202859	P	-
+v4_0202862	P	-
+v4_0202895	P	-
+v4_0202899	P	-
+v4_0202912	P	-
+v4_0202917	P	-
+v4_0202929	P	-
+v4_0202936	P	-
+v4_0202943	U	Goal building type is not mentioned or missing in text (only recipient mentioned as lop truong, no goal building specified)
+v4_0202957	P	-
+v4_0202960	P	-
+v4_0202964	P	-
+v4_0202965	P	-
+v4_0202980	P	-
+v4_0202988	P	-
+v4_0203017	P	-
+v4_0203023	P	-
+v4_0203032	P	-
+v4_0203033	P	-
+v4_0203045	P	-
+v4_0203059	P	-
+v4_0203060	P	-
+v4_0203063	P	-
+v4_0203066	P	-
+v4_0203067	U	Contradictory urgency cues ('khong vi' vs 'phai nhanh')
+v4_0203105	U	Goal building type is not mentioned (only recipient is quan ly ktx, no stated delivery location)
+v4_0203114	P	-
+v4_0203116	P	-
+v4_0203120	P	-
+v4_0203129	P	-
+
+STDERR:

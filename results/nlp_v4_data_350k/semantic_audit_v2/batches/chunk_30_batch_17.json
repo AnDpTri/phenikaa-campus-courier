@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_30_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0297979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298072",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/west_most/- should be clinic/west_most/- ('bac si truong o toa nao o xa ve ben trai nhat')"
+    },
+    {
+      "id": "v4_0298093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298118",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298160",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298233",
+      "status": "U",
+      "reason": "ambiguous goal destination ('nhan vien thu vien dang doi so ghi khach' does not specify building)"
+    },
+    {
+      "id": "v4_0298243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298438",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided parking/-/- should be -/-/- or via type/ref/anchor provided lab/near/office should be parking/-/- ('mang ho gio hoa qua sang bai xe nha tren duong tien ghe phong thi nghiem hia gan an giam hieu')"
+    },
+    {
+      "id": "v4_0298449",
+      "status": "U",
+      "reason": "goal destination missing/unspecified ('chu giu xe vua dat the thu vien' does not specify where to deliver)"
+    },
+    {
+      "id": "v4_0298458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0298488",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

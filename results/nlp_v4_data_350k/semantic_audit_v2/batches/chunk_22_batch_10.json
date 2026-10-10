@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0214666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214667",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('dang doi thung thuc pham gap')"
+    },
+    {
+      "id": "v4_0214671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214679",
+      "status": "U",
+      "reason": "ambiguous goal type and modifier in 'noi o canh giang duong lon nhat'"
+    },
+    {
+      "id": "v4_0214684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214725",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('dang doi loa gap')"
+    },
+    {
+      "id": "v4_0214734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214886",
+      "status": "U",
+      "reason": "unreadable goal location 'cho huyen ien'"
+    },
+    {
+      "id": "v4_0214888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214900",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214902",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214923",
+      "status": "U",
+      "reason": "ambiguous extreme map position 'o cuoi ban do' between south and east"
+    },
+    {
+      "id": "v4_0214933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214943",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay')"
+    },
+    {
+      "id": "v4_0214948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0214988",
+      "status": "U",
+      "reason": "missing direction relation word in 'Khu The Tao Hon Cai Kia'"
+    },
+    {
+      "id": "v4_0215001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215006",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215057",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215112",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

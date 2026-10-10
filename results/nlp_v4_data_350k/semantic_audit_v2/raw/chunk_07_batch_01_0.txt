@@ -1,0 +1,52 @@
+v4_0060013	P	-
+v4_0060019	P	-
+v4_0060020	P	-
+v4_0060028	P	-
+v4_0060047	P	-
+v4_0060053	F	goal provided -/north_most/- but text specifies nhan vien bai xe (parking/north_most/-)
+v4_0060055	P	-
+v4_0060072	P	-
+v4_0060076	P	-
+v4_0060111	P	-
+v4_0060121	P	-
+v4_0060124	P	-
+v4_0060136	P	-
+v4_0060142	P	-
+v4_0060183	P	-
+v4_0060184	P	-
+v4_0060202	P	-
+v4_0060234	P	-
+v4_0060237	P	-
+v4_0060251	U	ambiguous typo in via direction "huong ac ban do" (unclear if north or east)
+v4_0060253	P	-
+v4_0060266	P	-
+v4_0060277	P	-
+v4_0060282	P	-
+v4_0060286	P	-
+v4_0060290	P	-
+v4_0060328	F	goal provided -/anchor_near/office but text specifies nhan vien bai xe o khu vuc ngay sat phong mot cua (parking/near/office)
+v4_0060340	P	-
+v4_0060352	P	-
+v4_0060357	F	goal provided -/anchor_near/library but text specifies nhan vien trong xe dang doi ... cach phong doc tu chon it buoc di nhat (parking/near/library)
+v4_0060361	P	-
+v4_0060370	P	-
+v4_0060377	P	-
+v4_0060385	P	-
+v4_0060386	P	-
+v4_0060395	P	-
+v4_0060398	P	-
+v4_0060404	P	-
+v4_0060410	P	-
+v4_0060424	P	-
+v4_0060428	P	-
+v4_0060439	P	-
+v4_0060456	P	-
+v4_0060462	P	-
+v4_0060467	P	-
+v4_0060473	P	-
+v4_0060494	P	-
+v4_0060502	P	-
+v4_0060506	P	-
+v4_0060512	P	-
+
+STDERR:

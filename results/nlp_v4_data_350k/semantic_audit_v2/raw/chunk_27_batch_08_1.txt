@@ -1,0 +1,52 @@
+v4_0263335	P	-
+v4_0263336	P	-
+v4_0263348	P	-
+v4_0263353	P	-
+v4_0263379	P	-
+v4_0263393	P	-
+v4_0263399	P	-
+v4_0263407	P	-
+v4_0263412	P	-
+v4_0263424	P	-
+v4_0263437	P	-
+v4_0263444	P	-
+v4_0263447	P	-
+v4_0263448	P	-
+v4_0263449	P	-
+v4_0263463	P	-
+v4_0263466	P	-
+v4_0263467	P	-
+v4_0263477	P	-
+v4_0263483	P	-
+v4_0263485	U	ambiguous extreme vs ordinary direction in goal ref ('le phai' lacks extreme modifier nhat/cung)
+v4_0263491	P	-
+v4_0263492	U	unclear delivery goal destination; KTX management is sender without explicit recipient destination
+v4_0263502	P	-
+v4_0263516	P	-
+v4_0263538	P	-
+v4_0263547	P	-
+v4_0263561	P	-
+v4_0263565	P	-
+v4_0263568	P	-
+v4_0263581	P	-
+v4_0263613	P	-
+v4_0263615	P	-
+v4_0263623	P	-
+v4_0263630	P	-
+v4_0263631	P	-
+v4_0263632	P	-
+v4_0263642	P	-
+v4_0263650	P	-
+v4_0263712	P	-
+v4_0263716	P	-
+v4_0263726	P	-
+v4_0263728	P	-
+v4_0263733	P	-
+v4_0263738	P	-
+v4_0263754	P	-
+v4_0263764	P	-
+v4_0263774	P	-
+v4_0263777	P	-
+v4_0263810	F	urgent: provided 0, corrected 1 ('Can Gap')
+
+STDERR:

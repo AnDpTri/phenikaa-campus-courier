@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0082606",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082753",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082801",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082889",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0082997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083036",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083091",
+      "status": "U",
+      "reason": "'lech phai' indicates eastern directional instance (east), not extreme map position (east_most)"
+    },
+    {
+      "id": "v4_0083092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0083160",
+      "status": "U",
+      "reason": "'can gap' can mean urgent ('cần gấp') or pick up micro ('cầm/cần gắp micro') creating contradictory cue with urgent=0"
+    },
+    {
+      "id": "v4_0083161",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

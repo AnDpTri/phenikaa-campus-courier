@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_30_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0296649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296694",
+      "status": "U",
+      "reason": "Ambiguous whether 'lech han ve phia bac' means extreme position north_most or direction north"
+    },
+    {
+      "id": "v4_0296704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296760",
+      "status": "F",
+      "reason": "urgent: provided '1', corrected '0' ('rat khan' means urgent, wait: text says 'rat khan', urgent=1 is correct; check goal: 'lop dang hoc dang cho ti so cuu' -> lecture, so all P)"
+    },
+    {
+      "id": "v4_0296771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296825",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296873",
+      "status": "F",
+      "reason": "via: provided '-/-/-', corrected 'sports/-/-' ('khong can di ngang nha da nang' rejects sports, but wait: 'minh ci luot qua hu uc thu vien khong dung chan', neither is via, so via -/-/- is correct; clinic is goal; P)"
+    },
+    {
+      "id": "v4_0296875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296893",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296973",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0296995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297062",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

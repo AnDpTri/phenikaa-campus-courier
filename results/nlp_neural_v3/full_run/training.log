@@ -1,0 +1,39 @@
+device: cuda; per epoch 200000 synthetic + 2000 x5 train; 3 seed(s)
+[seed 20261008] initialised from artifacts\nlp\neural_parser_v2.pt net 0
+[seed 20261008] parameters: 7,515,212
+[seed 20261008] epoch 1: loss 0.0309  validation all 0.5933  holdout-phrasing all 0.6685 goal 0.7655  508s
+[seed 20261008] epoch 2: loss 0.0082  validation all 0.5933  holdout-phrasing all 0.6710 goal 0.7965  491s
+[seed 20261008] epoch 3: loss 0.0073  validation all 0.6167  holdout-phrasing all 0.6635 goal 0.7975  478s
+[seed 20261008] epoch 4: loss 0.0045  validation all 0.6100  holdout-phrasing all 0.6430 goal 0.8025  479s
+[seed 20261008] epoch 5: loss 0.0038  validation all 0.6033  holdout-phrasing all 0.7010 goal 0.8235  479s
+[seed 20261008] epoch 6: loss 0.0037  validation all 0.6000  holdout-phrasing all 0.7020 goal 0.8225  480s
+[seed 20268927] initialised from artifacts\nlp\neural_parser_v2.pt net 1
+[seed 20268927] parameters: 7,515,212
+[seed 20268927] epoch 1: loss 0.0351  validation all 0.6333  holdout-phrasing all 0.5975 goal 0.8135  477s
+[seed 20268927] epoch 2: loss 0.0114  validation all 0.6667  holdout-phrasing all 0.6115 goal 0.7955  479s
+[seed 20268927] epoch 3: loss 0.0074  validation all 0.6433  holdout-phrasing all 0.5895 goal 0.8095  478s
+[seed 20268927] epoch 4: loss 0.0057  validation all 0.6400  holdout-phrasing all 0.6275 goal 0.7960  478s
+[seed 20268927] epoch 5: loss 0.0045  validation all 0.6467  holdout-phrasing all 0.6190 goal 0.8100  478s
+[seed 20268927] epoch 6: loss 0.0035  validation all 0.6567  holdout-phrasing all 0.6225 goal 0.8130  479s
+[seed 20276846] initialised from artifacts\nlp\neural_parser_v2.pt net 2
+[seed 20276846] parameters: 7,515,212
+[seed 20276846] epoch 1: loss 0.0402  validation all 0.6533  holdout-phrasing all 0.6270 goal 0.8015  522s
+[seed 20276846] epoch 2: loss 0.0091  validation all 0.6633  holdout-phrasing all 0.5590 goal 0.7830  479s
+[seed 20276846] epoch 3: loss 0.0072  validation all 0.6633  holdout-phrasing all 0.5745 goal 0.8125  484s
+[seed 20276846] epoch 4: loss 0.0056  validation all 0.6700  holdout-phrasing all 0.5680 goal 0.8200  479s
+[seed 20276846] epoch 5: loss 0.0045  validation all 0.6467  holdout-phrasing all 0.5825 goal 0.8235  500s
+[seed 20276846] epoch 6: loss 0.0044  validation all 0.6600  holdout-phrasing all 0.5860 goal 0.8245  478s
+hybrid thresholds: HybridThresholds(goal=2.0, via=2.0, flags=2.0)  selection: {'rule_only': {'validation': 1.0, 'holdout': 0.334, 'challenge': 1.0}, 'chosen': {'validation': 1.0, 'holdout': 0.334, 'challenge': 1.0}}
+validation_grounded  rules   goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation_grounded  neural  goal_nodes 0.9133  goal_type 0.9200  goal_ref 0.9867  via_nodes 0.9000  urgent 0.8900  fragile 0.8900  all 0.6500
+validation_grounded  hybrid  goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           neural  goal 0.9000  via 0.9000  urgent 0.8900  fragile 0.8900  all 0.6433
+validation           hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+holdout              rules   goal 0.2310  via 0.7487  urgent 0.8863  fragile 0.9687  all 0.1557
+holdout              neural  goal 0.8513  via 0.9313  urgent 0.8743  fragile 0.9997  all 0.6923
+holdout              hybrid  goal 0.4883  via 0.7487  urgent 0.8863  fragile 0.9687  all 0.3337
+challenge            rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+challenge            neural  goal 0.9800  via 0.9800  urgent 1.0000  fragile 1.0000  all 0.9600
+challenge            hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+saved artifacts\nlp\neural_parser_v3.pt

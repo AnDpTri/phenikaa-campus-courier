@@ -1,0 +1,16 @@
+{
+  "input": "D:\\phenikaa\\results\\nlp_v4_data_350k\\rule_filter_v1\\retained.jsonl",
+  "incoming": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\incoming_40000.jsonl",
+  "original_count": 338071,
+  "new_count": 40000,
+  "compatible_count": 38833,
+  "quarantined": 1167,
+  "full_removed": 40000,
+  "trainable_removed": 38833,
+  "output_rows": 338071,
+  "selection": {
+    "exact": 38826,
+    "fallback": 1174
+  },
+  "note": "Full 40k dataset is NOT trainable due to 1167 unsupported via refs. Compatible replacement swaps 38833 safely and leaves 1167 original rows. No source code changed."
+}

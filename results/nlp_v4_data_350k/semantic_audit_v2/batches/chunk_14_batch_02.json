@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_14_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0130474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130495",
+      "status": "F",
+      "reason": "goal type canteen (provided -; text specifies diem lien ke khu an trua)"
+    },
+    {
+      "id": "v4_0130496",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130501",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130693",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130720",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130798",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130800",
+      "status": "U",
+      "reason": "\"san co hon cai kia\" is corrupted/unclear relative reference for via dorm"
+    },
+    {
+      "id": "v4_0130806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0130839",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

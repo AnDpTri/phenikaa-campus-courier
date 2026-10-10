@@ -1,0 +1,682 @@
+{
+  "kind": "V9 independent split-head recombination research screen",
+  "utc": "2026-10-10T02:52:41.101485+00:00",
+  "models": {
+    "B0": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_restricted_B0_control_v1.pt",
+    "D1": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_restricted_D1_focused_v1.pt",
+    "H": "in-memory: B0 state except urgent heads from D1"
+  },
+  "unchanged_parameter_tensors": 41,
+  "total_parameter_tensors": 65,
+  "changed_tensors": [
+    "attention.via_mode.0.weight",
+    "attention.via_mode.0.bias",
+    "attention.via_mode.2.weight",
+    "attention.via_mode.2.bias",
+    "attention.via_type.0.weight",
+    "attention.via_type.0.bias",
+    "attention.via_type.2.weight",
+    "attention.via_type.2.bias",
+    "attention.via_anchor.0.weight",
+    "attention.via_anchor.0.bias",
+    "attention.via_anchor.2.weight",
+    "attention.via_anchor.2.bias",
+    "attention.urgent.0.weight",
+    "attention.urgent.0.bias",
+    "attention.urgent.2.weight",
+    "attention.urgent.2.bias",
+    "output.via_mode.weight",
+    "output.via_mode.bias",
+    "output.via_type.weight",
+    "output.via_type.bias",
+    "output.via_anchor.weight",
+    "output.via_anchor.bias",
+    "output.urgent.weight",
+    "output.urgent.bias"
+  ],
+  "fresh_generator_seeds": [
+    20261010977,
+    20261010978,
+    20261010979
+  ],
+  "scores": {
+    "B0": {
+      "v2_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.81125,
+          "via": 0.88,
+          "urgent": 0.725625,
+          "fragile": 0.915625,
+          "all": 0.4875
+        },
+        "via": {
+          "counts": {
+            "tp": 655,
+            "fn": 147,
+            "tn": 791,
+            "fp": 7
+          },
+          "fpr": 0.008772,
+          "fnr": 0.183292
+        },
+        "urgent": {
+          "counts": {
+            "tn": 880,
+            "tp": 281,
+            "fn": 414,
+            "fp": 25
+          },
+          "fpr": 0.027624,
+          "fnr": 0.595683
+        },
+        "fragile": {
+          "counts": {
+            "tp": 697,
+            "tn": 768,
+            "fp": 135
+          },
+          "fpr": 0.149502,
+          "fnr": 0.0
+        }
+      },
+      "weighted_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.789375,
+          "via": 0.77125,
+          "urgent": 0.886875,
+          "fragile": 0.846875,
+          "all": 0.461875
+        },
+        "via": {
+          "counts": {
+            "tn": 637,
+            "fn": 209,
+            "tp": 678,
+            "fp": 76
+          },
+          "fpr": 0.106592,
+          "fnr": 0.235626
+        },
+        "urgent": {
+          "counts": {
+            "tn": 834,
+            "tp": 585,
+            "fn": 170,
+            "fp": 11
+          },
+          "fpr": 0.013018,
+          "fnr": 0.225166
+        },
+        "fragile": {
+          "counts": {
+            "tn": 862,
+            "tp": 493,
+            "fn": 184,
+            "fp": 61
+          },
+          "fpr": 0.066089,
+          "fnr": 0.271787
+        }
+      },
+      "hard_fresh": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.781,
+          "via": 0.718,
+          "urgent": 1.0,
+          "fragile": 0.828,
+          "all": 0.487
+        },
+        "via": {
+          "counts": {
+            "tn": 428,
+            "fn": 189,
+            "tp": 340,
+            "fp": 43
+          },
+          "fpr": 0.091295,
+          "fnr": 0.357278
+        },
+        "urgent": {
+          "counts": {
+            "tp": 484,
+            "tn": 516
+          },
+          "fpr": 0.0,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fn": 172,
+            "tn": 547,
+            "tp": 281
+          },
+          "fpr": 0.0,
+          "fnr": 0.379691
+        }
+      },
+      "family1200": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.969167,
+          "via": 0.625833,
+          "urgent": 0.566667,
+          "fragile": 0.79,
+          "all": 0.289167
+        },
+        "via": {
+          "counts": {
+            "tn": 406,
+            "fn": 251,
+            "fp": 194,
+            "tp": 349
+          },
+          "fpr": 0.323333,
+          "fnr": 0.418333
+        },
+        "urgent": {
+          "counts": {
+            "fp": 520,
+            "tp": 600,
+            "tn": 80
+          },
+          "fpr": 0.866667,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fp": 244,
+            "tp": 592,
+            "tn": 356,
+            "fn": 8
+          },
+          "fpr": 0.406667,
+          "fnr": 0.013333
+        }
+      },
+      "focus192": {
+        "n": 192,
+        "exact": {
+          "goal": 0.96875,
+          "via": 0.723958,
+          "urgent": 0.776042,
+          "fragile": 0.552083,
+          "all": 0.291667
+        },
+        "via": {
+          "counts": {
+            "tn": 104,
+            "tp": 36,
+            "fn": 34,
+            "fp": 18
+          },
+          "fpr": 0.147541,
+          "fnr": 0.485714
+        },
+        "urgent": {
+          "counts": {
+            "tp": 52,
+            "tn": 97,
+            "fn": 36,
+            "fp": 7
+          },
+          "fpr": 0.067308,
+          "fnr": 0.409091
+        },
+        "fragile": {
+          "counts": {
+            "tn": 40,
+            "tp": 66,
+            "fp": 86
+          },
+          "fpr": 0.68254,
+          "fnr": 0.0
+        }
+      }
+    },
+    "D1": {
+      "v2_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.81125,
+          "via": 0.888125,
+          "urgent": 0.725625,
+          "fragile": 0.915625,
+          "all": 0.493125
+        },
+        "via": {
+          "counts": {
+            "tp": 668,
+            "fn": 134,
+            "tn": 791,
+            "fp": 7
+          },
+          "fpr": 0.008772,
+          "fnr": 0.167082
+        },
+        "urgent": {
+          "counts": {
+            "tn": 879,
+            "tp": 282,
+            "fn": 413,
+            "fp": 26
+          },
+          "fpr": 0.028729,
+          "fnr": 0.594245
+        },
+        "fragile": {
+          "counts": {
+            "tp": 697,
+            "tn": 768,
+            "fp": 135
+          },
+          "fpr": 0.149502,
+          "fnr": 0.0
+        }
+      },
+      "weighted_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.789375,
+          "via": 0.7775,
+          "urgent": 0.886875,
+          "fragile": 0.846875,
+          "all": 0.465
+        },
+        "via": {
+          "counts": {
+            "tn": 626,
+            "fn": 182,
+            "tp": 705,
+            "fp": 87
+          },
+          "fpr": 0.12202,
+          "fnr": 0.205186
+        },
+        "urgent": {
+          "counts": {
+            "tn": 833,
+            "tp": 586,
+            "fn": 169,
+            "fp": 12
+          },
+          "fpr": 0.014201,
+          "fnr": 0.223841
+        },
+        "fragile": {
+          "counts": {
+            "tn": 862,
+            "tp": 493,
+            "fn": 184,
+            "fp": 61
+          },
+          "fpr": 0.066089,
+          "fnr": 0.271787
+        }
+      },
+      "hard_fresh": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.781,
+          "via": 0.722,
+          "urgent": 1.0,
+          "fragile": 0.828,
+          "all": 0.489
+        },
+        "via": {
+          "counts": {
+            "tn": 414,
+            "fn": 170,
+            "tp": 359,
+            "fp": 57
+          },
+          "fpr": 0.121019,
+          "fnr": 0.321361
+        },
+        "urgent": {
+          "counts": {
+            "tp": 484,
+            "tn": 516
+          },
+          "fpr": 0.0,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fn": 172,
+            "tn": 547,
+            "tp": 281
+          },
+          "fpr": 0.0,
+          "fnr": 0.379691
+        }
+      },
+      "family1200": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.969167,
+          "via": 0.615833,
+          "urgent": 0.608333,
+          "fragile": 0.79,
+          "all": 0.304167
+        },
+        "via": {
+          "counts": {
+            "tn": 393,
+            "fn": 248,
+            "fp": 207,
+            "tp": 352
+          },
+          "fpr": 0.345,
+          "fnr": 0.413333
+        },
+        "urgent": {
+          "counts": {
+            "fp": 470,
+            "tp": 600,
+            "tn": 130
+          },
+          "fpr": 0.783333,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fp": 244,
+            "tp": 592,
+            "tn": 356,
+            "fn": 8
+          },
+          "fpr": 0.406667,
+          "fnr": 0.013333
+        }
+      },
+      "focus192": {
+        "n": 192,
+        "exact": {
+          "goal": 0.96875,
+          "via": 0.71875,
+          "urgent": 0.802083,
+          "fragile": 0.552083,
+          "all": 0.28125
+        },
+        "via": {
+          "counts": {
+            "tn": 103,
+            "tp": 36,
+            "fn": 34,
+            "fp": 19
+          },
+          "fpr": 0.155738,
+          "fnr": 0.485714
+        },
+        "urgent": {
+          "counts": {
+            "tp": 56,
+            "tn": 98,
+            "fn": 32,
+            "fp": 6
+          },
+          "fpr": 0.057692,
+          "fnr": 0.363636
+        },
+        "fragile": {
+          "counts": {
+            "tn": 40,
+            "tp": 66,
+            "fp": 86
+          },
+          "fpr": 0.68254,
+          "fnr": 0.0
+        }
+      }
+    },
+    "H_urgent_only": {
+      "v2_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.81125,
+          "via": 0.88,
+          "urgent": 0.725625,
+          "fragile": 0.915625,
+          "all": 0.4875
+        },
+        "via": {
+          "counts": {
+            "tp": 655,
+            "fn": 147,
+            "tn": 791,
+            "fp": 7
+          },
+          "fpr": 0.008772,
+          "fnr": 0.183292
+        },
+        "urgent": {
+          "counts": {
+            "tn": 879,
+            "tp": 282,
+            "fn": 413,
+            "fp": 26
+          },
+          "fpr": 0.028729,
+          "fnr": 0.594245
+        },
+        "fragile": {
+          "counts": {
+            "tp": 697,
+            "tn": 768,
+            "fp": 135
+          },
+          "fpr": 0.149502,
+          "fnr": 0.0
+        }
+      },
+      "weighted_fresh": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.789375,
+          "via": 0.77125,
+          "urgent": 0.886875,
+          "fragile": 0.846875,
+          "all": 0.461875
+        },
+        "via": {
+          "counts": {
+            "tn": 637,
+            "fn": 209,
+            "tp": 678,
+            "fp": 76
+          },
+          "fpr": 0.106592,
+          "fnr": 0.235626
+        },
+        "urgent": {
+          "counts": {
+            "tn": 833,
+            "tp": 586,
+            "fn": 169,
+            "fp": 12
+          },
+          "fpr": 0.014201,
+          "fnr": 0.223841
+        },
+        "fragile": {
+          "counts": {
+            "tn": 862,
+            "tp": 493,
+            "fn": 184,
+            "fp": 61
+          },
+          "fpr": 0.066089,
+          "fnr": 0.271787
+        }
+      },
+      "hard_fresh": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.781,
+          "via": 0.718,
+          "urgent": 1.0,
+          "fragile": 0.828,
+          "all": 0.487
+        },
+        "via": {
+          "counts": {
+            "tn": 428,
+            "fn": 189,
+            "tp": 340,
+            "fp": 43
+          },
+          "fpr": 0.091295,
+          "fnr": 0.357278
+        },
+        "urgent": {
+          "counts": {
+            "tp": 484,
+            "tn": 516
+          },
+          "fpr": 0.0,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fn": 172,
+            "tn": 547,
+            "tp": 281
+          },
+          "fpr": 0.0,
+          "fnr": 0.379691
+        }
+      },
+      "family1200": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.969167,
+          "via": 0.625833,
+          "urgent": 0.608333,
+          "fragile": 0.79,
+          "all": 0.313333
+        },
+        "via": {
+          "counts": {
+            "tn": 406,
+            "fn": 251,
+            "fp": 194,
+            "tp": 349
+          },
+          "fpr": 0.323333,
+          "fnr": 0.418333
+        },
+        "urgent": {
+          "counts": {
+            "fp": 470,
+            "tp": 600,
+            "tn": 130
+          },
+          "fpr": 0.783333,
+          "fnr": 0.0
+        },
+        "fragile": {
+          "counts": {
+            "fp": 244,
+            "tp": 592,
+            "tn": 356,
+            "fn": 8
+          },
+          "fpr": 0.406667,
+          "fnr": 0.013333
+        }
+      },
+      "focus192": {
+        "n": 192,
+        "exact": {
+          "goal": 0.96875,
+          "via": 0.723958,
+          "urgent": 0.802083,
+          "fragile": 0.552083,
+          "all": 0.286458
+        },
+        "via": {
+          "counts": {
+            "tn": 104,
+            "tp": 36,
+            "fn": 34,
+            "fp": 18
+          },
+          "fpr": 0.147541,
+          "fnr": 0.485714
+        },
+        "urgent": {
+          "counts": {
+            "tp": 56,
+            "tn": 98,
+            "fn": 32,
+            "fp": 6
+          },
+          "fpr": 0.057692,
+          "fnr": 0.363636
+        },
+        "fragile": {
+          "counts": {
+            "tn": 40,
+            "tp": 66,
+            "fp": 86
+          },
+          "fpr": 0.68254,
+          "fnr": 0.0
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "v2_fresh": {
+      "n": 1600,
+      "HminusB0_all_pp": 0.0,
+      "HminusD1_all_pp": -0.562,
+      "urgent_acc_gain_vs_B0_pp": 0.0,
+      "HminusB0_via_FPR_pp": 0.0,
+      "HminusD1_via_FPR_pp": 0.0
+    },
+    "weighted_fresh": {
+      "n": 1600,
+      "HminusB0_all_pp": 0.0,
+      "HminusD1_all_pp": -0.313,
+      "urgent_acc_gain_vs_B0_pp": 0.0,
+      "HminusB0_via_FPR_pp": 0.0,
+      "HminusD1_via_FPR_pp": -1.543
+    },
+    "hard_fresh": {
+      "n": 1000,
+      "HminusB0_all_pp": 0.0,
+      "HminusD1_all_pp": -0.2,
+      "urgent_acc_gain_vs_B0_pp": 0.0,
+      "HminusB0_via_FPR_pp": 0.0,
+      "HminusD1_via_FPR_pp": -2.972
+    },
+    "family1200": {
+      "n": 1200,
+      "HminusB0_all_pp": 2.417,
+      "HminusD1_all_pp": 0.917,
+      "urgent_acc_gain_vs_B0_pp": 4.167,
+      "HminusB0_via_FPR_pp": 0.0,
+      "HminusD1_via_FPR_pp": -2.167
+    },
+    "focus192": {
+      "n": 192,
+      "HminusB0_all_pp": -0.521,
+      "HminusD1_all_pp": 0.521,
+      "urgent_acc_gain_vs_B0_pp": 2.604,
+      "HminusB0_via_FPR_pp": 0.0,
+      "HminusD1_via_FPR_pp": -0.82
+    }
+  },
+  "time_s": 42.4,
+  "limitations": [
+    "No human-blind data",
+    "synthetic probes including reused family challenge",
+    "single seed training",
+    "No official val/test used",
+    "No deployable checkpoint saved"
+  ]
+}

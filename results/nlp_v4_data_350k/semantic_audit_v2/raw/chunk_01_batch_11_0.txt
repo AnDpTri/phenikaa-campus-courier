@@ -1,0 +1,52 @@
+v4_0004894	P	-
+v4_0004896	P	-
+v4_0004936	P	-
+v4_0004966	P	-
+v4_0004968	P	-
+v4_0004981	P	-
+v4_0004992	P	-
+v4_0004994	P	-
+v4_0004999	P	-
+v4_0005000	P	-
+v4_0005015	P	-
+v4_0005045	P	-
+v4_0005049	P	-
+v4_0005058	P	-
+v4_0005059	P	-
+v4_0005078	P	-
+v4_0005086	P	-
+v4_0005088	P	-
+v4_0005100	P	-
+v4_0005103	P	-
+v4_0005107	P	-
+v4_0005110	P	-
+v4_0005122	P	-
+v4_0005136	P	-
+v4_0005139	P	-
+v4_0005157	P	-
+v4_0005161	P	-
+v4_0005168	P	-
+v4_0005176	P	-
+v4_0005177	P	-
+v4_0005179	P	-
+v4_0005181	P	-
+v4_0005183	P	-
+v4_0005201	P	-
+v4_0005218	F	goal type: provided 'library' but recipient is 'nhan vien thu vien' with no specific goal location mentioned, yet if inferred as library, urgent is 0 (luc nao ranh thi giao), fragile is 1 (co do thuy tinh). Wait, 'nhan vien thu vien nho gui goi hang' means employee sends parcel or receives?
+v4_0005232	P	-
+v4_0005234	P	-
+v4_0005240	U	contradictory urgency phrases: 'can gap bo vot' vs 'khong gap dau'
+v4_0005254	P	-
+v4_0005261	P	-
+v4_0005264	P	-
+v4_0005287	P	-
+v4_0005289	P	-
+v4_0005308	P	-
+v4_0005313	P	-
+v4_0005333	P	-
+v4_0005335	P	-
+v4_0005337	U	'khu de xe an phong thuc tap hon' has destroyed/missing direction word ('an' typo for gan or something else, missing 'g' in gan)
+v4_0005345	F	goal type: provided 'canteen' but text says 'cho co phu bep' which is canteen, wait, is that canteen?
+v4_0005367	P	-
+
+STDERR:

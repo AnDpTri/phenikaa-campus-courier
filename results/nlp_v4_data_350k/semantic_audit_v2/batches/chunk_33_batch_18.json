@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0328613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328619",
+      "status": "U",
+      "reason": "Vi tri cua bac si o dau khong ro rang, chi noi la tui do cua bac si"
+    },
+    {
+      "id": "v4_0328622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328720",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328724",
+      "status": "U",
+      "reason": "Tu khoa bi hong/khong the doc duoc yeu cau dia diem dich ('phogn mot ua nhat')"
+    },
+    {
+      "id": "v4_0328731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328760",
+      "status": "U",
+      "reason": "Khong ro vi tri dau bep o dau de lam diem den (chi neu la cua dau bep)"
+    },
+    {
+      "id": "v4_0328766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328873",
+      "status": "U",
+      "reason": "Khong ro vi tri cua dau bep"
+    },
+    {
+      "id": "v4_0328877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328927",
+      "status": "U",
+      "reason": "Khong ro vi tri nguoi trong xe dang o dau"
+    },
+    {
+      "id": "v4_0328942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328971",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay')"
+    },
+    {
+      "id": "v4_0328998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329080",
+      "status": "U",
+      "reason": "Tu khoa dia diem bi hong khong doc duoc ('noi nam sat uong nhat')"
+    },
+    {
+      "id": "v4_0329086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0329110",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

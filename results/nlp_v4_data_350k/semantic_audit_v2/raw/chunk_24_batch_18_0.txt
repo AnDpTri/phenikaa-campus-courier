@@ -1,0 +1,52 @@
+v4_0238501	P	-
+v4_0238502	P	-
+v4_0238506	P	-
+v4_0238508	P	-
+v4_0238532	P	-
+v4_0238554	P	-
+v4_0238561	P	-
+v4_0238566	P	-
+v4_0238572	P	-
+v4_0238587	P	-
+v4_0238595	P	-
+v4_0238605	P	-
+v4_0238610	P	-
+v4_0238622	P	-
+v4_0238648	P	-
+v4_0238651	P	-
+v4_0238655	P	-
+v4_0238656	P	-
+v4_0238658	P	-
+v4_0238660	P	-
+v4_0238663	P	-
+v4_0238678	P	-
+v4_0238680	P	-
+v4_0238684	P	-
+v4_0238688	P	-
+v4_0238689	P	-
+v4_0238697	P	-
+v4_0238706	F	via: provided 'dorm/east/-', should be 'dorm/-/-' (typo 'cia nha luu tru o phia phai truco' = cua nha luu tru; no directional instance 'east' of dorm specified, or missing via direction)
+v4_0238726	P	-
+v4_0238727	P	-
+v4_0238739	P	-
+v4_0238770	P	-
+v4_0238773	P	-
+v4_0238780	P	-
+v4_0238800	P	-
+v4_0238814	P	-
+v4_0238822	P	-
+v4_0238824	P	-
+v4_0238834	P	-
+v4_0238838	P	-
+v4_0238861	P	-
+v4_0238865	P	-
+v4_0238873	P	-
+v4_0238914	P	-
+v4_0238915	P	-
+v4_0238922	U	ambiguous/corrupted direction word 'phia phia nha' makes clinic directional instance unreadable
+v4_0238931	P	-
+v4_0238940	P	-
+v4_0238975	P	-
+v4_0238988	P	-
+
+STDERR:

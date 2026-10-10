@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_35_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0341965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341993",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/south_most/-', expected 'gate/south_most/-' ('abo ve o cho duoi cung cua ban do')"
+    },
+    {
+      "id": "v4_0341998",
+      "status": "U",
+      "reason": "goal destination is incomplete/cancelled without explicit delivery target ('Dung De O Phong Hoc Lon. Toi Da Tu Bo Y Dinh Den Phong Mot Cua, Ma Se Chiec Hop La Cua Co Cap Duong.')"
+    },
+    {
+      "id": "v4_0342009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342016",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'dorm/-/-', expected 'gate/near/dorm' ('bac bao ve truc toa nha noi tru')"
+    },
+    {
+      "id": "v4_0342021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342087",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/west_most/-', expected 'clinic/west_most/-' ('can bo y te o tram o ben trai cung')"
+    },
+    {
+      "id": "v4_0342096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342160",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342224",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/anchor_near/clinic', expected 'parking/near/clinic' ('doi trong xe o nut lien ke phong y te')"
+    },
+    {
+      "id": "v4_0342266",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342359",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342422",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0342462",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

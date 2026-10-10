@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0207098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207255",
+      "status": "F",
+      "reason": "via: dorm/far/lab -> dorm/-/- (\"Nho di ngang khu ky tuc xa lab lay may tinh bang truoc\" lab belongs to tablet)"
+    },
+    {
+      "id": "v4_0207265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207316",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207359",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207410",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207414",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207431",
+      "status": "U",
+      "reason": "Uncertain destination: \"mang ho op thuoc cho thay chu nhiem\" does not specify lecture room or any campus building as goal"
+    },
+    {
+      "id": "v4_0207442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207533",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

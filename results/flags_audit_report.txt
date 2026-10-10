@@ -1,0 +1,127 @@
+Total scenes: 1200
+Urgent disagreements (conf >= 0.85): 70
+Fragile disagreements (conf >= 0.85): 107
+
+=== TOP 20 URGENT DISAGREEMENTS ===
+[23] (Rule=False -> Neural=True, conf=0.990)
+  Text: rbot giao hang oi, [don #3266] ban dau khong gap, nhung gio thi can gap roi. do su day, roi la vo. truoc khi cho tap tai lieu den noi it o nhat tinh tu nha the chat giup minh, nho ghe nha an ke ben phong lam thi nghiem hoa sinh lay thung thuc pham. con khu luu tru sinh vien la dia chi cu, bo di. khong can ghe noi sinh vien o lai qua dem. thanks robot.
+
+[29] (Rule=False -> Neural=True, conf=0.988)
+  Text: Alo robot, thùng hàng này thuộc về nơi tít phía ông nhất của campus, chuyển qua đó nhé. Chưa có két nước nọgt đâu, qua chỗ ăn trưa của trường lấy rồi hẵng đi. Ban đầu không gấp, nhưng giờ thì cần gấp rồi. Nguoi nhận đã rời tòa giảng đường rồi. Tuyệt đối đừng giao nhầm sang phòng đào tạo.
+
+[49] (Rule=False -> Neural=True, conf=0.962)
+  Text: Nho ban nhe: Khong can ghe khu luu tru sinh vien. Dung giao thung hang den cho nam sat phong cong tac sinh vien nhat giup minh ngay; phai vong qua tram gac cong lay don hang can tra da. Ban dau khong gap, nhung gio thi can gap roi. Hom qua da giao o phong cap cuu cua truong roi. Hoi truong len lop thi hom nay khong nhan hang. Cam on!
+
+[73] (Rule=False -> Neural=True, conf=0.969)
+  Text: Yêu cầu mới: Đơn này không liên quan gì tới hầm xe. Tuyệt đối đừng giao nhầm sang giảng đường. Hủy đơn giao phòng ở sinh viên. Thay vào đó: Địa chỉ nhận là chốt bảo vệ cổng; kiện hàng: gói hàng. Ban đầu không gấp, nhưng giờ thì cần gấp rồi. Hàng chắc chắn, không dễ vỡ. Thanks robot.
+
+[90] (Rule=False -> Neural=True, conf=0.922)
+  Text: orbot giao hang oi, nha xe thi hom nay khong nhna hang. ghe khu hanh chinh o tan phia xa nha thi dau lay tap iay to truoc, roi dem goi hang toi dia diem xa nhat ve phia nam. con khu bep tap the la dia chi cu, bo di. dung nham voi phong hoc lon nhe. do nhua deo, roi cung khong hong. ban dau khong gap, nhung gio thi can gap roi. tuyet doi dung giao nham sang cong chinh.
+
+[118] (Rule=False -> Neural=True, conf=0.956)
+  Text: robot giao hàng ơi, đính chính: không phải nơi tập thể dục thể thao. linh kiện điện tử này thuộc về xưởng thực hành tít bên phải, giao qua đó nhé. nhớ ghé chỗ ngủ của sinh viên xa nhà ở rìa phía bắc lấy gói hàng đặt online trước. ban đầu không gấp, nhưng giờ thì cần gấp rồi. đơn này không liên quan gì tới cổng ra vào. đồ nhựa dẻo, rơi cũng không hỏng.
+
+[159] (Rule=False -> Neural=True, conf=0.934)
+  Text: Robot giao hàng ơi, ban đầu không gấp, nhưng giờ thì cần gấp rồi. Ban đầu định gửi phòng đào tạo, nhưng giờ: Đừng chuyển thùng hàng đến tòa nhà ở hàng dưới cùng giúp mình ngay; phải vòng qua sân bóng lấy quả bóng đã. Đồ không vỡ được đâu. Tuyệt đối đừng giao nhầm sang nhà xe. Nơi bán đồ ăn thì hôm nay không nhận hàng. Thanks robot.
+
+[181] (Rule=False -> Neural=True, conf=0.973)
+  Text: Robot giao hàng ơi, ban đầu không gấp, nhưng giờ thì cần gấp rồi. Người nhận đã rời tòa hiệu bộ rồi. Gửi hộp giấy tới địa điểm gần chỗ đọc sách yên tĩnh nhất. Còn nơi sinh viên ở lại qua đêm là địa chỉ cũ, bỏ đi. Chỉ là giấy tờ, chẳng có gì dễ vỡ. Không cần ghé cổng chính. Tuyệt đối đừng giao nhầm sang nơi tra cứu tài liệu.
+
+[183] (Rule=False -> Neural=True, conf=0.981)
+  Text: Robot giao hàng ơi, ban đầu không gấp, nhưng giờ thì cần gấp rồi. Đơn này khnôg liên quan gì tới sân thể thao. Hủy đơn giao phòng học lý thuyết. Thay vào đó: Đểm giao: địa điểm nằm sát mép trái nhất. Hàng: gói hàng.
+
+[193] (Rule=False -> Neural=True, conf=0.991)
+  Text: tuyệt đối đừng giao nầm sang iđểm đón khách ở cổng. ban đầu không gấp, nhưng giờ thì cần gấp rồi. có đơn gao hộp giấy ở tòa nhà láng giềng gần nhất của pòhng y tế. va chạm nhẹ cũng không sao. thanks robot.
+
+[200] (Rule=False -> Neural=True, conf=0.986)
+  Text: [don #2104] bai xe thi hom nay khong nhan hang. huy don iao loi vao truong. tahy vao do: dia chi nhan la noi tit phia nam nhat cua campus; kien hang: tap tai lieu. ban dau hkong gap, nhung gio thi can gap roi. do nhua deo, roi cung khong hong. tuyt doi dung giao nham sang tram xa. khong can ghe loi vao chinh cua truong.
+
+[250] (Rule=False -> Neural=True, conf=0.880)
+  Text: Robot giao hàng ơi, ban đầu không gấp, nhưng giờ thì cần gấp rồi. Đừng đem tập giấy tờ đến chính xác là văn phòng khoa thay vì nơi bán đồ ăn giúp mình ngay; phải vòng qua phòng khám của trường lấy túi sơ cứu đã. Đừng nhầm với chỗ ăn trưa của trường nhé. Đồ gốm bên trong, tránh va chạm. Không cần ghé trung tâm học liệu. Cảm ơn nhiều.
+
+[267] (Rule=False -> Neural=True, conf=0.997)
+  Text: Alo robot, ban đầu khong gấp, nhưng giờ thì cần gấp rồi. Khnôg cần ghé khu KTX. Chuyen gói hàng tới phòng thực hành tít bên trái.
+
+[281] (Rule=False -> Neural=True, conf=0.992)
+  Text: Robot ơi, [Đơn #9495] Hủy đơn giao điểm chăm sóc sức khỏe. Thay vào đó: Hộp giấy này thuộc về tòa nhà ở hàng dưới cùng, mang qua đó nhé. Không cần ghé phòng thí nghiệm. Ban đầu không gấp, nhưng giờ thì cần gấp rồi.
+
+[304] (Rule=False -> Neural=True, conf=0.957)
+  Text: Ban đầu không gấp, nhưng giờ thì cần gấp rồi. Cần nâng niu, xóc mạnh là hỏng. Ghé lab hóa lấy mẫu vật trước, rồi đưa sổ ghi khách đến cổng ra vào gần khu thể thao hơn giúp mình. Không cần ghé chỗ đọc sách yên tĩnh. Thanks robot.
+
+[312] (Rule=False -> Neural=True, conf=0.888)
+  Text: xin chao! giang duong thi hom nay khong nhan hang. don nay khong lien quan gi toi cho ngu cua sinh vien xa nha. thung hang nay thuoc ve cho o tren cung ban do, cho qua do nhe. con nha xe la dia chi cu, bo di. ban dau khong gap, nhung gio thi can gap roi. tuyet doi dung giao nham sang khu doc sach. ben trong la do thuy tinh. cam on!
+
+[326] (Rule=False -> Neural=True, conf=0.989)
+  Text: robot ơi, đồ sứ đấy, rơi là vỡ. người nhận đã rời cổng ra vào rồi. trước tiên qua phòng nghiên cứu thực nghiệm nhận linh kiện điện tử, sau đó chở tập tài liệu tới chỗ nằm sát phòng làm thí nghiệm hóa sinh nhất. ban đầu không gấp, nhưng giờ thì cần gấp rồi. trạm y tế thì hôm nay không nhận hàng. cảm ơn!
+
+[328] (Rule=False -> Neural=True, conf=0.999)
+  Text: Alo robot, đồ gốm bên trong, tránh va chạm. Cần thùng hàng ở địa điểm ngoài cng bên phải. Ban đầu hkông gấp, nhnưg giờ thì cần gấp rồi. Đơn này không liên quan gì tới nơi bán đồ ăn.
+
+[336] (Rule=False -> Neural=True, conf=0.983)
+  Text: robot giao hang oi, tuyet doi dung giao nham sang van phong nha truong. co nguoi o khu phong hoc dat hop phan, dua toi do. con bai giu xe dap la dia chi cu, bo di. ban dau khogn gap, nhung gio thi can gap roi.
+
+[338] (Rule=False -> Neural=True, conf=0.890)
+  Text: Alo robot, ban đầu không gấp, nhưng giờ thì cần gấp rồi. Lộ trình: điểm chăm sóc sức khỏe trước, sau đó mới đem túi đồ đến tòa nhà ở hàng trên cung giúp mình. (tin trước ghi phòng cng tác sinh viên là nhầm) Thư viện trờưng thì hôm nay không nhan hàng. Đồ sứ đấy, rơi là vỡ. Đơn này không liên quan gì tới hầm xe. Cảm ơn nhiều.
+
+
+=== TOP 20 FRAGILE DISAGREEMENTS ===
+[0] (Rule=True -> Neural=False, conf=1.000)
+  Text: Alo robot, don nay hong lien quan gi toi khu thuc hanh ky thuat. Dinh chinh: khong phai thu vien truong. Truoc tien qua phong y te nhn bo bang gac, sau do dem tui do toi loi vao chinh cua truong cach khu luu tru sinh vien khong xa. Bep an thi hom nay khong nhan hang. Hoa toc! Cam on nhieu.
+
+[11] (Rule=False -> Neural=True, conf=1.000)
+  Text: Robot giao hang ơi, ban đầu định gửi phòng cấp cứu của trường, nhưng giờ: Có người ở nơi ít ô nhất tính từ khu thí nghiệm đặt túi đồ, chở tới đó. Bên trong có màn hình kính mỏng. Đơn này không liên quan gì tới phòng ở sinh viên. Để cuối ngày giao cũng không sao. Cảm ơn!
+
+[12] (Rule=False -> Neural=True, conf=1.000)
+  Text: Alo robot, don nay khong lien quan gi toi cho doc sach yen tinh. The giu xe nay thuoc ve noi gui phuong tien, dem qua do nhe. Khng phai viec gap. Dung nham voi loi vao chinh cua truong nhe. Ben trong co man hinh kinh mong. Thanks robot.
+
+[21] (Rule=False -> Neural=True, conf=1.000)
+  Text: Robot giao hàng ơi, địa chỉ nhận là điểm đón khách ở cổng; kiện hàng: bộ đàm. Nhưng phải tạt qua khu y tế trước đã. Phòng học lớn thì hôm nay không nhận hàng. Gấp nhé! Bên trong có màn hình kính mỏng. Đừng nhầm với khu nhà ở nội trú nhé. Đơn này không liên quan gì tới trung tâm học liệu. Cảm ơn nhiều.
+
+[24] (Rule=False -> Neural=True, conf=1.000)
+  Text: Alo robot, trước khi chở hộp giấy tới tòa nhà láng giềng gần nhất của hội trường lên lớp, nhớ ghé khu nội trú lấy túi đồ giặt. Bên trong có màn hình kính mỏng. Đơn này không liên quan gì tới khu giảng đường. Người nhận đã rời phòng đào tạo rồi. Khu để ô tô xe máy thì hôm nay kông nhận hàng.
+
+[34] (Rule=False -> Neural=True, conf=0.961)
+  Text: Alo robot, dinh chinh: khong phai san van dong nho. Dung dua bien ten khach den khong phai phong cong tac sinh vien ma la cong vao giup minh ngay; phai vong qua toa giang duong lay hop phan da. De cuoi ngay giao cung hkong sao. Noi dong dau giay to thi hom nay khong nhan hang. Ben trnog co man hinh kinh mong. Cam on nhieu.
+
+[51] (Rule=False -> Neural=True, conf=1.000)
+  Text: nhờ bạn nhé: có người ở cổng a (đừng nhmầ sang khu lưu trú sinh viên) đặt bộ đàm, đưa tới đó. còn lớp học là địa chỉ cũ, bỏ đi. bên trong có màn hình kính mỏng. người nhận đang chờ từng giây. đơn này không liên quan gì tới nhà thể chất. phòng công tác sinh viên thì hôm nay khng nhận hàng. cảm ơn nhiều.
+
+[64] (Rule=False -> Neural=True, conf=1.000)
+  Text: alo robot, [đơn #7956] đừng nhầm với khu bếp tập thể nhé. lúc đầu tưởng gấp, hóa ra không cần vội. đính chính: không pải khu thí nghiệm. trước tiên qua khu hành chính nhận tập giấy tờ, sau đó đem chồng giáo trình tới thư viện nằm gần phòng đào tạo. ktx thì hôm nay không nhận hàng. bên trong có màn hình kính mỏng. cảm ơn nhiều.
+
+[70] (Rule=False -> Neural=True, conf=1.000)
+  Text: robot giao hàng ơi, đơn này không liên quan gì tới phòng làm thí nghiệm hóa sinh. việc này không thể chờ lâu. hủy đơn giao khu nhà ở nội trú. thay vào đó: đừng mang tập tài liệu đến địa điểm gần nơi đóng dấu giấy tờ nhất giúp mình ngay; phải vòng qua điểm trông xe máy cách chỗ ăn trưa của trường không xa lấy bơm xe đã. hôm qua đã giao ở trạm xá rồi. bên trong có màn hình kính mỏng. không cần ghé khu phòng học.
+
+[79] (Rule=False -> Neural=True, conf=1.000)
+  Text: robot giao hang oi, huy don giao khu thi nghiem. thay vao do: cho thung hang toi cho nam sat khu giang duong nhat. ben trong co man hinh kinh mong. khong can ghe noi tra cuu tai lieu. tuyet doi dung giao nham sang cong ra vao. luc dau tuong gap, hoa ra khong can voi. cam on nhieu.
+
+[81] (Rule=False -> Neural=True, conf=1.000)
+  Text: Robot giao hang ơi, không cần ghé canteen. Người nhận đã rời giảng đường rồi. Lúc nãy nhắn nhầm là khu hành chính. Đúng ra: Người nhận ở tòa nhà ở của sinh viên, nhờ chở giúp chăn gối. Bên trong có màn hình kính mỏng. Thnaks robot.
+
+[91] (Rule=False -> Neural=True, conf=1.000)
+  Text: Alo robot, đừng nhầm với văn phòng nhà trường nhé. Thong thả thôi, chẳng có gì gấp. Tuyệt đối đừng giao nhầm sang khu để ô tô xe máy. Lúc nãy nhắn nhầm là sân vận động nhỏ. Đúng ra: Có người ở tòa nhà láng giềng gần nhất của chỗ trả sách đặt túi đồ, mang tới đó. Đơn này không liên quan gì tới sân bóng. Bên trong có màn hình kính mỏng. Cảm ơn nhiều.
+
+[107] (Rule=False -> Neural=True, conf=1.000)
+  Text: Nguoi nhan da roi van phong khoa roi. Khong gap dau. Ghe phong gym cua truong lay qua bong truoc, roi cho buu kien den noi it o nhat tinh tu noi tap the duc the thao giup minh. Dung nham voi cong chinh nhe. Ben trong co man hinh kinh mong. Cam on!
+
+[110] (Rule=False -> Neural=True, conf=1.000)
+  Text: xin chao! nguoi nhan o noi tit phia nam nhat cua campus, nho cho giup tap tai lieu. (tin truoc ghi noi muon giao trnh la nham) tuyet doi dung giao nham sang khu ren luyen the chat. ben trong co man hinh kinh mong. hom qua da giao o loi vao chinh cua truong roi. thnks robot.
+
+[126] (Rule=False -> Neural=True, conf=1.000)
+  Text: Robot giao hang oi, ben trong co man hinh kinh mong. Tuyet doi dung giao nham sang cho bac si truc. Truoc khi dua tui do toi noi it o nhat tinh tu cang tin, nho ghe cong ra vao lay bo dam.
+
+[129] (Rule=False -> Neural=True, conf=1.000)
+  Text: Robot ơi, [Đơn #1031] Bên trong có màn hình kính mỏng. Người nhận đã rời phòng gym của trường rồi. Hỏa tốc! Đính chính: khong phải chỗ trả sách. Nhờ robot chuyển bưu kiện qua nơi ít ô nhất tính từ nơi mượn giáo trình. Không cần ghé khu nhà ở nội trú.
+
+[138] (Rule=False -> Neural=True, conf=1.000)
+  Text: Alo robot, [Đơn #1876] Bên trong có màn hình kính mỏng. Hôm qua đã giao ở KTX rồi. Tuyệt đối đừng giao nhầm sang khu bếp tập thể. Đem thẻ giữ xe tới khu gửi xe. Cứ từ từ, không vội. Thanks robot.
+
+[154] (Rule=False -> Neural=True, conf=1.000)
+  Text: Nho ban nhe: Tuyet doi dung giao nham sang tram y te. Dung gui goi hang toi toa nha o cot ngoai cugn ben trai ngay; phai vong qua van phong khoa cach noi sinh vien o lai qua dem khong xa lay phong bi cong van da. (tin truoc ghi khu ren luyen the chat la nham) Chieu nay giao cung duoc. Ben trong co man hinh kinh mong. Khong can ghe bai giu xe dap. Thansk robot.
+
+[158] (Rule=False -> Neural=True, conf=1.000)
+  Text: Yeu cau moi: Nguoi nhan da roi ky tuc xa roi. Co nguoi o cho nam sat khu y te nhat dat thung hang, cho toi do. Tuyet doi dung giao nham sang cong truong. Don nay khong lien quan gi toi phong y te. Ben trong co man hinh kinh mong. Thanks robot.
+
+[173] (Rule=False -> Neural=True, conf=1.000)
+  Text: Alo robot, bên trong có màn hình kính mỏng. Đính chính: không phải quầy cơm sinh viên. Lộ trình: lối vào chính của trường trước, sau đó mới đem thùng hàng tới tòa nhà láng giềng gần nhất của giảng đường. Tuyệt đối đừng giao nhầm sang nhà thi đấu. Đang cần gấp lắm. Không cần ghé khu thực hành kỹ thuật. Ngờưi nhận đã rời hầm xe rồi. Thanks robot.
+

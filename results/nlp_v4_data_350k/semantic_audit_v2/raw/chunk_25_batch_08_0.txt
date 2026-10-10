@@ -1,0 +1,52 @@
+v4_0243601	P	-
+v4_0243619	P	-
+v4_0243620	P	-
+v4_0243627	P	-
+v4_0243647	P	-
+v4_0243650	P	-
+v4_0243653	P	-
+v4_0243660	P	-
+v4_0243667	P	-
+v4_0243674	P	-
+v4_0243696	P	-
+v4_0243698	P	-
+v4_0243700	P	-
+v4_0243702	P	-
+v4_0243714	P	-
+v4_0243760	P	-
+v4_0243761	P	-
+v4_0243762	P	-
+v4_0243768	P	-
+v4_0243770	P	-
+v4_0243788	P	-
+v4_0243793	P	-
+v4_0243808	P	-
+v4_0243814	P	-
+v4_0243831	P	-
+v4_0243837	P	-
+v4_0243866	P	-
+v4_0243888	F	goal type: provided '-' should be 'dorm' ("huan luyen vien... vua chuyen sang o o gna ham gui xe nhat")
+v4_0243893	P	-
+v4_0243897	P	-
+v4_0243898	P	-
+v4_0243911	U	Contradictory urgency: "can gap" vs "khong vi phai nhanh"
+v4_0243925	P	-
+v4_0243930	P	-
+v4_0243933	P	-
+v4_0243939	P	-
+v4_0243943	P	-
+v4_0243960	P	-
+v4_0243976	P	-
+v4_0243993	P	-
+v4_0243994	P	-
+v4_0244019	P	-
+v4_0244044	P	-
+v4_0244064	P	-
+v4_0244067	P	-
+v4_0244069	P	-
+v4_0244080	F	goal type: provided 'sports' should be '-' ("giao vien the duc can bo tai lieu")
+v4_0244091	P	-
+v4_0244102	P	-
+v4_0244119	P	-
+
+STDERR:

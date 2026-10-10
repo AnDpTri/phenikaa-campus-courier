@@ -1,0 +1,52 @@
+v4_0198540	P	-
+v4_0198576	U	"phia ac" has missing/corrupted direction word, cannot determine north
+v4_0198584	P	-
+v4_0198590	P	-
+v4_0198600	P	-
+v4_0198606	P	-
+v4_0198611	P	-
+v4_0198620	P	-
+v4_0198637	P	-
+v4_0198639	P	-
+v4_0198641	P	-
+v4_0198643	P	-
+v4_0198668	P	-
+v4_0198681	P	-
+v4_0198686	P	-
+v4_0198693	P	-
+v4_0198702	P	-
+v4_0198704	P	-
+v4_0198707	P	-
+v4_0198737	P	-
+v4_0198740	P	-
+v4_0198743	P	-
+v4_0198747	P	-
+v4_0198762	P	-
+v4_0198770	P	-
+v4_0198771	P	-
+v4_0198779	P	-
+v4_0198802	P	-
+v4_0198804	P	-
+v4_0198809	P	-
+v4_0198816	P	-
+v4_0198848	P	-
+v4_0198855	P	-
+v4_0198871	F	goal type provided office, corrected canteen; text says "lay Thugn Nuoc Uong Xong Moi Thay Truong Phong Vua Dat Ogi Hang" makes office recipient/destination
+v4_0198889	P	-
+v4_0198905	P	-
+v4_0198917	P	-
+v4_0198921	P	-
+v4_0198932	P	-
+v4_0198958	P	-
+v4_0198977	P	-
+v4_0198982	P	-
+v4_0198983	P	-
+v4_0198994	P	-
+v4_0199005	P	-
+v4_0199011	P	-
+v4_0199013	P	-
+v4_0199019	P	-
+v4_0199021	P	-
+v4_0199022	P	-
+
+STDERR:

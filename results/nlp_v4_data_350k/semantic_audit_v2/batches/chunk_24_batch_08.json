@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0233550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233551",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/anchor_near/lecture, corrected gate/near/lecture (toa sat khu hoc tap la cho ca truc bao ve)"
+    },
+    {
+      "id": "v4_0233554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233567",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided office/-/-, corrected parking/-/- (dang doi bom xe la hanh dong o bai xe, hoac dia diem chua ro la hanh chinh)"
+    },
+    {
+      "id": "v4_0233571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233627",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/east_most/-, corrected gate/east_most/- (nguoi gac cong o nut toa do vuon sang huong dong nhieu nhat)"
+    },
+    {
+      "id": "v4_0233629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233768",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233925",
+      "status": "U",
+      "reason": "khong co thong tin diem den cu the (chi noi lop truong nho gui ao dong phuc)"
+    },
+    {
+      "id": "v4_0233934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0233983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234082",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234090",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

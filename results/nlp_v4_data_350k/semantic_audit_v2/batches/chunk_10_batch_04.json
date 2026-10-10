@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0091525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091545",
+      "status": "F",
+      "reason": "goal type: provided lab, should be - (trợ giảng phòng lab cần sách, giao tới lab không có thông tin cụ thể hay loại phòng giao không nhắc, chỉ có người nhận là trợ giảng phòng lab muốn nhận sách)"
+    },
+    {
+      "id": "v4_0091562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091665",
+      "status": "U",
+      "reason": "Không có địa điểm giao đích cụ thể (chỉ nói giao cho bác sĩ, bác sĩ thường ở clinic nhưng không nêu rõ địa điểm giao)"
+    },
+    {
+      "id": "v4_0091675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091720",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091777",
+      "status": "U",
+      "reason": "Không có địa điểm giao (chỉ nói lớp trưởng cần túi rác, không rõ nơi giao là lecture hay nơi khác)"
+    },
+    {
+      "id": "v4_0091795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091825",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091924",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091984",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0091995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0092007",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

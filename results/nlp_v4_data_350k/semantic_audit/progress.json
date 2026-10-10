@@ -1,0 +1,20 @@
+{
+  "finished_batches": 5,
+  "scheduled_batches": 5,
+  "target_rows": 35000,
+  "reviewed_rows": 250,
+  "verdicts": {
+    "P": 245,
+    "F": 5,
+    "U": 0
+  },
+  "chunks": {
+    "chunk_01": {
+      "P": 245,
+      "F": 5,
+      "U": 0
+    }
+  },
+  "failed_batches": [],
+  "complete": false
+}

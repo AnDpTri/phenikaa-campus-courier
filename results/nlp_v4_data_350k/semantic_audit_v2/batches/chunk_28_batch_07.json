@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_28_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0272914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272920",
+      "status": "F",
+      "reason": "goal type: provided lab, corrected lecture (\"DUNG CHAN O GIANG DUONG CHINH LY MICRO KHONG AY ORI BO VOT CAN DUOC CHO XUONG XUONG NHANH NHAT CO THE\")"
+    },
+    {
+      "id": "v4_0272921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0272988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273153",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273241",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273285",
+      "status": "F",
+      "reason": "goal type: provided parking, corrected - (\"nguoi nhan la nguoi trong xe\" specifies recipient role, not destination building type)"
+    },
+    {
+      "id": "v4_0273297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0273362",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

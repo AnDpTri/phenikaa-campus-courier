@@ -1,0 +1,52 @@
+v4_0137913	P	-
+v4_0137914	P	-
+v4_0137926	P	-
+v4_0137933	P	-
+v4_0137945	F	goal type/ref/anchor provided -/east_most/- should be gate/east/- based on 'bao ve cong o noi nam o le phai'
+v4_0137968	P	-
+v4_0137981	P	-
+v4_0137985	P	-
+v4_0138012	F	goal type/ref/anchor provided canteen/near/office should be canteen/east/- based on 'khu vuc phuc vu an uong sinh ven gan phai van phong khoa'
+v4_0138020	P	-
+v4_0138040	P	-
+v4_0138064	P	-
+v4_0138070	P	-
+v4_0138071	P	-
+v4_0138079	P	-
+v4_0138098	P	-
+v4_0138114	P	-
+v4_0138116	P	-
+v4_0138147	P	-
+v4_0138165	P	-
+v4_0138177	P	-
+v4_0138186	P	-
+v4_0138193	P	-
+v4_0138207	P	-
+v4_0138225	P	-
+v4_0138226	P	-
+v4_0138227	P	-
+v4_0138229	P	-
+v4_0138238	P	-
+v4_0138245	P	-
+v4_0138261	P	-
+v4_0138264	P	-
+v4_0138265	P	-
+v4_0138268	P	-
+v4_0138282	P	-
+v4_0138291	P	-
+v4_0138314	P	-
+v4_0138318	P	-
+v4_0138356	P	-
+v4_0138360	P	-
+v4_0138366	P	-
+v4_0138369	P	-
+v4_0138376	P	-
+v4_0138382	P	-
+v4_0138388	P	-
+v4_0138391	P	-
+v4_0138394	P	-
+v4_0138411	P	-
+v4_0138429	P	-
+v4_0138430	P	-
+
+STDERR:

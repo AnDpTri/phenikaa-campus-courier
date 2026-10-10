@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_28_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0270481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270488",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Giang Vien Dang Doi Cai Hop Gap' conflicts with 'Cu Tu Tu, Khong Voi') -> wait: contradictory urgency phrase should be U"
+    },
+    {
+      "id": "v4_0270492",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270788",
+      "status": "U",
+      "reason": "Garbled text 'ria phia cua ampus' missing directional indicator word"
+    },
+    {
+      "id": "v4_0270791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270889",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270909",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270922",
+      "status": "U",
+      "reason": "Garbled distance/anchor 'xa trm xa nhahn nhat' is ambiguous"
+    },
+    {
+      "id": "v4_0270923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270973",
+      "status": "U",
+      "reason": "Garbled text 'o diem nam tim diem co kinh do nho nhat' creates conflicting/unclear cues between south and west"
+    },
+    {
+      "id": "v4_0270976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0270987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271012",
+      "status": "F",
+      "reason": "via: provided canteen/near/office, corrected canteen/-/- ('gan phia toa hanh chinh' describes direction or relative location without anchor near semantics)"
+    },
+    {
+      "id": "v4_0271014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271023",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

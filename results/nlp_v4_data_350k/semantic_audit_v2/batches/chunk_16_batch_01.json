@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_16_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0150000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150141",
+      "status": "F",
+      "reason": "goal type: provided lab, corrected - (ban tro giang lab la nguoi nhan, khong co noi o/lam viec cu the)"
+    },
+    {
+      "id": "v4_0150146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150153",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150192",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150327",
+      "status": "U",
+      "reason": "khong vi hpai nhanh gay mau thuan giua khong voi va phai nhanh"
+    },
+    {
+      "id": "v4_0150355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150405",
+      "status": "F",
+      "reason": "via ref: provided west, corrected - (phai trai khong phai phia tay)"
+    },
+    {
+      "id": "v4_0150412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0150434",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

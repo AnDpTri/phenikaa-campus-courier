@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0085013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085075",
+      "status": "F",
+      "reason": "goal anchor: gate -> canteen (noi giao hang diem nam ke cong sau nhat dong thoi ghe vao ban giam hieu)"
+    },
+    {
+      "id": "v4_0085086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085197",
+      "status": "F",
+      "reason": "via type: lab -> canteen (tat vao xuong lay nguyen lieu nau an roi moi chuyen)"
+    },
+    {
+      "id": "v4_0085207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085308",
+      "status": "U",
+      "reason": "can phong nao o hang dau cn so ghi khach co the la west_most hoac north_most, khong ro rang"
+    },
+    {
+      "id": "v4_0085312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085330",
+      "status": "F",
+      "reason": "urgent: 0 -> 1 (khi nao tien thi giao = 0, khong co mau thuan nhung khong phai diem giao vi chi noi 'dung cu la cua tro giang phong lab', khong co dich den ro rang)"
+    },
+    {
+      "id": "v4_0085332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085497",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085522",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085528",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0085540",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

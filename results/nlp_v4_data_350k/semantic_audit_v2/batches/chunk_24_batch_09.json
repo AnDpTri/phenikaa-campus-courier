@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0234117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234122",
+      "status": "U",
+      "reason": "Cau truc cau 'ma se bao ve dang doi bo ho so tai xuong thuc hanh xa co so y te' bi loi ngu phap, mo ho chu ngu va vi tri nguoi nhan"
+    },
+    {
+      "id": "v4_0234136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234137",
+      "status": "U",
+      "reason": "Cum tu 'Ia Diem Nao Do Ma Ccu Ac Uca Ban Do' bi sai chinh ta bien dang khong ro nghia vi tri"
+    },
+    {
+      "id": "v4_0234167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234201",
+      "status": "F",
+      "reason": "goal type: provided '-' vs corrected 'gate' ('nguoi gac cong o tram o cot phai nhat')"
+    },
+    {
+      "id": "v4_0234212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234305",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234516",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234534",
+      "status": "F",
+      "reason": "goal type: provided 'sports' vs corrected 'dorm' ('bac bao ve truc toa nha noi tru o ho tap the dc can tap tai lieu')"
+    },
+    {
+      "id": "v4_0234544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234597",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

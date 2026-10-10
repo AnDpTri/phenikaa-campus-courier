@@ -1,0 +1,48 @@
+{
+  "status": "stopped_after_seed_1",
+  "training_process": {
+    "pid": 29552,
+    "device": "cuda",
+    "seed_completed": 20261100,
+    "seeds_requested": 3,
+    "epochs_completed": 6,
+    "epochs_requested": 6,
+    "seed_2_started": true,
+    "seed_2_epochs_completed": 0,
+    "stopped_before_seed_2_training": true
+  },
+  "configuration": {
+    "prebuilt_data": "results/nlp_v4_data_350k/rule_filter_v1/retained.jsonl",
+    "prebuilt_rows": 338071,
+    "real_repeat": 5,
+    "real_augment": 1,
+    "dim": 96,
+    "hidden": 192,
+    "batch": 128,
+    "learning_rate": 0.0005,
+    "init": "artifacts/nlp/neural_parser_v2.pt"
+  },
+  "last_epoch": {
+    "epoch": 6,
+    "loss": 0.0021,
+    "validation_all": 0.6167,
+    "holdout_all": 0.4610,
+    "holdout_goal": 0.7490,
+    "seconds": 1040
+  },
+  "best_checkpoint": {
+    "epoch": 1,
+    "validation": {"goal": 0.93, "via": 0.83, "urgent": 0.87, "fragile": 0.89, "all": 0.62},
+    "holdout": {"goal": 0.7455, "via": 0.8275, "urgent": 0.923, "fragile": 0.902, "all": 0.5195},
+    "path": "results/nlp_v4_ckpt/seed_20261100_best.pt"
+  },
+  "artifact": {
+    "path": "artifacts/nlp/neural_parser_v4_seed1_partial.pt",
+    "nets": 1,
+    "bytes": 30082817,
+    "sha256": "41F6E705923CBC2382FCCEA20F8E435F577FD89AC44CCE4D3045CE3564041167"
+  },
+  "log": "results/nlp_neural_v4/full_run/training.log",
+  "note": "This is a one-seed partial artifact. The full v4 ensemble and hybrid evaluation were not produced because training was intentionally stopped before seed 2.",
+  "source_data_sha256": "6ca8ac0efb21d7ed87df0ca0d5950bcb156b58105ce97a9f432cd06da4b9b837"
+}

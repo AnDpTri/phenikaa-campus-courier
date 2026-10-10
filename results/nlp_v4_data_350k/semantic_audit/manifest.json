@@ -1,0 +1,9 @@
+{
+  "source_sha256": "447c97b5a6719facee06422d5a61e37fbe36d76a2ea4c7518d95ac8e58d8bc19",
+  "seed": 2026100910,
+  "chunk_size": 10000,
+  "samples_per_chunk": 1000,
+  "total_sampled": 35000,
+  "batches": 700,
+  "model": "gemini-3.8-flash-low"
+}

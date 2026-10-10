@@ -1,0 +1,52 @@
+v4_0059627	P	-
+v4_0059647	P	-
+v4_0059654	P	-
+v4_0059659	P	-
+v4_0059661	P	-
+v4_0059666	P	-
+v4_0059677	P	-
+v4_0059679	P	-
+v4_0059680	P	-
+v4_0059697	P	-
+v4_0059710	P	-
+v4_0059713	P	-
+v4_0059718	P	-
+v4_0059726	P	-
+v4_0059741	P	-
+v4_0059744	P	-
+v4_0059753	P	-
+v4_0059770	P	-
+v4_0059779	P	-
+v4_0059787	P	-
+v4_0059792	P	-
+v4_0059796	P	-
+v4_0059812	P	-
+v4_0059815	P	-
+v4_0059816	P	-
+v4_0059820	P	-
+v4_0059837	P	-
+v4_0059838	P	-
+v4_0059839	P	-
+v4_0059859	P	-
+v4_0059868	P	-
+v4_0059890	P	-
+v4_0059899	P	-
+v4_0059900	P	-
+v4_0059904	P	-
+v4_0059914	F	goal type: office -> clinic (tram y te dang sua chua, tranh ar; nhung nguoi nhan khong noi o dau ma chi noi 'tram y te dang sua chua... chuyen vien can laptop' khong neu ro dia diem moi khac tram y te ngoai viec chuyen vien can)
+v4_0059916	P	-
+v4_0059917	P	-
+v4_0059922	P	-
+v4_0059926	P	-
+v4_0059933	U	Khong co dia diem giao hang ro rang, chi neu doi tuong 'can bo y te'
+v4_0059936	P	-
+v4_0059945	P	-
+v4_0059970	P	-
+v4_0059971	P	-
+v4_0059980	P	-
+v4_0059982	P	-
+v4_0059986	P	-
+v4_0059992	P	-
+v4_0059998	P	-
+
+STDERR:

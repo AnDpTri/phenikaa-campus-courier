@@ -1,0 +1,20 @@
+device: cuda; per epoch 200000 prebuilt + 2000 x5 train; 1 seed(s)
+[seed 20261009] initialised from D:\phenikaa\results\NLP_V4_Curated200K_Finetune_R1\pilot_LR1e4\checkpoints\seed_20261009_best.pt net 0
+[seed 20261009] parameters: 7,515,212
+[seed 20261009] epoch 1: loss 0.0465  validation all 0.6333  holdout-phrasing all 0.5460 goal 0.7445  782s
+[seed 20261009] epoch 2: loss 0.0271  validation all 0.6300  holdout-phrasing all 0.5570 goal 0.7515  755s
+[seed 20261009] epoch 3: loss 0.0222  validation all 0.6300  holdout-phrasing all 0.5540 goal 0.7510  781s
+hybrid thresholds: HybridThresholds(goal=2.0, via=2.0, flags=2.0)  selection: {'rule_only': {'validation': 1.0, 'holdout': 0.19866666666666666, 'challenge': 1.0}, 'chosen': {'validation': 1.0, 'holdout': 0.19866666666666666, 'challenge': 1.0}}
+validation_grounded  rules   goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation_grounded  neural  goal_nodes 0.9433  goal_type 0.9600  goal_ref 0.9700  via_nodes 0.8233  urgent 0.8800  fragile 0.8900  all 0.6300
+validation_grounded  hybrid  goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           neural  goal 0.9367  via 0.8233  urgent 0.8800  fragile 0.8900  all 0.6300
+validation           hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+holdout              rules   goal 0.1950  via 0.6153  urgent 0.8550  fragile 0.9693  all 0.1093
+holdout              neural  goal 0.7483  via 0.8297  urgent 0.9497  fragile 0.9087  all 0.5500
+holdout              hybrid  goal 0.3540  via 0.6153  urgent 0.8550  fragile 0.9693  all 0.1987
+challenge            rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+challenge            neural  goal 0.9800  via 0.9600  urgent 1.0000  fragile 1.0000  all 0.9400
+challenge            hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+saved D:\phenikaa\results\NLP_V4_Curated200K_Finetune_R1\resume_E1_B64_LR5e5\model.pt

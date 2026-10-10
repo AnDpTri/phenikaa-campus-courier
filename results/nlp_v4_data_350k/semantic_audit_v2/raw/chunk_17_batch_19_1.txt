@@ -1,0 +1,52 @@
+v4_0168792	P	-
+v4_0168809	P	-
+v4_0168812	P	-
+v4_0168820	P	-
+v4_0168823	P	-
+v4_0168836	P	-
+v4_0168843	P	-
+v4_0168850	P	-
+v4_0168864	P	-
+v4_0168866	P	-
+v4_0168873	P	-
+v4_0168874	P	-
+v4_0168878	P	-
+v4_0168882	P	-
+v4_0168890	P	-
+v4_0168899	P	-
+v4_0168916	P	-
+v4_0168917	P	-
+v4_0168928	P	-
+v4_0168930	P	-
+v4_0168939	P	-
+v4_0168948	P	-
+v4_0168963	P	-
+v4_0168965	F	goal type: provided 'sports' but text specifies recipient 'hop thuoc la cua odi bong' with no designated sports building/location as delivery destination
+v4_0168977	P	-
+v4_0168992	P	-
+v4_0169011	P	-
+v4_0169021	P	-
+v4_0169062	P	-
+v4_0169066	P	-
+v4_0169073	P	-
+v4_0169087	P	-
+v4_0169122	P	-
+v4_0169140	P	-
+v4_0169141	P	-
+v4_0169147	P	-
+v4_0169160	P	-
+v4_0169172	P	-
+v4_0169177	P	-
+v4_0169198	P	-
+v4_0169206	P	-
+v4_0169215	P	-
+v4_0169218	P	-
+v4_0169245	P	-
+v4_0169256	P	-
+v4_0169257	P	-
+v4_0169270	P	-
+v4_0169275	P	-
+v4_0169297	P	-
+v4_0169306	F	goal type: provided 'sports' but text recipient 'huan luyen vien doi tuyen the thao truong' has no specified destination location
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0169310	P	-
+v4_0169320	F	goal type/ref/anchor: provided -/north_most/-, corrected dorm/north_most/- ("snih vien o ky tc o vi tri o ria tren cua campus")
+v4_0169348	P	-
+v4_0169349	P	-
+v4_0169354	P	-
+v4_0169374	P	-
+v4_0169375	P	-
+v4_0169407	P	-
+v4_0169423	P	-
+v4_0169424	P	-
+v4_0169447	P	-
+v4_0169461	P	-
+v4_0169472	P	-
+v4_0169480	P	-
+v4_0169486	P	-
+v4_0169490	P	-
+v4_0169500	P	-
+v4_0169504	P	-
+v4_0169544	P	-
+v4_0169546	P	-
+v4_0169553	P	-
+v4_0169568	P	-
+v4_0169573	P	-
+v4_0169619	P	-
+v4_0169630	P	-
+v4_0169642	P	-
+v4_0169644	P	-
+v4_0169655	P	-
+v4_0169665	P	-
+v4_0169687	P	-
+v4_0169695	P	-
+v4_0169704	P	-
+v4_0169709	P	-
+v4_0169769	P	-
+v4_0169771	P	-
+v4_0169809	P	-
+v4_0169826	F	goal type/ref/anchor: provided -/east_most/-, corrected canteen/east_most/- ("cho chi nau bep o noi nam o mep phai")
+v4_0169848	P	-
+v4_0169862	P	-
+v4_0169867	P	-
+v4_0169868	P	-
+v4_0169877	P	-
+v4_0169881	P	-
+v4_0169907	P	-
+v4_0169917	P	-
+v4_0169929	P	-
+v4_0169932	P	-
+v4_0169936	P	-
+v4_0169939	P	-
+v4_0169944	P	-
+
+STDERR:

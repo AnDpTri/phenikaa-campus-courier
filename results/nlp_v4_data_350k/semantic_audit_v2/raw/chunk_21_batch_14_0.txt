@@ -1,0 +1,52 @@
+v4_0206639	P	-
+v4_0206649	P	-
+v4_0206650	P	-
+v4_0206652	P	-
+v4_0206654	P	-
+v4_0206656	P	-
+v4_0206670	P	-
+v4_0206698	P	-
+v4_0206714	F	goal type/ref/anchor provided -/east_most/- corrected lecture/east/- from "tro giang phu trach gio ly thuyet o diem nao o mep phai"
+v4_0206726	P	-
+v4_0206781	P	-
+v4_0206790	P	-
+v4_0206797	P	-
+v4_0206821	P	-
+v4_0206823	P	-
+v4_0206833	P	-
+v4_0206839	P	-
+v4_0206843	P	-
+v4_0206850	P	-
+v4_0206853	P	-
+v4_0206859	F	goal type/ref/anchor provided -/east_most/- corrected library/east_most/- from "can dua the thu vien len toa nha nao tim diem co kinh do lon nhat tren ban do"
+v4_0206873	P	-
+v4_0206881	P	-
+v4_0206882	P	-
+v4_0206889	P	-
+v4_0206895	P	-
+v4_0206898	F	goal type/ref/anchor provided -/north_most/- corrected library/north_most/- from "cho thu thu o toa nha nam phia tren cung"
+v4_0206900	P	-
+v4_0206904	P	-
+v4_0206910	P	-
+v4_0206933	P	-
+v4_0206937	P	-
+v4_0206947	P	-
+v4_0206949	P	-
+v4_0206964	P	-
+v4_0206977	P	-
+v4_0206988	P	-
+v4_0206990	P	-
+v4_0207007	P	-
+v4_0207013	P	-
+v4_0207024	P	-
+v4_0207026	P	-
+v4_0207028	P	-
+v4_0207055	P	-
+v4_0207061	P	-
+v4_0207063	P	-
+v4_0207074	P	-
+v4_0207087	P	-
+v4_0207093	P	-
+v4_0207096	P	-
+
+STDERR:

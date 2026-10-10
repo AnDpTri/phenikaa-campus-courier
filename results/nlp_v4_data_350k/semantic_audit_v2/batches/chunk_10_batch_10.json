@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0094522",
+      "status": "U",
+      "reason": "\"hpia gan\": corrupted text / typo could mean \"phia gan\" (near) or \"phia tay\" / other direction; ambiguous direction word"
+    },
+    {
+      "id": "v4_0094525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094549",
+      "status": "F",
+      "reason": "goal type: provided \"office\", corrected \"lecture\" (\"giang vien dung lop giang duong o phong mot cua duoi\")"
+    },
+    {
+      "id": "v4_0094558",
+      "status": "F",
+      "reason": "goal type: provided \"-\", corrected \"gate\" (\"bac bao ve vua chuyen sang vi tri o ria duoi\")"
+    },
+    {
+      "id": "v4_0094632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094596",
+      "status": "F",
+      "reason": "goal type: provided \"-\", corrected \"lab\" (\"giao ho thung hang cho can bo phong thi nghiem o khu vuc cao nhat\")"
+    },
+    {
+      "id": "v4_0094656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094792",
+      "status": "U",
+      "reason": "\"ao o phia nam xa nhat\": corrupted word \"ao o\" makes exact goal unclear/uncertain"
+    },
+    {
+      "id": "v4_0094794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094867",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094918",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095032",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0095064",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

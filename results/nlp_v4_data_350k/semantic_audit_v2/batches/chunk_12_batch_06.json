@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0112503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112531",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112544",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'gate/north/-', should be 'gate/-/-' ('cong chinh ben tren dang cho khay com' refers to upstairs/on the floor of the gate, not directional north instance)"
+    },
+    {
+      "id": "v4_0112559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112595",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112607",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112803",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112953",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112969",
+      "status": "U",
+      "reason": "'Khu Hai' is ambiguous whether it indicates an east direction or just zone/area number 2"
+    },
+    {
+      "id": "v4_0113001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113070",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

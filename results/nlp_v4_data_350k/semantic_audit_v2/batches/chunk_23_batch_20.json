@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0229575",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229597",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229699",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229763",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229857",
+      "status": "U",
+      "reason": "Contradictory destination instructions: student recipient at dorm highest building vs explicit prohibition 'khong can geh noi o cua sinh vien. dung di qua ktx'"
+    },
+    {
+      "id": "v4_0229879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229908",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229985",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229996",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

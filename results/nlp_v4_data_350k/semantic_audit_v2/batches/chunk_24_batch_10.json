@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0234598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234736",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234771",
+      "status": "F",
+      "reason": "goal type/ref/anchor clinic/-/- -> -/-/- (recipient is nurse/physician who needs package, but no destination specified)"
+    },
+    {
+      "id": "v4_0234782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234798",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234831",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0234995",
+      "status": "F",
+      "reason": "goal type/ref/anchor sports/south/- -> sports/-/- (no south relative instance, mentions o Nam nha Robot as recipient's name or casual phrase)"
+    },
+    {
+      "id": "v4_0234997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0235000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0235001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0235008",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

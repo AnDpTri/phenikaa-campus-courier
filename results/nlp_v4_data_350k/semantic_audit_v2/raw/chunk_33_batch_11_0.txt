@@ -1,0 +1,52 @@
+v4_0324947	P	-
+v4_0324957	P	-
+v4_0324966	P	-
+v4_0324970	P	-
+v4_0324974	P	-
+v4_0324986	P	-
+v4_0325003	P	-
+v4_0325004	P	-
+v4_0325010	P	-
+v4_0325011	P	-
+v4_0325047	F	goal type: provided '-', corrected 'clinic' (nhan vien phong kham o toa nam xa nhat ve phia nam)
+v4_0325057	U	Ambiguous goal: text mentions delivery of volleyball belonging to research group, but no explicit destination command/action or recipient location
+v4_0325068	P	-
+v4_0325070	P	-
+v4_0325094	P	-
+v4_0325101	F	goal type: provided '-', corrected 'gate' (doi bao ve hien dnag o toa nao o mep tren cung)
+v4_0325109	P	-
+v4_0325121	P	-
+v4_0325136	P	-
+v4_0325138	P	-
+v4_0325178	P	-
+v4_0325187	F	goal type: provided '-', corrected 'clinic' (nhan vien phong kham vua chuyen sang tram nam xa nhat ve phia dong)
+v4_0325193	P	-
+v4_0325202	P	-
+v4_0325257	P	-
+v4_0325275	P	-
+v4_0325281	P	-
+v4_0325291	P	-
+v4_0325316	P	-
+v4_0325342	F	goal type: provided '-', corrected 'parking' (nhan vien trong xe dang doi gi do ati o sat canh noi muon tra sach)
+v4_0325358	P	-
+v4_0325363	P	-
+v4_0325364	P	-
+v4_0325370	P	-
+v4_0325378	P	-
+v4_0325379	P	-
+v4_0325382	P	-
+v4_0325386	P	-
+v4_0325394	P	-
+v4_0325406	P	-
+v4_0325412	P	-
+v4_0325417	P	-
+v4_0325424	P	-
+v4_0325432	P	-
+v4_0325458	P	-
+v4_0325461	P	-
+v4_0325486	P	-
+v4_0325493	P	-
+v4_0325513	P	-
+v4_0325514	U	Ambiguous goal: mentions 'nguoi nhan la thay day the duc' without specifying destination building or explicit location to deliver to
+
+STDERR:

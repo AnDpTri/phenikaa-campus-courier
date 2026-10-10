@@ -1,0 +1,52 @@
+v4_0211515	P	-
+v4_0211518	P	-
+v4_0211519	P	-
+v4_0211528	P	-
+v4_0211530	P	-
+v4_0211554	P	-
+v4_0211555	P	-
+v4_0211565	P	-
+v4_0211575	P	-
+v4_0211583	P	-
+v4_0211584	P	-
+v4_0211616	P	-
+v4_0211619	P	-
+v4_0211624	P	-
+v4_0211640	P	-
+v4_0211643	P	-
+v4_0211654	P	-
+v4_0211657	P	-
+v4_0211662	P	-
+v4_0211675	P	-
+v4_0211680	P	-
+v4_0211682	P	-
+v4_0211691	P	-
+v4_0211695	P	-
+v4_0211699	P	-
+v4_0211717	P	-
+v4_0211719	P	-
+v4_0211726	P	-
+v4_0211727	P	-
+v4_0211736	P	-
+v4_0211738	P	-
+v4_0211746	P	-
+v4_0211752	P	-
+v4_0211761	P	-
+v4_0211766	P	-
+v4_0211773	P	-
+v4_0211786	P	-
+v4_0211797	P	-
+v4_0211799	P	-
+v4_0211822	P	-
+v4_0211836	P	-
+v4_0211868	U	"khoang cach oi thieu" has garbled direction/distance cue "ve phia hoi truong"
+v4_0211883	P	-
+v4_0211907	F	urgent provided 0, text requires 1 ('Can gap phong bi')
+v4_0211929	P	-
+v4_0211932	U	"toa nao it boc nhat tu khu ky tuc" has garbled/unintelligible relative descriptor "it boc nhat"
+v4_0211936	P	-
+v4_0211959	P	-
+v4_0211996	P	-
+v4_0212016	P	-
+
+STDERR:

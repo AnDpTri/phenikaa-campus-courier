@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0211515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211528",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211555",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211575",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211699",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211736",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211868",
+      "status": "U",
+      "reason": "\"khoang cach oi thieu\" has garbled direction/distance cue \"ve phia hoi truong\""
+    },
+    {
+      "id": "v4_0211883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211907",
+      "status": "F",
+      "reason": "urgent provided 0, text requires 1 ('Can gap phong bi')"
+    },
+    {
+      "id": "v4_0211929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211932",
+      "status": "U",
+      "reason": "\"toa nao it boc nhat tu khu ky tuc\" has garbled/unintelligible relative descriptor \"it boc nhat\""
+    },
+    {
+      "id": "v4_0211936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0211996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0212016",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

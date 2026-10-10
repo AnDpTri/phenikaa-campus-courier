@@ -1,0 +1,52 @@
+v4_0028794	P	-
+v4_0028798	P	-
+v4_0028845	P	-
+v4_0028859	P	-
+v4_0028864	P	-
+v4_0028866	P	-
+v4_0028877	P	-
+v4_0028930	P	-
+v4_0028938	P	-
+v4_0028944	P	-
+v4_0028945	P	-
+v4_0028946	F	goal type lecture -> lab (lop dang thi vua dat mau vat tai phong thi nghiem ly, huy giang duong)
+v4_0028967	P	-
+v4_0028972	F	goal ref/anchor anchor_near/parking -> parking/-/- (tang ham de xe khu giang duong gan nhat la parking)
+v4_0028975	P	-
+v4_0028976	P	-
+v4_0028982	P	-
+v4_0029010	P	-
+v4_0029018	P	-
+v4_0029026	P	-
+v4_0029039	P	-
+v4_0029045	P	-
+v4_0029075	P	-
+v4_0029081	P	-
+v4_0029113	P	-
+v4_0029119	P	-
+v4_0029123	P	-
+v4_0029137	P	-
+v4_0029161	P	-
+v4_0029163	P	-
+v4_0029166	P	-
+v4_0029207	P	-
+v4_0029213	P	-
+v4_0029223	P	-
+v4_0029250	P	-
+v4_0029255	P	-
+v4_0029257	P	-
+v4_0029282	P	-
+v4_0029290	P	-
+v4_0029302	P	-
+v4_0029304	P	-
+v4_0029321	P	-
+v4_0029356	P	-
+v4_0029365	P	-
+v4_0029404	P	-
+v4_0029407	P	-
+v4_0029409	P	-
+v4_0029414	P	-
+v4_0029421	P	-
+v4_0029423	P	-
+
+STDERR:

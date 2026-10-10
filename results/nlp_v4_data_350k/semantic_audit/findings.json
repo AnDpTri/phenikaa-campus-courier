@@ -1,0 +1,32 @@
+[
+  {
+    "batch": "chunk_01_batch_01",
+    "id": "v4_0000504",
+    "status": "F",
+    "reason": "goal type/ref/anchor mismatch: text specifies dorm near sports (khu ky tuc xa khu tap luyen), not dorm/far/sports"
+  },
+  {
+    "batch": "chunk_01_batch_04",
+    "id": "v4_0001615",
+    "status": "F",
+    "reason": "goal should be -/south_most/- or text says toa nha thap nhat (not south_most, height vs direction mismatch)"
+  },
+  {
+    "batch": "chunk_01_batch_04",
+    "id": "v4_0001825",
+    "status": "F",
+    "reason": "goal should be parking/-/- with recipient at parking; text says chu giu xe dang doi (parking recipient)"
+  },
+  {
+    "batch": "chunk_01_batch_05",
+    "id": "v4_0002294",
+    "status": "F",
+    "reason": "goal type/ref/anchor mismatch: text specifies parking with anchor lecture/south (or south direction), not near/anchor without qualification / check exact target specification"
+  },
+  {
+    "batch": "chunk_01_batch_02",
+    "id": "v4_0000652",
+    "status": "F",
+    "reason": "urgent should be 1"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "experiment": "counterfactual_semantic_balancing_candidate_v4",
+  "timestamp_utc": "2026-10-09T19:32:28.663915+00:00",
+  "rows": 2000,
+  "pairs": 1000,
+  "via_rate": 0.5,
+  "pairs_skipped_common_canceled_old_prefix_due_length": 0,
+  "p_via_given_marker": {
+    "lay": 0.5,
+    "nhan": 0.5,
+    "huy": 0.5,
+    "khong": 0.4467,
+    "truoc": 0.5
+  },
+  "all_pairs_goal_and_flags_equal": true,
+  "all_rows_unique_folded": true,
+  "qa": "Programmatically label-checked in v2 generator. No human linguistic audit, spatial targets not addressed.",
+  "active_training_modified": false,
+  "sha256": "da2bbe2cfd813cbbe918248567796654ab11e1126657503fae8d349a929d4f50"
+}

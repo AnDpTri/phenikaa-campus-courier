@@ -1,0 +1,52 @@
+v4_0043912	P	-
+v4_0043934	U	"o xa ve ben phai nhat" indicates east_most or far east, ambiguous whether extreme east_most or ordinary east
+v4_0043952	P	-
+v4_0043955	P	-
+v4_0043959	P	-
+v4_0043966	P	-
+v4_0043970	P	-
+v4_0043980	P	-
+v4_0043986	P	-
+v4_0043989	P	-
+v4_0044012	P	-
+v4_0044022	P	-
+v4_0044033	P	-
+v4_0044034	U	"o emp phai" (o mep phai / ben phai) ambiguous whether east_most or east
+v4_0044035	P	-
+v4_0044036	P	-
+v4_0044052	P	-
+v4_0044070	P	-
+v4_0044075	P	-
+v4_0044080	P	-
+v4_0044095	P	-
+v4_0044098	P	-
+v4_0044117	F	urgent: provided 0, corrected 1 ('ngay nhe' contradicts 'khong vi phai nhanh' / urgent cue mismatch)
+v4_0044136	P	-
+v4_0044153	P	-
+v4_0044163	P	-
+v4_0044170	P	-
+v4_0044193	P	-
+v4_0044194	P	-
+v4_0044208	P	-
+v4_0044213	P	-
+v4_0044223	P	-
+v4_0044228	P	-
+v4_0044233	P	-
+v4_0044236	P	-
+v4_0044237	P	-
+v4_0044239	P	-
+v4_0044248	P	-
+v4_0044255	P	-
+v4_0044295	P	-
+v4_0044303	P	-
+v4_0044358	P	-
+v4_0044360	P	-
+v4_0044361	P	-
+v4_0044378	P	-
+v4_0044387	P	-
+v4_0044393	F	urgent: provided 0, corrected 1 ('ngay giup toi' requests urgency)
+v4_0044410	U	"hang cuoi" indicates south_most by map convention or last row, ambiguous extreme south vs ordinary
+v4_0044417	P	-
+v4_0044440	P	-
+
+STDERR:

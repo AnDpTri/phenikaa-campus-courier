@@ -1,0 +1,52 @@
+v4_0297979	P	-
+v4_0298000	P	-
+v4_0298015	P	-
+v4_0298053	P	-
+v4_0298071	P	-
+v4_0298072	F	goal type/ref/anchor provided -/west_most/- should be clinic/west_most/- ('bac si truong o toa nao o xa ve ben trai nhat')
+v4_0298093	P	-
+v4_0298103	P	-
+v4_0298118	P	-
+v4_0298139	P	-
+v4_0298142	P	-
+v4_0298158	P	-
+v4_0298160	P	-
+v4_0298163	P	-
+v4_0298176	P	-
+v4_0298189	P	-
+v4_0298194	P	-
+v4_0298197	P	-
+v4_0298204	P	-
+v4_0298215	P	-
+v4_0298225	P	-
+v4_0298233	U	ambiguous goal destination ('nhan vien thu vien dang doi so ghi khach' does not specify building)
+v4_0298243	P	-
+v4_0298245	P	-
+v4_0298256	P	-
+v4_0298257	P	-
+v4_0298258	P	-
+v4_0298265	P	-
+v4_0298267	P	-
+v4_0298297	P	-
+v4_0298300	P	-
+v4_0298302	P	-
+v4_0298307	P	-
+v4_0298323	P	-
+v4_0298338	P	-
+v4_0298346	P	-
+v4_0298349	P	-
+v4_0298361	P	-
+v4_0298374	P	-
+v4_0298377	P	-
+v4_0298391	P	-
+v4_0298408	P	-
+v4_0298409	P	-
+v4_0298435	P	-
+v4_0298438	F	goal type/ref/anchor provided parking/-/- should be -/-/- or via type/ref/anchor provided lab/near/office should be parking/-/- ('mang ho gio hoa qua sang bai xe nha tren duong tien ghe phong thi nghiem hia gan an giam hieu')
+v4_0298449	U	goal destination missing/unspecified ('chu giu xe vua dat the thu vien' does not specify where to deliver)
+v4_0298458	P	-
+v4_0298460	P	-
+v4_0298466	P	-
+v4_0298488	P	-
+
+STDERR:

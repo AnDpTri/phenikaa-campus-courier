@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_02_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0016691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016692",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016924",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016954",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016991",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0016995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017005",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017030",
+      "status": "U",
+      "reason": "ria trai cua campus is west or ambiguous west_most"
+    },
+    {
+      "id": "v4_0017044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0017108",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

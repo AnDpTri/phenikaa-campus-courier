@@ -1,0 +1,52 @@
+v4_0119426	P	-
+v4_0119447	P	-
+v4_0119465	P	-
+v4_0119480	P	-
+v4_0119510	P	-
+v4_0119540	P	-
+v4_0119544	P	-
+v4_0119548	P	-
+v4_0119569	P	-
+v4_0119571	P	-
+v4_0119582	P	-
+v4_0119589	P	-
+v4_0119607	P	-
+v4_0119613	P	-
+v4_0119614	P	-
+v4_0119617	P	-
+v4_0119619	P	-
+v4_0119636	P	-
+v4_0119642	P	-
+v4_0119649	P	-
+v4_0119664	P	-
+v4_0119673	P	-
+v4_0119690	P	-
+v4_0119700	P	-
+v4_0119734	P	-
+v4_0119745	P	-
+v4_0119757	P	-
+v4_0119759	P	-
+v4_0119771	P	-
+v4_0119786	P	-
+v4_0119796	P	-
+v4_0119797	P	-
+v4_0119802	P	-
+v4_0119807	P	-
+v4_0119824	P	-
+v4_0119829	P	-
+v4_0119833	P	-
+v4_0119879	P	-
+v4_0119907	P	-
+v4_0119909	P	-
+v4_0119912	P	-
+v4_0119936	P	-
+v4_0119939	P	-
+v4_0119945	P	-
+v4_0119948	P	-
+v4_0119950	P	-
+v4_0119963	P	-
+v4_0119976	P	-
+v4_0119990	U	ai giao cung udoc vs dung alm roi, de vo lam: unclear if typo represents mai giao cung duoc or ai giao; but more critically 'truoc het ghe toa giang uong nam xa van phong truong lay bo vot' indicates far from office, but recipient text says 'Ai giao cung udoc' which is ambiguous urgency, or via lecture/far/office.
+v4_0119996	U	khong vi phai nhanh (contradictory urgency phrases: khong voi vs phai nhanh)
+
+STDERR:

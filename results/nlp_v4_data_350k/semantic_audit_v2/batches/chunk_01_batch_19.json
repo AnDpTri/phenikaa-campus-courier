@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_01_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0008859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008865",
+      "status": "F",
+      "reason": "goal urgent: provided 0, corrected 1 (\"ngay\")"
+    },
+    {
+      "id": "v4_0008866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008874",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008909",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0008999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009036",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0009334",
+      "status": "U",
+      "reason": "Missing or destroyed landmark word in via instruction (\"vong qua uong canh day nha o sih vien\")"
+    }
+  ]
+}

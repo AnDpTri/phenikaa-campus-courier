@@ -1,0 +1,73 @@
+TRAIN_START V5-SF200 GPU NVIDIA GeForce RTX 3050 Laptop GPU parameters 7515212
+SOURCE_V2_SEED0 D:\phenikaa\results\nlp_neural_v2\checkpoints\seed_20261008_best.pt MODEL_CONFIG {'dim': 96, 'hidden': 192}
+DEV_SIZES {"real_validation": 300, "v2_heldout_phrasing": 2000, "weighted_heldout": 1600, "hard_heldout": 700} REAL_TRAIN 2000 REAL_REPEAT 5
+BASELINE_EVALUATING
+BASELINE_DEV {"real_validation": {"goal": 0.9, "via": 0.8933333333333333, "urgent": 0.87, "fragile": 0.89, "all": 0.6433333333333333, "via_absent_n": 144, "via_false_positive_rate": 0.0}, "v2_heldout_phrasing": {"goal": 0.615, "via": 0.813, "urgent": 0.96, "fragile": 0.8655, "all": 0.4445, "via_absent_n": 1008, "via_false_positive_rate": 0.06646825396825397}, "weighted_heldout": {"goal": 0.5475, "via": 0.524375, "urgent": 0.985, "fragile": 0.6875, "all": 0.26125, "via_absent_n": 704, "via_false_positive_rate": 0.19460227272727273}, "hard_heldout": {"goal": 0.5314285714285715, "via": 0.41285714285714287, "urgent": 0.9985714285714286, "fragile": 0.5614285714285714, "all": 0.15, "via_absent_n": 343, "via_false_positive_rate": 0.17201166180758018}}
+EPOCH_DATA_LOADING 1 train_weighted_unified_200000_seed2026101060.jsonl
+TRAIN_PROGRESS epoch=1/2 batch=1/3282 rows=64/210000 mean_loss=15.55359 lr=0.00000200 elapsed_s=1
+TRAIN_PROGRESS epoch=1/2 batch=120/3282 rows=7680/210000 mean_loss=14.41648 lr=0.00000586 elapsed_s=30
+TRAIN_PROGRESS epoch=1/2 batch=240/3282 rows=15360/210000 mean_loss=14.36312 lr=0.00001621 elapsed_s=63
+TRAIN_PROGRESS epoch=1/2 batch=360/3282 rows=23040/210000 mean_loss=13.68988 lr=0.00002970 elapsed_s=97
+TRAIN_PROGRESS epoch=1/2 batch=480/3282 rows=30720/210000 mean_loss=12.53193 lr=0.00004201 elapsed_s=131
+TRAIN_PROGRESS epoch=1/2 batch=600/3282 rows=38400/210000 mean_loss=11.24425 lr=0.00004916 elapsed_s=164
+TRAIN_PROGRESS epoch=1/2 batch=720/3282 rows=46080/210000 mean_loss=10.08082 lr=0.00004999 elapsed_s=196
+TRAIN_PROGRESS epoch=1/2 batch=840/3282 rows=53760/210000 mean_loss=9.07916 lr=0.00004988 elapsed_s=231
+TRAIN_PROGRESS epoch=1/2 batch=960/3282 rows=61440/210000 mean_loss=8.21766 lr=0.00004967 elapsed_s=265
+TRAIN_PROGRESS epoch=1/2 batch=1080/3282 rows=69120/210000 mean_loss=7.49386 lr=0.00004937 elapsed_s=299
+TRAIN_PROGRESS epoch=1/2 batch=1200/3282 rows=76800/210000 mean_loss=6.87448 lr=0.00004896 elapsed_s=334
+TRAIN_PROGRESS epoch=1/2 batch=1320/3282 rows=84480/210000 mean_loss=6.34124 lr=0.00004845 elapsed_s=367
+TRAIN_PROGRESS epoch=1/2 batch=1440/3282 rows=92160/210000 mean_loss=5.87383 lr=0.00004786 elapsed_s=399
+TRAIN_PROGRESS epoch=1/2 batch=1560/3282 rows=99840/210000 mean_loss=5.47244 lr=0.00004716 elapsed_s=432
+TRAIN_PROGRESS epoch=1/2 batch=1680/3282 rows=107520/210000 mean_loss=5.11963 lr=0.00004638 elapsed_s=465
+TRAIN_PROGRESS epoch=1/2 batch=1800/3282 rows=115200/210000 mean_loss=4.81015 lr=0.00004551 elapsed_s=497
+TRAIN_PROGRESS epoch=1/2 batch=1920/3282 rows=122880/210000 mean_loss=4.53212 lr=0.00004456 elapsed_s=530
+TRAIN_PROGRESS epoch=1/2 batch=2040/3282 rows=130560/210000 mean_loss=4.28795 lr=0.00004352 elapsed_s=562
+TRAIN_PROGRESS epoch=1/2 batch=2160/3282 rows=138240/210000 mean_loss=4.06756 lr=0.00004242 elapsed_s=595
+TRAIN_PROGRESS epoch=1/2 batch=2280/3282 rows=145920/210000 mean_loss=3.86962 lr=0.00004124 elapsed_s=627
+TRAIN_PROGRESS epoch=1/2 batch=2400/3282 rows=153600/210000 mean_loss=3.68827 lr=0.00003999 elapsed_s=659
+TRAIN_PROGRESS epoch=1/2 batch=2520/3282 rows=161280/210000 mean_loss=3.52359 lr=0.00003868 elapsed_s=692
+TRAIN_PROGRESS epoch=1/2 batch=2640/3282 rows=168960/210000 mean_loss=3.37351 lr=0.00003732 elapsed_s=725
+TRAIN_PROGRESS epoch=1/2 batch=2760/3282 rows=176640/210000 mean_loss=3.23525 lr=0.00003591 elapsed_s=759
+TRAIN_PROGRESS epoch=1/2 batch=2880/3282 rows=184320/210000 mean_loss=3.10856 lr=0.00003445 elapsed_s=791
+TRAIN_PROGRESS epoch=1/2 batch=3000/3282 rows=192000/210000 mean_loss=2.99025 lr=0.00003296 elapsed_s=823
+TRAIN_PROGRESS epoch=1/2 batch=3120/3282 rows=199680/210000 mean_loss=2.88112 lr=0.00003143 elapsed_s=855
+TRAIN_PROGRESS epoch=1/2 batch=3240/3282 rows=207360/210000 mean_loss=2.77938 lr=0.00002988 elapsed_s=887
+TRAIN_PROGRESS epoch=1/2 batch=3282/3282 rows=210000/210000 mean_loss=2.74637 lr=0.00002933 elapsed_s=899
+EPOCH_RESULT {"epoch": 1, "training_loss": 2.7463742329946585, "elapsed_seconds": 915.9, "score_for_selection": 0.41789196428571423, "guards": {"dev_v2_via_no_catastrophic_drop": true, "dev_v2_all_no_catastrophic_drop": true, "real_via_no_catastrophic_drop": true}, "guard_pass": true, "dev_metrics": {"real_validation": {"goal": 0.93, "via": 0.86, "urgent": 0.8733333333333333, "fragile": 0.89, "all": 0.64, "via_absent_n": 144, "via_false_positive_rate": 0.0}, "v2_heldout_phrasing": {"goal": 0.724, "via": 0.8445, "urgent": 0.927, "fragile": 0.8955, "all": 0.532, "via_absent_n": 1008, "via_false_positive_rate": 0.04563492063492063}, "weighted_heldout": {"goal": 0.685625, "via": 0.620625, "urgent": 0.9775, "fragile": 0.71, "all": 0.346875, "via_absent_n": 704, "via_false_positive_rate": 0.07670454545454546}, "hard_heldout": {"goal": 0.6928571428571428, "via": 0.5385714285714286, "urgent": 1.0, "fragile": 0.5614285714285714, "all": 0.23142857142857143, "via_absent_n": 343, "via_false_positive_rate": 0.06997084548104957}}, "checkpoint": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_e1.pt"}
+CHECKPOINT_SAVED D:\phenikaa\results\NLP_V5_SemanticFusion_200K\sf200_e1.pt
+EPOCH_DATA_LOADING 2 sf200_epoch2_seed2026101061.jsonl
+TRAIN_PROGRESS epoch=2/2 batch=1/3282 rows=64/210000 mean_loss=0.28855 lr=0.00002932 elapsed_s=0
+TRAIN_PROGRESS epoch=2/2 batch=120/3282 rows=7680/210000 mean_loss=0.15072 lr=0.00002775 elapsed_s=32
+TRAIN_PROGRESS epoch=2/2 batch=240/3282 rows=15360/210000 mean_loss=0.14444 lr=0.00002616 elapsed_s=65
+TRAIN_PROGRESS epoch=2/2 batch=360/3282 rows=23040/210000 mean_loss=0.14001 lr=0.00002456 elapsed_s=98
+TRAIN_PROGRESS epoch=2/2 batch=480/3282 rows=30720/210000 mean_loss=0.13879 lr=0.00002297 elapsed_s=133
+TRAIN_PROGRESS epoch=2/2 batch=600/3282 rows=38400/210000 mean_loss=0.13428 lr=0.00002139 elapsed_s=162
+TRAIN_PROGRESS epoch=2/2 batch=720/3282 rows=46080/210000 mean_loss=0.13108 lr=0.00001982 elapsed_s=192
+TRAIN_PROGRESS epoch=2/2 batch=840/3282 rows=53760/210000 mean_loss=0.12851 lr=0.00001827 elapsed_s=225
+TRAIN_PROGRESS epoch=2/2 batch=960/3282 rows=61440/210000 mean_loss=0.12566 lr=0.00001675 elapsed_s=253
+TRAIN_PROGRESS epoch=2/2 batch=1080/3282 rows=69120/210000 mean_loss=0.12350 lr=0.00001526 elapsed_s=281
+TRAIN_PROGRESS epoch=2/2 batch=1200/3282 rows=76800/210000 mean_loss=0.12122 lr=0.00001381 elapsed_s=309
+TRAIN_PROGRESS epoch=2/2 batch=1320/3282 rows=84480/210000 mean_loss=0.12008 lr=0.00001241 elapsed_s=337
+TRAIN_PROGRESS epoch=2/2 batch=1440/3282 rows=92160/210000 mean_loss=0.11826 lr=0.00001105 elapsed_s=367
+TRAIN_PROGRESS epoch=2/2 batch=1560/3282 rows=99840/210000 mean_loss=0.11646 lr=0.00000976 elapsed_s=398
+TRAIN_PROGRESS epoch=2/2 batch=1680/3282 rows=107520/210000 mean_loss=0.11494 lr=0.00000853 elapsed_s=429
+TRAIN_PROGRESS epoch=2/2 batch=1800/3282 rows=115200/210000 mean_loss=0.11350 lr=0.00000736 elapsed_s=458
+TRAIN_PROGRESS epoch=2/2 batch=1920/3282 rows=122880/210000 mean_loss=0.11195 lr=0.00000627 elapsed_s=487
+TRAIN_PROGRESS epoch=2/2 batch=2040/3282 rows=130560/210000 mean_loss=0.11092 lr=0.00000525 elapsed_s=518
+TRAIN_PROGRESS epoch=2/2 batch=2160/3282 rows=138240/210000 mean_loss=0.10978 lr=0.00000431 elapsed_s=549
+TRAIN_PROGRESS epoch=2/2 batch=2280/3282 rows=145920/210000 mean_loss=0.10897 lr=0.00000346 elapsed_s=578
+TRAIN_PROGRESS epoch=2/2 batch=2400/3282 rows=153600/210000 mean_loss=0.10781 lr=0.00000269 elapsed_s=610
+TRAIN_PROGRESS epoch=2/2 batch=2520/3282 rows=161280/210000 mean_loss=0.10687 lr=0.00000202 elapsed_s=640
+TRAIN_PROGRESS epoch=2/2 batch=2640/3282 rows=168960/210000 mean_loss=0.10646 lr=0.00000144 elapsed_s=669
+TRAIN_PROGRESS epoch=2/2 batch=2760/3282 rows=176640/210000 mean_loss=0.10589 lr=0.00000095 elapsed_s=702
+TRAIN_PROGRESS epoch=2/2 batch=2880/3282 rows=184320/210000 mean_loss=0.10551 lr=0.00000057 elapsed_s=736
+TRAIN_PROGRESS epoch=2/2 batch=3000/3282 rows=192000/210000 mean_loss=0.10484 lr=0.00000028 elapsed_s=766
+TRAIN_PROGRESS epoch=2/2 batch=3120/3282 rows=199680/210000 mean_loss=0.10430 lr=0.00000009 elapsed_s=794
+TRAIN_PROGRESS epoch=2/2 batch=3240/3282 rows=207360/210000 mean_loss=0.10353 lr=0.00000001 elapsed_s=825
+TRAIN_PROGRESS epoch=2/2 batch=3282/3282 rows=210000/210000 mean_loss=0.10360 lr=0.00000000 elapsed_s=835
+EPOCH_RESULT {"epoch": 2, "training_loss": 0.10359917991161346, "elapsed_seconds": 849.4, "score_for_selection": 0.4209452380952381, "guards": {"dev_v2_via_no_catastrophic_drop": true, "dev_v2_all_no_catastrophic_drop": true, "real_via_no_catastrophic_drop": true}, "guard_pass": true, "dev_metrics": {"real_validation": {"goal": 0.93, "via": 0.8533333333333334, "urgent": 0.8766666666666667, "fragile": 0.89, "all": 0.6366666666666667, "via_absent_n": 144, "via_false_positive_rate": 0.0}, "v2_heldout_phrasing": {"goal": 0.741, "via": 0.8445, "urgent": 0.9285, "fragile": 0.896, "all": 0.541, "via_absent_n": 1008, "via_false_positive_rate": 0.041666666666666664}, "weighted_heldout": {"goal": 0.689375, "via": 0.62125, "urgent": 0.978125, "fragile": 0.713125, "all": 0.35, "via_absent_n": 704, "via_false_positive_rate": 0.06676136363636363}, "hard_heldout": {"goal": 0.6942857142857143, "via": 0.5257142857142857, "urgent": 1.0, "fragile": 0.5614285714285714, "all": 0.22714285714285715, "via_absent_n": 343, "via_false_positive_rate": 0.0641399416909621}}, "checkpoint": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_e2.pt"}
+CHECKPOINT_SAVED D:\phenikaa\results\NLP_V5_SemanticFusion_200K\sf200_e2.pt
+CHECKPOINT_SELECTED 2 guards_ok True best D:\phenikaa\results\NLP_V5_SemanticFusion_200K\sf200_best.pt
+FINAL_EVALUATION {"final_v2_holdout": 3000, "final_weighted_holdout": 2000, "final_hard_holdout": 1000}
+TRAIN_COMPLETED {"selected_epoch": 2, "guards_ok": true, "final_V2": {"final_v2_holdout": {"goal": 0.6106666666666667, "via": 0.8053333333333333, "urgent": 0.9423333333333334, "fragile": 0.867, "all": 0.43533333333333335, "via_absent_n": 1477, "via_false_positive_rate": 0.09004739336492891}, "final_weighted_holdout": {"goal": 0.5415, "via": 0.508, "urgent": 0.981, "fragile": 0.6605, "all": 0.2425, "via_absent_n": 898, "via_false_positive_rate": 0.22717149220489977}, "final_hard_holdout": {"goal": 0.534, "via": 0.4, "urgent": 0.997, "fragile": 0.543, "all": 0.151, "via_absent_n": 479, "via_false_positive_rate": 0.18789144050104384}}, "final_V5": {"final_v2_holdout": {"goal": 0.7266666666666667, "via": 0.8383333333333334, "urgent": 0.9186666666666666, "fragile": 0.9046666666666666, "all": 0.5313333333333333, "via_absent_n": 1477, "via_false_positive_rate": 0.05484089370345294}, "final_weighted_holdout": {"goal": 0.6965, "via": 0.634, "urgent": 0.971, "fragile": 0.679, "all": 0.3385, "via_absent_n": 898, "via_false_positive_rate": 0.07126948775055679}, "final_hard_holdout": {"goal": 0.715, "via": 0.519, "urgent": 1.0, "fragile": 0.543, "all": 0.223, "via_absent_n": 479, "via_false_positive_rate": 0.04592901878914405}}}
+REPORT_SAVED D:\phenikaa\results\NLP_V5_SemanticFusion_200K\sf200_evaluation.json

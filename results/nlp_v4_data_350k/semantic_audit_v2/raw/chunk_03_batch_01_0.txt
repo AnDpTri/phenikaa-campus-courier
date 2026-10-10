@@ -1,0 +1,52 @@
+v4_0020011	P	-
+v4_0020075	P	-
+v4_0020084	P	-
+v4_0020090	P	-
+v4_0020101	P	-
+v4_0020130	P	-
+v4_0020132	P	-
+v4_0020135	U	Recipient is 'co giang vien' without specified location; lecture building is not mentioned as the destination.
+v4_0020146	P	-
+v4_0020159	P	-
+v4_0020174	P	-
+v4_0020176	P	-
+v4_0020178	P	-
+v4_0020195	U	'lech hn ve phuong nam' indicates direction south (south), but label specifies extreme position south_most without superlative wording.
+v4_0020230	P	-
+v4_0020233	P	-
+v4_0020265	P	-
+v4_0020285	P	-
+v4_0020289	P	-
+v4_0020296	P	-
+v4_0020298	P	-
+v4_0020315	P	-
+v4_0020327	P	-
+v4_0020334	P	-
+v4_0020335	P	-
+v4_0020361	P	-
+v4_0020367	P	-
+v4_0020372	P	-
+v4_0020378	P	-
+v4_0020381	P	-
+v4_0020382	P	-
+v4_0020389	P	-
+v4_0020391	P	-
+v4_0020411	P	-
+v4_0020427	P	-
+v4_0020431	P	-
+v4_0020434	U	Recipient is 'cau lac bo bong da' with no explicit destination location specified.
+v4_0020438	P	-
+v4_0020459	P	-
+v4_0020460	U	Recipient is 'co giang vien' without specified destination building.
+v4_0020462	P	-
+v4_0020463	U	'cuoi ban do' could be south_most or east_most without further context.
+v4_0020472	P	-
+v4_0020502	P	-
+v4_0020508	P	-
+v4_0020522	P	-
+v4_0020528	U	Recipient is 'Doi van dong vien' without explicitly specifying destination sports facility.
+v4_0020532	P	-
+v4_0020585	P	-
+v4_0020589	P	-
+
+STDERR:

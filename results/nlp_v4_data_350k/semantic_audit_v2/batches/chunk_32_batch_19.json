@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0318893",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318908",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318909",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319286",
+      "status": "F",
+      "reason": "goal type: provided 'office' but text gives no valid delivery goal; 'chuyen vien vua dat chiec tui' does not specify office destination"
+    },
+    {
+      "id": "v4_0319288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0319361",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

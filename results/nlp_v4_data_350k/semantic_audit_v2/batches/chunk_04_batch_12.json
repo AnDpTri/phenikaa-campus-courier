@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0035806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035825",
+      "status": "F",
+      "reason": "goal: provided -/anchor_near/gate, corrected gate/south_most/- ('ke cong b hat')"
+    },
+    {
+      "id": "v4_0035829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035954",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0035992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036057",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036226",
+      "status": "F",
+      "reason": "via: provided library/near/sports, corrected library/anchor_near/sports ('noi muon rta sach giao trih gan phia san bong ro nhat')"
+    },
+    {
+      "id": "v4_0036252",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

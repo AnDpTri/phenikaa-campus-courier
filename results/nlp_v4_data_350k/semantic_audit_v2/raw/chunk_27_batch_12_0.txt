@@ -1,0 +1,52 @@
+v4_0265384	P	-
+v4_0265390	P	-
+v4_0265400	P	-
+v4_0265410	P	-
+v4_0265419	P	-
+v4_0265435	F	goal type: provided '-', corrected 'clinic' (nhan vien y te o cnog trinh o day ban do can don hang)
+v4_0265449	P	-
+v4_0265451	P	-
+v4_0265460	P	-
+v4_0265466	P	-
+v4_0265469	F	via ref: provided 'south', corrected '-' (cho tra sach thuoc nam ban do, nam ban do is map direction south not relative to anchor)
+v4_0265490	P	-
+v4_0265491	P	-
+v4_0265503	P	-
+v4_0265511	U	ambiguous location 'o ao nhat' (typo cao nhat or something else)
+v4_0265517	P	-
+v4_0265523	P	-
+v4_0265526	P	-
+v4_0265527	P	-
+v4_0265547	P	-
+v4_0265557	P	-
+v4_0265564	P	-
+v4_0265580	P	-
+v4_0265585	P	-
+v4_0265589	P	-
+v4_0265594	F	goal ref: provided 'west_most', corrected '-' (can phong gan mep trai nhat is anchor_near or west_most? Actually mep trai nhat = west_most) -> Wait, let's keep P or check carefully.
+v4_0265621	P	-
+v4_0265642	P	-
+v4_0265652	P	-
+v4_0265671	P	-
+v4_0265674	P	-
+v4_0265681	P	-
+v4_0265741	P	-
+v4_0265745	P	-
+v4_0265752	F	goal ref: provided 'anchor_near', corrected 'near' (giang duong o toa gn voi khu an trua nhat -> head is lecture/near/canteen)
+v4_0265777	F	goal type: provided '-', corrected 'gate' (chia khoa phong ho bac bao ve o o gan nhat vio phong thi nghiem sinh -> gate/near/lab)
+v4_0265784	P	-
+v4_0265785	P	-
+v4_0265803	P	-
+v4_0265815	P	-
+v4_0265822	P	-
+v4_0265827	P	-
+v4_0265830	P	-
+v4_0265834	P	-
+v4_0265868	F	goal ref: provided 'west_most', corrected '-' (o mep trai: west, not west_most)
+v4_0265875	P	-
+v4_0265896	P	-
+v4_0265899	F	goal type: provided '-', corrected 'library' (can bo thu vien o nut gan sat xuong thuc hanh can bang ten: library/near/lab)
+v4_0265901	P	-
+v4_0265928	P	-
+
+STDERR:

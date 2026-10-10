@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_20_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0196513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196528",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'office' (\"acn phong gan sat chot bao ve cong\")"
+    },
+    {
+      "id": "v4_0196533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196575",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196646",
+      "status": "U",
+      "reason": "ambiguous whether destination is pick up or delivery (\"nhan hang tai o gan voi loi ra nhat\")"
+    },
+    {
+      "id": "v4_0196648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196655",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'office' (\"can phong lien ke diem kiem soat the ra vao\")"
+    },
+    {
+      "id": "v4_0196679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196686",
+      "status": "U",
+      "reason": "unreadable corrupted text for intermediate stop (\"nha the cat thuoc nua phai ban do\")"
+    },
+    {
+      "id": "v4_0196688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196846",
+      "status": "F",
+      "reason": "goal type: provided 'office', expected '-' (\"phong mot ca hne do la bo ho so\" corrupted/unknown place type)"
+    },
+    {
+      "id": "v4_0196851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196884",
+      "status": "U",
+      "reason": "ambiguous whether 'o dau ban do' means north_most or west_most (cot dau vs cao nhat)"
+    },
+    {
+      "id": "v4_0196902",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196963",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'dorm' (\"Nguoi O Ktx O Nut Sat Phong Sach Dang Cho Tui So Cuu\")"
+    },
+    {
+      "id": "v4_0196973",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0196998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0197005",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

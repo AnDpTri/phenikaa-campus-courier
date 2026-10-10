@@ -1,0 +1,56 @@
+{
+  "scenes": 1200,
+  "observations": 12000,
+  "seconds": 547.9585177999979,
+  "strategy_artifact": "artifacts\\solver\\candidate_strategy_trainval.joblib",
+  "original_counters": {
+    "nlp_goal_neural_override": 695,
+    "strategy_fallbacks": 273,
+    "nlp_goal_neural_fill": 95,
+    "nlp_via_neural_override": 342,
+    "nlp_goal_neural_map": 12,
+    "nlp_goal_neural_map_type": 7
+  },
+  "fallback_scenes": 29,
+  "fallback_robot_observations": 273,
+  "categories": {
+    "goal_unreachable": 141,
+    "goal_unreachable_after_via": 66,
+    "via_unreachable": 66
+  },
+  "by_robot": {
+    "0": 29,
+    "1": 29,
+    "2": 29,
+    "3": 29,
+    "4": 12,
+    "5": 29,
+    "6": 29,
+    "7": 29,
+    "8": 29,
+    "9": 29
+  },
+  "fallback_modes": {
+    "repaired_add_lattice_edges": 141,
+    "repaired_drop_oneway": 86,
+    "repaired_reopen_closed": 46
+  },
+  "fallback_actions": {
+    "2": 54,
+    "1": 64,
+    "3": 93,
+    "0": 62
+  },
+  "fallbacks_per_scene": {
+    "0": 1171,
+    "10": 12,
+    "9": 17
+  },
+  "weak_undirected_route_exists": {
+    "False": 187,
+    "True": 86
+  },
+  "resolver_goal_replaced_scenes": 0,
+  "resolver_via_dropped_scenes": 1,
+  "structural_graph_warning_scenes": 0
+}

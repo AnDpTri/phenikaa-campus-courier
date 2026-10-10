@@ -1,0 +1,52 @@
+v4_0234117	P	-
+v4_0234122	U	Cau truc cau 'ma se bao ve dang doi bo ho so tai xuong thuc hanh xa co so y te' bi loi ngu phap, mo ho chu ngu va vi tri nguoi nhan
+v4_0234136	P	-
+v4_0234137	U	Cum tu 'Ia Diem Nao Do Ma Ccu Ac Uca Ban Do' bi sai chinh ta bien dang khong ro nghia vi tri
+v4_0234167	P	-
+v4_0234176	P	-
+v4_0234201	F	goal type: provided '-' vs corrected 'gate' ('nguoi gac cong o tram o cot phai nhat')
+v4_0234212	P	-
+v4_0234227	P	-
+v4_0234248	P	-
+v4_0234265	P	-
+v4_0234274	P	-
+v4_0234282	P	-
+v4_0234301	P	-
+v4_0234305	P	-
+v4_0234308	P	-
+v4_0234313	P	-
+v4_0234329	P	-
+v4_0234332	P	-
+v4_0234337	P	-
+v4_0234339	P	-
+v4_0234352	P	-
+v4_0234361	P	-
+v4_0234376	P	-
+v4_0234384	P	-
+v4_0234386	P	-
+v4_0234419	P	-
+v4_0234423	P	-
+v4_0234439	P	-
+v4_0234460	P	-
+v4_0234465	P	-
+v4_0234466	P	-
+v4_0234469	P	-
+v4_0234478	P	-
+v4_0234479	P	-
+v4_0234498	P	-
+v4_0234516	P	-
+v4_0234518	P	-
+v4_0234519	P	-
+v4_0234525	P	-
+v4_0234532	P	-
+v4_0234534	F	goal type: provided 'sports' vs corrected 'dorm' ('bac bao ve truc toa nha noi tru o ho tap the dc can tap tai lieu')
+v4_0234544	P	-
+v4_0234550	P	-
+v4_0234554	P	-
+v4_0234556	P	-
+v4_0234560	P	-
+v4_0234571	P	-
+v4_0234583	P	-
+v4_0234597	P	-
+
+STDERR:

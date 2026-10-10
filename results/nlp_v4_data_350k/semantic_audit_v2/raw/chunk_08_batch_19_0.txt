@@ -1,0 +1,52 @@
+v4_0079049	P	-
+v4_0079050	P	-
+v4_0079068	P	-
+v4_0079069	P	-
+v4_0079078	P	-
+v4_0079081	P	-
+v4_0079083	P	-
+v4_0079097	P	-
+v4_0079101	P	-
+v4_0079108	P	-
+v4_0079111	P	-
+v4_0079117	U	unreadable corrupted text 'aty giup acm on bn nhe' obscures fragile label
+v4_0079167	P	-
+v4_0079171	P	-
+v4_0079175	P	-
+v4_0079180	P	-
+v4_0079184	P	-
+v4_0079194	P	-
+v4_0079206	P	-
+v4_0079207	P	-
+v4_0079209	P	-
+v4_0079229	P	-
+v4_0079249	P	-
+v4_0079258	P	-
+v4_0079266	P	-
+v4_0079274	P	-
+v4_0079290	P	-
+v4_0079297	P	-
+v4_0079300	P	-
+v4_0079301	P	-
+v4_0079306	P	-
+v4_0079308	P	-
+v4_0079311	P	-
+v4_0079314	P	-
+v4_0079323	P	-
+v4_0079329	P	-
+v4_0079338	P	-
+v4_0079348	F	via label provided lab/near/lecture, corrected lab/-/- (text says 'ghe lab gna vi phong hoc ly thuyet hon lay the thu vien truoc' comparing/closer to lecture hall not near-ref)
+v4_0079362	P	-
+v4_0079363	P	-
+v4_0079372	P	-
+v4_0079383	P	-
+v4_0079397	P	-
+v4_0079423	P	-
+v4_0079453	P	-
+v4_0079468	P	-
+v4_0079480	P	-
+v4_0079500	P	-
+v4_0079510	P	-
+v4_0079517	P	-
+
+STDERR:

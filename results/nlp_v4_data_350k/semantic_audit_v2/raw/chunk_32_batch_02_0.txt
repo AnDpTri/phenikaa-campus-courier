@@ -1,0 +1,52 @@
+v4_0310464	P	-
+v4_0310465	P	-
+v4_0310476	P	-
+v4_0310485	P	-
+v4_0310494	P	-
+v4_0310500	P	-
+v4_0310501	P	-
+v4_0310540	P	-
+v4_0310541	P	-
+v4_0310552	P	-
+v4_0310563	P	-
+v4_0310564	P	-
+v4_0310574	P	-
+v4_0310576	P	-
+v4_0310577	P	-
+v4_0310587	P	-
+v4_0310605	P	-
+v4_0310606	P	-
+v4_0310630	P	-
+v4_0310644	P	-
+v4_0310646	P	-
+v4_0310649	P	-
+v4_0310667	P	-
+v4_0310669	P	-
+v4_0310671	P	-
+v4_0310673	P	-
+v4_0310681	P	-
+v4_0310683	P	-
+v4_0310702	P	-
+v4_0310707	P	-
+v4_0310709	P	-
+v4_0310719	P	-
+v4_0310743	P	-
+v4_0310750	P	-
+v4_0310755	P	-
+v4_0310769	P	-
+v4_0310785	P	-
+v4_0310794	P	-
+v4_0310795	P	-
+v4_0310808	P	-
+v4_0310816	P	-
+v4_0310817	P	-
+v4_0310833	P	-
+v4_0310839	F	goal type parking should be - supported by 'Bac giu xe dang cho goi do' without specified building type
+v4_0310847	P	-
+v4_0310863	P	-
+v4_0310876	F	goal type clinic should be - supported by 'CAN BO Y TE NO GUI PHONG BI CONG VAN'
+v4_0310892	P	-
+v4_0310897	P	-
+v4_0310914	P	-
+
+STDERR:

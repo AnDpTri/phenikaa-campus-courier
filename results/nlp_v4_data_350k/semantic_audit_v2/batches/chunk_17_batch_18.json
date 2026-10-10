@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0168376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168380",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168397",
+      "status": "F",
+      "reason": "fragile: 0 -> 1 (\"Do khong vo duoc dau\" = fragile=0, correct is 0; wait: \"tot nhat la mang thang cuc pin vao tram y te nhe. Do khong vo duoc dau\" -> fragile is 0)"
+    },
+    {
+      "id": "v4_0168401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168410",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168437",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168448",
+      "status": "U",
+      "reason": "\"huong don\" is a corrupted/destroyed direction word (\"huong dong\"?), direction cannot be determined with certainty"
+    },
+    {
+      "id": "v4_0168464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168708",
+      "status": "F",
+      "reason": "goal type: - -> parking (\"Doi trong xe hien dang o vi tri gan nhat voi Can Teen\")"
+    },
+    {
+      "id": "v4_0168709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168768",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168790",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

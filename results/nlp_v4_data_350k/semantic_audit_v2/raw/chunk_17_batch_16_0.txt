@@ -1,0 +1,165 @@
+v4_0167253	P	-
+v4_0167262	P	-
+v4_0167271	P	-
+v4_0167298	P	-
+v4_0167316	P	-
+v4_0167335	P	-
+v4_0167349	P	-
+v4_0167352	P	-
+v4_0167375	P	-
+v4_0167394	P	-
+v4_0167397	P	-
+v4_0167401	P	-
+v4_0167414	P	-
+v4_0167420	F	urgent: provided 0, corrected 1 ('Mai Giao Cung Duoc' contradicts absent/overridden; but wait, 'Mai Giao Cung Duoc' is 0, fragile is 1 'Do Gom Ben Trong Tranh Va Cham' -> wait: 'Hay Di Qua Van Phong Ben Phai Nha' - wait, is 'Di Qua' a via or goal? 'Xe Chi Chay Ngang Tam Bai Gui Xe May Sinh Vien Do Khong Phai Cho Muon Tio Hay Di Qua Van Phong Ben Phai Nha Mai Giao Cung Duoc' -> 'di qua' is pass by / via or goal? Or office/east/- is goal). Wait:
+v4_0167420	U	'Hay Di Qua Van Phong Ben Phai' can mean via or delivery goal
+v4_0167428	P	-
+v4_0167433	P	-
+v4_0167434	P	-
+v4_0167472	P	-
+v4_0167473	P	-
+v4_0167497	P	-
+v4_0167499	P	-
+v4_0167502	P	-
+v4_0167527	P	-
+v4_0167540	P	-
+v4_0167554	P	-
+v4_0167560	P	-
+v4_0167580	P	-
+v4_0167585	P	-
+v4_0167602	P	-
+v4_0167611	P	-
+v4_0167614	P	-
+v4_0167621	P	-
+v4_0167633	P	-
+v4_0167651	P	-
+v4_0167662	P	-
+v4_0167678	P	-
+v4_0167689	P	-
+v4_0167719	P	-
+v4_0167737	P	-
+v4_0167745	P	-
+v4_0167750	P	-
+v4_0167757	P	-
+v4_0167770	P	-
+v4_0167774	P	-
+v4_0167780	P	-
+v4_0167784	P	-
+v4_0167796	P	-
+v4_0167806	U	'o nam tim diem co kinh do nho nhat' mixes south cue with west_most
+v4_0167810	P	-
+v4_0167813	P	-
+
+Wait, let's verify each carefully:
+
+v4_0167420: "Nho Ban Nhe Xe Chi Chay Ngang Tam Bai Gui Xe May Sinh Vien Do Khong Phai Cho Muon Tio Hay Di Qua Van Phong Ben Phai Nha Mai Giao Cung Duoc Do Gom Ben Trong Tranh Va Cham Thanks Robot"
+"Hay Di Qua Van Phong Ben Phai Nha Mai Giao Cung Duoc" -> "di qua" usually means go through / pass by, or "hay di qua ... [de] giao"? If it has no other destination, "Van Phong Ben Phai" = office/east/-. But is it goal or via? In Vietnamese, "hãy đi qua văn phòng bên phải nhé, mai giao cũng được" = "please go over to the right office, can deliver tomorrow". Here "đi qua" means "head over to / visit". So goal = office/east/-.
+Wait, what about v4_0167806: "chao khong can di ngang cong rao khong phai giao noi do xe dia chi cu la san tap bo qua dau tien toi khu nha o sinh vien nhan bo sach tiep theo den o nam tim diem co kinh do nho nhat tren ban do nha robot cang nhanh cang tot cam on"
+"den o nam tim diem co kinh do nho nhat" -> "kinh do nho nhat" = longitude minimum (west-most, cot dau / trai nhat). But "o nam tim diem"? Is "o nam" = "ở Nam" (in the South) or a typo for "để mà tìm điểm" or "ở nhằm tìm điểm"?
+Wait! "o nam tim diem co kinh do nho nhat": Could it be south / west_most conflicting cues? "Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+
+Let's double-check v4_0167420 again:
+Wait, in v4_0167420: "Hay Di Qua Van Phong Ben Phai Nha Mai Giao Cung Duoc" -> Is office/east/- completely supported? Yes.
+
+Let's check all 38 inputs strictly:
+v4_0167253	P	-
+v4_0167262	P	-
+v4_0167271	P	-
+v4_0167298	P	-
+v4_0167316	P	-
+v4_0167335	P	-
+v4_0167349	P	-
+v4_0167352	P	-
+v4_0167375	P	-
+v4_0167394	P	-
+v4_0167397	P	-
+v4_0167401	P	-
+v4_0167414	P	-
+v4_0167420	P	-
+v4_0167428	P	-
+v4_0167433	P	-
+v4_0167434	P	-
+v4_0167472	P	-
+v4_0167473	P	-
+v4_0167497	P	-
+v4_0167499	P	-
+v4_0167502	P	-
+v4_0167527	P	-
+v4_0167540	P	-
+v4_0167554	P	-
+v4_0167560	P	-
+v4_0167580	P	-
+v4_0167585	P	-
+v4_0167602	P	-
+v4_0167611	P	-
+v4_0167614	P	-
+v4_0167621	P	-
+v4_0167633	P	-
+v4_0167651	P	-
+v4_0167662	P	-
+v4_0167678	P	-
+v4_0167689	P	-
+v4_0167719	P	-
+v4_0167737	P	-
+v4_0167745	P	-
+v4_0167750	P	-
+v4_0167757	P	-
+v4_0167770	P	-
+v4_0167774	P	-
+v4_0167780	P	-
+v4_0167784	P	-
+v4_0167796	P	-
+v4_0167806	U	ambiguous directional cues ('o nam' vs 'kinh do nho nhat')
+v4_0167810	P	-
+v4_0167813	P	-v4_0167253	P	-
+v4_0167262	P	-
+v4_0167271	P	-
+v4_0167298	P	-
+v4_0167316	P	-
+v4_0167335	P	-
+v4_0167349	P	-
+v4_0167352	P	-
+v4_0167375	P	-
+v4_0167394	P	-
+v4_0167397	P	-
+v4_0167401	P	-
+v4_0167414	P	-
+v4_0167420	P	-
+v4_0167428	P	-
+v4_0167433	P	-
+v4_0167434	P	-
+v4_0167472	P	-
+v4_0167473	P	-
+v4_0167497	P	-
+v4_0167499	P	-
+v4_0167502	P	-
+v4_0167527	P	-
+v4_0167540	P	-
+v4_0167554	P	-
+v4_0167560	P	-
+v4_0167580	P	-
+v4_0167585	P	-
+v4_0167602	P	-
+v4_0167611	P	-
+v4_0167614	P	-
+v4_0167621	P	-
+v4_0167633	P	-
+v4_0167651	P	-
+v4_0167662	P	-
+v4_0167678	P	-
+v4_0167689	P	-
+v4_0167719	P	-
+v4_0167737	P	-
+v4_0167745	P	-
+v4_0167750	P	-
+v4_0167757	P	-
+v4_0167770	P	-
+v4_0167774	P	-
+v4_0167780	P	-
+v4_0167784	P	-
+v4_0167796	P	-
+v4_0167806	U	ambiguous conflicting cues between 'o nam' and 'kinh do nho nhat' (west_most)
+v4_0167810	P	-
+v4_0167813	P	-
+
+STDERR:

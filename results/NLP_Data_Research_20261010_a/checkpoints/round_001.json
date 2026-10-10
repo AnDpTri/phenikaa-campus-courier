@@ -1,0 +1,107 @@
+{
+  "round": 1,
+  "started_utc": "2026-10-09T19:36:01.537804+00:00",
+  "hours_since_start": 0.168,
+  "test": "independent seeded paired counterfactual via + synthetic distribution",
+  "seed": 2026111107,
+  "synthetic_mode": "weighted",
+  "holdout_phrase_bank": true,
+  "paired_samples": 240,
+  "sample_file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\counterfactual_round_001.jsonl",
+  "sample_sha256": "91eb50f01dcfb0f9f40819e74946d3b2ad62cf1d538c14c59b56bfa7730bb6de",
+  "baseline_checkpoints": [
+    "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch\\scratch_s0_epoch01.pt",
+    "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch\\scratch_s0_epoch02.pt"
+  ],
+  "baseline_metrics": {
+    "scratch_s0_epoch01.pt": {
+      "model": "scratch_s0_epoch01.pt",
+      "n": 480,
+      "via_acc": 0.6167,
+      "both_counterfactual_correct_fraction": 0.2333,
+      "cases": {
+        "active_via": {
+          "n": 240,
+          "correct_via": 0.675,
+          "false_negative": 0.1667,
+          "false_positive": 0.0,
+          "goal_correct": 0.9792
+        },
+        "cancelled_via": {
+          "n": 240,
+          "correct_via": 0.5583,
+          "false_negative": 0.0,
+          "false_positive": 0.4417,
+          "goal_correct": 0.9708
+        }
+      },
+      "mistakes_total_in_top30": 30
+    },
+    "scratch_s0_epoch02.pt": {
+      "model": "scratch_s0_epoch02.pt",
+      "n": 480,
+      "via_acc": 0.7812,
+      "both_counterfactual_correct_fraction": 0.5625,
+      "cases": {
+        "active_via": {
+          "n": 240,
+          "correct_via": 0.6792,
+          "false_negative": 0.1708,
+          "false_positive": 0.0,
+          "goal_correct": 0.9958
+        },
+        "cancelled_via": {
+          "n": 240,
+          "correct_via": 0.8833,
+          "false_negative": 0.0,
+          "false_positive": 0.1167,
+          "goal_correct": 0.9542
+        }
+      },
+      "mistakes_total_in_top30": 30
+    }
+  },
+  "via_accuracy_change_e2_minus_e1": 0.1645,
+  "both_pair_accuracy_change_e2_minus_e1": 0.3292,
+  "synthetic_probe_distribution": {
+    "count": 900,
+    "via_pct": 54.22,
+    "fragile_pct": 42.0,
+    "urgent_pct": 47.44,
+    "accent_pct": 32.33,
+    "p_via_given_word": {
+      "lay": 0.6584,
+      "truoc": 0.7289,
+      "nhan": 0.5507,
+      "khong": 0.5359,
+      "huy": 0.6182
+    }
+  },
+  "training_observation_read_only": {
+    "last_event": "TRAIN_PROGRESS",
+    "seed_index": 0,
+    "epoch": 2,
+    "updates": 600,
+    "complete_epoch_count": 1,
+    "time_unix": 1791574536.652,
+    "latest_complete": {
+      "seed_index": 0,
+      "epoch": 1,
+      "train_loss": 2.18389,
+      "synthetic_holdout_loss": 9.24366,
+      "synthetic_holdout_all": {
+        "v2": 0.58,
+        "weighted": 0.3667,
+        "hard": 0.2507
+      }
+    }
+  },
+  "hypothesis": "If via-positive cases lag while cancelled cases recover, data needs contrastive pickup/cancellation with balanced labels.",
+  "next_action": "Continue varied seeded counterfactual groups and re-estimate template-shift, without altering running training.",
+  "limitations": [
+    "Counterfactual synthetic diagnostic only, not natural blind test",
+    "Old epoch1/2 checkpoints, not ongoing 5-epoch checkpoint",
+    "Only target role named; not all spatial instructions tested",
+    "Same six fixed pattern families varied across samples"
+  ]
+}

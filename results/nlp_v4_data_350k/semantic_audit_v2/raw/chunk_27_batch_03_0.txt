@@ -1,0 +1,52 @@
+v4_0261019	P	-
+v4_0261028	P	-
+v4_0261051	P	-
+v4_0261054	P	-
+v4_0261055	P	-
+v4_0261062	P	-
+v4_0261076	P	-
+v4_0261085	P	-
+v4_0261100	P	-
+v4_0261103	P	-
+v4_0261109	P	-
+v4_0261116	P	-
+v4_0261126	P	-
+v4_0261129	P	-
+v4_0261145	P	-
+v4_0261174	P	-
+v4_0261175	P	-
+v4_0261182	P	-
+v4_0261183	P	-
+v4_0261184	P	-
+v4_0261211	P	-
+v4_0261238	P	-
+v4_0261240	P	-
+v4_0261243	P	-
+v4_0261247	P	-
+v4_0261250	P	-
+v4_0261264	P	-
+v4_0261279	P	-
+v4_0261287	P	-
+v4_0261292	P	-
+v4_0261298	P	-
+v4_0261302	P	-
+v4_0261308	P	-
+v4_0261326	P	-
+v4_0261336	P	-
+v4_0261349	P	-
+v4_0261355	P	-
+v4_0261381	P	-
+v4_0261384	P	-
+v4_0261395	P	-
+v4_0261396	P	-
+v4_0261398	U	ban do is unreadable/ambiguous (map vs dirty/bottom vs typo)
+v4_0261401	P	-
+v4_0261404	P	-
+v4_0261412	P	-
+v4_0261421	P	-
+v4_0261423	P	-
+v4_0261424	P	-
+v4_0261431	P	-
+v4_0261434	U	conflicting urgency: "ngay giup em" (urgent) vs "khong can nhe tay" (not fragile, but "ngay" indicates urgency conflict with urgent=0)
+
+STDERR:

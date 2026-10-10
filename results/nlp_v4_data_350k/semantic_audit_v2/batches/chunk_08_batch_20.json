@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_08_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0079520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079592",
+      "status": "U",
+      "reason": "Ambigous destination reference: 'tang tren nhat' may indicate height or extreme direction; also 'ngay giup toi' vs 'luc nao ranh thi giao' causes conflicting urgency cues."
+    },
+    {
+      "id": "v4_0079606",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079693",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079867",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079919",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079924",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079927",
+      "status": "U",
+      "reason": "Conflicting cues between urgent 'ngay ho minh' and unstated/absent urgent flag."
+    },
+    {
+      "id": "v4_0079938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079962",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

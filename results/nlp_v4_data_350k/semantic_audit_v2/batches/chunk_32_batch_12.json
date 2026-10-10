@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0315584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315608",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315644",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315805",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315990",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316045",
+      "status": "U",
+      "reason": "conflicting urgency cues (khong gap dau vs can gap)"
+    },
+    {
+      "id": "v4_0316048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316096",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

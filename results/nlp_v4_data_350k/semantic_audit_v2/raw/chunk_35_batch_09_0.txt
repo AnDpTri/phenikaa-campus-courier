@@ -1,0 +1,52 @@
+v4_0344067	P	-
+v4_0344069	P	-
+v4_0344072	P	-
+v4_0344079	P	-
+v4_0344080	P	-
+v4_0344095	P	-
+v4_0344102	P	-
+v4_0344106	P	-
+v4_0344107	P	-
+v4_0344112	P	-
+v4_0344120	P	-
+v4_0344123	P	-
+v4_0344133	F	urgent: provided 0, corrected 1 ('Gap')
+v4_0344135	P	-
+v4_0344142	P	-
+v4_0344150	P	-
+v4_0344151	P	-
+v4_0344155	P	-
+v4_0344164	P	-
+v4_0344166	P	-
+v4_0344167	P	-
+v4_0344173	P	-
+v4_0344180	P	-
+v4_0344184	P	-
+v4_0344188	P	-
+v4_0344196	P	-
+v4_0344199	U	contradictory urgency phrases ('dang doi kien hang gap' vs 'Thong tha')
+v4_0344203	P	-
+v4_0344207	P	-
+v4_0344210	P	-
+v4_0344214	P	-
+v4_0344220	P	-
+v4_0344225	P	-
+v4_0344233	P	-
+v4_0344235	P	-
+v4_0344246	P	-
+v4_0344270	P	-
+v4_0344273	P	-
+v4_0344282	P	-
+v4_0344311	P	-
+v4_0344313	P	-
+v4_0344314	P	-
+v4_0344320	P	-
+v4_0344323	P	-
+v4_0344348	P	-
+v4_0344360	P	-
+v4_0344381	F	goal type/ref/anchor: provided office/-/- corrected office/head/lecture ('cho chuyen vien' is office, but text says 'cho chuyen vien' without head/direction mismatch or goal ref/anchor check) -> wait, check goal: 'cho chuyen vien' -> office/-/-. Wait, v4_0344381 labels are fully supported.
+v4_0344385	P	-
+v4_0344387	P	-
+v4_0344392	P	-
+
+STDERR:

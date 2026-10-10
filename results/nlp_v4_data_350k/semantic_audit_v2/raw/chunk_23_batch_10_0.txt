@@ -1,0 +1,52 @@
+v4_0224703	P	-
+v4_0224705	P	-
+v4_0224711	P	-
+v4_0224745	P	-
+v4_0224750	P	-
+v4_0224782	P	-
+v4_0224789	P	-
+v4_0224793	P	-
+v4_0224801	P	-
+v4_0224802	P	-
+v4_0224805	P	-
+v4_0224834	P	-
+v4_0224844	P	-
+v4_0224851	gate/-/-	F	goal type: provided -/north_most/-, corrected gate/north_most/- ('Bac bao ve o vi tri nam phia tren cung')
+v4_0224857	P	-
+v4_0224874	P	-
+v4_0224878	P	-
+v4_0224882	P	-
+v4_0224886	P	-
+v4_0224897	library/-/-	F	goal type: provided -/anchor_near/dorm, corrected library/anchor_near/dorm ('Thu thu o dia diem nao do sat vach toa nha o cua sinh vien')
+v4_0224902	P	-
+v4_0224906	P	-
+v4_0224921	P	-
+v4_0224938	P	-
+v4_0224945	P	-
+v4_0224954	P	-
+v4_0224969	P	-
+v4_0224981	P	-
+v4_0224982	P	-
+v4_0224983	P	-
+v4_0224997	P	-
+v4_0225009	P	-
+v4_0225027	P	-
+v4_0225030	P	-
+v4_0225045	P	-
+v4_0225050	P	-
+v4_0225054	P	-
+v4_0225057	P	-
+v4_0225063	P	-
+v4_0225068	P	-
+v4_0225074	P	-
+v4_0225092	P	-
+v4_0225101	P	-
+v4_0225122	P	-
+v4_0225123	P	-
+v4_0225130	library/near/parking	F	goal type: provided library/near/parking, ambiguous/conflict between ktx and kho tai lieu ('nguoi o ktx o kho tai lieu cach khu gui xe gan hon')
+v4_0225136	P	-
+v4_0225144	P	-
+v4_0225150	P	-
+v4_0225168	P	-
+
+STDERR:

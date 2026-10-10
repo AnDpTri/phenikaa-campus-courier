@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_14_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0136397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136455",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136523",
+      "status": "U",
+      "reason": "Text specifies \"nam nam\" which is ambiguous or corrupted direction (\"nam\" could be south or corrupted typo)"
+    },
+    {
+      "id": "v4_0136526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136607",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136801",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136929",
+      "status": "U",
+      "reason": "\"nam chon toa do lech han ve phia bac\" ambiguously describes north direction or north-most extreme position"
+    },
+    {
+      "id": "v4_0136930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136954",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136956",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

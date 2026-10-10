@@ -1,0 +1,52 @@
+v4_0194019	P	-
+v4_0194023	P	-
+v4_0194027	P	-
+v4_0194031	P	-
+v4_0194062	P	-
+v4_0194068	P	-
+v4_0194078	P	-
+v4_0194084	F	goal type: canteen -> - ("co cap duong nho gui lo hang hong tha")
+v4_0194090	P	-
+v4_0194102	F	goal type: - -> parking ("bac bao ve trong giu xe truong o rut ra cong trinh cach diem tua khu hanh chinh it buoc nhat")
+v4_0194103	P	-
+v4_0194122	P	-
+v4_0194124	P	-
+v4_0194150	P	-
+v4_0194156	P	-
+v4_0194169	P	-
+v4_0194178	P	-
+v4_0194180	P	-
+v4_0194204	P	-
+v4_0194212	P	-
+v4_0194224	P	-
+v4_0194233	P	-
+v4_0194235	P	-
+v4_0194252	P	-
+v4_0194265	P	-
+v4_0194293	P	-
+v4_0194297	P	-
+v4_0194301	P	-
+v4_0194335	P	-
+v4_0194347	P	-
+v4_0194352	P	-
+v4_0194382	P	-
+v4_0194389	P	-
+v4_0194390	P	-
+v4_0194391	P	-
+v4_0194421	P	-
+v4_0194425	P	-
+v4_0194430	P	-
+v4_0194432	P	-
+v4_0194446	P	-
+v4_0194457	P	-
+v4_0194462	P	-
+v4_0194465	P	-
+v4_0194467	P	-
+v4_0194477	P	-
+v4_0194484	P	-
+v4_0194485	U	Contradictory urgency cues ("dang doi chai nuoc gap" vs "khnog voi dau")
+v4_0194493	P	-
+v4_0194519	P	-
+v4_0194538	P	-
+
+STDERR:

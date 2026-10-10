@@ -1,0 +1,52 @@
+v4_0103841	P	-
+v4_0103845	F	goal type/ref/anchor provided -/east_most/- should be canteen/east_most/- ("dau bep nau com trua sinh vien o dia diem nao do huong thang ve phuong dong xa hon moi vi tri")
+v4_0103849	P	-
+v4_0103858	P	-
+v4_0103870	P	-
+v4_0103883	P	-
+v4_0103889	P	-
+v4_0103893	F	goal type/ref/anchor provided -/south_most/- should be lab/south_most/- ("nguoi phu trach phong thi nghiem o diem thap nhat")
+v4_0103897	P	-
+v4_0103901	P	-
+v4_0103905	P	-
+v4_0103912	U	"oa Ao" typo obscures required goal building type
+v4_0103918	P	-
+v4_0103932	P	-
+v4_0103936	P	-
+v4_0103937	P	-
+v4_0103993	P	-
+v4_0103999	P	-
+v4_0104015	P	-
+v4_0104043	P	-
+v4_0104050	P	-
+v4_0104063	F	goal type/ref/anchor provided canteen/-/- should be office/-/- ("ban photo la cua du bep")
+v4_0104066	P	-
+v4_0104068	P	-
+v4_0104077	P	-
+v4_0104084	P	-
+v4_0104098	P	-
+v4_0104101	P	-
+v4_0104138	P	-
+v4_0104152	P	-
+v4_0104159	P	-
+v4_0104181	P	-
+v4_0104188	P	-
+v4_0104202	P	-
+v4_0104207	P	-
+v4_0104224	P	-
+v4_0104236	P	-
+v4_0104248	P	-
+v4_0104260	P	-
+v4_0104261	P	-
+v4_0104291	P	-
+v4_0104305	F	goal type/ref/anchor provided -/east_most/- should be library/east_most/- ("thu thu vua chuyen sang toa nao gan mep phai nhat")
+v4_0104307	P	-
+v4_0104313	P	-
+v4_0104320	P	-
+v4_0104322	U	"tram xa xa nha an tap the" is ambiguous between far relative to canteen or a dispensary/clinic
+v4_0104326	P	-
+v4_0104328	P	-
+v4_0104330	P	-
+v4_0104336	P	-
+
+STDERR:

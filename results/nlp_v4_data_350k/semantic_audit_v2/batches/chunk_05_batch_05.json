@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0041958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0041965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0041984",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'dorm' (phong thu la dorm)"
+    },
+    {
+      "id": "v4_0042005",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042057",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042123",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042263",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042362",
+      "status": "U",
+      "reason": "Contradictory urgency cues: 'dang doi dung cu thi nghiem gap' vs 'khong co gi gap'"
+    },
+    {
+      "id": "v4_0042364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042393",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

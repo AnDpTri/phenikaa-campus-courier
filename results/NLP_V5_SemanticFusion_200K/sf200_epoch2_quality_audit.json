@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "total": 200000,
+  "e1_exact_overlap": 0,
+  "recipes": {
+    "v2_general": 84000,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "unique_first8": 91747,
+  "max_first8_count": 35,
+  "sha256": "96c2c136bf79d66d7846bd28fbd6867ee843a4ed562cf9a5cd91d1f405c7a266",
+  "issues": {},
+  "examples": {}
+}

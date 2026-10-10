@@ -1,0 +1,52 @@
+v4_0342975	P	-
+v4_0342976	P	-
+v4_0342983	P	-
+v4_0342995	P	-
+v4_0342996	P	-
+v4_0343005	P	-
+v4_0343012	P	-
+v4_0343028	P	-
+v4_0343030	P	-
+v4_0343037	P	-
+v4_0343040	P	-
+v4_0343064	P	-
+v4_0343066	P	-
+v4_0343085	P	-
+v4_0343091	P	-
+v4_0343093	P	-
+v4_0343094	P	-
+v4_0343100	P	-
+v4_0343104	P	-
+v4_0343108	P	-
+v4_0343112	P	-
+v4_0343128	P	-
+v4_0343130	P	-
+v4_0343135	P	-
+v4_0343141	P	-
+v4_0343143	P	-
+v4_0343144	P	-
+v4_0343154	P	-
+v4_0343160	P	-
+v4_0343162	P	-
+v4_0343173	P	-
+v4_0343180	P	-
+v4_0343190	P	-
+v4_0343218	P	-
+v4_0343227	P	-
+v4_0343230	P	-
+v4_0343233	P	-
+v4_0343234	P	-
+v4_0343275	P	-
+v4_0343336	P	-
+v4_0343350	P	-
+v4_0343359	P	-
+v4_0343363	F	goal type/ref/anchor provided -/south_most/- should be parking/south_most/- ("toa ma duoi hnat" specifies the location of "bac bao ve trong giu xe truong" head place parking)
+v4_0343388	F	urgent provided 0 should be 1 ("ngay")
+v4_0343390	P	-
+v4_0343409	P	-
+v4_0343424	P	-
+v4_0343447	P	-
+v4_0343451	P	-
+v4_0343455	P	-
+
+STDERR:

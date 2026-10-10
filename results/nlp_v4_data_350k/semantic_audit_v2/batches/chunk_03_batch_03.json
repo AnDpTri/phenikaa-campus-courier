@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_03_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0021061",
+      "status": "U",
+      "reason": "Loi vao/quan an khong ro phai via hay reject; huong dan khong xac dinh ro"
+    },
+    {
+      "id": "v4_0021063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021151",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021263",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0021532",
+      "status": "F",
+      "reason": "goal type provided sports corrected - text chi noi thay day the duc vua dat sach khong phai diem den la nha the thao"
+    }
+  ]
+}

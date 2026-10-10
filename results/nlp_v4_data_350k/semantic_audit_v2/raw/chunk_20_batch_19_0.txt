@@ -1,0 +1,52 @@
+v4_0199023	P	-
+v4_0199026	P	-
+v4_0199032	P	-
+v4_0199041	F	goal type/ref/anchor provided -/west_most/- should be office/west_most/- (nhan vin phong oc o dia diem tri cung)
+v4_0199042	P	-
+v4_0199045	F	goal type/ref/anchor provided -/west_most/- should be gate/west_most/- (NGUOI GAC HIEN DANG O DIEM CUC TAY)
+v4_0199051	P	-
+v4_0199057	F	goal type/ref/anchor provided -/north_most/- should be canteen/north_most/- (co phu bep o dia diem nao do o dau ban do)
+v4_0199096	F	goal type/ref/anchor provided -/anchor_near/lab should be lecture/anchor_near/lab (tro giang phu trach gio ly thuyet o toa nha o canh lab nhat)
+v4_0199097	P	-
+v4_0199117	P	-
+v4_0199125	P	-
+v4_0199126	P	-
+v4_0199170	P	-
+v4_0199200	P	-
+v4_0199204	P	-
+v4_0199245	P	-
+v4_0199256	P	-
+v4_0199260	P	-
+v4_0199299	P	-
+v4_0199309	P	-
+v4_0199333	F	goal type/ref/anchor provided -/anchor_near/office should be lecture/anchor_near/office (giang vien dang day dang doi ket nuoc ngot tai noi lien ke voi van phong khoa nhat)
+v4_0199341	P	-
+v4_0199347	P	-
+v4_0199359	P	-
+v4_0199362	P	-
+v4_0199363	P	-
+v4_0199368	P	-
+v4_0199405	P	-
+v4_0199418	F	goal type/ref/anchor provided -/north_most/- should be parking/north_most/- (bac boa ve trong giu xe truong o nut phia bac nhat)
+v4_0199427	P	-
+v4_0199429	P	-
+v4_0199430	F	goal type/ref/anchor provided -/anchor_near/parking should be lecture/anchor_near/parking (co giang vien vua chuyen sang dia diem nao do gan sat cho de xe)
+v4_0199438	P	-
+v4_0199439	P	-
+v4_0199441	P	-
+v4_0199442	P	-
+v4_0199453	P	-
+v4_0199460	F	goal type/ref/anchor provided lab/near/sports should be parking/near/sports (nhan vien trong xe o trong hia khu ti nghiem, cai gan nha tap hon)
+v4_0199489	P	-
+v4_0199500	P	-
+v4_0199505	P	-
+v4_0199506	P	-
+v4_0199508	P	-
+v4_0199513	P	-
+v4_0199517	P	-
+v4_0199557	P	-
+v4_0199561	P	-
+v4_0199568	P	-
+v4_0199572	P	-
+
+STDERR:

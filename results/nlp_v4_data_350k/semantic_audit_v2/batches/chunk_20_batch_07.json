@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_20_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0193088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193104",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('can may chieu')"
+    },
+    {
+      "id": "v4_0193130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193149",
+      "status": "F",
+      "reason": "goal: provided -/anchor_near/library, corrected dorm/near/library ('sinh vien o ky tuc o diem it xa thu vien truong nhat')"
+    },
+    {
+      "id": "v4_0193159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193192",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193249",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193300",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay di')"
+    },
+    {
+      "id": "v4_0193323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193442",
+      "status": "F",
+      "reason": "goal: provided -/south_most/-, corrected gate/south_most/- ('doi bao ve o o o hang cuoi cung')"
+    },
+    {
+      "id": "v4_0193445",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193450",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193475",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0193555",
+      "status": "F",
+      "reason": "goal: provided office/-/-, corrected parking/-/- ('chuyen vien nho gui ve xe')"
+    },
+    {
+      "id": "v4_0193556",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

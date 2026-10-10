@@ -1,0 +1,52 @@
+v4_0261961	P	-
+v4_0261965	P	-
+v4_0261978	P	-
+v4_0261981	P	-
+v4_0261986	P	-
+v4_0262003	P	-
+v4_0262004	P	-
+v4_0262008	P	-
+v4_0262010	P	-
+v4_0262013	P	-
+v4_0262025	P	-
+v4_0262044	P	-
+v4_0262065	P	-
+v4_0262077	P	-
+v4_0262083	P	-
+v4_0262084	P	-
+v4_0262087	P	-
+v4_0262093	P	-
+v4_0262115	P	-
+v4_0262122	P	-
+v4_0262127	P	-
+v4_0262134	P	-
+v4_0262147	P	-
+v4_0262148	P	-
+v4_0262175	P	-
+v4_0262183	P	-
+v4_0262185	F	goal type/ref/anchor provided -/anchor_near/dorm should be lecture/anchor_near/dorm (giang duong o noi ke nha o sinh vien nhat)
+v4_0262187	P	-
+v4_0262190	P	-
+v4_0262200	P	-
+v4_0262204	P	-
+v4_0262208	P	-
+v4_0262247	P	-
+v4_0262254	P	-
+v4_0262261	P	-
+v4_0262263	P	-
+v4_0262273	P	-
+v4_0262275	P	-
+v4_0262279	P	-
+v4_0262289	P	-
+v4_0262298	F	goal type/ref/anchor provided lecture/-/- should be -/-/- or U due to missing goal location ('thay giao dang cho bien ten khach. nho dung o phong giao vu truoc')
+v4_0262318	P	-
+v4_0262352	P	-
+v4_0262366	P	-
+v4_0262370	P	-
+v4_0262395	P	-
+v4_0262424	P	-
+v4_0262438	P	-
+v4_0262474	P	-
+v4_0262487	P	-
+
+STDERR:

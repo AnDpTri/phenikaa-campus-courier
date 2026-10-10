@@ -1,0 +1,52 @@
+v4_0110014	P	-
+v4_0110015	P	-
+v4_0110024	P	-
+v4_0110045	P	-
+v4_0110048	P	-
+v4_0110054	P	-
+v4_0110059	P	-
+v4_0110062	P	-
+v4_0110063	P	-
+v4_0110090	P	-
+v4_0110103	P	-
+v4_0110130	P	-
+v4_0110152	P	-
+v4_0110174	P	-
+v4_0110178	P	-
+v4_0110186	P	-
+v4_0110188	P	-
+v4_0110205	P	-
+v4_0110217	P	-
+v4_0110220	P	-
+v4_0110260	P	-
+v4_0110264	P	-
+v4_0110276	P	-
+v4_0110286	P	-
+v4_0110297	F	goal type: provided lecture, should be - (thay chu nhiem is recipient, no lecture building specified)
+v4_0110323	P	-
+v4_0110328	P	-
+v4_0110338	F	goal type: provided lecture, should be - (giao cho giang vien, no lecture building specified and text says dung nham voi van phong)
+v4_0110346	P	-
+v4_0110353	P	-
+v4_0110356	P	-
+v4_0110357	P	-
+v4_0110371	P	-
+v4_0110376	P	-
+v4_0110381	P	-
+v4_0110390	F	urgent: provided 0, should be 1 (ngay)
+v4_0110447	P	-
+v4_0110462	P	-
+v4_0110485	F	urgent: provided 0, should be 1 (dang doi the sinh vien gap)
+v4_0110500	P	-
+v4_0110503	P	-
+v4_0110505	P	-
+v4_0110510	P	-
+v4_0110531	P	-
+v4_0110541	P	-
+v4_0110546	P	-
+v4_0110547	P	-
+v4_0110560	P	-
+v4_0110563	P	-
+v4_0110587	P	-
+
+STDERR:

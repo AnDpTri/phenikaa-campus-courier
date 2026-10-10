@@ -1,0 +1,96 @@
+{
+  "status": "AUTOMATED_QA_COMPLETE_PENDING_MANUAL_SEMANTIC_REVIEW",
+  "rows_checked": 200000,
+  "counts": {
+    "n": 200000,
+    "via": 113803,
+    "goal_spatial": 137344,
+    "via_spatial": 33743,
+    "flag_urgent": 91341,
+    "flag_fragile": 85377,
+    "accented": 64925,
+    "via_without_before": 73302,
+    "no_via_with_lay": 30319,
+    "negative_mentions": 85429,
+    "revised_pickup": 23241,
+    "revised_goal": 35815,
+    "revised_goal_via": 18796
+  },
+  "recipe_counts": {
+    "v2_general": 84000,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "goal_modes": {
+    "north": 7180,
+    "near": 23164,
+    "south_most": 7045,
+    "west_most": 7154,
+    "far": 16901,
+    "named": 62656,
+    "anchor_near": 40054,
+    "west": 7275,
+    "east_most": 7062,
+    "east": 7257,
+    "south": 7155,
+    "north_most": 7097
+  },
+  "via_modes": {
+    "named": 80060,
+    "none": 86197,
+    "near": 10085,
+    "south": 3749,
+    "east": 3816,
+    "far": 8497,
+    "north": 3787,
+    "west": 3809
+  },
+  "token_lengths": {
+    "p50": 63,
+    "p90": 88,
+    "p99": 108,
+    "max": 149
+  },
+  "prefix8_unique": 91784,
+  "prefix8_max_frequency": 35,
+  "sample_size": 320,
+  "stratum_populations": {
+    "relative_goal": 32223,
+    "no_via_with_lay": 29032,
+    "negative_context": 76996,
+    "both_flags_false": 34411,
+    "global_extreme": 11459,
+    "via_without_before": 62829,
+    "removed_pickup_real_via": 11962,
+    "revised_goal_via": 18796,
+    "both_flags_true": 24018,
+    "removed_pickup_none": 11279,
+    "spatial_via": 25335,
+    "anchor_near": 14138
+  },
+  "model_loader": {
+    "rows": 200000,
+    "heads": {
+      "goal_mode": 200000,
+      "goal_type": 200000,
+      "goal_anchor": 200000,
+      "via_mode": 200000,
+      "via_type": 200000,
+      "via_anchor": 200000,
+      "urgent": 200000,
+      "fragile": 200000
+    },
+    "encoded_batch": [
+      256,
+      123,
+      24
+    ]
+  },
+  "error_counts": {},
+  "error_examples": {},
+  "file_sha256": "da03ac6bb3498b177ed238855489212c23df895beb4b675b7920f5ea15b1645a",
+  "limitations": "Full-row checks are deterministic contracts, not exhaustive human entailment or model accuracy validation."
+}

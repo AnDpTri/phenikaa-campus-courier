@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_19_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0181025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181131",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181174",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/west_most/-, corrected canteen/-/- from 'Chi nau bep o vi tri ma o le tria dang cho goi do'"
+    },
+    {
+      "id": "v4_0181186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181241",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181316",
+      "status": "F",
+      "reason": "via type/ref/anchor: provided canteen/near/dorm, corrected canteen/-/- from 'Tat vao canteen cai ma gan khu nha o'"
+    },
+    {
+      "id": "v4_0181321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181434",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0181546",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided library/-/-, corrected office/-/- from 'ban quan ly thu vine vua dat gio hoa qua'"
+    },
+    {
+      "id": "v4_0181552",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

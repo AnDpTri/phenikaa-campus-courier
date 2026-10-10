@@ -1,0 +1,52 @@
+v4_0306417	P	-
+v4_0306418	P	-
+v4_0306425	P	-
+v4_0306430	P	-
+v4_0306443	P	-
+v4_0306444	P	-
+v4_0306459	P	-
+v4_0306476	P	-
+v4_0306479	U	Ambiguous reference: 'o le phai' could indicate east (directional instance) or east_most (extreme position) without clear superlatives
+v4_0306484	P	-
+v4_0306485	P	-
+v4_0306488	P	-
+v4_0306493	P	-
+v4_0306514	P	-
+v4_0306531	P	-
+v4_0306535	P	-
+v4_0306556	P	-
+v4_0306562	P	-
+v4_0306583	P	-
+v4_0306599	P	-
+v4_0306600	P	-
+v4_0306609	P	-
+v4_0306623	P	-
+v4_0306627	P	-
+v4_0306633	P	-
+v4_0306634	P	-
+v4_0306635	P	-
+v4_0306660	P	-
+v4_0306662	P	-
+v4_0306686	P	-
+v4_0306690	P	-
+v4_0306703	P	-
+v4_0306732	P	-
+v4_0306737	P	-
+v4_0306742	P	-
+v4_0306760	P	-
+v4_0306775	P	-
+v4_0306787	P	-
+v4_0306800	P	-
+v4_0306806	P	-
+v4_0306809	P	-
+v4_0306828	P	-
+v4_0306833	P	-
+v4_0306840	P	-
+v4_0306868	U	Ambiguous reference: 'noi o le trai' lacks superlative to distinguish west from west_most
+v4_0306886	P	-
+v4_0306888	P	-
+v4_0306901	P	-
+v4_0306906	P	-
+v4_0306915	P	-
+
+STDERR:

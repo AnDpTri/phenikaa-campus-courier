@@ -1,0 +1,4 @@
+device: cuda; per epoch 200000 prebuilt + 2000 x5 train; 1 seed(s)
+[seed 20261009] initialised from artifacts\nlp\neural_parser_v2.pt net 0
+[seed 20261009] parameters: 7,515,212
+[seed 20261009] epoch 1: loss 0.6919  validation all 0.6300  holdout-phrasing all 0.5395 goal 0.7420  717s

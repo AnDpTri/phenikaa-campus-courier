@@ -1,0 +1,50 @@
+{
+  "source_data_unchanged": true,
+  "outputs": [
+    {
+      "file": "retained_swap_38833_TRAINABLE_noid_shuffled.jsonl",
+      "rows": 338071,
+      "new_rows": 38833,
+      "removed_id_all": true,
+      "random_seed": 20261009,
+      "new_rows_per_decile": [
+        3861,
+        3964,
+        3747,
+        3980,
+        3916,
+        3826,
+        3859,
+        3928,
+        3884,
+        3868
+      ],
+      "unsupported_via": 0,
+      "sha256": "a6eb89a56f03645dbe5b8acac53f93ccc56a37b4057dbd3d043e736fff7f236d",
+      "bytes": 115143692
+    },
+    {
+      "file": "retained_swap_40000_NOT_TRAINABLE_noid_shuffled.jsonl",
+      "rows": 338071,
+      "new_rows": 40000,
+      "removed_id_all": true,
+      "random_seed": 20261010,
+      "new_rows_per_decile": [
+        4035,
+        4063,
+        3960,
+        3967,
+        4000,
+        3982,
+        3971,
+        3995,
+        4006,
+        4021
+      ],
+      "unsupported_via": 1167,
+      "sha256": "421ba499fba9ad6f7292183a51db51069cb8d47a0557a6471043a2867d15e0cc",
+      "bytes": 115335935
+    }
+  ],
+  "note": "These are separate replacement dataset versions, not active training data; full 40000 includes unsupported via labels."
+}

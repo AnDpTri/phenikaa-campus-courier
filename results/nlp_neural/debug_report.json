@@ -1,0 +1,107 @@
+{
+ "thresholds": {
+  "goal": 0.5,
+  "via": 0.8,
+  "flags": 0.99
+ },
+ "metrics": {
+  "validation_grounded": {
+   "rules": {
+    "goal_nodes": 1.0,
+    "goal_type": 1.0,
+    "goal_ref": 1.0,
+    "via_nodes": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal_nodes": 0.05333333333333334,
+    "goal_type": 0.15333333333333332,
+    "goal_ref": 0.23666666666666666,
+    "via_nodes": 0.48,
+    "urgent": 0.6,
+    "fragile": 0.5333333333333333,
+    "all": 0.013333333333333334
+   },
+   "hybrid": {
+    "goal_nodes": 1.0,
+    "goal_type": 1.0,
+    "goal_ref": 1.0,
+    "via_nodes": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  },
+  "validation": {
+   "rules": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal": 0.0,
+    "via": 0.48,
+    "urgent": 0.6,
+    "fragile": 0.5333333333333333,
+    "all": 0.0
+   },
+   "hybrid": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  },
+  "holdout": {
+   "rules": {
+    "goal": 0.288,
+    "via": 0.8033333333333333,
+    "urgent": 0.8786666666666667,
+    "fragile": 0.9663333333333334,
+    "all": 0.202
+   },
+   "neural": {
+    "goal": 0.0,
+    "via": 0.5046666666666667,
+    "urgent": 0.555,
+    "fragile": 0.6016666666666667,
+    "all": 0.0
+   },
+   "hybrid": {
+    "goal": 0.288,
+    "via": 0.8033333333333333,
+    "urgent": 0.8786666666666667,
+    "fragile": 0.9663333333333334,
+    "all": 0.202
+   }
+  },
+  "challenge": {
+   "rules": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal": 0.0,
+    "via": 0.84,
+    "urgent": 0.9,
+    "fragile": 0.9,
+    "all": 0.0
+   },
+   "hybrid": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  }
+ }
+}

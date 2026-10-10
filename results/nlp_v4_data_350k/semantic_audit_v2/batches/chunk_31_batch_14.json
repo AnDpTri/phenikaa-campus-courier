@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_31_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0306417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306476",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306479",
+      "status": "U",
+      "reason": "Ambiguous reference: 'o le phai' could indicate east (directional instance) or east_most (extreme position) without clear superlatives"
+    },
+    {
+      "id": "v4_0306484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306488",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306531",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306868",
+      "status": "U",
+      "reason": "Ambiguous reference: 'noi o le trai' lacks superlative to distinguish west from west_most"
+    },
+    {
+      "id": "v4_0306886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0306915",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

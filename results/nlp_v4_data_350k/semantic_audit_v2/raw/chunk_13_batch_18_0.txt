@@ -1,0 +1,52 @@
+v4_0128592	P	-
+v4_0128601	P	-
+v4_0128612	P	-
+v4_0128617	P	-
+v4_0128619	P	-
+v4_0128620	P	-
+v4_0128624	P	-
+v4_0128625	P	-
+v4_0128641	F	goal clinic/-/- should be -/-/- (or cancelled/delivery destination cancelled; delivery to ham gui xe cancelled, then hay di qua phong cap cuu = via clinic)
+v4_0128642	P	-
+v4_0128649	P	-
+v4_0128651	P	-
+v4_0128659	P	-
+v4_0128660	P	-
+v4_0128674	P	-
+v4_0128685	P	-
+v4_0128686	P	-
+v4_0128708	P	-
+v4_0128709	P	-
+v4_0128716	P	-
+v4_0128738	P	-
+v4_0128756	P	-
+v4_0128771	P	-
+v4_0128787	P	-
+v4_0128789	P	-
+v4_0128805	P	-
+v4_0128807	P	-
+v4_0128826	P	-
+v4_0128854	P	-
+v4_0128864	P	-
+v4_0128881	P	-
+v4_0128885	P	-
+v4_0128888	P	-
+v4_0128891	P	-
+v4_0128935	P	-
+v4_0128948	P	-
+v4_0128951	P	-
+v4_0128962	P	-
+v4_0128965	P	-
+v4_0128982	P	-
+v4_0128983	P	-
+v4_0128984	P	-
+v4_0128998	P	-
+v4_0129000	U	No delivery destination specified, recipient just placed card (Thay day the uc vua dat the giu xe)
+v4_0129021	P	-
+v4_0129047	P	-
+v4_0129061	P	-
+v4_0129064	P	-
+v4_0129068	P	-
+v4_0129080	P	-
+
+STDERR:

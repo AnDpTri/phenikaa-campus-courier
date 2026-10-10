@@ -1,0 +1,52 @@
+v4_0137403	P	-
+v4_0137406	P	-
+v4_0137412	P	-
+v4_0137413	P	-
+v4_0137433	P	-
+v4_0137446	U	destroyed direction word 'phi lay' in via gate cue
+v4_0137453	P	-
+v4_0137467	P	-
+v4_0137469	P	-
+v4_0137486	P	-
+v4_0137498	P	-
+v4_0137510	P	-
+v4_0137515	P	-
+v4_0137516	P	-
+v4_0137536	P	-
+v4_0137540	P	-
+v4_0137570	P	-
+v4_0137582	P	-
+v4_0137585	P	-
+v4_0137592	P	-
+v4_0137593	U	contradictory urgency phrases 'Chieu nay giao cung duoc' vs 'dang doi ... gap'
+v4_0137614	P	-
+v4_0137624	P	-
+v4_0137627	P	-
+v4_0137642	P	-
+v4_0137660	P	-
+v4_0137673	P	-
+v4_0137682	F	urgent provided 0 corrected 1 supported by 'BAC BAO VE TRONG GIU XE TRUONG DANG DOI CON DAU GAP'
+v4_0137692	P	-
+v4_0137702	P	-
+v4_0137708	P	-
+v4_0137714	P	-
+v4_0137717	P	-
+v4_0137729	P	-
+v4_0137746	P	-
+v4_0137755	P	-
+v4_0137770	P	-
+v4_0137771	P	-
+v4_0137774	P	-
+v4_0137783	P	-
+v4_0137788	P	-
+v4_0137792	P	-
+v4_0137796	P	-
+v4_0137810	P	-
+v4_0137852	P	-
+v4_0137871	P	-
+v4_0137872	P	-
+v4_0137874	P	-
+v4_0137887	P	-
+v4_0137901	P	-
+
+STDERR:

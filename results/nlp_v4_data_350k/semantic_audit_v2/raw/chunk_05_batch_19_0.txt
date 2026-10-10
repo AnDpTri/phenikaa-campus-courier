@@ -1,0 +1,52 @@
+v4_0048985	P	-
+v4_0048989	F	goal type: provided '-', expected 'parking' (nha giu xe/doi trong xe)
+v4_0048998	F	urgent: provided 1, expected 0 (co don giao hong sach, khong the hien gap; toc hanh/hong sach)
+v4_0049011	P	-
+v4_0049025	P	-
+v4_0049028	P	-
+v4_0049050	P	-
+v4_0049057	P	-
+v4_0049060	P	-
+v4_0049074	P	-
+v4_0049087	P	-
+v4_0049095	P	-
+v4_0049103	P	-
+v4_0049105	P	-
+v4_0049108	P	-
+v4_0049118	P	-
+v4_0049130	P	-
+v4_0049149	P	-
+v4_0049153	P	-
+v4_0049161	P	-
+v4_0049163	P	-
+v4_0049166	P	-
+v4_0049181	P	-
+v4_0049189	P	-
+v4_0049194	P	-
+v4_0049196	P	-
+v4_0049218	P	-
+v4_0049246	P	-
+v4_0049254	P	-
+v4_0049300	P	-
+v4_0049302	P	-
+v4_0049312	P	-
+v4_0049327	P	-
+v4_0049331	P	-
+v4_0049352	P	-
+v4_0049356	F	goal type: provided '-', expected 'parking' (cho doi trong xe)
+v4_0049366	P	-
+v4_0049374	P	-
+v4_0049377	P	-
+v4_0049378	P	-
+v4_0049386	P	-
+v4_0049412	P	-
+v4_0049416	P	-
+v4_0049418	P	-
+v4_0049424	P	-
+v4_0049425	P	-
+v4_0049439	P	-
+v4_0049479	P	-
+v4_0048485	P	-
+v4_0049491	U	contradictory urgency phrases ('can gap ao dong phuc' vs 'khong voi dau')
+
+STDERR:

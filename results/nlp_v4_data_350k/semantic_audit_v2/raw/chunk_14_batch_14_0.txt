@@ -1,0 +1,52 @@
+v4_0136397	P	-
+v4_0136425	P	-
+v4_0136444	P	-
+v4_0136455	P	-
+v4_0136456	P	-
+v4_0136461	P	-
+v4_0136479	P	-
+v4_0136487	P	-
+v4_0136504	P	-
+v4_0136519	P	-
+v4_0136523	U	Text specifies "nam nam" which is ambiguous or corrupted direction ("nam" could be south or corrupted typo)
+v4_0136526	P	-
+v4_0136537	P	-
+v4_0136541	P	-
+v4_0136554	P	-
+v4_0136557	P	-
+v4_0136600	P	-
+v4_0136604	P	-
+v4_0136607	P	-
+v4_0136619	P	-
+v4_0136635	P	-
+v4_0136646	P	-
+v4_0136649	P	-
+v4_0136673	P	-
+v4_0136684	P	-
+v4_0136741	P	-
+v4_0136742	P	-
+v4_0136746	P	-
+v4_0136754	P	-
+v4_0136756	P	-
+v4_0136770	P	-
+v4_0136790	P	-
+v4_0136801	P	-
+v4_0136822	P	-
+v4_0136851	P	-
+v4_0136871	P	-
+v4_0136891	P	-
+v4_0136910	P	-
+v4_0136917	P	-
+v4_0136922	P	-
+v4_0136926	P	-
+v4_0136929	U	"nam chon toa do lech han ve phia bac" ambiguously describes north direction or north-most extreme position
+v4_0136930	P	-
+v4_0136933	P	-
+v4_0136934	P	-
+v4_0136936	P	-
+v4_0136940	P	-
+v4_0136951	P	-
+v4_0136954	P	-
+v4_0136956	P	-
+
+STDERR:

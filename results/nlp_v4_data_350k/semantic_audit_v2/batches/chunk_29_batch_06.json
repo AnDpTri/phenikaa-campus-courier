@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_29_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0282617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282631",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282900",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282954",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0282996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283025",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283089",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0283118",
+      "status": "U",
+      "reason": "\"ngay\" co the la khan cap (urgent=1) hoac chi huong/chuyen giao ngay lap tuc trong khi text co \"Khi nao tien thi giao\" gay mau thuan ve tinh khan cap"
+    }
+  ]
+}

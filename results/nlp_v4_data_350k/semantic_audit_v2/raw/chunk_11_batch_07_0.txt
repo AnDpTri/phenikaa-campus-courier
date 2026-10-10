@@ -1,0 +1,52 @@
+v4_0102953	P	-
+v4_0102966	P	-
+v4_0102978	P	-
+v4_0102986	P	-
+v4_0102994	P	-
+v4_0103001	P	-
+v4_0103021	P	-
+v4_0103051	P	-
+v4_0103057	P	-
+v4_0103062	P	-
+v4_0103067	P	-
+v4_0103071	P	-
+v4_0103075	P	-
+v4_0103077	P	-
+v4_0103104	P	-
+v4_0103107	P	-
+v4_0103111	F	goal type/ref/anchor: provided library/south/- vs library/north/- ("tang tren phia nam" mixes upper/north or conflicting, or "tang tren" indicates upper)
+v4_0103123	P	-
+v4_0103126	P	-
+v4_0103133	P	-
+v4_0103134	P	-
+v4_0103137	P	-
+v4_0103138	P	-
+v4_0103146	P	-
+v4_0103152	P	-
+v4_0103175	P	-
+v4_0103183	P	-
+v4_0103185	P	-
+v4_0103186	P	-
+v4_0103227	P	-
+v4_0103233	P	-
+v4_0103235	P	-
+v4_0103237	P	-
+v4_0103250	P	-
+v4_0103259	P	-
+v4_0103278	P	-
+v4_0103295	P	-
+v4_0103297	P	-
+v4_0103312	P	-
+v4_0103322	P	-
+v4_0103327	P	-
+v4_0103328	P	-
+v4_0103340	P	-
+v4_0103351	P	-
+v4_0103359	P	-
+v4_0103393	P	-
+v4_0103436	P	-
+v4_0103444	P	-
+v4_0103464	U	Goal urgency conflict ("ngay" vs "Khong vi phai nhanh")
+v4_0103470	P	-
+
+STDERR:

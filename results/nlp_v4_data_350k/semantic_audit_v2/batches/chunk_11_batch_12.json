@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0105466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105499",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105509",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105516",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105531",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105753",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105916",
+      "status": "F",
+      "reason": "goal ref: provided 'south_most', corrected 'south' ('di chuyen xuong phia nam sua hon tat ca' - typo/garbled phrase obscure or ordinary direction)"
+    },
+    {
+      "id": "v4_0105919",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105928",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

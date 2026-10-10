@@ -1,0 +1,52 @@
+v4_0094522	U	"hpia gan": corrupted text / typo could mean "phia gan" (near) or "phia tay" / other direction; ambiguous direction word
+v4_0094525	P	-
+v4_0094545	P	-
+v4_0094548	P	-
+v4_0094549	F	goal type: provided "office", corrected "lecture" ("giang vien dung lop giang duong o phong mot cua duoi")
+v4_0094558	F	goal type: provided "-", corrected "gate" ("bac bao ve vua chuyen sang vi tri o ria duoi")
+v4_0094632	P	-
+v4_0094561	P	-
+v4_0094596	F	goal type: provided "-", corrected "lab" ("giao ho thung hang cho can bo phong thi nghiem o khu vuc cao nhat")
+v4_0094656	P	-
+v4_0094660	P	-
+v4_0094678	P	-
+v4_0094682	P	-
+v4_0094694	P	-
+v4_0094703	P	-
+v4_0094707	P	-
+v4_0094716	P	-
+v4_0094718	P	-
+v4_0094733	P	-
+v4_0094749	P	-
+v4_0094774	P	-
+v4_0094775	P	-
+v4_0094784	P	-
+v4_0094790	P	-
+v4_0094792	U	"ao o phia nam xa nhat": corrupted word "ao o" makes exact goal unclear/uncertain
+v4_0094794	P	-
+v4_0094795	P	-
+v4_0094806	P	-
+v4_0094807	P	-
+v4_0094833	P	-
+v4_0094858	P	-
+v4_0094862	P	-
+v4_0094867	P	-
+v4_0094883	P	-
+v4_0094906	P	-
+v4_0094912	P	-
+v4_0094916	P	-
+v4_0094918	P	-
+v4_0094922	P	-
+v4_0094946	P	-
+v4_0094955	P	-
+v4_0094957	P	-
+v4_0094993	P	-
+v4_0095028	P	-
+v4_0095029	P	-
+v4_0095030	P	-
+v4_0095032	P	-
+v4_0095045	P	-
+v4_0095051	P	-
+v4_0095064	P	-
+
+STDERR:

@@ -1,0 +1,96 @@
+{
+  "name": "semantic_v9_property_grounded_real_like_pilot",
+  "created_utc": "2026-10-10T01:09:58.864598+00:00",
+  "seed": 2026101099,
+  "target_real_distributions": {
+    "via": 0.327,
+    "urgent": 0.382,
+    "fragile": 0.392,
+    "accented": 0.706
+  },
+  "source": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v8_balanced_train.jsonl",
+  "patch_affected_rows": 3184,
+  "patched_phrase_counts": [
+    {
+      "text": "Nhãn dễ vỡ đã được gỡ, robot vận chuyển bình thường.",
+      "label_fragile": false,
+      "n": 396
+    },
+    {
+      "text": "Nhãn dễ vỡ đã được xác nhận, robot cần kê đệm.",
+      "label_fragile": true,
+      "n": 396
+    },
+    {
+      "text": "Quy định vận chuyển đồ dễ bể vẫn còn hiệu lực.",
+      "label_fragile": true,
+      "n": 396
+    },
+    {
+      "text": "Quy định vận chuyển đồ dễ bể đã hết hiệu lực.",
+      "label_fragile": false,
+      "n": 396
+    },
+    {
+      "text": "Yêu cầu bảo vệ đồ dễ bể vẫn còn hiệu lực.",
+      "label_fragile": true,
+      "n": 404
+    },
+    {
+      "text": "Yêu cầu bảo vệ đồ dễ bể đã hết hiệu lực.",
+      "label_fragile": false,
+      "n": 404
+    },
+    {
+      "text": "Yêu cầu chống va đập dành cho hàng dễ vỡ vẫn hiệu lực.",
+      "label_fragile": true,
+      "n": 396
+    },
+    {
+      "text": "Yêu cầu chống va đập dành cho hàng dễ vỡ đã hết hiệu lực.",
+      "label_fragile": false,
+      "n": 396
+    }
+  ],
+  "full": {
+    "n": 9600,
+    "sha256": "3da509581c283784b54c85d95dcfc55e67ab158e9358f8952cd8d531b5a59084",
+    "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v9_label_repaired_full.jsonl"
+  },
+  "pilot": {
+    "n": 3200,
+    "label_rates": {
+      "via": 0.3272,
+      "urgent": 0.3822,
+      "fragile": 0.3919,
+      "accented": 0.7063
+    },
+    "median_tokens": 49.0,
+    "p90_tokens": 70,
+    "ge70_tokens_fraction": 0.1047,
+    "le25_tokens_fraction": 0.1009,
+    "minimum_tokens": 11,
+    "max_tokens": 92,
+    "sha256": "31aa461e8dfa03efd553b051f20c44a91abca2d676862d1a1c17ffdac2703ecb",
+    "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v9_real_like_pilot.jsonl",
+    "omissions": {
+      "via_absent": 1169,
+      "urgent_absent": 1474,
+      "fragile_absent": 1419
+    }
+  },
+  "qa": [
+    "explicit package property rather than handling policy on repaired samples",
+    "quota sampling by real train labels and accent",
+    "optional false clauses are omitted",
+    "no normalized collisions in pilot",
+    "typed labels valid and within MAX_TOKENS"
+  ],
+  "limits": [
+    "Real train marginals only, not full joint distribution",
+    "No independent human audit",
+    "All examples still composed from V8 templates",
+    "Do not use family challenge for training; heldout challenge unchanged",
+    "No model performance claim until A/B"
+  ]
+}

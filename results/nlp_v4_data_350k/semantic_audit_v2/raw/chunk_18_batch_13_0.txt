@@ -1,0 +1,52 @@
+v4_0176003	P	-
+v4_0176012	P	-
+v4_0176025	F	goal anchor: provided clinic, corrected canteen (quay phat tuhoc va kham ban du -> kham ban du is a typo for com ban dua / bep truong, but wait: quay phat tuhoc va kham ban du: tu hoc va kham ban du: kham ban du = com ban trua -> canteen)
+v4_0176029	P	-
+v4_0176041	F	goal type/ref/anchor: provided -/north_most/-, corrected dorm/north_most/- (tu quan KTX o vi tri o dinh an do)
+v4_0176043	P	-
+v4_0176057	P	-
+v4_0176073	P	-
+v4_0176082	P	-
+v4_0176085	P	-
+v4_0176087	P	-
+v4_0176092	P	-
+v4_0176116	P	-
+v4_0176117	P	-
+v4_0176123	P	-
+v4_0176126	P	-
+v4_0176132	P	-
+v4_0176161	P	-
+v4_0176182	P	-
+v4_0176186	P	-
+v4_0176189	P	-
+v4_0176198	P	-
+v4_0176218	P	-
+v4_0176227	P	-
+v4_0176231	P	-
+v4_0176241	P	-
+v4_0176246	P	-
+v4_0176253	P	-
+v4_0176266	P	-
+v4_0176276	P	-
+v4_0176277	P	-
+v4_0176282	P	-
+v4_0176285	P	-
+v4_0176300	P	-
+v4_0176301	P	-
+v4_0176315	P	-
+v4_0176318	P	-
+v4_0176339	P	-
+v4_0176346	P	-
+v4_0176367	P	-
+v4_0176379	P	-
+v4_0176387	P	-
+v4_0176388	P	-
+v4_0176399	P	-
+v4_0176400	P	-
+v4_0176411	P	-
+v4_0176423	P	-
+v4_0176425	P	-
+v4_0176435	P	-
+v4_0176446	P	-
+
+STDERR:

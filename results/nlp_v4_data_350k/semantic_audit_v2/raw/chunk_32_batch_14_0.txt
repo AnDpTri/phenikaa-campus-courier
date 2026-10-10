@@ -1,0 +1,52 @@
+v4_0316443	P	-
+v4_0316448	F	goal type: provided '-', corrected 'office' (bo phan mot cua giai qyet ho so)
+v4_0316455	U	"Le Pai" la tu bi loi chinh ta hoac khong ro nghia de xac dinh huong east_most
+v4_0316468	P	-
+v4_0316499	P	-
+v4_0316500	P	-
+v4_0316501	U	Mau thuan urgent: "mai giao cung duoc" doi lap voi "nhan vien phong kham dang doi bo tai lieu gap"
+v4_0316502	P	-
+v4_0316503	P	-
+v4_0316507	P	-
+v4_0316524	P	-
+v4_0316536	P	-
+v4_0316549	P	-
+v4_0316551	P	-
+v4_0316556	P	-
+v4_0316558	P	-
+v4_0316581	P	-
+v4_0316584	P	-
+v4_0316620	P	-
+v4_0316625	P	-
+v4_0316638	P	-
+v4_0316642	P	-
+v4_0316672	P	-
+v4_0316676	P	-
+v4_0316680	P	-
+v4_0316708	P	-
+v4_0316718	P	-
+v4_0316736	P	-
+v4_0316750	P	-
+v4_0316756	P	-
+v4_0316767	P	-
+v4_0316774	P	-
+v4_0316778	P	-
+v4_0316785	P	-
+v4_0316787	F	goal type: provided '-', corrected 'parking' (nguoi trong xe)
+v4_0316794	P	-
+v4_0316808	P	-
+v4_0316828	P	-
+v4_0316838	P	-
+v4_0316847	P	-
+v4_0316860	P	-
+v4_0316870	U	"o cuoi ban do" mo ho giua south_most va east_most
+v4_0316887	P	-
+v4_0316893	P	-
+v4_0316910	P	-
+v4_0316911	P	-
+v4_0316912	P	-
+v4_0316914	P	-
+v4_0316917	P	-
+v4_0316950	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0032686	P	-
+v4_0032694	P	-
+v4_0032702	P	-
+v4_0032708	P	-
+v4_0032746	P	-
+v4_0032751	P	-
+v4_0032763	P	-
+v4_0032775	P	-
+v4_0032776	P	-
+v4_0032779	P	-
+v4_0032803	P	-
+v4_0032810	P	-
+v4_0032857	P	-
+v4_0032862	F	goal: anchor_near/clinic -> parking/near/clinic (nguoi iu xe o tram ngay sat hong kham)
+v4_0032874	P	-
+v4_0032877	P	-
+v4_0032883	P	-
+v4_0032901	P	-
+v4_0032915	P	-
+v4_0032930	P	-
+v4_0032935	P	-
+v4_0032936	P	-
+v4_0032957	P	-
+v4_0032959	P	-
+v4_0032966	P	-
+v4_0032972	F	via: library/-/- -> -/-/- (nhan vien muon tra sach o quay phat thuoc la recipient, ghe vao kho sach lay thung hang la library via)
+v4_0032980	F	goal: anchor_near/parking -> parking/near/parking (bac giu xe o phan loai diem tiep can gan nhat toi moc khu vuc trong giu xe hai banh)
+v4_0033001	P	-
+v4_0033002	P	-
+v4_0033022	P	-
+v4_0033035	P	-
+v4_0033038	P	-
+v4_0033053	P	-
+v4_0033074	P	-
+v4_0033086	P	-
+v4_0033097	P	-
+v4_0033101	P	-
+v4_0033109	P	-
+v4_0033112	P	-
+v4_0033120	P	-
+v4_0033124	P	-
+v4_0033127	P	-
+v4_0033129	P	-
+v4_0033137	P	-
+v4_0033144	P	-
+v4_0033150	P	-
+v4_0033154	P	-
+v4_0033168	P	-
+v4_0033194	P	-
+v4_0033200	P	-
+
+STDERR:

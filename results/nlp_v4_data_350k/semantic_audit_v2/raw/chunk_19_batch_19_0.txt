@@ -1,0 +1,52 @@
+v4_0188918	P	-
+v4_0188920	P	-
+v4_0188928	P	-
+v4_0188935	F	urgent: 1 -> 0 ('ap nhe' is not urgency; no urgency cue present)
+v4_0188944	P	-
+v4_0188966	P	-
+v4_0188971	P	-
+v4_0188987	P	-
+v4_0189013	P	-
+v4_0189015	P	-
+v4_0189033	P	-
+v4_0189039	P	-
+v4_0189040	P	-
+v4_0189046	P	-
+v4_0189051	P	-
+v4_0189081	P	-
+v4_0189086	P	-
+v4_0189090	P	-
+v4_0189101	P	-
+v4_0189104	U	ambiguous phrasing 'phia hai cung' (likely typo for phia phai cung / east_most or ambiguous direction)
+v4_0189105	P	-
+v4_0189113	P	-
+v4_0189116	P	-
+v4_0189120	P	-
+v4_0189128	P	-
+v4_0189129	P	-
+v4_0189167	P	-
+v4_0189169	U	contradictory urgency phrases ('dang doi dno hang can tra gap' vs 'hkong can vo')
+v4_0189176	P	-
+v4_0189179	P	-
+v4_0189203	P	-
+v4_0189213	P	-
+v4_0189231	P	-
+v4_0189232	P	-
+v4_0189236	P	-
+v4_0189242	P	-
+v4_0189247	P	-
+v4_0189279	P	-
+v4_0189290	P	-
+v4_0189310	P	-
+v4_0189314	P	-
+v4_0189323	P	-
+v4_0189371	P	-
+v4_0189375	P	-
+v4_0189383	P	-
+v4_0189411	P	-
+v4_0189416	P	-
+v4_0189435	P	-
+v4_0189438	P	-
+v4_0189460	F	goal ref: east -> - ('nua phai giao ngay' parses as 'nua phai' / east vs 'nua, phai giao ngay nhe')
+
+STDERR:

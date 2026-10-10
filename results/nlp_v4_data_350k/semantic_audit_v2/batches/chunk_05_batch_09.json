@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0043912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043934",
+      "status": "U",
+      "reason": "\"o xa ve ben phai nhat\" indicates east_most or far east, ambiguous whether extreme east_most or ordinary east"
+    },
+    {
+      "id": "v4_0043952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044034",
+      "status": "U",
+      "reason": "\"o emp phai\" (o mep phai / ben phai) ambiguous whether east_most or east"
+    },
+    {
+      "id": "v4_0044035",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044036",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044117",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay nhe' contradicts 'khong vi phai nhanh' / urgent cue mismatch)"
+    },
+    {
+      "id": "v4_0044136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044153",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044237",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044393",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay giup toi' requests urgency)"
+    },
+    {
+      "id": "v4_0044410",
+      "status": "U",
+      "reason": "\"hang cuoi\" indicates south_most by map convention or last row, ambiguous extreme south vs ordinary"
+    },
+    {
+      "id": "v4_0044417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0044440",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

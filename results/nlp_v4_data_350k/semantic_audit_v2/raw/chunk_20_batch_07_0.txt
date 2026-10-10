@@ -1,0 +1,52 @@
+v4_0193088	P	-
+v4_0193092	P	-
+v4_0193104	F	urgent: provided 0, corrected 1 ('can may chieu')
+v4_0193130	P	-
+v4_0193146	P	-
+v4_0193149	F	goal: provided -/anchor_near/library, corrected dorm/near/library ('sinh vien o ky tuc o diem it xa thu vien truong nhat')
+v4_0193159	P	-
+v4_0193166	P	-
+v4_0193184	P	-
+v4_0193192	P	-
+v4_0193193	P	-
+v4_0193196	P	-
+v4_0193203	P	-
+v4_0193207	P	-
+v4_0193215	P	-
+v4_0193223	P	-
+v4_0193247	P	-
+v4_0193249	P	-
+v4_0193250	P	-
+v4_0193256	P	-
+v4_0193261	P	-
+v4_0193262	P	-
+v4_0193276	P	-
+v4_0193288	P	-
+v4_0193291	P	-
+v4_0193300	F	urgent: provided 0, corrected 1 ('ngay di')
+v4_0193323	P	-
+v4_0193326	P	-
+v4_0193352	P	-
+v4_0193354	P	-
+v4_0193374	P	-
+v4_0193381	P	-
+v4_0193384	P	-
+v4_0193389	P	-
+v4_0193406	P	-
+v4_0193438	P	-
+v4_0193442	F	goal: provided -/south_most/-, corrected gate/south_most/- ('doi bao ve o o o hang cuoi cung')
+v4_0193445	P	-
+v4_0193450	P	-
+v4_0193469	P	-
+v4_0193475	P	-
+v4_0193493	P	-
+v4_0193494	P	-
+v4_0193524	P	-
+v4_0193530	P	-
+v4_0193533	P	-
+v4_0193538	P	-
+v4_0193547	P	-
+v4_0193555	F	goal: provided office/-/-, corrected parking/-/- ('chuyen vien nho gui ve xe')
+v4_0193556	P	-
+
+STDERR:

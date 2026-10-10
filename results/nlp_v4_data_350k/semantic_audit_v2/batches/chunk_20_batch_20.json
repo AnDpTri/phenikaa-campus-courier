@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_20_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0199578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199619",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/anchor_near/gate' vs corrected 'parking/anchor_near/gate' ('bac bao ve trong giu xe truong o nut cach cong lon ngan nhat')"
+    },
+    {
+      "id": "v4_0199621",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'sports/-/-' vs corrected 'dorm/-/-' ('bac bao ve truc toa nha noi tru o san co dang cho')"
+    },
+    {
+      "id": "v4_0199627",
+      "status": "U",
+      "reason": "'oi ra' khong ro nghia / thieu tu (khong xac dinh ro loi ra hay noi khac)"
+    },
+    {
+      "id": "v4_0199634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199688",
+      "status": "F",
+      "reason": "urgent: provided '0' vs corrected '1' ('dang doi goi do gap')"
+    },
+    {
+      "id": "v4_0199707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199768",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199869",
+      "status": "F",
+      "reason": "urgent: provided '0' vs corrected '1' ('sang tram y ngay nhe')"
+    },
+    {
+      "id": "v4_0199872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199940",
+      "status": "U",
+      "reason": "'o danh au cong trnih tiep giap gan khu an trua hon tat ca' bi loi chinh ta/vo nghia o tu khoa danh au"
+    },
+    {
+      "id": "v4_0199961",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0199997",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0036261	P	-
+v4_0036266	P	-
+v4_0036267	P	-
+v4_0036288	P	-
+v4_0036300	P	-
+v4_0036301	P	-
+v4_0036343	P	-
+v4_0036347	P	-
+v4_0036360	P	-
+v4_0036362	P	-
+v4_0036364	P	-
+v4_0036366	P	-
+v4_0036376	F	goal type: provided 'clinic', corrected 'sports' ('nhan vien y te can dung cu thi nghiem... toi da tu bo y dinh den toa nha hanh chinh quan ly truong ma se nhan vien y te can dung cu thi nghiem' -> recipient is staff, location is not stated as clinic; goal destination is san bong da / no destination or via mismatch)
+v4_0036383	P	-
+v4_0036406	P	-
+v4_0036409	P	-
+v4_0036436	P	-
+v4_0036462	P	-
+v4_0036482	P	-
+v4_0036493	P	-
+v4_0036500	P	-
+v4_0036521	P	-
+v4_0036537	P	-
+v4_0036550	P	-
+v4_0036558	P	-
+v4_0036571	P	-
+v4_0036574	P	-
+v4_0036577	P	-
+v4_0036581	P	-
+v4_0036596	P	-
+v4_0036601	P	-
+v4_0036605	P	-
+v4_0036631	P	-
+v4_0036634	P	-
+v4_0036655	P	-
+v4_0036658	P	-
+v4_0036659	U	"chay sang vi tri it boc nhat tu toa nha hoc nha": 'it boc nhat' is destroyed/unreadable phrase for distance/direction
+v4_0036672	P	-
+v4_0036674	F	urgent: provided '0', corrected '1' ('Chuyen Huong Dua Sang Phong Cham Sco Suc Khoe Ban Dau Ngay Nha' -> 'ngay nha' expresses urgency)
+v4_0036682	P	-
+v4_0036686	P	-
+v4_0036699	P	-
+v4_0036715	P	-
+v4_0036718	P	-
+v4_0036721	P	-
+v4_0036746	P	-
+v4_0036753	P	-
+v4_0036783	P	-
+v4_0036796	P	-
+v4_0036801	P	-
+
+STDERR:

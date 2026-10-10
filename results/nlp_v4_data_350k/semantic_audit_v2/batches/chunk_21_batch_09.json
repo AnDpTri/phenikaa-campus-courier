@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0204358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204431",
+      "status": "U",
+      "reason": "ambiguous direction cue \"ve ben trai hat gay\""
+    },
+    {
+      "id": "v4_0204438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204475",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204509",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204558",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204597",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204653",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204679",
+      "status": "U",
+      "reason": "ambiguous extreme vs ordinary direction cue \"o le trai\""
+    },
+    {
+      "id": "v4_0204687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0204691",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

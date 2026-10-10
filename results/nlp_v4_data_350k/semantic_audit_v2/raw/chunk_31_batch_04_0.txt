@@ -1,0 +1,52 @@
+v4_0301419	P	-
+v4_0301426	F	urgent: provided 1, corrected 0 (yeu cau moi dich den la cho o cao nhat cua campus can trong 5 phut - 'can trong 5 phut' is urgent, wait: 5 phut is urgent=1, but goal: cho o cao nhat = dorm/north_most/- vs -/north_most/-? 'cho o cao nhat' is cho o = dorm, goal type provided '-' corrected 'dorm')
+v4_0301432	P	-
+v4_0301433	P	-
+v4_0301445	P	-
+v4_0301451	P	-
+v4_0301465	P	-
+v4_0301477	P	-
+v4_0301481	P	-
+v4_0301484	P	-
+v4_0301505	P	-
+v4_0301509	P	-
+v4_0301511	P	-
+v4_0301514	P	-
+v4_0301521	P	-
+v4_0301537	P	-
+v4_0301542	P	-
+v4_0301544	P	-
+v4_0301567	P	-
+v4_0301570	P	-
+v4_0301571	P	-
+v4_0301581	P	-
+v4_0301587	P	-
+v4_0301605	P	-
+v4_0301610	P	-
+v4_0301619	P	-
+v4_0301635	P	-
+v4_0301643	P	-
+v4_0301661	P	-
+v4_0301665	P	-
+v4_0301676	P	-
+v4_0301680	P	-
+v4_0301694	P	-
+v4_0301702	P	-
+v4_0301728	P	-
+v4_0301731	P	-
+v4_0301743	P	-
+v4_0301744	P	-
+v4_0301758	U	can gap he sinh vien (typo for can gap / can he / gap sinh vien) creates contradictory urgency cues with no clear meaning
+v4_0301764	P	-
+v4_0301781	P	-
+v4_0301791	P	-
+v4_0301801	P	-
+v4_0301802	P	-
+v4_0301819	P	-
+v4_0301845	P	-
+v4_0301847	P	-
+v4_0301854	P	-
+v4_0301863	P	-
+v4_0301867	P	-
+
+STDERR:

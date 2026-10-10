@@ -1,0 +1,52 @@
+v4_0337497	P	-
+v4_0337498	P	-
+v4_0337512	U	Recipients usual profession (thay day the duc) mentioned without explicit current delivery location
+v4_0337518	P	-
+v4_0337526	P	-
+v4_0337528	P	-
+v4_0337538	F	goal type dorm -> clinic ("cap nhat bo y te truong mang chiec ti sang khu nha o tap the inh vien dang gap" - bo y te vs khu nha o ambiguous order/role or canteen first then clinic/dorm)
+v4_0337544	P	-
+v4_0337551	P	-
+v4_0337554	P	-
+v4_0337559	P	-
+v4_0337563	P	-
+v4_0337570	P	-
+v4_0337572	P	-
+v4_0337586	P	-
+v4_0337607	P	-
+v4_0337624	P	-
+v4_0337625	P	-
+v4_0337633	P	-
+v4_0337640	P	-
+v4_0337655	P	-
+v4_0337665	P	-
+v4_0337678	P	-
+v4_0337685	P	-
+v4_0337687	P	-
+v4_0337704	P	-
+v4_0337709	P	-
+v4_0337710	P	-
+v4_0337711	P	-
+v4_0337712	P	-
+v4_0337725	P	-
+v4_0337740	P	-
+v4_0337750	P	-
+v4_0337763	P	-
+v4_0337779	P	-
+v4_0337791	F	goal type - -> clinic ("khong phai nha xe ma la y ta o diem nao lech ve trai nhat dang cho goi hang")
+v4_0337818	P	-
+v4_0337824	P	-
+v4_0337827	P	-
+v4_0337870	P	-
+v4_0337879	P	-
+v4_0337887	P	-
+v4_0337904	P	-
+v4_0337914	P	-
+v4_0337915	P	-
+v4_0337921	P	-
+v4_0337923	P	-
+v4_0337926	P	-
+v4_0337930	P	-
+v4_0337932	P	-
+
+STDERR:

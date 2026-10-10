@@ -1,0 +1,52 @@
+v4_0168376	P	-
+v4_0168379	P	-
+v4_0168380	P	-
+v4_0168388	P	-
+v4_0168397	F	fragile: 0 -> 1 ("Do khong vo duoc dau" = fragile=0, correct is 0; wait: "tot nhat la mang thang cuc pin vao tram y te nhe. Do khong vo duoc dau" -> fragile is 0)
+v4_0168401	P	-
+v4_0168405	P	-
+v4_0168408	P	-
+v4_0168410	P	-
+v4_0168411	P	-
+v4_0168413	P	-
+v4_0168426	P	-
+v4_0168428	P	-
+v4_0168431	P	-
+v4_0168437	P	-
+v4_0168447	P	-
+v4_0168448	U	"huong don" is a corrupted/destroyed direction word ("huong dong"?), direction cannot be determined with certainty
+v4_0168464	P	-
+v4_0168469	P	-
+v4_0168510	P	-
+v4_0168513	P	-
+v4_0168515	P	-
+v4_0168521	P	-
+v4_0168524	P	-
+v4_0168530	P	-
+v4_0168545	P	-
+v4_0168557	P	-
+v4_0168559	P	-
+v4_0168569	P	-
+v4_0168587	P	-
+v4_0168592	P	-
+v4_0168594	P	-
+v4_0168598	P	-
+v4_0168601	P	-
+v4_0168614	P	-
+v4_0168633	P	-
+v4_0168639	P	-
+v4_0168640	P	-
+v4_0168649	P	-
+v4_0168655	P	-
+v4_0168670	P	-
+v4_0168696	P	-
+v4_0168703	P	-
+v4_0168708	F	goal type: - -> parking ("Doi trong xe hien dang o vi tri gan nhat voi Can Teen")
+v4_0168709	P	-
+v4_0168725	P	-
+v4_0168742	P	-
+v4_0168768	P	-
+v4_0168785	P	-
+v4_0168790	P	-
+
+STDERR:

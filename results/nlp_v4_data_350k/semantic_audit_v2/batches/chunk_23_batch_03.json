@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0221022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221259",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221316",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221459",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/anchor_near/gate, corrected dorm/near/gate ('Nguoi o ktx o toa hang xom cua loi ra can ho so')"
+    },
+    {
+      "id": "v4_0221462",
+      "status": "U",
+      "reason": "'lech ve trai nhat' is west-most only under specific map orientation convention, but left/right is not an established compass direction or explicit map convention"
+    },
+    {
+      "id": "v4_0221484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221573",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221575",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221588",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

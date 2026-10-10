@@ -1,0 +1,1990 @@
+{
+  "name": "v8_post_10cue_lexical_leakage_v3",
+  "created_utc": "2026-10-10T01:00:45.953621+00:00",
+  "logic": "Document-frequency cue at 3%+ support, max97%; P(label=True|unigram/bigram) vs balanced 50% overall",
+  "sets": {
+    "candidate_train": {
+      "n": 9600,
+      "labels": {
+        "via": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "du",
+              "support": 1600,
+              "fraction": 0.1667,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "xuat",
+              "support": 1064,
+              "fraction": 0.1108,
+              "p_positive": 0.1861,
+              "deviation_pp": 31.39
+            },
+            {
+              "gram": "unigram",
+              "token": "dung",
+              "support": 1064,
+              "fraction": 0.1108,
+              "p_positive": 0.3102,
+              "deviation_pp": 18.98
+            },
+            {
+              "gram": "bigram",
+              "token": "chi la",
+              "support": 1730,
+              "fraction": 0.1802,
+              "p_positive": 0.3457,
+              "deviation_pp": 15.43
+            },
+            {
+              "gram": "unigram",
+              "token": "phai",
+              "support": 2878,
+              "fraction": 0.2998,
+              "p_positive": 0.6505,
+              "deviation_pp": 15.05
+            },
+            {
+              "gram": "unigram",
+              "token": "nhung",
+              "support": 972,
+              "fraction": 0.1013,
+              "p_positive": 0.6255,
+              "deviation_pp": 12.55
+            },
+            {
+              "gram": "unigram",
+              "token": "ghi",
+              "support": 1924,
+              "fraction": 0.2004,
+              "p_positive": 0.3794,
+              "deviation_pp": 12.06
+            },
+            {
+              "gram": "unigram",
+              "token": "them",
+              "support": 1736,
+              "fraction": 0.1808,
+              "p_positive": 0.6152,
+              "deviation_pp": 11.52
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan them",
+              "support": 1340,
+              "fraction": 0.1396,
+              "p_positive": 0.6,
+              "deviation_pp": 10.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bi huy",
+              "support": 1348,
+              "fraction": 0.1404,
+              "p_positive": 0.4006,
+              "deviation_pp": 9.94
+            },
+            {
+              "gram": "bigram",
+              "token": "lay hang",
+              "support": 1336,
+              "fraction": 0.1392,
+              "p_positive": 0.5988,
+              "deviation_pp": 9.88
+            },
+            {
+              "gram": "unigram",
+              "token": "cho",
+              "support": 1364,
+              "fraction": 0.1421,
+              "p_positive": 0.4047,
+              "deviation_pp": 9.53
+            },
+            {
+              "gram": "bigram",
+              "token": "thong tin",
+              "support": 1364,
+              "fraction": 0.1421,
+              "p_positive": 0.4047,
+              "deviation_pp": 9.53
+            },
+            {
+              "gram": "bigram",
+              "token": "da duoc",
+              "support": 1456,
+              "fraction": 0.1517,
+              "p_positive": 0.592,
+              "deviation_pp": 9.2
+            },
+            {
+              "gram": "bigram",
+              "token": "khong can",
+              "support": 1484,
+              "fraction": 0.1546,
+              "p_positive": 0.4084,
+              "deviation_pp": 9.16
+            },
+            {
+              "gram": "unigram",
+              "token": "tin",
+              "support": 1532,
+              "fraction": 0.1596,
+              "p_positive": 0.4151,
+              "deviation_pp": 8.49
+            },
+            {
+              "gram": "unigram",
+              "token": "bi",
+              "support": 1752,
+              "fraction": 0.1825,
+              "p_positive": 0.4235,
+              "deviation_pp": 7.65
+            },
+            {
+              "gram": "unigram",
+              "token": "da",
+              "support": 6363,
+              "fraction": 0.6628,
+              "p_positive": 0.4254,
+              "deviation_pp": 7.46
+            },
+            {
+              "gram": "unigram",
+              "token": "cu",
+              "support": 2492,
+              "fraction": 0.2596,
+              "p_positive": 0.4334,
+              "deviation_pp": 6.66
+            },
+            {
+              "gram": "unigram",
+              "token": "huong",
+              "support": 1020,
+              "fraction": 0.1062,
+              "p_positive": 0.4353,
+              "deviation_pp": 6.47
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "du",
+              "support": 1600,
+              "fraction": 0.1667,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da nhan",
+              "support": 808,
+              "fraction": 0.0842,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan du",
+              "support": 808,
+              "fraction": 0.0842,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "xuat phat",
+              "support": 668,
+              "fraction": 0.0696,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da lay",
+              "support": 660,
+              "fraction": 0.0688,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "lay du",
+              "support": 660,
+              "fraction": 0.0688,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "chu",
+              "support": 532,
+              "fraction": 0.0554,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "ghi chu",
+              "support": 532,
+              "fraction": 0.0554,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "robot da",
+              "support": 532,
+              "fraction": 0.0554,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "du hang",
+              "support": 448,
+              "fraction": 0.0467,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "robot phai",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "hang da",
+              "support": 400,
+              "fraction": 0.0417,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "la moc",
+              "support": 400,
+              "fraction": 0.0417,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "phai ghe",
+              "support": 400,
+              "fraction": 0.0417,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "roi",
+              "support": 400,
+              "fraction": 0.0417,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "toi lay",
+              "support": 400,
+              "fraction": 0.0417,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khoi phuc",
+              "support": 396,
+              "fraction": 0.0413,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "phat",
+              "support": 704,
+              "fraction": 0.0733,
+              "p_positive": 0.0284,
+              "deviation_pp": 47.16
+            },
+            {
+              "gram": "unigram",
+              "token": "moc",
+              "support": 592,
+              "fraction": 0.0617,
+              "p_positive": 0.0541,
+              "deviation_pp": 44.59
+            },
+            {
+              "gram": "unigram",
+              "token": "hoi",
+              "support": 304,
+              "fraction": 0.0317,
+              "p_positive": 0.9342,
+              "deviation_pp": 43.42
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 34,
+          "num_shortcuts_gt_10pp": 61
+        },
+        "urgent": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "ngay",
+              "support": 2400,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "theo lich",
+              "support": 1188,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "theo",
+              "support": 1320,
+              "fraction": 0.1375,
+              "p_positive": 0.05,
+              "deviation_pp": 45.0
+            },
+            {
+              "gram": "unigram",
+              "token": "thuong",
+              "support": 4234,
+              "fraction": 0.441,
+              "p_positive": 0.2437,
+              "deviation_pp": 25.63
+            },
+            {
+              "gram": "bigram",
+              "token": "da het",
+              "support": 2392,
+              "fraction": 0.2492,
+              "p_positive": 0.25,
+              "deviation_pp": 25.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong can",
+              "support": 1484,
+              "fraction": 0.1546,
+              "p_positive": 0.2507,
+              "deviation_pp": 24.93
+            },
+            {
+              "gram": "bigram",
+              "token": "lich thuong",
+              "support": 1600,
+              "fraction": 0.1667,
+              "p_positive": 0.2525,
+              "deviation_pp": 24.75
+            },
+            {
+              "gram": "unigram",
+              "token": "het",
+              "support": 2594,
+              "fraction": 0.2702,
+              "p_positive": 0.2695,
+              "deviation_pp": 23.05
+            },
+            {
+              "gram": "bigram",
+              "token": "het hieu",
+              "support": 2594,
+              "fraction": 0.2702,
+              "p_positive": 0.2695,
+              "deviation_pp": 23.05
+            },
+            {
+              "gram": "unigram",
+              "token": "xuat",
+              "support": 1064,
+              "fraction": 0.1108,
+              "p_positive": 0.3139,
+              "deviation_pp": 18.61
+            },
+            {
+              "gram": "bigram",
+              "token": "chi la",
+              "support": 1730,
+              "fraction": 0.1802,
+              "p_positive": 0.3283,
+              "deviation_pp": 17.17
+            },
+            {
+              "gram": "unigram",
+              "token": "bo",
+              "support": 3108,
+              "fraction": 0.3237,
+              "p_positive": 0.3308,
+              "deviation_pp": 16.92
+            },
+            {
+              "gram": "bigram",
+              "token": "gap da",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.3311,
+              "deviation_pp": 16.89
+            },
+            {
+              "gram": "bigram",
+              "token": "gap khong",
+              "support": 1212,
+              "fraction": 0.1263,
+              "p_positive": 0.6667,
+              "deviation_pp": 16.67
+            },
+            {
+              "gram": "bigram",
+              "token": "khan xu",
+              "support": 1204,
+              "fraction": 0.1254,
+              "p_positive": 0.3355,
+              "deviation_pp": 16.45
+            },
+            {
+              "gram": "bigram",
+              "token": "thai khan",
+              "support": 1204,
+              "fraction": 0.1254,
+              "p_positive": 0.3355,
+              "deviation_pp": 16.45
+            },
+            {
+              "gram": "bigram",
+              "token": "con hieu",
+              "support": 1336,
+              "fraction": 0.1392,
+              "p_positive": 0.6512,
+              "deviation_pp": 15.12
+            },
+            {
+              "gram": "unigram",
+              "token": "doi",
+              "support": 1460,
+              "fraction": 0.1521,
+              "p_positive": 0.3616,
+              "deviation_pp": 13.84
+            },
+            {
+              "gram": "bigram",
+              "token": "da duoc",
+              "support": 1456,
+              "fraction": 0.1517,
+              "p_positive": 0.636,
+              "deviation_pp": 13.6
+            },
+            {
+              "gram": "unigram",
+              "token": "bi",
+              "support": 1752,
+              "fraction": 0.1825,
+              "p_positive": 0.3847,
+              "deviation_pp": 11.53
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "ngay",
+              "support": 2400,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "theo lich",
+              "support": 1188,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da bi",
+              "support": 808,
+              "fraction": 0.0842,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "phai giao",
+              "support": 808,
+              "fraction": 0.0842,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo trang",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "dang",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc kich",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "giao thuong",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "hoat",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khan da",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khan dang",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "kich",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "kich hoat",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "ly ngay",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "tien ngay",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "luc theo",
+              "support": 792,
+              "fraction": 0.0825,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bac bo",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bi go",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "biet",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can giao",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 111,
+          "num_shortcuts_gt_10pp": 125
+        },
+        "fragile": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "chiu",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chiu rung",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "thuc te",
+              "support": 1188,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "nham",
+              "support": 1332,
+              "fraction": 0.1388,
+              "p_positive": 0.0511,
+              "deviation_pp": 44.89
+            },
+            {
+              "gram": "bigram",
+              "token": "khong duoc",
+              "support": 1280,
+              "fraction": 0.1333,
+              "p_positive": 0.9469,
+              "deviation_pp": 44.69
+            },
+            {
+              "gram": "unigram",
+              "token": "te",
+              "support": 1740,
+              "fraction": 0.1812,
+              "p_positive": 0.1793,
+              "deviation_pp": 32.07
+            },
+            {
+              "gram": "bigram",
+              "token": "con hieu",
+              "support": 1336,
+              "fraction": 0.1392,
+              "p_positive": 0.7994,
+              "deviation_pp": 29.94
+            },
+            {
+              "gram": "unigram",
+              "token": "ghi",
+              "support": 1924,
+              "fraction": 0.2004,
+              "p_positive": 0.2069,
+              "deviation_pp": 29.31
+            },
+            {
+              "gram": "bigram",
+              "token": "da het",
+              "support": 2392,
+              "fraction": 0.2492,
+              "p_positive": 0.25,
+              "deviation_pp": 25.0
+            },
+            {
+              "gram": "unigram",
+              "token": "het",
+              "support": 2594,
+              "fraction": 0.2702,
+              "p_positive": 0.2822,
+              "deviation_pp": 21.78
+            },
+            {
+              "gram": "bigram",
+              "token": "het hieu",
+              "support": 2594,
+              "fraction": 0.2702,
+              "p_positive": 0.2822,
+              "deviation_pp": 21.78
+            },
+            {
+              "gram": "unigram",
+              "token": "chong",
+              "support": 2796,
+              "fraction": 0.2913,
+              "p_positive": 0.7139,
+              "deviation_pp": 21.39
+            },
+            {
+              "gram": "unigram",
+              "token": "dung",
+              "support": 1064,
+              "fraction": 0.1108,
+              "p_positive": 0.3139,
+              "deviation_pp": 18.61
+            },
+            {
+              "gram": "bigram",
+              "token": "hang nhay",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.6689,
+              "deviation_pp": 16.89
+            },
+            {
+              "gram": "bigram",
+              "token": "vo da",
+              "support": 1188,
+              "fraction": 0.1237,
+              "p_positive": 0.3333,
+              "deviation_pp": 16.67
+            },
+            {
+              "gram": "unigram",
+              "token": "phieu",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.3344,
+              "deviation_pp": 16.56
+            },
+            {
+              "gram": "unigram",
+              "token": "dem",
+              "support": 1204,
+              "fraction": 0.1254,
+              "p_positive": 0.6645,
+              "deviation_pp": 16.45
+            },
+            {
+              "gram": "unigram",
+              "token": "vat",
+              "support": 1204,
+              "fraction": 0.1254,
+              "p_positive": 0.6645,
+              "deviation_pp": 16.45
+            },
+            {
+              "gram": "bigram",
+              "token": "vat de",
+              "support": 1204,
+              "fraction": 0.1254,
+              "p_positive": 0.6645,
+              "deviation_pp": 16.45
+            },
+            {
+              "gram": "unigram",
+              "token": "con",
+              "support": 2320,
+              "fraction": 0.2417,
+              "p_positive": 0.6612,
+              "deviation_pp": 16.12
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "chiu",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chiu rung",
+              "support": 1196,
+              "fraction": 0.1246,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "thuc te",
+              "support": 1188,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong co",
+              "support": 808,
+              "fraction": 0.0842,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "be da",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "be van",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chong rung",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "ghi nham",
+              "support": 800,
+              "fraction": 0.0833,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can chong",
+              "support": 792,
+              "fraction": 0.0825,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nham thuc",
+              "support": 792,
+              "fraction": 0.0825,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "te chiu",
+              "support": 792,
+              "fraction": 0.0825,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo lop",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can lop",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham duoc",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham khong",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chuyen thuong",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "co hang",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "co the",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc rung",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc va",
+              "support": 404,
+              "fraction": 0.0421,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 106,
+          "num_shortcuts_gt_10pp": 122
+        }
+      }
+    },
+    "family_challenge": {
+      "n": 3200,
+      "labels": {
+        "via": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "du",
+              "support": 936,
+              "fraction": 0.2925,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "du hang",
+              "support": 408,
+              "fraction": 0.1275,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "phuc hoi",
+              "support": 400,
+              "fraction": 0.125,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da lay",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "den",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "lay du",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "xoa",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "hoi",
+              "support": 416,
+              "fraction": 0.13,
+              "p_positive": 0.9808,
+              "deviation_pp": 48.08
+            },
+            {
+              "gram": "unigram",
+              "token": "phuc",
+              "support": 488,
+              "fraction": 0.1525,
+              "p_positive": 0.9016,
+              "deviation_pp": 40.16
+            },
+            {
+              "gram": "unigram",
+              "token": "robot",
+              "support": 668,
+              "fraction": 0.2087,
+              "p_positive": 0.7964,
+              "deviation_pp": 29.64
+            },
+            {
+              "gram": "unigram",
+              "token": "da",
+              "support": 1740,
+              "fraction": 0.5437,
+              "p_positive": 0.2322,
+              "deviation_pp": 26.78
+            },
+            {
+              "gram": "unigram",
+              "token": "thuc",
+              "support": 504,
+              "fraction": 0.1575,
+              "p_positive": 0.7381,
+              "deviation_pp": 23.81
+            },
+            {
+              "gram": "unigram",
+              "token": "khoi",
+              "support": 664,
+              "fraction": 0.2075,
+              "p_positive": 0.2982,
+              "deviation_pp": 20.18
+            },
+            {
+              "gram": "unigram",
+              "token": "doi",
+              "support": 400,
+              "fraction": 0.125,
+              "p_positive": 0.67,
+              "deviation_pp": 17.0
+            },
+            {
+              "gram": "unigram",
+              "token": "dung",
+              "support": 408,
+              "fraction": 0.1275,
+              "p_positive": 0.3333,
+              "deviation_pp": 16.67
+            },
+            {
+              "gram": "unigram",
+              "token": "roi",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.6667,
+              "deviation_pp": 16.67
+            },
+            {
+              "gram": "bigram",
+              "token": "roi giao",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.6667,
+              "deviation_pp": 16.67
+            },
+            {
+              "gram": "unigram",
+              "token": "chi",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 0.335,
+              "deviation_pp": 16.5
+            },
+            {
+              "gram": "unigram",
+              "token": "hien",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.6634,
+              "deviation_pp": 16.34
+            },
+            {
+              "gram": "unigram",
+              "token": "thong",
+              "support": 420,
+              "fraction": 0.1313,
+              "p_positive": 0.3429,
+              "deviation_pp": 15.71
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "du",
+              "support": 936,
+              "fraction": 0.2925,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "du hang",
+              "support": 408,
+              "fraction": 0.1275,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "phuc hoi",
+              "support": 400,
+              "fraction": 0.125,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da lay",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "den",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "lay du",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "xoa",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "da nhan",
+              "support": 272,
+              "fraction": 0.085,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "nay",
+              "support": 272,
+              "fraction": 0.085,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nay da",
+              "support": 272,
+              "fraction": 0.085,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan du",
+              "support": 272,
+              "fraction": 0.085,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo buoc",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "huy va",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong bo",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "luc",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan them",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "them",
+              "support": 268,
+              "fraction": 0.0838,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chi la",
+              "support": 264,
+              "fraction": 0.0825,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "den lay",
+              "support": 264,
+              "fraction": 0.0825,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "hang da",
+              "support": 264,
+              "fraction": 0.0825,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 178,
+          "num_shortcuts_gt_10pp": 194
+        },
+        "urgent": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "ngay",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "tien ngay",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "toc uu",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo xu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "buoc xu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can uu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chuyen lich",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cung bo",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cung buoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "huy lich",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "huy yeu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong cho",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "thuong va",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "toc chuyen",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "va yeu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "che do",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cuoi go",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "do hoa",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "don khoi",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "don sang",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "ngay",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "tien ngay",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "toc uu",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo xu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "buoc xu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can uu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chuyen lich",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cung bo",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cung buoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "huy lich",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "huy yeu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong cho",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "thuong va",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "toc chuyen",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "va yeu",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "che do",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cuoi go",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "do hoa",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "don khoi",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "don sang",
+              "support": 396,
+              "fraction": 0.1237,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 50,
+          "num_shortcuts_gt_10pp": 54
+        },
+        "fragile": {
+          "large_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "nhe",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "van chuyen",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bac bo",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bi bac",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo xin",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can chong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham bi",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham duoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "chong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chong xoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chuyen thuong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc xac",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc xoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong chua",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "kien chua",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "kien khong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan xin",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhe tay",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "xin nhe",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "xin van",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "medium_support_shortcuts_top20": [
+            {
+              "gram": "unigram",
+              "token": "nhe",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "van chuyen",
+              "support": 800,
+              "fraction": 0.25,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bac bo",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bi bac",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "bo xin",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "can chong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham bi",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "cham duoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "unigram",
+              "token": "chong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chong xoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "chuyen thuong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc xac",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "duoc xoc",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "khong chua",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "kien chua",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "kien khong",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhan xin",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "nhe tay",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "xin nhe",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 1.0,
+              "deviation_pp": 50.0
+            },
+            {
+              "gram": "bigram",
+              "token": "xin van",
+              "support": 404,
+              "fraction": 0.1263,
+              "p_positive": 0.0,
+              "deviation_pp": 50.0
+            }
+          ],
+          "num_unigram_or_bigram_shortcuts_gt_20pp": 47,
+          "num_shortcuts_gt_10pp": 52
+        }
+      }
+    }
+  },
+  "warnings": [
+    "Association is not causality; sometimes label-bearing phrases must correlate with correct meaning",
+    "Families differ in wording; challenge had only two families",
+    "10 invariant cues do not prevent shortcuts involving other ngrams"
+  ]
+}

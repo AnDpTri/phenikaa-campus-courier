@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_25_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0243601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243647",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243653",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243768",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243831",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243888",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'dorm' (\"huan luyen vien... vua chuyen sang o o gna ham gui xe nhat\")"
+    },
+    {
+      "id": "v4_0243893",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243911",
+      "status": "U",
+      "reason": "Contradictory urgency: \"can gap\" vs \"khong vi phai nhanh\""
+    },
+    {
+      "id": "v4_0243925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0243994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244080",
+      "status": "F",
+      "reason": "goal type: provided 'sports' should be '-' (\"giao vien the duc can bo tai lieu\")"
+    },
+    {
+      "id": "v4_0244091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0244119",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

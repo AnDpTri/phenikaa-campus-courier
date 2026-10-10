@@ -1,0 +1,52 @@
+v4_0296024	P	-
+v4_0296040	P	-
+v4_0296065	P	-
+v4_0296068	P	-
+v4_0296080	P	-
+v4_0296083	P	-
+v4_0296090	P	-
+v4_0296105	P	-
+v4_0296120	P	-
+v4_0296121	P	-
+v4_0296124	P	-
+v4_0296148	U	"canh dong" / "giao oa" ambiguous or garbled directional wording
+v4_0296154	P	-
+v4_0296155	P	-
+v4_0296166	P	-
+v4_0296170	P	-
+v4_0296178	P	-
+v4_0296211	P	-
+v4_0296223	P	-
+v4_0296228	P	-
+v4_0296234	P	-
+v4_0296237	P	-
+v4_0296253	P	-
+v4_0296279	P	-
+v4_0296285	P	-
+v4_0296299	P	-
+v4_0296301	P	-
+v4_0296310	P	-
+v4_0296311	P	-
+v4_0296317	P	-
+v4_0296323	P	-
+v4_0296333	P	-
+v4_0296344	P	-
+v4_0296367	P	-
+v4_0296403	P	-
+v4_0296441	P	-
+v4_0296449	P	-
+v4_0296452	P	-
+v4_0296459	P	-
+v4_0296472	P	-
+v4_0296505	P	-
+v4_0296526	P	-
+v4_0296531	P	-
+v4_0296536	P	-
+v4_0296543	P	-
+v4_0296559	P	-
+v4_0296573	P	-
+v4_0296584	lecture/-/-	lecture/-/-	0	0	-
+v4_0296604	P	-
+v4_0296611	F	goal parking/near/canteen -> parking/-/canteen ("cach nha an sinh vine gan hon" lacks comparison anchor without explicit candidate, or comparative vs near)
+
+STDERR:

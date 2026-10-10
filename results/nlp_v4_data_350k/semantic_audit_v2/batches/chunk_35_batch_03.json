@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_35_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0340932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0340955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0340956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0340963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0340970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0340982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341046",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341077",
+      "status": "U",
+      "reason": "\"phong thi nghiem\" lacks destination type or has ambiguous goal head vs via syntax"
+    },
+    {
+      "id": "v4_0341085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341335",
+      "status": "F",
+      "reason": "goal type: sports -> canteen ('doi dai chi tu khu an uong sang giao cho huan luyen vien')"
+    },
+    {
+      "id": "v4_0341342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0341384",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

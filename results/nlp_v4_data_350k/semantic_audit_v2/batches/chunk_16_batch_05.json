@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_16_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0151922",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/east_most/-, corrected -/-/- (\"Diem Co Inh Do Lon Nhat Tren Ban Do\" is corrupted kinh do, but lacks clear extreme or is ambiguous)"
+    },
+    {
+      "id": "v4_0151930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151975",
+      "status": "F",
+      "reason": "via type/ref/anchor: provided canteen/near/parking, corrected canteen/anchor_near/parking (\"Anteen Lien Ke Cho De Xe\")"
+    },
+    {
+      "id": "v4_0151976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151992",
+      "status": "F",
+      "reason": "via type/ref/anchor: provided sports/far/library, corrected sports/-/- (\"san bong ro o dua xa khu thu vien\" - \"o dua xa\" is corrupted/garbled relative phrasing)"
+    },
+    {
+      "id": "v4_0151993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0151998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152003",
+      "status": "F",
+      "reason": "via type/ref/anchor: provided sports/near/canteen, corrected sports/-/- (\"Cach Khu Vuc Phuc Vu An Uong Sinh Vien Gan Hon Truoc\" is comparative without standard anchor syntax)"
+    },
+    {
+      "id": "v4_0152011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152016",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152037",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided library/near/dorm, corrected library/anchor_near/dorm (\"thu vien truong ilen ke nha ky tuc\")"
+    },
+    {
+      "id": "v4_0152038",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152089",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152201",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152241",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided gate/near/clinic, corrected gate/anchor_near/clinic (\"loi vao danh cho phuong tien co gioi o canh khu y te\")"
+    },
+    {
+      "id": "v4_0152251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152258",
+      "status": "U",
+      "reason": "\"giang doung on nhat khong tinh giang duong lon\" contains conflicting/unclear qualifiers for lecture building"
+    },
+    {
+      "id": "v4_0152286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152305",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0152362",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

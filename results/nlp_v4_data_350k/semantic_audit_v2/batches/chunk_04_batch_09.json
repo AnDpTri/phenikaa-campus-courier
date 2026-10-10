@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0034261",
+      "status": "F",
+      "reason": "goal type: provided - but corrected library ('nhan vien muon tra sach o o duoi nhat' but later 'nguoi nhan khong con o phong muon sach' and goal is absent/cancelled, or goal type/ref mismatch)"
+    },
+    {
+      "id": "v4_0034265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034351",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034368",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034407",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034410",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034531",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034537",
+      "status": "F",
+      "reason": "via type: provided dorm but corrected library ('nha luu tru')"
+    },
+    {
+      "id": "v4_0034542",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034560",
+      "status": "U",
+      "reason": "contradictory urgency cues ('can gap' vs 'khong gap lam')"
+    },
+    {
+      "id": "v4_0034561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034644",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0034696",
+      "status": "F",
+      "reason": "via type: provided dorm but corrected library ('nha luu tur' is library archive)"
+    },
+    {
+      "id": "v4_0034721",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

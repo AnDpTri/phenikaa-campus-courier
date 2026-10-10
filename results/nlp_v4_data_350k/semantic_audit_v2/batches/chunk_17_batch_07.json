@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0162935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162937",
+      "status": "F",
+      "reason": "goal type: provided 'library', corrected 'canteen' ('lay khay com truo,c roi mang thung nuoc uong toi cho nhan vien hu vien' - recipient is library staff, but destination is ambiguous or provided labels: via 'sports/east/-' vs text 'phong gym thuoc khu uc phai lay khay com truo,c' canteen vs gym; goal 'nhan vien hu vien' = library, but via is sports/east/-) -> F\tvia ref: provided 'east', corrected '-' ('khu uc phai' is corrupted/unclear)"
+    },
+    {
+      "id": "v4_0162974",
+      "status": "U",
+      "reason": "Text contains corrupted words ('dng cahn', 'ao tao cai o bca', 'hno ky nhe') making required office direction ambiguous"
+    },
+    {
+      "id": "v4_0162975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163005",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163104",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0163356",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

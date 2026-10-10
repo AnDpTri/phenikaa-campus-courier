@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0164256",
+      "status": "U",
+      "reason": "Cụm từ chỉ hướng bị lỗi chính tả/mất từ (\"phia an trung tam hi nghiem\") không rõ ràng"
+    },
+    {
+      "id": "v4_0164280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164295",
+      "status": "U",
+      "reason": "Người nhận là y tá nhưng chưa nêu rõ địa điểm đích đến cụ thể (chỉ nhắc may tinh bang la cua y ta)"
+    },
+    {
+      "id": "v4_0164297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164319",
+      "status": "F",
+      "reason": "via gate/near/office -> gate/-/- (cong truong chinh ngay gan bo phan mot cua giai quyet ho so, mot cua la office chu khong co hai cong de so sanh gan/xa)"
+    },
+    {
+      "id": "v4_0164336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164407",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164436",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164455",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164535",
+      "status": "U",
+      "reason": "Khong noi ro dia diem giao (chi bao mang laptop toi cho lop truong ma khong neu toa nha/phong nao)"
+    },
+    {
+      "id": "v4_0164539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164573",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164653",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164721",
+      "status": "U",
+      "reason": "Khong de cap den dia diem giao hang cu the (chi noi nguoi nhan la doi bong)"
+    },
+    {
+      "id": "v4_0164747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164803",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0164811",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

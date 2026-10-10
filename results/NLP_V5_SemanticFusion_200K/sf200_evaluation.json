@@ -1,0 +1,239 @@
+{
+  "experiment": "V5-SF200",
+  "status": "COMPLETE",
+  "configuration": {
+    "experiment": "V5-SF200",
+    "init_checkpoint": "D:\\phenikaa\\results\\nlp_neural_v2\\checkpoints\\seed_20261008_best.pt",
+    "epoch1_data": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_weighted_200k_20261010_a\\train_weighted_unified_200000_seed2026101060.jsonl",
+    "epoch2_data": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_epoch2_seed2026101061.jsonl",
+    "epochs": 2,
+    "batch": 64,
+    "real_repeat": 5,
+    "real_augment": 0,
+    "dim": 96,
+    "hidden": 192,
+    "learning_rate_peak": 5e-05,
+    "weight_decay": 0.0001,
+    "scheduler": "OneCycleLR",
+    "pct_start": 0.1,
+    "gradient_clip": 1,
+    "optimizer": "AdamW",
+    "precision": "float32",
+    "training_seed": 20261009,
+    "epoch1_data_seed": 2026101060,
+    "epoch2_data_seed": 2026101061,
+    "selection": "dev: 35% V2 holdout + 35% weighted holdout + 20% hard holdout + 10% real validation; guard vs baseline",
+    "note": "No final holdout used for checkpoint selection. New-only outputs under results."
+  },
+  "baseline_dev": {
+    "real_validation": {
+      "goal": 0.9,
+      "via": 0.8933333333333333,
+      "urgent": 0.87,
+      "fragile": 0.89,
+      "all": 0.6433333333333333,
+      "via_absent_n": 144,
+      "via_false_positive_rate": 0.0
+    },
+    "v2_heldout_phrasing": {
+      "goal": 0.615,
+      "via": 0.813,
+      "urgent": 0.96,
+      "fragile": 0.8655,
+      "all": 0.4445,
+      "via_absent_n": 1008,
+      "via_false_positive_rate": 0.06646825396825397
+    },
+    "weighted_heldout": {
+      "goal": 0.5475,
+      "via": 0.524375,
+      "urgent": 0.985,
+      "fragile": 0.6875,
+      "all": 0.26125,
+      "via_absent_n": 704,
+      "via_false_positive_rate": 0.19460227272727273
+    },
+    "hard_heldout": {
+      "goal": 0.5314285714285715,
+      "via": 0.41285714285714287,
+      "urgent": 0.9985714285714286,
+      "fragile": 0.5614285714285714,
+      "all": 0.15,
+      "via_absent_n": 343,
+      "via_false_positive_rate": 0.17201166180758018
+    }
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_loss": 2.7463742329946585,
+      "elapsed_seconds": 915.9,
+      "score_for_selection": 0.41789196428571423,
+      "guards": {
+        "dev_v2_via_no_catastrophic_drop": true,
+        "dev_v2_all_no_catastrophic_drop": true,
+        "real_via_no_catastrophic_drop": true
+      },
+      "guard_pass": true,
+      "dev_metrics": {
+        "real_validation": {
+          "goal": 0.93,
+          "via": 0.86,
+          "urgent": 0.8733333333333333,
+          "fragile": 0.89,
+          "all": 0.64,
+          "via_absent_n": 144,
+          "via_false_positive_rate": 0.0
+        },
+        "v2_heldout_phrasing": {
+          "goal": 0.724,
+          "via": 0.8445,
+          "urgent": 0.927,
+          "fragile": 0.8955,
+          "all": 0.532,
+          "via_absent_n": 1008,
+          "via_false_positive_rate": 0.04563492063492063
+        },
+        "weighted_heldout": {
+          "goal": 0.685625,
+          "via": 0.620625,
+          "urgent": 0.9775,
+          "fragile": 0.71,
+          "all": 0.346875,
+          "via_absent_n": 704,
+          "via_false_positive_rate": 0.07670454545454546
+        },
+        "hard_heldout": {
+          "goal": 0.6928571428571428,
+          "via": 0.5385714285714286,
+          "urgent": 1.0,
+          "fragile": 0.5614285714285714,
+          "all": 0.23142857142857143,
+          "via_absent_n": 343,
+          "via_false_positive_rate": 0.06997084548104957
+        }
+      },
+      "checkpoint": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_e1.pt"
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.10359917991161346,
+      "elapsed_seconds": 849.4,
+      "score_for_selection": 0.4209452380952381,
+      "guards": {
+        "dev_v2_via_no_catastrophic_drop": true,
+        "dev_v2_all_no_catastrophic_drop": true,
+        "real_via_no_catastrophic_drop": true
+      },
+      "guard_pass": true,
+      "dev_metrics": {
+        "real_validation": {
+          "goal": 0.93,
+          "via": 0.8533333333333334,
+          "urgent": 0.8766666666666667,
+          "fragile": 0.89,
+          "all": 0.6366666666666667,
+          "via_absent_n": 144,
+          "via_false_positive_rate": 0.0
+        },
+        "v2_heldout_phrasing": {
+          "goal": 0.741,
+          "via": 0.8445,
+          "urgent": 0.9285,
+          "fragile": 0.896,
+          "all": 0.541,
+          "via_absent_n": 1008,
+          "via_false_positive_rate": 0.041666666666666664
+        },
+        "weighted_heldout": {
+          "goal": 0.689375,
+          "via": 0.62125,
+          "urgent": 0.978125,
+          "fragile": 0.713125,
+          "all": 0.35,
+          "via_absent_n": 704,
+          "via_false_positive_rate": 0.06676136363636363
+        },
+        "hard_heldout": {
+          "goal": 0.6942857142857143,
+          "via": 0.5257142857142857,
+          "urgent": 1.0,
+          "fragile": 0.5614285714285714,
+          "all": 0.22714285714285715,
+          "via_absent_n": 343,
+          "via_false_positive_rate": 0.0641399416909621
+        }
+      },
+      "checkpoint": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_e2.pt"
+    }
+  ],
+  "selection_policy": "Dev only; final holdout evaluated after selection",
+  "epoch_data_sha256": [
+    "da03ac6bb3498b177ed238855489212c23df895beb4b675b7920f5ea15b1645a",
+    "96c2c136bf79d66d7846bd28fbd6867ee843a4ed562cf9a5cd91d1f405c7a266"
+  ],
+  "trainer_source": "new results-only train_sf200.py",
+  "steps_per_epoch": 3282,
+  "selected_epoch": 2,
+  "passes_v2_regression_guards": true,
+  "selected_checkpoint": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_best.pt",
+  "final_v2_seed0": {
+    "final_v2_holdout": {
+      "goal": 0.6106666666666667,
+      "via": 0.8053333333333333,
+      "urgent": 0.9423333333333334,
+      "fragile": 0.867,
+      "all": 0.43533333333333335,
+      "via_absent_n": 1477,
+      "via_false_positive_rate": 0.09004739336492891
+    },
+    "final_weighted_holdout": {
+      "goal": 0.5415,
+      "via": 0.508,
+      "urgent": 0.981,
+      "fragile": 0.6605,
+      "all": 0.2425,
+      "via_absent_n": 898,
+      "via_false_positive_rate": 0.22717149220489977
+    },
+    "final_hard_holdout": {
+      "goal": 0.534,
+      "via": 0.4,
+      "urgent": 0.997,
+      "fragile": 0.543,
+      "all": 0.151,
+      "via_absent_n": 479,
+      "via_false_positive_rate": 0.18789144050104384
+    }
+  },
+  "final_v5_sf200": {
+    "final_v2_holdout": {
+      "goal": 0.7266666666666667,
+      "via": 0.8383333333333334,
+      "urgent": 0.9186666666666666,
+      "fragile": 0.9046666666666666,
+      "all": 0.5313333333333333,
+      "via_absent_n": 1477,
+      "via_false_positive_rate": 0.05484089370345294
+    },
+    "final_weighted_holdout": {
+      "goal": 0.6965,
+      "via": 0.634,
+      "urgent": 0.971,
+      "fragile": 0.679,
+      "all": 0.3385,
+      "via_absent_n": 898,
+      "via_false_positive_rate": 0.07126948775055679
+    },
+    "final_hard_holdout": {
+      "goal": 0.715,
+      "via": 0.519,
+      "urgent": 1.0,
+      "fragile": 0.543,
+      "all": 0.223,
+      "via_absent_n": 479,
+      "via_false_positive_rate": 0.04592901878914405
+    }
+  },
+  "final_caution": "Final holdouts come from heldout phrase banks but can share structural template families with dev. Do not treat these as hidden Kaggle performance."
+}

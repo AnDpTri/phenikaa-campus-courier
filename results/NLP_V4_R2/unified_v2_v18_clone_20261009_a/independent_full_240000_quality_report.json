@@ -1,0 +1,69 @@
+{
+  "status": "AUTOMATED_QA_COMPLETE_SEMANTIC_REVIEW_PENDING",
+  "row_counts": {
+    "v2_n": 200000,
+    "v2_via_present": 100095,
+    "v2_accented": 0,
+    "v2_via_without_truoc": 40063,
+    "v2_none_with_lay": 3028,
+    "hard_n": 40000,
+    "hard_via_present": 20666,
+    "hard_accented": 24006,
+    "hard_via_without_truoc": 16046,
+    "hard_none_with_lay": 10563,
+    "cross_v2_hard_exact_overlap": 0,
+    "combined_rows": 240000,
+    "negative_role_mentions": 28244,
+    "hard_former_pickup": 5888,
+    "hard_former_goal": 9456,
+    "hard_former_goal_with_via": 4884
+  },
+  "errors": {},
+  "lengths": {
+    "v2": {
+      "p50": 51,
+      "p90": 71,
+      "p99": 88,
+      "max": 119
+    },
+    "hard": {
+      "p50": 69,
+      "p90": 91,
+      "p99": 110,
+      "max": 141
+    }
+  },
+  "diversity": {
+    "v2_prefix8": 146819,
+    "hard_prefix8": 9790
+  },
+  "goal_modes": {
+    "named": 13671,
+    "near": 5506,
+    "east": 1570,
+    "west_most": 1248,
+    "north": 1590,
+    "north_most": 1145,
+    "west": 1593,
+    "anchor_near": 5584,
+    "east_most": 1182,
+    "far": 4043,
+    "south": 1683,
+    "south_most": 1185
+  },
+  "via_modes": {
+    "far": 1571,
+    "named": 13791,
+    "none": 19334,
+    "north": 844,
+    "east": 809,
+    "west": 830,
+    "near": 2026,
+    "south": 795
+  },
+  "samples_selected": 240,
+  "source_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "clone_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "seconds": 32.7,
+  "limitation": "Rule-based contracts and stratified reading do not prove 100% naturalness or downstream generalization."
+}

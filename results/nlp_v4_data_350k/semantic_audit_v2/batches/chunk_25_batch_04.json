@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_25_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0241374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241407",
+      "status": "F",
+      "reason": "via: parking/far/clinic -> parking/-/- (nho ghe ai gui xe cai ma xa phong y te truong lay micro khong day truoc: ai gui xe cai khong xac dinh ro far clinic ma la typo 'bai gui xe', va 'xa' o day la 'qua/va' hoac typo, tuy nhien 'cai ma xa phong y te' = far clinic, nhung doc ky: 'cai ma xa phong y te truong lay micro' = 'cai nha xe phong y te'?) -> Cho kiem tra ky: \"cai ma xa phong y te truong\": \"cai ma xa\" = \"cai ma gan/xa\"? \"cai ma xa phong y te truong\" nghia la cai o xa phong y te truong -> parking/far/clinic hop ly. Kiem tra goal: \"Chi nau bep dang cho micro khong day\" -> canteen/-/-. Urgent: \"Can gap!\" = 1. Fragile: 0. Vay v4_0241407 la P."
+    },
+    {
+      "id": "v4_0241413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241558",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241625",
+      "status": "U",
+      "reason": "\"khu ky tuc xa thu vien trung tam hon cai kia la noi can giao\" bi thieu tu chi quan he khoang cach (gan/xa hon) giua ky tuc xa va thu vien trung tam"
+    },
+    {
+      "id": "v4_0241633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241672",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241715",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241805",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241842",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241853",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0241867",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

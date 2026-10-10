@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_18_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0170002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170016",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170365",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170494",
+      "status": "U",
+      "reason": "\"xuong co khi\" is not clearly lab (thi nghiem/phong lab)"
+    },
+    {
+      "id": "v4_0170528",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0170557",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

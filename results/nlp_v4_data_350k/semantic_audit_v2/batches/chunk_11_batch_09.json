@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0103841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103845",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/east_most/- should be canteen/east_most/- (\"dau bep nau com trua sinh vien o dia diem nao do huong thang ve phuong dong xa hon moi vi tri\")"
+    },
+    {
+      "id": "v4_0103849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103889",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103893",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/south_most/- should be lab/south_most/- (\"nguoi phu trach phong thi nghiem o diem thap nhat\")"
+    },
+    {
+      "id": "v4_0103897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103912",
+      "status": "U",
+      "reason": "\"oa Ao\" typo obscures required goal building type"
+    },
+    {
+      "id": "v4_0103918",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0103999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104050",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104063",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided canteen/-/- should be office/-/- (\"ban photo la cua du bep\")"
+    },
+    {
+      "id": "v4_0104066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104305",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/east_most/- should be library/east_most/- (\"thu thu vua chuyen sang toa nao gan mep phai nhat\")"
+    },
+    {
+      "id": "v4_0104307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104322",
+      "status": "U",
+      "reason": "\"tram xa xa nha an tap the\" is ambiguous between far relative to canteen or a dispensary/clinic"
+    },
+    {
+      "id": "v4_0104326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0104336",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0262939	P	-
+v4_0262943	P	-
+v4_0262946	P	-
+v4_0262962	P	-
+v4_0262969	P	-
+v4_0262987	P	-
+v4_0263000	P	-
+v4_0263007	P	-
+v4_0263021	P	-
+v4_0263034	P	-
+v4_0263062	P	-
+v4_0263065	P	-
+v4_0263076	P	-
+v4_0263078	P	-
+v4_0263080	P	-
+v4_0263088	P	-
+v4_0263093	P	-
+v4_0263097	P	-
+v4_0263103	P	-
+v4_0263110	P	-
+v4_0263116	P	-
+v4_0263118	P	-
+v4_0263128	P	-
+v4_0263150	P	-
+v4_0263154	P	-
+v4_0263159	P	-
+v4_0263160	P	-
+v4_0263170	P	-
+v4_0263190	P	-
+v4_0263193	P	-
+v4_0263205	P	-
+v4_0263208	P	-
+v4_0263210	P	-
+v4_0263220	P	-
+v4_0263224	P	-
+v4_0263235	P	-
+v4_0263238	P	-
+v4_0263239	P	-
+v4_0263242	P	-
+v4_0263262	P	-
+v4_0263269	P	-
+v4_0263273	P	-
+v4_0263279	P	-
+v4_0263295	P	-
+v4_0263297	P	-
+v4_0263301	library/-/-	goal type: library -> -	thu thu (librarian) is recipient, no delivery place specified
+v4_0263307	-/west_most/-	goal ref: west_most -> -	le trai (left edge/side) is ordinary direction not extreme west_most
+v4_0263317	P	-
+v4_0263319	P	-
+v4_0263329	P	-
+
+STDERR:

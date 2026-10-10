@@ -1,0 +1,52 @@
+v4_0194541	P	-
+v4_0194547	P	-
+v4_0194556	P	-
+v4_0194581	P	-
+v4_0194590	P	-
+v4_0194608	P	-
+v4_0194611	P	-
+v4_0194618	P	-
+v4_0194626	F	urgent: provided 0, corrected 1 ('dang doi micro khong day gap')
+v4_0194628	P	-
+v4_0194632	P	-
+v4_0194634	P	-
+v4_0194640	P	-
+v4_0194656	P	-
+v4_0194662	P	-
+v4_0194681	P	-
+v4_0194683	P	-
+v4_0194687	P	-
+v4_0194692	P	-
+v4_0194707	P	-
+v4_0194715	P	-
+v4_0194716	P	-
+v4_0194726	P	-
+v4_0194728	P	-
+v4_0194730	P	-
+v4_0194742	P	-
+v4_0194748	P	-
+v4_0194756	F	goal type: provided office, corrected clinic ('phong mot ca')
+v4_0194769	P	-
+v4_0194775	P	-
+v4_0194805	P	-
+v4_0194808	P	-
+v4_0194812	P	-
+v4_0194819	P	-
+v4_0194822	P	-
+v4_0194825	P	-
+v4_0194826	P	-
+v4_0194858	F	via anchor: provided clinic, corrected gate ('sat bne phong cuu tuong' vs goal 'cach xa cong truong')
+v4_0194870	P	-
+v4_0194903	P	-
+v4_0194913	P	-
+v4_0194916	P	-
+v4_0194919	P	-
+v4_0194920	P	-
+v4_0194927	P	-
+v4_0194932	P	-
+v4_0194946	P	-
+v4_0194976	P	-
+v4_0194983	P	-
+v4_0194991	P	-
+
+STDERR:

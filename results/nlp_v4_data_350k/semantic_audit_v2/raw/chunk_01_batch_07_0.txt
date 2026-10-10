@@ -1,0 +1,52 @@
+v4_0002930	P	-
+v4_0002935	P	-
+v4_0002947	P	-
+v4_0002957	P	-
+v4_0002962	P	-
+v4_0002966	P	-
+v4_0002987	P	-
+v4_0002997	P	-
+v4_0003029	P	-
+v4_0003039	P	-
+v4_0003071	P	-
+v4_0003099	P	-
+v4_0003100	P	-
+v4_0003104	P	-
+v4_0003131	P	-
+v4_0003132	P	-
+v4_0003133	P	-
+v4_0003146	P	-
+v4_0003182	P	-
+v4_0003187	P	-
+v4_0003192	P	-
+v4_0003208	P	-
+v4_0003221	P	-
+v4_0003224	P	-
+v4_0003227	P	-
+v4_0003231	P	-
+v4_0003253	P	-
+v4_0003256	P	-
+v4_0003271	P	-
+v4_0003273	P	-
+v4_0003285	P	-
+v4_0003295	P	-
+v4_0003301	P	-
+v4_0003311	P	-
+v4_0003314	P	-
+v4_0003318	P	-
+v4_0003327	P	-
+v4_0003351	U	Text says 'dia diem cuc ay ca ban do' which is corrupted/garbled, making the direction/extreme position ambiguous.
+v4_0003353	F	goal type: provided 'lab', corrected '-' ('laptop la cua nhom nghien cuu' mentions the item owner/research group, not destination; no delivery goal location is specified).
+v4_0003385	U	'noi muon sach canh dong mia': 'canh dong mia' is ambiguous as a relative landmark/direction in the campus context.
+v4_0003387	P	-
+v4_0003389	P	-
+v4_0003390	P	-
+v4_0003414	P	-
+v4_0003418	P	-
+v4_0003439	P	-
+v4_0003457	P	-
+v4_0003479	U	'o cuoi ban do' is ambiguous between south_most and east_most.
+v4_0003515	P	-
+v4_0003518	P	-
+
+STDERR:

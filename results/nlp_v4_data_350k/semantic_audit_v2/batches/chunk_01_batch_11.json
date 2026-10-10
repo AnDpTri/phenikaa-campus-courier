@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_01_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0004894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0004999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005177",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005201",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005218",
+      "status": "F",
+      "reason": "goal type: provided 'library' but recipient is 'nhan vien thu vien' with no specific goal location mentioned, yet if inferred as library, urgent is 0 (luc nao ranh thi giao), fragile is 1 (co do thuy tinh). Wait, 'nhan vien thu vien nho gui goi hang' means employee sends parcel or receives?"
+    },
+    {
+      "id": "v4_0005232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005240",
+      "status": "U",
+      "reason": "contradictory urgency phrases: 'can gap bo vot' vs 'khong gap dau'"
+    },
+    {
+      "id": "v4_0005254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0005337",
+      "status": "U",
+      "reason": "'khu de xe an phong thuc tap hon' has destroyed/missing direction word ('an' typo for gan or something else, missing 'g' in gan)"
+    },
+    {
+      "id": "v4_0005345",
+      "status": "F",
+      "reason": "goal type: provided 'canteen' but text says 'cho co phu bep' which is canteen, wait, is that canteen?"
+    },
+    {
+      "id": "v4_0005367",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

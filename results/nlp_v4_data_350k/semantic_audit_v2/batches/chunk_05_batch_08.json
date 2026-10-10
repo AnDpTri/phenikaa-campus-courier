@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0043335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043375",
+      "status": "U",
+      "reason": "Ambiguous whether 'PHONG KHAM SUC KHOE' is clinic anchor, negation or destination modifier"
+    },
+    {
+      "id": "v4_0043379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043488",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043509",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043596",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043699",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043754",
+      "status": "U",
+      "reason": "'ira trai' is corrupted/unclear direction or boundary reference"
+    },
+    {
+      "id": "v4_0043779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043845",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043903",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

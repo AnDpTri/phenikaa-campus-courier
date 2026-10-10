@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_20_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0194019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194084",
+      "status": "F",
+      "reason": "goal type: canteen -> - (\"co cap duong nho gui lo hang hong tha\")"
+    },
+    {
+      "id": "v4_0194090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194102",
+      "status": "F",
+      "reason": "goal type: - -> parking (\"bac bao ve trong giu xe truong o rut ra cong trinh cach diem tua khu hanh chinh it buoc nhat\")"
+    },
+    {
+      "id": "v4_0194103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194235",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194293",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194446",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194485",
+      "status": "U",
+      "reason": "Contradictory urgency cues (\"dang doi chai nuoc gap\" vs \"khnog voi dau\")"
+    },
+    {
+      "id": "v4_0194493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0194538",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

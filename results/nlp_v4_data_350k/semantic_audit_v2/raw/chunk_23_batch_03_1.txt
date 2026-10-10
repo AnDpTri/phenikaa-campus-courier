@@ -1,0 +1,52 @@
+v4_0221022	P	-
+v4_0221024	P	-
+v4_0221059	P	-
+v4_0221063	P	-
+v4_0221092	P	-
+v4_0221094	P	-
+v4_0221108	P	-
+v4_0221134	P	-
+v4_0221145	P	-
+v4_0221150	P	-
+v4_0221170	P	-
+v4_0221174	P	-
+v4_0221178	P	-
+v4_0221183	P	-
+v4_0221214	P	-
+v4_0221220	P	-
+v4_0221227	P	-
+v4_0221240	P	-
+v4_0221246	P	-
+v4_0221259	P	-
+v4_0221285	P	-
+v4_0221309	P	-
+v4_0221316	P	-
+v4_0221324	P	-
+v4_0221364	P	-
+v4_0221370	P	-
+v4_0221388	P	-
+v4_0221392	P	-
+v4_0221395	P	-
+v4_0221398	P	-
+v4_0221403	P	-
+v4_0221409	P	-
+v4_0221418	P	-
+v4_0221425	P	-
+v4_0221431	P	-
+v4_0221439	P	-
+v4_0221457	P	-
+v4_0221459	F	goal type/ref/anchor: provided -/anchor_near/gate, corrected dorm/near/gate ('Nguoi o ktx o toa hang xom cua loi ra can ho so')
+v4_0221462	U	'lech ve trai nhat' is west-most only under specific map orientation convention, but left/right is not an established compass direction or explicit map convention
+v4_0221484	P	-
+v4_0221503	P	-
+v4_0221521	P	-
+v4_0221533	P	-
+v4_0221534	P	-
+v4_0221554	P	-
+v4_0221563	P	-
+v4_0221573	P	-
+v4_0221575	P	-
+v4_0221585	P	-
+v4_0221588	P	-
+
+STDERR:

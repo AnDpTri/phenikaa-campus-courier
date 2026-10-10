@@ -1,0 +1,30 @@
+{
+  "source_file": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\retained_swap_38833_TRAINABLE_reindexed.jsonl",
+  "output_file": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_200000_quality_v2_reindexed.jsonl",
+  "id_lookup": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_200000_quality_v2_id_lookup.csv",
+  "excluded_file": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_200000_quality_v2_excluded.csv",
+  "input_rows": 338071,
+  "selected_rows": 200000,
+  "excluded_rows": 138071,
+  "new_data_kept": 34382,
+  "old_data_kept": 165618,
+  "new_data_excluded": 4451,
+  "seed": 20461011,
+  "strata": 384,
+  "quality_indicators_before": {
+    "repeated_4gram": 4121,
+    "long_over80": 3781
+  },
+  "quality_indicators_after": {
+    "repeated_4gram": 0,
+    "long_over80": 1381
+  },
+  "repeat_rate_before": 0.012189747124124814,
+  "repeat_rate_after": 0.0,
+  "source_hash": "5f1bcba1ce7d53579ee15c9d21052d21bf03b62fb0531d2c91cc18af9af67ac6",
+  "output_hash": "4c2c54e46adedbd91e73d80b87ea77daa6b03a3b3b31c011fa6dab4f2654670e",
+  "training_compatible": true,
+  "id_prefix": "v4best_",
+  "selection": "Proportional quotas per (goal.ref,via.ref,urgent,fragile). Rank for clean language, informative non-rare vocabulary, length and heavy penalty to repeating four-grams. Modest boost for newly collected, structurally audited candidate rows. Seeded shuffle and reindex.",
+  "limitations": "Quality ranking heuristic; not evidence of improved validation/holdout or optimal model accuracy."
+}

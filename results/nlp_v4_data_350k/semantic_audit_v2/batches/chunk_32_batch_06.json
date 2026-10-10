@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0312439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312464",
+      "status": "U",
+      "reason": "Nguoi trong xe can laptop khong ro la bai xe hay chi la xe dang o do; thong tin diem den khong ro rang"
+    },
+    {
+      "id": "v4_0312480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312528",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312731",
+      "status": "U",
+      "reason": "noi o cua sinh vien nam xa phong thuc nghiem thieu moc so sanh cu the hoac loai doi tuong doi chieu"
+    },
+    {
+      "id": "v4_0312741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312783",
+      "status": "F",
+      "reason": "goal type: dorm -> - (ban tu quan ktx chi la nguoi nho gui, khong co diem den giao hang)"
+    },
+    {
+      "id": "v4_0312790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312917",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

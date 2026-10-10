@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0266529",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266720",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266768",
+      "status": "U",
+      "reason": "\"ngay di\" contradicts \"Khong co gi gap\" / default urgency, causing ambiguity"
+    },
+    {
+      "id": "v4_0266773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266874",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0266986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267039",
+      "status": "U",
+      "reason": "\"xa hon ngay\" contains ambiguous \"ngay\" (immediately vs right away) or unexpressed urgent flag conflicting with urgent=0"
+    },
+    {
+      "id": "v4_0267052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267094",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

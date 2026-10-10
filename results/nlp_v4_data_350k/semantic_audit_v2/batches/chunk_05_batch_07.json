@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0042840",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected 'U' (khong can toi ... thong tha coi chung vo nhe nho he)"
+    },
+    {
+      "id": "v4_0042844",
+      "status": "F",
+      "reason": "goal: provided '-/south_most/-', corrected 'dorm/south_most/-' (ban quan ly ky tuc xa o nut ma o mep duoi cung)"
+    },
+    {
+      "id": "v4_0042852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043016",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected '1' (Cna gap oi hang truoc cua toa)"
+    },
+    {
+      "id": "v4_0043029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043046",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043271",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043293",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043327",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected '1' (Phong ke hoach dang doi bo bang gac gap)"
+    },
+    {
+      "id": "v4_0043331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0043334",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

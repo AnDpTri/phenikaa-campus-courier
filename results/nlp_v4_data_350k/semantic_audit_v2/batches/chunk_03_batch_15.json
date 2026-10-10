@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_03_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0026905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026953",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026962",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Lop dang hoc dang doi ket nuoc ngot gap')"
+    },
+    {
+      "id": "v4_0026966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026991",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0026996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027201",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027296",
+      "status": "U",
+      "reason": "Missing goal location; 'chuyn vien vua dat dung cu tap luyen' leaves destination unspecified"
+    },
+    {
+      "id": "v4_0027301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027306",
+      "status": "U",
+      "reason": "Missing goal location after visiting canteen; 'ky thuat vien nho gui may tinh bang' leaves destination absent"
+    },
+    {
+      "id": "v4_0027310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027340",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

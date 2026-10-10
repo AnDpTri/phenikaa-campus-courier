@@ -1,0 +1,53 @@
+v4_0264876	F	goal type: provided lab, text specifies xuong co khi (office/lab/production? xuong co khi is lab/workshop, but wait: "Can bo hanh chinh hien dang o xuong co khi" -> recipient at xuong co khi = lab, "dung nham voi khu phuc vu bua trua sinh vien" = not canteen. Provided lab/-/-. But wait! Is xuong co khi lab? Yes. Wait, "Khong vi phi nhanh" -> urgent 0. "chen su" -> fragile 1. Wait, let's check: "dung nham voi khu phuc vu bua trua... Can bo hanh chinh hien dang o xuong co khi... Khong vi phi nhanh... chen su". Goal: lab, via: -, urgent 0, fragile 1. Provided: lab/-/- -/-/- 0 1 -> P? Wait! Can bo hanh chinh (officer) is at xuong co khi (workshop/lab). Reason: -)
+v4_0264876	P	-
+v4_0264877	P	-
+v4_0264890	F	goal type: provided gate, text specifies giang duong (lecture)
+v4_0264891	P	-
+v4_0264899	P	-
+v4_0264910	P	-
+v4_0264925	P	-
+v4_0264937	P	-
+v4_0264938	P	-
+v4_0264941	P	-
+v4_0264959	P	-
+v4_0264968	P	-
+v4_0264978	P	-
+v4_0264997	P	-
+v4_0265002	P	-
+v4_0265015	P	-
+v4_0265019	P	-
+v4_0265028	P	-
+v4_0265042	P	-
+v4_0265047	P	-
+v4_0265059	P	-
+v4_0265063	P	-
+v4_0265064	P	-
+v4_0265066	P	-
+v4_0265067	P	-
+v4_0265069	P	-
+v4_0265081	P	-
+v4_0265083	P	-
+v4_0265102	P	-
+v4_0265109	P	-
+v4_0265142	P	-
+v4_0265144	P	-
+v4_0265146	P	-
+v4_0265149	P	-
+v4_0265155	P	-
+v4_0265179	P	-
+v4_0265180	P	-
+v4_0265187	P	-
+v4_0265202	P	-
+v4_0265216	P	-
+v4_0265223	P	-
+v4_0265237	P	-
+v4_0265251	P	-
+v4_0265264	P	-
+v4_0265266	P	-
+v4_0265279	P	-
+v4_0265303	P	-
+v4_0265310	P	-
+v4_0265314	P	-
+v4_0265360	P	-
+
+STDERR:

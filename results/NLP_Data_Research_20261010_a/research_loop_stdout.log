@@ -1,0 +1,19 @@
+RESEARCH_LOOP_BEGIN 2026-10-09T19:25:58.224573+00:00 CYCLES 25 min_wall_clock_hours 4.0
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_000.json e1 0.6229 e2 0.7812 pair_e1 0.2458 pair_e2 0.5625 fresh_probe v2 49.56
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_001.json e1 0.6167 e2 0.7812 pair_e1 0.2333 pair_e2 0.5625 fresh_probe weighted 54.22
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_002.json e1 0.6292 e2 0.7833 pair_e1 0.2583 pair_e2 0.5667 fresh_probe hard 51.67
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_003.json e1 0.6208 e2 0.7604 pair_e1 0.2417 pair_e2 0.5208 fresh_probe v2 49.89
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_004.json e1 0.6271 e2 0.7854 pair_e1 0.2542 pair_e2 0.5708 fresh_probe weighted 53.11
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_005.json e1 0.6188 e2 0.7792 pair_e1 0.2375 pair_e2 0.5583 fresh_probe hard 50.89
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_006.json e1 0.6188 e2 0.7729 pair_e1 0.2375 pair_e2 0.5458 fresh_probe v2 51.11
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_007.json e1 0.6208 e2 0.7792 pair_e1 0.2417 pair_e2 0.5583 fresh_probe weighted 53.78
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_008.json e1 0.6292 e2 0.7604 pair_e1 0.2583 pair_e2 0.5208 fresh_probe hard 52.0
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_009.json e1 0.625 e2 0.7958 pair_e1 0.25 pair_e2 0.5917 fresh_probe v2 52.44
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_010.json e1 0.6167 e2 0.7604 pair_e1 0.2333 pair_e2 0.5208 fresh_probe weighted 55.44
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_011.json e1 0.6333 e2 0.7729 pair_e1 0.2667 pair_e2 0.5458 fresh_probe hard 48.89
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_012.json e1 0.6146 e2 0.7688 pair_e1 0.2292 pair_e2 0.5375 fresh_probe v2 52.67
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_013.json e1 0.625 e2 0.7688 pair_e1 0.25 pair_e2 0.5375 fresh_probe weighted 57.78
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_014.json e1 0.6229 e2 0.7875 pair_e1 0.2458 pair_e2 0.575 fresh_probe hard 52.89
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_015.json e1 0.6104 e2 0.7688 pair_e1 0.2208 pair_e2 0.5375 fresh_probe v2 49.56
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_016.json e1 0.6208 e2 0.7708 pair_e1 0.2417 pair_e2 0.5417 fresh_probe weighted 55.78
+RESEARCH_CHECKPOINT D:\phenikaa\results\NLP_Data_Research_20261010_a\checkpoints\round_017.json e1 0.6208 e2 0.7833 pair_e1 0.2417 pair_e2 0.5667 fresh_probe hard 48.89

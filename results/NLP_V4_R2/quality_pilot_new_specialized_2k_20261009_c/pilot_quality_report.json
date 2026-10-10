@@ -1,0 +1,756 @@
+{
+  "status": "PILOT_UNAUDITED_HUMAN_SEMANTICS",
+  "description": "2k genuinely new compositional specialized missions, generated without old40k templates or training/validation/test sentences",
+  "generator_seed": 202610091,
+  "count": 2000,
+  "source_reference_only": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\incoming_40000.jsonl",
+  "stats": {
+    "n": 2000,
+    "via_none": 1040,
+    "goal_named": 636,
+    "accents": 1185,
+    "via_has_truoc": 330,
+    "via_without_truoc": 630,
+    "none_has_lay": 516,
+    "none_total": 1040,
+    "via_total": 960,
+    "token_count_sum": 203978,
+    "via_north": 55,
+    "goal_anchor_near": 287,
+    "goal_south_most": 69,
+    "via_named": 617,
+    "goal_west_most": 75,
+    "via_near": 94,
+    "goal_east_most": 69,
+    "goal_near": 275,
+    "goal_west": 69,
+    "goal_north_most": 72,
+    "goal_far": 177,
+    "via_west": 47,
+    "goal_north": 85,
+    "via_east": 42,
+    "via_south": 58,
+    "goal_south": 82,
+    "via_far": 47,
+    "goal_east": 104
+  },
+  "token_percentiles": {
+    "p10": 76,
+    "p50": 103,
+    "p90": 126,
+    "p99": 141,
+    "max": 149
+  },
+  "samples": [
+    {
+      "row": {
+        "id": "specnew_000001",
+        "text": "Mình gửi yêu cầu này nhé. đơn này giao tại cổng phụ. Đơn này chỉ có một điểm giao; không bố trí điểm ghé để lấy thêm. Đây là đơn khẩn, xử lý ngay khi nhận. Đây là đồ dễ bể, không được xếp chồng mạnh. Địa điểm ký túc xá sinh viên chỉ dùng làm mốc tham khảo, không phải điểm đến. Hôm qua đã chuyển đồ qua khu gửi xe đạp; chuyện đó thuộc đơn trước. Không giao và cũng không gom thêm hàng ở nhà ăn trung tâm. Mình cảm ơn.",
+        "goal": {
+          "type": "gate",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "cổng phụ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000068",
+        "text": "he thong tung ghi sai dich la trung tam y te; dia chi chinh thuc nam trong lenh nay. alo doi giao nhan. robot nhan tap bieu mau tai noi xuat phat. bay gio dua tap bieu mau toi nguoi nhan o toa ky tuc nam o ve huong dong tren so do. khong co chang lay them. ban dau duoc bao co the cho, nay doi thanh uu tien giao ngay. xin bo qua nhung ghi chu khong lien quan toi lo trinh. trang thai de vo trong phieu cu la nham lan. vay la du thong tin.",
+        "goal": {
+          "type": "dorm",
+          "ref": "east",
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "east",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "tòa ký túc nằm ở về hướng đông trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000135",
+        "text": "nho xu ly chuyen giao sau. don nay giao tai day nha o sinh vien nam o phia bac tren so do. chi thuc hien hanh trinh den dich; khong ghe diem gom hang nao. dung giao nham toi phong thi nghiem, day la noi khong lien quan. he thong tung ghi sai dich la bai do phuong tien; dia chi chinh thuc nam trong lenh nay. chuyen nay phai xu ly som nhat co the. ben trong chi co tai lieu ben, khong so va cham. don hang da duoc dong goi. dia chi cu ghi chot bao ve nhung da bi huy, bo qua dia diem ay. cam on nhieu.",
+        "goal": {
+          "type": "dorm",
+          "ref": "north",
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "north",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "dãy nhà ở sinh viên nằm ở phía bắc trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000202",
+        "text": "ban cu ghi giao ngay, ban chinh thuc khong can voi. alo doi giao nhan. hang phu tui do ca nhan duoc lay o khu so cuu; viec giao hang la phat tai lieu giang day o vi tri ngoai cung ben trai ban do. mot nguoi nhan nha giang day, nhung do la thong tin cua don khac. dia chi cu ghi san bong ro nhung da bi huy, bo qua dia diem ay. nho kiem tra lai giup.",
+        "goal": {
+          "type": null,
+          "ref": "west_most",
+          "anchor": null
+        },
+        "via": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "west_most",
+        "via_mode": "named",
+        "via_phrase": "khu sơ cứu",
+        "accented": false,
+        "goal_phrase": "vị trí ngoài cùng bên trái bản đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000269",
+        "text": "lenh giao hang vua cap nhat. minh can robot vao van phong khoa gom tai lieu giang day; diem ban giao cuoi cung: giao thung linh kien den nha o tap the. chuyen cu tung ghe phong kham; lan nay khong can ghe dia chi cu. khong giao va cung khong gom them hang o chot bao ve. da dinh chinh: khong co vat lieu de be. chuyen nay phai xu ly som nhat co the. phieu moi co hieu luc ke tu luc nay. vay la du thong tin.",
+        "goal": {
+          "type": "dorm",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "office",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "named",
+        "via_phrase": "văn phòng khoa",
+        "accented": false,
+        "goal_phrase": "nhà ở tập thể"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000336",
+        "text": "dia chi cu ghi cong phia san truong nhung da bi huy, bo qua dia diem ay. thong tin don hang moi day. giao kien hang den o nam xa nhat ve phia tay. hang da du tu dau, robot di thang den noi nhan. thong tin tren thung da duoc xac nhan. co thay doi: tu khong voi thanh can hoan thanh ngay. trang thai de vo trong phieu cu la nham lan. nho bao khi xong.",
+        "goal": {
+          "type": null,
+          "ref": "west_most",
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "west_most",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "ô nằm xa nhất về phía tây"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000403",
+        "text": "luc dau tuong do su, thuc te la giay to thong thuong. thong tin don hang moi day. nguoi nhan doi kien bo dung cu tai o nam xa nhat ve phia tay. mot khau nua can lam: lay kien hang tai kho giao trinh, roi chuyen sang khau giao. dung giao nham toi cong phia san truong, day la noi khong lien quan. don nay khong co han chot gap. dia diem xuong ky thuat chi dung lam moc tham khao, khong phai diem den. nho kiem tra lai giup.",
+        "goal": {
+          "type": null,
+          "ref": "west_most",
+          "anchor": null
+        },
+        "via": {
+          "type": "library",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "west_most",
+        "via_mode": "named",
+        "via_phrase": "kho giáo trình",
+        "accented": false,
+        "goal_phrase": "ô nằm xa nhất về phía tây"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000470",
+        "text": "Robot nhận lệnh giúp mình. chuyển hộp thuốc sang quầy cơm. Hàng đã đủ từ đầu, robot đi thẳng đến nơi nhận. Địa điểm trung tâm thể chất chỉ dùng làm mốc tham khảo, không phải điểm đến. Một người nhắn phòng hành chính, nhưng đó là thông tin của đơn khác. Kiện hàng chắc chắn, không thuộc loại dễ vỡ. Robot giữ nguyên số lượng kiện theo phiếu giao. Đừng hiểu nhầm đơn này là việc khẩn. Nhờ làm đúng chỉ dẫn.",
+        "goal": {
+          "type": "canteen",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "quầy cơm"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000537",
+        "text": "Tôi có một chuyến chuyển hàng. Việc đầu tiên là tìm bãi gửi xe nằm ở về hướng bắc trên sơ đồ để nhận túi mẫu thí nghiệm. Kế tiếp mới thực hiện việc giao: giao thẻ sinh viên đến chốt bảo vệ nằm ở phía nam trên sơ đồ. Đây là đơn khẩn, xử lý ngay khi nhận. Hôm qua đã chuyển đồ qua bếp ăn tập thể; chuyện đó thuộc đơn trước. Phiếu giao có kèm chữ ký của bên nhận. Lúc đầu tưởng đồ sứ, thực tế là giấy tờ thông thường. Bạn nhớ loại nhà giảng dạy khỏi danh sách điểm nhận hàng nhé. Xử lý đúng địa điểm giúp mình.",
+        "goal": {
+          "type": "gate",
+          "ref": "south",
+          "anchor": null
+        },
+        "via": {
+          "type": "parking",
+          "ref": "north",
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "south",
+        "via_mode": "north",
+        "via_phrase": "bãi gửi xe nằm ở về hướng bắc trên sơ đồ",
+        "accented": true,
+        "goal_phrase": "chốt bảo vệ nằm ở phía nam trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000604",
+        "text": "Robot giúp tôi một chuyến. đưa hộp vật tư tới người nhận ở khu luyện tập. Không có điểm dừng nhận hàng trung gian nào. Chuyến này phải xử lý sớm nhất có thể. Đi ngang căn tin trường cũng được nhưng không dừng nhận hàng ở đó. Có thông báo quầy mượn sách đang đóng cửa, đừng đổi đích sang nơi ấy. Vật chứa kính mỏng nên phải vận chuyển cẩn thận. Người gửi sẽ đối chiếu mã đơn khi robot hoàn tất. Đừng nhầm thông tin cũ nữa nhé.",
+        "goal": {
+          "type": "sports",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "khu luyện tập"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000671",
+        "text": "toi co mot chuyen chuyen hang. tach ra hai chang: diem lay phu la khu luu tru noi tru. khi da nhan hop thiet bi, chuyen ho so xet duyet sang san bong ro nam gan bai do phuong tien hon dia diem cung loai con lai. lenh moi thay lenh cu: khong duoc cham tre. dia diem phong thi nghiem chi dung lam moc tham khao, khong phai diem den. co thong bao kho giao trinh dang dong cua, dung doi dich sang noi ay. dia diem tram y te chi dung lam moc tham khao, khong phai diem den. nho lam dung chi dan.",
+        "goal": {
+          "type": "sports",
+          "ref": "near",
+          "anchor": "parking"
+        },
+        "via": {
+          "type": "dorm",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "near",
+        "via_mode": "named",
+        "via_phrase": "khu lưu trú nội trú",
+        "accented": false,
+        "goal_phrase": "sân bóng rổ nằm gần bãi đỗ phương tiện hơn địa điểm cùng loại còn lại"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000738",
+        "text": "Robot giúp tôi một chuyến. chuyển phong bì sang khu luyện tập. Khi đi, robot vòng đến phòng y tế trường nằm ở về hướng nam trên sơ đồ gom thùng linh kiện, sau đó mới đến nơi giao. Phiếu mới có hiệu lực kể từ lúc này. Kiện hàng chắc chắn, không thuộc loại dễ vỡ. Chuyến cũ từng ghé ký túc xá sinh viên; lần này không cần ghé địa chỉ cũ. Địa điểm phòng thí nghiệm chỉ dùng làm mốc tham khảo, không phải điểm đến. Lịch giao được nới, có thể xử lý cuối ngày. Cảm ơn nhiều.",
+        "goal": {
+          "type": "sports",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "clinic",
+          "ref": "south",
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "south",
+        "via_phrase": "phòng y tế trường nằm ở về hướng nam trên sơ đồ",
+        "accented": true,
+        "goal_phrase": "khu luyện tập"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000805",
+        "text": "dia chi cu ghi tram gac cong nhung da bi huy, bo qua dia diem ay. robot doc lai yeu cau giup. co hai viec theo thu tu: nhan ho so xet duyet o xuong ky thuat; ke tiep, diem ket thuc don hang dat tai diem sat ria nam nhat cua ban do. trong ban nhap co nhac den khu luyen tap; du kien nay khong con hieu luc. lenh moi thay lenh cu: khong duoc cham tre. chi xu ly cac yeu cau trong don nay. do gom ben trong co the vo neu roi. mot nguoi nhan bai do phuong tien, nhung do la thong tin cua don khac. nho lam dung chi dan.",
+        "goal": {
+          "type": null,
+          "ref": "south_most",
+          "anchor": null
+        },
+        "via": {
+          "type": "lab",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "south_most",
+        "via_mode": "named",
+        "via_phrase": "xưởng kỹ thuật",
+        "accented": false,
+        "goal_phrase": "điểm sát rìa nam nhất của bản đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000872",
+        "text": "Thông tin đơn hàng mới đây. Bên trong hai trạm y tế, chọn nơi ở xa bãi gửi xe hơn đang chờ robot tới nhận tài liệu giảng dạy. Sau đó cần mang kiện hàng tới khu luyện tập nằm ở bên trái trên sơ đồ. Đi ngang phòng thí nghiệm cũng được nhưng không dừng nhận hàng ở đó. Cập nhật chất lượng hàng: cần tránh rung lắc. Lịch giao được nới, có thể xử lý cuối ngày. Không giao và cũng không gom thêm hàng ở quầy mượn sách. Chỉ xử lý các yêu cầu trong đơn này. Mình cảm ơn.",
+        "goal": {
+          "type": "sports",
+          "ref": "west",
+          "anchor": null
+        },
+        "via": {
+          "type": "clinic",
+          "ref": "far",
+          "anchor": "parking"
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "west",
+        "via_mode": "far",
+        "via_phrase": "trong hai trạm y tế, chọn nơi ở xa bãi gửi xe hơn",
+        "accented": true,
+        "goal_phrase": "khu luyện tập nằm ở bên trái trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_000939",
+        "text": "co mot viec giao hang moi. da lay du kien hang tai noi xuat phat, dua kien hang ve dia diem khu so cuu phia xa van phong khoa hon cho thu hai. khong phai lay o mot dia diem khac. ban dau tuong khan nhung da xac nhan co the lam tu tu. chuyen cu tung ghe bai gui xe; lan nay khong can ghe dia chi cu. dia chi cu ghi ky tuc xa sinh vien nhung da bi huy, bo qua dia diem ay. dung giao nham toi khu lop hoc, day la noi khong lien quan. day la do de be, khong duoc xep chong manh. dung nham thong tin cu nua nhe.",
+        "goal": {
+          "type": "clinic",
+          "ref": "far",
+          "anchor": "office"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "far",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "khu sơ cứu phía xa văn phòng khoa hơn chỗ thứ hai"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001006",
+        "text": "minh can nho robot ho tro. lo tai lieu giang day con o toa hieu bo nam o phia nam tren so do. ghe nhan lo ay, roi hoan thanh yeu cau: don nay giao tai diem tan cung phia dong cua so do. nguoi nhan truoc day lam tai ky tuc xa sinh vien, nhung da chuyen di. lenh moi thay lenh cu: khong duoc cham tre. do gom ben trong co the vo neu roi. cam on nhieu.",
+        "goal": {
+          "type": null,
+          "ref": "east_most",
+          "anchor": null
+        },
+        "via": {
+          "type": "office",
+          "ref": "south",
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "east_most",
+        "via_mode": "south",
+        "via_phrase": "tòa hiệu bộ nằm ở phía nam trên sơ đồ",
+        "accented": false,
+        "goal_phrase": "điểm tận cùng phía đông của sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001073",
+        "text": "Đơn này không có hạn chót gấp. Alo đội giao nhận. Robot di chuyển tới bếp ăn tập thể lấy thêm tập biểu mẫu, kế đó mới đưa hộp thuốc về địa điểm vị trí gần phòng hành chính nhất trên sơ đồ. Không cần chế độ vận chuyển đồ mong manh. Trong bản nháp có nhắc đến xưởng thực hành; dữ kiện này không còn hiệu lực. Nhờ làm đúng chỉ dẫn.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "office"
+        },
+        "via": {
+          "type": "canteen",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "anchor_near",
+        "via_mode": "named",
+        "via_phrase": "bếp ăn tập thể",
+        "accented": true,
+        "goal_phrase": "vị trí gần phòng hành chính nhất trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001140",
+        "text": "minh gui don hang moi. dich chuyen phat hop thuoc: o nam cao nhat toan khuon vien. trong lo trinh co diem trung gian san tap the thao de nhan tap bieu mau; khong di thang. thong tin tren thung da duoc xac nhan. do gom ben trong co the vo neu roi. ban dau tuong khan nhung da xac nhan co the lam tu tu. dung giao nham toi nha an trung tam, day la noi khong lien quan. vay la du thong tin.",
+        "goal": {
+          "type": null,
+          "ref": "north_most",
+          "anchor": null
+        },
+        "via": {
+          "type": "sports",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "north_most",
+        "via_mode": "named",
+        "via_phrase": "sân tập thể thao",
+        "accented": false,
+        "goal_phrase": "ô nằm cao nhất toàn khuôn viên"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001207",
+        "text": "Mình gửi đơn hàng mới. nơi nhận bộ dụng cụ cuối cùng là xưởng thực hành nằm xa giảng đường lớn hơn địa điểm cùng loại còn lại. Lộ trình bắt buộc đi qua nhà ăn trung tâm để nhặt hộp thuốc rồi mới hoàn tất giao nhận. Không giao và cũng không gom thêm hàng ở tòa hiệu bộ. Đồ mềm, rơi nhẹ cũng không hỏng. Phiếu giao có kèm chữ ký của bên nhận. Phần thời gian được nâng lên mức hỏa tốc. Xử lý đúng địa điểm giúp mình.",
+        "goal": {
+          "type": "lab",
+          "ref": "far",
+          "anchor": "lecture"
+        },
+        "via": {
+          "type": "canteen",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "far",
+        "via_mode": "named",
+        "via_phrase": "nhà ăn trung tâm",
+        "accented": true,
+        "goal_phrase": "xưởng thực hành nằm xa giảng đường lớn hơn địa điểm cùng loại còn lại"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001274",
+        "text": "Robot giúp tôi một chuyến. Robot nhận tài liệu giảng dạy tại nơi xuất phát. Bây giờ địa chỉ nhận cuối cùng là văn phòng khoa phía gần khu sơ cứu hơn chỗ thứ hai. Không có chặng lấy thêm. Thời gian linh hoạt, không phải chạy gấp. Trong kiện có vật dễ vỡ, cần chống va đập. Không giao và cũng không gom thêm hàng ở sân bóng rổ. Đơn hàng đã được đóng gói. Trong bản nháp có nhắc đến tòa ký túc; dữ kiện này không còn hiệu lực. Vậy là đủ thông tin.",
+        "goal": {
+          "type": "office",
+          "ref": "near",
+          "anchor": "clinic"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "near",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "văn phòng khoa phía gần khu sơ cứu hơn chỗ thứ hai"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001341",
+        "text": "Đừng hiểu nhầm đơn này là việc khẩn. Mình cần nhờ robot hỗ trợ. Bên giảng đường lớn đang chờ robot tới nhận hộp thiết bị. Sau đó cần chuyển thùng linh kiện sang khu gửi xe đạp nằm xa cổng chính hơn địa điểm cùng loại còn lại. Đồ mềm, rơi nhẹ cũng không hỏng. Bạn nhớ loại bộ phận quản lý sinh viên khỏi danh sách điểm nhận hàng nhé. Hệ thống từng ghi sai đích là sân tập thể thao; địa chỉ chính thức nằm trong lệnh này. Chỉ xử lý các yêu cầu trong đơn này. Đừng nhầm thông tin cũ nữa nhé.",
+        "goal": {
+          "type": "parking",
+          "ref": "far",
+          "anchor": "gate"
+        },
+        "via": {
+          "type": "lecture",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "far",
+        "via_mode": "named",
+        "via_phrase": "giảng đường lớn",
+        "accented": true,
+        "goal_phrase": "khu gửi xe đạp nằm xa cổng chính hơn địa điểm cùng loại còn lại"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001408",
+        "text": "Thông tin đơn hàng mới đây. đích chuyển phát phong bì: trung tâm y tế. Đơn này chỉ có một điểm giao; không bố trí điểm ghé để lấy thêm. Người gửi sẽ đối chiếu mã đơn khi robot hoàn tất. Lúc đầu ghi hàng bền, nhưng đã đính chính là đồ thủy tinh. Bạn xác nhận giúp nhé.",
+        "goal": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "trung tâm y tế"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001475",
+        "text": "ban oi, co don phat sinh. chuyen bo dung cu sang van phong khoa. don nay chi co mot diem giao; khong bo tri diem ghe de lay them. moi nguoi da thong nhat lai noi dung giao nhan. moc thoi han rat gan, uu tien don nay. khong giao va cung khong gom them hang o san tap the thao. do mem, roi nhe cung khong hong. cam on robot nhe.",
+        "goal": {
+          "type": "office",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "văn phòng khoa"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001542",
+        "text": "Mình cần nhờ robot hỗ trợ. Mình cần robot vào trạm chăm sóc sức khỏe gom chồng tài liệu; điểm bàn giao cuối cùng: giao hộp thiết bị đến cổng chính nằm ở phía trên trên sơ đồ. Có thông báo kho giáo trình đang đóng cửa, đừng đổi đích sang nơi ấy. Người nhận trước đây làm tại phòng đào tạo, nhưng đã chuyển đi. Vật chứa kính mỏng nên phải vận chuyển cẩn thận. Đừng nhầm thông tin cũ nữa nhé.",
+        "goal": {
+          "type": "gate",
+          "ref": "north",
+          "anchor": null
+        },
+        "via": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "north",
+        "via_mode": "named",
+        "via_phrase": "trạm chăm sóc sức khỏe",
+        "accented": true,
+        "goal_phrase": "cổng chính nằm ở phía trên trên sơ đồ"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001609",
+        "text": "Lúc đầu ghi hàng bền, nhưng đã đính chính là đồ thủy tinh. Tôi có một chuyến chuyển hàng. điểm kết thúc đơn hàng đặt tại kho giáo trình. Đừng tạo thêm chặng nhận hàng ngoài điểm xuất phát. Phiếu giao có kèm chữ ký của bên nhận. Đi ngang trạm y tế cũng được nhưng không dừng nhận hàng ở đó. Nhờ làm đúng chỉ dẫn.",
+        "goal": {
+          "type": "library",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "named",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": true,
+        "goal_phrase": "kho giáo trình"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001676",
+        "text": "ban nho loai ky tuc xa sinh vien khoi danh sach diem nhan hang nhe. lenh giao hang vua cap nhat. mang hop thuc pham toi diem bat ky nam sat phong lab hoa sinh nhat, khong tinh chinh dia diem moc. xin dung bo sot diem nhan thung linh kien o khu do xe may. day la diem dung truoc dich. da dinh chinh: khong co vat lieu de be. khong giao va cung khong gom them hang o chot bao ve. dung hieu nham don nay la viec khan. don hang da duoc dong goi. ban xac nhan giup nhe.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "lab"
+        },
+        "via": {
+          "type": "parking",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "anchor_near",
+        "via_mode": "named",
+        "via_phrase": "khu đỗ xe máy",
+        "accented": false,
+        "goal_phrase": "điểm bất kỳ nằm sát phòng lab hóa sinh nhất, không tính chính địa điểm mốc"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001743",
+        "text": "nho xu ly chuyen giao sau. diem ket thuc don hang dat tai diem dung gan quay com hon moi diem khac trong khuon vien. chi thuc hien hanh trinh den dich; khong ghe diem gom hang nao. do mem, roi nhe cung khong hong. thong tin tren thung da duoc xac nhan. di ngang cong phia san truong cung duoc nhung khong dung nhan hang o do. tinh trang thoi han: can giao gap. di ngang khu do xe may cung duoc nhung khong dung nhan hang o do. di ngang van phong khoa cung duoc nhung khong dung nhan hang o do. nho bao khi xong.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "canteen"
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "via_phrase": null,
+        "accented": false,
+        "goal_phrase": "điểm đứng gần quầy cơm hơn mọi điểm khác trong khuôn viên"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001810",
+        "text": "Có một việc giao hàng mới. giao chồng tài liệu đến điểm đứng gần văn phòng nhà trường hơn mọi điểm khác trong khuôn viên. Trong lộ trình có điểm trung gian khu nghiên cứu để nhận tập giấy tờ; không đi thẳng. Chú ý bảo vệ linh kiện rất dễ hỏng khi rung. Lịch giao được nới, có thể xử lý cuối ngày. Chuyến cũ từng ghé nhà thi đấu đa năng; lần này không cần ghé địa chỉ cũ. Phiếu mới có hiệu lực kể từ lúc này. Nhớ báo khi xong.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "office"
+        },
+        "via": {
+          "type": "lab",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "anchor_near",
+        "via_mode": "named",
+        "via_phrase": "khu nghiên cứu",
+        "accented": true,
+        "goal_phrase": "điểm đứng gần văn phòng nhà trường hơn mọi điểm khác trong khuôn viên"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001877",
+        "text": "Có một việc giao hàng mới. Bên tòa hiệu bộ đang chờ robot tới nhận bộ tài liệu. Sau đó cần người nhận đợi kiện túi mẫu thí nghiệm tại bãi đỗ phương tiện ở gần cổng chính nhất trong các nơi cùng loại. Phiếu giao có kèm chữ ký của bên nhận. Ban đầu tưởng khẩn nhưng đã xác nhận có thể làm từ từ. Địa chỉ cũ ghi quầy cơm nhưng đã bị hủy, bỏ qua địa điểm ấy. Chú ý bảo vệ linh kiện rất dễ hỏng khi rung. Đi ngang sân tập thể thao cũng được nhưng không dừng nhận hàng ở đó. Nhờ kiểm tra lại giúp.",
+        "goal": {
+          "type": "parking",
+          "ref": "near",
+          "anchor": "gate"
+        },
+        "via": {
+          "type": "office",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "syntactic": {
+        "goal_mode": "near",
+        "via_mode": "named",
+        "via_phrase": "tòa hiệu bộ",
+        "accented": true,
+        "goal_phrase": "bãi đỗ phương tiện ở gần cổng chính nhất trong các nơi cùng loại"
+      }
+    },
+    {
+      "row": {
+        "id": "specnew_001944",
+        "text": "chi xu ly cac yeu cau trong don nay. alo doi giao nhan. dua tui mau thi nghiem toi nguoi nhan o khu luu tru noi tru nam o ve huong tay tren so do. mot khau nua can lam: lay the sinh vien tai cong chinh, roi chuyen sang khau giao. di ngang phong lab hoa sinh cung duoc nhung khong dung nhan hang o do. nguoi nhan truoc day lam tai giang duong lon, nhung da chuyen di. moc thoi han rat gan, uu tien don nay. dia chi cu ghi van phong khoa nhung da bi huy, bo qua dia diem ay. khong can che do van chuyen do mong manh. cam on robot nhe.",
+        "goal": {
+          "type": "dorm",
+          "ref": "west",
+          "anchor": null
+        },
+        "via": {
+          "type": "gate",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "syntactic": {
+        "goal_mode": "west",
+        "via_mode": "named",
+        "via_phrase": "cổng chính",
+        "accented": false,
+        "goal_phrase": "khu lưu trú nội trú nằm ở về hướng tây trên sơ đồ"
+      }
+    }
+  ],
+  "source_modification": false,
+  "train_completed": false,
+  "limitations": [
+    "Not yet semantic-human audited",
+    "Syntax/templates are newly authored, not proof of original-quality parity",
+    "Validation/test data not used"
+  ],
+  "sha256": "11c7e2a0cd816f6c93e1f5253db5de2a0360fc0304ed4e83352528338a312701"
+}

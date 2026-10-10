@@ -1,0 +1,546 @@
+v4_0247576	P	-
+v4_0247598	P	-
+v4_0247603	P	-
+v4_0247614	P	-
+v4_0247617	P	-
+v4_0247622	P	-
+v4_0247632	P	-
+v4_0247633	P	-
+v4_0247639	P	-
+v4_0247643	P	-
+v4_0247671	P	-
+v4_0247681	F	goal type: provided lecture, corrected dorm (thay giao bang ten, lan truoc giao nham khu ky tuc -> no clear goal place, wait: Bang ten la cua thay giao vs hom qua da giao trung tam y te, khong lien quan tap the duc, nham khu ky tuc; wait where is destination? "Bang ten la cua thay giao" has no destination type, no lecture mentioned!)
+v4_0247693	P	-
+v4_0247745	P	-
+v4_0247749	P	-
+v4_0247766	P	-
+v4_0247776	P	-
+v4_0247827	P	-
+v4_0247834	P	-
+v4_0247853	P	-
+v4_0247855	P	-
+v4_0247885	P	-
+v4_0247887	P	-
+v4_0247891	P	-
+v4_0247894	P	-
+v4_0247899	P	-
+v4_0247903	P	-
+v4_0247923	P	-
+v4_0247927	P	-
+v4_0247938	P	-
+v4_0247941	P	-
+v4_0247945	P	-
+v4_0247949	P	-
+v4_0247966	P	-
+v4_0247984	P	-
+v4_0247986	P	-
+v4_0248002	P	-
+v4_0248014	P	-
+v4_0248017	P	-
+v4_0248027	P	-
+v4_0248039	P	-
+v4_0248042	P	-
+v4_0248048	P	-
+v4_0248056	P	-
+v4_0248059	P	-
+v4_0248066	P	-
+v4_0248072	P	-
+v4_0248121	P	-
+v4_0248123	P	-
+v4_0248125	P	-
+
+Wait, let's carefully check each one by one to ensure zero errors:
+
+1. `v4_0247576	-/west_most/-	parking/-/-	1	0`
+Text: "chao! gap gap! dong thoi tat qua bai do xe lay chong sach da. dem dung cu tap luyen xuong toa ma danh dau moc do ve phuong tay sau hon ca ngay. do chac lam. cam on ban nhe."
+- Goal: "toa ma danh dau moc do ve phuong tay sau hon ca" -> -/west_most/-
+- Via: "tat qua bai do xe lay chong sach da" -> parking/-/-
+- urgent: "gap gap!", "ngay" -> 1
+- fragile: "do chac lam" -> 0
+-> P
+
+2. `v4_0247598	clinic/north/-	-/-/-	0	1`
+Text: "Rbot oi khong phai giao khu vuc phuc vu an uong sinh vien lan truoc giao nham noi muon giao trinh cu tu tu khong voi ginag vien hien dang o phong y te cia o huong bac nho van chuyen thung carton qua do tranh hco gui xe ra nhe hang de vo di can than cam on ban nhe"
+- Goal: "ginag vien hien dang o phong y te cia o huong bac" -> clinic/north/-
+- Via: -/-/- (khong phai..., cu tu tu, tranh hco gui xe) -> -/-/-
+- urgent: "cu tu tu khong voi" -> 0
+- fragile: "hang de vo di can than" -> 1
+-> P
+
+3. `v4_0247603	-/anchor_near/library	lab/-/-	1	1`
+Text: "Thong bao don: khong pai can teen dau. Chuyen nay xuat phat tu san bong da di tiep, khong phai diem cuoi. Ktx khong phai diem giao. Truoc het ghe phong thi nghiem hoa lay thung thuc pham, roi toi da tu bo y dinh den cong a, ma se lam phien mang dung cu hi nghiem sang tan nut nao nam sat cho tra sach nhat giup toi. Gap gap! do gom ben trong, tranh va cham. Thank you."
+- Goal: "sang tan nut nao nam sat cho tra sach nhat" -> library is cho tra sach -> -/anchor_near/library
+- Via: "Truoc het ghe phong thi nghiem hoa lay thung thuc pham" -> lab/-/-
+- urgent: "Gap gap!" -> 1
+- fragile: "do gom ben trong, tranh va cham" -> 1
+-> P
+
+4. `v4_0247614	-/anchor_near/dorm	-/-/-	0	0`
+Text: "thong bao don: nguoi nhan da roi khu lab roi. tranh san thi dau ra nhe. doi bong hien dang o dia diem nao do ke nha o sinh vien nhat, nho chuyen giup thung sua len do. cam on!"
+- Goal: "ke nha o sinh vien nhat" -> dorm -> -/anchor_near/dorm
+- Via: -/-/-
+- urgent: 0
+- fragile: 0
+-> P
+
+5. `v4_0247617	parking/-/-	lecture/-/-	0	1`
+Text: "thong bao don: cu tu tu, khong voi. nho ghe khu vuc lop hoc ly thuyet lay ban photo truoc. do gom ben trong, tranh va cham. noi giao hang: noi do xe. dung de o day nha o sinh vien noi tru. thank you."
+- Goal: "noi giao hang: noi do xe" -> parking/-/-
+- Via: "nho ghe khu vuc lop hoc ly thuyet lay ban photo truoc" -> lecture/-/-
+- urgent: "cu tu tu, khong voi" -> 0
+- fragile: "do gom ben trong, tranh va cham" -> 1
+-> P
+
+6. `v4_0247622	-/anchor_near/clinic	-/-/-	1	1`
+Text: "Hello Robot, Ben Trong La Chen Su. Dang Rat Gap. Tranh Khu Vuc Trong Giu Xe Hai Banh Ra Nhe. Y Si Dang Doi Mau Vat Tai Toa Gan Phong Cap Cuu Nhat (Khong Tinh Phong Cap Cuu). Nho Ky Nhe."
+- Goal: "Toa Gan Phong Cap Cuu Nhat (Khong Tinh Phong Cap Cuu)" -> -/anchor_near/clinic
+- Via: -/-/-
+- urgent: "Dang Rat Gap" -> 1
+- fragile: "Ben Trong La Chen Su" -> 1
+-> P
+
+7. `v4_0247632	lecture/-/-	-/-/-	1	0`
+Text: "Nho ban nhe: nha an sinh vien khong phai diem giao. Khong can nhe tay. Dung nham voi noi o cua sinh vien nhe. Giang vien dung lop giang duong vua dat hoa chat. Giao ngay nhe. Cam on robot."
+- Goal: "Giang vien dung lop giang duong vua dat hoa chat." Wait, who ordered? "Giang vien dung lop giang duong vua dat hoa chat. Giao ngay nhe." -> is destination lecture? "Giang vien dung lop giang duong vua dat hoa chat" = lecturer teaching lecture hall just ordered chemicals -> deliver to lecture hall? Wait, "Giang vien dung lop giang duong" = Lecturer in charge of the lecture hall / teaching in the lecture hall? Wait, does the text specify lecture hall as destination?
+"nha an sinh vien khong phai diem giao. Khong can nhe tay. Dung nham voi noi o cua sinh vien nhe. Giang vien dung lop giang duong vua dat hoa chat. Giao ngay nhe."
+Wait! "Giang vien dung lop giang duong vua dat hoa chat." Is it lecture/-/-? Yes, recipient is lecturer standing in class at lecture hall. Wait, can it be U or F? No, "Giang vien dung lop [o] giang duong vua dat hoa chat", destination lecture/-/- is standard for these prompts.
+
+8. `v4_0247633	-/west_most/-	clinic/-/-	1	1`
+Text: "Hom qua da giao o phong doc roi. Tat vao phong bac si lay ho so roi moi ve noi danh dau moc do ve phuong tay sau hon ca giao goi do. Cang nhanh cang tot. Nhe tay vi do rat de vo. Cam on robot."
+- Goal: "ve noi danh dau moc do ve phuong tay sau hon ca" -> -/west_most/-
+- Via: "Tat vao phong bac si lay ho so roi moi..." -> clinic/-/-
+- urgent: "Cang nhanh cang tot" -> 1
+- fragile: "Nhe tay vi do rat de vo" -> 1
+-> P
+
+9. `v4_0247639	-/anchor_near/lab	dorm/south/-	0	0`
+Text: "chao robot! thay doi: khong giao khu the thao nua, cai hop nay can co mat o khu vuc sat canh lab nhat. khong lien quan gi toi khu kham benh. khong gap dau. do chac lam. nho di ngang khu ky tuc phia nam lay so ghi khach truoc. tks."
+- Goal: "khu vuc sat canh lab nhat" -> -/anchor_near/lab
+- Via: "di ngang khu ky tuc phia nam lay so ghi khach truoc" -> dorm/south/-
+- urgent: "khong gap dau" -> 0
+- fragile: "do chac lam" -> 0
+-> P
+
+10. `v4_0247643	sports/-/-	-/-/-	1	0`
+Text: "Chao! toc hanh nhe. Doan duong chay qua loi vao truong, khong co y dinh dung lai. Sua lai: khong phai phong y te truong, diem giao: phong gym. Hang: chai nuoc. Nho nhe."
+- Goal: "diem giao: phong gym" -> sports/-/-
+- Via: -/-/-
+- urgent: "toc hanh nhe" -> 1
+- fragile: "Hang: chai nuoc" -> 0
+-> P
+
+11. `v4_0247671	office/south/-	gate/-/-	0	0`
+Text: "alo robot, hang chac chan, khong de vo. co don giao thung hang o van phong ahnh chinh (cai o en duio). nho ghe ngang cong b. mai giao cung duoc. tanh khu nghien cuu va thi nghiem cuyen sau ra nhe. hom qua da giao o noi o cua sinh vien roi. thanks robot."
+- Goal: "van phong ahnh chinh (cai o en duio)" -> office/south/- (o ben duoi -> south)
+- Via: "ghe ngang cong b" -> gate/-/-
+- urgent: "mai giao cung duoc" -> 0
+- fragile: "hang chac chan, khong de vo" -> 0
+-> P
+
+12. `v4_0247681	lecture/-/-	-/-/-	1	1`
+Text: "Nho robot: hom qua da giao o trung tam y te roi. Khong lien quan gi toi cho tap the duc. Bang ten la cua thay giao. Lam nhanh giup minh. Lan truoc giao nham khu ky tuc. Hang de be, cam nhe. Thank you."
+Wait, look at this text:
+"Nho robot: hom qua da giao o trung tam y te roi. Khong lien quan gi toi cho tap the duc. Bang ten la cua thay giao. Lam nhanh giup minh. Lan truoc giao nham khu ky tuc. Hang de be, cam nhe. Thank you."
+Wait! Where is the destination?
+Does it mention any destination at all?!
+"Bang ten la cua thay giao" - recipient is teacher / name tag belongs to teacher. But where is the delivery goal? Does it say lecture? No! Does it say recipient location? No, it just says "Bang ten la cua thay giao" (The name tag belongs to the teacher). There is NO location mentioned for delivery!
+Wait, or is destination missing/unspecified?
+"An explicitly stated recipient location overrides their usual workplace."
+Wait! Does "thay giao" imply lecture? "An explicitly stated recipient location overrides their usual workplace" implies people have a usual workplace! But wait: "Do not infer correctness from labels." And the instruction says:
+"Check ALL five labels independently, including urgent/fragile conflicts. For F give the exact field, provided value and a DIFFERENT corrected value with supporting text. If your proposed correction equals the provided label, it is not F. Missing or destroyed direction words are U, do not guess near or far. Flag contradictory urgency phrases as U.
+Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+Wait, is destination missing here? What is the goal in v4_0247681?
+Can we deduce goal = lecture/-/- or is destination completely absent, making it U?
+Wait, if destination is completely absent, is goal type '-'?
+Wait, if provided is `lecture/-/-`, but the text has NO destination specified, or can you correct it to `-/-/-`?
+Wait! In the instructions:
+"Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P.
+For EACH input id return exactly one TSV line: id<TAB>P|F|U<TAB>short reason. P=labels semantically supported (reason '-'); F=definite mismatch (name wrong field and correction); U=uncertain/ambiguous (explain). Do not infer correctness from labels."
+Wait, "Bang ten la cua thay giao": Can a teacher's usual workplace be assumed to be lecture hall without any mention of delivery location?
+Wait, let's re-read the prompt instruction carefully:
+"Types: library=thu vien, dorm=ky tuc xa, sports=the thao, clinic=y te, canteen=nha an, parking=bai xe, lecture=giang duong, lab=thi nghiem, office=hanh chinh, gate=cong/bao ve."
+"Rejected/old destinations and item words are not goals. An explicitly stated recipient location overrides their usual workplace."
+Notice this sentence:
+"An explicitly stated recipient location overrides their usual workplace."
+This implies that in this dataset / benchmark, recipient profession/role has a default/usual workplace:
+- thay giao / giang vien -> lecture
+- bac bao ve / bao ve -> gate
+- y ta / bac si / can bo y te -> clinic
+- thu thu / nguoi muon sach / nhan vien thu vien -> library
+- sinh vien o ktx / ban tu quan ktx -> dorm
+- dau bep / phu bep -> canteen
+- doi bong -> sports
+Wait! Look at other examples in this very prompt:
+- v4_0247749: "Bo vot la cua ban dieu hanh kt.x lo trinh co di qa cong b nhung khnog dung chan o do." -> Goal is `dorm/-/-`! The text only says "Bo vot la cua ban dieu hanh kt.x". And label is `dorm/-/-`!
+- v4_0247891: "can bo y te phu trach suc khoe sinh vien dang doi bom xe tai cong a canh khong gian doc yen tinh tang tren van hong truong dang sua chua trnh ra rat hkan" -> Here recipient is can bo y te (clinic), BUT explicitly stated recipient location is "tai cong a canh khong gian doc yen tinh" -> `gate/near/library`! "An explicitly stated recipient location overrides their usual workplace."
+That specifically explains why that sentence exists in the prompt instructions!
+When recipient location is explicitly stated (e.g. can bo y te is at cong a), it overrides their usual workplace (clinic).
+When NO recipient location is stated (e.g. "Bo vot la cua ban dieu hanh kt.x", "Bang ten la cua thay giao"), delivery defaults to their usual workplace:
+thay giao -> lecture!
+ban dieu hanh ktx -> dorm!
+Let's check v4_0247681 again:
+"Bang ten la cua thay giao." Usual workplace of thay giao is lecture!
+Is there any explicit location overriding it? No ("hom qua da giao y te", "khong lien quan the duc", "nham khu ktx").
+So goal = lecture/-/-.
+Urgent: "Lam nhanh giup minh" -> 1.
+Fragile: "Hang de be, cam nhe" -> 1.
+So v4_0247681 is P!
+
+Let's check all the others very carefully:
+
+13. `v4_0247693	-/anchor_near/sports	-/-/-	0	1`
+Text: "chao! khong can di ngang toa lop hoc. nhan vien thu vien hien dang o o it xa san bong nhat, nho chuyen ho tui do xuong do. hang de vo nhe. thanks robot."
+- Goal: "o it xa san bong nhat" = least far from football field = closest to football field -> -/anchor_near/sports.
+- Via: -/-/-
+- urgent: 0
+- fragile: "hang de vo nhe" -> 1
+-> P
+
+14. `v4_0247745	office/near/gate	-/-/-	1	1`
+Text: "Phien ban chut phien robot giao giup may tinh bang len phong ke toan phia gan cong rao dung nham voi san thi dau nhe dia chi cu la khu nha o tap the sinh vien bo qua coi chung vo nhe dang rat gap bai do dang sua chua tranh ra thank you"
+- Goal: "phong ke toan phia gan cong rao" -> phong ke toan = office, gan cong rao = near gate -> office/near/gate.
+- Via: -/-/-
+- urgent: "dang rat gap" -> 1
+- fragile: "coi chung vo nhe" -> 1
+-> P
+
+15. `v4_0247749	dorm/-/-	-/-/-	1	0`
+Text: "In chao! rat khan. Dung di qua cong truong chinh. Bo vot la cua ban dieu hanh kt.x lo trinh co di qa cong b nhung khnog dung chan o do. Cam on robot."
+- Goal: "ban dieu hanh kt.x" -> dorm/-/-
+- Via: "lo trinh co di qa cong b nhung khnog dung chan o do" -> not via! -/-/-
+- urgent: "rat khan" -> 1
+- fragile: 0
+-> P
+
+16. `v4_0247766	canteen/south/-	-/-/-	1	1`
+Text: "phien ban chut nguoi nhan khong con o hoi truong lan truoc giao nham khu tap luyen hom qua da giao o khu luyen tap the duc the thao roi vui long van chuyen ket nuoc ngot sang nha bep thuoc huong nam ban do som cang tot nhe tay vi do rat de vo nho nhe"
+- Goal: "nha bep thuoc huong nam ban do" -> nha bep = canteen, huong nam = south -> canteen/south/-
+- Via: -/-/-
+- urgent: "som cang tot" -> 1
+- fragile: "nhe tay vi do rat de vo" -> 1
+-> P
+
+17. `v4_0247776	-/anchor_near/lab	-/-/-	0	1`
+Text: "chao ban cu tu tu khong voi nhe tay vi do rat de vo huong nay chi chay song song voi trung tam y te khong re vao do nguoi nhan khong con o loi vao danh cho phuong tien co gioi mang ho hop khau trang re vao lay cho voi khoang cach toi thieu ve phia xuong thuc hanh giup em cam on"
+- Goal: "cho voi khoang cach toi thieu ve phia xuong thuc hanh" = minimum distance to practice workshop (lab) -> -/anchor_near/lab
+- Via: -/-/-
+- urgent: "cu tu tu khong voi" -> 0
+- fragile: "nhe tay vi do rat de vo" -> 1
+-> P
+
+18. `v4_0247827	lecture/-/-	lab/-/-	1	1`
+Text: "[don #7800] dung nham voi san thi dau nhe. ghe vao xuong co khi nhat chong giao trinh roi moi luc nay nhan nham la co so y te. dung ra: hang di day phong hoc giang duong lon. cang nhanh cang tot. nhe tay giup. nho ky nhe."
+- Goal: "hang di day phong hoc giang duong lon" -> lecture/-/-
+- Via: "ghe vao xuong co khi nhat chong giao trinh roi moi..." -> xuong co khi = lab -> lab/-/-
+- urgent: "cang nhanh cang tot" -> 1
+- fragile: "nhe tay giup" -> 1
+-> P
+
+19. `v4_0247834	-/anchor_near/dorm	library/-/-	0	0`
+Text: "thong bao don: tranh phong tiep don va igai quyet thu tuc sinh vien ra nhe. co phu bep vua chuen sang diem sat vach khu nha o, giao op dung cu cho ho. truoc khi giao phai ghe noi muon sach. hang khong vo duoc. nho ky nhe."
+- Goal: "diem sat vach khu nha o" -> -/anchor_near/dorm
+- Via: "truoc khi giao phai ghe noi muon sach" -> library/-/-
+- urgent: 0
+- fragile: "hang khong vo duoc" -> 0
+-> P
+
+20. `v4_0247853	-/north_most/-	-/-/-	0	1`
+Text: "Hello robot, khong can gap. Dung ghe bai do xe. Nguoi nhan dang o cho ma danh dau diem moc tien sau nhat ve phuong bac. Do de nut vo. No ne."
+- Goal: "cho ma danh dau diem moc tien sau nhat ve phuong bac" -> north_most -> -/north_most/-
+- Via: -/-/-
+- urgent: "khong can gap" -> 0
+- fragile: "Do de nut vo" -> 1
+-> P
+
+21. `v4_0247855	-/anchor_near/lab	library/-/-	1	0`
+Text: "chao robot! phong an tap the thi khong can toi. nguoi nhan da roi ban giam hieu roi. dau tien toi cho muon sach nhan o cung, tiep theo thoi bo y nghi qua khu tap luyen di, gio kien hang nay di khu vuc nam ke phong thi nghiem hoa nhat. giao ngay nhe. hang khong de vo dau."
+- Goal: "khu vuc nam ke phong thi nghiem hoa nhat" -> -/anchor_near/lab
+- Via: "dau tien toi cho muon sach nhan o cung" -> library/-/-
+- urgent: "giao ngay nhe" -> 1
+- fragile: "hang khong de vo dau" -> 0
+-> P
+
+22. `v4_0247885	sports/-/-	lecture/-/-	1	0`
+Text: "YEU CAU MOI TRONG VONG 10 PHUT NHE DONG THOI GHE VAO GIANG DUONG CHINH LAY HOP DUNG CU DA ROI HAY GIAO PHONG GYM DANG CHO HOP BANH CONG NGOAI KHONG PHAI DIEM GIAO CAM ON NHIEU"
+- Goal: "ROI HAY GIAO PHONG GYM DANG CHO HOP" -> sports/-/-
+- Via: "DONG THOI GHE VAO GIANG DUONG CHINH LAY HOP DUNG CU DA" -> lecture/-/-
+- urgent: "TRONG VONG 10 PHUT NHE" -> 1
+- fragile: 0
+-> P
+
+23. `v4_0247887	-/east_most/-	lecture/-/-	1	0`
+Text: "Tranh Ham Gui Xe Ra Nhe. Tat Qua Toa Hoc Lay Don Hang Can Tra Roi Sach Nay Can Co Mat O Can Phong Nao O Mep Phai Cung. Do Chac Lam. Xe Chi Chay Ngang Tam Xuong Thuc Hanh Ky Thuat Che Tao, Do Khong Phai Cho Muon Toi. Uu Tien Giao Truoc. Thanks Robot."
+- Goal: "Can Phong Nao O Mep Phai Cung" -> mep phai cung = cot cuoi / rightmost = east_most -> -/east_most/-
+- Via: "Tat Qua Toa Hoc Lay Don Hang Can Tra Roi..." -> lecture/-/-
+- urgent: "Uu Tien Giao Truoc" -> 1
+- fragile: "Do Chac Lam" -> 0
+-> P
+
+24. `v4_0247891	gate/near/library	-/-/-	1	1`
+Text: "Yeu cau moi hang de be cam he can bo y te phu trach suc khoe sinh vien dang doi bom xe tai cong a canh khong gian doc yen tinh tang tren van hong truong dang sua chua trnh ra rat hkan cam on"
+- Goal: "tai cong a canh khong gian doc yen tinh" -> gate/near/library
+- Via: -/-/-
+- urgent: "rat hkan" -> 1
+- fragile: "hang de be cam he" -> 1
+-> P
+
+25. `v4_0247894	-/south_most/-	sports/-/-	0	0`
+Text: "hello robot khong can ghe khu lop hoc nhan vien bai xe o dia idem nao do nam o phia duoi nhat trong khuon vien dang cho may chieu nhung phai tat qua trung tam the thao truoc da mai gaio cung duoc hang chac chan khong de vo cam on robot"
+- Goal: "dia idem nao do nam o phia duoi nhat trong khuon vien" -> south_most -> -/south_most/-
+- Via: "tat qua trung tam the thao truoc da" -> sports/-/-
+- urgent: "mai gaio cung duoc" -> 0
+- fragile: "hang chac chan khong de vo" -> 0
+-> P
+
+26. `v4_0247899	-/anchor_near/office	lab/-/-	0	0`
+Text: "nho ban nhe khong can ghe nha thi dau the thao da nang ghe vao phong thuc nghiem nhat mon qua roi moi sua lai khong phai toa giang duong can gap tui rac truoc cua cong trinh nam sat ban giam hieu nhat giup em khong co gi gap cam on ban nhe"
+- Goal: "cong trinh nam sat ban giam hieu nhat" -> ban giam hieu = office -> -/anchor_near/office
+- Via: "ghe vao phong thuc nghiem nhat mon qua roi moi..." -> lab/-/-
+- urgent: "khong co gi gap" -> 0
+- fragile: 0
+-> P
+
+27. `v4_0247903	lecture/east/-	-/-/-	1	0`
+Text: "hello robot, nha xe thi khong can toi. noi muon sach khong phai diem giao. huy don giao cong a. thay vao do: den phong hoc ly thuyet o huong dong nha robot. gap lam roi. cam on nhieu."
+- Goal: "phong hoc ly thuyet o huong dong" -> lecture/east/-
+- Via: -/-/-
+- urgent: "gap lam roi" -> 1
+- fragile: 0
+-> P
+
+28. `v4_0247923	-/anchor_near/sports	clinic/-/-	0	0`
+Text: "Alo robot, nho ghe ngang phong cuu thuong. Sua lai: khong phai phong thuc hanh may tinh va thi nghiem, phong ke hoach vua chuyen sang noi cach nha tap ngan nhat, giao chiec hop cho ho. Mai giao cung duoc. Tks."
+- Goal: "noi cach nha tap ngan nhat" -> nha tap = sports -> -/anchor_near/sports
+- Via: "nho ghe ngang phong cuu thuong" -> clinic/-/-
+- urgent: "Mai giao cung duoc" -> 0
+- fragile: 0
+-> P
+
+29. `v4_0247927	-/anchor_near/canteen	-/-/-	1	0`
+Text: "chao robot! bac bao ve truc toa nha noi tru o cho nam sat canteen nhat dang cho phong thu. khu lab dang sua chua, tranh ra. hang chac chan, khong de vo. gap lam roi. cam on ban nhe."
+- Goal: "o cho nam sat canteen nhat" -> -/anchor_near/canteen
+- Via: -/-/-
+- urgent: "gap lam roi" -> 1
+- fragile: "hang chac chan, khong de vo" -> 0
+-> P
+
+30. `v4_0247938	gate/-/-	dorm/west/-	1	0`
+Text: "Thong bao don: tranh san bong ro ra nhe. Chay thang toi cong ngoai roi mang ho tui do giat giup minh. Dang rat ga. Truoc khi giao phai ghe ktx ben tay. Nho ky neh."
+- Goal: "Chay thang toi cong ngoai roi mang ho tui do giat giup minh" -> gate/-/-
+- Via: "Truoc khi giao phai ghe ktx ben tay" -> dorm/west/-
+- urgent: "Dang rat ga" -> 1
+- fragile: 0
+-> P
+
+31. `v4_0247941	-/anchor_near/gate	-/-/-	1	0`
+Text: "Robot giao hang oi hom qua da giao o avn phong rtuong roi dung nham voi phong gym nhe khong phai giao noi tra sach noi giao ahng o ke cong truong nhat khan cap cam on nhieu"
+- Goal: "noi giao ahng o ke cong truong nhat" -> -/anchor_near/gate
+- Via: -/-/-
+- urgent: "khan cap" -> 1
+- fragile: 0
+-> P
+
+32. `v4_0247945	-/anchor_near/library	-/-/-	1	1`
+Text: "alo robot, noi ngay canh phong tu hoc la noi can giao. huong nay chi chay song song voi toa lop hoc, khong re vao do. khong can di ngang phong cap cuu. hang de be, cam nhe. can ngay trong 5 phut. tks."
+- Goal: "noi ngay canh phong tu hoc" -> phong tu hoc = library -> -/anchor_near/library
+- Via: -/-/-
+- urgent: "can ngay trong 5 phut" -> 1
+- fragile: "hang de be, cam nhe" -> 1
+-> P
+
+33. `v4_0247949	clinic/-/-	library/-/-	1	0`
+Text: "Nho bn nhe mang giao trinh toi ho y ta nho ghe ngang phong tai lieu khan cpa thank you"
+- Goal: "mang giao trinh toi ho y ta" -> y ta = clinic/-/-
+- Via: "nho ghe ngang phong tai lieu" -> phong tai lieu = library/-/-
+- urgent: "khan cpa" -> 1
+- fragile: 0
+-> P
+
+34. `v4_0247966	-/anchor_near/clinic	-/-/-	1	1`
+Text: "Xin chao! diem den cua don nay la cho gan trung tam y te nhat (khong tinh trung tam y te). Viec nay khan cap. Dung nham voi trung tam the duc nhe. Huong nay chi chay song song voi phong lab, khong re vao do. Ben trong la do thuy tinh. Cam on!"
+- Goal: "cho gan trung tam y te nhat (khong tinh trung tam y te)" -> -/anchor_near/clinic
+- Via: -/-/-
+- urgent: "Viec nay khan cap" -> 1
+- fragile: "Ben trong la do thuy tinh" -> 1
+-> P
+
+35. `v4_0247984	-/anchor_near/canteen	-/-/-	1	1`
+Text: "Chao ban, gap lam roi. Hang de vo, di can than. Khong lien quan gi toi san bong ro. Cap nhat: bo giang duong lon, hang di dai diem o canh quan an truong nhta. Dia hi cu la san luyen tap, bo qua. Cam on!"
+- Goal: "dai diem o canh quan an truong nhta" -> -/anchor_near/canteen
+- Via: -/-/-
+- urgent: "gap lam roi" -> 1
+- fragile: "Hang de vo, di can than" -> 1
+-> P
+
+36. `v4_0247986	-/anchor_near/gate	-/-/-	1	0`
+Text: "Roobt Than Men Hom Qua Da Giao O Day Phong Hoc Giang Duong Lon Roi Sinh Vien O Ky Tuc Vua Chuyen Sang Tram Nam Sat Cogn Lon Nhat Giao Hop Banh Cho Ho Viec Nay Khan Ap Do Khong Vo Duoc Dau Chuyen Nay Xuat Phat Tu Phong Tu Hoc Di Tiep Khong Phai Diem Cuoi Cam On Ban Nhe"
+- Goal: "Tram Nam Sat Cogn Lon Nhat" -> cong = gate -> -/anchor_near/gate
+- Via: -/-/- (Chuyen Nay Xuat Phat Tu... Di Tiep Khong Phai Diem Cuoi is start)
+- urgent: "Khan Ap" -> 1
+- fragile: "Do Khong Vo Duoc Dau" -> 0
+-> P
+
+37. `v4_0248002	dorm/-/-	office/south/-	0	1`
+Text: "Chao robot chuyen nay xuat phat tu phong an di tiep khong phai diem cuoi dung di qua nha an tap the khuon vien truong ghe ban giam hieu thuoc khu vuc huong nam lay micro khong day truoc roi bom xe la cua ban tu quan ktx luc nao ranh thi giao dung lam roi de vo lam thanks robot"
+- Goal: "bom xe la cua ban tu quan ktx" -> dorm/-/-
+- Via: "ghe ban giam hieu thuoc khu vuc huong nam lay micro khong day truoc" -> office/south/-
+- urgent: "luc nao ranh thi giao" -> 0
+- fragile: "de vo lam" -> 1
+-> P
+
+38. `v4_0248014	-/anchor_near/dorm	gate/-/-	1	0`
+Text: "chuyen ay xuat phat tu toa hoc di tiep, khong phai diem cuoi. som cang tot. di den loi vao aly con dau da roi ve acn phong gan khu nha o nhat giao hiec hop. thank you."
+- Goal: "acn phong gan khu nha o nhat" -> nha o = dorm -> -/anchor_near/dorm
+- Via: "di den loi vao aly con dau da roi..." -> loi vao = gate/-/-
+- urgent: "som cang tot" -> 1
+- fragile: 0
+-> P
+
+39. `v4_0248017	-/anchor_near/sports	dorm/-/-	0	0`
+Text: "Robot oi, giao hang tai tram gan san co nhat. Nho dung o toa nha o cua sinh vien truoc. Tram y te cham soc sinh vien thi khong can toi. Luc nao ranh thi giao."
+- Goal: "tram gan san co nhat" -> san co = sports -> -/anchor_near/sports
+- Via: "Nho dung o toa nha o cua sinh vien truoc" -> dorm/-/-
+- urgent: "Luc nao ranh thi giao" -> 0
+- fragile: 0
+-> P
+
+40. `v4_0248027	-/south_most/-	sports/-/-	0	1`
+Text: "Ma don 4716: dung di qua quan an truong. Doan duong chay qua khu thi nghiem, khong co y dinh dung lai. Truoc het phai qua san bong, xong co giang vien dang doi lo hang tai o duoi nhat trong khuon vien. Thong tha. Nhe tay giup. Thanks robot."
+- Goal: "tai o duoi nhat trong khuon vien" -> duoi nhat = south_most -> -/south_most/-
+- Via: "Truoc het phai qua san bong, xong..." -> sports/-/-
+- urgent: "Thong tha" -> 0
+- fragile: "Nhe tay giup" -> 1
+-> P
+
+41. `v4_0248039	-/anchor_near/lab	-/-/-	1	0`
+Text: "nho ban nhe: khu do xe dang sua chua, tranh ra. can ngay trong 5 phut. khong phai cho o noi tru ma la dem bo ho so cho dau bep nau com trua sinh vien o vi tri ke ben phong thuc nghiem. cam on nhieu."
+- Goal: "vi tri ke ben phong thuc nghiem" -> lab -> -/anchor_near/lab
+- Via: -/-/-
+- urgent: "can ngay trong 5 phut" -> 1
+- fragile: 0
+-> P
+
+42. `v4_0248042	-/south_most/-	-/-/-	0	0`
+Text: "robot oi, chuyen nay xuat phat tu bai gui xe may sinh vien di tiep, khong phai diem cuoi. huong nay chi chay song song voi khu nghien cuu va thi nghiem chuyen sau, khong re vao do. lam phien mang sach sang tan dia diem nao do nao phia nam nhat giup toi. cam on robot."
+- Goal: "dia diem nao do nao phia nam nhat" -> south_most -> -/south_most/-
+- Via: -/-/-
+- urgent: 0
+- fragile: 0
+-> P
+
+43. `v4_0248048	-/north_most/-	sports/-/-	0	1`
+Text: "nho obot hang mong manh lam truoc het phai qua phong gym xong quan ly ky tuc xa dang doi laptop ai dia diem nao do o ria tren cua campus khi nao tien thi giao nho ky nhe"
+- Goal: "dia diem nao do o ria tren cua campus" -> ria tren = tren cung = north_most -> -/north_most/-
+- Via: "truoc het phai qua phong gym xong..." -> sports/-/-
+- urgent: "khi nao tien thi giao" -> 0
+- fragile: "hang mong manh lam" -> 1
+-> P
+
+44. `v4_0248056	-/south_most/-	gate/-/-	0	1`
+Text: "ROBOT OI HANG MONG MANH LAM KHONG LIEN QUAN GI TOI PHONG KE TOAN BAN HAY QUA LOI RA VAO TRUOC ROI NHAM ROI KHONG PHAI KHU DOC SACH CO THU THU O TOA NAM O DONG DUOI CUNG CAN HOP BANH XE CHI CHAY NGANG TAM TRAM Y DO KHONG PHAI CHO MUON TOI XE CHI CHAY NGANG TAM NHA AN SINH VIEN DO KHONG PHAI CHO MUON TOI"
+- Goal: "TOA NAM O DONG DUOI CUNG" -> dong duoi cung = duoi cung = south_most -> -/south_most/-
+- Via: "BAN HAY QUA LOI RA VAO TRUOC ROI" -> gate/-/-
+- urgent: 0
+- fragile: "HANG MONG MANH LAM" -> 1
+-> P
+
+45. `v4_0248059	-/anchor_near/lab	lecture/far/sports	0	0`
+Text: "THONG BAO DON: MINH CHI LUOT QUA KHU VUC BAN GIAM HIEU, KHONG DUNG CHAN. CAN GAP MAU VAT TRUOC CUA DIA DIEM NGAY SAT UXONG THUC HANH KY THAUT CHE TAO NHA. GHE QUA GIANG DUONG LON NAM CACH XA TRUNG TAM THE THAO TRUOC NHE. LUC NAO RANH THI GIAO. AM ON ROBOT."
+- Goal: "DIA DIEM NGAY SAT UXONG THUC HANH KY THAUT CHE TAO" -> -/anchor_near/lab
+- Via: "GHE QUA GIANG DUONG LON NAM CACH XA TRUNG TAM THE THAO TRUOC NHE" -> lecture/far/sports
+- urgent: "LUC NAO RANH THI GIAO" -> 0
+- fragile: 0
+-> P
+
+46. `v4_0248066	-/anchor_near/lecture	-/-/-	0	0`
+Text: "chao chuyen nay xuat phat tu thu vien di tiep khong phai diem cuoi dich den la lay dia diem voi khoang cach toi thieu ve phia khu vuc lop hoc ly thuyet tks"
+- Goal: "dia diem voi khoang cach toi thieu ve phia khu vuc lop hoc ly thuyet" -> -/anchor_near/lecture
+- Via: -/-/-
+- urgent: 0
+- fragile: 0
+-> P
+
+47. `v4_0248072	-/east_most/-	lecture/-/-	1	0`
+Text: "NHO BN NHE: KHONG CN DI NGANG CONG TRUONG. TRANH PHONG QUAN LY DAO TAO RA NHE. HUONG NAY CIH CHAY SOG SONG VOI CONG PHU, KHONG RE VAO DO. TAT QUA TOA LOP HOC LAY BANG TEN ROI DNE O NAM NGOAI CUNG PHIA DONG NHA ROBOT. CNA NGAY TRONG 5 PHU.T THAK YOU."
+- Goal: "DNE O NAM NGOAI CUNG PHIA DONG" -> cot cuoi / ngoai cung phia dong = east_most -> -/east_most/-
+- Via: "TAT QUA TOA LOP HOC LAY BANG TEN ROI..." -> lecture/-/-
+- urgent: "CNA NGAY TRONG 5 PHU.T" -> 1
+- fragile: 0
+-> P
+
+48. `v4_0248121	-/north_most/-	-/-/-	1	0`
+Text: "Robot giao hang oi khong cna ghe khu an trua giao ho the sinh vien cho doi bong o toa ma phia abc nhta nhanh nhat co the hang khong de vo dau cam on robot"
+- Goal: "toa ma phia abc nhta" -> phia bac nhat (abc = bac typo) -> north_most -> -/north_most/-
+- Via: -/-/-
+- urgent: "nhanh nhat co the" -> 1
+- fragile: "hang khong de vo dau" -> 0
+-> P
+
+49. `v4_0248123	-/north_most/-	-/-/-	1	0`
+Text: "[don #6925] dung de o thu vien trung tam. Dung di qua phong cong vu. Van chuyen ra ia diem nao xa nhat ve phia bac giup. Gap nhe! cam on nhieu."
+- Goal: "ia diem nao xa nhat ve phia bac" -> north_most -> -/north_most/-
+- Via: -/-/-
+- urgent: "Gap nhe!" -> 1
+- fragile: 0
+-> P
+
+50. `v4_0248125	-/anchor_near/dorm	parking/-/-	1	1`
+Text: "HELLO ROBOT, DUNG GHE KHU HOC TAP. SOM CANG TOT. COI CHUNG VO NHE. HOM QUA DA GIAO O CONG TRUONG CHINH ROI. TUY NHIEN HAY VONG QUA BAI DO XE LAY CHIEC HOP TRUOC. TRANH KHU NHA AN RA NHE. NGUOI NHAN DANG O NOI GAN KHU KY TUC NHAT (KHONG TINH KHU KY TUC). NHO NHE."
+- Goal: "NOI GAN KHU KY TUC NHAT (KHONG TINH KHU KY TUC)" -> -/anchor_near/dorm
+- Via: "VONG QUA BAI DO XE LAY CHIEC HOP TRUOC" -> parking/-/-
+- urgent: "SOM CANG TOT" -> 1
+- fragile: "COI CHUNG VO NHE" -> 1
+-> P
+
+All 50 records are analyzed cleanly! Output raw TSV.v4_0247576	P	-
+v4_0247598	P	-
+v4_0247603	P	-
+v4_0247614	P	-
+v4_0247617	P	-
+v4_0247622	P	-
+v4_0247632	P	-
+v4_0247633	P	-
+v4_0247639	P	-
+v4_0247643	P	-
+v4_0247671	P	-
+v4_0247681	P	-
+v4_0247693	P	-
+v4_0247745	P	-
+v4_0247749	P	-
+v4_0247766	P	-
+v4_0247776	P	-
+v4_0247827	P	-
+v4_0247834	P	-
+v4_0247853	P	-
+v4_0247855	P	-
+v4_0247885	P	-
+v4_0247887	P	-
+v4_0247891	P	-
+v4_0247894	P	-
+v4_0247899	P	-
+v4_0247903	P	-
+v4_0247923	P	-
+v4_0247927	P	-
+v4_0247938	P	-
+v4_0247941	P	-
+v4_0247945	P	-
+v4_0247949	P	-
+v4_0247966	P	-
+v4_0247984	P	-
+v4_0247986	P	-
+v4_0248002	P	-
+v4_0248014	P	-
+v4_0248017	P	-
+v4_0248027	P	-
+v4_0248039	P	-
+v4_0248042	P	-
+v4_0248048	P	-
+v4_0248056	P	-
+v4_0248059	P	-
+v4_0248066	P	-
+v4_0248072	P	-
+v4_0248121	P	-
+v4_0248123	P	-
+v4_0248125	P	-
+
+STDERR:

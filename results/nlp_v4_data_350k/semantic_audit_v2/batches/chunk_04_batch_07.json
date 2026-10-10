@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0033213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033301",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay giup toi')"
+    },
+    {
+      "id": "v4_0033310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033450",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033476",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033645",
+      "status": "F",
+      "reason": "goal: provided -/anchor_near/canteen, corrected dorm/anchor_near/canteen ('toa nha noi tru o chon vi tri co lo trinh toi nha an ngan hon tat ca')"
+    },
+    {
+      "id": "v4_0033650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033692",
+      "status": "U",
+      "reason": "unclear destination text 'dia chi la ut gan ke tarm y te nhat' with garbled head place"
+    },
+    {
+      "id": "v4_0033709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033724",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

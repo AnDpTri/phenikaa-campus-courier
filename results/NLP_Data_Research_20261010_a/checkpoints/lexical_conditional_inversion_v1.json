@@ -1,0 +1,240 @@
+{
+  "experiment": "lexical_conditional_inversion_meta_audit_v1",
+  "generated_at_utc": "2026-10-09T19:36:00Z",
+  "input_read_only": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\checkpoints\\research_cycle_000_bootstrap.json",
+  "input_iteration": 0,
+  "input_seed": 120000,
+  "train_sample_n": 18000,
+  "probe_bootstrap_n_per_mode": 600,
+  "probe_modes": [
+    "v2",
+    "weighted",
+    "hard"
+  ],
+  "marker_definition": "Token presence in accent-folded synthetic text",
+  "method": "Compute P(via|cue) and risk difference P(via|cue)-P(via|no cue), then compare train versus each probe; no significance test because probes are bootstrap draws with replacement.",
+  "effects": {
+    "sau": {
+      "train": {
+        "positive_with": 4644,
+        "negative_with": 490,
+        "positive_without": 5600,
+        "negative_without": 7266,
+        "n_with": 5134,
+        "p_via_with": 0.9045578496299181,
+        "p_via_without": 0.4352557127312296,
+        "risk_difference": 0.46930213689868855
+      },
+      "holdout": {
+        "v2": {
+          "positive_with": 22,
+          "negative_with": 43,
+          "positive_without": 277,
+          "negative_without": 258,
+          "n_with": 65,
+          "p_via_with": 0.3384615384615385,
+          "p_via_without": 0.5177570093457944,
+          "risk_difference": -0.1792954708842559,
+          "delta_p_via_with_vs_train": -0.5660963111683797,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        },
+        "weighted": {
+          "positive_with": 13,
+          "negative_with": 19,
+          "positive_without": 295,
+          "negative_without": 273,
+          "n_with": 32,
+          "p_via_with": 0.40625,
+          "p_via_without": 0.5193661971830986,
+          "risk_difference": -0.11311619718309862,
+          "delta_p_via_with_vs_train": -0.49830784962991814,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": true
+        },
+        "hard": {
+          "positive_with": 12,
+          "negative_with": 12,
+          "positive_without": 285,
+          "negative_without": 291,
+          "n_with": 24,
+          "p_via_with": 0.5,
+          "p_via_without": 0.4947916666666667,
+          "risk_difference": 0.005208333333333315,
+          "delta_p_via_with_vs_train": -0.40455784962991814,
+          "sign_inversion_of_risk_difference": false,
+          "low_support": true
+        }
+      }
+    },
+    "ghe": {
+      "train": {
+        "positive_with": 2053,
+        "negative_with": 2311,
+        "positive_without": 8191,
+        "negative_without": 5445,
+        "n_with": 4364,
+        "p_via_with": 0.47043996333638866,
+        "p_via_without": 0.6006893517160458,
+        "risk_difference": -0.1302493883796571
+      },
+      "holdout": {
+        "v2": {
+          "positive_with": 145,
+          "negative_with": 47,
+          "positive_without": 154,
+          "negative_without": 254,
+          "n_with": 192,
+          "p_via_with": 0.7552083333333334,
+          "p_via_without": 0.37745098039215685,
+          "risk_difference": 0.3777573529411765,
+          "delta_p_via_with_vs_train": 0.2847683699969447,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        },
+        "weighted": {
+          "positive_with": 65,
+          "negative_with": 17,
+          "positive_without": 243,
+          "negative_without": 275,
+          "n_with": 82,
+          "p_via_with": 0.7926829268292683,
+          "p_via_without": 0.4691119691119691,
+          "risk_difference": 0.3235709577172992,
+          "delta_p_via_with_vs_train": 0.3222429634928797,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        },
+        "hard": {
+          "positive_with": 0,
+          "negative_with": 0,
+          "positive_without": 297,
+          "negative_without": 303,
+          "n_with": 0,
+          "p_via_with": null,
+          "p_via_without": 0.495,
+          "risk_difference": null,
+          "delta_p_via_with_vs_train": null,
+          "sign_inversion_of_risk_difference": null,
+          "low_support": true
+        }
+      }
+    },
+    "bo": {
+      "train": {
+        "positive_with": 4098,
+        "negative_with": 2307,
+        "positive_without": 6146,
+        "negative_without": 5449,
+        "n_with": 6405,
+        "p_via_with": 0.6398126463700234,
+        "p_via_without": 0.530056058645968,
+        "risk_difference": 0.10975658772405539
+      },
+      "holdout": {
+        "v2": {
+          "positive_with": 99,
+          "negative_with": 78,
+          "positive_without": 200,
+          "negative_without": 223,
+          "n_with": 177,
+          "p_via_with": 0.559322033898305,
+          "p_via_without": 0.4728132387706856,
+          "risk_difference": 0.08650879512761944,
+          "delta_p_via_with_vs_train": -0.0804906124717184,
+          "sign_inversion_of_risk_difference": false,
+          "low_support": false
+        },
+        "weighted": {
+          "positive_with": 87,
+          "negative_with": 127,
+          "positive_without": 221,
+          "negative_without": 165,
+          "n_with": 214,
+          "p_via_with": 0.40654205607476634,
+          "p_via_without": 0.572538860103627,
+          "risk_difference": -0.16599680402886063,
+          "delta_p_via_with_vs_train": -0.2332705902952571,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        },
+        "hard": {
+          "positive_with": 78,
+          "negative_with": 174,
+          "positive_without": 219,
+          "negative_without": 129,
+          "n_with": 252,
+          "p_via_with": 0.30952380952380953,
+          "p_via_without": 0.6293103448275862,
+          "risk_difference": -0.31978653530377665,
+          "delta_p_via_with_vs_train": -0.3302888368462139,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        }
+      }
+    },
+    "nhan": {
+      "train": {
+        "positive_with": 6961,
+        "negative_with": 3683,
+        "positive_without": 3283,
+        "negative_without": 4073,
+        "n_with": 10644,
+        "p_via_with": 0.6539834648628335,
+        "p_via_without": 0.4463023382272974,
+        "risk_difference": 0.20768112663553612
+      },
+      "holdout": {
+        "v2": {
+          "positive_with": 99,
+          "negative_with": 76,
+          "positive_without": 200,
+          "negative_without": 225,
+          "n_with": 175,
+          "p_via_with": 0.5657142857142857,
+          "p_via_without": 0.47058823529411764,
+          "risk_difference": 0.09512605042016808,
+          "delta_p_via_with_vs_train": -0.08826917914854782,
+          "sign_inversion_of_risk_difference": false,
+          "low_support": false
+        },
+        "weighted": {
+          "positive_with": 170,
+          "negative_with": 161,
+          "positive_without": 138,
+          "negative_without": 131,
+          "n_with": 331,
+          "p_via_with": 0.513595166163142,
+          "p_via_without": 0.5130111524163569,
+          "risk_difference": 0.0005840137467851836,
+          "delta_p_via_with_vs_train": -0.1403882986996915,
+          "sign_inversion_of_risk_difference": false,
+          "low_support": false
+        },
+        "hard": {
+          "positive_with": 235,
+          "negative_with": 246,
+          "positive_without": 62,
+          "negative_without": 57,
+          "n_with": 481,
+          "p_via_with": 0.4885654885654886,
+          "p_via_without": 0.5210084033613446,
+          "risk_difference": -0.03244291479585598,
+          "delta_p_via_with_vs_train": -0.16541797629734495,
+          "sign_inversion_of_risk_difference": true,
+          "low_support": false
+        }
+      }
+    }
+  },
+  "hypothesis": "Generator-dependent semantic role of temporal or cancellation words changes across corpora, causing lexical shortcut mismatch. 'sau' and 'ghe' reverse direction between train and V2/weighted probes.",
+  "limits": [
+    "Reanalysis of one bootstrap round, not independent validation.",
+    "Probe bootstrap samples include replacement; denominators are sampled draws, not independent observations.",
+    "Association is not causation; no model A/B performed.",
+    "Do not infer real-world generalization from synthetic probes."
+  ],
+  "next_action": "Check whether the cue inversion persists across independently generated seed rounds and stratify by recipe and explicit active/cancelled pickup role.",
+  "training_modified": false,
+  "external_files_modified": false
+}

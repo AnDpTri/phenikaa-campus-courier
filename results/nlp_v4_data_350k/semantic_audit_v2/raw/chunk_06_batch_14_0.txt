@@ -1,0 +1,52 @@
+v4_0056615	P	-
+v4_0056628	P	-
+v4_0056645	U	Nguoi nhan la giao vien the duc nhung khong noi ro dia diem giao hang cu the
+v4_0056656	P	-
+v4_0056658	P	-
+v4_0056667	P	-
+v4_0056672	P	-
+v4_0056675	P	-
+v4_0056684	P	-
+v4_0056687	P	-
+v4_0056711	P	-
+v4_0056722	U	Cho thay day the duc khong ro dia diem la san the thao hay van phong bo mon
+v4_0056735	P	-
+v4_0056759	P	-
+v4_0056760	P	-
+v4_0056776	P	-
+v4_0056783	P	-
+v4_0056785	P	-
+v4_0056786	P	-
+v4_0056790	P	-
+v4_0056795	P	-
+v4_0056798	P	-
+v4_0056815	P	-
+v4_0056817	P	-
+v4_0056832	P	-
+v4_0056835	P	-
+v4_0056881	P	-
+v4_0056885	P	-
+v4_0056890	P	-
+v4_0056895	P	-
+v4_0056901	P	-
+v4_0056914	P	-
+v4_0056923	P	-
+v4_0056929	P	-
+v4_0056947	P	-
+v4_0056948	P	-
+v4_0056957	P	-
+v4_0056970	P	-
+v4_0056978	P	-
+v4_0056982	P	-
+v4_0056985	P	-
+v4_0056996	P	-
+v4_0057001	P	-
+v4_0057002	P	-
+v4_0057006	P	-
+v4_0057016	U	Cum tu 'khong vi phai nhanh' mau thuan ve muc do khan cap
+v4_0057017	P	-
+v4_0057022	U	Nguoi nhan la co nau an khong xac dinh ro vi tri giao la nha an hay noi khac
+v4_0057036	P	-
+v4_0057042	P	-
+
+STDERR:

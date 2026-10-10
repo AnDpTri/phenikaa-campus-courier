@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_06_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0050001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050005",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050019",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided 'office/-/-', corrected 'lab/-/-' (thay trong phong nho gui phong ib / xuong thuc hnh)"
+    },
+    {
+      "id": "v4_0050020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050032",
+      "status": "U",
+      "reason": "Ambiguous whether 'lech han ve phia bac' indicates extreme north (north_most) or direction north"
+    },
+    {
+      "id": "v4_0050052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050078",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/north_most/-', corrected 'dorm/north_most/-' (noi o dong tren cung)"
+    },
+    {
+      "id": "v4_0050081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050138",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/south_most/-', corrected 'dorm/south_most/-' (noi o ria duoi)"
+    },
+    {
+      "id": "v4_0050144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050177",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050197",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected '1' (can gap the giu xe)"
+    },
+    {
+      "id": "v4_0050226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050228",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected '1' (chuyen vien dang doi lo hang gap)"
+    },
+    {
+      "id": "v4_0050232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050293",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050440",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0050489",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

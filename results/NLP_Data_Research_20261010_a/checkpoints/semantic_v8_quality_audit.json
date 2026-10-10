@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-09T22:49:57.264095+00:00",
+  "name": "independent_semantic_v8_audit",
+  "splits": {
+    "candidate_train": {
+      "rows": 9600,
+      "groups": 1200,
+      "label_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "accented_fraction": 0.5467,
+      "rich_rows": 4848,
+      "plain_rows": 4752,
+      "regime_rows": {
+        "plain": 3216,
+        "cancelled": 3216,
+        "revision": 3168
+      },
+      "token_median": 67.0,
+      "token_p90": 78
+    },
+    "family_challenge": {
+      "rows": 3200,
+      "groups": 400,
+      "label_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "accented_fraction": 0.5675,
+      "rich_rows": 1616,
+      "plain_rows": 1584,
+      "regime_rows": {
+        "plain": 1072,
+        "cancelled": 1072,
+        "revision": 1056
+      },
+      "token_median": 67.0,
+      "token_p90": 80
+    }
+  },
+  "n_unique": 12800,
+  "cue_invariant_scene_count": 1600,
+  "contrasts": {
+    "via": {
+      "median": 0.8669,
+      "min": 0.0122
+    },
+    "urgent": {
+      "median": 0.9236,
+      "min": 0.0324
+    },
+    "fragile": {
+      "median": 0.9267,
+      "min": 0.1974
+    }
+  },
+  "collisions": {
+    "old_scratch_200k": 0,
+    "old_v6_train": 0
+  },
+  "representative_scene_pairs": 48,
+  "limitations": [
+    "Not human-labeled, spot samples for later independent review",
+    "No controlled A/B training, no claim of improved downstream accuracy",
+    "No official validation or test data accessed"
+  ]
+}

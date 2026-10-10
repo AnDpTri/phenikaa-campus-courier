@@ -1,0 +1,52 @@
+v4_0154046	P	-
+v4_0154053	P	-
+v4_0154054	P	-
+v4_0154059	P	-
+v4_0154071	P	-
+v4_0154089	P	-
+v4_0154111	P	-
+v4_0154142	P	-
+v4_0154157	P	-
+v4_0154172	P	-
+v4_0154182	P	-
+v4_0154188	P	-
+v4_0154204	P	-
+v4_0154215	P	-
+v4_0154216	P	-
+v4_0154220	P	-
+v4_0154231	P	-
+v4_0154233	P	-
+v4_0154247	P	-
+v4_0154277	P	-
+v4_0154279	P	-
+v4_0154290	P	-
+v4_0154306	P	-
+v4_0154338	P	-
+v4_0154347	P	-
+v4_0154352	P	-
+v4_0154354	P	-
+v4_0154401	P	-
+v4_0154407	P	-
+v4_0154412	P	-
+v4_0154419	P	-
+v4_0154428	P	-
+v4_0154434	P	-
+v4_0154437	P	-
+v4_0154443	P	-
+v4_0154468	P	-
+v4_0154476	P	-
+v4_0154484	P	-
+v4_0154493	P	-
+v4_0154512	P	-
+v4_0154531	P	-
+v4_0154535	P	-
+v4_0154547	F	goal type: provided sports, corrected - (the thao is profession/item owner "huan luyen vien doi tuyen the thao truong", no destination place given)
+v4_0154551	P	-
+v4_0154554	P	-
+v4_0154559	F	via type: provided -, corrected sports (gio hay hay di qua san tap ho minh: pass through sports ground)
+v4_0154570	P	-
+v4_0154571	P	-
+v4_0154574	F	goal type: provided office, corrected - (can bo hanh chinh is recipient, no destination building given)
+v4_0154591	P	-
+
+STDERR:

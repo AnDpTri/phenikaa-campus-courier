@@ -1,0 +1,52 @@
+v4_0064273	U	unclear sentence structure and truncated text 'ma se quan ly nha an vua dat don hang can tra'
+v4_0064286	P	-
+v4_0064291	P	-
+v4_0064295	P	-
+v4_0064308	U	corrupted phrase 'tim diem co kinh do on nhat tren ban do' obscures extreme direction
+v4_0064311	P	-
+v4_0064338	P	-
+v4_0064341	P	-
+v4_0064344	P	-
+v4_0064345	P	-
+v4_0064352	P	-
+v4_0064355	P	-
+v4_0064362	P	-
+v4_0064363	F	goal type: provided '-' should be 'gate' based on 'nguoi gac cong o khu vuc canh bep'
+v4_0064367	P	-
+v4_0064385	F	goal type: provided '-' should be 'sports' based on 'doi van dong vien o nut nam o phia duoi nhat'
+v4_0064386	P	-
+v4_0064388	P	-
+v4_0064399	P	-
+v4_0064407	P	-
+v4_0064408	P	-
+v4_0064411	P	-
+v4_0064427	P	-
+v4_0064442	P	-
+v4_0064450	P	-
+v4_0064454	P	-
+v4_0064457	P	-
+v4_0064467	P	-
+v4_0064471	P	-
+v4_0064473	P	-
+v4_0064484	P	-
+v4_0064491	P	-
+v4_0064496	P	-
+v4_0064499	P	-
+v4_0064504	P	-
+v4_0064518	P	-
+v4_0064527	P	-
+v4_0064541	P	-
+v4_0064543	P	-
+v4_0064548	P	-
+v4_0064558	P	-
+v4_0064561	P	-
+v4_0064567	P	-
+v4_0064574	P	-
+v4_0064575	P	-
+v4_0064592	P	-
+v4_0064605	P	-
+v4_0064607	P	-
+v4_0064627	P	-
+v4_0064634	P	-
+
+STDERR:

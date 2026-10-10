@@ -1,0 +1,52 @@
+v4_0082606	P	-
+v4_0082611	P	-
+v4_0082626	P	-
+v4_0082652	P	-
+v4_0082658	P	-
+v4_0082700	P	-
+v4_0082703	P	-
+v4_0082706	P	-
+v4_0082711	P	-
+v4_0082739	P	-
+v4_0082741	P	-
+v4_0082753	P	-
+v4_0082773	P	-
+v4_0082783	P	-
+v4_0082796	P	-
+v4_0082799	P	-
+v4_0082801	P	-
+v4_0082811	P	-
+v4_0082812	P	-
+v4_0082834	P	-
+v4_0082847	P	-
+v4_0082855	P	-
+v4_0082863	P	-
+v4_0082876	P	-
+v4_0082889	P	-
+v4_0082891	P	-
+v4_0082899	P	-
+v4_0082911	P	-
+v4_0082917	P	-
+v4_0082940	P	-
+v4_0082949	P	-
+v4_0082960	P	-
+v4_0082981	P	-
+v4_0082997	P	-
+v4_0083000	P	-
+v4_0083026	P	-
+v4_0083027	P	-
+v4_0083036	P	-
+v4_0083061	P	-
+v4_0083077	P	-
+v4_0083080	P	-
+v4_0083090	P	-
+v4_0083091	U	'lech phai' indicates eastern directional instance (east), not extreme map position (east_most)
+v4_0083092	P	-
+v4_0083109	P	-
+v4_0083112	P	-
+v4_0083146	P	-
+v4_0083159	P	-
+v4_0083160	U	'can gap' can mean urgent ('cần gấp') or pick up micro ('cầm/cần gắp micro') creating contradictory cue with urgent=0
+v4_0083161	P	-
+
+STDERR:

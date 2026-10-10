@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_19_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0182967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0182969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0182972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0182981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0182983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183107",
+      "status": "U",
+      "reason": "Mau thuan do khong vo duoc dau vs thay day the duc dang doi giao trinh gap / khong gap dau"
+    },
+    {
+      "id": "v4_0183122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183455",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0183498",
+      "status": "F",
+      "reason": "via: provided 'lab/-/-', corrected '-/-/-' (khong co via den phong thi nghiem, chi ghe xuong lay the)"
+    }
+  ]
+}

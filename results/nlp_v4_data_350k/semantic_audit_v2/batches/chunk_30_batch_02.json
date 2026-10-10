@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_30_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0290469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290476",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/clinic should be lab/near/clinic (nguoi phu trach phong thi nghiem o o nao gan tram y te)"
+    },
+    {
+      "id": "v4_0290478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290529",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290667",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/sports should be gate/near/sports (ca truc bao ve o o sat canh san tap nhat)"
+    },
+    {
+      "id": "v4_0290685",
+      "status": "F",
+      "reason": "urgent provided 0 should be 1 (can gap goi hang truoc cua chot bao ve)"
+    },
+    {
+      "id": "v4_0290696",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/library should be lab/near/library (khach gui xuong o canh phong tia lieu nhat)"
+    },
+    {
+      "id": "v4_0290697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290768",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided library/-/- should be -/-/- (nhan vien muon tra sach vua dat bo dam; no explicit destination stated)"
+    },
+    {
+      "id": "v4_0290793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290857",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0290901",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/parking should be -/near/parking (noi sat khu do xe, not necessarily closest among all locations)"
+    }
+  ]
+}

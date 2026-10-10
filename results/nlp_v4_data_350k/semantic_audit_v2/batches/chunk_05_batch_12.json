@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0045423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045456",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'library' (nhan vien phong doc o cho o duoi cung)"
+    },
+    {
+      "id": "v4_0045488",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045496",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045529",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045709",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'dorm' (sinh vien noi tu dang doi tui do tai dia diem nao do danh dau diem mco tien su nhat ve phuong bac)"
+    },
+    {
+      "id": "v4_0045721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045768",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045778",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045831",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045842",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0045987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0046009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0046011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0046013",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

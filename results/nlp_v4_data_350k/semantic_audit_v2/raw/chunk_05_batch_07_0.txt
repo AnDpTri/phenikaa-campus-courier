@@ -1,0 +1,52 @@
+v4_0042840	F	urgent: provided '0', corrected 'U' (khong can toi ... thong tha coi chung vo nhe nho he)
+v4_0042844	F	goal: provided '-/south_most/-', corrected 'dorm/south_most/-' (ban quan ly ky tuc xa o nut ma o mep duoi cung)
+v4_0042852	P	-
+v4_0042854	P	-
+v4_0042881	P	-
+v4_0042898	P	-
+v4_0042907	P	-
+v4_0042916	P	-
+v4_0042922	P	-
+v4_0042929	P	-
+v4_0042941	P	-
+v4_0042948	P	-
+v4_0042955	P	-
+v4_0042980	P	-
+v4_0042998	P	-
+v4_0043008	P	-
+v4_0043009	P	-
+v4_0043016	F	urgent: provided '0', corrected '1' (Cna gap oi hang truoc cua toa)
+v4_0043029	P	-
+v4_0043034	P	-
+v4_0043046	P	-
+v4_0043049	P	-
+v4_0043065	P	-
+v4_0043067	P	-
+v4_0043074	P	-
+v4_0043076	P	-
+v4_0043097	P	-
+v4_0043098	P	-
+v4_0043108	P	-
+v4_0043113	P	-
+v4_0043134	P	-
+v4_0043136	P	-
+v4_0043143	P	-
+v4_0043144	P	-
+v4_0043154	P	-
+v4_0043166	P	-
+v4_0043168	P	-
+v4_0043222	P	-
+v4_0043225	P	-
+v4_0043232	P	-
+v4_0043267	P	-
+v4_0043271	P	-
+v4_0043285	P	-
+v4_0043292	P	-
+v4_0043293	P	-
+v4_0043298	P	-
+v4_0043311	P	-
+v4_0043327	F	urgent: provided '0', corrected '1' (Phong ke hoach dang doi bo bang gac gap)
+v4_0043331	P	-
+v4_0043334	P	-
+
+STDERR:

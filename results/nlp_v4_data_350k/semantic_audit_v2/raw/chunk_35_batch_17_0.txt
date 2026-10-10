@@ -1,0 +1,52 @@
+v4_0347987	P	-
+v4_0347996	P	-
+v4_0347997	P	-
+v4_0348004	P	-
+v4_0348019	P	-
+v4_0348020	P	-
+v4_0348030	F	goal type/ref/anchor: provided '-/south_most/-', corrected 'parking/south_most/-' ('doi trong xe o khu vuc xa nhat ve phia duoi')
+v4_0348032	P	-
+v4_0348041	P	-
+v4_0348042	P	-
+v4_0348057	P	-
+v4_0348059	P	-
+v4_0348062	P	-
+v4_0348071	P	-
+v4_0348085	P	-
+v4_0348092	P	-
+v4_0348095	P	-
+v4_0348098	P	-
+v4_0348128	P	-
+v4_0348131	P	-
+v4_0348142	P	-
+v4_0348152	P	-
+v4_0348156	P	-
+v4_0348171	P	-
+v4_0348172	P	-
+v4_0348175	P	-
+v4_0348176	P	-
+v4_0348187	P	-
+v4_0348188	P	-
+v4_0348190	P	-
+v4_0348195	P	-
+v4_0348242	P	-
+v4_0348266	P	-
+v4_0348290	P	-
+v4_0348299	P	-
+v4_0348311	P	-
+v4_0348318	P	-
+v4_0348358	P	-
+v4_0348361	P	-
+v4_0348362	P	-
+v4_0348365	P	-
+v4_0348385	P	-
+v4_0348403	U	Uncertain recipient delivery destination versus item orderer ('nhan vien y te vua dat')
+v4_0348414	P	-
+v4_0348423	P	-
+v4_0348425	P	-
+v4_0348430	P	-
+v4_0348437	P	-
+v4_0348441	P	-
+v4_0348450	P	-
+
+STDERR:

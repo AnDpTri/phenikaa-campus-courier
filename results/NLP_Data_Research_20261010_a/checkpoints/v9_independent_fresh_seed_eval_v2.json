@@ -1,0 +1,1447 @@
+{
+  "kind": "V9_reproduced_generalization_cpu_fresh_seeds",
+  "created_utc": "2026-10-10T01:22:58.843473+00:00",
+  "models": {
+    "A": {
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_pilot_A_continuation.pt",
+      "sha256": "853d64f0a1775622abd98ac5c9df503be67713dfb91fbe2bf5dc4f981152674f"
+    },
+    "B": {
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_pilot_B_continuation.pt",
+      "sha256": "f39b9653c06a57da48b1298ffc02e2b575bcb8a5faefd642d0d47491d1953868"
+    }
+  },
+  "fresh_seeds": {
+    "v2": {
+      "n": 1800,
+      "seed": 20261010711
+    },
+    "weighted": {
+      "n": 1800,
+      "seed": 20261010712
+    },
+    "hard": {
+      "n": 1200,
+      "seed": 20261010713
+    }
+  },
+  "overlap_checks": {
+    "v2": {
+      "unique": 1800,
+      "overlap_V9_pool": 0,
+      "overlap_A_baseline_synth": 0
+    },
+    "weighted": {
+      "unique": 1800,
+      "overlap_V9_pool": 0,
+      "overlap_A_baseline_synth": 0
+    },
+    "hard": {
+      "unique": 1200,
+      "overlap_V9_pool": 0,
+      "overlap_A_baseline_synth": 0
+    },
+    "authored_scope_probe": {
+      "unique": 20,
+      "overlap_V9_pool": 0,
+      "overlap_A_baseline_synth": 0
+    }
+  },
+  "scores": {
+    "A": {
+      "v2": {
+        "n": 1800,
+        "exact": {
+          "goal": 0.83222,
+          "via": 0.87889,
+          "urgent": 0.72889,
+          "fragile": 0.87,
+          "all": 0.48278
+        },
+        "confusion": {
+          "via": {
+            "n": 1800,
+            "positive": 924,
+            "tp": 756,
+            "fn": 168,
+            "fp": 5,
+            "tn": 871,
+            "sensitivity": 0.81818,
+            "specificity": 0.99429,
+            "balanced_accuracy": 0.90624
+          },
+          "urgent": {
+            "n": 1800,
+            "positive": 804,
+            "tp": 366,
+            "fn": 438,
+            "fp": 50,
+            "tn": 946,
+            "sensitivity": 0.45522,
+            "specificity": 0.9498,
+            "balanced_accuracy": 0.70251
+          },
+          "fragile": {
+            "n": 1800,
+            "positive": 715,
+            "tp": 715,
+            "fn": 0,
+            "fp": 234,
+            "tn": 851,
+            "sensitivity": 1.0,
+            "specificity": 0.78433,
+            "balanced_accuracy": 0.89217
+          }
+        }
+      },
+      "weighted": {
+        "n": 1800,
+        "exact": {
+          "goal": 0.77333,
+          "via": 0.76944,
+          "urgent": 0.88,
+          "fragile": 0.68222,
+          "all": 0.37222
+        },
+        "confusion": {
+          "via": {
+            "n": 1800,
+            "positive": 983,
+            "tp": 724,
+            "fn": 259,
+            "fp": 67,
+            "tn": 750,
+            "sensitivity": 0.73652,
+            "specificity": 0.91799,
+            "balanced_accuracy": 0.82726
+          },
+          "urgent": {
+            "n": 1800,
+            "positive": 795,
+            "tp": 600,
+            "fn": 195,
+            "fp": 21,
+            "tn": 984,
+            "sensitivity": 0.75472,
+            "specificity": 0.9791,
+            "balanced_accuracy": 0.86691
+          },
+          "fragile": {
+            "n": 1800,
+            "positive": 769,
+            "tp": 320,
+            "fn": 449,
+            "fp": 123,
+            "tn": 908,
+            "sensitivity": 0.41612,
+            "specificity": 0.8807,
+            "balanced_accuracy": 0.64841
+          }
+        }
+      },
+      "hard": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.76167,
+          "via": 0.68,
+          "urgent": 0.99917,
+          "fragile": 0.56167,
+          "all": 0.30833
+        },
+        "confusion": {
+          "via": {
+            "n": 1200,
+            "positive": 615,
+            "tp": 343,
+            "fn": 272,
+            "fp": 48,
+            "tn": 537,
+            "sensitivity": 0.55772,
+            "specificity": 0.91795,
+            "balanced_accuracy": 0.73784
+          },
+          "urgent": {
+            "n": 1200,
+            "positive": 585,
+            "tp": 585,
+            "fn": 0,
+            "fp": 1,
+            "tn": 614,
+            "sensitivity": 1.0,
+            "specificity": 0.99837,
+            "balanced_accuracy": 0.99919
+          },
+          "fragile": {
+            "n": 1200,
+            "positive": 526,
+            "tp": 0,
+            "fn": 526,
+            "fp": 0,
+            "tn": 674,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5
+          }
+        }
+      },
+      "authored_scope_probe": {
+        "n": 20,
+        "exact": {
+          "goal": 1.0,
+          "via": 0.8,
+          "urgent": 0.9,
+          "fragile": 0.9,
+          "all": 0.65
+        },
+        "confusion": {
+          "via": {
+            "n": 20,
+            "positive": 6,
+            "tp": 5,
+            "fn": 1,
+            "fp": 3,
+            "tn": 11,
+            "sensitivity": 0.83333,
+            "specificity": 0.78571,
+            "balanced_accuracy": 0.80952
+          },
+          "urgent": {
+            "n": 20,
+            "positive": 2,
+            "tp": 2,
+            "fn": 0,
+            "fp": 2,
+            "tn": 16,
+            "sensitivity": 1.0,
+            "specificity": 0.88889,
+            "balanced_accuracy": 0.94444
+          },
+          "fragile": {
+            "n": 20,
+            "positive": 2,
+            "tp": 2,
+            "fn": 0,
+            "fp": 2,
+            "tn": 16,
+            "sensitivity": 1.0,
+            "specificity": 0.88889,
+            "balanced_accuracy": 0.94444
+          }
+        }
+      }
+    },
+    "B": {
+      "v2": {
+        "n": 1800,
+        "exact": {
+          "goal": 0.82167,
+          "via": 0.89556,
+          "urgent": 0.72556,
+          "fragile": 0.90611,
+          "all": 0.49944
+        },
+        "confusion": {
+          "via": {
+            "n": 1800,
+            "positive": 924,
+            "tp": 785,
+            "fn": 139,
+            "fp": 10,
+            "tn": 866,
+            "sensitivity": 0.84957,
+            "specificity": 0.98858,
+            "balanced_accuracy": 0.91908
+          },
+          "urgent": {
+            "n": 1800,
+            "positive": 804,
+            "tp": 350,
+            "fn": 454,
+            "fp": 40,
+            "tn": 956,
+            "sensitivity": 0.43532,
+            "specificity": 0.95984,
+            "balanced_accuracy": 0.69758
+          },
+          "fragile": {
+            "n": 1800,
+            "positive": 715,
+            "tp": 715,
+            "fn": 0,
+            "fp": 169,
+            "tn": 916,
+            "sensitivity": 1.0,
+            "specificity": 0.84424,
+            "balanced_accuracy": 0.92212
+          }
+        }
+      },
+      "weighted": {
+        "n": 1800,
+        "exact": {
+          "goal": 0.79611,
+          "via": 0.80389,
+          "urgent": 0.87833,
+          "fragile": 0.83611,
+          "all": 0.47
+        },
+        "confusion": {
+          "via": {
+            "n": 1800,
+            "positive": 983,
+            "tp": 815,
+            "fn": 168,
+            "fp": 92,
+            "tn": 725,
+            "sensitivity": 0.82909,
+            "specificity": 0.88739,
+            "balanced_accuracy": 0.85824
+          },
+          "urgent": {
+            "n": 1800,
+            "positive": 795,
+            "tp": 595,
+            "fn": 200,
+            "fp": 19,
+            "tn": 986,
+            "sensitivity": 0.74843,
+            "specificity": 0.98109,
+            "balanced_accuracy": 0.86476
+          },
+          "fragile": {
+            "n": 1800,
+            "positive": 769,
+            "tp": 577,
+            "fn": 192,
+            "fp": 103,
+            "tn": 928,
+            "sensitivity": 0.75033,
+            "specificity": 0.9001,
+            "balanced_accuracy": 0.82521
+          }
+        }
+      },
+      "hard": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.82,
+          "via": 0.74583,
+          "urgent": 1.0,
+          "fragile": 0.82917,
+          "all": 0.535
+        },
+        "confusion": {
+          "via": {
+            "n": 1200,
+            "positive": 615,
+            "tp": 447,
+            "fn": 168,
+            "fp": 60,
+            "tn": 525,
+            "sensitivity": 0.72683,
+            "specificity": 0.89744,
+            "balanced_accuracy": 0.81213
+          },
+          "urgent": {
+            "n": 1200,
+            "positive": 585,
+            "tp": 585,
+            "fn": 0,
+            "fp": 0,
+            "tn": 615,
+            "sensitivity": 1.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 1.0
+          },
+          "fragile": {
+            "n": 1200,
+            "positive": 526,
+            "tp": 321,
+            "fn": 205,
+            "fp": 0,
+            "tn": 674,
+            "sensitivity": 0.61027,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.80513
+          }
+        }
+      },
+      "authored_scope_probe": {
+        "n": 20,
+        "exact": {
+          "goal": 1.0,
+          "via": 0.8,
+          "urgent": 0.9,
+          "fragile": 0.9,
+          "all": 0.65
+        },
+        "confusion": {
+          "via": {
+            "n": 20,
+            "positive": 6,
+            "tp": 6,
+            "fn": 0,
+            "fp": 4,
+            "tn": 10,
+            "sensitivity": 1.0,
+            "specificity": 0.71429,
+            "balanced_accuracy": 0.85714
+          },
+          "urgent": {
+            "n": 20,
+            "positive": 2,
+            "tp": 2,
+            "fn": 0,
+            "fp": 2,
+            "tn": 16,
+            "sensitivity": 1.0,
+            "specificity": 0.88889,
+            "balanced_accuracy": 0.94444
+          },
+          "fragile": {
+            "n": 20,
+            "positive": 2,
+            "tp": 2,
+            "fn": 0,
+            "fp": 2,
+            "tn": 16,
+            "sensitivity": 1.0,
+            "specificity": 0.88889,
+            "balanced_accuracy": 0.94444
+          }
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "v2": {
+      "n": 1800,
+      "all": {
+        "B_only_correct": 68,
+        "A_only_correct": 38,
+        "delta_pp": 1.667,
+        "mcnemar_two_sided_p": 0.0046185
+      },
+      "via": {
+        "B_only_correct": 38,
+        "A_only_correct": 8,
+        "delta_pp": 1.667,
+        "mcnemar_two_sided_p": 9.2e-06,
+        "false_positive_delta_n": 5,
+        "false_negative_delta_n": -29
+      },
+      "urgent": {
+        "B_only_correct": 12,
+        "A_only_correct": 18,
+        "delta_pp": -0.333,
+        "mcnemar_two_sided_p": 0.3615946,
+        "false_positive_delta_n": -10,
+        "false_negative_delta_n": 16
+      },
+      "fragile": {
+        "B_only_correct": 65,
+        "A_only_correct": 0,
+        "delta_pp": 3.611,
+        "mcnemar_two_sided_p": 0.0,
+        "false_positive_delta_n": -65,
+        "false_negative_delta_n": 0
+      }
+    },
+    "weighted": {
+      "n": 1800,
+      "all": {
+        "B_only_correct": 211,
+        "A_only_correct": 35,
+        "delta_pp": 9.778,
+        "mcnemar_two_sided_p": 0.0
+      },
+      "via": {
+        "B_only_correct": 93,
+        "A_only_correct": 31,
+        "delta_pp": 3.444,
+        "mcnemar_two_sided_p": 0.0,
+        "false_positive_delta_n": 25,
+        "false_negative_delta_n": -91
+      },
+      "urgent": {
+        "B_only_correct": 3,
+        "A_only_correct": 6,
+        "delta_pp": -0.167,
+        "mcnemar_two_sided_p": 0.5078125,
+        "false_positive_delta_n": -2,
+        "false_negative_delta_n": 5
+      },
+      "fragile": {
+        "B_only_correct": 277,
+        "A_only_correct": 0,
+        "delta_pp": 15.389,
+        "mcnemar_two_sided_p": 0.0,
+        "false_positive_delta_n": -20,
+        "false_negative_delta_n": -257
+      }
+    },
+    "hard": {
+      "n": 1200,
+      "all": {
+        "B_only_correct": 284,
+        "A_only_correct": 12,
+        "delta_pp": 22.667,
+        "mcnemar_two_sided_p": 0.0
+      },
+      "via": {
+        "B_only_correct": 99,
+        "A_only_correct": 20,
+        "delta_pp": 6.583,
+        "mcnemar_two_sided_p": 0.0,
+        "false_positive_delta_n": 12,
+        "false_negative_delta_n": -104
+      },
+      "urgent": {
+        "B_only_correct": 1,
+        "A_only_correct": 0,
+        "delta_pp": 0.083,
+        "mcnemar_two_sided_p": 1.0,
+        "false_positive_delta_n": -1,
+        "false_negative_delta_n": 0
+      },
+      "fragile": {
+        "B_only_correct": 321,
+        "A_only_correct": 0,
+        "delta_pp": 26.75,
+        "mcnemar_two_sided_p": 0.0,
+        "false_positive_delta_n": 0,
+        "false_negative_delta_n": -321
+      }
+    },
+    "authored_scope_probe": {
+      "n": 20,
+      "all": {
+        "B_only_correct": 1,
+        "A_only_correct": 1,
+        "delta_pp": 0.0,
+        "mcnemar_two_sided_p": 1.0
+      },
+      "via": {
+        "B_only_correct": 1,
+        "A_only_correct": 1,
+        "delta_pp": 0.0,
+        "mcnemar_two_sided_p": 1.0,
+        "false_positive_delta_n": 1,
+        "false_negative_delta_n": -1
+      },
+      "urgent": {
+        "B_only_correct": 0,
+        "A_only_correct": 0,
+        "delta_pp": 0.0,
+        "mcnemar_two_sided_p": 1.0,
+        "false_positive_delta_n": 0,
+        "false_negative_delta_n": 0
+      },
+      "fragile": {
+        "B_only_correct": 0,
+        "A_only_correct": 0,
+        "delta_pp": 0.0,
+        "mcnemar_two_sided_p": 1.0,
+        "false_positive_delta_n": 0,
+        "false_negative_delta_n": 0
+      }
+    }
+  },
+  "selected_errors": {
+    "v2": {
+      "n_B_wrong": 901,
+      "n_B_new_mistakes_vs_A": 38,
+      "examples_B_new_errors": [
+        {
+          "index": 6,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "west_most",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "sports",
+              "ref": "west",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Nho robot: cham cung khong sao. Cho khu van dng chi la moc de re, khong phai oi can tim. Nguoi nan la doi bong ro, dang o trai nhat. Khong de v.o acm on orbot."
+        },
+        {
+          "index": 40,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "anchor_near",
+              "anchor": "sports"
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": null,
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "yeu cau moi cho cong vao chi la moc de re khong phai noi can tim toi can gui qua bong vao khu co cu ly toi khu the duc nho nhat chuyen nay chi di ngang khu nghien cuu khong ghe vao tu tu thoi khong giao o phong o sinh vien nua thanks robot"
+        },
+        {
+          "index": 53,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "east_most",
+              "anchor": null
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": null,
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Hello Robot Khong Can Qua Khu Thuc Hanh Chuyen Phat May Chieu Den O Tan Cung Phia Dong Gap Tin Truoc Ghi Toa Hieu Bo La Nham Khong De Vo Nhanh Len Nhe Truoc Do Ghe Hoi Truong Hoc Lay May Chieu Cam On Nhieu"
+        },
+        {
+          "index": 71,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "north_most",
+              "anchor": null
+            },
+            "via": {
+              "type": "canteen",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": null,
+              "ref": "north_most",
+              "anchor": null
+            },
+            "via": {
+              "type": "canteen",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": true,
+            "urgent": false,
+            "fragile": true,
+            "all": false
+          },
+          "text": "khong can qua bai trong giu phuong tien tap trung. di vong qua khu am thuc truoc, roi giao nham roi phai mang vao bac nhat moi dung di. giao lien nhe. cam on roobt."
+        },
+        {
+          "index": 96,
+          "truth": {
+            "goal": {
+              "type": "lab",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "lab",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": true,
+            "urgent": false,
+            "fragile": true,
+            "all": false
+          },
+          "text": "nho ban nhe khong so vo ngay bay gio nhe tin truoc ghi khu van dong la nham chuyen phat ho so den phong mo phong thi nghiem thuc hanh gap tin truoc ghi quay an la nham cam on ban nhe"
+        },
+        {
+          "index": 155,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "south_most",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "lecture",
+              "ref": "south",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "chao robot! chuyen nay chi di ngang toa nha luu tru sinh vien, khong ghe vao. nguoi nhan la co giao, dang o nam duoi day. tu tu thoi. khong so vo. cam on!"
+        },
+        {
+          "index": 166,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "anchor_near",
+              "anchor": "gate"
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "gate",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "nho robot: (tin truoc ghi bep an la nham). lay lo hang o hoi truong hoc xong thi quen diem bai trong giu phuong tien tap trung toi vua doc luc nay di, gio hay giao nham roi phai mang vao khu co cu ly toi cong vao nho nhat moi dung nhe robot. nhanh len nhe. khong de vo. tks."
+        },
+        {
+          "index": 275,
+          "truth": {
+            "goal": {
+              "type": "lab",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "library",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": true
+          },
+          "pred": {
+            "goal": {
+              "type": "gate",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "library",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": true
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Chao ban khng can qua phong tong hop bo don cu o chot cong don moi toi can gui thung thuc ham vao kuh nghien cuu truoc do ghe oni muon sach tham khao lay qua bnog chu y hang de hong khi va dap nho nhe"
+        }
+      ]
+    },
+    "weighted": {
+      "n_B_wrong": 954,
+      "n_B_new_mistakes_vs_A": 35,
+      "examples_B_new_errors": [
+        {
+          "index": 93,
+          "truth": {
+            "goal": {
+              "type": "clinic",
+              "ref": "far",
+              "anchor": "parking"
+            },
+            "via": {
+              "type": "canteen",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "clinic",
+              "ref": "near",
+              "anchor": "parking"
+            },
+            "via": {
+              "type": "canteen",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Người gửi đã rút lại chỉ dẫn chuyển tới quầy mượn sách. Phiếu trước đòi lấy hàng ở khu lưu trú; bây giờ đã bỏ chặng ấy. Chặng đầu robot cần tới nhà ăn trung tâm thu túi giấy tờ, rồi tiếp tục giao hàng. Hãy bàn giao thùng bưu phẩm ở trung tâm y tế nằm cách bãi xe đạp nhiều ô hơn các nơi cùng loại khác. Bản cũ ghi nơi ở khu văn phòng; đừng suy ra đây là nơi giao. Không được trì hoãn; đây là đơn khẩn cấp."
+        },
+        {
+          "index": 139,
+          "truth": {
+            "goal": {
+              "type": "dorm",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "canteen",
+              "ref": "near",
+              "anchor": "sports"
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "dorm",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "canteen",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "lenh chuyen hang vua duoc xac nhan. cap nhat: bo noi giao khu vuc cap cuu va so cuu hoc duong, thay bang chi dan tiep theo. chang dau robot can toi bep an co cu ly ngan nhat den san tennis trong nhom cung loai thu tui giay to, roi tiep tuc giao hang. hay ban giao thung buu pham o phong o sinh vien. chi di qua noi muon sach tham khao, khong duoc coi la diem lay trung gian. chi di qua phong hoc chung, khong duoc coi la diem lay trung gian. khong duoc tri hoan; day la don khan cap. hang nay khong nhay va dap."
+        },
+        {
+          "index": 156,
+          "truth": {
+            "goal": {
+              "type": "sports",
+              "ref": "south",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "sports",
+              "ref": "south",
+              "anchor": null
+            },
+            "via": {
+              "type": "gate",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Tại bãi xe đạp không còn kiện nào thuộc đơn này; hủy bước lấy. Hàng đã được nhận từ đầu, robot chỉ phải giao đúng đích. Người nhận chờ thùng bưu phẩm tại trung tâm thể thao ở đầu nam của các địa điểm cùng loại. Chỉ đi qua trạm gác cổng, không được coi là điểm lấy trung gian. Không được trì hoãn; đây là đơn khẩn cấp."
+        },
+        {
+          "index": 185,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "south_most",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": true
+          },
+          "pred": {
+            "goal": {
+              "type": "canteen",
+              "ref": "south",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": true
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "chao robot cho phong hoc chung chi la moc de re khong phai noi can tim chuyen nay chi di ngang cong vao khong ghe vao cham cung khong sao bo don cu o quay an don moi nguoi nhan la nhan vien phuc vu nha an truong dang o nam nhat hang de vo lam thanks robot"
+        },
+        {
+          "index": 191,
+          "truth": {
+            "goal": {
+              "type": "library",
+              "ref": "near",
+              "anchor": "dorm"
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "library",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "lenh chuyen hang vua duoc xac nhan. khong bo tri diem gom them hang tren tuyen duong. nguoi nhan cho thung buu pham tai phong doc sach co cu ly ngan nhat den toa o sinh vien trong nhom cung loai. don hien tai khong su dung khu thuc hanh vi noi do dong cua. khong duoc tri hoan; day la don khan cap. hang nay khong nhay va dap."
+        },
+        {
+          "index": 274,
+          "truth": {
+            "goal": {
+              "type": "library",
+              "ref": "far",
+              "anchor": "lab"
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "library",
+              "ref": "near",
+              "anchor": "lab"
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Cập nhật: bỏ nơi giao trung tâm thể thao, thay bằng chỉ dẫn tiếp theo. Người nhận chờ thùng bưu phẩm tại quầy mượn sách nằm cách trung tâm thực nghiệm nhiều ô hơn các nơi cùng loại khác. Hàng đã được nhận từ đầu, robot chỉ phải giao đúng đích. Bản cũ ghi nơi ở khu văn phòng; đừng suy ra đây là nơi giao. Thời hạn được nới, không cần vội."
+        },
+        {
+          "index": 283,
+          "truth": {
+            "goal": {
+              "type": null,
+              "ref": "south_most",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": null,
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Hello robot bo don cu o lab hoa don moi toi o tan cung phia nam de giao cuc pin khong de vo thanks robot"
+        },
+        {
+          "index": 372,
+          "truth": {
+            "goal": {
+              "type": "library",
+              "ref": "north",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "library",
+              "ref": "north",
+              "anchor": null
+            },
+            "via": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Người nhận chờ thùng bưu phẩm tại quầy mượn sách ở đầu bắc của các địa điểm cùng loại. Không bố trí điểm gom thêm hàng trên tuyến đường. Chỉ đi qua trung tâm thể thao, không được coi là điểm lấy trung gian. Không được trì hoãn; đây là đơn khẩn cấp. Hàng này không nhạy va đập."
+        }
+      ]
+    },
+    "hard": {
+      "n_B_wrong": 558,
+      "n_B_new_mistakes_vs_A": 12,
+      "examples_B_new_errors": [
+        {
+          "index": 24,
+          "truth": {
+            "goal": {
+              "type": "parking",
+              "ref": "far",
+              "anchor": "canteen"
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "parking",
+              "ref": "near",
+              "anchor": "canteen"
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Người nhận chờ túi hàng tại bãi xe đạp nằm cách nhà ăn trung tâm nhiều ô hơn các nơi cùng loại khác. Chặng đầu robot cần tới tòa nhà học tập thu túi hàng, rồi tiếp tục giao hàng. Không được trì hoãn; đây là đơn khẩn cấp."
+        },
+        {
+          "index": 126,
+          "truth": {
+            "goal": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "lenh chuyen hang vua duoc xac nhan. nguoi nhan cho tui hang tai day phong hoc. khong bo tri diem gom them hang tren tuyen duong. chi di qua san van dong ngoai troi, khong duoc coi la diem lay trung gian. chuyen hien tai khong lien quan toi dia chi day phong noi tru."
+        },
+        {
+          "index": 334,
+          "truth": {
+            "goal": {
+              "type": "parking",
+              "ref": "far",
+              "anchor": "dorm"
+            },
+            "via": {
+              "type": "lecture",
+              "ref": "near",
+              "anchor": "gate"
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "parking",
+              "ref": "near",
+              "anchor": "dorm"
+            },
+            "via": {
+              "type": "clinic",
+              "ref": "near",
+              "anchor": "gate"
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "chang dau robot can toi phong hoc chung nam cach cong vao it o hon cac noi cung loai khac thu tui giay to, roi tiep tuc giao hang. nguoi nhan cho thung buu pham tai bai trong giu phuong tien tap trung nam cach day phong noi tru nhieu o hon cac noi cung loai khac. chi di qua noi kham benh, khong duoc coi la diem lay trung gian. thong tin san van dong ngoai troi chi la noi dung loai tru, khong phai noi ban giao. khong duoc tri hoan; day la don khan cap. hang nay khong nhay va dap."
+        },
+        {
+          "index": 545,
+          "truth": {
+            "goal": {
+              "type": "dorm",
+              "ref": "far",
+              "anchor": "office"
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "dorm",
+              "ref": "near",
+              "anchor": "office"
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Người gửi đã rút lại chỉ dẫn chuyển tới trung tâm thực nghiệm. Hãy bàn giao thùng bưu phẩm ở khu lưu trú nằm cách khu văn phòng nhiều ô hơn các nơi cùng loại khác. Không bố trí điểm gom thêm hàng trên tuyến đường. Không được trì hoãn; đây là đơn khẩn cấp. Hàng này không nhạy va đập."
+        },
+        {
+          "index": 787,
+          "truth": {
+            "goal": {
+              "type": "clinic",
+              "ref": "east",
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "clinic",
+              "ref": "east",
+              "anchor": null
+            },
+            "via": {
+              "type": "parking",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Người gửi đã rút lại chỉ dẫn chuyển tới trung tâm thể thao. Không bố trí điểm gom thêm hàng trên tuyến đường. Hãy bàn giao túi hàng ở trung tâm y tế ở đầu đông của các địa điểm cùng loại. Chỉ đi qua bãi xe đạp, không được coi là điểm lấy trung gian. Thời hạn được nới, không cần vội. Hàng này không nhạy va đập."
+        },
+        {
+          "index": 799,
+          "truth": {
+            "goal": {
+              "type": "clinic",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "clinic",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "lab",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "lenh chuyen hang vua duoc xac nhan. hay ban giao tui hang o phong so cuu. hang da duoc nhan tu dau, robot chi phai giao dung dich. chi di qua khu nghien cuu, khong duoc coi la diem lay trung gian. khong duoc tri hoan; day la don khan cap. hang nay khong nhay va dap."
+        },
+        {
+          "index": 873,
+          "truth": {
+            "goal": {
+              "type": "lab",
+              "ref": "far",
+              "anchor": "library"
+            },
+            "via": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "lab",
+              "ref": "near",
+              "anchor": "library"
+            },
+            "via": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": false,
+            "via": true,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Cập nhật: bỏ nơi giao bãi xe đạp, thay bằng chỉ dẫn tiếp theo. Chặng đầu robot cần tới trung tâm thể thao thu túi giấy tờ, rồi tiếp tục giao hàng. Hãy bàn giao túi hàng ở trung tâm thực nghiệm nằm cách quầy mượn sách nhiều ô hơn các nơi cùng loại khác. Một phiếu cũ từng ghi tòa nhà học tập, nhưng đơn hiện tại không liên quan. Không được trì hoãn; đây là đơn khẩn cấp."
+        },
+        {
+          "index": 916,
+          "truth": {
+            "goal": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": true,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "sports",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "lecture",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": true,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Lệnh chuyển hàng vừa được xác nhận. Người nhận chờ thùng bưu phẩm tại trung tâm thể thao. Hàng đã được nhận từ đầu, robot chỉ phải giao đúng đích. Chỉ đi qua tòa nhà học tập, không được coi là điểm lấy trung gian. Không được trì hoãn; đây là đơn khẩn cấp."
+        }
+      ]
+    },
+    "authored_scope_probe": {
+      "n_B_wrong": 7,
+      "n_B_new_mistakes_vs_A": 1,
+      "examples_B_new_errors": [
+        {
+          "index": 11,
+          "truth": {
+            "goal": {
+              "type": "clinic",
+              "ref": null,
+              "anchor": null
+            },
+            "via": null,
+            "urgent": false,
+            "fragile": false
+          },
+          "pred": {
+            "goal": {
+              "type": "clinic",
+              "ref": null,
+              "anchor": null
+            },
+            "via": {
+              "type": "library",
+              "ref": null,
+              "anchor": null
+            },
+            "urgent": false,
+            "fragile": false
+          },
+          "hits": {
+            "goal": true,
+            "via": false,
+            "urgent": true,
+            "fragile": true,
+            "all": false
+          },
+          "text": "Giao thiết bị tới trạm y tế. Chặng lấy bổ sung ở thư viện đã bị hủy và không thực hiện."
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 44.6,
+  "limitations": [
+    "Synthetic fresh seeds still draw from same phrase-bank generator; not independent human OOD",
+    "Authored 20-case small probe is a hand-written diagnostic and not a human-blind sample",
+    "Single initial model seed, two posttraining arms only",
+    "Exploratory paired p-values are unadjusted for multiple tests",
+    "NO official val/test touched; NO model/code outside workspace changed"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_34_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0330498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330571",
+      "status": "U",
+      "reason": "phong cap cuu ngay voi (urgent cue 'ngay voi' contradicts 'thong tha')"
+    },
+    {
+      "id": "v4_0330580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330647",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330801",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0330989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331032",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331123",
+      "status": "U",
+      "reason": "chieu nay giao cung duoc contradicts doi mu bao hiem gap"
+    },
+    {
+      "id": "v4_0331132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0331167",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

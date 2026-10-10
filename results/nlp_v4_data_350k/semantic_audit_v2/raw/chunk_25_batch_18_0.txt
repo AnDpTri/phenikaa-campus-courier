@@ -1,0 +1,52 @@
+v4_0248561	P	-
+v4_0248570	P	-
+v4_0248572	P	-
+v4_0248574	P	-
+v4_0248577	P	-
+v4_0248587	P	-
+v4_0248591	P	-
+v4_0248597	P	-
+v4_0248607	P	-
+v4_0248612	P	-
+v4_0248650	P	-
+v4_0248652	U	"ni ma nam sat bien phia nhat": missing direction word between "phia" and "nhat"
+v4_0248665	P	-
+v4_0248686	P	-
+v4_0248687	P	-
+v4_0248689	P	-
+v4_0248691	P	-
+v4_0248693	P	-
+v4_0248701	P	-
+v4_0248707	P	-
+v4_0248709	P	-
+v4_0248712	P	-
+v4_0248724	P	-
+v4_0248731	P	-
+v4_0248737	P	-
+v4_0248748	P	-
+v4_0248749	P	-
+v4_0248751	lecture/-/-	lab/west/-	0	0	F	goal: provided lecture/-/- vs corrected office/-/- ("tay chu nhiem")
+v4_0248756	P	-
+v4_0248759	lecture/-/-	sports/south/-	0	1	F	goal: provided lecture/-/- vs corrected office/-/- ("thay chu nhiem")
+v4_0248762	P	-
+v4_0248764	P	-
+v4_0248786	P	-
+v4_0248802	P	-
+v4_0248804	P	-
+v4_0248817	P	-
+v4_0248821	P	-
+v4_0248829	P	-
+v4_0248830	P	-
+v4_0248838	P	-
+v4_0248841	P	-
+v4_0248862	P	-
+v4_0248866	P	-
+v4_0248873	P	-
+v4_0248879	P	-
+v4_0248886	P	-
+v4_0248890	P	-
+v4_0248894	P	-
+v4_0248906	P	-
+v4_0248907	P	-
+
+STDERR:

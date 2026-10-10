@@ -1,0 +1,52 @@
+v4_0328060	P	-
+v4_0328061	P	-
+v4_0328067	P	-
+v4_0328071	P	-
+v4_0328078	F	goal type/ref/anchor provided -/anchor_near/lab should be -/anchor_near/clinic based on 'can tiu so cuu'
+v4_0328103	P	-
+v4_0328133	P	-
+v4_0328146	P	-
+v4_0328151	P	-
+v4_0328157	P	-
+v4_0328169	P	-
+v4_0328172	P	-
+v4_0328175	P	-
+v4_0328182	P	-
+v4_0328238	P	-
+v4_0328245	P	-
+v4_0328250	P	-
+v4_0328256	P	-
+v4_0328264	P	-
+v4_0328295	P	-
+v4_0328303	P	-
+v4_0328304	P	-
+v4_0328330	P	-
+v4_0328352	P	-
+v4_0328357	P	-
+v4_0328374	P	-
+v4_0328389	P	-
+v4_0328396	P	-
+v4_0328408	P	-
+v4_0328418	P	-
+v4_0328437	P	-
+v4_0328440	P	-
+v4_0328444	P	-
+v4_0328446	P	-
+v4_0328465	P	-
+v4_0328466	P	-
+v4_0328470	P	-
+v4_0328479	P	-
+v4_0328481	P	-
+v4_0328482	P	-
+v4_0328502	P	-
+v4_0328543	P	-
+v4_0328548	P	-
+v4_0328553	P	-
+v4_0328566	P	-
+v4_0328571	P	-
+v4_0328574	P	-
+v4_0328586	P	-
+v4_0328595	F	goal type/ref/anchor provided sports/-/- should be -/-/- based on 'dung cu tap luyen la cua thay day the duc' (no delivery goal mentioned)
+v4_0328608	P	-
+
+STDERR:

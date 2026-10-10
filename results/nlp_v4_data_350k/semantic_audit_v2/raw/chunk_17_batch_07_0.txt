@@ -1,0 +1,52 @@
+v4_0162935	P	-
+v4_0162937	F	goal type: provided 'library', corrected 'canteen' ('lay khay com truo,c roi mang thung nuoc uong toi cho nhan vien hu vien' - recipient is library staff, but destination is ambiguous or provided labels: via 'sports/east/-' vs text 'phong gym thuoc khu uc phai lay khay com truo,c' canteen vs gym; goal 'nhan vien hu vien' = library, but via is sports/east/-) -> F	via ref: provided 'east', corrected '-' ('khu uc phai' is corrupted/unclear)
+v4_0162974	U	Text contains corrupted words ('dng cahn', 'ao tao cai o bca', 'hno ky nhe') making required office direction ambiguous
+v4_0162975	P	-
+v4_0162978	P	-
+v4_0162983	P	-
+v4_0162986	P	-
+v4_0162988	P	-
+v4_0162997	P	-
+v4_0163002	P	-
+v4_0163005	P	-
+v4_0163010	P	-
+v4_0163014	P	-
+v4_0163018	P	-
+v4_0163020	P	-
+v4_0163022	P	-
+v4_0163041	P	-
+v4_0163053	P	-
+v4_0163085	P	-
+v4_0163088	P	-
+v4_0163098	P	-
+v4_0163104	P	-
+v4_0163112	P	-
+v4_0163117	P	-
+v4_0163127	P	-
+v4_0163129	P	-
+v4_0163137	P	-
+v4_0163138	P	-
+v4_0163144	P	-
+v4_0163148	P	-
+v4_0163162	P	-
+v4_0163182	P	-
+v4_0163186	P	-
+v4_0163203	P	-
+v4_0163207	P	-
+v4_0163229	P	-
+v4_0163248	P	-
+v4_0163251	P	-
+v4_0163252	P	-
+v4_0163264	P	-
+v4_0163267	P	-
+v4_0163292	P	-
+v4_0163310	P	-
+v4_0163313	P	-
+v4_0163323	P	-
+v4_0163328	P	-
+v4_0163344	P	-
+v4_0163349	P	-
+v4_0163353	P	-
+v4_0163356	P	-
+
+STDERR:

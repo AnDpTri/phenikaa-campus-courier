@@ -1,0 +1,52 @@
+v4_0119017	P	-
+v4_0119019	P	-
+v4_0119031	P	-
+v4_0119035	P	-
+v4_0119043	F	urgent: provided 1, corrected 0 based on 'can trong 5 phut' meaning deadline within 5 min vs non-urgent? Wait, 'can trong 5 phut' is urgent, but 'dung cu tap luyen gui ra cong ra vao' -> gate/-/-. Let's re-verify: P
+v4_0119047	P	-
+v4_0119051	P	-
+v4_0119052	P	-
+v4_0119056	P	-
+v4_0119078	P	-
+v4_0119091	P	-
+v4_0119094	P	-
+v4_0119114	P	-
+v4_0119124	P	-
+v4_0119126	P	-
+v4_0119134	P	-
+v4_0119135	P	-
+v4_0119143	P	-
+v4_0119169	P	-
+v4_0119172	P	-
+v4_0119180	P	-
+v4_0119184	P	-
+v4_0119199	P	-
+v4_0119204	P	-
+v4_0119217	F	via: provided parking/east/-, corrected parking/east_most/- based on 'khu de xe ben phai nhat'
+v4_0119218	P	-
+v4_0119220	P	-
+v4_0119232	P	-
+v4_0119234	P	-
+v4_0119276	P	-
+v4_0119296	P	-
+v4_0119300	P	-
+v4_0119308	P	-
+v4_0119313	P	-
+v4_0119320	P	-
+v4_0119322	P	-
+v4_0119325	P	-
+v4_0119329	P	-
+v4_0119336	F	via: provided clinic/west/-, corrected -/-/- based on clinic being origin/route or goal
+v4_0119345	P	-
+v4_0119348	P	-
+v4_0119354	P	-
+v4_0119384	P	-
+v4_0119388	P	-
+v4_0119389	P	-
+v4_0119392	P	-
+v4_0119396	P	-
+v4_0119398	P	-
+v4_0119400	P	-
+v4_0119413	F	goal: provided clinic/-/-, corrected -/-/- or recipient is clinic staff with no destination building stated
+
+STDERR:

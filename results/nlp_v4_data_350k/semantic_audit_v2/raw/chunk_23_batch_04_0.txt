@@ -1,0 +1,52 @@
+v4_0221591	P	-
+v4_0221617	P	-
+v4_0221633	P	-
+v4_0221643	P	-
+v4_0221654	P	-
+v4_0221658	P	-
+v4_0221668	P	-
+v4_0221677	P	-
+v4_0221700	U	Text says 'noi o agn toa oc nhat' ambiguous truncated/typo phrasing
+v4_0221701	P	-
+v4_0221703	P	-
+v4_0221708	P	-
+v4_0221752	P	-
+v4_0221757	P	-
+v4_0221771	P	-
+v4_0221804	P	-
+v4_0221806	P	-
+v4_0221809	P	-
+v4_0221816	P	-
+v4_0221824	P	-
+v4_0221851	P	-
+v4_0221886	P	-
+v4_0221905	P	-
+v4_0221927	P	-
+v4_0221933	P	-
+v4_0221938	P	-
+v4_0221942	P	-
+v4_0221949	P	-
+v4_0221967	P	-
+v4_0221968	P	-
+v4_0221971	P	-
+v4_0221994	P	-
+v4_0221995	U	Missing goal destination location only mentions recipient huan luyen vien
+v4_0222045	P	-
+v4_0222051	P	-
+v4_0222056	P	-
+v4_0222061	P	-
+v4_0222064	P	-
+v4_0222070	P	-
+v4_0222072	P	-
+v4_0222078	P	-
+v4_0222079	P	-
+v4_0222105	P	-
+v4_0222120	P	-
+v4_0222127	P	-
+v4_0222135	P	-
+v4_0222164	P	-
+v4_0222179	U	Missing goal location, only specifies recipient can bo thu vien
+v4_0222191	P	-
+v4_0222202	P	-
+
+STDERR:

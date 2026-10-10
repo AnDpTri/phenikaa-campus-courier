@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0262939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0262943",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0262946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0262962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0262969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0262987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263118",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263128",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263160",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263235",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263307",
+      "status": "F",
+      "reason": "goal ref: provided 'west_most' should be 'west' ('o le trai' specifies ordinary left/west side, not extreme 'west_most')"
+    },
+    {
+      "id": "v4_0263317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263329",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

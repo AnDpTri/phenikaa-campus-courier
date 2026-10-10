@@ -1,0 +1,52 @@
+v4_0214666	P	-
+v4_0214667	F	urgent: provided 0, corrected 1 ('dang doi thung thuc pham gap')
+v4_0214671	P	-
+v4_0214679	U	ambiguous goal type and modifier in 'noi o canh giang duong lon nhat'
+v4_0214684	P	-
+v4_0214686	P	-
+v4_0214708	P	-
+v4_0214717	P	-
+v4_0214723	P	-
+v4_0214725	F	urgent: provided 0, corrected 1 ('dang doi loa gap')
+v4_0214734	P	-
+v4_0214735	P	-
+v4_0214746	P	-
+v4_0214760	P	-
+v4_0214795	P	-
+v4_0214819	P	-
+v4_0214829	P	-
+v4_0214836	P	-
+v4_0214837	P	-
+v4_0214838	P	-
+v4_0214851	P	-
+v4_0214860	P	-
+v4_0214870	P	-
+v4_0214886	U	unreadable goal location 'cho huyen ien'
+v4_0214888	P	-
+v4_0214900	P	-
+v4_0214902	P	-
+v4_0214912	P	-
+v4_0214923	U	ambiguous extreme map position 'o cuoi ban do' between south and east
+v4_0214933	P	-
+v4_0214943	F	urgent: provided 0, corrected 1 ('ngay')
+v4_0214948	P	-
+v4_0214951	P	-
+v4_0214977	P	-
+v4_0214982	P	-
+v4_0214988	U	missing direction relation word in 'Khu The Tao Hon Cai Kia'
+v4_0215001	P	-
+v4_0215003	P	-
+v4_0215006	P	-
+v4_0215008	P	-
+v4_0215013	P	-
+v4_0215020	P	-
+v4_0215025	P	-
+v4_0215043	P	-
+v4_0215057	P	-
+v4_0215071	P	-
+v4_0215095	P	-
+v4_0215102	P	-
+v4_0215103	P	-
+v4_0215112	P	-
+
+STDERR:

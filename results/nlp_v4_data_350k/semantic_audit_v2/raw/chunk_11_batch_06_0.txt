@@ -1,0 +1,52 @@
+v4_0102379	P	-
+v4_0102387	P	-
+v4_0102404	P	-
+v4_0102416	P	-
+v4_0102417	P	-
+v4_0102458	P	-
+v4_0102464	P	-
+v4_0102470	P	-
+v4_0102472	P	-
+v4_0102491	P	-
+v4_0102493	P	-
+v4_0102498	P	-
+v4_0102503	P	-
+v4_0102510	P	-
+v4_0102522	P	-
+v4_0102525	P	-
+v4_0102547	P	-
+v4_0102558	P	-
+v4_0102580	P	-
+v4_0102619	U	Nguoi nhan la bac giu xe nhung khong noi ro dia diem giao la bai xe hay noi khac
+v4_0102628	P	-
+v4_0102648	F	goal type: provided library, corrected dorm (quan ly ktx can goi do tai khong gian doc yen tinh)
+v4_0102653	P	-
+v4_0102657	P	-
+v4_0102661	P	-
+v4_0102664	P	-
+v4_0102668	P	-
+v4_0102671	P	-
+v4_0102673	P	-
+v4_0102679	P	-
+v4_0102700	P	-
+v4_0102721	P	-
+v4_0102724	P	-
+v4_0102732	P	-
+v4_0102740	P	-
+v4_0102747	P	-
+v4_0102750	P	-
+v4_0102769	P	-
+v4_0102817	P	-
+v4_0102831	P	-
+v4_0102840	P	-
+v4_0102849	P	-
+v4_0102855	P	-
+v4_0102875	P	-
+v4_0102881	P	-
+v4_0102898	F	goal type: provided library, corrected lecture (tren duong tien ghe lop ly thuyet nhe so ghi khach la cua nhan vien thu vien)
+v4_0102907	P	-
+v4_0102920	P	-
+v4_0102927	P	-
+v4_0102944	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0223092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223118",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223121",
+      "status": "U",
+      "reason": "'dat lech cao nhat ve huong bac' is ambiguous between extreme position (north_most) and ordinary directional position (north)"
+    },
+    {
+      "id": "v4_0223132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223167",
+      "status": "U",
+      "reason": "Contradictory urgency cues ('can gap bo sac truoc' vs 'ki nao tien tih giao')"
+    },
+    {
+      "id": "v4_0223172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223552",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223611",
+      "status": "U",
+      "reason": "Contradictory urgency cues ('ngay ho minh' vs 'cu tu tu, khong voi')"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0239547	P	-
+v4_0239553	P	-
+v4_0239560	P	-
+v4_0239569	P	-
+v4_0239576	P	-
+v4_0239579	P	-
+v4_0239589	P	-
+v4_0239590	P	-
+v4_0239606	P	-
+v4_0239608	F	goal type/ref/anchor provided -/east_most/- should be -/east_most/- but 'mep hai' is ungrounded or ambiguous direction
+v4_0239619	P	-
+v4_0239620	P	-
+v4_0239633	P	-
+v4_0239646	P	-
+v4_0239651	P	-
+v4_0239667	P	-
+v4_0239676	P	-
+v4_0239682	P	-
+v4_0239691	P	-
+v4_0239693	P	-
+v4_0239696	P	-
+v4_0239697	P	-
+v4_0239718	P	-
+v4_0239729	P	-
+v4_0239749	P	-
+v4_0239783	P	-
+v4_0239785	P	-
+v4_0239802	P	-
+v4_0239816	P	-
+v4_0239823	P	-
+v4_0239832	P	-
+v4_0239842	P	-
+v4_0239848	P	-
+v4_0239852	P	-
+v4_0239855	P	-
+v4_0239856	P	-
+v4_0239903	P	-
+v4_0239911	P	-
+v4_0239913	P	-
+v4_0239914	P	-
+v4_0239916	P	-
+v4_0239925	P	-
+v4_0239937	P	-
+v4_0239941	P	-
+v4_0239968	P	-
+v4_0239971	P	-
+v4_0239974	P	-
+v4_0239975	P	-
+v4_0239980	F	via type/ref/anchor provided lecture/-/- should be lecture/-/- but text says 'toa nha ho' which is missing/corrupted
+v4_0239993	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0079520	P	-
+v4_0079521	P	-
+v4_0079527	P	-
+v4_0079536	P	-
+v4_0079567	P	-
+v4_0079587	P	-
+v4_0079592	U	Ambigous destination reference: 'tang tren nhat' may indicate height or extreme direction; also 'ngay giup toi' vs 'luc nao ranh thi giao' causes conflicting urgency cues.
+v4_0079606	P	-
+v4_0079610	P	-
+v4_0079621	P	-
+v4_0079627	P	-
+v4_0079629	P	-
+v4_0079634	P	-
+v4_0079635	P	-
+v4_0079637	P	-
+v4_0079640	P	-
+v4_0079660	P	-
+v4_0079671	P	-
+v4_0079676	P	-
+v4_0079681	P	-
+v4_0079693	P	-
+v4_0079722	P	-
+v4_0079724	P	-
+v4_0079734	P	-
+v4_0079743	P	-
+v4_0079750	P	-
+v4_0079757	P	-
+v4_0079759	P	-
+v4_0079766	P	-
+v4_0079771	P	-
+v4_0079777	P	-
+v4_0079783	P	-
+v4_0079789	P	-
+v4_0079819	P	-
+v4_0079823	P	-
+v4_0079826	P	-
+v4_0079850	P	-
+v4_0079856	P	-
+v4_0079867	P	-
+v4_0079914	P	-
+v4_0079916	P	-
+v4_0079919	P	-
+v4_0079921	P	-
+v4_0079924	P	-
+v4_0079927	U	Conflicting cues between urgent 'ngay ho minh' and unstated/absent urgent flag.
+v4_0079938	P	-
+v4_0079945	P	-
+v4_0079951	P	-
+v4_0079960	P	-
+v4_0079962	P	-
+
+STDERR:

@@ -1,0 +1,53 @@
+v4_0185520	P	-
+v4_0185526	P	-
+v4_0185532	P	-
+v4_0185533	P	-
+v4_0185539	P	-
+v4_0185543	P	-
+v4_0185544	P	-
+v4_0185551	P	-
+v4_0185557	P	-
+v4_0185558	F	goal type: provided 'lab' should be '-' ('len xuong' is lab/thuc hanh / xuong, but text says 'Dem hop sach tra len xuong ngay' -> xuong is recipient/location? Wait, 'xuong' = workshop/lab, 'san bong da' passed by -> supported lab/-/-? If xuong = lab, it is P)
+v4_0185558	P	-
+v4_0185584	P	-
+v4_0185586	P	-
+v4_0185587	P	-
+v4_0185622	P	-
+v4_0185626	P	-
+v4_0185629	P	-
+v4_0185630	P	-
+v4_0185631	P	-
+v4_0185650	P	-
+v4_0185686	P	-
+v4_0185694	F	goal type: provided '-' should be 'canteen' ('co nau an o khu vuc nam phai cng' is canteen/nha an head place)
+v4_0185704	P	-
+v4_0185709	P	-
+v4_0185711	P	-
+v4_0185720	P	-
+v4_0185736	P	-
+v4_0185740	P	-
+v4_0185742	P	-
+v4_0185747	P	-
+v4_0185751	P	-
+v4_0185753	P	-
+v4_0185757	P	-
+v4_0185763	P	-
+v4_0185764	P	-
+v4_0185798	P	-
+v4_0185805	P	-
+v4_0185809	P	-
+v4_0185817	P	-
+v4_0185822	P	-
+v4_0185860	P	-
+v4_0185863	P	-
+v4_0185873	P	-
+v4_0185879	P	-
+v4_0185880	P	-
+v4_0185884	P	-
+v4_0185894	P	-
+v4_0185895	P	-
+v4_0185909	P	-
+v4_0185918	P	-
+v4_0185924	P	-
+
+STDERR:

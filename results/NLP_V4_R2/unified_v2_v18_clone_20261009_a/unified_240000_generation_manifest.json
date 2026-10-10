@@ -1,0 +1,67 @@
+{
+  "status": "CREATED_PENDING_INDEPENDENT_DATA_QA",
+  "method": "single integrated cloned generator; v2 unchanged baseline + role-aware hard mode",
+  "count": {
+    "v2": 200000,
+    "hard": 40000,
+    "combined": 240000
+  },
+  "seeds": {
+    "v2": 2026100925,
+    "hard": 2026100926
+  },
+  "source_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "cloned_v2_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "quality": {
+    "v2": 200000,
+    "v2_via": 100095,
+    "v2_accented": 0,
+    "v2_via_no_before": 40063,
+    "v2_none_with_lay": 3028,
+    "hard": 40000,
+    "hard_via": 20666,
+    "hard_accented": 24006,
+    "hard_via_no_before": 16046,
+    "hard_none_with_lay": 10563,
+    "hard_former_goal": 9456,
+    "hard_former_pickup": 5888,
+    "hard_redirect_via": 4884,
+    "hard_negative_roles": 28244
+  },
+  "rejections": {
+    "v2_grammar": 1873
+  },
+  "lengths": {
+    "v2": {
+      "p50": 51,
+      "p90": 71,
+      "p99": 88,
+      "max": 119
+    },
+    "hard": {
+      "p50": 69,
+      "p90": 91,
+      "p99": 110,
+      "max": 141
+    }
+  },
+  "unique_8word_prefixes": {
+    "v2": 146819,
+    "hard": 9790
+  },
+  "outputs": {
+    "v2": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_v2_v18_clone_20261009_a\\train_v2_fresh_200000_seed2026100925.jsonl",
+    "hard": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_v2_v18_clone_20261009_a\\train_specialized_fresh_40000_seed2026100926.jsonl",
+    "combined": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_v2_v18_clone_20261009_a\\train_unified_240000_interleaved_seed20261009.jsonl",
+    "hard_provenance": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_v2_v18_clone_20261009_a\\train_specialized_roles_40000_seed2026100926.jsonl"
+  },
+  "sha256": {
+    "v2": "baeeef0658565ef9120ffd60e4d39d021a3665f9fab1d3e2d0e19ca7f59b8ba9",
+    "hard": "1755205c70367f6614bb7a3dca32b423576cc1a6809881c196346f1d6987c9e4",
+    "combined": "b4f831de0e2cc7664bc4fc36712c121a5744a241b41a9b16f14e3b62d7e4b515"
+  },
+  "reference_unique_comparands": 245618,
+  "train_validation_separation": "Only holdout=False used for corpus generation",
+  "training_or_submission_performed": false,
+  "runtime_seconds": 63.1
+}

@@ -1,0 +1,52 @@
+v4_0328613	P	-
+v4_0328619	U	Vi tri cua bac si o dau khong ro rang, chi noi la tui do cua bac si
+v4_0328622	P	-
+v4_0328624	P	-
+v4_0328674	P	-
+v4_0328681	P	-
+v4_0328689	P	-
+v4_0328707	P	-
+v4_0328712	P	-
+v4_0328720	P	-
+v4_0328724	U	Tu khoa bi hong/khong the doc duoc yeu cau dia diem dich ('phogn mot ua nhat')
+v4_0328731	P	-
+v4_0328734	P	-
+v4_0328755	P	-
+v4_0328760	U	Khong ro vi tri dau bep o dau de lam diem den (chi neu la cua dau bep)
+v4_0328766	P	-
+v4_0328771	P	-
+v4_0328774	P	-
+v4_0328775	P	-
+v4_0328787	P	-
+v4_0328802	P	-
+v4_0328804	P	-
+v4_0328808	P	-
+v4_0328820	P	-
+v4_0328841	P	-
+v4_0328844	P	-
+v4_0328873	U	Khong ro vi tri cua dau bep
+v4_0328877	P	-
+v4_0328905	P	-
+v4_0328906	P	-
+v4_0328915	P	-
+v4_0328923	P	-
+v4_0328927	U	Khong ro vi tri nguoi trong xe dang o dau
+v4_0328942	P	-
+v4_0328943	P	-
+v4_0328971	F	urgent: provided 0, corrected 1 ('ngay')
+v4_0328998	P	-
+v4_0329000	P	-
+v4_0329002	P	-
+v4_0329044	P	-
+v4_0329048	P	-
+v4_0329060	P	-
+v4_0329070	P	-
+v4_0329072	P	-
+v4_0329080	U	Tu khoa dia diem bi hong khong doc duoc ('noi nam sat uong nhat')
+v4_0329086	P	-
+v4_0329087	P	-
+v4_0329091	P	-
+v4_0329107	P	-
+v4_0329110	P	-
+
+STDERR:

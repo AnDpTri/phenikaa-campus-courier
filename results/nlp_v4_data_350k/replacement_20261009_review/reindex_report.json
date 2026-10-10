@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "retained_swap_38833_TRAINABLE_reindexed.jsonl",
+      "lookup": "retained_swap_38833_TRAINABLE_id_lookup.csv",
+      "rows": 338071,
+      "new_rows": 38833,
+      "unsupported_via": 0,
+      "id_range": [
+        "v4mix_000001",
+        "v4mix_338071"
+      ],
+      "sha256": "5f1bcba1ce7d53579ee15c9d21052d21bf03b62fb0531d2c91cc18af9af67ac6"
+    },
+    {
+      "file": "retained_swap_40000_NOT_TRAINABLE_reindexed.jsonl",
+      "lookup": "retained_swap_40000_NOT_TRAINABLE_id_lookup.csv",
+      "rows": 338071,
+      "new_rows": 40000,
+      "unsupported_via": 1167,
+      "id_range": [
+        "v4all_000001",
+        "v4all_338071"
+      ],
+      "sha256": "e8954c88e51af7a5c18f03e7dc0c498fc06d4f981c72291c6f96857b532711f9"
+    }
+  ],
+  "original_untouched": true,
+  "note": "Versions are separate. The 40k variant contains 1167 unsupported via labels and cannot be trained without changes."
+}

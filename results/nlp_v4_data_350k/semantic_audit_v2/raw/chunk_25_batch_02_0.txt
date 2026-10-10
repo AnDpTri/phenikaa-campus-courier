@@ -1,0 +1,52 @@
+v4_0240511	P	-
+v4_0240513	P	-
+v4_0240514	P	-
+v4_0240527	P	-
+v4_0240553	P	-
+v4_0240569	P	-
+v4_0240584	P	-
+v4_0240586	P	-
+v4_0240591	P	-
+v4_0240605	P	-
+v4_0240616	P	-
+v4_0240624	P	-
+v4_0240631	P	-
+v4_0240668	P	-
+v4_0240673	P	-
+v4_0240674	P	-
+v4_0240683	P	-
+v4_0240703	P	-
+v4_0240711	P	-
+v4_0240713	U	toa nam phia phi cung (phi cung is garbled/truncated, unclear if phia cuoi or cot cuoi)
+v4_0240730	P	-
+v4_0240737	P	-
+v4_0240741	P	-
+v4_0240748	P	-
+v4_0240750	P	-
+v4_0240755	P	-
+v4_0240757	U	giang vien dang cho on qua khong can ga (garbled text with missing words/typos obscuring meaning)
+v4_0240758	P	-
+v4_0240760	P	-
+v4_0240776	P	-
+v4_0240782	P	-
+v4_0240785	P	-
+v4_0240788	P	-
+v4_0240792	P	-
+v4_0240813	P	-
+v4_0240827	P	-
+v4_0240829	P	-
+v4_0240837	P	-
+v4_0240838	P	-
+v4_0240851	P	-
+v4_0240856	P	-
+v4_0240870	P	-
+v4_0240872	P	-
+v4_0240890	P	-
+v4_0240896	P	-
+v4_0240902	P	-
+v4_0240923	P	-
+v4_0240937	P	-
+v4_0240956	P	-
+v4_0240964	P	-
+
+STDERR:

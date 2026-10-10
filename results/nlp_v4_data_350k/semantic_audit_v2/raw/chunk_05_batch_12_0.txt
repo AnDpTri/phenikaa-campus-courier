@@ -1,0 +1,52 @@
+v4_0045423	P	-
+v4_0045447	P	-
+v4_0045456	F	goal type: provided '-' should be 'library' (nhan vien phong doc o cho o duoi cung)
+v4_0045488	P	-
+v4_0045496	P	-
+v4_0045518	P	-
+v4_0045529	P	-
+v4_0045533	P	-
+v4_0045536	P	-
+v4_0045541	P	-
+v4_0045546	P	-
+v4_0045548	P	-
+v4_0045578	P	-
+v4_0045599	P	-
+v4_0045612	P	-
+v4_0045638	P	-
+v4_0045641	P	-
+v4_0045643	P	-
+v4_0045669	P	-
+v4_0045674	P	-
+v4_0045686	P	-
+v4_0045691	P	-
+v4_0045697	P	-
+v4_0045709	F	goal type: provided '-' should be 'dorm' (sinh vien noi tu dang doi tui do tai dia diem nao do danh dau diem mco tien su nhat ve phuong bac)
+v4_0045721	P	-
+v4_0045761	P	-
+v4_0045768	P	-
+v4_0045778	P	-
+v4_0045784	P	-
+v4_0045831	P	-
+v4_0045837	P	-
+v4_0045842	P	-
+v4_0045844	P	-
+v4_0045850	P	-
+v4_0045865	P	-
+v4_0045866	P	-
+v4_0045871	P	-
+v4_0045891	P	-
+v4_0045896	P	-
+v4_0045912	P	-
+v4_0045925	P	-
+v4_0045927	P	-
+v4_0045930	P	-
+v4_0045935	P	-
+v4_0045940	P	-
+v4_0045966	P	-
+v4_0045987	P	-
+v4_0046009	P	-
+v4_0046011	P	-
+v4_0046013	P	-
+
+STDERR:

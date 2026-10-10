@@ -1,0 +1,21 @@
+{
+  "source": "D:\\phenikaa\\results\\nlp_v4_data_350k\\train.jsonl",
+  "source_sha256": "447c97b5a6719facee06422d5a61e37fbe36d76a2ea4c7518d95ac8e58d8bc19",
+  "total_rows": 350000,
+  "counts": {
+    "retained": 338071,
+    "review": 11929
+  },
+  "rule_counts": {
+    "awkward_nested_instruction": 6985,
+    "urgent_contradictory_cues": 1805,
+    "fragile_positive_cue_false_label": 947,
+    "urgent_positive_cue_false_label": 2226
+  },
+  "output_sha256": {
+    "retained": "6ca8ac0efb21d7ed87df0ca0d5950bcb156b58105ce97a9f432cd06da4b9b837",
+    "review": "1c829f0b5cad0e875b02067a277c22fb3dbdb91f814ab3a47c5d1ae8b7cf32cc",
+    "rejected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limits": "Retained means no implemented rule triggered, not proven correct. Review rows are suspects, not confirmed errors. No label edits, no fuzzy spelling correction, no AGY verdicts used, no training."
+}

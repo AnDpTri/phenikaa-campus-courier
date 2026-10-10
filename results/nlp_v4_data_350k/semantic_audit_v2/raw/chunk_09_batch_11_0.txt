@@ -1,0 +1,52 @@
+v4_0085013	P	-
+v4_0085041	P	-
+v4_0085049	P	-
+v4_0085075	F	goal anchor: gate -> canteen (noi giao hang diem nam ke cong sau nhat dong thoi ghe vao ban giam hieu)
+v4_0085086	P	-
+v4_0085107	P	-
+v4_0085135	P	-
+v4_0085149	P	-
+v4_0085152	P	-
+v4_0085176	P	-
+v4_0085189	P	-
+v4_0085195	P	-
+v4_0085196	P	-
+v4_0085197	F	via type: lab -> canteen (tat vao xuong lay nguyen lieu nau an roi moi chuyen)
+v4_0085207	P	-
+v4_0085213	P	-
+v4_0085246	P	-
+v4_0085248	P	-
+v4_0085251	P	-
+v4_0085257	P	-
+v4_0085265	P	-
+v4_0085296	P	-
+v4_0085304	P	-
+v4_0085308	U	can phong nao o hang dau cn so ghi khach co the la west_most hoac north_most, khong ro rang
+v4_0085312	P	-
+v4_0085319	P	-
+v4_0085329	P	-
+v4_0085330	F	urgent: 0 -> 1 (khi nao tien thi giao = 0, khong co mau thuan nhung khong phai diem giao vi chi noi 'dung cu la cua tro giang phong lab', khong co dich den ro rang)
+v4_0085332	P	-
+v4_0085334	P	-
+v4_0085356	P	-
+v4_0085372	P	-
+v4_0085403	P	-
+v4_0085408	P	-
+v4_0085429	P	-
+v4_0085442	P	-
+v4_0085454	P	-
+v4_0085459	P	-
+v4_0085460	P	-
+v4_0085470	P	-
+v4_0085497	P	-
+v4_0085507	P	-
+v4_0085508	P	-
+v4_0085517	P	-
+v4_0085520	P	-
+v4_0085522	P	-
+v4_0085527	P	-
+v4_0085528	P	-
+v4_0085533	P	-
+v4_0085540	P	-
+
+STDERR:

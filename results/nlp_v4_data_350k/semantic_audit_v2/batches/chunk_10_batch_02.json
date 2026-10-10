@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0090564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090573",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090611",
+      "status": "U",
+      "reason": "Ambigous recipient/goal: y ta truc nho gui bo tai lieu vs khong lien quan ktx, clinic type unanchored vs far"
+    },
+    {
+      "id": "v4_0090612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090641",
+      "status": "U",
+      "reason": "Contradictory urgency phrases: 'hno gap' vs 'khan cap/khong gap'"
+    },
+    {
+      "id": "v4_0090649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090708",
+      "status": "U",
+      "reason": "Ambiguous direction: 'le trai' (ordinary side) vs 'cot dau / lech trai nhat' (extreme west_most)"
+    },
+    {
+      "id": "v4_0090725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090731",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'lecture' (\"giang vien dung lop giang duong o tram nam gan nha thi dau nhat\")"
+    },
+    {
+      "id": "v4_0090746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090766",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090817",
+      "status": "U",
+      "reason": "Ambiguous goal: dem bo tai lieu cho co giang vien without clear lecture building vs recipient person"
+    },
+    {
+      "id": "v4_0090825",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0090945",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

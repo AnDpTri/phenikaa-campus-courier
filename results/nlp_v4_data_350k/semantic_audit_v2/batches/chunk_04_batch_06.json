@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0032686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032763",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032803",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032857",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032862",
+      "status": "F",
+      "reason": "goal: anchor_near/clinic -> parking/near/clinic (nguoi iu xe o tram ngay sat hong kham)"
+    },
+    {
+      "id": "v4_0032874",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0032972",
+      "status": "F",
+      "reason": "via: library/-/- -> -/-/- (nhan vien muon tra sach o quay phat thuoc la recipient, ghe vao kho sach lay thung hang la library via)"
+    },
+    {
+      "id": "v4_0032980",
+      "status": "F",
+      "reason": "goal: anchor_near/parking -> parking/near/parking (bac giu xe o phan loai diem tiep can gan nhat toi moc khu vuc trong giu xe hai banh)"
+    },
+    {
+      "id": "v4_0033001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033035",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033038",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0033200",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

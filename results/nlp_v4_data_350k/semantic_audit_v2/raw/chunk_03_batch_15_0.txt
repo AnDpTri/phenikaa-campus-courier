@@ -1,0 +1,52 @@
+v4_0026905	P	-
+v4_0026953	P	-
+v4_0026962	F	urgent: provided 0, corrected 1 ('Lop dang hoc dang doi ket nuoc ngot gap')
+v4_0026966	P	-
+v4_0026972	P	-
+v4_0026983	P	-
+v4_0026986	P	-
+v4_0026991	P	-
+v4_0026996	P	-
+v4_0027007	P	-
+v4_0027029	P	-
+v4_0027031	P	-
+v4_0027033	P	-
+v4_0027034	P	-
+v4_0027053	P	-
+v4_0027062	P	-
+v4_0027066	P	-
+v4_0027067	P	-
+v4_0027072	P	-
+v4_0027083	P	-
+v4_0027084	P	-
+v4_0027090	P	-
+v4_0027091	P	-
+v4_0027095	P	-
+v4_0027098	P	-
+v4_0027105	P	-
+v4_0027109	P	-
+v4_0027125	P	-
+v4_0027134	P	-
+v4_0027142	P	-
+v4_0027146	P	-
+v4_0027159	P	-
+v4_0027161	P	-
+v4_0027169	P	-
+v4_0027186	P	-
+v4_0027201	P	-
+v4_0027223	P	-
+v4_0027234	P	-
+v4_0027238	P	-
+v4_0027256	P	-
+v4_0027274	P	-
+v4_0027283	P	-
+v4_0027286	P	-
+v4_0027296	U	Missing goal location; 'chuyn vien vua dat dung cu tap luyen' leaves destination unspecified
+v4_0027301	P	-
+v4_0027304	P	-
+v4_0027306	U	Missing goal location after visiting canteen; 'ky thuat vien nho gui may tinh bang' leaves destination absent
+v4_0027310	P	-
+v4_0027319	P	-
+v4_0027340	P	-
+
+STDERR:

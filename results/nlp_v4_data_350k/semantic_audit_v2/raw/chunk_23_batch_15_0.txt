@@ -1,0 +1,52 @@
+v4_0227215	P	-
+v4_0227228	F	urgent: provided 0, corrected 1 ('Can Gap')
+v4_0227245	P	-
+v4_0227250	P	-
+v4_0227274	P	-
+v4_0227286	P	-
+v4_0227287	P	-
+v4_0227288	P	-
+v4_0227299	P	-
+v4_0227308	P	-
+v4_0227311	P	-
+v4_0227312	P	-
+v4_0227313	P	-
+v4_0227315	P	-
+v4_0227317	P	-
+v4_0227318	P	-
+v4_0227328	P	-
+v4_0227332	P	-
+v4_0227379	P	-
+v4_0227395	P	-
+v4_0227398	P	-
+v4_0227400	P	-
+v4_0227411	P	-
+v4_0227412	P	-
+v4_0227416	P	-
+v4_0227417	P	-
+v4_0227428	P	-
+v4_0227429	P	-
+v4_0227442	P	-
+v4_0227457	P	-
+v4_0227461	P	-
+v4_0227470	P	-
+v4_0227485	P	-
+v4_0227498	P	-
+v4_0227506	P	-
+v4_0227532	P	-
+v4_0227536	P	-
+v4_0227538	P	-
+v4_0227547	P	-
+v4_0227550	F	goal ref: provided east_most, corrected - ('le phai' is ordinary direction east, not extreme east_most)
+v4_0227556	P	-
+v4_0227559	P	-
+v4_0227566	P	-
+v4_0227569	P	-
+v4_0227580	P	-
+v4_0227592	P	-
+v4_0227603	P	-
+v4_0227609	U	'o dau bna do' is ambiguous between north_most, extreme edge, or a general location
+v4_0227619	P	-
+v4_0227638	P	-
+
+STDERR:

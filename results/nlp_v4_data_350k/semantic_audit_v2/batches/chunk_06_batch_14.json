@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_06_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0056615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056645",
+      "status": "U",
+      "reason": "Nguoi nhan la giao vien the duc nhung khong noi ro dia diem giao hang cu the"
+    },
+    {
+      "id": "v4_0056656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056672",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056722",
+      "status": "U",
+      "reason": "Cho thay day the duc khong ro dia diem la san the thao hay van phong bo mon"
+    },
+    {
+      "id": "v4_0056735",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056798",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056985",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0056996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057006",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057016",
+      "status": "U",
+      "reason": "Cum tu 'khong vi phai nhanh' mau thuan ve muc do khan cap"
+    },
+    {
+      "id": "v4_0057017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057022",
+      "status": "U",
+      "reason": "Nguoi nhan la co nau an khong xac dinh ro vi tri giao la nha an hay noi khac"
+    },
+    {
+      "id": "v4_0057036",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0057042",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

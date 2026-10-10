@@ -1,0 +1,52 @@
+v4_0091525	P	-
+v4_0091537	P	-
+v4_0091545	F	goal type: provided lab, should be - (trợ giảng phòng lab cần sách, giao tới lab không có thông tin cụ thể hay loại phòng giao không nhắc, chỉ có người nhận là trợ giảng phòng lab muốn nhận sách)
+v4_0091562	P	-
+v4_0091569	P	-
+v4_0091591	P	-
+v4_0091599	P	-
+v4_0091601	P	-
+v4_0091613	P	-
+v4_0091629	P	-
+v4_0091636	P	-
+v4_0091643	P	-
+v4_0091665	U	Không có địa điểm giao đích cụ thể (chỉ nói giao cho bác sĩ, bác sĩ thường ở clinic nhưng không nêu rõ địa điểm giao)
+v4_0091675	P	-
+v4_0091685	P	-
+v4_0091686	P	-
+v4_0091689	P	-
+v4_0091720	P	-
+v4_0091728	P	-
+v4_0091744	P	-
+v4_0091745	P	-
+v4_0091758	P	-
+v4_0091776	P	-
+v4_0091777	U	Không có địa điểm giao (chỉ nói lớp trưởng cần túi rác, không rõ nơi giao là lecture hay nơi khác)
+v4_0091795	P	-
+v4_0091808	P	-
+v4_0091819	P	-
+v4_0091820	P	-
+v4_0091822	P	-
+v4_0091825	P	-
+v4_0091834	P	-
+v4_0091850	P	-
+v4_0091855	P	-
+v4_0091856	P	-
+v4_0091866	P	-
+v4_0091878	P	-
+v4_0091885	P	-
+v4_0091891	P	-
+v4_0091897	P	-
+v4_0091916	P	-
+v4_0091917	P	-
+v4_0091922	P	-
+v4_0091924	P	-
+v4_0091939	P	-
+v4_0091945	P	-
+v4_0091963	P	-
+v4_0091969	P	-
+v4_0091984	P	-
+v4_0091995	P	-
+v4_0092007	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_03_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0027341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027365",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027420",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027434",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027493",
+      "status": "U",
+      "reason": "Text is heavily corrupted with garbled phrases ('tram st vach khong gan doc yen tinh tang tren')"
+    },
+    {
+      "id": "v4_0027495",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027549",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027672",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027783",
+      "status": "U",
+      "reason": "Goal is specified only as a recipient role ('NGUOI NHAN LA GIANG VEIN') with no specific destination location or building type"
+    },
+    {
+      "id": "v4_0027787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0027804",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

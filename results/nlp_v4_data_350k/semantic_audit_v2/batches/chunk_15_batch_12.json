@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_15_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0145454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145483",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145715",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145882",
+      "status": "U",
+      "reason": "Ambiguous whether 'xa phong thi nghiem' means far from anchor or refers to an extreme position"
+    },
+    {
+      "id": "v4_0145890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145900",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145909",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0145950",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "CORPUS_CREATED_REQUIRES_INDEPENDENT_QA_AND_SEMANTIC_REVIEW",
+  "rows": 200000,
+  "single_stream": true,
+  "weighted_recipies": {
+    "v2_general": 42,
+    "contextual": 18,
+    "pickup_reasoning": 15,
+    "spatial_grounding": 12,
+    "instruction_revision": 9,
+    "distractor_negation": 4
+  },
+  "actual_recipe_counts": {
+    "v2_general": 84000,
+    "contextual": 36000,
+    "pickup_reasoning": 30000,
+    "spatial_grounding": 24000,
+    "instruction_revision": 18000,
+    "distractor_negation": 8000
+  },
+  "generator_file": "D:\\phenikaa\\results\\NLP_V4_R2\\unified_weighted_200k_20261010_a\\synth_weighted_v4.py",
+  "seed": 2026101060,
+  "reference_n_normalized": 485618,
+  "reject_counts": {
+    "grammar": 1916,
+    "repeated_opening": 140536,
+    "duplicate": 3
+  },
+  "statistics": {
+    "n": 200000,
+    "via": 113803,
+    "accented": 64925,
+    "spatial_goal": 137344,
+    "spatial_via": 33743,
+    "via_without_truoc": 73302,
+    "none_with_lay": 30319,
+    "urgent": 91341,
+    "fragile": 85377,
+    "revision_goal": 35815,
+    "revision_via": 23241,
+    "distractor_roles": 85429
+  },
+  "token_lengths_by_recipe": {
+    "v2_general": {
+      "n": 84000,
+      "p50": 51,
+      "p90": 71,
+      "p99": 88,
+      "max": 114
+    },
+    "contextual": {
+      "n": 36000,
+      "p50": 69,
+      "p90": 91,
+      "p99": 110,
+      "max": 136
+    },
+    "pickup_reasoning": {
+      "n": 30000,
+      "p50": 69,
+      "p90": 90,
+      "p99": 110,
+      "max": 135
+    },
+    "spatial_grounding": {
+      "n": 24000,
+      "p50": 72,
+      "p90": 93,
+      "p99": 112,
+      "max": 138
+    },
+    "instruction_revision": {
+      "n": 18000,
+      "p50": 79,
+      "p90": 99,
+      "p99": 116,
+      "max": 149
+    },
+    "distractor_negation": {
+      "n": 8000,
+      "p50": 74,
+      "p90": 94,
+      "p99": 112,
+      "max": 136
+    }
+  },
+  "unique_first8": 91784,
+  "max_first8_frequency": 35,
+  "bytes": {
+    "jsonl": 88911929,
+    "roles": 39897535
+  },
+  "sha256": {
+    "jsonl": "da03ac6bb3498b177ed238855489212c23df895beb4b675b7920f5ea15b1645a",
+    "roles": "99d9c197a5b3f0b8357fafed1e778b2570b30a183c7b02c1dcc2cc19f981c39a",
+    "v2_source": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+    "v2_clone": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb"
+  },
+  "holdout_used_in_training": false,
+  "training_executed": false,
+  "elapsed_seconds": 136.4
+}

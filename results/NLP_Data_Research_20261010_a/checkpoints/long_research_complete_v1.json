@@ -1,0 +1,9 @@
+{
+  "phase": "complete",
+  "seconds_elapsed": 15023.9,
+  "cycles": 25,
+  "next": "Summarize stable shortcut findings; prototype counterfactual generator inside workspace only",
+  "timestamp_utc": "2026-10-09T23:35:57.433649+00:00",
+  "source_data": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch\\scratch_s0_e01_seed2026110501.jsonl",
+  "scope": "Read-only inputs; CPU only; synthetic diagnostics only"
+}

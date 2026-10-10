@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0207534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207845",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207920",
+      "status": "U",
+      "reason": "Unclear goal location (Chu Giu Xe Dang Di Bom Xe Gap) lacks actionable target building/place"
+    },
+    {
+      "id": "v4_0207941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0207999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0208002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0208014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0208020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0208031",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

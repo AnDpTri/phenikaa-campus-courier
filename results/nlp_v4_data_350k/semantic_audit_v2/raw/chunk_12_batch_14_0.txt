@@ -1,0 +1,52 @@
+v4_0116649	P	-
+v4_0116685	P	-
+v4_0116695	U	Ambiguous whether 'lech ang Dong' means ordinary east or extreme east_most
+v4_0116696	P	-
+v4_0116701	P	-
+v4_0116710	P	-
+v4_0116720	P	-
+v4_0116747	P	-
+v4_0116748	P	-
+v4_0116749	P	-
+v4_0116775	P	-
+v4_0116783	P	-
+v4_0116791	P	-
+v4_0116794	P	-
+v4_0116811	P	-
+v4_0116816	P	-
+v4_0116821	P	-
+v4_0116849	P	-
+v4_0116850	P	-
+v4_0116864	P	-
+v4_0116886	P	-
+v4_0116888	P	-
+v4_0116905	F	goal ref: provided 'south_most', corrected 'south' from 'lech hn ve phong nam'
+v4_0116917	P	-
+v4_0116924	P	-
+v4_0116927	P	-
+v4_0116928	P	-
+v4_0116935	P	-
+v4_0116946	P	-
+v4_0116958	P	-
+v4_0116959	P	-
+v4_0116962	P	-
+v4_0116974	P	-
+v4_0116977	P	-
+v4_0116993	P	-
+v4_0116995	P	-
+v4_0117021	P	-
+v4_0117028	P	-
+v4_0117029	P	-
+v4_0117033	F	urgent: provided '0', corrected '1' from 'ngay'
+v4_0117038	P	-
+v4_0117040	P	-
+v4_0117060	P	-
+v4_0117081	P	-
+v4_0117092	P	-
+v4_0117097	P	-
+v4_0117099	P	-
+v4_0117104	P	-
+v4_0117106	P	-
+v4_0117108	P	-
+
+STDERR:

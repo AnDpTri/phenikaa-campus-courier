@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_13_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0128592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128641",
+      "status": "F",
+      "reason": "goal clinic/-/- should be -/-/- (or cancelled/delivery destination cancelled; delivery to ham gui xe cancelled, then hay di qua phong cap cuu = via clinic)"
+    },
+    {
+      "id": "v4_0128642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128651",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128805",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128984",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0128998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129000",
+      "status": "U",
+      "reason": "No delivery destination specified, recipient just placed card (Thay day the uc vua dat the giu xe)"
+    },
+    {
+      "id": "v4_0129021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0129080",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

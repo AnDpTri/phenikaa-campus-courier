@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0162398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162445",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162483",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162583",
+      "status": "U",
+      "reason": "lech han ve phuong nam co the la south_most hoac chi la huong nam (south)"
+    },
+    {
+      "id": "v4_0162585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162684",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162730",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162765",
+      "status": "F",
+      "reason": "goal type: provided 'lab', corrected 'parking' (hang di xuong khu dau xe)"
+    },
+    {
+      "id": "v4_0162767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162872",
+      "status": "U",
+      "reason": "lech han ve phia mat troi moc co the la east_most hoac chi la east"
+    },
+    {
+      "id": "v4_0162902",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0162919",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

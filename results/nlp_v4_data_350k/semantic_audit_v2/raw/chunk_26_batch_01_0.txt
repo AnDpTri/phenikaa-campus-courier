@@ -1,0 +1,52 @@
+v4_0250028	P	-
+v4_0250039	P	-
+v4_0250051	P	-
+v4_0250054	P	-
+v4_0250055	P	-
+v4_0250056	P	-
+v4_0250060	P	-
+v4_0250078	P	-
+v4_0250082	P	-
+v4_0250092	P	-
+v4_0250105	P	-
+v4_0250131	P	-
+v4_0250148	P	-
+v4_0250149	P	-
+v4_0250152	P	-
+v4_0250158	P	-
+v4_0250175	P	-
+v4_0250187	P	-
+v4_0250191	P	-
+v4_0250196	P	-
+v4_0250202	P	-
+v4_0250234	P	-
+v4_0250237	P	-
+v4_0250254	P	-
+v4_0250264	P	-
+v4_0250266	P	-
+v4_0250281	P	-
+v4_0250282	P	-
+v4_0250283	U	Contradictory urgency cues ('gap' vs 'cu tu tu khong voi')
+v4_0250289	U	Garbled distance/direction text ('o du xa')
+v4_0250306	P	-
+v4_0250307	P	-
+v4_0250315	P	-
+v4_0250318	P	-
+v4_0250326	P	-
+v4_0250332	P	-
+v4_0250333	P	-
+v4_0250341	P	-
+v4_0250342	P	-
+v4_0250348	P	-
+v4_0250357	P	-
+v4_0250366	P	-
+v4_0250385	P	-
+v4_0250391	P	-
+v4_0250399	U	Unclear/garbled location reference ('phong ym')
+v4_0250400	P	-
+v4_0250403	P	-
+v4_0250407	P	-
+v4_0250408	U	Unclear/garbled location reference ('phong ym')
+v4_0250429	P	-
+
+STDERR:

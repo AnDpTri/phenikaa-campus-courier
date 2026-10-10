@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0313568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313583",
+      "status": "F",
+      "reason": "goal type: provided - but text specifies tram sat nha an (clinic) -> clinic/anchor_near/canteen"
+    },
+    {
+      "id": "v4_0313591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313672",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313715",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313831",
+      "status": "F",
+      "reason": "goal type: provided - but text specifies toa nha noi tru (dorm) -> dorm/anchor_near/parking"
+    },
+    {
+      "id": "v4_0313834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313839",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313845",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313985",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0313996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0314001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0314006",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0314008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0314010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0314052",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

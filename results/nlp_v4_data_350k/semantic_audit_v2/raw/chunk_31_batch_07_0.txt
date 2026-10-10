@@ -1,0 +1,52 @@
+v4_0302951	P	-
+v4_0302953	P	-
+v4_0302968	P	-
+v4_0302979	P	-
+v4_0302984	P	-
+v4_0302999	P	-
+v4_0303007	P	-
+v4_0303010	P	-
+v4_0303015	P	-
+v4_0303018	P	-
+v4_0303056	P	-
+v4_0303079	P	-
+v4_0303111	P	-
+v4_0303144	P	-
+v4_0303171	P	-
+v4_0303177	P	-
+v4_0303179	P	-
+v4_0303182	P	-
+v4_0303183	P	-
+v4_0303221	P	-
+v4_0303238	P	-
+v4_0303252	F	urgent: provided 0, corrected 1 ('vua dat'/'khong gap am' corrupted text)
+v4_0303255	P	-
+v4_0303258	P	-
+v4_0303265	P	-
+v4_0303266	P	-
+v4_0303280	P	-
+v4_0303310	P	-
+v4_0303337	P	-
+v4_0303338	P	-
+v4_0303360	P	-
+v4_0303373	P	-
+v4_0303378	P	-
+v4_0303379	P	-
+v4_0303398	P	-
+v4_0303408	P	-
+v4_0303420	P	-
+v4_0303422	P	-
+v4_0303425	P	-
+v4_0303426	P	-
+v4_0303445	P	-
+v4_0303446	U	Corrupted urgency cues ('khong vi phai nhanh') create conflicting urgency interpretation
+v4_0303451	F	urgent: provided 0, corrected 1 ('Can Gap')
+v4_0303458	P	-
+v4_0303520	P	-
+v4_0303522	P	-
+v4_0303535	P	-
+v4_0303540	P	-
+v4_0303549	P	-
+v4_0303558	P	-
+
+STDERR:

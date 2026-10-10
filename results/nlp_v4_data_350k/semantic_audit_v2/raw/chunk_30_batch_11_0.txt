@@ -1,0 +1,52 @@
+v4_0294914	P	-
+v4_0294919	P	-
+v4_0294935	P	-
+v4_0294939	F	urgent: provided 1, corrected 0 ("uu tien giao truoc do cung khong sao")
+v4_0294947	P	-
+v4_0294955	P	-
+v4_0294959	P	-
+v4_0294969	P	-
+v4_0294992	P	-
+v4_0294999	F	urgent: provided 0, corrected 1 ("dang doi bom xe gap")
+v4_0295016	P	-
+v4_0295025	P	-
+v4_0295031	P	-
+v4_0295046	P	-
+v4_0295049	P	-
+v4_0295052	P	-
+v4_0295067	F	goal type: provided lab, corrected sports ("ky thuat vien dang doi dung cu tap luyen gap")
+v4_0295072	P	-
+v4_0295088	P	-
+v4_0295124	P	-
+v4_0295149	P	-
+v4_0295151	P	-
+v4_0295159	P	-
+v4_0295170	P	-
+v4_0295179	P	-
+v4_0295209	P	-
+v4_0295211	P	-
+v4_0295228	P	-
+v4_0295251	P	-
+v4_0295262	P	-
+v4_0295266	P	-
+v4_0295274	P	-
+v4_0295280	P	-
+v4_0295286	P	-
+v4_0295310	P	-
+v4_0295312	P	-
+v4_0295324	P	-
+v4_0295367	P	-
+v4_0295368	P	-
+v4_0295391	P	-
+v4_0295396	P	-
+v4_0295409	P	-
+v4_0295416	P	-
+v4_0295423	P	-
+v4_0295436	P	-
+v4_0295450	P	-
+v4_0295462	P	-
+v4_0295464	P	-
+v4_0295486	P	-
+v4_0295492	P	-
+
+STDERR:

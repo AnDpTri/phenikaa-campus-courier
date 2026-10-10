@@ -1,0 +1,52 @@
+v4_0286132	F	goal: sports/east/- -> sports/near/dorm (san van dong canh dong nha khu noi tru)
+v4_0286150	P	-
+v4_0286180	P	-
+v4_0286183	P	-
+v4_0286189	P	-
+v4_0286208	P	-
+v4_0286220	P	-
+v4_0286223	P	-
+v4_0286226	P	-
+v4_0286233	P	-
+v4_0286234	P	-
+v4_0286259	P	-
+v4_0286265	P	-
+v4_0286266	P	-
+v4_0286296	F	via: parking/north/- -> parking/-/- (khu vuc rten kiem hop giay ori means 'rten' typo for tren/r tren or truyen, ambiguous/no clear north instance)
+v4_0286300	P	-
+v4_0286301	P	-
+v4_0286306	P	-
+v4_0286313	P	-
+v4_0286331	P	-
+v4_0286348	P	-
+v4_0286349	P	-
+v4_0286359	P	-
+v4_0286372	P	-
+v4_0286377	P	-
+v4_0286395	P	-
+v4_0286412	P	-
+v4_0286424	P	-
+v4_0286456	P	-
+v4_0286458	P	-
+v4_0286461	P	-
+v4_0286478	P	-
+v4_0286481	P	-
+v4_0286494	P	-
+v4_0286503	P	-
+v4_0286507	P	-
+v4_0286520	P	-
+v4_0286530	P	-
+v4_0286562	P	-
+v4_0286568	P	-
+v4_0286573	P	-
+v4_0286576	P	-
+v4_0286580	P	-
+v4_0286591	P	-
+v4_0286601	P	-
+v4_0286602	P	-
+v4_0286609	P	-
+v4_0286624	P	-
+v4_0286625	P	-
+v4_0286627	P	-
+
+STDERR:

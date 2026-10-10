@@ -1,0 +1,52 @@
+v4_0010977	P	-
+v4_0010983	P	-
+v4_0011010	P	-
+v4_0011021	P	-
+v4_0011025	P	-
+v4_0011028	P	-
+v4_0011030	P	-
+v4_0011034	P	-
+v4_0011052	P	-
+v4_0011069	P	-
+v4_0011082	P	-
+v4_0011088	P	-
+v4_0011110	P	-
+v4_0011142	P	-
+v4_0011170	P	-
+v4_0011182	P	-
+v4_0011183	P	-
+v4_0011203	P	-
+v4_0011220	P	-
+v4_0011228	P	-
+v4_0011236	P	-
+v4_0011238	P	-
+v4_0011242	P	-
+v4_0011248	P	-
+v4_0011250	P	-
+v4_0011251	P	-
+v4_0011264	P	-
+v4_0011269	P	-
+v4_0011275	P	-
+v4_0011277	P	-
+v4_0011285	P	-
+v4_0011287	P	-
+v4_0011292	P	-
+v4_0011293	P	-
+v4_0011295	F	goal type: clinic -> - ('y si dang cho giao trinh' specifies recipient, but destination building is not stated)
+v4_0011298	P	-
+v4_0011328	P	-
+v4_0011343	P	-
+v4_0011347	P	-
+v4_0011377	F	goal type: clinic -> - ('giao cho y si nhe' designates recipient role, not clinic building)
+v4_0011387	P	-
+v4_0011388	P	-
+v4_0011390	P	-
+v4_0011395	P	-
+v4_0011396	P	-
+v4_0011400	P	-
+v4_0011408	P	-
+v4_0011411	P	-
+v4_0011430	P	-
+v4_0011431	P	-
+
+STDERR:

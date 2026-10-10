@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_28_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0271043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271050",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271070",
+      "status": "F",
+      "reason": "via: expected '-' but provided 'office/-/-' (\"can ghe khu hanh chinh truoc\" but delivery is not canteen, \"cho sat vach nha bep roi dem don hang can tra nha\")"
+    },
+    {
+      "id": "v4_0271075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271131",
+      "status": "F",
+      "reason": "goal: expected 'office/-/-' but provided 'office/-/-' with contradictory text / ambiguous recipient (\"o ktx o hong dao tao\")"
+    },
+    {
+      "id": "v4_0271138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271351",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271365",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271375",
+      "status": "U",
+      "reason": "ambiguous extreme vs ordinary direction (\"o cong trinh o le hpai trong khuon vien\" indicates east/right, not necessarily east_most)"
+    },
+    {
+      "id": "v4_0271390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0271406",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

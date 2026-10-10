@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0086067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086151",
+      "status": "F",
+      "reason": "goal type: provided gate, corrected - (ong rao o tren is a fence/boundary, not gate)"
+    },
+    {
+      "id": "v4_0086152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086153",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086235",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086396",
+      "status": "U",
+      "reason": "urgent: text has conflicting cues 'cu tu tu, khong voi' vs 'dang doi hop dung cu gap'"
+    },
+    {
+      "id": "v4_0086402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086476",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

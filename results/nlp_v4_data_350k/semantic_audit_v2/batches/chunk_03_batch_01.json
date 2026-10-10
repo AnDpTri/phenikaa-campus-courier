@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_03_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0020011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020135",
+      "status": "U",
+      "reason": "Recipient is 'co giang vien' without specified location; lecture building is not mentioned as the destination."
+    },
+    {
+      "id": "v4_0020146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020195",
+      "status": "U",
+      "reason": "'lech hn ve phuong nam' indicates direction south (south), but label specifies extreme position south_most without superlative wording."
+    },
+    {
+      "id": "v4_0020230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020315",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020434",
+      "status": "U",
+      "reason": "Recipient is 'cau lac bo bong da' with no explicit destination location specified."
+    },
+    {
+      "id": "v4_0020438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020460",
+      "status": "U",
+      "reason": "Recipient is 'co giang vien' without specified destination building."
+    },
+    {
+      "id": "v4_0020462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020463",
+      "status": "U",
+      "reason": "'cuoi ban do' could be south_most or east_most without further context."
+    },
+    {
+      "id": "v4_0020472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020522",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020528",
+      "status": "U",
+      "reason": "Recipient is 'Doi van dong vien' without explicitly specifying destination sports facility."
+    },
+    {
+      "id": "v4_0020532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0020589",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

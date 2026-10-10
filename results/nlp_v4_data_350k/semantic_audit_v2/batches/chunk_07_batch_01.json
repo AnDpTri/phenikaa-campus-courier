@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_07_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0060013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060053",
+      "status": "F",
+      "reason": "goal provided -/north_most/- but text specifies nhan vien bai xe (parking/north_most/-)"
+    },
+    {
+      "id": "v4_0060055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060237",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060251",
+      "status": "U",
+      "reason": "ambiguous typo in via direction \"huong ac ban do\" (unclear if north or east)"
+    },
+    {
+      "id": "v4_0060253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060266",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060328",
+      "status": "F",
+      "reason": "goal provided -/anchor_near/office but text specifies nhan vien bai xe o khu vuc ngay sat phong mot cua (parking/near/office)"
+    },
+    {
+      "id": "v4_0060340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060357",
+      "status": "F",
+      "reason": "goal provided -/anchor_near/library but text specifies nhan vien trong xe dang doi ... cach phong doc tu chon it buoc di nhat (parking/near/library)"
+    },
+    {
+      "id": "v4_0060361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060410",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0060512",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

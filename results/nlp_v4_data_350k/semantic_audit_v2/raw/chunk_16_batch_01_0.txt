@@ -1,0 +1,52 @@
+v4_0150000	P	-
+v4_0150002	P	-
+v4_0150011	P	-
+v4_0150014	P	-
+v4_0150033	P	-
+v4_0150049	P	-
+v4_0150055	P	-
+v4_0150072	P	-
+v4_0150073	P	-
+v4_0150074	P	-
+v4_0150075	P	-
+v4_0150078	P	-
+v4_0150092	P	-
+v4_0150136	P	-
+v4_0150141	F	goal type: provided lab, corrected - (ban tro giang lab la nguoi nhan, khong co noi o/lam viec cu the)
+v4_0150146	P	-
+v4_0150153	P	-
+v4_0150165	P	-
+v4_0150167	P	-
+v4_0150184	P	-
+v4_0150192	P	-
+v4_0150195	P	-
+v4_0150197	P	-
+v4_0150202	P	-
+v4_0150209	P	-
+v4_0150218	P	-
+v4_0150227	P	-
+v4_0150243	P	-
+v4_0150244	P	-
+v4_0150255	P	-
+v4_0150257	P	-
+v4_0150264	P	-
+v4_0150281	P	-
+v4_0150285	P	-
+v4_0150300	P	-
+v4_0150307	P	-
+v4_0150311	P	-
+v4_0150321	P	-
+v4_0150327	U	khong vi hpai nhanh gay mau thuan giua khong voi va phai nhanh
+v4_0150355	P	-
+v4_0150376	P	-
+v4_0150385	P	-
+v4_0150387	P	-
+v4_0150398	P	-
+v4_0150403	P	-
+v4_0150405	F	via ref: provided west, corrected - (phai trai khong phai phia tay)
+v4_0150412	P	-
+v4_0150425	P	-
+v4_0150432	P	-
+v4_0150434	P	-
+
+STDERR:

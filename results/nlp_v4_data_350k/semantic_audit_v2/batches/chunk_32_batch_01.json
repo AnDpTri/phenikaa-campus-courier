@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0310008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310015",
+      "status": "F",
+      "reason": "goal type: canteen -> library (\"ke noi ta sach\")"
+    },
+    {
+      "id": "v4_0310020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310042",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310166",
+      "status": "F",
+      "reason": "goal type: library -> office (\"nhan vien phong oc\")"
+    },
+    {
+      "id": "v4_0310190",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310253",
+      "status": "U",
+      "reason": "ria phi cua campus: missing/corrupted direction word in \"ria phi\" (cannot determine east vs west vs other direction)"
+    },
+    {
+      "id": "v4_0310265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310399",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310404",
+      "status": "F",
+      "reason": "goal ref: anchor_near -> - (\"cong trinh lien ke phong an sinh vien\" specifies canteen type, not anchor_near)"
+    },
+    {
+      "id": "v4_0310430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310463",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

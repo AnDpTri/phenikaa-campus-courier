@@ -1,0 +1,670 @@
+v4_0012421	P	-
+v4_0012428	P	-
+v4_0012433	P	-
+v4_0012435	P	-
+v4_0012480	P	-
+v4_0012481	P	-
+v4_0012485	P	-
+v4_0012499	P	-
+v4_0012501	P	-
+v4_0012511	P	-
+v4_0012534	P	-
+v4_0012543	P	-
+v4_0012551	P	-
+v4_0012560	P	-
+v4_0012585	P	-
+v4_0012601	P	-
+v4_0012603	P	-
+v4_0012604	P	-
+v4_0012608	P	-
+v4_0012611	F	goal type: provided 'parking', corrected 'lecture' ('lop ly thuyet' was previous error, but recipient is 'bac bao ve trong giu xe' waiting at parking, wait, let's re-verify) -> F/P check below.
+v4_0012615	P	-
+v4_0012619	P	-
+v4_0012622	P	-
+v4_0012625	P	-
+v4_0012639	P	-
+v4_0012640	P	-
+v4_0012643	P	-
+v4_0012652	P	-
+v4_0012655	P	-
+v4_0012677	P	-
+v4_0012680	P	-
+v4_0012681	P	-
+v4_0012690	P	-
+v4_0012691	P	-
+v4_0012711	P	-
+v4_0012716	P	-
+v4_0012718	P	-
+v4_0012720	P	-
+v4_0012721	P	-
+v4_0012724	P	-
+v4_0012735	P	-
+v4_0012738	P	-
+v4_0012750	P	-
+v4_0012757	P	-
+v4_0012773	U	ambiguous whether 'toa nha sat benh xa' restricts to anchor_near or clinic type without specified ref
+v4_0012782	P	-
+v4_0012786	P	-
+v4_0012824	P	-
+v4_0012836	P	-
+v4_0012840	P	-
+
+Wait, let's carefully check each one line by line:
+
+v4_0012421:
+Goal: lecture/far/gate. Text: "KHONG PHAI PHONG BAC SI MA LA DIEM GIA: PHONG HOC O XA CHOT BAO VE CONG." -> lecture/far/gate.
+Via: parking/-/-. Text: "DONG THOI GHE VAO KHU DAU XE LAY GOI HANG DA ROI HAY GIAO." -> parking.
+Urgent: 0. Text: no urgency.
+Fragile: 0. Text: "HANG: THE SINH VIEN." -> 0.
+Result: P.
+
+v4_0012428:
+Goal: sports/north/-. Text: "chuyen sang san luyen tap o mien bac ban do" -> sports/north/-.
+Via: -/-/-. Text: "lo trinh co di qua phnog quan ly dao tao nhung khong dung han o do" -> no stop, no via.
+Urgent: 1. Text: "viec nay han cap" -> urgent=1.
+Fragile: 1. Text: "ben trong la do thuy tinh" -> fragile=1.
+Result: P.
+
+v4_0012433:
+Goal: -/south_most/-. Text: "lam on giao giup the sinh vien xuong tram duoi cung cua ban do" -> -/south_most/-.
+Via: canteen/near/lab. Text: "nho di ngang khu bep sat ben phong lab lay phong bi cong van truoc." -> canteen/near/lab.
+Urgent: 0. Text: "cu tu tu, khong voi." -> 0.
+Fragile: 1. Text: "hang de be, cam nhe." -> 1.
+Result: P.
+
+v4_0012435:
+Goal: sports/-/-. Text: "ban tro giang lab vua chuyen sang san luyen tap, gioa the thu vien cho ho." -> sports/-/-.
+Via: -/-/-.
+Urgent: 0.
+Fragile: 1. Text: "hang mong manh lam." -> 1.
+Result: P.
+
+v4_0012480:
+Goal: -/anchor_near/lab. Text: "kien hang nay di toa nao gan ke phong thi nghiem nhat." -> -/anchor_near/lab.
+Via: sports/-/-. Text: "TRUOC TIEN QUA CHO TAP THE DUC NHAN AO DONG PHUC" -> sports/-/-.
+Urgent: 0.
+Fragile: 1. Text: "CO DO THUY TINH." -> 1.
+Result: P.
+
+v4_0012481:
+Goal: lab/-/-. Text: "Co don giao don hang can tra o trung tam thi nghiem." -> lab/-/-.
+Via: gate/west/-. Text: "Phai qua cai loi ra vao o nua trai lay linh kien dien tu da." -> gate/west/-.
+Urgent: 0. Text: "Khong voi dau." -> 0.
+Fragile: 0.
+Result: P.
+
+v4_0012485:
+Goal: parking/far/gate. Text: "chuyen nay di bai do xe cach loi vao danh cho phuong tien co gioi xa hon" -> parking/far/gate.
+Via: -/-/-.
+Urgent: 0. Text: "khong gap dau" -> 0.
+Fragile: 0. Text: "do chac lam" -> 0.
+Result: P.
+
+v4_0012499:
+Goal: -/east_most/-. Text: "giao toi o ma cuc dong ua ban do nh" -> -/east_most/-.
+Via: clinic/-/-. Text: "Truoc tien qua benh xa hnan dung cu thi nghiem" -> clinic/-/-.
+Urgent: 1. Text: "Dang gap!" -> 1.
+Fragile: 0. Text: "do la ban photo" -> 0.
+Result: P.
+
+v4_0012501:
+Goal: library/-/-. Text: "co thu thu vua dat phong bi cong van." Wait, recipient is co thu thu, but where is the destination?
+"chao robot! co thu thu vua dat phong bi cong van. khong lien quan gi toi khu the thao. nho qua toa hoc truoc. trong vong 10 phut nhe. lo trinh co di qua can teen nhung khong dung chan o do. nho nhe."
+Wait! Where is the delivery goal? Does it explicitly say library, or does it only say "co thu thu vua dat phong bi cong van"?
+Wait, prompt instructions: "An explicitly stated recipient location overrides their usual workplace."
+Does "co thu thu vua dat" imply library by default if no override? "Types: library=thu vien...". But wait, is co thu thu at library? Yes, usual workplace is library.
+Wait, what about via? "nho qua toa hoc truoc" -> via lecture/-/-. Urgent: "trong vong 10 phut nhe" -> 1. Fragile: 0.
+Wait, is library explicit or inferred? In these dataset problems, "co thu thu dat phong bi cong van" without override = library/-/-. Result: P.
+
+v4_0012511:
+Goal: -/west_most/-. Text: "dia chi la can phong ma nam sat bien trai nhat" -> -/west_most/-.
+Via: -/-/-.
+Urgent: 0. "khong gap lam" -> 0.
+Fragile: 0. "hang ben khong lo vo" -> 0.
+Result: P.
+
+v4_0012534:
+Goal: parking/-/-. Text: "CHUYEN NAY XUAT PHAT TU PHONG AN TAP THE DI TIEP KHONG PHAI DIEM CUOI PHONG BI CONG VAN LA CUA NGUOI TRONG XE HANG DE BE CAM NHE TKS"
+Recipient is "nguoi trong xe" (parking). Goal: parking/-/-.
+Via: -/-/- (phong an tap the is origin: "xuat phat tu... khong phai diem cuoi").
+Urgent: 0.
+Fragile: 1. "HANG DE BE CAM NHE" -> 1.
+Result: P.
+
+v4_0012543:
+Goal: library/-/-. Text: "Lam on mang kien hang sag khu doc sach." -> library/-/-.
+Via: lecture/near/office. Text: "Nho uqa khu ging duong gan van phong khoa hon truoc." -> lecture/near/office.
+Urgent: 0. "luc nao ranh thi giao" -> 0.
+Fragile: 0. "Do khong vo duoc dau." -> 0.
+Result: P.
+
+v4_0012551:
+Goal: office/-/-. Text: "NOI NHAN: TOA NHA HANH CHINH QUAN LY TRUONG." -> office/-/-.
+Via: canteen/-/-. Text: "BAN VAO NHA AN SINH VIEN LAY NGUYEN LIEU NAU AN DA" -> canteen/-/-.
+Urgent: 0.
+Fragile: 0. "DO CHAC LAM." -> 0.
+Result: P.
+
+v4_0012560:
+Goal: -/anchor_near/parking. Text: "muc tieu: hay tim nut cach bai do xe it buoc di nhat." -> -/anchor_near/parking.
+Via: -/-/-.
+Urgent: 1. "som cang tot." -> 1.
+Fragile: 1. "ben trong la chen su." -> 1.
+Result: P.
+
+v4_0012585:
+Goal: -/anchor_near/office. Text: "chay snag nut gan van phong hanh chinh nhat (khong tnih van phong hanh chinh) di." -> -/anchor_near/office.
+Via: gate/-/-. Text: "dung chan o chot bao ve lay chong sach" -> gate/-/-.
+Urgent: 1. "can agp!" -> 1.
+Fragile: 1. "hang de vo, di can than." -> 1.
+Result: P.
+
+v4_0012601:
+Goal: -/anchor_near/dorm. Text: "hang di toa gan sat khu ky tuc." -> -/anchor_near/dorm.
+Via: sports/-/-. Text: "Tat qua khu tap luyen lay don hang can tra roi" -> sports/-/-.
+Urgent: 0. "Cu tu tu, khong voi." -> 0.
+Fragile: 1. "Ben trong co trung, nhe tay." -> 1.
+Result: P.
+
+v4_0012603:
+Goal: -/west_most/-. Text: "Nguoi Gac Cong Hien Dang O Toa Nha Nao Lech Ve Trai Nhat, Nho Giao Ho Giao Trinh Dne Do." -> -/west_most/-.
+Via: -/-/-.
+Urgent: 0. "Khong Co Gi Gap." -> 0.
+Fragile: 0. "Khong Can Nhe Tay." -> 0.
+Result: P.
+
+v4_0012604:
+Goal: -/east_most/-. Text: "dia chi la nut lay toa do vuon xa nhat sang huong dong trong khuon vien." -> -/east_most/-.
+Via: -/-/-.
+Urgent: 1. "gap gap!" -> 1.
+Fragile: 0. "do khong vo duoc dau." -> 0.
+Result: P.
+
+v4_0012608:
+Goal: -/anchor_near/lecture. Text: "gio nhan vien muon tra sach hien dang o dia diem nao do sat canh toa nha hoc nhat no giao hop thuoc toi do" -> -/anchor_near/lecture.
+Via: -/-/-.
+Urgent: 0.
+Fragile: 0. "do chac lam" -> 0.
+Result: P.
+
+v4_0012611:
+Goal: parking/-/-. Text: "Xin cao khong can nhe tay khu noi tru khong phai diem giao buoc dau ghe phong bac si sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet cam on robot"
+Wait! Let's read carefully:
+"buoc dau ghe phong bac si" -> via clinic/-/-.
+"sau do bac bao ve trong giu xe truong dang doi bo dam gap" -> wait! "bac bao ve trong giu xe truong dang doi bo dam gap" -> "gap" here means URGENT? "dang doi bo dam gap" or "doi bo dam, gap lan truoc giao nham lop ly thuyet"?
+Look at the punctuation/words:
+"dang doi bo dam gap lan truoc giao nham lop ly thuyet" -> wait, could it be "dang doi bo dam, gap. Lan truoc giao nham lop ly thuyet"? Or "bo dam gap"? Bo dam is walkie-talkie. "dang doi bo dam gap"! In Vietnamese: "đang đợi bộ đàm gấp" (waiting for the walkie-talkie urgently) OR "đang đợi bộ đàm, gấp. Lần trước..."!
+Wait, look at urgent label in v4_0012611: urgent is 0!
+Wait! But the text says: "dang doi bo dam gap lan truoc giao nham..."
+Wait, could it be:
+Wait, does "dang doi bo dam gap" mean urgent=1?
+Let's re-read: "Xin cao khong can nhe tay [fragile=0] khu noi tru khong phai diem giao buoc dau ghe phong bac si [via=clinic] sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet cam on robot"
+If "gap" is there, why is provided urgent 0?
+Wait! Is "gap" an urgent cue, or is it:
+Wait! Could it be:
+1) F: urgent: provided '0', corrected '1' (text: 'dang doi bo dam gap')
+OR
+2) U: "gap lan truoc giao nham" vs urgent? In Vietnamese, "gặp lần trước" (met last time)?
+"gặp lần trước giao nhầm lớp lý thuyết" -> "gặp lần trước" (met previously / encountered last time) vs "đang đợi bộ đàm gấp, lần trước giao nhầm..."!
+Wait! "gặp lần trước" vs "gấp, lần trước"!
+Wait, "giao nham lop ly thuyet" - who did? The robot! In Vietnamese: "Lần trước giao nhầm lớp lý thuyết" is a very common sentence across these dataset prompts! e.g. "An truoc giao nham van phong khoa" (v4_0012619), "Hom qua da giao o noi tra sach roi" (v4_0012480).
+Notice how "Lan truoc giao nham lop ly thuyet" is its own independent clause!
+Then what is "gap"? Is it "gấp" (urgent) or "gặp" (meet)? "dang doi bo dam gap" -> "đang đợi bộ đàm gấp"!
+Wait, or is "gap lan truoc giao nham" ambiguous between "gấp" and "gặp"?
+Wait, look at prompt rule:
+"Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"Missing or destroyed direction words are U, do not guess near or far. Flag contradictory urgency phrases as U."
+Wait, what about F?
+"For F give the exact field, provided value and a DIFFERENT corrected value with supporting text. If your proposed correction equals the provided label, it is not F."
+
+Wait! Let's check recipient of v4_0012611:
+"bac bao ve trong giu xe truong" -> recipient is guard of the parking lot ("trong giu xe truong"). But where is he? Does it say he is at the parking lot?
+Wait, "bac bao ve trong giu xe truong" = head place: parking? Or gate?
+Wait: "Types: parking=bai xe... gate=cong/bao ve."
+Wait! "bac bao ve trong giu xe truong": "bảo vệ trông giữ xe trường" = parking attendant / guard watching school vehicles! "trông giữ xe" = parking!
+Wait, but is urgent 0 wrong? If "gap" means "gấp", urgent should be 1! If it means "gặp lần trước", then urgent is 0. Is it U or F?
+Wait, let's check other examples first to see patterns!
+
+Let's check v4_0012615:
+Goal: -/east_most/-. Text: "lech han ve phia mat troi moc trong khuon vien" -> east_most.
+Via: lab/-/-. Text: "ghe xuong co khi" -> lab (xuong co khi = lab/workshop/mechanic, wait: "lab=thi nghiem", is xuong co khi a lab? Yes, in v4_0012421 "XUONG CO KHI THI KHONG CAN TOI", v4_0012615 "ghe xuong co khi" -> lab, v4_0012640 "dung nham voi xuong nhe").
+Urgent: 0.
+Fragile: 1. "chen su" -> 1.
+Result: P.
+
+Let's check v4_0012619:
+Goal: -/anchor_near/library. Text: "robot chy den vi tri gan trung tam thong tin thu vien nhat" -> -/anchor_near/library.
+Via: clinic/-/-. Text: "Ghe tram y truc da" -> clinic/-/-.
+Urgent: 1. "can ngay trong 5 phut." -> 1.
+Fragile: 1. "chen su." -> 1.
+Result: P.
+
+Let's check v4_0012622:
+Goal: clinic/east/-. Text: "phong cham soc suc khoe ban dau ve ben phai" -> clinic/east/-.
+Via: lecture/-/-. Text: "ghe vao phong hoc ly thuyet nhat chai nuoc roi" -> lecture/-/-.
+Urgent: 0. "khong can voi" -> 0.
+Fragile: 0. "do cung khong sao" -> 0.
+Result: P.
+
+Let's check v4_0012625:
+Goal: -/east_most/-. Text: "khu vuc cuc dong cua ban do." -> -/east_most/-.
+Via: -/-/-.
+Urgent: 0. "Luc noa ranh thi giao." -> 0.
+Fragile: 1. "Co do thuy tinh." -> 1.
+Result: P.
+
+Let's check v4_0012639:
+Goal: -/anchor_near/lecture. Text: "can dua chai nuoc xuong tram nam sat khu giang duong nhat" -> -/anchor_near/lecture.
+Via: -/-/-.
+Urgent: 0. "khong co gi gap" -> 0.
+Fragile: 0. "do khong vo duoc dau" -> 0.
+Result: P.
+
+Let's check v4_0012640:
+Goal: -/east_most/-. Text: "re vao cho o cot cuoi nhe" -> Map convention: "cot cuoi = east_most" -> -/east_most/-!
+Via: canteen/-/-. Text: "sau khi lay hpo giay o nha an chung" -> canteen/-/-.
+Urgent: 0. "mai giao cung duoc" -> 0.
+Fragile: 1. "can than do su" -> 1.
+Result: P.
+
+Let's check v4_0012643:
+Goal: lecture/far/dorm. Text: "Toa Hoc Nam Cach Xa Khu Ky Tuc Xa." -> lecture/far/dorm.
+Via: -/-/-.
+Urgent: 0. "Khong Vi Phai Nhanh." -> 0.
+Fragile: 0. "Hang Kong Vo Duoc." -> 0.
+Result: P.
+
+Let's check v4_0012652:
+Goal: -/east_most/-. Text: "diem o mep phai cung" -> east_most.
+Via: gate/-/-. Text: "di den loi vao lay bo sach da" -> gate/-/-.
+Urgent: 0.
+Fragile: 1. "hang o cung hang mong manh lam" -> wait, "hang o cung hang mong manh lam"?
+Wait! Look at v4_0012652:
+"Don #7024 huong nay chi chay snog song voi tram y te khong re vao do di den loi vao lay bo sach da roi diem giao diem o mep phai cung hang o cung hang mong manh lam"
+Wait! "hang o cung" vs "hang mong manh lam"?!
+Wait! Look at: "hang o cung hang mong manh lam"
+Does that say: "hàng ổ cứng" (hard drive) + "hàng mong manh làm"? OR "hàng không cứng hàng mong manh lắm"? OR "hàng ổ cứng, hàng mong manh lắm" -> both mean fragile? Hard drive is fragile electronic, but "hang mong manh lam" is explicitly fragile=1!
+Wait, fragile is labeled 1. Urgent is 0.
+
+Wait, look at v4_0012655:
+Goal: -/anchor_near/sports. Text: "toa nha co lo trinh toi san bong ngan hon at ca di" -> -/anchor_near/sports (shortest path to sports pitch = closest = anchor_near!).
+Via: -/-/-.
+Urgent: 0. "Chieu nay giao cung duoc." -> 0.
+Fragile: 1. "Nhe tay giup." -> 1.
+Result: P.
+
+Let's check v4_0012677:
+Goal: -/west_most/-. Text: "tim diem co kinh do nho nhat tren ban do trong khuon vien" -> kinh độ nhỏ nhất = furthest west = west_most!
+Via: clinic/-/-. Text: "truoc tien qua tram y te nhan ve xe" -> clinic/-/-.
+Urgent: 1. "trong vong 10 phut nhe" -> 1.
+Fragile: 1. "hang mong manh lam" -> 1.
+Result: P.
+
+Let's check v4_0012680:
+Goal: -/anchor_near/dorm. Text: "dia chi giao lay nut voi khoang cach toi thieu ve phia noi o cua sinh vien" -> minimum distance to dorm = -/anchor_near/dorm.
+Via: -/-/-.
+Urgent: 0. "khong voi dau" -> 0.
+Fragile: 0.
+Result: P.
+
+Let's check v4_0012681:
+Goal: -/anchor_near/gate. Text: "diem giao: can phong am ke loi vao truong nhat." -> -/anchor_near/gate.
+Via: -/-/-.
+Urgent: 0. "khong gap lam." -> 0.
+Fragile: 0. "hang chac chan, khong de vo." -> 0.
+Result: P.
+
+Let's check v4_0012690:
+Goal: -/anchor_near/library. Text: "hay di den vi tri gan cho muon sach nhat di." -> -/anchor_near/library.
+Via: -/-/-.
+Urgent: 0.
+Fragile: 0. "hang ben, khong lo vo." -> 0.
+Result: P.
+
+Let's check v4_0012691:
+Goal: library/far/dorm. Text: "Bep Truong O Quay Tra Cuu Luan Van Do An Phia Xa Nha Luu Tru Dang Cho Bo Dung Cu Thi Nghiem."
+Wait! Recipient: "Bep Truong" (chef) is at "Quay Tra Cuu Luan Van Do An Phia Xa Nha Luu Tru" (Thesis lookup counter far from dorm/archive).
+"Quay Tra Cuu Luan Van Do An" = library!
+"Phia Xa Nha Luu Tru" = far from dorm (nha luu tru / ky tuc xa)!
+Wait, via: "Vong Qua San Co Gan Voi Chot Bao Ve Cong Hon Kiem Tai Nghe" -> sports/near/gate.
+Urgent: 0.
+Fragile: 1. "Dung Lam Roi, De Vo Lam." -> 1.
+Result: P.
+
+Let's check v4_0012711:
+Goal: -/anchor_near/canteen. Text: "Phat hop dung cu den nut it buoc nhat tu khu an uong." -> -/anchor_near/canteen.
+Via: lab/-/-. Text: "Truoc do phai di qua trung tam thi nghiem." -> lab/-/-.
+Urgent: 0.
+Fragile: 0.
+Result: P.
+
+Let's check v4_0012716:
+Goal: lab/-/-. Text: "yeu cau moi: nguoi phu trach phong thi nghiem vua dat tap bai kiem tra. nho nhe." -> lab/-/-.
+Via: -/-/-.
+Urgent: 0.
+Fragile: 0.
+Result: P.
+
+Let's check v4_0012718:
+Goal: -/anchor_near/library. Text: "Bac Bao Ve Truc Toa Nha Noi Tru O Nut It Xa Noi Muon Sach Nhat Can Chong Giao Trinh" -> wait!
+Read this very carefully:
+"Bac Bao Ve Truc Toa Nha Noi Tru O Nut It Xa Noi Muon Sach Nhat Can Chong Giao Trinh Viec Nay Khan Cap Nho Ky Nhe"
+Who is the recipient? "Bac Bao Ve Truc Toa Nha Noi Tru" (The guard on duty at the dorm building).
+Where is this dorm guard?
+"O Nut It Xa Noi Muon Sach Nhat" = at the node least far from library = node closest to library = anchor_near/library!
+Wait, but is it a dorm? "Bac Bao Ve Truc Toa Nha Noi Tru" = recipient's identity / job title. But the node is "Nut It Xa Noi Muon Sach Nhat" without specifying type = -/anchor_near/library.
+Urgent: 1 ("Viec Nay Khan Cap").
+Fragile: 1 ("Hang Mong Manh Lam").
+Result: P.
+
+Let's check v4_0012720:
+Goal: -/anchor_near/canteen. Text: "ve toa gan ke khu phuc vu bua trua sinh vien nhat giao tap giay to" -> -/anchor_near/canteen.
+Via: -/-/-.
+Urgent: 0. "khong gap dau" -> 0.
+Fragile: 1. "nhe tay vi do rat de vo" -> 1.
+Result: P.
+
+Let's check v4_0012721:
+Goal: canteen/far/gate. Text: "se chay thang toi PHONG AN SINH VIEN XA CONG RA VAO HON ROI CHUYEN HO MON QUA NHE." -> canteen/far/gate.
+Via: dorm/-/-. Text: "BAN HAY QUA NHA O SINH VIEN TRUOC" -> dorm/-/-.
+Urgent: 1. "CAN NGAY TRONG 5 PHUT." -> 1.
+Fragile: 0. "KHONG CAN NHE TAY." -> 0.
+Result: P.
+
+Let's check v4_0012724:
+Goal: canteen/-/-. Text: "kte nuoc ngot la cua dau bep nau com trua sinh vien" -> canteen/-/-.
+Via: -/-/-.
+Urgent: 0. "cu tu tu khong voi" -> 0.
+Fragile: 0. "khong can nhe tay" -> 0.
+Result: P.
+
+Let's check v4_0012735:
+Goal: dorm/-/-. Text: "nhan vien thu vien vua chuyen sang noi o cua sinh vien giao tui so cuu cho ho" -> dorm/-/-.
+Via: clinic/-/-. Text: "can ghe tram y te truoc" -> clinic/-/-.
+Urgent: 1. "khan cap" -> 1.
+Fragile: 0.
+Result: P.
+
+Let's check v4_0012738:
+Goal: -/south_most/-. Text: "chuyen ho ve cong trinh danh dau moc cham day phuong nam xa nhat cua campus." -> -/south_most/-.
+Via: -/-/-.
+Urgent: 0. "khong gap lam." -> 0.
+Fragile: 1. "Hang de be, cam nhe." -> 1.
+Result: P.
+
+Let's check v4_0012750:
+Goal: clinic/-/-. Text: "Nguoi nhan dang o benh xa." -> clinic/-/-.
+Via: -/-/-.
+Urgent: 0. "luc nao ranh thi giao." -> 0.
+Fragile: 0. "Hang chac chan, khong de vo." -> 0.
+Result: P.
+
+Let's check v4_0012757:
+Goal: -/east_most/-. Text: "dia diem nao do ma o phia phai nhat nha." -> -/east_most/-.
+Via: parking/-/-. Text: "Di qua bai gui xe truoc" -> parking/-/-.
+Urgent: 1. "Hoa toc!" -> 1.
+Fragile: 1. "ben trong co trung, nhe tay." -> 1.
+Result: P.
+
+Let's check v4_0012773:
+Goal: -/anchor_near/clinic.
+Text: "Robot than men, ben torng la chen su. Buoc dau ghe san bong, sau do bo dam can duoc giao qua toa nha sat benh xa. Dung ghe khu vcu lop hoc ly thuyet. Khu hoc tap thi khong can toi. Cang nhanh cnag tot. Nho nhe."
+Wait! "qua toa nha sat benh xa" -> is it -/anchor_near/clinic?
+Wait, "toa nha sat benh xa" = building next to clinic!
+Wait, could "toa nha" be untyped building? In anchor_near: "toa nao gan ke phong thi nghiem nhat" -> -/anchor_near/lab; "toa gan sat khu ky tuc" -> -/anchor_near/dorm; "toa nha sat benh xa" -> -/anchor_near/clinic!
+Via: sports/-/- ("Buoc dau ghe san bong").
+Urgent: 1 ("Cang nhanh cnag tot.").
+Fragile: 1 ("ben torng la chen su.").
+Result: P!
+
+Wait, let's check v4_0012782:
+Goal: parking/-/-. Text: "nhan vien bai xe dang doi bien ten khach gap" -> wait!
+LOOK AT v4_0012782:
+"Alo robot, ghe loi vao truong sat khu noi tru sinh vien tap trung hon lay dung cu thi nghiem truoc, roi khong phai san tap bong ro va cau long ma la nhan vien bai xe dang doi bien ten khach gap. Mai giao cung duoc. Ben trong la do thuy tinh. Tks."
+WAIT! Look at:
+"dang doi bien ten khach gap. Mai giao cung duoc."
+WAIT! Look at the words:
+"dang doi bien ten khach gap. Mai giao cung duoc."
+"gap" vs "Mai giao cung duoc"!!
+Wait! "khách gấp" or "khách, gấp" vs "Mai giao cũng được"?!
+Look at the rule in prompt:
+"Flag contradictory urgency phrases as U."
+"Flag contradictory urgency phrases as U."
+WAIT! Does "khach gap" mean "khách gấp" (urgent guest / waiting urgently)?
+Wait, or "biển tên khách gấp"? No, "đang đợi biển tên khách gấp. Mai giao cũng được." -> "đang đợi biển tên khách gấp" (is waiting for the guest nameplate urgently) followed immediately by "Mai giao cũng được" (delivering tomorrow is also fine)!
+WAIT! Or does "khach gap" mean "khách gấp"? YES!
+And then "Mai giao cung duoc" = NOT urgent (0)!
+Wait, let's also look at v4_0012611:
+"sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet"
+Wait, why did v4_0012611 say:
+"dang doi bo dam gap lan truoc giao nham lop ly thuyet" ->
+Wait! "đang đợi bộ đàm, gặp lần trước giao nhầm..." -> "gặp lần trước giao nhầm lớp lý thuyết"?!
+Wait! In Vietnamese, "lần trước giao nhầm lớp lý thuyết" is preceded by what? "Gặp lần trước giao nhầm" doesn't make sense ("meet last time delivered wrong"?? No, "gấp. Lần trước giao nhầm lớp lý thuyết"!).
+Wait, but in v4_0012611:
+"Xin cao khong can nhe tay khu noi tru khong phai diem giao buoc dau ghe phong bac si sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet cam on robot"
+Provided labels:
+urgent: 0!
+Wait, if it says "dang doi bo dam gap", why is urgent 0 in v4_0012611?
+Wait! In v4_0012782:
+urgent: 0!
+Provided labels for v4_0012782:
+urgent is 0!
+Wait, in v4_0012782, does "khach gap" mean:
+"biển tên khách gấp" (guest nameplate urgently? Or "gấp" as urgent, but text says "Mai giao cung duoc") -> that is a contradiction! "Flag contradictory urgency phrases as U."!
+Wait, what if "biển tên khách gấp" is not urgent, or is it contradictory urgency?
+Wait! Is "gap" in "bien ten khach gap" or "bien ten khach gap" = "biển tên khách"? What is "gấp"? "khách gấp" makes no sense as an object. "gấp" = urgent!
+Wait, let's check v4_0012786:
+sports/far/canteen	-/-/-	1	0
+Text: "ma don 9140: sua lai: khong phi cho muon sahc, minh muon dua the thu vien qua nha tp the thao xa can teen hon cai kia. at khan. tks."
+"at khan" = "rất khẩn" (very urgent) -> urgent=1!
+sports/far/canteen -> "nha tp the thao xa can teen hon cai kia" -> sports/far/canteen.
+Fragile: 0.
+Result: P.
+
+Wait, check v4_0012824:
+-/anchor_near/lecture	-/-/-	1	0
+Text: "Chao ban, nhanh nhat co the. Xe chi chay ngang tam cong lon, do khong phai cho muon toi. Dung de o nha an chung. Minh muon giao ho mu bao hiem xuong noi ngay canh lop ly thuyet. Nho nhe."
+Urgent: 1 ("nhanh nhat co the").
+Goal: -/anchor_near/lecture ("noi ngay canh lop ly thuyet").
+Fragile: 0.
+Result: P.
+
+Check v4_0012836:
+-/north_most/-	canteen/-/-	0	0
+Text: "Alo Robot, Hang Chac Chan, Khong De Vo. Khong Can Gap. Truoc Tien Qua Khu An Trua Nhan The Giu Xe, Sau Do Co Chai Nuoc Can Giao, Dia Chi La Nut Ma Chi Toi O Dat Vuot Qua Moi Moc Khac Ve Phia Bac. Khong Phai Bai Xe Dau. Khong Can Ghe Noi Do Xe. Cam On Robot."
+Goal: -/north_most/- ("Nut Ma Chi Toi O Dat Vuot Qua Moi Moc Khac Ve Phia Bac").
+Via: canteen/-/- ("Truoc Tien Qua Khu An Trua").
+Urgent: 0 ("Khong Can Gap").
+Fragile: 0 ("Hang Chac Chan, Khong De Vo").
+Result: P.
+
+Check v4_0012840:
+gate/-/-	-/-/-	1	0
+Text: "chao! doan duong chay qua phog tiep on va giai quyet thu tuc sinh vien, khong co y dinh dung lai. bep truong hoc khong phai diem giao. khong can ghe phong cong vu. diem giao: loi vao. hang: gio hoa qua. som cang tot. thanks robot."
+Goal: gate/-/- ("diem giao: loi vao").
+Urgent: 1 ("som cang tot").
+Fragile: 0 ("gio hoa qua" - fruit basket, not fragile by default unless specified).
+Result: P.
+
+Wait! Look at v4_0012611 again:
+"v4_0012611	parking/-/-	clinic/-/-	0	0	Xin cao khong can nhe tay khu noi tru khong phai diem giao buoc dau ghe phong bac si sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet cam on robot"
+Provided urgent: 0.
+Text has: "...dang doi bo dam gap lan truoc giao nham lop ly thuyet..."
+Wait! "dang doi bo dam gap" -> "đang đợi bộ đàm gấp"!
+Is provided urgent 0 a definite mismatch (F), or is it U?
+Wait, why did the label say 0?
+Did the label generator miss "gap" because there was no punctuation and it read "gap lan truoc" as "gặp lần trước" (met last time)?
+Wait! "gặp lần trước giao nhầm lớp lý thuyết" -> in Vietnamese:
+Could "gặp lần trước" mean "như đã gặp lần trước"? No, "bác bảo vệ trông giữ xe trường đang đợi bộ đàm, gấp. Lần trước giao nhầm..."
+If it is "gấp", then urgent should be 1, but provided is 0.
+Wait! What did the prompt say?
+"Check ALL five labels independently, including urgent/fragile conflicts. For F give the exact field, provided value and a DIFFERENT corrected value with supporting text. If your proposed correction equals the provided label, it is not F. Missing or destroyed direction words are U, do not guess near or far. Flag contradictory urgency phrases as U."
+Wait! Look at v4_0012782:
+"v4_0012782	parking/-/-	gate/near/dorm	0	1	Alo robot, ghe loi vao truong sat khu noi tru sinh vien tap trung hon lay dung cu thi nghiem truoc, roi khong phai san tap bong ro va cau long ma la nhan vien bai xe dang doi bien ten khach gap. Mai giao cung duoc. Ben trong la do thuy tinh. Tks."
+Look at the text:
+"nhan vien bai xe dang doi bien ten khach gap. Mai giao cung duoc."
+Here, "gap" (gấp = urgently) AND "Mai giao cung duoc" (can deliver tomorrow = not urgent) are BOTH in the text!
+"Flag contradictory urgency phrases as U." -> This is an EXACT match for this rule!
+"dang doi bien ten khach gap" (urgent) vs "Mai giao cung duoc" (not urgent) = contradictory urgency phrases -> U!
+Reason: "contradictory urgency cues ('gap' vs 'Mai giao cung duoc')"!
+
+Now what about v4_0012611?
+In v4_0012611:
+"Xin cao khong can nhe tay khu noi tru khong phai diem giao buoc dau ghe phong bac si sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet cam on robot"
+Is there any other cue for not urgent? No!
+So "gap" clearly means "gấp" (urgent)!
+Provided urgent is 0.
+Wait, could it be F?
+"urgent: provided '0', corrected '1' ('dang doi bo dam gap')"
+Wait! Could it be:
+F: urgent: provided '0', corrected '1' (text states 'dang doi bo dam gap')
+OR is "gap lan truoc" an ambiguous word ("gấp" vs "gặp")?
+Wait! Read: "sau do bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet"
+Could "gap" be "gấp" (urgently waiting for walkie-talkie)? Yes!
+"đang đợi bộ đàm gấp" is standard Vietnamese. Nobody says "đang đợi bộ đàm gặp lần trước"! "bộ đàm" is a thing, you don't "gặp" a walkie-talkie.
+Therefore, "gấp" belongs to "đang đợi bộ đàm gấp", meaning urgent=1!
+So provided value '0' is wrong, should be '1'!
+Wait, what if it's F?
+"v4_0012611	F	urgent: provided '0', corrected '1' (text states 'dang doi bo dam gap')"
+Wait, what if someone interprets it as U: "ambiguous whether 'gap' means urgent or 'gap lan truoc'"?
+Wait, prompt says: "For F give the exact field, provided value and a DIFFERENT corrected value with supporting text."
+"F=definite mismatch (name wrong field and correction); U=uncertain/ambiguous (explain)."
+Let's see: is urgent definitely 1?
+Yes, "dang doi bo dam gap" = waiting for the walkie-talkie urgently. The provided label is 0. That's a definite mismatch!
+
+Wait, let's re-read all other 48 lines to make sure no other F or U was missed!
+Let's check every single line:
+
+1. v4_0012421: P
+2. v4_0012428: P
+3. v4_0012433: P
+4. v4_0012435: P
+5. v4_0012480: P
+6. v4_0012481: P
+7. v4_0012485: P
+8. v4_0012499: P
+9. v4_0012501: P
+10. v4_0012511: P
+11. v4_0012534: P
+12. v4_0012543: P
+13. v4_0012551: P
+14. v4_0012560: P
+15. v4_0012585: P
+16. v4_0012601: P
+17. v4_0012603: P
+18. v4_0012604: P
+19. v4_0012608: P
+20. v4_0012611:
+Wait, is v4_0012611 F or U?
+If F: `v4_0012611	F	urgent: provided '0', corrected '1' ('dang doi bo dam gap')`
+Wait, what if "gap" was intended as "gặp lần trước giao nhầm" making it ambiguous?
+Wait, could "gặp" be a typo for "dịp"? No. But "gặp lần trước" = "met last time"? But the sentence is: "bac bao ve trong giu xe truong dang doi bo dam gap lan truoc giao nham lop ly thuyet" -> "đang đợi bộ đàm gấp. Lần trước giao nhầm lớp lý thuyết."
+In unpunctuated text, "gap" is clearly "gấp" modifying "đang đợi bộ đàm".
+Wait, why did the label have 0? Because the labeling regex or parser probably looked for "khan cap", "gap!", etc., or missed unpunctuated "gap" before "lan truoc". This is a classic label generation error, which is EXACTLY what the audit is designed to catch!
+
+21. v4_0012615: P
+22. v4_0012619: P
+23. v4_0012622: P
+24. v4_0012625: P
+25. v4_0012639: P
+26. v4_0012640: P
+27. v4_0012643: P
+28. v4_0012652: P
+Wait, check v4_0012652 again:
+"v4_0012652	-/east_most/-	gate/-/-	0	1	Don #7024 huong nay chi chay snog song voi tram y te khong re vao do di den loi vao lay bo sach da roi diem giao diem o mep phai cung hang o cung hang mong manh lam"
+Wait! "hang o cung hang mong manh lam":
+"hàng ổ cứng, hàng mong manh lắm" -> fragile=1. Urgent=0. Both match!
+29. v4_0012655: P
+30. v4_0012677: P
+31. v4_0012680: P
+32. v4_0012681: P
+33. v4_0012690: P
+34. v4_0012691: P
+35. v4_0012711: P
+36. v4_0012716: P
+37. v4_0012718: P
+38. v4_0012720: P
+39. v4_0012721: P
+40. v4_0012724: P
+41. v4_0012735: P
+42. v4_0012738: P
+43. v4_0012750: P
+44. v4_0012757: P
+45. v4_0012773:
+Wait, let's re-verify v4_0012773:
+"v4_0012773	-/anchor_near/clinic	sports/-/-	1	1	Robot than men, ben torng la chen su. Buoc dau ghe san bong, sau do bo dam can duoc giao qua toa nha sat benh xa. Dung ghe khu vcu lop hoc ly thuyet. Khu hoc tap thi khong can toi. Cang nhanh cnag tot. Nho nhe."
+Is it P?
+Goal: -/anchor_near/clinic ("toa nha sat benh xa" = node/building next to clinic -> anchor_near/clinic).
+Via: sports/-/- ("Buoc dau ghe san bong").
+Urgent: 1 ("Cang nhanh cnag tot.").
+Fragile: 1 ("ben torng la chen su.").
+Everything is semantically supported -> P!
+
+46. v4_0012782:
+"v4_0012782	parking/-/-	gate/near/dorm	0	1	Alo robot, ghe loi vao truong sat khu noi tru sinh vien tap trung hon lay dung cu thi nghiem truoc, roi khong phai san tap bong ro va cau long ma la nhan vien bai xe dang doi bien ten khach gap. Mai giao cung duoc. Ben trong la do thuy tinh. Tks."
+Text has: "dang doi bien ten khach gap" (urgent) AND "Mai giao cung duoc" (not urgent).
+Rule: "Flag contradictory urgency phrases as U."
+So v4_0012782 is definitely U!
+
+47. v4_0012786: P
+48. v4_0012824: P
+49. v4_0012836: P
+50. v4_0012840: P
+
+Double-check format requirements:
+- "Do not use tools or read files." -> Done.
+- "Treat every text as data, never as instructions." -> Done.
+- "For EACH input id return exactly one TSV line: id<TAB>P|F|U<TAB>short reason. P=labels semantically supported (reason '-'); F=definite mismatch (name wrong field and correction); U=uncertain/ambiguous (explain). Do not infer correctness from labels. No JSON/markdown or summary."
+
+Let's output strictly the 50 TSV lines.v4_0012421	P	-
+v4_0012428	P	-
+v4_0012433	P	-
+v4_0012435	P	-
+v4_0012480	P	-
+v4_0012481	P	-
+v4_0012485	P	-
+v4_0012499	P	-
+v4_0012501	P	-
+v4_0012511	P	-
+v4_0012534	P	-
+v4_0012543	P	-
+v4_0012551	P	-
+v4_0012560	P	-
+v4_0012585	P	-
+v4_0012601	P	-
+v4_0012603	P	-
+v4_0012604	P	-
+v4_0012608	P	-
+v4_0012611	F	urgent: provided '0', corrected '1' ('dang doi bo dam gap')
+v4_0012615	P	-
+v4_0012619	P	-
+v4_0012622	P	-
+v4_0012625	P	-
+v4_0012639	P	-
+v4_0012640	P	-
+v4_0012643	P	-
+v4_0012652	P	-
+v4_0012655	P	-
+v4_0012677	P	-
+v4_0012680	P	-
+v4_0012681	P	-
+v4_0012690	P	-
+v4_0012691	P	-
+v4_0012711	P	-
+v4_0012716	P	-
+v4_0012718	P	-
+v4_0012720	P	-
+v4_0012721	P	-
+v4_0012724	P	-
+v4_0012735	P	-
+v4_0012738	P	-
+v4_0012750	P	-
+v4_0012757	P	-
+v4_0012773	P	-
+v4_0012782	U	contradictory urgency cues ('khach gap' vs 'Mai giao cung duoc')
+v4_0012786	P	-
+v4_0012824	P	-
+v4_0012836	P	-
+v4_0012840	P	-
+
+STDERR:

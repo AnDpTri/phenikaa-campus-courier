@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_07_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0064646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064821",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay di')"
+    },
+    {
+      "id": "v4_0064832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064842",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0064986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065073",
+      "status": "U",
+      "reason": "Unclear recipient/goal type: 'lop dang hoc' could refer to a lecture class or other location; only relative anchor 'lab' is clear."
+    },
+    {
+      "id": "v4_0065105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0065147",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay')"
+    },
+    {
+      "id": "v4_0065151",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('ngay')"
+    }
+  ]
+}

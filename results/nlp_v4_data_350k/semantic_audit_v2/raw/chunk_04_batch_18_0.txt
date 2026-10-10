@@ -1,0 +1,52 @@
+v4_0038483	P	-
+v4_0038491	F	goal type: provided 'library', expected 'lab' ("giao giup bo sac cho tro giang phong lab o noi muon sach ve tay")
+v4_0038512	P	-
+v4_0038514	P	-
+v4_0038520	P	-
+v4_0038536	P	-
+v4_0038541	P	-
+v4_0038545	P	-
+v4_0038573	F	goal type: provided 'lab', expected '-' ("nguoi phu trach phong thi nghiem nho gui hop khau trang", lab is sender not destination)
+v4_0038582	P	-
+v4_0038589	P	-
+v4_0038596	P	-
+v4_0038600	F	goal type: provided '-', expected 'gate' ("phat tui do cho bao ve cong o rut ra noi cach diem tua khu kham benh it buoc nhat")
+v4_0038610	P	-
+v4_0038637	P	-
+v4_0038650	P	-
+v4_0038656	P	-
+v4_0038657	P	-
+v4_0038660	P	-
+v4_0038678	P	-
+v4_0038679	P	-
+v4_0038691	P	-
+v4_0038743	P	-
+v4_0038773	P	-
+v4_0038777	P	-
+v4_0038789	P	-
+v4_0038791	P	-
+v4_0038795	P	-
+v4_0038800	P	-
+v4_0038812	P	-
+v4_0038823	F	urgent: provided 0, expected 1 ("Dem Sang Tram Ke Khu Muon Tra Sach Nhat Ngay Nhe", "Nhat Ngay Nhe" means immediately)
+v4_0038843	P	-
+v4_0038857	P	-
+v4_0038867	P	-
+v4_0038872	P	-
+v4_0038902	P	-
+v4_0038913	P	-
+v4_0038915	F	goal type: provided 'office', expected '-' ("tu ky khoa dang doi giay moi gap", recipient role only without target building)
+v4_0038920	P	-
+v4_0038927	P	-
+v4_0038930	P	-
+v4_0038939	P	-
+v4_0038956	P	-
+v4_0038958	F	urgent: provided 0, expected 1 ("sang Toa Ke Ben Phong Doc Tu Chon Ngay")
+v4_0038966	U	typo 'an' obscures meaning ('o an khu de xe nhat nha', ambiguous whether near or another word)
+v4_0038972	P	-
+v4_0038991	P	-
+v4_0038994	P	-
+v4_0038996	P	-
+v4_0038909	P	-
+
+STDERR:

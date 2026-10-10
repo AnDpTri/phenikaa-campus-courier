@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_19_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0188918",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188935",
+      "status": "F",
+      "reason": "urgent: 1 -> 0 ('ap nhe' is not urgency; no urgency cue present)"
+    },
+    {
+      "id": "v4_0188944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188971",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0188987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189046",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189104",
+      "status": "U",
+      "reason": "ambiguous phrasing 'phia hai cung' (likely typo for phia phai cung / east_most or ambiguous direction)"
+    },
+    {
+      "id": "v4_0189105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189128",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189169",
+      "status": "U",
+      "reason": "contradictory urgency phrases ('dang doi dno hang can tra gap' vs 'hkong can vo')"
+    },
+    {
+      "id": "v4_0189176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0189460",
+      "status": "F",
+      "reason": "goal ref: east -> - ('nua phai giao ngay' parses as 'nua phai' / east vs 'nua, phai giao ngay nhe')"
+    }
+  ]
+}

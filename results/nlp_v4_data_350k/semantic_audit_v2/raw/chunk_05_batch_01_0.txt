@@ -1,0 +1,52 @@
+v4_0040004	P	-
+v4_0040007	F	goal type/ref/anchor: provided '-/anchor_near/canteen', corrected '-/-/-' ("giao sang dia diem ngay acnh khu nha an" -> anchor_near/canteen supported, wait: text says "khong gap dau co do thuy tinh" -> urgent=0, fragile=1. Provided: urgent=1, fragile=1 -> urgent: provided 1, corrected 0 ("khong gap dau"))
+v4_0040026	P	-
+v4_0040044	P	-
+v4_0040072	P	-
+v4_0040104	P	-
+v4_0040106	P	-
+v4_0040110	P	-
+v4_0040117	P	-
+v4_0040122	P	-
+v4_0040125	P	-
+v4_0040130	P	-
+v4_0040156	P	-
+v4_0040169	F	goal type/ref/anchor: provided 'clinic/-/-', corrected 'gate/-/-' ("se bao ve cong o tram y te can o cung" head place is bao ve cong / gate)
+v4_0040172	P	-
+v4_0040174	P	-
+v4_0040175	P	-
+v4_0040176	P	-
+v4_0040182	P	-
+v4_0040183	P	-
+v4_0040185	P	-
+v4_0040202	P	-
+v4_0040211	P	-
+v4_0040214	F	goal type/ref/anchor: provided 'sports/-/-', corrected '-/-/-' ("bo vto la cua huan luyen vien" bo vot is item; no valid delivery destination specified)
+v4_0040227	P	-
+v4_0040229	P	-
+v4_0040233	P	-
+v4_0040234	P	-
+v4_0040255	P	-
+v4_0040262	P	-
+v4_0040277	P	-
+v4_0040291	P	-
+v4_0040294	P	-
+v4_0040305	P	-
+v4_0040309	P	-
+v4_0040321	P	-
+v4_0040327	P	-
+v4_0040347	P	-
+v4_0040348	P	-
+v4_0040360	P	-
+v4_0040362	U	"DUNG GHE CHO O NOI TRU CO NAU AN NHO GUI BO DUNG CU THI NGHIEM": ambiguous whether "CO NAU AN" is an alias for canteen or part of negated dorm
+v4_0040379	P	-
+v4_0040404	F	urgent: provided 0, corrected 1 ("CAN GAP MAU VAT")
+v4_0040435	P	-
+v4_0040438	P	-
+v4_0040448	P	-
+v4_0040450	P	-
+v4_0040462	P	-
+v4_0040469	P	-
+v4_0040491	P	-
+
+STDERR:

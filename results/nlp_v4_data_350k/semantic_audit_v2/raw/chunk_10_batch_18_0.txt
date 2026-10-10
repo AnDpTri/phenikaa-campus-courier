@@ -1,0 +1,52 @@
+v4_0098585	P	-
+v4_0098598	P	-
+v4_0098616	P	-
+v4_0098620	P	-
+v4_0098622	P	-
+v4_0098623	P	-
+v4_0098650	P	-
+v4_0098652	P	-
+v4_0098659	P	-
+v4_0098664	P	-
+v4_0098670	P	-
+v4_0098676	P	-
+v4_0098682	P	-
+v4_0098693	P	-
+v4_0098696	P	-
+v4_0098697	P	-
+v4_0098702	P	-
+v4_0098706	P	-
+v4_0098717	P	-
+v4_0098721	F	via type provided lab but text indicates computer lab and experiment at south end (lab/south/- vs lecture/near/gate)
+v4_0098735	U	ambiguous phrase 'khong vi pahi hanh' obscures whether it negates urgency or not
+v4_0098747	P	-
+v4_0098755	P	-
+v4_0098758	P	-
+v4_0098761	P	-
+v4_0098769	P	-
+v4_0098776	P	-
+v4_0098781	P	-
+v4_0098784	P	-
+v4_0098798	P	-
+v4_0098816	P	-
+v4_0098833	P	-
+v4_0098856	P	-
+v4_0098868	P	-
+v4_0098899	P	-
+v4_0098907	P	-
+v4_0098936	P	-
+v4_0098950	P	-
+v4_0098957	P	-
+v4_0098959	P	-
+v4_0098968	P	-
+v4_0098976	P	-
+v4_0098995	P	-
+v4_0099006	P	-
+v4_0099009	P	-
+v4_0099010	P	-
+v4_0099014	P	-
+v4_0099026	P	-
+v4_0099045	P	-
+v4_0099052	P	-
+
+STDERR:

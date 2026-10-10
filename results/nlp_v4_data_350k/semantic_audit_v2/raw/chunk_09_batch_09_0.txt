@@ -1,0 +1,52 @@
+v4_0084072	P	-
+v4_0084088	P	-
+v4_0084101	P	-
+v4_0084103	P	-
+v4_0084106	P	-
+v4_0084117	P	-
+v4_0084133	P	-
+v4_0084136	P	-
+v4_0084139	P	-
+v4_0084141	P	-
+v4_0084150	P	-
+v4_0084163	P	-
+v4_0084167	P	-
+v4_0084191	P	-
+v4_0084195	P	-
+v4_0084202	P	-
+v4_0084208	U	cau doi bong is ambiguous as sports destination and sentence structure is incomplete/conflicted
+v4_0084230	P	-
+v4_0084238	P	-
+v4_0084245	P	-
+v4_0084247	P	-
+v4_0084252	P	-
+v4_0084256	P	-
+v4_0084268	P	-
+v4_0084277	P	-
+v4_0084280	P	-
+v4_0084286	F	urgent: provided 0, corrected 1 ('nhan vien trong xe dang doi thung carton gap')
+v4_0084287	P	-
+v4_0084291	P	-
+v4_0084294	P	-
+v4_0084300	P	-
+v4_0084310	P	-
+v4_0084325	P	-
+v4_0084345	P	-
+v4_0084347	P	-
+v4_0084349	P	-
+v4_0084354	P	-
+v4_0084362	P	-
+v4_0084379	P	-
+v4_0084386	P	-
+v4_0084403	P	-
+v4_0084412	P	-
+v4_0084416	P	-
+v4_0084424	P	-
+v4_0084432	P	-
+v4_0084443	P	-
+v4_0084452	P	-
+v4_0084464	P	-
+v4_0084471	P	-
+v4_0084477	U	Contradictory urgency phrases: 'Can Gap' vs 'Khong Can Voi'
+
+STDERR:

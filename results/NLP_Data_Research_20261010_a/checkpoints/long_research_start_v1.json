@@ -1,0 +1,9 @@
+{
+  "phase": "start",
+  "planned_minimum_hours": 4.1,
+  "input_sha256": "21a53f2c26a7dd69084b88ab6f42abbd301f90bf698b3a4f28b57fbe326d9b61",
+  "hypothesis": "Train recipe mixture induces lexical shortcuts and label-prior shift",
+  "timestamp_utc": "2026-10-09T19:25:33.578158+00:00",
+  "source_data": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch\\scratch_s0_e01_seed2026110501.jsonl",
+  "scope": "Read-only inputs; CPU only; synthetic diagnostics only"
+}

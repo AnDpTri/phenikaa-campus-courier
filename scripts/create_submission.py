@@ -8,6 +8,7 @@ actions in observation order.
 from __future__ import annotations
 
 import argparse
+import dataclasses
 from datetime import datetime
 from dataclasses import asdict
 import json
@@ -25,6 +26,8 @@ from courier.cv.neural import (
     SharedDetector,
 )
 from courier.nlp import MissionParser, resolve, resolve_target
+from courier.cv.style import with_print_detector
+from courier.nlp.neural import HybridMissionParser
 from courier.solver import OracleSolver, load_strategy
 from courier.solver.diagnostics import fallback_details
 
@@ -60,7 +63,16 @@ def main() -> None:
     )
     parser.add_argument("--out", type=Path, help="New output file; existing files are never overwritten")
     parser.add_argument("--detector-device", choices=("auto", "cpu", "cuda"), default="auto")
+    parser.add_argument("--print-detector", type=Path, help="detector for images classified as print")
+    parser.add_argument("--print-detector-threshold", type=float, default=0.30)
+    parser.add_argument("--style-artifact", type=Path, default=Path("artifacts/cv/style_classifier.joblib"))
+    parser.add_argument("--nlp-goal-threshold", type=float, help="override the stored hybrid goal threshold")
+    parser.add_argument(
+        "--nlp-model", type=Path, help="neural parser artifact; enables the rule + neural hybrid NLP"
+    )
     parser.add_argument("--diagnostics-dir", type=Path, help="New directory for read-only fallback audit")
+    parser.add_argument("--disable-map-aware", action="store_true", help="use hybrid NLP without map fallback for ablation")
+    parser.add_argument("--disable-repair", action="store_true", help="use the original unreachable fallback for ablation")
     args = parser.parse_args()
     if args.out is None:
         args.out = Path("results") / ("submission_" + datetime.now().strftime("%Y%m%d_%H%M%S")) / "predictions.json"
@@ -82,8 +94,19 @@ def main() -> None:
         edges=NeuralEdgeClassifier(args.artifacts / "cv" / "edge_net.pt"),
         nodes=NeuralNodeClassifier(args.artifacts / "cv" / "node_net.pt"),
     )
-    nlp = MissionParser()
+    if args.print_detector:
+        cv = with_print_detector(
+            cv, args.style_artifact, args.print_detector, args.print_detector_threshold, device=args.detector_device
+        )
+    nlp = HybridMissionParser.load(args.nlp_model) if args.nlp_model else MissionParser()
+    if args.nlp_goal_threshold is not None:
+        if not args.nlp_model or not 0 <= args.nlp_goal_threshold <= 2:
+            parser.error("--nlp-goal-threshold requires --nlp-model and a value in [0, 2]")
+        nlp.thresholds = dataclasses.replace(nlp.thresholds, goal=args.nlp_goal_threshold)
+        print(f"NLP thresholds overridden: {nlp.thresholds}")
     strategy = load_strategy(args.strategy_artifact)
+    if args.disable_repair:
+        strategy.repair_unreachable = False
 
     predictions: list[int] = []
     diagnostics: Counter[str] = Counter()
@@ -107,7 +130,13 @@ def main() -> None:
         if problems:
             diagnostics["structural_graph_warnings"] += 1
 
-        parsed = nlp.parse(group[0]["mission"])
+        parsed = (
+            nlp.parse_for_map(group[0]["mission"], graph.landmarks)
+            if not args.disable_map_aware and hasattr(nlp, "parse_for_map")
+            else nlp.parse(group[0]["mission"])
+        )
+        for field, source in getattr(nlp, "last_sources", {}).items():
+            diagnostics[f"nlp_{field}_{source}"] += 1
         mission = resolve(parsed, graph.landmarks)
         scene = graph.to_scene(scene_id, mission)
         emergency_reason = None

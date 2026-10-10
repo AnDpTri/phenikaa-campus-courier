@@ -1,0 +1,52 @@
+v4_0034261	F	goal type: provided - but corrected library ('nhan vien muon tra sach o o duoi nhat' but later 'nguoi nhan khong con o phong muon sach' and goal is absent/cancelled, or goal type/ref mismatch)
+v4_0034265	P	-
+v4_0034282	P	-
+v4_0034286	P	-
+v4_0034294	P	-
+v4_0034302	P	-
+v4_0034303	P	-
+v4_0034306	P	-
+v4_0034310	P	-
+v4_0034312	P	-
+v4_0034328	P	-
+v4_0034337	P	-
+v4_0034343	P	-
+v4_0034351	P	-
+v4_0034368	P	-
+v4_0034373	P	-
+v4_0034375	P	-
+v4_0034383	P	-
+v4_0034387	P	-
+v4_0034407	P	-
+v4_0034410	P	-
+v4_0034417	P	-
+v4_0034423	P	-
+v4_0034430	P	-
+v4_0034485	P	-
+v4_0034489	P	-
+v4_0034512	P	-
+v4_0034531	P	-
+v4_0034537	F	via type: provided dorm but corrected library ('nha luu tru')
+v4_0034542	P	-
+v4_0034543	P	-
+v4_0034550	P	-
+v4_0034551	P	-
+v4_0034560	U	contradictory urgency cues ('can gap' vs 'khong gap lam')
+v4_0034561	P	-
+v4_0034565	P	-
+v4_0034578	P	-
+v4_0034582	P	-
+v4_0034601	P	-
+v4_0034605	P	-
+v4_0034623	P	-
+v4_0034625	P	-
+v4_0034639	P	-
+v4_0034644	P	-
+v4_0034646	P	-
+v4_0034686	P	-
+v4_0034687	P	-
+v4_0034691	P	-
+v4_0034696	F	via type: provided dorm but corrected library ('nha luu tur' is library archive)
+v4_0034721	P	-
+
+STDERR:

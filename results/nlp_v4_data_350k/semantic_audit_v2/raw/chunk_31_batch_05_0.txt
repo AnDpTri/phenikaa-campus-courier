@@ -1,0 +1,53 @@
+v4_0301871	P	-
+v4_0301872	P	-
+v4_0301876	P	-
+v4_0301877	F	goal type: provided lecture, corrected office ("toi da tu bo y dinh den van phong hanh chinh ma se giang vien dang day can ban photo" - recipient is giang vien dang day, but sentence structure "tu bo y dinh den van phong hanh chinh ma se..." lacks a valid completed destination or specifies office vs lecture, wait: "tu bo y dinh den van phong hanh chinh ma se [giao cho] giang vien dang day" -> recipient is lecturer currently teaching -> lecture)
+v4_0301877	P	-
+v4_0301888	P	-
+v4_0301905	P	-
+v4_0301906	P	-
+v4_0301914	P	-
+v4_0301920	U	Recipient is "can bo y te phu trach suc khoe sinh vien", but no explicit delivery location is specified (only recipient title).
+v4_0301938	P	-
+v4_0301950	P	-
+v4_0301989	P	-
+v4_0301997	P	-
+v4_0302002	P	-
+v4_0302003	P	-
+v4_0302010	P	-
+v4_0302011	P	-
+v4_0302056	P	-
+v4_0302086	P	-
+v4_0302087	P	-
+v4_0302101	P	-
+v4_0302102	P	-
+v4_0302111	P	-
+v4_0302117	F	goal type: provided sports, corrected - ("nguoi nhan khong con o chot bao ve hay di qua nha the chat ho minh" -> "hay di qua" is intermediate/transit, no goal specified)
+v4_0302153	P	-
+v4_0302163	P	-
+v4_0302198	P	-
+v4_0302204	P	-
+v4_0302208	P	-
+v4_0302216	P	-
+v4_0302227	U	"nguoi nhan la co giang vien" only mentions recipient role, no explicit location or classroom given.
+v4_0302237	P	-
+v4_0302255	P	-
+v4_0302262	P	-
+v4_0302263	P	-
+v4_0302273	P	-
+v4_0302287	P	-
+v4_0302297	P	-
+v4_0302321	P	-
+v4_0302329	P	-
+v4_0302344	P	-
+v4_0302352	P	-
+v4_0302357	P	-
+v4_0302378	P	-
+v4_0302385	P	-
+v4_0302406	P	-
+v4_0302411	P	-
+v4_0302417	P	-
+v4_0302422	P	-
+v4_0302433	P	-
+
+STDERR:

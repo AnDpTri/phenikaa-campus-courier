@@ -1,0 +1,52 @@
+v4_0165313	P	-
+v4_0165320	F	goal type: provided '-', expected 'lab' ("acn bo phu trach phong thuc hanh o dia diem o cot cuoi")
+v4_0165330	P	-
+v4_0165341	P	-
+v4_0165346	P	-
+v4_0165375	P	-
+v4_0165379	P	-
+v4_0165383	P	-
+v4_0165387	P	-
+v4_0165390	P	-
+v4_0165394	P	-
+v4_0165397	P	-
+v4_0165404	P	-
+v4_0165415	P	-
+v4_0165416	P	-
+v4_0165422	P	-
+v4_0165435	P	-
+v4_0165442	P	-
+v4_0165472	P	-
+v4_0165473	P	-
+v4_0165515	P	-
+v4_0165539	P	-
+v4_0165540	P	-
+v4_0165545	P	-
+v4_0165547	P	-
+v4_0165549	P	-
+v4_0165551	P	-
+v4_0165553	P	-
+v4_0165555	P	-
+v4_0165565	P	-
+v4_0165584	P	-
+v4_0165600	P	-
+v4_0165604	P	-
+v4_0165612	P	-
+v4_0165642	P	-
+v4_0165643	P	-
+v4_0165652	P	-
+v4_0165659	P	-
+v4_0165664	P	-
+v4_0165688	P	-
+v4_0165695	P	-
+v4_0165698	P	-
+v4_0165708	P	-
+v4_0165721	P	-
+v4_0165722	P	-
+v4_0165723	P	-
+v4_0165726	P	-
+v4_0165727	U	ambiguous goal reference: "can phong hang xom cua khu ky tuc" does not clearly determine anchor_near vs near vs a specific adjacent room
+v4_0165731	P	-
+v4_0165747	P	-
+
+STDERR:

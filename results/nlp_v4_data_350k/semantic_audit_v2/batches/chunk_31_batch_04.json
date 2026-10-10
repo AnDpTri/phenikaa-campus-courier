@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_31_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0301419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301426",
+      "status": "F",
+      "reason": "urgent: provided 1, corrected 0 (yeu cau moi dich den la cho o cao nhat cua campus can trong 5 phut - 'can trong 5 phut' is urgent, wait: 5 phut is urgent=1, but goal: cho o cao nhat = dorm/north_most/- vs -/north_most/-? 'cho o cao nhat' is cho o = dorm, goal type provided '-' corrected 'dorm')"
+    },
+    {
+      "id": "v4_0301432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301445",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301509",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301542",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301758",
+      "status": "U",
+      "reason": "can gap he sinh vien (typo for can gap / can he / gap sinh vien) creates contradictory urgency cues with no clear meaning"
+    },
+    {
+      "id": "v4_0301764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301801",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301845",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0301867",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

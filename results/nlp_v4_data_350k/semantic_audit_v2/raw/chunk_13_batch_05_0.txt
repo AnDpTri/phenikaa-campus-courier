@@ -1,0 +1,52 @@
+v4_0122273	P	-
+v4_0122280	F	goal type: provided '-', expected 'gate' ('doi bao ve vua chuyen sang toa o sat ben khu muon tra sach')
+v4_0122302	P	-
+v4_0122323	P	-
+v4_0122331	P	-
+v4_0122344	P	-
+v4_0122347	P	-
+v4_0122358	P	-
+v4_0122362	P	-
+v4_0122373	P	-
+v4_0122376	F	urgent: provided 0, expected 1 ('sau do chuyen huong chuyen giup sang phong thi nghiem ngay')
+v4_0122418	P	-
+v4_0122431	P	-
+v4_0122437	P	-
+v4_0122475	P	-
+v4_0122477	P	-
+v4_0122488	F	goal type: provided 'canteen', expected 'gate' ('bac bao ve tong giu xe truong o khu bep dang cho chia khoa phong')
+v4_0122490	P	-
+v4_0122505	P	-
+v4_0122511	P	-
+v4_0122522	P	-
+v4_0122523	P	-
+v4_0122529	F	goal type: provided 'lab', expected '-' ('kien hang nay di xuong' means go down/south, not lab 'xuong')
+v4_0122540	P	-
+v4_0122550	P	-
+v4_0122553	P	-
+v4_0122563	P	-
+v4_0122571	P	-
+v4_0122588	P	-
+v4_0122608	P	-
+v4_0122624	P	-
+v4_0122634	P	-
+v4_0122642	F	goal type: provided 'library', expected 'parking' ('bac giu xe o noi muon giao trinh dang cho mu bao hiem')
+v4_0122644	P	-
+v4_0122654	P	-
+v4_0122657	P	-
+v4_0122661	P	-
+v4_0122667	P	-
+v4_0122668	P	-
+v4_0122674	F	goal type: provided '-', expected 'parking' ('nhan vien bai xe o truy tim toa nha ke can moc phong hanh chinh hon ca')
+v4_0122678	P	-
+v4_0122680	P	-
+v4_0122682	P	-
+v4_0122689	U	ambiguous extreme south vs ordinary south ('khu vuc tim toa do lech han ve phuong nam')
+v4_0122718	P	-
+v4_0122738	P	-
+v4_0122740	P	-
+v4_0122759	P	-
+v4_0122763	F	urgent: provided 0, expected 1 ('dem atp tai lieu den dia diem nao do nam sat sn van dong nhat gnay')
+v4_0122765	P	-
+
+STDERR:

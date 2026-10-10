@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0217071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217123",
+      "status": "F",
+      "reason": "urgent provided 0 corrected 1 (y ta truc dang doi loa gap)"
+    },
+    {
+      "id": "v4_0217144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217305",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217393",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0217501",
+      "status": "U",
+      "reason": "No explicit delivery destination given for giang vien (bien ten khach la cua giang vien)"
+    },
+    {
+      "id": "v4_0217523",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

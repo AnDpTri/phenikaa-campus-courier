@@ -1,0 +1,78 @@
+{
+  "source": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\retained_swap_38833_TRAINABLE_reindexed.jsonl",
+  "output": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_200000_reindexed.jsonl",
+  "mapping": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_200000_id_lookup.csv",
+  "excluded": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\nlp_v4_curated_excluded_138071.csv",
+  "rows_input": 338071,
+  "rows_selected": 200000,
+  "removed": 138071,
+  "selected_new": 38511,
+  "selected_old": 161489,
+  "excluded_new": 322,
+  "seed": 20461009,
+  "label_strata": 384,
+  "max_stratum_distribution_drift": 2.567271371989961e-06,
+  "input_quality_flags": {
+    "repeated_4gram": 4121,
+    "long_over80": 3781
+  },
+  "selected_quality_flags": {
+    "repeated_4gram": 3836,
+    "long_over80": 3101
+  },
+  "goal_before": {
+    "east_most": 17835,
+    "anchor_near": 100086,
+    "west": 7104,
+    "south_most": 17876,
+    "named": 106121,
+    "west_most": 17851,
+    "east": 7063,
+    "far": 14278,
+    "south": 7175,
+    "near": 17675,
+    "north_most": 17842,
+    "north": 7165
+  },
+  "goal_after": {
+    "named": 62781,
+    "far": 8447,
+    "anchor_near": 59210,
+    "south_most": 10575,
+    "east_most": 10549,
+    "near": 10459,
+    "east": 4178,
+    "north": 4239,
+    "north_most": 10556,
+    "west_most": 10559,
+    "west": 4203,
+    "south": 4244
+  },
+  "via_before": {
+    "none": 168836,
+    "named": 135573,
+    "near": 10040,
+    "east": 3357,
+    "far": 10242,
+    "west": 3225,
+    "north": 3388,
+    "south": 3410
+  },
+  "via_after": {
+    "none": 99882,
+    "named": 80206,
+    "far": 6060,
+    "near": 5938,
+    "east": 1984,
+    "north": 2006,
+    "west": 1909,
+    "south": 2015
+  },
+  "source_sha256": "5f1bcba1ce7d53579ee15c9d21052d21bf03b62fb0531d2c91cc18af9af67ac6",
+  "output_sha256": "10a490d88a489803e7780bd1d50204f6ff67cdb3b1c0ec97d33ce751e86e05d4",
+  "format_compatible": true,
+  "id_start": "v4best_000001",
+  "id_end": "v4best_200000",
+  "selection_method": "Joint-stratum proportional quotas on goal.ref, via.ref, urgent, fragile; in-stratum quality rank using lexical distinctiveness, excessive length, token-noise and repeated 4-grams; new-data coverage bonus; seeded shuffle. Heuristic, not empirically validated for accuracy.",
+  "limitations": "Not guaranteed best true accuracy; no model training/holdout evaluation. Original files unchanged."
+}

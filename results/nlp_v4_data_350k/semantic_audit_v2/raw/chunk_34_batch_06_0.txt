@@ -1,0 +1,52 @@
+v4_0332540	P	-
+v4_0332546	P	-
+v4_0332547	P	-
+v4_0332557	P	-
+v4_0332569	P	-
+v4_0332570	P	-
+v4_0332574	P	-
+v4_0332583	P	-
+v4_0332588	P	-
+v4_0332590	P	-
+v4_0332593	P	-
+v4_0332615	P	-
+v4_0332616	P	-
+v4_0332619	P	-
+v4_0332621	P	-
+v4_0332623	P	-
+v4_0332636	P	-
+v4_0332641	P	-
+v4_0332672	F	goal: provided -/anchor_near/office, corrected parking/anchor_near/office (bac giu xe o phan loai noi tiep can gan nhat toi moc toa van phong)
+v4_0332686	P	-
+v4_0332706	P	-
+v4_0332709	P	-
+v4_0332712	P	-
+v4_0332722	P	-
+v4_0332724	P	-
+v4_0332725	P	-
+v4_0332738	P	-
+v4_0332740	P	-
+v4_0332748	P	-
+v4_0332755	P	-
+v4_0332770	P	-
+v4_0332775	P	-
+v4_0332799	P	-
+v4_0332810	P	-
+v4_0332811	P	-
+v4_0332818	P	-
+v4_0332825	P	-
+v4_0332830	P	-
+v4_0332835	P	-
+v4_0332839	P	-
+v4_0332846	P	-
+v4_0332864	U	toa nha cao hon tat ca describes physical building height, ambiguous with map north_most convention cao nhat
+v4_0332878	P	-
+v4_0332879	P	-
+v4_0332886	P	-
+v4_0332888	P	-
+v4_0332889	P	-
+v4_0332901	P	-
+v4_0332911	P	-
+v4_0332923	P	-
+
+STDERR:

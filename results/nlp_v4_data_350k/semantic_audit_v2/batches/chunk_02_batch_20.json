@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_02_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0019479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019555",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019602",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019619",
+      "status": "U",
+      "reason": "khong ro noi nhan cu the cua chuyen vien (chi biet chuyen vien dang hoc bien ten khach)"
+    },
+    {
+      "id": "v4_0019624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019651",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019869",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019898",
+      "status": "F",
+      "reason": "via: dorm/near/parking -> dorm/-/- (\"can ghe khu nha o tap the sinh vien cach nha giu xe an hon truoc\" tuong ung \"gan hon\", nhung khong phai \"an hon\" hoac loi cu phap)"
+    },
+    {
+      "id": "v4_0019908",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019945",
+      "status": "U",
+      "reason": "nguoi nhan la nhan vien hanh chinh nhung khong noi ro dia diem giao co phai phong hanh chinh hay khong"
+    },
+    {
+      "id": "v4_0019971",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0019991",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

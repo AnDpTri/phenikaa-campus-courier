@@ -1,0 +1,153 @@
+{
+  "objective": "Controlled one-epoch pilot comparing rehearsal vs via KD vs via+goal KD",
+  "notice": "Exploratory, small pilot; not an independent test score or official submission",
+  "data": {
+    "curated": 12000,
+    "dynamic": 12000,
+    "real": 2000,
+    "validation": 300,
+    "synthetic_holdout": 2000,
+    "test_used": false
+  },
+  "settings": {
+    "seed": 20261009,
+    "batch": 64,
+    "lr": 5e-05,
+    "temperature": 2.0,
+    "via_KD": 0.6,
+    "goal_KD": 0.3,
+    "teacher_agreement_mask": true,
+    "init": "D:\\phenikaa\\artifacts\\nlp\\neural_parser_v2.pt",
+    "via_teacher": "D:\\phenikaa\\artifacts\\nlp\\neural_parser_v2.pt",
+    "goal_teacher": "D:\\phenikaa\\results\\NLP_V4_Curated200K_Finetune_R1\\resume_E1_B64_LR5e5\\model.pt",
+    "preexisting_files_modified": false
+  },
+  "results": {
+    "R2_A_rehearsal": {
+      "seconds": 90.1,
+      "training_loss_mean": 1.7496,
+      "validation": {
+        "neural": {
+          "goal": 0.89667,
+          "via": 0.87333,
+          "urgent": 0.85667,
+          "fragile": 0.89,
+          "all": 0.62,
+          "named_total": 116,
+          "named_correct": 94,
+          "named_none": 15,
+          "via_wrong_confident": 25
+        },
+        "hybrid": {
+          "goal": 0.94667,
+          "via": 0.91667,
+          "urgent": 1.0,
+          "fragile": 1.0,
+          "all": 0.87667,
+          "named_total": 116,
+          "named_correct": 104,
+          "named_none": 9,
+          "via_wrong_confident": 25
+        }
+      },
+      "holdout": {
+        "neural": {
+          "goal": 0.6455,
+          "via": 0.821,
+          "urgent": 0.947,
+          "fragile": 0.865,
+          "all": 0.454,
+          "named_total": 812,
+          "named_correct": 598,
+          "named_none": 108,
+          "via_wrong_confident": 184
+        }
+      },
+      "checkpoint": "R2_A_rehearsal.pt"
+    },
+    "R2_B_via_KD": {
+      "seconds": 96.3,
+      "training_loss_mean": 3.83783,
+      "validation": {
+        "neural": {
+          "goal": 0.89667,
+          "via": 0.88333,
+          "urgent": 0.85667,
+          "fragile": 0.89,
+          "all": 0.63,
+          "named_total": 116,
+          "named_correct": 97,
+          "named_none": 12,
+          "via_wrong_confident": 23
+        },
+        "hybrid": {
+          "goal": 0.94667,
+          "via": 0.92333,
+          "urgent": 1.0,
+          "fragile": 1.0,
+          "all": 0.88333,
+          "named_total": 116,
+          "named_correct": 105,
+          "named_none": 8,
+          "via_wrong_confident": 23
+        }
+      },
+      "holdout": {
+        "neural": {
+          "goal": 0.6405,
+          "via": 0.8225,
+          "urgent": 0.9455,
+          "fragile": 0.864,
+          "all": 0.45,
+          "named_total": 812,
+          "named_correct": 603,
+          "named_none": 105,
+          "via_wrong_confident": 182
+        }
+      },
+      "checkpoint": "R2_B_via_KD.pt"
+    },
+    "R2_C_via_goal_KD": {
+      "seconds": 96.5,
+      "training_loss_mean": 5.16832,
+      "validation": {
+        "neural": {
+          "goal": 0.9,
+          "via": 0.88,
+          "urgent": 0.85667,
+          "fragile": 0.89,
+          "all": 0.63,
+          "named_total": 116,
+          "named_correct": 96,
+          "named_none": 13,
+          "via_wrong_confident": 23
+        },
+        "hybrid": {
+          "goal": 0.95,
+          "via": 0.92333,
+          "urgent": 1.0,
+          "fragile": 1.0,
+          "all": 0.88667,
+          "named_total": 116,
+          "named_correct": 105,
+          "named_none": 8,
+          "via_wrong_confident": 23
+        }
+      },
+      "holdout": {
+        "neural": {
+          "goal": 0.6475,
+          "via": 0.8205,
+          "urgent": 0.9465,
+          "fragile": 0.866,
+          "all": 0.4565,
+          "named_total": 812,
+          "named_correct": 600,
+          "named_none": 107,
+          "via_wrong_confident": 181
+        }
+      },
+      "checkpoint": "R2_C_via_goal_KD.pt"
+    }
+  }
+}

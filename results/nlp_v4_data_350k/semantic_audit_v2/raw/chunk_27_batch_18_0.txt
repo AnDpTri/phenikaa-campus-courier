@@ -1,0 +1,52 @@
+v4_0268381	F	goal type: provided '-', corrected 'gate' ("nguoi gac cong")
+v4_0268385	P	-
+v4_0268390	P	-
+v4_0268397	P	-
+v4_0268401	P	-
+v4_0268409	U	Ambiguous reference in text ("le rtai" typo/corrupted text for direction)
+v4_0268413	P	-
+v4_0268420	P	-
+v4_0268433	P	-
+v4_0268463	P	-
+v4_0268476	F	urgent: provided 0, corrected 1 ("ngay")
+v4_0268484	P	-
+v4_0268513	P	-
+v4_0268547	P	-
+v4_0268551	P	-
+v4_0268556	P	-
+v4_0268569	F	goal type: provided '-', corrected 'library' ("THU TUH")
+v4_0268593	P	-
+v4_0268596	P	-
+v4_0268599	P	-
+v4_0268606	P	-
+v4_0268620	P	-
+v4_0268621	P	-
+v4_0268632	P	-
+v4_0268635	P	-
+v4_0268646	P	-
+v4_0268654	P	-
+v4_0268668	F	urgent: provided 0, corrected 1 ("ngay ho minh")
+v4_0268690	F	urgent: provided 0, corrected 1 ("Gap")
+v4_0268697	P	-
+v4_0268703	P	-
+v4_0268716	P	-
+v4_0268729	P	-
+v4_0268740	F	goal type: provided '-', corrected 'gate' ("nguoi gac")
+v4_0268756	P	-
+v4_0268766	P	-
+v4_0268790	P	-
+v4_0268796	P	-
+v4_0268800	P	-
+v4_0268804	P	-
+v4_0268816	P	-
+v4_0268818	P	-
+v4_0268826	P	-
+v4_0268841	P	-
+v4_0268855	P	-
+v4_0268856	P	-
+v4_0268863	P	-
+v4_0268866	P	-
+v4_0268867	P	-
+v4_0268872	P	-
+
+STDERR:

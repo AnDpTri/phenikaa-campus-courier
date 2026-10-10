@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_24_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0239547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239606",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239608",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/east_most/- should be -/east_most/- but 'mep hai' is ungrounded or ambiguous direction"
+    },
+    {
+      "id": "v4_0239619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239651",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239693",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239842",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239971",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0239980",
+      "status": "F",
+      "reason": "via type/ref/anchor provided lecture/-/- should be lecture/-/- but text says 'toa nha ho' which is missing/corrupted"
+    },
+    {
+      "id": "v4_0239993",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

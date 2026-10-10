@@ -1,0 +1,2704 @@
+{
+  "kind": "experimental_semantic_v5_frozen_diagnosis",
+  "created": "2026-10-09T22:31:52.667965+00:00",
+  "sources": {
+    "Old_Scratch_epoch02": {
+      "path": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch\\scratch_s0_epoch02.pt",
+      "sha256": "b402379ad62793411149ff7e59c6f76fbacf55b03bc6530eb5717e4bd0f4876c"
+    },
+    "V5_SF200_finetuned": {
+      "path": "D:\\phenikaa\\results\\NLP_V5_SemanticFusion_200K\\sf200_best.pt",
+      "sha256": "288ffec6ccf3f98c435a5ac8986ea420e7d4de7fbcdba79ea9557f72d5ddf343"
+    },
+    "New_Scratch_5ep_seed1": {
+      "path": "D:\\phenikaa\\results\\NLP_V5_SF200_Scratch_5EP_20261010_a\\scratch_s0_epoch05.pt",
+      "sha256": "ebcaef45acc5442397810e76b397972a2bc68aeb691d879f6b96a98b95b8eda0"
+    }
+  },
+  "data": {
+    "train_like_n": 2000,
+    "challenge_family_n": 2000,
+    "train_like_families": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "challenge_families": [
+      6,
+      7
+    ]
+  },
+  "results": {
+    "Old_Scratch_epoch02": {
+      "candidate_train_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.0,
+        "acc": {
+          "goal": 0.75,
+          "via": 0.546,
+          "urgent": 0.576,
+          "fragile": 0.664,
+          "all": 0.1755
+        },
+        "via_miss_rate": 0.67,
+        "via_false_positive_rate": 0.206,
+        "subgroups": {
+          "family_0": {
+            "n": 304,
+            "goal": 0.8322,
+            "via": 0.4474,
+            "urgent": 1.0,
+            "fragile": 1.0,
+            "all": 0.398
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.748,
+            "via": 0.794,
+            "urgent": 0.576,
+            "fragile": 0.661,
+            "all": 0.254
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.75,
+            "via": 0.546,
+            "urgent": 0.316,
+            "fragile": 0.66,
+            "all": 0.089
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.749,
+            "via": 0.546,
+            "urgent": 0.576,
+            "fragile": 0.488,
+            "all": 0.144
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.751,
+            "via": 0.546,
+            "urgent": 0.576,
+            "fragile": 0.84,
+            "all": 0.207
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.75,
+            "via": 0.546,
+            "urgent": 0.836,
+            "fragile": 0.668,
+            "all": 0.262
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.752,
+            "via": 0.298,
+            "urgent": 0.576,
+            "fragile": 0.667,
+            "all": 0.097
+          },
+          "family_1": {
+            "n": 360,
+            "goal": 0.6917,
+            "via": 0.8944,
+            "urgent": 0.5,
+            "fragile": 0.9833,
+            "all": 0.3
+          },
+          "family_5": {
+            "n": 360,
+            "goal": 0.7444,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0917
+          },
+          "family_2": {
+            "n": 328,
+            "goal": 0.6555,
+            "via": 0.4817,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0854
+          },
+          "family_3": {
+            "n": 328,
+            "goal": 0.8384,
+            "via": 0.4146,
+            "urgent": 0.5,
+            "fragile": 0.5061,
+            "all": 0.0945
+          },
+          "family_4": {
+            "n": 320,
+            "goal": 0.75,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0938
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00000_100",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "library"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_101",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "library"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_110",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "library"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_111",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "library"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00001_000",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_001",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00001_010",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_011",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00001_100",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_101",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00005_000",
+            "family": 5,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Chỉ dẫn giao cuối: đưa bưu phẩm đến khu ăn uống. Thùng không chứa đồ gốm dễ bể, không cần quy trình nhẹ tay đặc biệt. Đã hủy tuyến lấy hàng ban đầu; chặng nhận ở giảng đường lớn cũng bị xóa, chỉ còn chặng giao. Không cần hoàn tất ngay; đã xóa nhãn đơn khẩn cấp."
+          },
+          {
+            "id": "sf5_00005_001",
+            "family": 5,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Chỉ dẫn giao cuối: đưa bưu phẩm đến khu ăn uống. Thùng chứa đồ gốm dễ bể; dùng quy trình vận chuyển nhẹ tay. Đã hủy tuyến lấy hàng ban đầu; chặng nhận ở giảng đường lớn cũng bị xóa, chỉ còn chặng giao. Không cần hoàn tất ngay; đã xóa nhãn đơn khẩn cấp."
+          }
+        ]
+      },
+      "heldout_template_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.0,
+        "acc": {
+          "goal": 0.9505,
+          "via": 0.684,
+          "urgent": 0.6975,
+          "fragile": 0.75,
+          "all": 0.297
+        },
+        "via_miss_rate": 0.06,
+        "via_false_positive_rate": 0.57,
+        "subgroups": {
+          "family_6": {
+            "n": 1000,
+            "goal": 0.927,
+            "via": 0.87,
+            "urgent": 0.895,
+            "fragile": 0.5,
+            "all": 0.346
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.907,
+            "via": 0.43,
+            "urgent": 0.702,
+            "fragile": 0.75,
+            "all": 0.157
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.951,
+            "via": 0.683,
+            "urgent": 0.395,
+            "fragile": 0.75,
+            "all": 0.146
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.951,
+            "via": 0.686,
+            "urgent": 0.707,
+            "fragile": 0.5,
+            "all": 0.124
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.95,
+            "via": 0.682,
+            "urgent": 0.688,
+            "fragile": 1.0,
+            "all": 0.47
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.95,
+            "via": 0.685,
+            "urgent": 1.0,
+            "fragile": 0.75,
+            "all": 0.448
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.994,
+            "via": 0.938,
+            "urgent": 0.693,
+            "fragile": 0.75,
+            "all": 0.437
+          },
+          "family_7": {
+            "n": 1000,
+            "goal": 0.974,
+            "via": 0.498,
+            "urgent": 0.5,
+            "fragile": 1.0,
+            "all": 0.248
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00006_000",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới không yêu cầu đến phòng quản lý lấy kiện nữa. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Yêu cầu giao gấp không còn hiệu lực; cứ giao theo lịch. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_010",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới không yêu cầu đến phòng quản lý lấy kiện nữa. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Không còn chờ theo thứ tự bình thường, phải giao gấp. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_100",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Yêu cầu giao gấp không còn hiệu lực; cứ giao theo lịch. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_101",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Yêu cầu giao gấp không còn hiệu lực; cứ giao theo lịch. Lời nhắn trước nói hàng bền là sai; hiện xác nhận có vật dễ vỡ."
+          },
+          {
+            "id": "sf5_00006_110",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Không còn chờ theo thứ tự bình thường, phải giao gấp. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_111",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Không còn chờ theo thứ tự bình thường, phải giao gấp. Lời nhắn trước nói hàng bền là sai; hiện xác nhận có vật dễ vỡ."
+          },
+          {
+            "id": "sf5_00007_000",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_001",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_010",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_011",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_100",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_101",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          }
+        ]
+      }
+    },
+    "V5_SF200_finetuned": {
+      "candidate_train_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.0,
+        "acc": {
+          "goal": 0.847,
+          "via": 0.3635,
+          "urgent": 0.592,
+          "fragile": 0.658,
+          "all": 0.129
+        },
+        "via_miss_rate": 0.802,
+        "via_false_positive_rate": 0.469,
+        "subgroups": {
+          "family_0": {
+            "n": 304,
+            "goal": 0.8322,
+            "via": 0.3092,
+            "urgent": 0.8355,
+            "fragile": 1.0,
+            "all": 0.2763
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.905,
+            "via": 0.531,
+            "urgent": 0.629,
+            "fragile": 0.65,
+            "all": 0.206
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.844,
+            "via": 0.369,
+            "urgent": 0.442,
+            "fragile": 0.653,
+            "all": 0.105
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.845,
+            "via": 0.37,
+            "urgent": 0.6,
+            "fragile": 0.476,
+            "all": 0.107
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.849,
+            "via": 0.357,
+            "urgent": 0.584,
+            "fragile": 0.84,
+            "all": 0.151
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.85,
+            "via": 0.358,
+            "urgent": 0.742,
+            "fragile": 0.663,
+            "all": 0.153
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.789,
+            "via": 0.196,
+            "urgent": 0.555,
+            "fragile": 0.666,
+            "all": 0.052
+          },
+          "family_1": {
+            "n": 360,
+            "goal": 0.8028,
+            "via": 0.3056,
+            "urgent": 0.7278,
+            "fragile": 0.9556,
+            "all": 0.1778
+          },
+          "family_5": {
+            "n": 360,
+            "goal": 0.8667,
+            "via": 0.2167,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0361
+          },
+          "family_2": {
+            "n": 328,
+            "goal": 0.7439,
+            "via": 0.3689,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0671
+          },
+          "family_3": {
+            "n": 328,
+            "goal": 0.9817,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.125
+          },
+          "family_4": {
+            "n": 320,
+            "goal": 0.8562,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.1062
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00000_000",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_001",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_100",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_101",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_110",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_111",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00001_100",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_101",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00001_110",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_111",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "dorm",
+                "ref": "west",
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại là chỉ dẫn mới, cần thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00005_000",
+            "family": 5,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Chỉ dẫn giao cuối: đưa bưu phẩm đến khu ăn uống. Thùng không chứa đồ gốm dễ bể, không cần quy trình nhẹ tay đặc biệt. Đã hủy tuyến lấy hàng ban đầu; chặng nhận ở giảng đường lớn cũng bị xóa, chỉ còn chặng giao. Không cần hoàn tất ngay; đã xóa nhãn đơn khẩn cấp."
+          },
+          {
+            "id": "sf5_00005_001",
+            "family": 5,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Chỉ dẫn giao cuối: đưa bưu phẩm đến khu ăn uống. Thùng chứa đồ gốm dễ bể; dùng quy trình vận chuyển nhẹ tay. Đã hủy tuyến lấy hàng ban đầu; chặng nhận ở giảng đường lớn cũng bị xóa, chỉ còn chặng giao. Không cần hoàn tất ngay; đã xóa nhãn đơn khẩn cấp."
+          }
+        ]
+      },
+      "heldout_template_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.0,
+        "acc": {
+          "goal": 0.9675,
+          "via": 0.6925,
+          "urgent": 0.75,
+          "fragile": 0.5,
+          "all": 0.281
+        },
+        "via_miss_rate": 0.016,
+        "via_false_positive_rate": 0.577,
+        "subgroups": {
+          "family_6": {
+            "n": 1000,
+            "goal": 0.965,
+            "via": 0.875,
+            "urgent": 1.0,
+            "fragile": 0.5,
+            "all": 0.435
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.965,
+            "via": 0.423,
+            "urgent": 0.75,
+            "fragile": 0.5,
+            "all": 0.207
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.954,
+            "via": 0.696,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.219
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.96,
+            "via": 0.693,
+            "urgent": 0.75,
+            "fragile": 0.0,
+            "all": 0.0
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.975,
+            "via": 0.692,
+            "urgent": 0.75,
+            "fragile": 1.0,
+            "all": 0.562
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.981,
+            "via": 0.689,
+            "urgent": 1.0,
+            "fragile": 0.5,
+            "all": 0.343
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.97,
+            "via": 0.962,
+            "urgent": 0.75,
+            "fragile": 0.5,
+            "all": 0.355
+          },
+          "family_7": {
+            "n": 1000,
+            "goal": 0.97,
+            "via": 0.51,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.127
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00006_000",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới không yêu cầu đến phòng quản lý lấy kiện nữa. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Yêu cầu giao gấp không còn hiệu lực; cứ giao theo lịch. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_010",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới không yêu cầu đến phòng quản lý lấy kiện nữa. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Không còn chờ theo thứ tự bình thường, phải giao gấp. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_100",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Yêu cầu giao gấp không còn hiệu lực; cứ giao theo lịch. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00006_110",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "canteen",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "office",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Bản nháp về việc lấy hàng đã rút lại. Bản mới yêu cầu đến phòng quản lý lấy kiện rồi mới giao. Điểm cần bàn giao sau mọi công đoạn là quầy cơm. Không còn chờ theo thứ tự bình thường, phải giao gấp. Lời nhắn trước nói có vật dễ vỡ là sai; đã xác nhận hàng bền."
+          },
+          {
+            "id": "sf5_00007_000",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_001",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_010",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_011",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_100",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_101",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_110",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00014_000",
+            "family": 6,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "far",
+                "anchor": "parking"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "far",
+                "anchor": "parking"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "yeu cau giao gap khong con hieu luc; cu giao theo lich. diem can ban giao sau moi cong doan la phong lab co vi tri xa nha giu xe hon dia diem tuong tu con lai. ban nhap ve viec lay hang da rut lai. ban moi khong yeu cau den ban giam hieu o cuc dong trong nhom cung loai lay kien nua. loi nhan truoc noi co vat de vo la sai; da xac nhan hang ben."
+          }
+        ]
+      }
+    },
+    "New_Scratch_5ep_seed1": {
+      "candidate_train_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.0,
+        "acc": {
+          "goal": 0.781,
+          "via": 0.5095,
+          "urgent": 0.59,
+          "fragile": 0.576,
+          "all": 0.132
+        },
+        "via_miss_rate": 0.722,
+        "via_false_positive_rate": 0.255,
+        "subgroups": {
+          "family_0": {
+            "n": 304,
+            "goal": 0.8158,
+            "via": 0.4474,
+            "urgent": 1.0,
+            "fragile": 1.0,
+            "all": 0.3684
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.771,
+            "via": 0.745,
+            "urgent": 0.591,
+            "fragile": 0.576,
+            "all": 0.215
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.78,
+            "via": 0.511,
+            "urgent": 0.372,
+            "fragile": 0.576,
+            "all": 0.087
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.781,
+            "via": 0.512,
+            "urgent": 0.592,
+            "fragile": 0.312,
+            "all": 0.089
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.781,
+            "via": 0.507,
+            "urgent": 0.588,
+            "fragile": 0.84,
+            "all": 0.175
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.782,
+            "via": 0.508,
+            "urgent": 0.808,
+            "fragile": 0.576,
+            "all": 0.177
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.791,
+            "via": 0.274,
+            "urgent": 0.589,
+            "fragile": 0.576,
+            "all": 0.049
+          },
+          "family_1": {
+            "n": 360,
+            "goal": 0.7083,
+            "via": 0.7944,
+            "urgent": 0.1556,
+            "fragile": 0.5,
+            "all": 0.0444
+          },
+          "family_5": {
+            "n": 360,
+            "goal": 0.7306,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.0917
+          },
+          "family_2": {
+            "n": 328,
+            "goal": 0.6463,
+            "via": 0.2591,
+            "urgent": 0.9634,
+            "fragile": 0.5,
+            "all": 0.0823
+          },
+          "family_3": {
+            "n": 328,
+            "goal": 1.0,
+            "via": 0.5244,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.1311
+          },
+          "family_4": {
+            "n": 320,
+            "goal": 0.8,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.1031
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00000_000",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_001",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_010",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_011",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất cũng bị hủy; không còn điểm nhận phụ. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_100",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_101",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được hủy; giao theo lịch thường. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00000_110",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng không có vật dễ vỡ; không cần chế độ chống xóc."
+          },
+          {
+            "id": "sf5_00000_111",
+            "family": 0,
+            "truth": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": {
+                "type": "dorm",
+                "ref": "far",
+                "anchor": "library"
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": null,
+                "ref": "anchor_near",
+                "anchor": "lab"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Trước đó đã hủy một chuyến lấy hàng khác. Riêng lần lấy bổ sung tại tòa ký túc xá là nơi cùng loại xa khu học liệu nhất vẫn còn hiệu lực và phải làm. Mục tiêu bàn giao của đơn này: vị trí cách khu nghiên cứu ít ô lưới nhất, loại trừ chính khu nghiên cứu. Lệnh gấp đã được xác nhận; ưu tiên giao ngay. Lớp hàng có vật dễ vỡ, chống xóc trong suốt chuyến."
+          },
+          {
+            "id": "sf5_00001_000",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_001",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn hết hiệu lực; có thể giao không vội. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          },
+          {
+            "id": "sf5_00001_010",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện không có dụng cụ thủy tinh mong manh; vận chuyển bình thường."
+          },
+          {
+            "id": "sf5_00001_011",
+            "family": 1,
+            "truth": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "sports",
+                "ref": "near",
+                "anchor": "clinic"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "text": "Biên bản cũ có điểm nhận đã bị bỏ. Bước nhận tài liệu tại khu nhà ở sinh viên nằm sát mép tây nhất trong nhóm cùng loại cũng là chỉ dẫn cũ; không thực hiện. Người nhận xác nhận nơi nhận cuối cùng là sân vận động có khoảng cách tới trạm y tế ngắn nhất trong nhóm cùng loại. Thời hạn khẩn vẫn hiệu lực; không được trì hoãn. Kiện có dụng cụ thủy tinh mong manh, cần tránh rung mạnh."
+          }
+        ]
+      },
+      "heldout_template_families": {
+        "n": 2000,
+        "all_8way_scene_correct_fraction": 0.264,
+        "acc": {
+          "goal": 0.975,
+          "via": 0.636,
+          "urgent": 0.748,
+          "fragile": 0.75,
+          "all": 0.4465
+        },
+        "via_miss_rate": 0.014,
+        "via_false_positive_rate": 0.714,
+        "subgroups": {
+          "family_6": {
+            "n": 1000,
+            "goal": 1.0,
+            "via": 0.772,
+            "urgent": 0.996,
+            "fragile": 1.0,
+            "all": 0.768
+          },
+          "via_false": {
+            "n": 1000,
+            "goal": 0.972,
+            "via": 0.286,
+            "urgent": 0.748,
+            "fragile": 0.75,
+            "all": 0.284
+          },
+          "urgent_false": {
+            "n": 1000,
+            "goal": 0.952,
+            "via": 0.636,
+            "urgent": 0.496,
+            "fragile": 0.75,
+            "all": 0.382
+          },
+          "fragile_false": {
+            "n": 1000,
+            "goal": 0.975,
+            "via": 0.638,
+            "urgent": 0.748,
+            "fragile": 0.5,
+            "all": 0.386
+          },
+          "fragile_true": {
+            "n": 1000,
+            "goal": 0.975,
+            "via": 0.634,
+            "urgent": 0.748,
+            "fragile": 1.0,
+            "all": 0.507
+          },
+          "urgent_true": {
+            "n": 1000,
+            "goal": 0.998,
+            "via": 0.636,
+            "urgent": 1.0,
+            "fragile": 0.75,
+            "all": 0.511
+          },
+          "via_true": {
+            "n": 1000,
+            "goal": 0.978,
+            "via": 0.986,
+            "urgent": 0.748,
+            "fragile": 0.75,
+            "all": 0.609
+          },
+          "family_7": {
+            "n": 1000,
+            "goal": 0.95,
+            "via": 0.5,
+            "urgent": 0.5,
+            "fragile": 0.5,
+            "all": 0.125
+          }
+        },
+        "error_examples": [
+          {
+            "id": "sf5_00007_000",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_001",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_010",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_011",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. viec ghe khu ky tuc xa nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_100",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00007_101",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung."
+          },
+          {
+            "id": "sf5_00007_110",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lecture",
+                "ref": null,
+                "anchor": null
+              },
+              "via": {
+                "type": "dorm",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong hoc. mot yeu cau nhan da bi huy. luu y van can ghe khu ky tuc xa nhan hang truoc khi di giao. phieu xac nhan trang thai uu tien xu ly khan. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot."
+          },
+          {
+            "id": "sf5_00015_000",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong thi nghiem hoa gan hoi truong nhat trong nhom cung loai. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot. mot yeu cau nhan da bi huy. viec ghe cong b nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan."
+          },
+          {
+            "id": "sf5_00015_001",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": null,
+              "urgent": false,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong thi nghiem hoa gan hoi truong nhat trong nhom cung loai. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung. mot yeu cau nhan da bi huy. viec ghe cong b nhan hang cung khong con hieu luc. phieu bac bo trang thai uu tien xu ly khan."
+          },
+          {
+            "id": "sf5_00015_010",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong thi nghiem hoa gan hoi truong nhat trong nhom cung loai. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot. mot yeu cau nhan da bi huy. viec ghe cong b nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan."
+          },
+          {
+            "id": "sf5_00015_011",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": null,
+              "urgent": true,
+              "fragile": true
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong thi nghiem hoa gan hoi truong nhat trong nhom cung loai. cap nhat moi khang dinh mon hang mong manh va de hu khi bi rung. mot yeu cau nhan da bi huy. viec ghe cong b nhan hang cung khong con hieu luc. phieu xac nhan trang thai uu tien xu ly khan."
+          },
+          {
+            "id": "sf5_00015_100",
+            "family": 7,
+            "truth": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": false,
+              "fragile": false
+            },
+            "pred": {
+              "goal": {
+                "type": "lab",
+                "ref": "near",
+                "anchor": "lecture"
+              },
+              "via": {
+                "type": "gate",
+                "ref": null,
+                "anchor": null
+              },
+              "urgent": true,
+              "fragile": true
+            },
+            "text": "hay hoan tat lan giao hang o phong thi nghiem hoa gan hoi truong nhat trong nhom cung loai. cap nhat moi bac bo thong tin hang mong manh; kien chiu rung tot. mot yeu cau nhan da bi huy. luu y van can ghe cong b nhan hang truoc khi di giao. phieu bac bo trang thai uu tien xu ly khan."
+          }
+        ]
+      }
+    }
+  },
+  "seconds": 73.6,
+  "caveats": [
+    "All samples are synthetic. Challenge is family-disjoint only within experimental V5.",
+    "Neither model has been trained on experimental V5 candidate; these are *pre-intervention* baseline scores.",
+    "Do not select checkpoints or tune on the family-challenge results; protect for final comparison.",
+    "Named and spatial goals require human label audit on a representative sample.",
+    "Models evaluated entirely on CPU; GPU training not interrupted."
+  ]
+}

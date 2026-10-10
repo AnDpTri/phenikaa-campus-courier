@@ -1,0 +1,52 @@
+v4_0290469	P	-
+v4_0290476	F	goal type/ref/anchor provided -/anchor_near/clinic should be lab/near/clinic (nguoi phu trach phong thi nghiem o o nao gan tram y te)
+v4_0290478	P	-
+v4_0290481	P	-
+v4_0290489	P	-
+v4_0290502	P	-
+v4_0290507	P	-
+v4_0290529	P	-
+v4_0290530	P	-
+v4_0290540	P	-
+v4_0290550	P	-
+v4_0290551	P	-
+v4_0290556	P	-
+v4_0290557	P	-
+v4_0290560	P	-
+v4_0290571	P	-
+v4_0290583	P	-
+v4_0290591	P	-
+v4_0290629	P	-
+v4_0290630	P	-
+v4_0290635	P	-
+v4_0290636	P	-
+v4_0290655	P	-
+v4_0290667	F	goal type/ref/anchor provided -/anchor_near/sports should be gate/near/sports (ca truc bao ve o o sat canh san tap nhat)
+v4_0290685	F	urgent provided 0 should be 1 (can gap goi hang truoc cua chot bao ve)
+v4_0290696	F	goal type/ref/anchor provided -/anchor_near/library should be lab/near/library (khach gui xuong o canh phong tia lieu nhat)
+v4_0290697	P	-
+v4_0290716	P	-
+v4_0290717	P	-
+v4_0290727	P	-
+v4_0290744	P	-
+v4_0290745	P	-
+v4_0290749	P	-
+v4_0290752	P	-
+v4_0290754	P	-
+v4_0290760	P	-
+v4_0290766	P	-
+v4_0290768	F	goal type/ref/anchor provided library/-/- should be -/-/- (nhan vien muon tra sach vua dat bo dam; no explicit destination stated)
+v4_0290793	P	-
+v4_0290797	P	-
+v4_0290810	P	-
+v4_0290813	P	-
+v4_0290820	P	-
+v4_0290838	P	-
+v4_0290840	P	-
+v4_0290846	P	-
+v4_0290857	P	-
+v4_0290895	P	-
+v4_0290899	P	-
+v4_0290901	F	goal type/ref/anchor provided -/anchor_near/parking should be -/near/parking (noi sat khu do xe, not necessarily closest among all locations)
+
+STDERR:

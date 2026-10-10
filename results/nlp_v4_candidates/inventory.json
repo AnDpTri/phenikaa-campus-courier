@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "growth_range": [
+    0.3,
+    0.5
+  ],
+  "banks": {
+    "VIA_FRAMES_BEFORE": 17,
+    "VIA_FRAMES_AFTER": 17,
+    "ANCHOR_NEAR_FRAMES": 39,
+    "GOAL_FRAMES": 50,
+    "DISTRACTOR_FRAMES": 24,
+    "REDIRECT_PREFIX": 11,
+    "MOST_PHRASES": {
+      "north_most": 32,
+      "south_most": 32,
+      "west_most": 32,
+      "east_most": 32
+    },
+    "EXTRA_PLACES": {
+      "library": 11,
+      "dorm": 11,
+      "sports": 11,
+      "clinic": 11,
+      "canteen": 11,
+      "parking": 11,
+      "lecture": 11,
+      "lab": 11,
+      "office": 11,
+      "gate": 11
+    },
+    "EXTRA_PERSONS": {
+      "library": 5,
+      "dorm": 5,
+      "sports": 5,
+      "clinic": 5,
+      "canteen": 5,
+      "parking": 5,
+      "lecture": 5,
+      "lab": 5,
+      "office": 5,
+      "gate": 5
+    }
+  }
+}

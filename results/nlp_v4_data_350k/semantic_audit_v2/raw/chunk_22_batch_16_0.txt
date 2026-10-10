@@ -1,0 +1,52 @@
+v4_0217540	P	-
+v4_0217549	P	-
+v4_0217556	P	-
+v4_0217562	P	-
+v4_0217570	P	-
+v4_0217573	P	-
+v4_0217575	P	-
+v4_0217593	P	-
+v4_0217596	P	-
+v4_0217610	P	-
+v4_0217621	P	-
+v4_0217636	P	-
+v4_0217644	P	-
+v4_0217657	P	-
+v4_0217664	P	-
+v4_0217682	P	-
+v4_0217692	P	-
+v4_0217695	P	-
+v4_0217701	P	-
+v4_0217729	P	-
+v4_0217735	P	-
+v4_0217752	P	-
+v4_0217761	U	Mau thuan thoi gian khan cap ('KHONG VI PHAI NHANH' doi lap 'HOM QUA DA IAO... UDNG LMA ROI, DE VO LAM')
+v4_0217768	P	-
+v4_0217784	P	-
+v4_0217788	P	-
+v4_0217793	P	-
+v4_0217800	P	-
+v4_0217803	P	-
+v4_0217805	P	-
+v4_0217817	P	-
+v4_0217819	P	-
+v4_0217826	P	-
+v4_0217831	P	-
+v4_0217844	P	-
+v4_0217848	P	-
+v4_0217928	P	-
+v4_0217931	P	-
+v4_0217941	P	-
+v4_0217942	P	-
+v4_0217943	F	goal type/ref/anchor: provided lecture/-/- but text specifies giao cho co giang vien without specifying location or lecture building
+v4_0217951	P	-
+v4_0217957	P	-
+v4_0217959	P	-
+v4_0217969	P	-
+v4_0217988	P	-
+v4_0217994	P	-
+v4_0217995	P	-
+v4_0218003	P	-
+v4_0218005	P	-
+
+STDERR:

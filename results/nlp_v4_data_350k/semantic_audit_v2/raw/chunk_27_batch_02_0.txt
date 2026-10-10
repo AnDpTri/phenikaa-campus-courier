@@ -1,0 +1,52 @@
+v4_0260447	P	-
+v4_0260464	P	-
+v4_0260477	P	-
+v4_0260479	P	-
+v4_0260481	P	-
+v4_0260520	P	-
+v4_0260541	P	-
+v4_0260543	F	goal type: provided 'sports', corrected '-' from 'chuyen cha khoa phong hco giang vien he hat'
+v4_0260548	P	-
+v4_0260570	P	-
+v4_0260579	P	-
+v4_0260591	P	-
+v4_0260593	P	-
+v4_0260608	P	-
+v4_0260610	P	-
+v4_0260620	P	-
+v4_0260622	P	-
+v4_0260641	P	-
+v4_0260654	U	khu vuc Na (typo for Nam or ambiguous)
+v4_0260727	P	-
+v4_0260728	P	-
+v4_0260730	P	-
+v4_0260734	P	-
+v4_0260770	P	-
+v4_0260772	P	-
+v4_0260778	P	-
+v4_0260789	P	-
+v4_0260811	P	-
+v4_0260812	P	-
+v4_0260819	P	-
+v4_0260831	P	-
+v4_0260832	P	-
+v4_0260835	P	-
+v4_0260841	P	-
+v4_0260842	U	ambiguous recipient/goal location ('the giu xe la cua phong ke hoach')
+v4_0260846	P	-
+v4_0260855	P	-
+v4_0260861	P	-
+v4_0260862	P	-
+v4_0260876	P	-
+v4_0260894	P	-
+v4_0260896	P	-
+v4_0260905	F	goal type: provided 'lecture', corrected '-' from 'giao may tinh bang cho thay giao'
+v4_0260930	P	-
+v4_0260943	U	ambiguous recipient/goal location ('mau vat la cua nguoi trong xe')
+v4_0260976	P	-
+v4_0260989	P	-
+v4_0260992	P	-
+v4_0260999	P	-
+v4_0261002	P	-
+
+STDERR:

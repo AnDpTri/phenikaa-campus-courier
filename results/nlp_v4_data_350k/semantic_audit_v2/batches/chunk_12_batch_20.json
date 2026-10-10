@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0119426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119607",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119909",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119990",
+      "status": "U",
+      "reason": "ai giao cung udoc vs dung alm roi, de vo lam: unclear if typo represents mai giao cung duoc or ai giao; but more critically 'truoc het ghe toa giang uong nam xa van phong truong lay bo vot' indicates far from office, but recipient text says 'Ai giao cung udoc' which is ambiguous urgency, or via lecture/far/office."
+    },
+    {
+      "id": "v4_0119996",
+      "status": "U",
+      "reason": "khong vi phai nhanh (contradictory urgency phrases: khong voi vs phai nhanh)"
+    }
+  ]
+}

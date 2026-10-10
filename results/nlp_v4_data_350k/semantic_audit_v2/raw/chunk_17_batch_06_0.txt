@@ -1,0 +1,52 @@
+v4_0162398	P	-
+v4_0162401	P	-
+v4_0162426	P	-
+v4_0162445	P	-
+v4_0162483	P	-
+v4_0162502	P	-
+v4_0162503	P	-
+v4_0162508	P	-
+v4_0162520	P	-
+v4_0162521	P	-
+v4_0162535	P	-
+v4_0162541	P	-
+v4_0162545	P	-
+v4_0162570	P	-
+v4_0162579	P	-
+v4_0162583	U	lech han ve phuong nam co the la south_most hoac chi la huong nam (south)
+v4_0162585	P	-
+v4_0162592	P	-
+v4_0162598	P	-
+v4_0162602	P	-
+v4_0162613	P	-
+v4_0162614	P	-
+v4_0162625	P	-
+v4_0162666	P	-
+v4_0162670	P	-
+v4_0162680	P	-
+v4_0162684	P	-
+v4_0162690	P	-
+v4_0162694	P	-
+v4_0162703	P	-
+v4_0162708	P	-
+v4_0162723	P	-
+v4_0162730	P	-
+v4_0162741	P	-
+v4_0162746	P	-
+v4_0162765	F	goal type: provided 'lab', corrected 'parking' (hang di xuong khu dau xe)
+v4_0162767	P	-
+v4_0162776	P	-
+v4_0162780	P	-
+v4_0162787	P	-
+v4_0162809	P	-
+v4_0162814	P	-
+v4_0162822	P	-
+v4_0162826	P	-
+v4_0162835	P	-
+v4_0162866	P	-
+v4_0162872	U	lech han ve phia mat troi moc co the la east_most hoac chi la east
+v4_0162902	P	-
+v4_0162906	P	-
+v4_0162919	P	-
+
+STDERR:

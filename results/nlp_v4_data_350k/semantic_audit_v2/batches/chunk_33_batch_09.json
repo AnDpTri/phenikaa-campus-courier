@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0323914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323932",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/west_most/-' should be 'parking/west_most/-' (cot dau tien trong khuon vien nhe, do la the giu xe)"
+    },
+    {
+      "id": "v4_0323940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323953",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0323958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324032",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324128",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324131",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324483",
+      "status": "U",
+      "reason": "Contradictory or corrupted urgency phrasing ('An ngay trong 5 phut' instead of 'Can ngay trong 5 phut')"
+    },
+    {
+      "id": "v4_0324486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324498",
+      "status": "U",
+      "reason": "Missing head goal destination (only mentions 'Phu bep' without specifying delivery building/location)"
+    }
+  ]
+}

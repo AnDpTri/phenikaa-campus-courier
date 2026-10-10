@@ -1,0 +1,52 @@
+v4_0312439	P	-
+v4_0312443	P	-
+v4_0312464	U	Nguoi trong xe can laptop khong ro la bai xe hay chi la xe dang o do; thong tin diem den khong ro rang
+v4_0312480	P	-
+v4_0312485	P	-
+v4_0312491	P	-
+v4_0312498	P	-
+v4_0312507	P	-
+v4_0312515	P	-
+v4_0312523	P	-
+v4_0312528	P	-
+v4_0312546	P	-
+v4_0312557	P	-
+v4_0312570	P	-
+v4_0312574	P	-
+v4_0312580	P	-
+v4_0312593	P	-
+v4_0312602	P	-
+v4_0312605	P	-
+v4_0312618	P	-
+v4_0312622	P	-
+v4_0312636	P	-
+v4_0312650	P	-
+v4_0312659	P	-
+v4_0312663	P	-
+v4_0312670	P	-
+v4_0312706	P	-
+v4_0312707	P	-
+v4_0312708	P	-
+v4_0312710	P	-
+v4_0312711	P	-
+v4_0312731	U	noi o cua sinh vien nam xa phong thuc nghiem thieu moc so sanh cu the hoac loai doi tuong doi chieu
+v4_0312741	P	-
+v4_0312758	P	-
+v4_0312783	F	goal type: dorm -> - (ban tu quan ktx chi la nguoi nho gui, khong co diem den giao hang)
+v4_0312790	P	-
+v4_0312807	P	-
+v4_0312810	P	-
+v4_0312844	P	-
+v4_0312850	P	-
+v4_0312858	P	-
+v4_0312863	P	-
+v4_0312880	P	-
+v4_0312882	P	-
+v4_0312884	P	-
+v4_0312892	P	-
+v4_0312899	P	-
+v4_0312911	P	-
+v4_0312912	P	-
+v4_0312917	P	-
+
+STDERR:

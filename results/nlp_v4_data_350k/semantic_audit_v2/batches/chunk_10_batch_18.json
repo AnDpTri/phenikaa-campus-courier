@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0098585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098693",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098721",
+      "status": "F",
+      "reason": "via type provided lab but text indicates computer lab and experiment at south end (lab/south/- vs lecture/near/gate)"
+    },
+    {
+      "id": "v4_0098735",
+      "status": "U",
+      "reason": "ambiguous phrase 'khong vi pahi hanh' obscures whether it negates urgency or not"
+    },
+    {
+      "id": "v4_0098747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098798",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099006",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0099052",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

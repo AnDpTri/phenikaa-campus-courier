@@ -1,0 +1,52 @@
+v4_0113593	P	-
+v4_0113599	F	urgent: provided 0, corrected 1 ('Dung di qua noi gi xe... Khong cna voi') -> wait, 'Khong cna voi' = khong can voi -> urgent is 0. But goal: 'Doi bao ve o xuong co hki (ci o phia nam) dang cho the giu xe' -> xuong co khi = lab, south -> lab/south/-. Wait: 'Dung di qua noi gi xe' = do not go to parking. 'ci o phia nam' -> typo for co o phia nam. Wait, fragile: 'Ben trong la do thuy tinh' -> 1. Urgent: 'Khong cna voi' -> 0. What about via? None. So is v4_0113599 P? Let's check text again: "Dung di qua noi gi xe. Doi bao ve o xuong co hki (ci o phia nam) dang cho the giu xe. Khong cna voi. Ben trong la do thuy tinh. Cam on nhieu." -> lab/south/- -/-/- 0 1. Everything matches! -> P
+v4_0113605	P	-
+v4_0113617	P	-
+v4_0113624	P	-
+v4_0113627	P	-
+v4_0113631	F	goal ref/anchor: provided anchor_near/library, corrected near/library ('Giang Duong O Toa Nao Nam Gan Khu Doc Sach Nhat' -> lecture/near/library, provided type is '-')
+v4_0113638	P	-
+v4_0113643	P	-
+v4_0113649	P	-
+v4_0113655	P	-
+v4_0113656	P	-
+v4_0113658	P	-
+v4_0113662	P	-
+v4_0113664	P	-
+v4_0113674	P	-
+v4_0113680	P	-
+v4_0113686	P	-
+v4_0113687	P	-
+v4_0113698	P	-
+v4_0113712	P	-
+v4_0113731	P	-
+v4_0113733	P	-
+v4_0113800	P	-
+v4_0113808	P	-
+v4_0113826	P	-
+v4_0113833	P	-
+v4_0113836	P	-
+v4_0113843	P	-
+v4_0113854	P	-
+v4_0113876	P	-
+v4_0113879	U	typo 'hu doc sach' leaves destination facility ambiguous/unclear
+v4_0113896	P	-
+v4_0113900	P	-
+v4_0113907	P	-
+v4_0113916	P	-
+v4_0113919	P	-
+v4_0113921	P	-
+v4_0113978	P	-
+v4_0113982	P	-
+v4_0113996	P	-
+v4_0113998	P	-
+v4_0114053	P	-
+v4_0114068	P	-
+v4_0114070	P	-
+v4_0114078	P	-
+v4_0114083	P	-
+v4_0114085	P	-
+v4_0114096	P	-
+v4_0114099	P	-
+
+STDERR:

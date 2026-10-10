@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0048135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048216",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048233",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048414",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048434",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048501",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048554",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (\"cho lop truoc dang cho\" refers to recipient/target without specified building type)"
+    },
+    {
+      "id": "v4_0048559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0048572",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

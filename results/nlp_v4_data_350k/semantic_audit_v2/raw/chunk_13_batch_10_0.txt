@@ -1,0 +1,123 @@
+v4_0124705	F	goal ref: provided 'far', text says 'xa ohn' (xa hon) relative to dorm, canteen/far/dorm is supported, wait: 'khu phuc vu bua trua sinh vien cach ky tuc xa xa ohn' -> provided is canteen/far/dorm, which matches provided. Let's check all: goal canteen/far/dorm matches; via -/-/- matches; urgent 0 matches ('chieu nay giao cung duoc'); fragile 0 matches ('Hang khong vo duoc'). Wait, if proposed correction equals provided label, it is not F! So it is P.
+v4_0124705	P	-
+v4_0124709	P	-
+v4_0124727	P	-
+v4_0124744	P	-
+v4_0124755	P	-
+v4_0124756	P	-
+v4_0124771	P	-
+v4_0124787	P	-
+v4_0124792	P	-
+v4_0124798	P	-
+v4_0124800	P	-
+v4_0124803	P	-
+v4_0124804	P	-
+v4_0124805	P	-
+v4_0124835	P	-
+v4_0124851	P	-
+v4_0124861	P	-
+v4_0124878	P	-
+v4_0124899	P	-
+v4_0124900	U	'cong ngoai nhat' vs 'sat canh cong ngoai': ambiguous anchor_near vs extreme or directional gate
+v4_0124919	P	-
+v4_0124927	P	-
+v4_0124943	P	-
+v4_0124944	P	-
+v4_0124945	P	-
+v4_0124950	P	-
+v4_0124976	P	-
+v4_0125004	P	-
+v4_0125007	P	-
+v4_0125019	P	-
+v4_0125032	P	-
+v4_0125052	F	urgent: provided 0, text says 'ngay' -> 1
+v4_0125070	P	-
+v4_0125076	P	-
+v4_0125078	P	-
+v4_0125090	P	-
+v4_0125118	P	-
+v4_0125139	P	-
+v4_0125146	P	-
+v4_0125151	P	-
+v4_0125164	P	-
+v4_0125178	P	-
+v4_0125181	P	-
+v4_0125188	P	-
+v4_0125196	P	-
+v4_0125213	P	-
+v4_0125220	P	-
+v4_0125224	P	-
+v4_0125232	U	'ria phai' ambiguous between east directional vs east_most extreme
+v4_0125234	P	-
+
+Wait, let's carefully verify each line:
+v4_0124900: "Den o sat canh cong ngoai nhat ha robot." -> "sat canh [cong ngoai nhat]" -> could be anchor_near gate, or goal type/ref = gate/west_most or extreme? Provided: -/anchor_near/gate. "Den o sat canh cong ngoai nhat" = location closest to the outermost gate? Or is it asking a question "ha robot"? Text: "Den o sat canh cong ngoai nhat ha robot." -> "Đèn ở sát cạnh cổng ngoài nhất hả robot" / "Đến ở sát cạnh..." ambiguous whether it's asking / commanding. Also "cong ngoai nhat" refers to an extreme gate.
+v4_0125052: "xin chao! khong gap lam. nham roi, khong phai nha an tap the. dem the giu xe xuong phong quan ly dao tao ngay." -> "khong gap lam" (not urgent) vs "ngay" (immediately). Contradictory urgency phrases ("khong gap lam" vs "ngay")! Guideline: "Flag contradictory urgency phrases as U." -> v4_0125052 is U!
+v4_0125232: "ria phai" -> "toa nao o ria phai" -> "ria phai" = right edge, matches east_most, but is it east or east_most? Guideline: "Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P." -> U.
+
+Let's check v4_0124800:
+"Chao Robot Cio Chung Vo Nhe Ta Nao Gan Cho De Xe Nhat Tren So Do Dang Cho Lao Dung Di Qa Noi Muon Sach Phai Ghe San Bong Da Truoc Roi Moi Giao Ai Giao Cung Duoc Huong Nay Chi Chay Song Song Voi Khu An Uong Khogn Re Vao Do Thank You"
+"Ta Nao Gan Cho De Xe Nhat Tren So Do Dang Cho" -> typo "Ta Nao" = Toa nao / Toa nao gan cho de xe nhat -> head place "toa" (dorm? or building? -/anchor_near/parking). "Ai Giao Cung Duoc" -> "Khi giao cung duoc" / "Ai giao cung duoc" -> urgent 0. Provided: -/anchor_near/parking, sports/-/- via, 0, 1. Semantically supported -> P.
+
+Let's check v4_0124861:
+"bien gioi phia ac xa hon tat ca" -> phia ac (typo phia bac = north). "xa hon tat ca" = north_most. Via gate ("cong sau"). Provided: -/north_most/- gate/-/- 0 0. -> P.
+
+Let's check v4_0125078:
+"tram Gan Nha Ti Dau The Thao Da Nang Nhat (Khong Tinh Nha Thi Dau He Thao Da Nang) Voi." -> -/anchor_near/sports. Via parking/-/- ("Qua Cho Gui Xe"). Urgent 1 ("Gap Neh!"). Fragile 0. -> P.
+
+Let's check v4_0125234:
+"o le tri cua campus" -> le trai cua campus = west_most. Via gate/-/- ("qua loi vao truong"). Urgent 0 ("cu tu tu khong voi"). Fragile 0 ("hang khong de vo dau"). -> P.
+
+Output strictly TSV format as requested:
+id<TAB>P|F|U<TAB>short reasonv4_0124705	P	-
+v4_0124709	P	-
+v4_0124727	P	-
+v4_0124744	P	-
+v4_0124755	P	-
+v4_0124756	P	-
+v4_0124771	P	-
+v4_0124787	P	-
+v4_0124792	P	-
+v4_0124798	P	-
+v4_0124800	P	-
+v4_0124803	P	-
+v4_0124804	P	-
+v4_0124805	P	-
+v4_0124835	P	-
+v4_0124851	P	-
+v4_0124861	P	-
+v4_0124878	P	-
+v4_0124899	P	-
+v4_0124900	U	Ambiguous reference between anchor_near and extreme/directional gate ('sat canh cong ngoai nhat')
+v4_0124919	P	-
+v4_0124927	P	-
+v4_0124943	P	-
+v4_0124944	P	-
+v4_0124945	P	-
+v4_0124950	P	-
+v4_0124976	P	-
+v4_0125004	P	-
+v4_0125007	P	-
+v4_0125019	P	-
+v4_0125032	P	-
+v4_0125052	U	Contradictory urgency cues ('khong gap lam' vs 'ngay')
+v4_0125070	P	-
+v4_0125076	P	-
+v4_0125078	P	-
+v4_0125090	P	-
+v4_0125118	P	-
+v4_0125139	P	-
+v4_0125146	P	-
+v4_0125151	P	-
+v4_0125164	P	-
+v4_0125178	P	-
+v4_0125181	P	-
+v4_0125188	P	-
+v4_0125196	P	-
+v4_0125213	P	-
+v4_0125220	P	-
+v4_0125224	P	-
+v4_0125232	U	Ambiguous extreme vs ordinary directional cue ('ria phai')
+v4_0125234	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0168792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168874",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168965",
+      "status": "F",
+      "reason": "goal type: provided 'sports' but text specifies recipient 'hop thuoc la cua odi bong' with no designated sports building/location as delivery destination"
+    },
+    {
+      "id": "v4_0168977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0168992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169160",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169177",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0169306",
+      "status": "F",
+      "reason": "goal type: provided 'sports' but text recipient 'huan luyen vien doi tuyen the thao truong' has no specified destination location"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0097584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097608",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097802",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0097975",
+      "status": "U",
+      "reason": "Ambiguous reference: \"thuoc tren ban do\" has missing directional/extreme word for dorm (e.g. tren cung vs phia tren)"
+    },
+    {
+      "id": "v4_0098011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098038",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0098041",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

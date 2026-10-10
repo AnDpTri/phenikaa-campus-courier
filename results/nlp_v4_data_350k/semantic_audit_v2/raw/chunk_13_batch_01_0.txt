@@ -1,0 +1,52 @@
+v4_0120050	U	Text says 'ast diem kiem soat' which is corrupted/garbled for via ref/relation (near vs far vs east/west)
+v4_0120052	P	-
+v4_0120054	P	-
+v4_0120083	P	-
+v4_0120100	P	-
+v4_0120102	P	-
+v4_0120108	P	-
+v4_0120114	P	-
+v4_0120120	P	-
+v4_0120127	P	-
+v4_0120137	P	-
+v4_0120139	U	Text corrupted/garbled in via phrase 'ota na hanh chinh quan ly truong o xa tram xa' and goal 'lpo dang hoc no'
+v4_0120141	P	-
+v4_0120145	P	-
+v4_0120149	P	-
+v4_0120167	P	-
+v4_0120171	P	-
+v4_0120189	P	-
+v4_0120208	P	-
+v4_0120215	P	-
+v4_0120220	P	-
+v4_0120224	P	-
+v4_0120228	P	-
+v4_0120236	P	-
+v4_0120251	P	-
+v4_0120260	P	-
+v4_0120275	P	-
+v4_0120276	P	-
+v4_0120281	P	-
+v4_0120298	P	-
+v4_0120309	P	-
+v4_0120333	P	-
+v4_0120356	P	-
+v4_0120367	P	-
+v4_0120377	P	-
+v4_0120390	P	-
+v4_0120393	P	-
+v4_0120402	P	-
+v4_0120422	P	-
+v4_0120438	P	-
+v4_0120444	P	-
+v4_0120449	P	-
+v4_0120454	P	-
+v4_0120466	P	-
+v4_0120504	P	-
+v4_0120511	P	-
+v4_0120515	P	-
+v4_0120527	P	-
+v4_0120538	P	-
+v4_0120561	P	-
+
+STDERR:

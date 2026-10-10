@@ -1,0 +1,63 @@
+device: cuda; per epoch 200000 synthetic + 2000 x5 train; 3 seed(s)
+[seed 20261008] parameters: 7,515,212
+[seed 20261008] epoch 1: loss 3.0746  validation all 0.6367  holdout-phrasing all 0.6165 goal 0.7405  453s
+[seed 20261008] epoch 2: loss 0.0587  validation all 0.6233  holdout-phrasing all 0.7060 goal 0.8300  438s
+[seed 20261008] epoch 3: loss 0.0289  validation all 0.6167  holdout-phrasing all 0.5740 goal 0.7475  446s
+[seed 20261008] epoch 4: loss 0.0228  validation all 0.6433  holdout-phrasing all 0.6875 goal 0.7705  458s
+[seed 20261008] epoch 5: loss 0.0191  validation all 0.6167  holdout-phrasing all 0.6400 goal 0.7835  450s
+[seed 20261008] epoch 6: loss 0.0171  validation all 0.6733  holdout-phrasing all 0.6415 goal 0.8040  465s
+[seed 20261008] epoch 7: loss 0.0121  validation all 0.6333  holdout-phrasing all 0.6470 goal 0.8035  456s
+[seed 20261008] epoch 8: loss 0.0110  validation all 0.6267  holdout-phrasing all 0.6615 goal 0.8170  443s
+[seed 20261008] epoch 9: loss 0.0083  validation all 0.6400  holdout-phrasing all 0.6430 goal 0.7995  455s
+[seed 20261008] epoch 10: loss 0.0059  validation all 0.6633  holdout-phrasing all 0.6490 goal 0.8135  466s
+[seed 20261008] epoch 11: loss 0.0056  validation all 0.6600  holdout-phrasing all 0.6630 goal 0.8225  446s
+[seed 20261008] epoch 12: loss 0.0044  validation all 0.6467  holdout-phrasing all 0.6390 goal 0.8185  448s
+[seed 20261008] epoch 13: loss 0.0045  validation all 0.6633  holdout-phrasing all 0.6490 goal 0.8265  444s
+[seed 20261008] epoch 14: loss 0.0037  validation all 0.6667  holdout-phrasing all 0.6465 goal 0.8205  449s
+[seed 20261008] epoch 15: loss 0.0034  validation all 0.6667  holdout-phrasing all 0.6485 goal 0.8205  461s
+[seed 20268927] parameters: 7,515,212
+[seed 20268927] epoch 1: loss 3.0158  validation all 0.5967  holdout-phrasing all 0.6555 goal 0.8010  444s
+[seed 20268927] epoch 2: loss 0.0610  validation all 0.6067  holdout-phrasing all 0.5700 goal 0.8180  462s
+[seed 20268927] epoch 3: loss 0.0303  validation all 0.6667  holdout-phrasing all 0.6315 goal 0.8135  442s
+[seed 20268927] epoch 4: loss 0.0232  validation all 0.5467  holdout-phrasing all 0.5650 goal 0.8240  436s
+[seed 20268927] epoch 5: loss 0.0194  validation all 0.6233  holdout-phrasing all 0.5625 goal 0.7855  431s
+[seed 20268927] epoch 6: loss 0.0185  validation all 0.6033  holdout-phrasing all 0.6150 goal 0.7970  438s
+[seed 20268927] epoch 7: loss 0.0120  validation all 0.6300  holdout-phrasing all 0.6255 goal 0.8135  432s
+[seed 20268927] epoch 8: loss 0.0114  validation all 0.6633  holdout-phrasing all 0.5100 goal 0.8015  436s
+[seed 20268927] epoch 9: loss 0.0087  validation all 0.6600  holdout-phrasing all 0.5615 goal 0.8075  432s
+[seed 20268927] epoch 10: loss 0.0066  validation all 0.6500  holdout-phrasing all 0.6050 goal 0.8020  433s
+[seed 20268927] epoch 11: loss 0.0061  validation all 0.6300  holdout-phrasing all 0.6245 goal 0.8185  432s
+[seed 20268927] epoch 12: loss 0.0045  validation all 0.6400  holdout-phrasing all 0.6410 goal 0.8080  432s
+[seed 20268927] epoch 13: loss 0.0037  validation all 0.6533  holdout-phrasing all 0.6155 goal 0.7875  430s
+[seed 20268927] epoch 14: loss 0.0040  validation all 0.6600  holdout-phrasing all 0.6290 goal 0.7980  432s
+[seed 20268927] epoch 15: loss 0.0034  validation all 0.6567  holdout-phrasing all 0.6315 goal 0.8015  431s
+[seed 20276846] parameters: 7,515,212
+[seed 20276846] epoch 1: loss 3.1399  validation all 0.5733  holdout-phrasing all 0.5890 goal 0.8030  433s
+[seed 20276846] epoch 2: loss 0.0588  validation all 0.6600  holdout-phrasing all 0.5995 goal 0.7875  430s
+[seed 20276846] epoch 3: loss 0.0305  validation all 0.6433  holdout-phrasing all 0.5825 goal 0.8040  432s
+[seed 20276846] epoch 4: loss 0.0243  validation all 0.6567  holdout-phrasing all 0.6490 goal 0.8225  431s
+[seed 20276846] epoch 5: loss 0.0188  validation all 0.6767  holdout-phrasing all 0.6325 goal 0.8580  433s
+[seed 20276846] epoch 6: loss 0.0148  validation all 0.7300  holdout-phrasing all 0.5870 goal 0.7960  429s
+[seed 20276846] epoch 7: loss 0.0134  validation all 0.6533  holdout-phrasing all 0.5855 goal 0.8245  431s
+[seed 20276846] epoch 8: loss 0.0110  validation all 0.6533  holdout-phrasing all 0.5810 goal 0.8145  431s
+[seed 20276846] epoch 9: loss 0.0086  validation all 0.6533  holdout-phrasing all 0.6075 goal 0.8390  436s
+[seed 20276846] epoch 10: loss 0.0073  validation all 0.6700  holdout-phrasing all 0.6295 goal 0.8305  434s
+[seed 20276846] epoch 11: loss 0.0054  validation all 0.6533  holdout-phrasing all 0.6135 goal 0.8350  433s
+[seed 20276846] epoch 12: loss 0.0045  validation all 0.6667  holdout-phrasing all 0.6165 goal 0.8425  433s
+[seed 20276846] epoch 13: loss 0.0033  validation all 0.6600  holdout-phrasing all 0.6240 goal 0.8405  431s
+[seed 20276846] epoch 14: loss 0.0039  validation all 0.6667  holdout-phrasing all 0.6290 goal 0.8450  431s
+[seed 20276846] epoch 15: loss 0.0035  validation all 0.6667  holdout-phrasing all 0.6275 goal 0.8460  433s
+hybrid thresholds: HybridThresholds(goal=0.99, via=2.0, flags=2.0)  selection: {'rule_only': {'validation': 1.0, 'holdout': 0.345, 'challenge': 1.0}, 'chosen': {'validation': 1.0, 'holdout': 0.4706666666666667, 'challenge': 1.0}}
+validation_grounded  rules   goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation_grounded  neural  goal_nodes 0.9267  goal_type 0.9367  goal_ref 0.9833  via_nodes 0.9233  urgent 0.8900  fragile 0.8900  all 0.6900
+validation_grounded  hybrid  goal_nodes 1.0000  goal_type 1.0000  goal_ref 1.0000  via_nodes 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+validation           neural  goal 0.9167  via 0.9233  urgent 0.8900  fragile 0.8900  all 0.6833
+validation           hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+holdout              rules   goal 0.2180  via 0.7467  urgent 0.8767  fragile 0.9703  all 0.1487
+holdout              neural  goal 0.8373  via 0.9353  urgent 0.8770  fragile 0.9983  all 0.6887
+holdout              hybrid  goal 0.7137  via 0.7467  urgent 0.8767  fragile 0.9703  all 0.4710
+challenge            rules   goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+challenge            neural  goal 1.0000  via 0.9800  urgent 0.9800  fragile 1.0000  all 0.9600
+challenge            hybrid  goal 1.0000  via 1.0000  urgent 1.0000  fragile 1.0000  all 1.0000
+saved D:\phenikaa\artifacts\nlp\neural_parser_v2.pt

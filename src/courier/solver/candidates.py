@@ -18,6 +18,7 @@ import numpy as np
 from courier.common.domain import Scene
 from .features import PROFILE_LIBRARY, extract_scene_features, feature_names
 from .graph import OracleSolver
+from .repair import greedy_action, repair_scene
 from .strategy import StrategyPrediction
 
 _NAMES = feature_names()
@@ -105,35 +106,52 @@ class CandidateStrategyModel:
         self.models = artifact["models"]
         self.family = "candidate_ranker"
         self.families = ("candidate_ranker",) * 10
+        # When the predicted graph makes the mission unreachable, rank actions on a repaired graph.
+        self.repair_unreachable = True
 
     @classmethod
     def load(cls, path: str | Path) -> "CandidateStrategyModel":
         return cls(joblib.load(path))
 
+    def _rows(self, scene: Scene, legged: bool):
+        try:
+            return candidate_rows(extract_scene_features(scene, legged=legged))
+        except ValueError as error:
+            return str(error)
+
     def predict_scene_with_diagnostics(self, scene: Scene) -> tuple[StrategyPrediction, ...]:
         predictions = []
-        cached: dict[bool, tuple[np.ndarray, tuple[int, ...]] | str] = {}
+        cached: dict[bool, tuple] = {}
         for robot_id, model in enumerate(self.models):
             legged = robot_id == 4
             legal = frozenset(int(arc.action) for arc in OracleSolver.adjacency(scene, robot_id).get(scene.robot_rc, ()))
             if not legal:
                 raise ValueError(f"{scene.scene_id}/R{robot_id}: no legal outgoing action")
             if legged not in cached:
-                try:
-                    cached[legged] = candidate_rows(extract_scene_features(scene, legged=legged))
-                except ValueError as error:
-                    cached[legged] = str(error)
-            entry = cached[legged]
+                entry, used, note = self._rows(scene, legged), scene, None
+                if self.repair_unreachable and (isinstance(entry, str) or not entry[1]):
+                    note = entry if isinstance(entry, str) else "no candidates"
+                    repaired = repair_scene(scene, 4 if legged else 0)
+                    if repaired is not None:
+                        repaired_entry = self._rows(repaired[0], legged)
+                        if not isinstance(repaired_entry, str) and repaired_entry[1]:
+                            entry, used, note = repaired_entry, repaired[0], f"{note}; repaired:{repaired[1]}"
+                cached[legged] = (entry, used, note)
+            entry, used, note = cached[legged]
             if isinstance(entry, str) or not entry[1]:
-                heading = int(scene.robot_heading)
-                action = heading if heading in legal else min(legal)
-                predictions.append(StrategyPrediction(action, 0.0, entry if isinstance(entry, str) else "no candidates"))
+                reason = entry if isinstance(entry, str) else "no candidates"
+                if self.repair_unreachable:
+                    predictions.append(StrategyPrediction(greedy_action(scene, legal), 0.0, f"{reason}; greedy"))
+                else:
+                    heading = int(scene.robot_heading)
+                    action = heading if heading in legal else min(legal)
+                    predictions.append(StrategyPrediction(action, 0.0, reason))
                 continue
             rows, actions = entry
             probabilities = model.predict_proba(rows)[:, 1]
             order = max(range(len(actions)), key=lambda i: (probabilities[i], -actions[i]))
             confidence = float(probabilities[order] / max(probabilities.sum(), 1e-9))
-            predictions.append(StrategyPrediction(int(actions[order]), confidence))
+            predictions.append(StrategyPrediction(int(actions[order]), confidence, note))
         return tuple(predictions)
 
     def predict_scene(self, scene: Scene) -> tuple[int, ...]:

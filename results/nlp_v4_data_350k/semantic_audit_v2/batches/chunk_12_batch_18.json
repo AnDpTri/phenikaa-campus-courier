@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0118519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118558",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118569",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/canteen but text specifies office/anchor_near/canteen (\"can bo tiep nhan ho so sinh vien o nut it buoc nhat tu khu phuc vu bua trua sinh vien\")"
+    },
+    {
+      "id": "v4_0118571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118798",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118830",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118889",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0118983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119016",
+      "status": "U",
+      "reason": "Ambiguous destination: only mentions recipient's role (\"Nhan Vien Y Te\") without stating a target location, and previous location is an origin (\"Chuyen Nay Xuat Phat Tu...\")."
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0205631",
+      "status": "U",
+      "reason": "ambiguous destination phrase 'Gio Hay Giang Vien Dang Day Vua Dat Qua Bong' with missing/mangled location"
+    },
+    {
+      "id": "v4_0205648",
+      "status": "F",
+      "reason": "goal anchor_near: provided canteen, corrected - (dest is closest walking spot from canteen, anchor_near is not supported as canteen itself being anchor of a place)"
+    },
+    {
+      "id": "v4_0205661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205670",
+      "status": "U",
+      "reason": "ambiguous parking ref from 'ai o ben duoi' (lai/tai o ben duoi)"
+    },
+    {
+      "id": "v4_0205673",
+      "status": "U",
+      "reason": "mangled comparative 'khu ky tc xa khu thi nghiem hon cai kia di' missing clear near/far direction word"
+    },
+    {
+      "id": "v4_0205676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205689",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205753",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205805",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205898",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0205974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206046",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0206153",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_14_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0136957",
+      "status": "F",
+      "reason": "goal lecture -> -; canteen phia xa hoi truong (lecture is hall/hoi truong? hoi truong is lecture/hoi truong; phia xa hoi truong -> canteen/far/lecture) Wait, hoi truong = lecture. canteen/far/lecture, urgent=1 (\"trong vong 10 phut\"), fragile=0 (\"-\"). Label is canteen/far/lecture -/-/- 1 0. Reason '-' -> P."
+    },
+    {
+      "id": "v4_0136962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0136996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137142",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137322",
+      "status": "U",
+      "reason": "Contradictory or corrupted urgency phrase ('khong vi phai nhanh')"
+    },
+    {
+      "id": "v4_0137332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137400",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

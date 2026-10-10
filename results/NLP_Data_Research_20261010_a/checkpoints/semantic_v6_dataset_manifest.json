@@ -1,0 +1,200 @@
+{
+  "name": "experimental_semantic_v6",
+  "created_utc": "2026-10-09T22:34:17.706620+00:00",
+  "seed": 2026101066,
+  "total_groups": 1200,
+  "rows": 9600,
+  "family_split": {
+    "candidate_train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "family_challenge": [
+      6,
+      7
+    ]
+  },
+  "splits": {
+    "candidate_train": {
+      "rows": 7200,
+      "groups": 900,
+      "label_positive_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "regime_counts": {
+        "plain_mission": 2400,
+        "cancelled_stop": 2400,
+        "updated_instruction": 2400
+      },
+      "accented_fraction": 0.5611,
+      "word_cues": {
+        "lay": {
+          "support": 4400,
+          "via": 0.5455,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 5600,
+          "via": 0.4821,
+          "urgent": 0.5179,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 1420,
+          "via": 0.569,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 2750,
+          "via": 0.4909,
+          "urgent": 0.4182,
+          "fragile": 0.4545
+        },
+        "khong": {
+          "support": 5435,
+          "via": 0.4074,
+          "urgent": 0.4664,
+          "fragile": 0.4219
+        },
+        "vo": {
+          "support": 2400,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 2400,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "khan": {
+          "support": 2400,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 1200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "sau": {
+          "support": 1384,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v6_balanced_train.jsonl",
+      "sha256": "93bf73d8cdc2fac03b251d64b366af7c341b1f960cb164467fce957b267f0bc2"
+    },
+    "family_challenge": {
+      "rows": 2400,
+      "groups": 300,
+      "label_positive_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "regime_counts": {
+        "plain_mission": 800,
+        "cancelled_stop": 800,
+        "updated_instruction": 800
+      },
+      "accented_fraction": 0.5667,
+      "word_cues": {
+        "lay": {
+          "support": 1600,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 2400,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 1808,
+          "via": 0.5553,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 800,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "khong": {
+          "support": 1824,
+          "via": 0.3421,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "vo": {
+          "support": 1200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 1200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "khan": {
+          "support": 1200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 0,
+          "via": null,
+          "urgent": null,
+          "fragile": null
+        },
+        "sau": {
+          "support": 1616,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v6_family_challenge.jsonl",
+      "sha256": "a5de16e1338c55e20432a3856f9875d9f397f4583bfff00549d6387f079d94ab"
+    }
+  },
+  "old_200k_overlap_count": 0,
+  "qa": [
+    "within group 8 combinations, labels 50/50 each",
+    "latest-instruction semantics encoded in active/cancelled/revised via",
+    "normal delivery examples included",
+    "no normalized text collisions",
+    "goals invariant within counterfactual group",
+    "token bound checked",
+    "hold out two whole structural realization families"
+  ],
+  "limitations": [
+    "Only machine-enforced label consistency, requires human spot review",
+    "All generated; no official validation/test loaded",
+    "No evidence of improvement before retraining and truly external evaluation",
+    "Family holdout remains same concept distribution / shared place lexicon",
+    "Do not merge family_challenge into future training",
+    "No changes outside research workspace"
+  ],
+  "elapsed_seconds": 14.9
+}

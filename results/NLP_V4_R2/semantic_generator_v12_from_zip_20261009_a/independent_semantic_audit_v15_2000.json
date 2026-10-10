@@ -1,0 +1,39 @@
+{
+  "source": "pilot_2000_v15_role_semantics.jsonl",
+  "status": "AUTOMATED_ROLE_CONTRACT_AUDIT_DONE; MANUAL_SEMANTIC_AUDIT_PENDING",
+  "rows": 2000,
+  "role_counts": {
+    "n": 2000,
+    "negative_mentions": 907,
+    "no_via_with_take": 461,
+    "fragile_named_physical": 267,
+    "former_goal": 444,
+    "former_goal_and_via": 207,
+    "via_without_before": 562,
+    "former_pickup": 271,
+    "supplemental_item": 484
+  },
+  "issues": {},
+  "issue_families": {},
+  "sample_size": 140,
+  "group_population": {
+    "revised_goal_with_via": 207,
+    "revised_goal_no_via": 237,
+    "revised_pickup_has_via": 131,
+    "revised_pickup_no_via": 140,
+    "goal_anchor_near": 258,
+    "goal_global_extreme": 261,
+    "goal_near_far": 466,
+    "via_spatial": 304,
+    "supplementary_pickup": 484,
+    "multiple_negatives": 46,
+    "negative_no_via": 460,
+    "urgent_fragile_both": 494,
+    "neither_flags": 524
+  },
+  "limitations": [
+    "Rule-based consistency checks do not prove naturalness or all labels",
+    "Only 2k pilot has been assessed, not a new 40k",
+    "Dataset ZIP text validation was not incorporated into templates"
+  ]
+}

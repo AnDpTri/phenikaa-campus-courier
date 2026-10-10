@@ -1,0 +1,52 @@
+v4_0093977	P	-
+v4_0093979	P	-
+v4_0094005	P	-
+v4_0094010	F	goal type/ref/anchor provided -/west_most/- should be lecture/west/- ("tro giang phu trach gio ly thuyet o can phong nao o le trai")
+v4_0094018	P	-
+v4_0094034	P	-
+v4_0094058	P	-
+v4_0094066	P	-
+v4_0094082	P	-
+v4_0094084	P	-
+v4_0094096	P	-
+v4_0094107	F	urgent provided 0 should be 1 ("can gap linh kien dien tu")
+v4_0094117	P	-
+v4_0094126	P	-
+v4_0094128	P	-
+v4_0094158	P	-
+v4_0094176	P	-
+v4_0094194	P	-
+v4_0094210	P	-
+v4_0094211	P	-
+v4_0094212	P	-
+v4_0094243	P	-
+v4_0094245	P	-
+v4_0094262	P	-
+v4_0094275	P	-
+v4_0094276	P	-
+v4_0094282	P	-
+v4_0094283	P	-
+v4_0094292	P	-
+v4_0094299	P	-
+v4_0094306	P	-
+v4_0094310	P	-
+v4_0094325	P	-
+v4_0094328	P	-
+v4_0094373	P	-
+v4_0094374	P	-
+v4_0094375	P	-
+v4_0094401	P	-
+v4_0094403	F	via type/ref/anchor provided parking/south/- should be parking/-/- ("dung chan o ham gui xe o huong nam ban do lay hop dung cu", huong nam describes direction of travel/action or ambiguous reference, but ham gui xe lacks directional instance specification / is parking)
+v4_0094419	P	-
+v4_0094425	P	-
+v4_0094426	P	-
+v4_0094434	P	-
+v4_0094460	P	-
+v4_0094473	P	-
+v4_0094475	P	-
+v4_0094480	P	-
+v4_0094481	P	-
+v4_0094496	P	-
+v4_0094507	P	-
+
+STDERR:

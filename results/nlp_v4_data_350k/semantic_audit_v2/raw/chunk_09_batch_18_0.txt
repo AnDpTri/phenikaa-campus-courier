@@ -1,0 +1,52 @@
+v4_0088629	P	-
+v4_0088652	P	-
+v4_0088654	P	-
+v4_0088677	P	-
+v4_0088685	F	urgent: provided 0, corrected 1 ('ngay')
+v4_0088689	P	-
+v4_0088700	F	urgent: provided 1, corrected 0 ('ha toc' = giam toc do / slow down, khong voi)
+v4_0088704	P	-
+v4_0088716	P	-
+v4_0088718	P	-
+v4_0088736	F	goal: provided -/anchor_near/lab, corrected -/anchor_near/canteen ('sat vach xuong co khi ngay di' preceded by 'khong phai can teen')
+v4_0088741	P	-
+v4_0088744	P	-
+v4_0088746	P	-
+v4_0088762	P	-
+v4_0088785	P	-
+v4_0088794	P	-
+v4_0088801	P	-
+v4_0088819	P	-
+v4_0088823	P	-
+v4_0088828	P	-
+v4_0088832	P	-
+v4_0088834	P	-
+v4_0088842	P	-
+v4_0088843	P	-
+v4_0088868	P	-
+v4_0088891	P	-
+v4_0088902	P	-
+v4_0088903	P	-
+v4_0088916	P	-
+v4_0088932	P	-
+v4_0088941	P	-
+v4_0088948	P	-
+v4_0088951	P	-
+v4_0088986	P	-
+v4_0088988	P	-
+v4_0088998	P	-
+v4_0089000	P	-
+v4_0089005	P	-
+v4_0089015	P	-
+v4_0089017	P	-
+v4_0089021	P	-
+v4_0089025	P	-
+v4_0089031	P	-
+v4_0089042	P	-
+v4_0089044	P	-
+v4_0089056	P	-
+v4_0089057	P	-
+v4_0089074	P	-
+v4_0089077	P	-
+
+STDERR:

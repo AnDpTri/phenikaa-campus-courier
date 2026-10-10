@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\phenikaa\results\NLP_V5_SF200_Scratch_5EP_20261010_a\train_scratch_sf200_5epochs.py", line 364, in <module>
+    art=torch.load(checkpoint_path(i,15),map_location="cpu",weights_only=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andan\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\serialization.py", line 1565, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andan\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andan\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\phenikaa\\results\\NLP_V5_SF200_Scratch_5EP_20261010_a\\scratch_s0_epoch15.pt'

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_08_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0076878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076883",
+      "status": "U",
+      "reason": "Nguoi nhan la thay chu nhiem nhung khong noi ro dia diem giao (khong co noi giao ro rang)"
+    },
+    {
+      "id": "v4_0076886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077001",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077086",
+      "status": "U",
+      "reason": "cai o nua tren la ordinary direction (north) hay north_most"
+    },
+    {
+      "id": "v4_0077100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077153",
+      "status": "U",
+      "reason": "nut o hang da thieu tu/bi loi khong ro nghia vi tri"
+    },
+    {
+      "id": "v4_0077172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077288",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided '-/west_most/-' should be '-/west/-' ('lech han ve phia mat troi lan' la ordinary west, khong phai west_most)"
+    },
+    {
+      "id": "v4_0077289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077361",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0077377",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_08_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0079049",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079050",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079117",
+      "status": "U",
+      "reason": "unreadable corrupted text 'aty giup acm on bn nhe' obscures fragile label"
+    },
+    {
+      "id": "v4_0079167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079171",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079249",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079266",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079348",
+      "status": "F",
+      "reason": "via label provided lab/near/lecture, corrected lab/-/- (text says 'ghe lab gna vi phong hoc ly thuyet hon lay the thu vien truoc' comparing/closer to lecture hall not near-ref)"
+    },
+    {
+      "id": "v4_0079362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0079517",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

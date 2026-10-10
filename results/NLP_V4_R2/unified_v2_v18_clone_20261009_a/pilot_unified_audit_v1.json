@@ -1,0 +1,953 @@
+{
+  "status": "PILOT_TESTED_UNDER_SEMANTIC_INSPECTION",
+  "v2_unchanged_reference": true,
+  "original_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "clone_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "counts": {
+    "n": 3000,
+    "via": 1527,
+    "accented": 1796,
+    "former_goal": 677,
+    "former_pickup": 456,
+    "former_goal_via": 341,
+    "via_without_before": 1199,
+    "none_with_lay": 812,
+    "neg_role_count": 2145,
+    "near_far": 1092,
+    "error_anchor_exclude": 123,
+    "error_grammar_known": 1
+  },
+  "errors": {
+    "anchor_exclude": [
+      {
+        "text": "Địa chỉ giao gói hàng hiện tại là điểm gần khu chăm sóc sức khỏe nhất trong các điểm còn lại. Chỉ có chặng giao, không có địa điểm nhận kiện trung gian. Hôm qua có đơn khác tới quầ",
+        "why": "Địa chỉ giao gói hàng hiện tại là điểm gần khu chăm sóc sức khỏe nhất trong các điểm còn lại. Chỉ có chặng giao, không có địa điểm nhận kiện trung gian. Hôm qua có đơn khác tới quầy ăn trưa; không liên quan đơn hiện tại. Hạn giao đã được đẩy sớm, cần giao khẩn."
+      },
+      {
+        "text": "Lấy bưu kiện tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Đưa bưu kiện đến điểm gần xưởng kỹ thuật nhất trong các điểm còn lại. Đơn này không chứa vật dễ vỡ.",
+        "why": "Lấy bưu kiện tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Đưa bưu kiện đến điểm gần xưởng kỹ thuật nhất trong các điểm còn lại. Đơn này không chứa vật dễ vỡ."
+      },
+      {
+        "text": "Chặng giao cuối cùng là chuyển gói hàng đến điểm sát trạm chăm sóc sinh viên nhất, nhưng không lấy chính mốc đó. Việc nhận gói hàng đã hoàn tất tại điểm xuất phát. Đơn này không gấ",
+        "why": "Chặng giao cuối cùng là chuyển gói hàng đến điểm sát trạm chăm sóc sinh viên nhất, nhưng không lấy chính mốc đó. Việc nhận gói hàng đã hoàn tất tại điểm xuất phát. Đơn này không gấp."
+      },
+      {
+        "text": "Chuyển kiện đồ sang điểm gần khu nhà ở sinh viên nhất trong các điểm còn lại để bàn giao. Nhận thẻ ra vào từ văn phòng khoa rồi chuyển hàng đến đích đã xác nhận. Ghi chú về sân tập",
+        "why": "Chuyển kiện đồ sang điểm gần khu nhà ở sinh viên nhất trong các điểm còn lại để bàn giao. Nhận thẻ ra vào từ văn phòng khoa rồi chuyển hàng đến đích đã xác nhận. Ghi chú về sân tập thể thao là lịch sử của một chuyến trước. Lệnh mới xác nhận phải giao gấp. Kiện này chứa vật dễ vỡ, cần chống va đập."
+      }
+    ],
+    "grammar_known": [
+      {
+        "text": "dia diem diem kiem soat the ra vao khuon vien tung la noi nhan, nhung khong dung nua. diem ban giao cuoi cung cho hop hang la noi muon giao trinh. o lop ly thuyet co bo tai lieu ph",
+        "why": "dia diem diem kiem soat the ra vao khuon vien tung la noi nhan, nhung khong dung nua. diem ban giao cuoi cung cho hop hang la noi muon giao trinh. o lop ly thuyet co bo tai lieu phu dang cho; robot nhan mon do roi di giao. hom qua co don khac toi y te truong; khong lien quan don hien tai. khong can che do van chuyen do mong manh."
+      }
+    ]
+  },
+  "token_p50": 68,
+  "token_p90": 91,
+  "token_p99": 111,
+  "token_max": 127,
+  "hard_unique_prefix8": 1649,
+  "v2_unique_prefix8": 2849,
+  "train_holdout_exact_overlap_200": 0,
+  "examples": [
+    {
+      "example": "Người gửi đã giao hộp hàng ngay tại điểm xuất phát, cứ đi thẳng tới đích. Chuyển hộp hàng sang địa điểm ngoài lối ra vào có khoảng cách nhỏ nhất đến lối ra vào để bàn giao. Địa chỉ văn phòng khoa thuộc khách hàng trước, không dùng cho đơn này. Người gửi xác nhận có thể giao từ từ. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='gate')",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "history",
+            "type": "office",
+            "text": "văn phòng khoa"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "item": "hộp hàng",
+        "pickup_item": "hộp hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "Nhờ robot mang phong bì đến quầy cơm. Robot mang sẵn phong bì khi bắt đầu nên không cần ghé kho khác. Thông tin dãy nhà sinh viên tạm ngừng tiếp nhận đã được ghi chú. Lệnh mới xác nhận phải giao gấp. Đơn này không chứa vật dễ vỡ.",
+      "goal": "TargetSpec(type='canteen', ref=None, anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "closed",
+            "type": "dorm",
+            "text": "dãy nhà sinh viên"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": true
+      }
+    },
+    {
+      "example": "co mot kien can giao. dinh chinh: khong phai lay hang tai khu ky tuc xa. robot nhan the ra vao tai cho tra sach, sau do thuc hien chang giao. nho robot mang phong bi den cong truong chinh gan nha thi dau the thao da nang hon cac noi cung loai con lai. co nguoi nhac van phong khoa trong cau chuyen khac, bo qua. kien nay chua vat de vo, can chong va dap.",
+      "goal": "TargetSpec(type='gate', ref='near', anchor='sports')",
+      "via": "TargetSpec(type='library', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "khu ky tuc xa",
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "office",
+            "text": "van phong khoa"
+          }
+        ],
+        "goal_mode": "near",
+        "via_mode": "named",
+        "item": "phong bì",
+        "pickup_item": "thẻ ra vào",
+        "accented": false
+      }
+    },
+    {
+      "example": "Robot xử lý chuyến giao này giúp mình. Tại nhà học xa thư viện khoa hơn các nơi cùng loại còn lại đang có gói hàng cần nhận để mang cùng chuyến. Đưa gói hàng đến điểm có khoảng cách ngắn nhất tới phòng thí nghiệm, ngoại trừ mốc đó. Chuyến cũ robot đã đi qua bãi gửi xe; bỏ qua thông tin đó. Địa chỉ phòng công tác sinh viên thuộc khách hàng trước, không dùng cho đơn này. Kiện này chứa vật dễ vỡ, cần chống va đập.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='lab')",
+      "via": "TargetSpec(type='lecture', ref='far', anchor='library')",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "history",
+            "type": "parking",
+            "text": "bãi gửi xe"
+          },
+          {
+            "role": "history",
+            "type": "office",
+            "text": "phòng công tác sinh viên"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "far",
+        "item": "gói hàng",
+        "pickup_item": "gói hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "Thêm bước nhận thẻ ra vào tại cổng chính; không bỏ qua công đoạn này. Đơn này giao thùng hàng đến nhà để xe có khoảng cách tới khu sơ cứu ngắn nhất trong nhóm cùng loại. Chỗ làm trước của người nhận là quầy ăn trưa, không phải đích mới. Không cần chế độ vận chuyển đồ mong manh.",
+      "goal": "TargetSpec(type='parking', ref='near', anchor='clinic')",
+      "via": "TargetSpec(type='gate', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "canteen",
+            "text": "quầy ăn trưa"
+          }
+        ],
+        "goal_mode": "near",
+        "via_mode": "named",
+        "item": "thùng hàng",
+        "pickup_item": "thẻ ra vào",
+        "accented": true
+      }
+    },
+    {
+      "example": "dung thuc hien lenh giao toi toa giang day; thong tin sau moi dung. co them chang lay thung hang o phong y te truong o phia bac nhat trong cac noi cung loai; khi da lay xong moi di giao. chuyen thung hang sang nha the chat de ban giao. thong tin ve cho gui xe khong lien quan den chuyen nay. kien nay chua vat de vo, can chong va dap.",
+      "goal": "TargetSpec(type='sports', ref=None, anchor=None)",
+      "via": "TargetSpec(type='clinic', ref='north', anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "toa giang day",
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "parking",
+            "text": "cho gui xe"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "north",
+        "item": "thùng hàng",
+        "pickup_item": "thùng hàng",
+        "accented": false
+      }
+    },
+    {
+      "example": "Giao hộp hàng tới địa điểm ngoài cùng về phía đông trên bản đồ. Chuyến này không yêu cầu một điểm lấy hàng phụ. Không cần ưu tiên xử lý ngay. Ban đầu ghi dễ vỡ nhưng kiểm tra lại là hàng bền.",
+      "goal": "TargetSpec(type=None, ref='east_most', anchor=None)",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "east_most",
+        "via_mode": "none",
+        "item": "hộp hàng",
+        "pickup_item": "hộp hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "Chặng giao cuối cùng là chuyển gói hàng đến trạm chăm sóc sinh viên nằm phía tây hơn mọi nơi cùng loại. Thêm bước nhận bộ tài liệu phụ tại nhà ở sinh viên; không bỏ qua công đoạn này. Đơn này không yêu cầu nhận hàng tại bãi giữ xe sinh viên. Bây giờ có thể giao theo lịch thường. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type='clinic', ref='west', anchor=None)",
+      "via": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "no_stop",
+            "type": "parking",
+            "text": "bãi giữ xe sinh viên"
+          }
+        ],
+        "goal_mode": "west",
+        "via_mode": "named",
+        "item": "gói hàng",
+        "pickup_item": "bộ tài liệu phụ",
+        "accented": true
+      }
+    },
+    {
+      "example": "Tôi gửi phiếu giao hàng mới. Đã rút lại yêu cầu nhận kiện tại phòng hành chính. Điểm bàn giao cuối cùng cho hộp hàng là tòa nhà ở nội trú. Điểm nhận kiện trung gian là chốt bảo vệ, nơi robot lấy hộp hàng. Bản cũ ghi hàng bền, nhưng vừa đính chính là dễ vỡ.",
+      "goal": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "via": "TargetSpec(type='gate', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "phòng hành chính",
+        "negative_roles": [],
+        "goal_mode": "named",
+        "via_mode": "named",
+        "item": "hộp hàng",
+        "pickup_item": "hộp hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "dua thung hang den khu kham benh. da nhan du hang tai noi xuat phat, khong co chang lay hang trung gian. lenh moi xac nhan phai giao gap.",
+      "goal": "TargetSpec(type='clinic', ref=None, anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "named",
+        "via_mode": "none",
+        "item": "thùng hàng",
+        "pickup_item": "thùng hàng",
+        "accented": false
+      }
+    },
+    {
+      "example": "yeu cau cua nguoi gui nhu sau. robot vong qua thu vien de lay thung hang, sau do den dia chi nhan cuoi. chuyen thung hang sang cong a la noi cung loai gan lab nhat de ban giao. khong giao toi khu nha an; do khong phai dich hien tai. han giao da duoc day som, can giao khan. kien duoc xac nhan khong co vat de be.",
+      "goal": "TargetSpec(type='gate', ref='near', anchor='lab')",
+      "via": "TargetSpec(type='library', ref=None, anchor=None)",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "avoid",
+            "type": "canteen",
+            "text": "khu nha an"
+          }
+        ],
+        "goal_mode": "near",
+        "via_mode": "named",
+        "item": "thùng hàng",
+        "pickup_item": "thùng hàng",
+        "accented": false
+      }
+    },
+    {
+      "example": "Yêu cầu ghé khu kiểm soát ra vào trước đây đã bị xóa. Chặng giao cuối cùng là chuyển bưu kiện đến phòng thí nghiệm ở vị trí lệch về bắc nhất trong nhóm cùng loại. Lấy bưu kiện tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Robot bỏ qua điểm dừng tòa nhà ở nội trú. Lệnh mới xác nhận phải giao gấp.",
+      "goal": "TargetSpec(type='lab', ref='north', anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "khu kiểm soát ra vào",
+        "negative_roles": [
+          {
+            "role": "no_stop",
+            "type": "dorm",
+            "text": "tòa nhà ở nội trú"
+          }
+        ],
+        "goal_mode": "north",
+        "via_mode": "none",
+        "item": "bưu kiện",
+        "pickup_item": "bưu kiện",
+        "accented": true
+      }
+    },
+    {
+      "example": "nho robot mang hop carton den dia danh o ria nam xa nhat cua so do. chi co chang giao, khong co dia diem nhan kien trung gian. do ben trong de hong neu va dap, can can than.",
+      "goal": "TargetSpec(type=None, ref='south_most', anchor=None)",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "south_most",
+        "via_mode": "none",
+        "item": "hộp carton",
+        "pickup_item": "hộp carton",
+        "accented": false
+      }
+    },
+    {
+      "example": "Có yêu cầu vận chuyển mới. Ở dãy nhà sinh viên có hộp chứng từ đang chờ; robot nhận món đó rồi đi giao. Chặng giao cuối cùng là chuyển gói hàng đến bãi đỗ xe ở vị trí lệch về bắc nhất trong nhóm cùng loại. Không cần chế độ vận chuyển đồ mong manh.",
+      "goal": "TargetSpec(type='parking', ref='north', anchor=None)",
+      "via": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "north",
+        "via_mode": "named",
+        "item": "gói hàng",
+        "pickup_item": "hộp chứng từ",
+        "accented": true
+      }
+    },
+    {
+      "example": "toi gui phieu giao hang moi. ban dau phieu ghi giao toi cho o noi tru, nhung dia chi do da bi huy. dua hop hang den phong dao tao xa benh xa hon cac noi cung loai con lai. chuyen nay khong yeu cau mot diem lay hang phu. ban dau ghi de vo nhung kiem tra lai la hang ben.",
+      "goal": "TargetSpec(type='office', ref='far', anchor='clinic')",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "cho o noi tru",
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "far",
+        "via_mode": "none",
+        "item": "hộp hàng",
+        "pickup_item": "hộp hàng",
+        "accented": false
+      }
+    },
+    {
+      "example": "nguoi gui da giao hop carton ngay tai diem xuat phat, cu di thang toi dich. dua hop carton den diem co khoang cach ngan nhat toi khu ky tuc, ngoai tru moc do. don nay phai uu tien xu ly ngay. do ben trong de hong neu va dap, can can than.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='dorm')",
+      "via": "None",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "item": "hộp carton",
+        "pickup_item": "hộp carton",
+        "accented": false
+      }
+    },
+    {
+      "example": "Lấy phong bì tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Nhờ robot mang phong bì đến nhà xe ở phía nam nhất trong các nơi cùng loại. Đừng chuyển hàng nhầm sang văn phòng nhà trường. Lệnh mới xác nhận phải giao gấp. Đơn này không chứa vật dễ vỡ.",
+      "goal": "TargetSpec(type='parking', ref='south', anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "avoid",
+            "type": "office",
+            "text": "văn phòng nhà trường"
+          }
+        ],
+        "goal_mode": "south",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": true
+      }
+    },
+    {
+      "example": "Robot mang sẵn hộp hàng khi bắt đầu nên không cần ghé kho khác. Đơn này giao hộp hàng đến địa điểm ngoài nhà xe có khoảng cách nhỏ nhất đến nhà xe. Chuyến cũ robot đã đi qua tòa nhà ở nội trú; bỏ qua thông tin đó. Người gửi vừa yêu cầu hoàn tất ngay. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='parking')",
+      "via": "None",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "history",
+            "type": "dorm",
+            "text": "tòa nhà ở nội trú"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "item": "hộp hàng",
+        "pickup_item": "hộp hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "Yêu cầu của người gửi như sau. Chuyển gói hàng sang thư viện trung tâm ở phía gần tòa hiệu bộ hơn những nơi cùng loại để bàn giao. Lấy gói hàng tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Phiếu trước ghi hỏa tốc nhưng đã hủy ưu tiên.",
+      "goal": "TargetSpec(type='library', ref='near', anchor='office')",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "near",
+        "via_mode": "none",
+        "item": "gói hàng",
+        "pickup_item": "gói hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "don the ra vao tu day phong hoc giang duong lon; cong doan sau la chuyen hang toi dich. giao kien do toi khu thi nghiem nam sat mep tay nhat trong nhom cung loai. don nay khong yeu cau nhan hang tai nha an chung. khong can uu tien xu ly ngay. kien duoc xac nhan khong co vat de be.",
+      "goal": "TargetSpec(type='lab', ref='west', anchor=None)",
+      "via": "TargetSpec(type='lecture', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "no_stop",
+            "type": "canteen",
+            "text": "nha an chung"
+          }
+        ],
+        "goal_mode": "west",
+        "via_mode": "named",
+        "item": "kiện đồ",
+        "pickup_item": "thẻ ra vào",
+        "accented": false
+      }
+    },
+    {
+      "example": "Tôi gửi phiếu giao hàng mới. Điểm lấy cũ nhà học không còn hiệu lực. Robot nhận hộp carton tại lối ra vào gần sân vận động nhất trong nhóm cùng loại, sau đó thực hiện chặng giao. Đơn này giao hộp carton đến kho tài liệu. Thông tin người nhận tại phòng y tế đã hết hiệu lực. Bây giờ có thể giao theo lịch thường. Bản cũ ghi hàng bền, nhưng vừa đính chính là dễ vỡ.",
+      "goal": "TargetSpec(type='library', ref=None, anchor=None)",
+      "via": "TargetSpec(type='gate', ref='near', anchor='sports')",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "nhà học",
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "clinic",
+            "text": "phòng y tế"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "near",
+        "item": "hộp carton",
+        "pickup_item": "hộp carton",
+        "accented": true
+      }
+    },
+    {
+      "example": "Chỉ có chặng giao, không có địa điểm nhận kiện trung gian. Địa chỉ giao bưu kiện hiện tại là khu để xe máy có khoảng cách tới căn tin dài nhất trong nhóm cùng loại. Chỗ làm trước của người nhận là phòng lab, không phải đích mới. Lệnh mới xác nhận phải giao gấp. Lệnh mới bỏ yêu cầu chống va đập đặc biệt.",
+      "goal": "TargetSpec(type='parking', ref='far', anchor='canteen')",
+      "via": "None",
+      "urgent": true,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "lab",
+            "text": "phòng lab"
+          }
+        ],
+        "goal_mode": "far",
+        "via_mode": "none",
+        "item": "bưu kiện",
+        "pickup_item": "bưu kiện",
+        "accented": true
+      }
+    },
+    {
+      "example": "Chuyến này không yêu cầu một điểm lấy hàng phụ. Nhờ robot mang bưu kiện đến vị trí có cự ly tới kho giáo trình ngắn nhất sau khi bỏ chính mốc này. Một thông báo riêng nói về văn phòng nhà trường, không phải lộ trình. Đơn này không gấp. Kiện này chứa vật dễ vỡ, cần chống va đập.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='library')",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "office",
+            "text": "văn phòng nhà trường"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "item": "bưu kiện",
+        "pickup_item": "bưu kiện",
+        "accented": true
+      }
+    },
+    {
+      "example": "Mình nhờ robot chuyển kiện. Địa chỉ giao phong bì hiện tại là phòng đào tạo. Lấy phong bì tại nơi khởi hành, không ghé lấy thêm ở nơi khác. Đừng chuyển hàng nhầm sang khu lớp học. Hạn giao đã được đẩy sớm, cần giao khẩn. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type='office', ref=None, anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "avoid",
+            "type": "lecture",
+            "text": "khu lớp học"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": true
+      }
+    },
+    {
+      "example": "truoc do nguoi nhan chon phong y te, nhung hien da thay noi giao. diem lay cu xuong co khi khong con hieu luc. viec nhan phong bi da hoan tat tai diem xuat phat. dua phong bi den trung tam thong tin thu vien co khoang cach toi khu phuc vu bua trua sinh vien dai nhat trong nhom cung loai. thong tin ve loi ra khong lien quan den chuyen nay.",
+      "goal": "TargetSpec(type='library', ref='far', anchor='canteen')",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "phong y te",
+        "former_pickup": "xuong co khi",
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "gate",
+            "text": "loi ra"
+          }
+        ],
+        "goal_mode": "far",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": false
+      }
+    },
+    {
+      "example": "Yêu cầu ghé tòa giảng đường trước đây đã bị xóa. Đơn này giao kiện đồ đến phòng thí nghiệm. Robot mang sẵn kiện đồ khi bắt đầu nên không cần ghé kho khác. Hôm qua có đơn khác tới phòng công tác sinh viên; không liên quan đơn hiện tại. Lệnh mới xác nhận phải giao gấp. Kiện này chứa vật dễ vỡ, cần chống va đập.",
+      "goal": "TargetSpec(type='lab', ref=None, anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "tòa giảng đường",
+        "negative_roles": [
+          {
+            "role": "history",
+            "type": "office",
+            "text": "phòng công tác sinh viên"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "none",
+        "item": "kiện đồ",
+        "pickup_item": "kiện đồ",
+        "accented": true
+      }
+    },
+    {
+      "example": "Đã nhận đủ hàng tại nơi xuất phát, không có chặng lấy hàng trung gian. Địa chỉ giao hộp carton hiện tại là địa điểm ngoài cùng về phía tây trên bản đồ. Một thông báo riêng nói về giảng đường lớn, không phải lộ trình. Đơn này phải ưu tiên xử lý ngay. Đồ bên trong dễ hỏng nếu va đập, cần cẩn thận.",
+      "goal": "TargetSpec(type=None, ref='west_most', anchor=None)",
+      "via": "None",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "lecture",
+            "text": "giảng đường lớn"
+          }
+        ],
+        "goal_mode": "west_most",
+        "via_mode": "none",
+        "item": "hộp carton",
+        "pickup_item": "hộp carton",
+        "accented": true
+      }
+    },
+    {
+      "example": "Yêu cầu của người gửi như sau. Lệnh trước yêu cầu giao ở phòng lab; yêu cầu ấy vừa được thay thế. Đưa phong bì đến dãy nhà sinh viên. Robot mang sẵn phong bì khi bắt đầu nên không cần ghé kho khác. Thông tin người nhận tại nhà ăn sinh viên đã hết hiệu lực. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "phòng lab",
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "canteen",
+            "text": "nhà ăn sinh viên"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": true
+      }
+    },
+    {
+      "example": "Việc nhận phong bì đã hoàn tất tại điểm xuất phát. Nhờ robot mang phong bì đến địa điểm gần kho giáo trình nhất, không tính chính kho giáo trình. Địa danh khu kiểm soát ra vào chỉ là dữ kiện ngoài đơn giao. Bản cũ ghi hàng bền, nhưng vừa đính chính là dễ vỡ.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='library')",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "gate",
+            "text": "khu kiểm soát ra vào"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "none",
+        "item": "phong bì",
+        "pickup_item": "phong bì",
+        "accented": true
+      }
+    },
+    {
+      "example": "don nay yeu cau ghe nha o sinh vien lay kien do; dich cuoi da neu rieng. nho robot mang kien do den bai xe o vi tri lech ve nam nhat trong nhom cung loai. khong can uu tien xu ly ngay. kien nay chua vat de vo, can chong va dap.",
+      "goal": "TargetSpec(type='parking', ref='south', anchor=None)",
+      "via": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "south",
+        "via_mode": "named",
+        "item": "kiện đồ",
+        "pickup_item": "kiện đồ",
+        "accented": false
+      }
+    },
+    {
+      "example": "Đơn này giao thùng hàng đến khu kiểm soát ra vào có khoảng cách tới phòng quản lý ngắn nhất trong nhóm cùng loại. Chuyến này không yêu cầu một điểm lấy hàng phụ.",
+      "goal": "TargetSpec(type='gate', ref='near', anchor='office')",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "near",
+        "via_mode": "none",
+        "item": "thùng hàng",
+        "pickup_item": "thùng hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "Lệnh trước yêu cầu giao ở cổng phụ; yêu cầu ấy vừa được thay thế. Chuyển kiện đồ sang phòng hành chính để bàn giao. Robot vòng qua ký túc xá sinh viên nằm phía bắc hơn mọi nơi cùng loại để lấy tập biểu mẫu, sau đó đến địa chỉ nhận cuối. Người nhận đã chuyển khỏi khu nghiên cứu; đây là địa chỉ cũ. Thông tin bãi gửi xe tạm ngừng tiếp nhận đã được ghi chú. Đơn này phải ưu tiên xử lý ngay. Bản cũ ghi hàng bền, nhưng vừa đính chính là dễ vỡ.",
+      "goal": "TargetSpec(type='office', ref=None, anchor=None)",
+      "via": "TargetSpec(type='dorm', ref='north', anchor=None)",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "cổng phụ",
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "lab",
+            "text": "khu nghiên cứu"
+          },
+          {
+            "role": "closed",
+            "type": "parking",
+            "text": "bãi gửi xe"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "north",
+        "item": "kiện đồ",
+        "pickup_item": "tập biểu mẫu",
+        "accented": true
+      }
+    },
+    {
+      "example": "dia diem phong thi nghiem ly tung la noi nhan, nhung khong dung nua. nguoi gui da giao hop carton ngay tai diem xuat phat, cu di thang toi dich. giao hop carton toi khu ky tuc la noi cung loai xa phong tu hoc nhat. co nguoi nhac phong kham trong cau chuyen khac, bo qua. nguoi gui xac nhan co the giao tu tu. khong can che do van chuyen do mong manh.",
+      "goal": "TargetSpec(type='dorm', ref='far', anchor='library')",
+      "via": "None",
+      "urgent": false,
+      "fragile": false,
+      "roles": {
+        "mode": "hard",
+        "former_destination": "phong thi nghiem ly",
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "clinic",
+            "text": "phong kham"
+          }
+        ],
+        "goal_mode": "far",
+        "via_mode": "none",
+        "item": "hộp carton",
+        "pickup_item": "hộp carton",
+        "accented": false
+      }
+    },
+    {
+      "example": "Ở khu học liệu có hộp chứng từ đang chờ; robot nhận món đó rồi đi giao. Điểm bàn giao cuối cùng cho hộp hàng là giảng đường chính. Lệnh mới xác nhận phải giao gấp. Kiện này chứa vật dễ vỡ, cần chống va đập.",
+      "goal": "TargetSpec(type='lecture', ref=None, anchor=None)",
+      "via": "TargetSpec(type='library', ref=None, anchor=None)",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [],
+        "goal_mode": "named",
+        "via_mode": "named",
+        "item": "hộp hàng",
+        "pickup_item": "hộp chứng từ",
+        "accented": true
+      }
+    },
+    {
+      "example": "Điểm bàn giao cuối cùng cho túi bưu phẩm là phòng khám trong trường xa xưởng thực hành hơn những nơi tương tự khác. Ở nhà thi đấu là nơi cùng loại xa văn phòng khoa nhất có thẻ ra vào đang chờ; robot nhận món đó rồi đi giao. Không cần ghé khu gửi xe sinh viên để nhận hoặc giao kiện. Đồ bên trong dễ hỏng nếu va đập, cần cẩn thận.",
+      "goal": "TargetSpec(type='clinic', ref='far', anchor='lab')",
+      "via": "TargetSpec(type='sports', ref='far', anchor='office')",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "no_stop",
+            "type": "parking",
+            "text": "khu gửi xe sinh viên"
+          }
+        ],
+        "goal_mode": "far",
+        "via_mode": "far",
+        "item": "túi bưu phẩm",
+        "pickup_item": "thẻ ra vào",
+        "accented": true
+      }
+    },
+    {
+      "example": "co mot kien can giao. diem lay cu nha the chat khong con hieu luc. nhan tap giay bo sung tu phong giao vu sat nha an chung hon nhung noi cung loai khac roi chuyen hang den dich da xac nhan. chang giao cuoi cung la chuyen tui buu pham den cong phia truoc. nguoi nhan khong con o tang ham de xe khu giang duong. hang trong thung rat mong manh, khong duoc lam roi.",
+      "goal": "TargetSpec(type='gate', ref=None, anchor=None)",
+      "via": "TargetSpec(type='office', ref='near', anchor='canteen')",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "nha the chat",
+        "negative_roles": [
+          {
+            "role": "moved",
+            "type": "parking",
+            "text": "tang ham de xe khu giang duong"
+          }
+        ],
+        "goal_mode": "named",
+        "via_mode": "near",
+        "item": "túi bưu phẩm",
+        "pickup_item": "tập giấy bổ sung",
+        "accented": false
+      }
+    },
+    {
+      "example": "diem ban giao cuoi cung cho tui buu pham la cong truong chinh gan khu an trua hon cac noi cung loai con lai. lay tui buu pham tai noi khoi hanh, khong ghe lay them o noi khac. bo phan tai khu ky tuc xa hom nay dong cua, dung giao toi do. bay gio co the giao theo lich thuong. ban cu ghi hang ben, nhung vua dinh chinh la de vo.",
+      "goal": "TargetSpec(type='gate', ref='near', anchor='canteen')",
+      "via": "None",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "closed",
+            "type": "dorm",
+            "text": "khu ky tuc xa"
+          }
+        ],
+        "goal_mode": "near",
+        "via_mode": "none",
+        "item": "túi bưu phẩm",
+        "pickup_item": "túi bưu phẩm",
+        "accented": false
+      }
+    },
+    {
+      "example": "Ban đầu có điểm lấy hàng ở khu nhà ở sinh viên; chặng này đã bị hủy. Giao túi bưu phẩm tới giảng đường lớn gần căn tin nhất trong nhóm cùng loại. Tại phòng khám trong trường là địa điểm cực nam trong nhóm cùng loại đang có tập giấy bổ sung cần nhận để mang cùng chuyến. Người gửi vừa yêu cầu hoàn tất ngay. Bản cũ ghi hàng bền, nhưng vừa đính chính là dễ vỡ.",
+      "goal": "TargetSpec(type='lecture', ref='near', anchor='canteen')",
+      "via": "TargetSpec(type='clinic', ref='south', anchor=None)",
+      "urgent": true,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": "khu nhà ở sinh viên",
+        "negative_roles": [],
+        "goal_mode": "near",
+        "via_mode": "south",
+        "item": "túi bưu phẩm",
+        "pickup_item": "tập giấy bổ sung",
+        "accented": true
+      }
+    },
+    {
+      "example": "Chặng giao cuối cùng là chuyển gói hàng đến giảng đường lớn ở phía xa khu chăm sóc sức khỏe hơn những nơi cùng loại. Thêm bước nhận gói hàng tại văn phòng nhà trường có vị trí gần sân tập thể thao hơn địa điểm tương tự còn lại; không bỏ qua công đoạn này. Robot bỏ qua điểm dừng tòa ký túc xá. Bên trong có món dễ bể; vận chuyển nhẹ tay.",
+      "goal": "TargetSpec(type='lecture', ref='far', anchor='clinic')",
+      "via": "TargetSpec(type='office', ref='near', anchor='sports')",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "no_stop",
+            "type": "dorm",
+            "text": "tòa ký túc xá"
+          }
+        ],
+        "goal_mode": "far",
+        "via_mode": "near",
+        "item": "gói hàng",
+        "pickup_item": "gói hàng",
+        "accented": true
+      }
+    },
+    {
+      "example": "don nay yeu cau ghe khu nha o sinh vien lay bo tai lieu phu; dich cuoi da neu rieng. diem ban giao cuoi cung cho buu kien la diem sat phong thi nghiem hoa nhat, nhung khong lay chinh moc do. thong tin ve phong kham khong lien quan den chuyen nay. ban cu ghi hang ben, nhung vua dinh chinh la de vo.",
+      "goal": "TargetSpec(type=None, ref='anchor_near', anchor='lab')",
+      "via": "TargetSpec(type='dorm', ref=None, anchor=None)",
+      "urgent": false,
+      "fragile": true,
+      "roles": {
+        "mode": "hard",
+        "former_destination": null,
+        "former_pickup": null,
+        "negative_roles": [
+          {
+            "role": "unrelated",
+            "type": "clinic",
+            "text": "phong kham"
+          }
+        ],
+        "goal_mode": "anchor_near",
+        "via_mode": "named",
+        "item": "bưu kiện",
+        "pickup_item": "bộ tài liệu phụ",
+        "accented": false
+      }
+    }
+  ]
+}

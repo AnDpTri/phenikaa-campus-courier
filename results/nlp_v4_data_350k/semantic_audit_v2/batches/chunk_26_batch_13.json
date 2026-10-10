@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_26_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0255949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255969",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255971",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255972",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0255999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256050",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256173",
+      "status": "U",
+      "reason": "Contradictory urgency cues: 'Gap' vs 'Dung Lam Roi' (dung lam voi)"
+    },
+    {
+      "id": "v4_0256184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256259",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256341",
+      "status": "F",
+      "reason": "goal dorm/-/- -> -/-/- (ho so la cua quan ly ktx, khong co dia diem giao)"
+    },
+    {
+      "id": "v4_0256345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256368",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0256386",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

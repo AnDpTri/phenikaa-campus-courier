@@ -1,0 +1,52 @@
+v4_0176452	P	-
+v4_0176457	P	-
+v4_0176466	P	-
+v4_0176472	P	-
+v4_0176474	F	via: provided 'library/south/-' vs corrected 'library/-/-' ("nho dung o phong tai leu nam nam truoc" - 'nam' is typo/noise for 'nay', not directional south)
+v4_0176477	P	-
+v4_0176502	P	-
+v4_0176505	P	-
+v4_0176506	P	-
+v4_0176534	P	-
+v4_0176539	P	-
+v4_0176540	F	via: provided 'dorm/far/office' vs corrected 'dorm/-/-' ("nha ky tuc xa phong giao vu" mentions compound alias/near office, not far from office)
+v4_0176557	P	-
+v4_0176569	P	-
+v4_0176578	P	-
+v4_0176582	P	-
+v4_0176592	P	-
+v4_0176605	P	-
+v4_0176607	P	-
+v4_0176614	P	-
+v4_0176655	F	urgent: provided 0 vs corrected 1 ("chuyen huong mang ho sang dia diem nao do gan phong cuu thuong hon tat ca ngay ho minh")
+v4_0176682	P	-
+v4_0176686	P	-
+v4_0176696	P	-
+v4_0176701	P	-
+v4_0176712	P	-
+v4_0176713	P	-
+v4_0176714	P	-
+v4_0176722	P	-
+v4_0176726	P	-
+v4_0176731	P	-
+v4_0176732	P	-
+v4_0176779	P	-
+v4_0176786	P	-
+v4_0176788	P	-
+v4_0176813	P	-
+v4_0176818	P	-
+v4_0176822	P	-
+v4_0176823	P	-
+v4_0176832	P	-
+v4_0176834	P	-
+v4_0176842	U	ambiguous goal text ("khu vuc an voi phong nghien cuu nhat" typo for gan vs an)
+v4_0176879	P	-
+v4_0176886	P	-
+v4_0176897	P	-
+v4_0176906	P	-
+v4_0176911	P	-
+v4_0176939	P	-
+v4_0176941	P	-
+v4_0176946	P	-
+
+STDERR:

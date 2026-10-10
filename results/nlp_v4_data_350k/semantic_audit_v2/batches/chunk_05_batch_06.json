@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_05_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0042397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042434",
+      "status": "U",
+      "reason": "huong di chuyen 'phia abc nhat' bi hong hoac sai ki tu khong xac dinh duoc huong"
+    },
+    {
+      "id": "v4_0042477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042497",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042503",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/east_most/- corrected gate/-/- from 'khong phai cong truong chinh dau. can agp qua bong truoc cua vi tri o ria hai trong khuon vien di'"
+    },
+    {
+      "id": "v4_0042511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042529",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042598",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/north_most/- corrected gate/north_most/- from 'bac bao ve truc toa nha noi tru hien dang o o o hang dau tien'"
+    },
+    {
+      "id": "v4_0042606",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042653",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042663",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042684",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/parking corrected parking/anchor_near/parking from 'Nhan vien trog xe o chon diem co lo trinh toi ham gui xe ngan hon tat ca'"
+    },
+    {
+      "id": "v4_0042686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042691",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042715",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042781",
+      "status": "U",
+      "reason": "'muc tieu phng doc tu chon khu bac bep' mo ho giua lua chon phong doc hay khu bep va thieu dinh huong ro rang"
+    },
+    {
+      "id": "v4_0042793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042809",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/sports corrected gate/anchor_near/sports from 'nguoi gac vua chuyen sang toa lien ke trung tam the udc'"
+    },
+    {
+      "id": "v4_0042810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0042836",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/gate corrected gate/anchor_near/gate from 'giao ho phong bi cho bao ve o toa nha sat phong bao ve'"
+    },
+    {
+      "id": "v4_0042837",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

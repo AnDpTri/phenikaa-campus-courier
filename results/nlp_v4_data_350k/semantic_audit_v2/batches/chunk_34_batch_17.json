@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_34_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0337936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337942",
+      "status": "U",
+      "reason": "Thieu dia diem phong truong phong cu the, khong ro co phai toa hanh chinh hay khong"
+    },
+    {
+      "id": "v4_0337967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337990",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338046",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338301",
+      "status": "U",
+      "reason": "Khong ro vi tri giang vien can giao o dau, chi noi co giang vien can ve xe"
+    },
+    {
+      "id": "v4_0338303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338360",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0338427",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

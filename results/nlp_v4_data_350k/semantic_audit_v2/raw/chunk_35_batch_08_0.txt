@@ -1,0 +1,53 @@
+v4_0343468	P	-
+v4_0343469	P	-
+v4_0343483	F	goal ref: provided 'anchor_near' but text specifies 'tram it xa ban giam ieu nhat' (anchor_far)
+v4_0343489	P	-
+v4_0343528	P	-
+v4_0343551	P	-
+v4_0343564	P	-
+v4_0343566	P	-
+v4_0343568	P	-
+v4_0343575	P	-
+v4_0343580	P	-
+v4_0343597	P	-
+v4_0343624	P	-
+v4_0343628	P	-
+v4_0343629	P	-
+v4_0343636	P	-
+v4_0343637	P	-
+v4_0343640	P	-
+v4_0343661	P	-
+v4_0343663	P	-
+v4_0343664	P	-
+v4_0343676	P	-
+v4_0343678	P	-
+v4_0343688	P	-
+v4_0343694	P	-
+v4_0343700	P	-
+v4_0343744	P	-
+v4_0343756	P	-
+v4_0343812	P	-
+v4_0343819	P	-
+v4_0343825	P	-
+v4_0343830	P	-
+v4_0343832	P	-
+v4_0343836	P	-
+v4_0343854	P	-
+v4_0343863	P	-
+v4_0343866	P	-
+v4_0343886	P	-
+v4_0343891	P	-
+v4_0343895	P	-
+v4_0343926	P	-
+v4_0343929	P	-
+v4_0343957	P	-
+v4_0343959	P	-
+v4_0343961	P	-
+v4_0343970	clinic/east/-	clinic/east/-	0	1	F	via ref: provided 'east' but text specifies 'ben phai' which is relative/east ambiguous, or if directional map convention is followed
+v4_0343970	P	-
+v4_0343977	P	-
+v4_0343990	P	-
+v4_0344028	P	-
+v4_0344041	P	-
+
+STDERR:

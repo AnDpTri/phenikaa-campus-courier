@@ -1,0 +1,52 @@
+v4_0151922	F	goal type/ref/anchor: provided -/east_most/-, corrected -/-/- ("Diem Co Inh Do Lon Nhat Tren Ban Do" is corrupted kinh do, but lacks clear extreme or is ambiguous)
+v4_0151930	P	-
+v4_0151938	P	-
+v4_0151970	P	-
+v4_0151975	F	via type/ref/anchor: provided canteen/near/parking, corrected canteen/anchor_near/parking ("Anteen Lien Ke Cho De Xe")
+v4_0151976	P	-
+v4_0151980	P	-
+v4_0151989	P	-
+v4_0151992	F	via type/ref/anchor: provided sports/far/library, corrected sports/-/- ("san bong ro o dua xa khu thu vien" - "o dua xa" is corrupted/garbled relative phrasing)
+v4_0151993	P	-
+v4_0151998	P	-
+v4_0152003	F	via type/ref/anchor: provided sports/near/canteen, corrected sports/-/- ("Cach Khu Vuc Phuc Vu An Uong Sinh Vien Gan Hon Truoc" is comparative without standard anchor syntax)
+v4_0152011	P	-
+v4_0152016	P	-
+v4_0152028	P	-
+v4_0152034	P	-
+v4_0152037	F	goal type/ref/anchor: provided library/near/dorm, corrected library/anchor_near/dorm ("thu vien truong ilen ke nha ky tuc")
+v4_0152038	P	-
+v4_0152047	P	-
+v4_0152066	P	-
+v4_0152089	P	-
+v4_0152096	P	-
+v4_0152101	P	-
+v4_0152125	P	-
+v4_0152132	P	-
+v4_0152141	P	-
+v4_0152152	P	-
+v4_0152158	P	-
+v4_0152159	P	-
+v4_0152168	P	-
+v4_0152179	P	-
+v4_0152183	P	-
+v4_0152193	P	-
+v4_0152196	P	-
+v4_0152201	P	-
+v4_0152205	P	-
+v4_0152210	P	-
+v4_0152240	P	-
+v4_0152241	F	goal type/ref/anchor: provided gate/near/clinic, corrected gate/anchor_near/clinic ("loi vao danh cho phuong tien co gioi o canh khu y te")
+v4_0152251	P	-
+v4_0152258	U	"giang doung on nhat khong tinh giang duong lon" contains conflicting/unclear qualifiers for lecture building
+v4_0152286	P	-
+v4_0152291	P	-
+v4_0152303	P	-
+v4_0152304	P	-
+v4_0152305	P	-
+v4_0152322	P	-
+v4_0152325	P	-
+v4_0152338	P	-
+v4_0152362	P	-
+
+STDERR:

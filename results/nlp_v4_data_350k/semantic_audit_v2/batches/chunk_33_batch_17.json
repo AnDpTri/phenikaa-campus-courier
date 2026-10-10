@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0328060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328078",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/lab should be -/anchor_near/clinic based on 'can tiu so cuu'"
+    },
+    {
+      "id": "v4_0328103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328151",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328303",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328437",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328440",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328446",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0328595",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided sports/-/- should be -/-/- based on 'dung cu tap luyen la cua thay day the duc' (no delivery goal mentioned)"
+    },
+    {
+      "id": "v4_0328608",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0076878	P	-
+v4_0076880	P	-
+v4_0076883	U	Nguoi nhan la thay chu nhiem nhung khong noi ro dia diem giao (khong co noi giao ro rang)
+v4_0076886	P	-
+v4_0076887	P	-
+v4_0076904	P	-
+v4_0076907	P	-
+v4_0076917	P	-
+v4_0076928	P	-
+v4_0076929	P	-
+v4_0076930	P	-
+v4_0076941	P	-
+v4_0076942	P	-
+v4_0076958	P	-
+v4_0077000	P	-
+v4_0077001	P	-
+v4_0077044	P	-
+v4_0077045	P	-
+v4_0077048	P	-
+v4_0077063	P	-
+v4_0077076	P	-
+v4_0077077	P	-
+v4_0077085	P	-
+v4_0077086	U	cai o nua tren la ordinary direction (north) hay north_most
+v4_0077100	P	-
+v4_0077108	P	-
+v4_0077148	P	-
+v4_0077153	U	nut o hang da thieu tu/bi loi khong ro nghia vi tri
+v4_0077172	P	-
+v4_0077196	P	-
+v4_0077203	P	-
+v4_0077251	P	-
+v4_0077276	P	-
+v4_0077284	P	-
+v4_0077288	F	goal type/ref/anchor: provided '-/west_most/-' should be '-/west/-' ('lech han ve phia mat troi lan' la ordinary west, khong phai west_most)
+v4_0077289	P	-
+v4_0077290	P	-
+v4_0077292	P	-
+v4_0077298	P	-
+v4_0077301	P	-
+v4_0077309	P	-
+v4_0077311	P	-
+v4_0077317	P	-
+v4_0077327	P	-
+v4_0077329	P	-
+v4_0077334	P	-
+v4_0077344	P	-
+v4_0077352	P	-
+v4_0077361	P	-
+v4_0077377	P	-
+
+STDERR:

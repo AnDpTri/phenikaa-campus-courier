@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_07_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0068058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068089",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068337",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068422",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068495",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0068599",
+      "status": "F",
+      "reason": "via: clinic/east/- -> clinic/-/-; 'o dong truoc' denotes temporal sequence ('truoc'), not east direction"
+    }
+  ]
+}

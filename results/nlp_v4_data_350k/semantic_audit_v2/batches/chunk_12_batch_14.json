@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0116649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116695",
+      "status": "U",
+      "reason": "Ambiguous whether 'lech ang Dong' means ordinary east or extreme east_most"
+    },
+    {
+      "id": "v4_0116696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116720",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116791",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116905",
+      "status": "F",
+      "reason": "goal ref: provided 'south_most', corrected 'south' from 'lech hn ve phong nam'"
+    },
+    {
+      "id": "v4_0116917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116924",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116959",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117033",
+      "status": "F",
+      "reason": "urgent: provided '0', corrected '1' from 'ngay'"
+    },
+    {
+      "id": "v4_0117038",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117104",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117108",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

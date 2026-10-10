@@ -1,0 +1,52 @@
+v4_0144077	P	-
+v4_0144098	P	-
+v4_0144113	P	-
+v4_0144125	P	-
+v4_0144129	F	goal type: provided '-', corrected 'canteen' (quan ly nha an o toa nha gan nhat voi cho o noi tru)
+v4_0144132	F	goal anchor: provided 'gate', corrected '-' (khong gian doc yen tinh tang tren gan phia chot bao ve)
+v4_0144137	P	-
+v4_0144144	F	urgent: provided 0, corrected 1; fragile: provided 1, corrected 0 (dung lam roi dung cu tap luyen / de vo lam -> de vo / dung lam roi)
+v4_0144156	P	-
+v4_0144213	P	-
+v4_0144221	F	goal type: provided '-', corrected 'canteen' (dau bep vua chuyen sang toa ke nha o sinh vien nhat)
+v4_0144222	F	goal type: provided '-', corrected 'library' (ban quan ly thu vien dang doi o cung tai tram sat san tap)
+v4_0144242	P	-
+v4_0144288	P	-
+v4_0144289	P	-
+v4_0144290	P	-
+v4_0144291	P	-
+v4_0144295	P	-
+v4_0144317	P	-
+v4_0144318	P	-
+v4_0144339	P	-
+v4_0144348	P	-
+v4_0144386	P	-
+v4_0144387	P	-
+v4_0144393	P	-
+v4_0144395	P	-
+v4_0144405	P	-
+v4_0144407	P	-
+v4_0144425	P	-
+v4_0144449	F	goal type: provided '-', corrected 'library' (igao hop dung cu cho can bo thu vine o nut di bo tu hku vuc lop hoc ly thuyet gan nhat)
+v4_0144457	F	goal type: provided '-', corrected 'canteen' (bep truong vua chuyen sang can phong gan trung tam thi nghiem nhat)
+v4_0144472	P	-
+v4_0144477	P	-
+v4_0144480	P	-
+v4_0144509	P	-
+v4_0144510	P	-
+v4_0144516	P	-
+v4_0144517	P	-
+v4_0144526	P	-
+v4_0144530	P	-
+v4_0144536	P	-
+v4_0144547	P	-
+v4_0144553	P	-
+v4_0144558	P	-
+v4_0144573	P	-
+v4_0144579	P	-
+v4_0144585	P	-
+v4_0144596	P	-
+v4_0144603	P	-
+v4_0144620	F	urgent: provided 0, corrected 1 (khong vi phai nhanh -> gap/nhanh)
+
+STDERR:

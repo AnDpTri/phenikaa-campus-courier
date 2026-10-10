@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_18_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0176452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176474",
+      "status": "F",
+      "reason": "via: provided 'library/south/-' vs corrected 'library/-/-' (\"nho dung o phong tai leu nam nam truoc\" - 'nam' is typo/noise for 'nay', not directional south)"
+    },
+    {
+      "id": "v4_0176477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176540",
+      "status": "F",
+      "reason": "via: provided 'dorm/far/office' vs corrected 'dorm/-/-' (\"nha ky tuc xa phong giao vu\" mentions compound alias/near office, not far from office)"
+    },
+    {
+      "id": "v4_0176557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176578",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176607",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176655",
+      "status": "F",
+      "reason": "urgent: provided 0 vs corrected 1 (\"chuyen huong mang ho sang dia diem nao do gan phong cuu thuong hon tat ca ngay ho minh\")"
+    },
+    {
+      "id": "v4_0176682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176696",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176842",
+      "status": "U",
+      "reason": "ambiguous goal text (\"khu vuc an voi phong nghien cuu nhat\" typo for gan vs an)"
+    },
+    {
+      "id": "v4_0176879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0176946",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

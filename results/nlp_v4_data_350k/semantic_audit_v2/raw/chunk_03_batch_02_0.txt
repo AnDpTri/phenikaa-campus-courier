@@ -1,0 +1,52 @@
+v4_0020595	P	-
+v4_0020603	P	-
+v4_0020610	F	goal type/ref/anchor provided -/anchor_near/lab, should be parking/anchor_near/lab ("the giu xe o danh dau o tiep giap gan khu thi nghiem hon tat ca")
+v4_0020627	P	-
+v4_0020629	P	-
+v4_0020631	P	-
+v4_0020641	P	-
+v4_0020655	P	-
+v4_0020678	P	-
+v4_0020679	P	-
+v4_0020680	P	-
+v4_0020681	P	-
+v4_0020691	P	-
+v4_0020693	F	goal type/ref/anchor provided -/anchor_near/library, should be parking/anchor_near/library ("nguoi giu xe o lay tram voi khoang cach toi thieu ve phia noi muon tra sach")
+v4_0020714	P	-
+v4_0020726	P	-
+v4_0020730	P	-
+v4_0020737	P	-
+v4_0020738	P	-
+v4_0020747	P	-
+v4_0020766	P	-
+v4_0020771	P	-
+v4_0020783	P	-
+v4_0020787	P	-
+v4_0020791	P	-
+v4_0020795	P	-
+v4_0020800	P	-
+v4_0020822	P	-
+v4_0020830	F	urgent provided 0, should be 1 ("dang doi tai nghe gap")
+v4_0020850	P	-
+v4_0020853	P	-
+v4_0020870	P	-
+v4_0020878	P	-
+v4_0020888	P	-
+v4_0020893	P	-
+v4_0020902	P	-
+v4_0020907	P	-
+v4_0020934	P	-
+v4_0020957	P	-
+v4_0020968	P	-
+v4_0020986	P	-
+v4_0020988	P	-
+v4_0020999	P	-
+v4_0021002	P	-
+v4_0021003	P	-
+v4_0021012	P	-
+v4_0021033	P	-
+v4_0021042	P	-
+v4_0021052	P	-
+v4_0021058	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0349561	P	-
+v4_0349564	P	-
+v4_0349568	P	-
+v4_0349574	P	-
+v4_0349577	P	-
+v4_0349581	P	-
+v4_0349586	P	-
+v4_0349587	P	-
+v4_0349591	P	-
+v4_0349621	P	-
+v4_0349624	F	goal type: provided '-' should be 'canteen' (bep truong o cong trinh gan sat cong ngoai can khay com)
+v4_0349646	P	-
+v4_0349654	P	-
+v4_0349661	P	-
+v4_0349663	P	-
+v4_0349668	F	goal type: provided 'lecture' should be '-' (van chuyen bo dam cho thay giao)
+v4_0349711	P	-
+v4_0349725	P	-
+v4_0349727	F	goal type: provided 'sports' should be '-' (Thay Day The Duc Dang Cho Dung Cu)
+v4_0349731	P	-
+v4_0349735	P	-
+v4_0349738	P	-
+v4_0349740	P	-
+v4_0349742	P	-
+v4_0349747	P	-
+v4_0349761	P	-
+v4_0349763	P	-
+v4_0349787	P	-
+v4_0349791	P	-
+v4_0349802	P	-
+v4_0349808	P	-
+v4_0349835	P	-
+v4_0349858	P	-
+v4_0349861	P	-
+v4_0349864	P	-
+v4_0349870	P	-
+v4_0349875	P	-
+v4_0349890	P	-
+v4_0349892	P	-
+v4_0349893	F	goal type: provided 'library' should be '-' (phong ach dang cho con dau)
+v4_0349899	P	-
+v4_0349928	P	-
+v4_0349929	P	-
+v4_0349941	P	-
+v4_0349942	P	-
+v4_0349961	P	-
+v4_0349975	P	-
+v4_0349983	P	-
+v4_0349984	P	-
+v4_0349991	P	-
+
+STDERR:

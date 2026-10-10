@@ -1,0 +1,52 @@
+v4_0087521	P	-
+v4_0087543	F	goal type: provided sports, should be gate ("truc cong chinh o khu the thao")
+v4_0087569	P	-
+v4_0087576	P	-
+v4_0087582	P	-
+v4_0087588	P	-
+v4_0087594	P	-
+v4_0087616	P	-
+v4_0087622	P	-
+v4_0087625	P	-
+v4_0087628	P	-
+v4_0087633	P	-
+v4_0087637	P	-
+v4_0087638	P	-
+v4_0087654	F	goal ref: provided east, should be - ("phong thuc tap o phai ban do" specifies extreme east_most or -/east_most, not east directional instance of lab)
+v4_0087657	P	-
+v4_0087676	P	-
+v4_0087697	P	-
+v4_0087703	P	-
+v4_0087704	P	-
+v4_0087713	P	-
+v4_0087727	P	-
+v4_0087731	P	-
+v4_0087735	F	goal type: provided -, should be gate ("giao ra o nam o cuoi ban do" head noun ra/cong ra is gate)
+v4_0087837	P	-
+v4_0087887	P	-
+v4_0087908	P	-
+v4_0087922	P	-
+v4_0087928	P	-
+v4_0087941	P	-
+v4_0087956	P	-
+v4_0087974	P	-
+v4_0087995	P	-
+v4_0087998	P	-
+v4_0088001	F	goal type: provided sports, should be - ("Dung Ra Cau Lac Bo Bong Da Nho Gui Goi Do" means cancelled/rejected sports: Dung ra = correctly speaking / instead of, do not go to soccer club)
+v4_0088002	P	-
+v4_0088007	P	-
+v4_0088013	P	-
+v4_0088019	P	-
+v4_0088020	P	-
+v4_0088024	P	-
+v4_0088030	P	-
+v4_0088031	P	-
+v4_0088033	P	-
+v4_0088040	P	-
+v4_0088047	P	-
+v4_0088058	P	-
+v4_0088065	P	-
+v4_0088067	P	-
+v4_0088075	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_01_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0002930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002987",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0002997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003104",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003131",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003192",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003271",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003351",
+      "status": "U",
+      "reason": "Text says 'dia diem cuc ay ca ban do' which is corrupted/garbled, making the direction/extreme position ambiguous."
+    },
+    {
+      "id": "v4_0003353",
+      "status": "F",
+      "reason": "goal type: provided 'lab', corrected '-' ('laptop la cua nhom nghien cuu' mentions the item owner/research group, not destination; no delivery goal location is specified)."
+    },
+    {
+      "id": "v4_0003385",
+      "status": "U",
+      "reason": "'noi muon sach canh dong mia': 'canh dong mia' is ambiguous as a relative landmark/direction in the campus context."
+    },
+    {
+      "id": "v4_0003387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003414",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003439",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003479",
+      "status": "U",
+      "reason": "'o cuoi ban do' is ambiguous between south_most and east_most."
+    },
+    {
+      "id": "v4_0003515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0003518",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

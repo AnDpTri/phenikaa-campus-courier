@@ -1,0 +1,52 @@
+v4_0205631	U	ambiguous destination phrase 'Gio Hay Giang Vien Dang Day Vua Dat Qua Bong' with missing/mangled location
+v4_0205648	F	goal anchor_near: provided canteen, corrected - (dest is closest walking spot from canteen, anchor_near is not supported as canteen itself being anchor of a place)
+v4_0205661	P	-
+v4_0205670	U	ambiguous parking ref from 'ai o ben duoi' (lai/tai o ben duoi)
+v4_0205673	U	mangled comparative 'khu ky tc xa khu thi nghiem hon cai kia di' missing clear near/far direction word
+v4_0205676	P	-
+v4_0205689	P	-
+v4_0205703	P	-
+v4_0205728	P	-
+v4_0205750	P	-
+v4_0205753	P	-
+v4_0205759	P	-
+v4_0205760	P	-
+v4_0205764	P	-
+v4_0205767	P	-
+v4_0205782	P	-
+v4_0205805	P	-
+v4_0205815	P	-
+v4_0205835	P	-
+v4_0205850	P	-
+v4_0205855	P	-
+v4_0205858	P	-
+v4_0205865	P	-
+v4_0205870	P	-
+v4_0205871	P	-
+v4_0205891	P	-
+v4_0205894	P	-
+v4_0205898	P	-
+v4_0205903	P	-
+v4_0205911	P	-
+v4_0205913	P	-
+v4_0205937	P	-
+v4_0205951	P	-
+v4_0205955	P	-
+v4_0205965	P	-
+v4_0205974	P	-
+v4_0206003	P	-
+v4_0206019	P	-
+v4_0206034	P	-
+v4_0206046	P	-
+v4_0206049	P	-
+v4_0206067	P	-
+v4_0206087	P	-
+v4_0206107	P	-
+v4_0206114	P	-
+v4_0206122	P	-
+v4_0206125	P	-
+v4_0206141	P	-
+v4_0206146	P	-
+v4_0206153	P	-
+
+STDERR:

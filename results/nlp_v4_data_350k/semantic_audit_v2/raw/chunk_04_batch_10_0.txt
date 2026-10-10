@@ -1,0 +1,52 @@
+v4_0034735	P	-
+v4_0034739	P	-
+v4_0034746	P	-
+v4_0034751	P	-
+v4_0034754	P	-
+v4_0034758	P	-
+v4_0034783	P	-
+v4_0034801	P	-
+v4_0034807	P	-
+v4_0034813	P	-
+v4_0034849	P	-
+v4_0034879	P	-
+v4_0034883	P	-
+v4_0034888	P	-
+v4_0034890	P	-
+v4_0034902	P	-
+v4_0034916	P	-
+v4_0034938	P	-
+v4_0034946	P	-
+v4_0034960	P	-
+v4_0034966	P	-
+v4_0034977	P	-
+v4_0034988	P	-
+v4_0034990	P	-
+v4_0034994	P	-
+v4_0035010	P	-
+v4_0035058	P	-
+v4_0035103	P	-
+v4_0035108	P	-
+v4_0035109	P	-
+v4_0035156	P	-
+v4_0035166	P	-
+v4_0035174	P	-
+v4_0035181	P	-
+v4_0035191	P	-
+v4_0035193	F	goal clinic/north/- should be clinic/-/- ('phong kham da khoa bne bac' - 'bne bac' is side/north, but here it specifies clinic/north/-: let's recheck - actually clinic/north/- is provided and matches 'ben bac')
+v4_0035194	P	-
+v4_0035198	P	-
+v4_0035202	P	-
+v4_0035204	P	-
+v4_0035214	U	'phong oc ve phia tay' is ambiguous whether type is lecture or office (phong hoc vs phong oc)
+v4_0035222	P	-
+v4_0035225	P	-
+v4_0035228	P	-
+v4_0035237	P	-
+v4_0035244	P	-
+v4_0035258	P	-
+v4_0035259	P	-
+v4_0035261	P	-
+v4_0035277	P	-
+
+STDERR:

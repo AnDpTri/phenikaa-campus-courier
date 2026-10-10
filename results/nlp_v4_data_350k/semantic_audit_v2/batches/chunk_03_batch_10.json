@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_03_batch_10",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0024508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024517",
+      "status": "U",
+      "reason": "\"hon tat ca quay phat thuoc va kham ban dau\" creates conflicting/ambiguous anchor comparison vs lecture"
+    },
+    {
+      "id": "v4_0024559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024597",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024742",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024884",
+      "status": "U",
+      "reason": "\"ngay canh toa nha o cua sinh vien ngay\" contains ambiguous trailing word/urgency conflict"
+    },
+    {
+      "id": "v4_0024891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024955",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0024958",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0260447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260543",
+      "status": "F",
+      "reason": "goal type: provided 'sports', corrected '-' from 'chuyen cha khoa phong hco giang vien he hat'"
+    },
+    {
+      "id": "v4_0260548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260608",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260610",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260654",
+      "status": "U",
+      "reason": "khu vuc Na (typo for Nam or ambiguous)"
+    },
+    {
+      "id": "v4_0260727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260730",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260778",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260831",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260842",
+      "status": "U",
+      "reason": "ambiguous recipient/goal location ('the giu xe la cua phong ke hoach')"
+    },
+    {
+      "id": "v4_0260846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260905",
+      "status": "F",
+      "reason": "goal type: provided 'lecture', corrected '-' from 'giao may tinh bang cho thay giao'"
+    },
+    {
+      "id": "v4_0260930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260943",
+      "status": "U",
+      "reason": "ambiguous recipient/goal location ('mau vat la cua nguoi trong xe')"
+    },
+    {
+      "id": "v4_0260976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0260999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261002",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

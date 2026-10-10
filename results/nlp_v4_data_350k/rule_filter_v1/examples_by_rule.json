@@ -1,0 +1,687 @@
+{
+  "awkward_nested_instruction": [
+    {
+      "row": {
+        "id": "v4_0000130",
+        "text": "Yeu Cau Moi: Khong Phai Trung Tam Y Te Dau. Tuan Truoc Da Giao Tram Y Te Rio. Qune Don Cu O San Co Di, Giao Hang Tai Hay Tim Dia Diem Cach Phong Tu Hc It Buoc Di Nhat. Do Gom Ben Rong, Tranh Va Cham. Tks.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "library"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 131,
+      "id": "v4_0000130",
+      "status": "review",
+      "rules": [
+        "awkward_nested_instruction"
+      ],
+      "evidence": {
+        "composition": "tai hay tim"
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000166",
+        "text": "hang ben khong lo vo dung dung cho cu nua chay sang danh dau khu vuc tiep giap gan khu an trua hon tat ca ho minh hom qua da giao o noi tra sach roi gap lam roi tks",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "canteen"
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "line": 167,
+      "id": "v4_0000166",
+      "status": "review",
+      "rules": [
+        "awkward_nested_instruction"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "gap lam roi"
+          ]
+        },
+        "fragile": {
+          "negative": [
+            "hang ben khong lo vo"
+          ],
+          "positive": []
+        },
+        "composition": "sang danh dau"
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000181",
+        "text": "alo robot, co don giao thung carton o danh dau cho tiep giap gan phong nghien cuu hon tat ca. chuyen nay xuat phat tu khu y te di tiep, khong phai diem cuoi. khong can voi. cam on robot.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "lab"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 182,
+      "id": "v4_0000181",
+      "status": "review",
+      "rules": [
+        "awkward_nested_instruction"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "khong can voi"
+          ],
+          "positive": []
+        },
+        "composition": "o danh dau"
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000244",
+        "text": "nho robot: nha bep hom nay dong cua. nho ghe cong b lay cai hop truoc. tranh khu muon tra sach ra nhe. khong gap lam. thay doi: khong giao khu luyen tap the duc the thao nua, giao toi hay tim khu vuc cach giang duong lon it buoc di nhat nhe, do la sach. cam on nhieu.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "lecture"
+        },
+        "via": {
+          "type": "gate",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 245,
+      "id": "v4_0000244",
+      "status": "review",
+      "rules": [
+        "awkward_nested_instruction"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "khong gap lam"
+          ],
+          "positive": []
+        },
+        "composition": "toi hay tim"
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000295",
+        "text": "Don 1303 Minh Chi Luot Qua Khu Vuc Phong Cham Oc Usc Khe Ban Dau Khong Dung Chan Dung Nham Voi Khu An Uong Nhe Nhan Hang Tai Khoanh Vung Toa Nao Cach San Atp Bong Ro Va Acu Long Doan Ngan Nhat Nho Qua Noi Do Xe O Du Xa Phong Cong Vu Truoc Thong Tha Can Than Do Su Thank You",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "sports"
+        },
+        "via": {
+          "type": "parking",
+          "ref": "far",
+          "anchor": "office"
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 296,
+      "id": "v4_0000295",
+      "status": "review",
+      "rules": [
+        "awkward_nested_instruction"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "thong tha"
+          ],
+          "positive": []
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "can than do su"
+          ]
+        },
+        "composition": "tai khoanh vung"
+      }
+    }
+  ],
+  "urgent_contradictory_cues": [
+    {
+      "row": {
+        "id": "v4_0000216",
+        "text": "Nho robot: can gap cuc pin truoc cua can phong it buoc nhat tu nha o sinh vien nhe. Thong tha. Hom qua da gao o van phong hanh chinh roi. Cam on!",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "dorm"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 217,
+      "id": "v4_0000216",
+      "status": "review",
+      "rules": [
+        "urgent_contradictory_cues"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "thong tha"
+          ],
+          "positive": [
+            "can gap"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000413",
+        "text": "HUONG NAY CHI CHYA SOG SONG VOI TRUNG TAM THE THAO KHONG RE VAO DO TUAN TRUOC DA GIAO KHU VUC TRONG IU XE HAI BANH ROI KHU GIANG DUONG HOM NAY DONG CUA BUOC DAU GHE VAN PHONG CANH TREN SAU DO CAN BO Y TE PHU TRACH SUC KHOE SINH VIEN DANG DOI THUNG THUC PHAM GAP KHONG CO GI GAP HANG DE VO NHE CAM ON NHIEU",
+        "goal": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "office",
+          "ref": "north",
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 414,
+      "id": "v4_0000413",
+      "status": "review",
+      "rules": [
+        "urgent_contradictory_cues"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "khong co gi gap"
+          ],
+          "positive": [
+            "dang doi thung thuc pham gap"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "hang de vo nhe"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000455",
+        "text": "don #4835 khu nha o dang sua chua tranh ra bai xe thi khong can toi khong phai khu y te dau dung chan o phong hoc lon lay laptop xong moi luc nay nhan nham la khu lab dung ra can gap tai nghe truoc cua o it buoc nhat tu van phong nhe mai giao cung duoc nhe tay giup cam on",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "office"
+        },
+        "via": {
+          "type": "lecture",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 456,
+      "id": "v4_0000455",
+      "status": "review",
+      "rules": [
+        "urgent_contradictory_cues"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "mai giao cung duoc"
+          ],
+          "positive": [
+            "can gap"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "nhe tay giup"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000579",
+        "text": "chao robot! cu tu tu, khong voi. dia chi cu la noi do xe, bo qau. hom qua da giao o khu do xe roi. cap nhat: bo phong nghien cuu, can gap the giu xe truoc cua phong kham da khoa di. hang de vo nhe. thanks robot.",
+        "goal": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 580,
+      "id": "v4_0000579",
+      "status": "review",
+      "rules": [
+        "urgent_contradictory_cues"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "cu tu tu khong voi"
+          ],
+          "positive": [
+            "can gap"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "hang de vo nhe"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000595",
+        "text": "Chao! truoc het ghe cho de xe lay lo hang, roi can gap mau vat truoc cua nut nao nam sat khu the thao nhat giup toi. Khong can voi. Hang ben, khong lo vo. Thank you.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "sports"
+        },
+        "via": {
+          "type": "parking",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 596,
+      "id": "v4_0000595",
+      "status": "review",
+      "rules": [
+        "urgent_contradictory_cues"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [
+            "khong can voi"
+          ],
+          "positive": [
+            "can gap"
+          ]
+        },
+        "fragile": {
+          "negative": [
+            "hang ben khong lo vo"
+          ],
+          "positive": []
+        }
+      }
+    }
+  ],
+  "fragile_positive_cue_false_label": [
+    {
+      "row": {
+        "id": "v4_0000365",
+        "text": "Chao ban, khong can di ngang toa van phong. Nguoi nhan khong con o khu o cua sinh vien. Truoc tien vao khu vuc phuc vu an uong sinh vin, xong rio robot chay dn cai bai gui xe o una phai giao tui rac. Khan cp! hang chc chan, hkong de vo. Cm on robot.",
+        "goal": {
+          "type": "parking",
+          "ref": "east",
+          "anchor": null
+        },
+        "via": {
+          "type": "canteen",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": true,
+        "fragile": false
+      },
+      "line": 366,
+      "id": "v4_0000365",
+      "status": "review",
+      "rules": [
+        "fragile_positive_cue_false_label"
+      ],
+      "evidence": {
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "de vo"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000764",
+        "text": "nho robot: nha da nang dang sua chua, tranh ra. nguoi nhan da roi noi gui xe roi. ve truy im toa nao ke can moc khu nha an hon ca giao so ghi khach. trong vong 10 phut nhe. hang khnog de vo dau. thanks robot.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "canteen"
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "line": 765,
+      "id": "v4_0000764",
+      "status": "review",
+      "rules": [
+        "fragile_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "trong vong 10 phut nhe"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "de vo"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000867",
+        "text": "alo obot som cang ot hang hong de vo dau chay thang toi giang duong chinh roi chuyen giup don hang giup toi cam on nhieu",
+        "goal": {
+          "type": "lecture",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "line": 868,
+      "id": "v4_0000867",
+      "status": "review",
+      "rules": [
+        "fragile_positive_cue_false_label"
+      ],
+      "evidence": {
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "de vo"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0001442",
+        "text": "in hao! khong phai chot bao ve dau. khan cap! nham roi, khong phai kuh lab. dem sang cho o gan van phong khoa nhat giup. hag chac chan, khogn de vo. cam on!",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "office"
+        },
+        "via": null,
+        "urgent": true,
+        "fragile": false
+      },
+      "line": 1443,
+      "id": "v4_0001442",
+      "status": "review",
+      "rules": [
+        "fragile_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "khan cap"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "de vo"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0001549",
+        "text": "ROBOT THAN MEN, DIA CHI CU LA KHU DOC SCH, BO QAU. KHONG CAN GHE NHA TAP. CHUYEN PHAT THUNG HANG CHO CAN BO Y TE O NUT NAM O COT CUOI. HANG CHAC CHAN, KHOG DE VO. NHO NHE.",
+        "goal": {
+          "type": null,
+          "ref": "east_most",
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 1550,
+      "id": "v4_0001549",
+      "status": "review",
+      "rules": [
+        "fragile_positive_cue_false_label"
+      ],
+      "evidence": {
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "de vo"
+          ]
+        }
+      }
+    }
+  ],
+  "urgent_positive_cue_false_label": [
+    {
+      "row": {
+        "id": "v4_0000653",
+        "text": "ROBOT OI, TRANH KHU KHAM BENH RA NHE. CAN GAP THUNG NUOC UONG TRUOC CUA TRUY TIM VI TRI KE CAN MOC CONG NGOAI HON CA NHE. HANG KHONG DE VO DAU. THANKS ROBOT.",
+        "goal": {
+          "type": null,
+          "ref": "anchor_near",
+          "anchor": "gate"
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 654,
+      "id": "v4_0000653",
+      "status": "review",
+      "rules": [
+        "urgent_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "can gap"
+          ]
+        },
+        "fragile": {
+          "negative": [
+            "hang khong de vo dau"
+          ],
+          "positive": []
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000706",
+        "text": "Robot giao hang oi chuyen nay xuat phat tu san luyen tap di tiep khong phai diem cuoi nhan vien y te dang doi ao dong phuc gap",
+        "goal": {
+          "type": "clinic",
+          "ref": null,
+          "anchor": null
+        },
+        "via": null,
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 707,
+      "id": "v4_0000706",
+      "status": "review",
+      "rules": [
+        "urgent_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "dang doi ao dong phuc gap"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0000818",
+        "text": "ALO ROBOT, XE CHI CHAY NGANG TAM KHU NOI TRU, DO KHONG PHAI CHO MUON TOI. KY THUAT VIEN PHONG LAB DANG DOI MAY TINH BANG GAP. DONG THOI GHE VAO SAN CO CAI MA GAN PHONG KHAM SUC KHOE LAY TUI RAC DA ROI HAY GIAO. BEN TRONG LA CHEN SU. CAM ON BAN NHE.",
+        "goal": {
+          "type": "lab",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "sports",
+          "ref": "near",
+          "anchor": "clinic"
+        },
+        "urgent": false,
+        "fragile": true
+      },
+      "line": 819,
+      "id": "v4_0000818",
+      "status": "review",
+      "rules": [
+        "urgent_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "dang doi may tinh bang gap"
+          ]
+        },
+        "fragile": {
+          "negative": [],
+          "positive": [
+            "ben trong la chen su"
+          ]
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0001148",
+        "text": "Thong bao don: ghe qua phong sach thuoc hong dong ban do truoc nhe. Giang duong lon hom nay dong cua. Ngui giu xe dang doi chiec tui gap. Do chac lam. Van phong hanh chinh thi khong can toi. Cam on!",
+        "goal": {
+          "type": "parking",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "library",
+          "ref": "east",
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 1149,
+      "id": "v4_0001148",
+      "status": "review",
+      "rules": [
+        "urgent_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "dang doi chiec tui gap"
+          ]
+        },
+        "fragile": {
+          "negative": [
+            "do chac lam"
+          ],
+          "positive": []
+        }
+      }
+    },
+    {
+      "row": {
+        "id": "v4_0001449",
+        "text": "Ma Don 4908: Lan Truoc Giao Nam Khu Ktx. Khong Can Di Ngang Phong Lb. Hang Khong De Vo Dau. Nho Di Ngang Toa Van Phong Lay Cuc Pin Truoc. Nguoi Nhan Da Roi Toa Nha Phong Hoc Ly Thuyet Roi. Can Bo Thu Vien Pu Trach Kho Sach Dang Doi Hop Thoc Gap. Cam On Nhieu.",
+        "goal": {
+          "type": "library",
+          "ref": null,
+          "anchor": null
+        },
+        "via": {
+          "type": "office",
+          "ref": null,
+          "anchor": null
+        },
+        "urgent": false,
+        "fragile": false
+      },
+      "line": 1450,
+      "id": "v4_0001449",
+      "status": "review",
+      "rules": [
+        "urgent_positive_cue_false_label"
+      ],
+      "evidence": {
+        "urgent": {
+          "negative": [],
+          "positive": [
+            "dang doi hop thoc gap"
+          ]
+        },
+        "fragile": {
+          "negative": [
+            "hang khong de vo dau"
+          ],
+          "positive": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0033213	P	-
+v4_0033219	P	-
+v4_0033225	P	-
+v4_0033265	P	-
+v4_0033267	P	-
+v4_0033279	P	-
+v4_0033286	P	-
+v4_0033291	P	-
+v4_0033295	P	-
+v4_0033296	P	-
+v4_0033298	P	-
+v4_0033301	F	urgent: provided 0, corrected 1 ('ngay giup toi')
+v4_0033310	P	-
+v4_0033313	P	-
+v4_0033328	P	-
+v4_0033330	P	-
+v4_0033335	P	-
+v4_0033339	P	-
+v4_0033345	P	-
+v4_0033358	P	-
+v4_0033366	P	-
+v4_0033391	P	-
+v4_0033396	P	-
+v4_0033427	P	-
+v4_0033435	P	-
+v4_0033438	P	-
+v4_0033449	P	-
+v4_0033450	P	-
+v4_0033454	P	-
+v4_0033465	P	-
+v4_0033476	P	-
+v4_0033504	P	-
+v4_0033530	P	-
+v4_0033547	P	-
+v4_0033551	P	-
+v4_0033557	P	-
+v4_0033576	P	-
+v4_0033578	P	-
+v4_0033589	P	-
+v4_0033591	P	-
+v4_0033621	P	-
+v4_0033640	P	-
+v4_0033643	P	-
+v4_0033645	F	goal: provided -/anchor_near/canteen, corrected dorm/anchor_near/canteen ('toa nha noi tru o chon vi tri co lo trinh toi nha an ngan hon tat ca')
+v4_0033650	P	-
+v4_0033663	P	-
+v4_0033667	P	-
+v4_0033692	U	unclear destination text 'dia chi la ut gan ke tarm y te nhat' with garbled head place
+v4_0033709	P	-
+v4_0033724	P	-
+
+STDERR:

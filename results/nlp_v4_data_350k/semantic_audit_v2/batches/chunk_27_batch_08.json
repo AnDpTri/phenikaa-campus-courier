@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0263335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263393",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263399",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263407",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263437",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263463",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263483",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263485",
+      "status": "U",
+      "reason": "ambiguous extreme vs ordinary direction in goal ref ('le phai' lacks extreme modifier nhat/cung)"
+    },
+    {
+      "id": "v4_0263491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263492",
+      "status": "U",
+      "reason": "unclear delivery goal destination; KTX management is sender without explicit recipient destination"
+    },
+    {
+      "id": "v4_0263502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263516",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263631",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0263810",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Can Gap')"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0038061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038068",
+      "status": "F",
+      "reason": "fragile: provided 1, should be 0 (hang de be, cam nhe implies fragile 1? Wait: \"hang de be, cam nhe\" -> fragile 1. urgent: \"Dang gap!\" -> urgent 1. Goal: \"khong giao nha bep nua, can bo tiep nhan ho so sinh vien dang odi giao trinh gap\" -> where is recipient? recipient is \"can bo tiep nhan ho so sinh vien\", usually office? But did text state location or just person? Wait, office vs no location?)"
+    },
+    {
+      "id": "v4_0038072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038095",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038123",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038128",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038146",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038214",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/north_most/-, should be dorm/north_most/- (\"sinh vien o ky tuc o can phong diem moc nhin ra bien gioi phia bc xa hon tat ca\")"
+    },
+    {
+      "id": "v4_0038216",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038241",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038359",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0038473",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

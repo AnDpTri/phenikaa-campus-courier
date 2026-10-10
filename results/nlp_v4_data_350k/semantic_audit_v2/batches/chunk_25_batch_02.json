@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_25_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0240511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240631",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240683",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240713",
+      "status": "U",
+      "reason": "toa nam phia phi cung (phi cung is garbled/truncated, unclear if phia cuoi or cot cuoi)"
+    },
+    {
+      "id": "v4_0240730",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240757",
+      "status": "U",
+      "reason": "giang vien dang cho on qua khong can ga (garbled text with missing words/typos obscuring meaning)"
+    },
+    {
+      "id": "v4_0240758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240829",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240856",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240902",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0240964",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

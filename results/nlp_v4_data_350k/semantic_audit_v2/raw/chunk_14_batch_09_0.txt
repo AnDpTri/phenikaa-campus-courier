@@ -1,0 +1,52 @@
+v4_0133830	F	goal type: provided '-', expected 'gate' ("CA TRUC BAO VE VUA CHUYEN SANG TOA NHA NAO O RIA PHAI")
+v4_0133838	P	-
+v4_0133847	P	-
+v4_0133862	P	-
+v4_0133864	P	-
+v4_0133869	P	-
+v4_0133889	P	-
+v4_0133914	P	-
+v4_0133915	P	-
+v4_0133920	P	-
+v4_0133928	P	-
+v4_0133934	P	-
+v4_0133935	P	-
+v4_0133963	P	-
+v4_0133973	P	-
+v4_0133990	P	-
+v4_0134013	P	-
+v4_0134044	P	-
+v4_0134056	P	-
+v4_0134067	P	-
+v4_0134069	P	-
+v4_0134076	P	-
+v4_0134106	P	-
+v4_0134110	P	-
+v4_0134116	P	-
+v4_0134118	P	-
+v4_0134122	P	-
+v4_0134132	P	-
+v4_0134147	P	-
+v4_0134148	F	goal type: provided 'sports', expected 'clinic' ("Bac si truong o phong ygm nam" -> clinic/south/-; "phong y te truong")
+v4_0134176	P	-
+v4_0134191	P	-
+v4_0134198	P	-
+v4_0134200	P	-
+v4_0134214	P	-
+v4_0134224	P	-
+v4_0134244	P	-
+v4_0134262	P	-
+v4_0134265	P	-
+v4_0134289	P	-
+v4_0134297	P	-
+v4_0134302	P	-
+v4_0134304	P	-
+v4_0134323	P	-
+v4_0134325	P	-
+v4_0134340	P	-
+v4_0134342	P	-
+v4_0134345	P	-
+v4_0134357	P	-
+v4_0134365	P	-
+
+STDERR:

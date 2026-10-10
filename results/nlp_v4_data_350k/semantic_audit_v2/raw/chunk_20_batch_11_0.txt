@@ -1,0 +1,52 @@
+v4_0195040	P	-
+v4_0195047	P	-
+v4_0195053	F	goal type: provided lecture, corrected -; text specifies toa hoc is recipient location but no destination type/ref/anchor specified or wait bep truoc o toa hoc
+v4_0195060	P	-
+v4_0195063	P	-
+v4_0195075	P	-
+v4_0195079	P	-
+v4_0195084	P	-
+v4_0195086	P	-
+v4_0195091	P	-
+v4_0195093	P	-
+v4_0195098	P	-
+v4_0195101	P	-
+v4_0195103	P	-
+v4_0195109	P	-
+v4_0195111	P	-
+v4_0195113	P	-
+v4_0195120	P	-
+v4_0195148	P	-
+v4_0195176	P	-
+v4_0195195	P	-
+v4_0195204	P	-
+v4_0195211	P	-
+v4_0195225	P	-
+v4_0195228	P	-
+v4_0195253	P	-
+v4_0195257	P	-
+v4_0195270	P	-
+v4_0195278	P	-
+v4_0195304	P	-
+v4_0195308	P	-
+v4_0195310	P	-
+v4_0195313	P	-
+v4_0195324	P	-
+v4_0195333	P	-
+v4_0195348	P	-
+v4_0195353	P	-
+v4_0195362	P	-
+v4_0195371	P	-
+v4_0195383	P	-
+v4_0195408	P	-
+v4_0195410	U	Pharse 'cham mco' is corrupted/unreadable required direction or room descriptor
+v4_0195421	P	-
+v4_0195436	P	-
+v4_0195438	P	-
+v4_0195445	P	-
+v4_0195451	P	-
+v4_0195457	P	-
+v4_0195470	P	-
+v4_0195472	P	-
+
+STDERR:

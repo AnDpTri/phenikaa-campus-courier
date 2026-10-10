@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_01_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0000018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000123",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000219",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000271",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000334",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000359",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000414",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000504",
+      "status": "U",
+      "reason": "Missing relative distance indicator between dorm and sports (text says 'khu ky tuc xa khu atp luyen on' with garbled/missing relation word instead of clear 'far')"
+    },
+    {
+      "id": "v4_0000515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0000554",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

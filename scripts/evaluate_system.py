@@ -22,6 +22,8 @@ from courier.cv.neural import (
 )
 from courier.cv.types import SceneGraph, edge_key
 from courier.nlp import MissionParser, resolve
+from courier.cv.style import with_print_detector
+from courier.nlp.neural import HybridMissionParser
 from courier.solver import OracleSolver, load_strategy
 
 
@@ -77,8 +79,17 @@ def main() -> None:
     parser.add_argument("--limit", type=int)
     parser.add_argument("--report", type=Path, help="Save metrics to a new JSON file")
     parser.add_argument("--detector-device", choices=("auto", "cpu", "cuda"), default="auto")
+    parser.add_argument("--print-detector", type=Path, help="detector for images classified as print")
+    parser.add_argument("--print-detector-threshold", type=float, default=0.30)
+    parser.add_argument("--style-artifact", type=Path, default=Path("artifacts/cv/style_classifier.joblib"))
+    parser.add_argument("--nlp-goal-threshold", type=float, help="override the stored hybrid goal threshold")
+    parser.add_argument(
+        "--nlp-model", type=Path, help="neural parser artifact; enables the rule + neural hybrid NLP"
+    )
     parser.add_argument("--detector-threshold", type=float, default=0.4)
     parser.add_argument("--semantic-threshold", type=float, default=0.15)
+    parser.add_argument("--disable-map-aware", action="store_true", help="use hybrid NLP without map fallback for ablation")
+    parser.add_argument("--disable-repair", action="store_true", help="use the original unreachable fallback for ablation")
     args = parser.parse_args()
     if args.report is not None and args.report.exists():
         parser.error(f"report already exists: {args.report}; choose a new --report path")
@@ -104,8 +115,20 @@ def main() -> None:
         edges=NeuralEdgeClassifier(args.artifacts / "cv" / "edge_net.pt"),
         nodes=NeuralNodeClassifier(args.artifacts / "cv" / "node_net.pt"),
     )
-    nlp = MissionParser()
+    if args.print_detector:
+        cv = with_print_detector(
+            cv, args.style_artifact, args.print_detector, args.print_detector_threshold, device=args.detector_device
+        )
+    nlp = HybridMissionParser.load(args.nlp_model) if args.nlp_model else MissionParser()
+    if args.nlp_goal_threshold is not None:
+        if not args.nlp_model or not 0 <= args.nlp_goal_threshold <= 2:
+            parser.error("--nlp-goal-threshold requires --nlp-model and a value in [0, 2]")
+        nlp.thresholds = dataclasses.replace(nlp.thresholds, goal=args.nlp_goal_threshold)
+        print(f"NLP thresholds overridden: {nlp.thresholds}")
     strategy = load_strategy(args.strategy_artifact)
+    if args.disable_repair:
+        strategy.repair_unreachable = False
+    nlp_sources = {"oracle_map": Counter(), "cv_map": Counter()}
 
     scenarios = ("oracle", "nlp_only", "cv_only", "full")
     failures = {name: Counter() for name in scenarios}
@@ -116,9 +139,15 @@ def main() -> None:
     for index, (annotation, truth) in enumerate(zip(annotations, truth_scenes)):
         cv_input = CVInput(annotation.scene_id, load_rgb(annotation.image_path))
         graph = cv.extract(cv_input)
-        parsed = nlp.parse(truth.mission.text)
-        oracle_parsed_mission = resolve(parsed, truth.landmarks)
-        learned_parsed_mission = resolve(parsed, graph.landmarks)
+        if not args.disable_map_aware and hasattr(nlp, "parse_for_map"):
+            oracle_parsed_mission = resolve(nlp.parse_for_map(truth.mission.text, truth.landmarks), truth.landmarks)
+            nlp_sources["oracle_map"].update(getattr(nlp, "last_sources", {}).values())
+            learned_parsed_mission = resolve(nlp.parse_for_map(truth.mission.text, graph.landmarks), graph.landmarks)
+            nlp_sources["cv_map"].update(getattr(nlp, "last_sources", {}).values())
+        else:
+            parsed = nlp.parse(truth.mission.text)
+            oracle_parsed_mission = resolve(parsed, truth.landmarks)
+            learned_parsed_mission = resolve(parsed, graph.landmarks)
         scenes = {
             "oracle": truth,
             "nlp_only": dataclasses.replace(truth, mission=oracle_parsed_mission),
@@ -160,6 +189,12 @@ def main() -> None:
             "split": args.split,
             "scenes": count,
             "strategy_artifact": str(args.strategy_artifact),
+            "nlp_model": str(args.nlp_model) if args.nlp_model else None,
+            "nlp_thresholds": dataclasses.asdict(nlp.thresholds) if args.nlp_model else None,
+            "print_detector": str(args.print_detector) if args.print_detector else None,
+            "map_aware": bool(args.nlp_model and not args.disable_map_aware),
+            "repair_enabled": not args.disable_repair,
+            "nlp_sources": {name: dict(counts) for name, counts in nlp_sources.items()},
             "seconds": elapsed,
             "cv_scene_exact": exact_scenes / max(count, 1),
             "scenarios": {

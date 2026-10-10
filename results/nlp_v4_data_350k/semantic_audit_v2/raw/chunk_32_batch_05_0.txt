@@ -1,0 +1,52 @@
+v4_0311880	P	-
+v4_0311883	P	-
+v4_0311891	F	goal: provided -/west_most/-, corrected -/west_most/- -> via: provided parking/north/-, corrected parking/north/-; text says "cong trinh nao o ria trai" (head noun: cong trinh -> gate/west_most/-)
+v4_0311939	P	-
+v4_0311981	P	-
+v4_0311982	P	-
+v4_0311994	P	-
+v4_0311995	P	-
+v4_0312023	P	-
+v4_0312024	P	-
+v4_0312038	P	-
+v4_0312062	P	-
+v4_0312080	P	-
+v4_0312084	P	-
+v4_0312091	P	-
+v4_0312093	P	-
+v4_0312094	P	-
+v4_0312114	P	-
+v4_0312133	P	-
+v4_0312134	P	-
+v4_0312165	P	-
+v4_0312182	P	-
+v4_0312185	P	-
+v4_0312196	P	-
+v4_0312200	P	-
+v4_0312203	P	-
+v4_0312213	P	-
+v4_0312216	P	-
+v4_0312224	P	-
+v4_0312260	P	-
+v4_0312264	P	-
+v4_0312272	P	-
+v4_0312273	P	-
+v4_0312282	P	-
+v4_0312293	P	-
+v4_0312299	P	-
+v4_0312327	P	-
+v4_0312330	P	-
+v4_0312338	P	-
+v4_0312359	P	-
+v4_0312363	P	-
+v4_0312368	P	-
+v4_0312369	P	-
+v4_0312395	P	-
+v4_0312404	P	-
+v4_0312424	P	-
+v4_0312428	P	-
+v4_0312430	P	-
+v4_0312433	F	urgent: provided 0, corrected 1; text has "Can gap"
+v4_0312437	P	-
+
+STDERR:

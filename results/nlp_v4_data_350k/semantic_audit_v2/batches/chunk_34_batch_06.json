@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_34_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0332540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332672",
+      "status": "F",
+      "reason": "goal: provided -/anchor_near/office, corrected parking/anchor_near/office (bac giu xe o phan loai noi tiep can gan nhat toi moc toa van phong)"
+    },
+    {
+      "id": "v4_0332686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332825",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332830",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332839",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332864",
+      "status": "U",
+      "reason": "toa nha cao hon tat ca describes physical building height, ambiguous with map north_most convention cao nhat"
+    },
+    {
+      "id": "v4_0332878",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332888",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332889",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0332923",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

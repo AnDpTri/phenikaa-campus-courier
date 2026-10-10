@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0108841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108857",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108858",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/anchor_near/canteen should be -/-/- (nut hang oxm / nut hang xom: corrupted/unparseable spatial relation)"
+    },
+    {
+      "id": "v4_0108884",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108913",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108975",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108989",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108993",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109096",
+      "status": "U",
+      "reason": "Ambiguous destination: only mentions \"giao cho thay chu nhiem\" without any specific building, campus facility, or spatial anchor"
+    },
+    {
+      "id": "v4_0109107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109153",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109258",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109259",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109400",
+      "status": "U",
+      "reason": "Ambiguous destination: \"tap giay to la cua can bo y te\" only names recipient profession without designating a clinic building or delivery location"
+    },
+    {
+      "id": "v4_0109415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0109449",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

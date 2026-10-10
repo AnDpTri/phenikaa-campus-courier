@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0215121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215541",
+      "status": "F",
+      "reason": "goal type: provided 'gate' should be '-' ('nguoi nhan la bac bao ve', recipient workplace/role does not define goal type without location)"
+    },
+    {
+      "id": "v4_0215562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215616",
+      "status": "F",
+      "reason": "goal type: provided 'parking' should be '-' ('Bac Giu Xe Dang Cho Micro Khogn Day', recipient person not head place destination)"
+    },
+    {
+      "id": "v4_0215635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0215685",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

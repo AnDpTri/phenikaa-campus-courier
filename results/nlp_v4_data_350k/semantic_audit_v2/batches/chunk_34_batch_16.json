@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_34_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0337497",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337512",
+      "status": "U",
+      "reason": "Recipients usual profession (thay day the duc) mentioned without explicit current delivery location"
+    },
+    {
+      "id": "v4_0337518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337528",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337538",
+      "status": "F",
+      "reason": "goal type dorm -> clinic (\"cap nhat bo y te truong mang chiec ti sang khu nha o tap the inh vien dang gap\" - bo y te vs khu nha o ambiguous order/role or canteen first then clinic/dorm)"
+    },
+    {
+      "id": "v4_0337544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337572",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337607",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337640",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337763",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337791",
+      "status": "F",
+      "reason": "goal type - -> clinic (\"khong phai nha xe ma la y ta o diem nao lech ve trai nhat dang cho goi hang\")"
+    },
+    {
+      "id": "v4_0337818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337870",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337879",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337930",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0337932",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

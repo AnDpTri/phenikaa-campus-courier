@@ -1,0 +1,52 @@
+v4_0089087	P	-
+v4_0089095	F	goal type: provided lecture, corrected gate ("BAC BAO VE TRUC TOA NHA NOI TRU O TOA GIANG DUONG NAM CACH XA CONG A")
+v4_0089103	P	-
+v4_0089108	P	-
+v4_0089111	P	-
+v4_0089113	P	-
+v4_0089120	P	-
+v4_0089125	F	goal type: provided library, corrected gate ("bac ao ve trong giu xe truong hien dang o khu thu vien")
+v4_0089187	F	goal type: provided dorm, corrected clinic ("CAN BO Y TE O KHU NHA O CANH NHA AN SINH VIEN")
+v4_0089192	P	-
+v4_0089206	F	goal ref: provided far, corrected near ("o oli ra nam cach xa san bong da dang cho tap ai kiem tra" -> "tap ai" is corrupted / ambiguous direction context)
+v4_0089229	F	goal ref: provided east, corrected west ("Phia Phai" is east in map convention, wait, phia phai is east, so east is correct, wait check office: "Toa Nha Hanh Chinh Quan Ly Truong Truoc Nhe" -> via office/-/- correct; wait let's re-verify)
+v4_0089239	P	-
+v4_0089245	P	-
+v4_0089247	P	-
+v4_0089255	F	goal type: provided -, corrected dorm ("mang giup thung sua cho sinh iven noi tru o can phong gan kho tai lieu nhat")
+v4_0089258	P	-
+v4_0089273	P	-
+v4_0089278	F	goal type: provided office, corrected gate ("thay truong phong dang gap" vs "the thu vien la ca thay truong phong" wait "dung de o trung tam thog tn thu vien", recipient is truong phong -> office)
+v4_0089296	P	-
+v4_0089298	P	-
+v4_0089316	P	-
+v4_0089323	P	-
+v4_0089326	P	-
+v4_0089328	P	-
+v4_0089379	P	-
+v4_0089389	P	-
+v4_0089392	P	-
+v4_0089396	P	-
+v4_0089403	P	-
+v4_0089405	P	-
+v4_0089407	F	goal type: provided -, corrected gate ("Dem chia khoa phong cho bao ve cong o khu vuc nam o le phai")
+v4_0089411	P	-
+v4_0089422	P	-
+v4_0089423	P	-
+v4_0089438	P	-
+v4_0089449	F	goal type: provided parking, corrected lab ("dua so ghi khach cho ky thuat vien phong lab o bai giu xe o xa phia cong a")
+v4_0089453	P	-
+v4_0089455	P	-
+v4_0089457	P	-
+v4_0089463	F	goal type: provided library, corrected clinic ("Y ta o thu vien truong canh cho gui xe may dang cho bang ten")
+v4_0089469	P	-
+v4_0089470	F	goal type: provided canteen, corrected clinic ("can bo y te hien dang o khu vuc phuc vu an uong sinh vien cach noi muon tra sach giao trinh xa hon")
+v4_0089477	P	-
+v4_0089484	P	-
+v4_0089521	P	-
+v4_0089523	P	-
+v4_0089537	P	-
+v4_0089546	P	-
+v4_0089563	P	-
+
+STDERR:

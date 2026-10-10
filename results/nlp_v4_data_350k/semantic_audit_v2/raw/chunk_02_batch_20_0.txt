@@ -1,0 +1,52 @@
+v4_0019479	P	-
+v4_0019487	P	-
+v4_0019494	P	-
+v4_0019502	P	-
+v4_0019521	P	-
+v4_0019544	P	-
+v4_0019545	P	-
+v4_0019551	P	-
+v4_0019555	P	-
+v4_0019562	P	-
+v4_0019566	P	-
+v4_0019570	P	-
+v4_0019571	P	-
+v4_0019574	P	-
+v4_0019602	P	-
+v4_0019618	P	-
+v4_0019619	U	khong ro noi nhan cu the cua chuyen vien (chi biet chuyen vien dang hoc bien ten khach)
+v4_0019624	P	-
+v4_0019628	P	-
+v4_0019640	P	-
+v4_0019641	P	-
+v4_0019651	P	-
+v4_0019661	P	-
+v4_0019685	P	-
+v4_0019714	P	-
+v4_0019716	P	-
+v4_0019784	P	-
+v4_0019788	P	-
+v4_0019791	P	-
+v4_0019799	P	-
+v4_0019811	P	-
+v4_0019813	P	-
+v4_0019829	P	-
+v4_0019843	P	-
+v4_0019852	P	-
+v4_0019859	P	-
+v4_0019869	P	-
+v4_0019871	P	-
+v4_0019876	P	-
+v4_0019898	F	via: dorm/near/parking -> dorm/-/- ("can ghe khu nha o tap the sinh vien cach nha giu xe an hon truoc" tuong ung "gan hon", nhung khong phai "an hon" hoac loi cu phap)
+v4_0019908	P	-
+v4_0019911	P	-
+v4_0019913	P	-
+v4_0019926	P	-
+v4_0019929	P	-
+v4_0019945	U	nguoi nhan la nhan vien hanh chinh nhung khong noi ro dia diem giao co phai phong hanh chinh hay khong
+v4_0019971	P	-
+v4_0019977	P	-
+v4_0019987	P	-
+v4_0019991	P	-
+
+STDERR:

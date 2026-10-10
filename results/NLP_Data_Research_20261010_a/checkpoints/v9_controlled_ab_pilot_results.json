@@ -1,0 +1,241 @@
+{
+  "experiment": "controlled_v9_10percent_synthetic_replacement",
+  "created_utc": "2026-10-10T01:17:32.410257+00:00",
+  "data_manifest": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_controlled_ab_train_sampling_manifest.json",
+  "initial": {
+    "v2": {
+      "n": 1000,
+      "exact": {
+        "goal": 0.819,
+        "via": 0.882,
+        "urgent": 0.768,
+        "fragile": 0.869,
+        "all": 0.485
+      },
+      "via_fpr": 0.00632,
+      "via_miss_rate": 0.18476
+    },
+    "weighted": {
+      "n": 1000,
+      "exact": {
+        "goal": 0.783,
+        "via": 0.782,
+        "urgent": 0.873,
+        "fragile": 0.67,
+        "all": 0.369
+      },
+      "via_fpr": 0.09895,
+      "via_miss_rate": 0.21524
+    },
+    "hard": {
+      "n": 600,
+      "exact": {
+        "goal": 0.74667,
+        "via": 0.69167,
+        "urgent": 1.0,
+        "fragile": 0.55167,
+        "all": 0.33333
+      },
+      "via_fpr": 0.10101,
+      "via_miss_rate": 0.36964
+    },
+    "family_challenge": {
+      "n": 1200,
+      "exact": {
+        "goal": 0.89333,
+        "via": 0.5525,
+        "urgent": 0.5,
+        "fragile": 0.7175,
+        "all": 0.17833
+      },
+      "via_fpr": 0.33,
+      "via_miss_rate": 0.565
+    }
+  },
+  "arm_A_original_generator": {
+    "train_epochs": [
+      {
+        "epoch": 1,
+        "train_loss": 0.011776,
+        "steps": 94
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.002781,
+        "steps": 94
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.006422,
+        "steps": 94
+      }
+    ],
+    "probes": {
+      "v2": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.83,
+          "via": 0.881,
+          "urgent": 0.771,
+          "fragile": 0.87,
+          "all": 0.496
+        },
+        "via_fpr": 0.00632,
+        "via_miss_rate": 0.18857
+      },
+      "weighted": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.787,
+          "via": 0.768,
+          "urgent": 0.876,
+          "fragile": 0.67,
+          "all": 0.373
+        },
+        "via_fpr": 0.08421,
+        "via_miss_rate": 0.25333
+      },
+      "hard": {
+        "n": 600,
+        "exact": {
+          "goal": 0.73667,
+          "via": 0.675,
+          "urgent": 1.0,
+          "fragile": 0.55167,
+          "all": 0.31667
+        },
+        "via_fpr": 0.08418,
+        "via_miss_rate": 0.42574
+      },
+      "family_challenge": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.88333,
+          "via": 0.53083,
+          "urgent": 0.5,
+          "fragile": 0.71833,
+          "all": 0.1675
+        },
+        "via_fpr": 0.32,
+        "via_miss_rate": 0.61833
+      }
+    },
+    "model_path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_pilot_A_continuation.pt",
+    "seconds": 157.7
+  },
+  "arm_B_augmented_V9": {
+    "train_epochs": [
+      {
+        "epoch": 1,
+        "train_loss": 0.763429,
+        "steps": 94
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.507134,
+        "steps": 94
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.43767,
+        "steps": 94
+      }
+    ],
+    "probes": {
+      "v2": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.813,
+          "via": 0.9,
+          "urgent": 0.769,
+          "fragile": 0.892,
+          "all": 0.502
+        },
+        "via_fpr": 0.00842,
+        "via_miss_rate": 0.15429
+      },
+      "weighted": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.804,
+          "via": 0.807,
+          "urgent": 0.873,
+          "fragile": 0.844,
+          "all": 0.486
+        },
+        "via_fpr": 0.11158,
+        "via_miss_rate": 0.1581
+      },
+      "hard": {
+        "n": 600,
+        "exact": {
+          "goal": 0.79333,
+          "via": 0.74,
+          "urgent": 1.0,
+          "fragile": 0.845,
+          "all": 0.52667
+        },
+        "via_fpr": 0.11785,
+        "via_miss_rate": 0.26733
+      },
+      "family_challenge": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.97083,
+          "via": 0.62417,
+          "urgent": 0.5,
+          "fragile": 0.7875,
+          "all": 0.23917
+        },
+        "via_fpr": 0.345,
+        "via_miss_rate": 0.39833
+      }
+    },
+    "model_path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_pilot_B_continuation.pt",
+    "seconds": 173.6
+  },
+  "armB_minus_armA": {
+    "v2": {
+      "n": 1000,
+      "delta_all_accuracy_pp": 0.6,
+      "delta_via_accuracy_pp": 1.9,
+      "delta_fragile_accuracy_pp": 2.2,
+      "delta_urgent_accuracy_pp": -0.2,
+      "delta_via_miss_rate_pp": -3.428,
+      "delta_via_fpr_pp": 0.21
+    },
+    "weighted": {
+      "n": 1000,
+      "delta_all_accuracy_pp": 11.3,
+      "delta_via_accuracy_pp": 3.9,
+      "delta_fragile_accuracy_pp": 17.4,
+      "delta_urgent_accuracy_pp": -0.3,
+      "delta_via_miss_rate_pp": -9.523,
+      "delta_via_fpr_pp": 2.737
+    },
+    "hard": {
+      "n": 600,
+      "delta_all_accuracy_pp": 21.0,
+      "delta_via_accuracy_pp": 6.5,
+      "delta_fragile_accuracy_pp": 29.333,
+      "delta_urgent_accuracy_pp": 0.0,
+      "delta_via_miss_rate_pp": -15.841,
+      "delta_via_fpr_pp": 3.367
+    },
+    "family_challenge": {
+      "n": 1200,
+      "delta_all_accuracy_pp": 7.167,
+      "delta_via_accuracy_pp": 9.334,
+      "delta_fragile_accuracy_pp": 6.917,
+      "delta_urgent_accuracy_pp": 0.0,
+      "delta_via_miss_rate_pp": -22.0,
+      "delta_via_fpr_pp": 2.5
+    }
+  },
+  "limitations": [
+    "Single-seed, short continuation pilot, not proof original V5 scratch fixed",
+    "Synthetic challenge families sampled by fixed precommitted seed; no real heldout",
+    "No official validation/test accessed",
+    "V9 source is not independently human-annotated"
+  ]
+}

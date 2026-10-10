@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_28_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0274800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274885",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274954",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274973",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0274999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275013",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'canteen' ('giao ho nguyen lieu nau an cho co thu thu o vi tri sat vach van phong')"
+    },
+    {
+      "id": "v4_0275037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275043",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275082",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275090",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275106",
+      "status": "U",
+      "reason": "ambiguous extreme vs ordinary direction ('tim toa do lech han ve phuong nam' lacks clear extreme superlative vs south)"
+    },
+    {
+      "id": "v4_0275111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275118",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275227",
+      "status": "F",
+      "reason": "via ref: provided 'near' should be '-' ('sat phong hoc ly thuyet hon truoc' means closer compared to before / comparative order, anchor_near, or missing target anchor)"
+    },
+    {
+      "id": "v4_0275230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275248",
+      "status": "F",
+      "reason": "via ref: provided 'far' should be '-' ('cai ma xa phong thi nghiem ly nhan hop banh' is not relative to anchor lab with another anchor)"
+    },
+    {
+      "id": "v4_0275257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275270",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

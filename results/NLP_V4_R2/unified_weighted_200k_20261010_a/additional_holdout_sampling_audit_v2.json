@@ -1,0 +1,26 @@
+{
+  "N": 200000,
+  "sample_n": 333,
+  "min_line": 690,
+  "max_line": 199868,
+  "population_sizes": {
+    "goal_spatial": 137344,
+    "unaccented": 135075,
+    "no_via_with_lay": 30319,
+    "negative_roles": 76996,
+    "both_flags_false": 62362,
+    "accented": 64925,
+    "global_extreme": 28358,
+    "without_before": 85424,
+    "revision_goal_via": 18796,
+    "anchor_near": 40054,
+    "via_spatial": 33743,
+    "both_flags_true": 39080,
+    "revision_both": 7246,
+    "revision_pickup_no_via": 11279
+  },
+  "exact_train_holdout_overlap": 0,
+  "holdout_n": 5000,
+  "source_sha256": "da03ac6bb3498b177ed238855489212c23df895beb4b675b7920f5ea15b1645a",
+  "note": "Stratified reservoir + uniform sample over whole training set, not manually labeled ground truth."
+}

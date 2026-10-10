@@ -1,0 +1,52 @@
+v4_0252012	P	-
+v4_0252017	P	-
+v4_0252029	P	-
+v4_0252080	P	-
+v4_0252098	P	-
+v4_0252099	P	-
+v4_0252105	P	-
+v4_0252110	P	-
+v4_0252112	P	-
+v4_0252117	P	-
+v4_0252118	P	-
+v4_0252126	P	-
+v4_0252139	P	-
+v4_0252143	P	-
+v4_0252150	P	-
+v4_0252167	P	-
+v4_0252168	P	-
+v4_0252170	P	-
+v4_0252174	P	-
+v4_0252176	P	-
+v4_0252185	P	-
+v4_0252190	P	-
+v4_0252194	P	-
+v4_0252207	P	-
+v4_0252210	P	-
+v4_0252218	P	-
+v4_0252243	P	-
+v4_0252250	P	-
+v4_0252252	P	-
+v4_0252254	P	-
+v4_0252255	P	-
+v4_0252259	P	-
+v4_0252260	P	-
+v4_0252264	P	-
+v4_0252270	P	-
+v4_0252288	P	-
+v4_0252299	P	-
+v4_0252301	P	-
+v4_0252323	P	-
+v4_0252325	P	-
+v4_0252327	P	-
+v4_0252330	P	-
+v4_0252349	U	Urgent label missing or unclear (prompt text contains all-caps instruction with no explicit urgency mention, defaults to 0)
+v4_0252350	P	-
+v4_0252352	P	-
+v4_0252364	P	-
+v4_0252370	P	-
+v4_0252372	P	-
+v4_0252376	F	goal type: canteen provided, but recipient is co cap duong (canteen staff) requesting delivery to their unspecified current location, not canteen building
+v4_0252380	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0104933	P	-
+v4_0104939	P	-
+v4_0104940	P	-
+v4_0104962	P	-
+v4_0104968	P	-
+v4_0104970	P	-
+v4_0104979	P	-
+v4_0104981	P	-
+v4_0104990	P	-
+v4_0104993	F	goal type: provided lab, corrected - (can bo phong thi nghiem la chu so huu nguyen lieu, khong phai diem den)
+v4_0104995	P	-
+v4_0105001	P	-
+v4_0105027	P	-
+v4_0105058	P	-
+v4_0105067	P	-
+v4_0105071	P	-
+v4_0105073	P	-
+v4_0105093	P	-
+v4_0105105	P	-
+v4_0105108	P	-
+v4_0105130	P	-
+v4_0105132	P	-
+v4_0105154	P	-
+v4_0105166	P	-
+v4_0105170	P	-
+v4_0105230	P	-
+v4_0105234	P	-
+v4_0105238	P	-
+v4_0105240	P	-
+v4_0105252	P	-
+v4_0105261	P	-
+v4_0105280	P	-
+v4_0105283	P	-
+v4_0105293	U	can gap hop thoc co the la khan cap nhung cu tu tu khong voi mau thuan ve muc do gap
+v4_0105298	P	-
+v4_0105299	P	-
+v4_0105311	P	-
+v4_0105314	P	-
+v4_0105322	P	-
+v4_0105342	P	-
+v4_0105352	P	-
+v4_0105353	P	-
+v4_0105360	P	-
+v4_0105361	P	-
+v4_0105367	P	-
+v4_0105390	P	-
+v4_0105400	P	-
+v4_0105401	P	-
+v4_0105425	P	-
+v4_0105428	P	-
+
+STDERR:

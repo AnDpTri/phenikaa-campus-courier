@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0318064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318110",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318173",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318216",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318223",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318233",
+      "status": "U",
+      "reason": "am vs nam ambiguous or corrupted direction"
+    },
+    {
+      "id": "v4_0318244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318272",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318414",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318448",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0318466",
+      "status": "U",
+      "reason": "Missing urgent cue but recipient context leaves ambiguity / no delivery direction/location specified clearly"
+    },
+    {
+      "id": "v4_0318467",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

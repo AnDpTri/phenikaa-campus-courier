@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0113593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113599",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Dung di qua noi gi xe... Khong cna voi') -> wait, 'Khong cna voi' = khong can voi -> urgent is 0. But goal: 'Doi bao ve o xuong co hki (ci o phia nam) dang cho the giu xe' -> xuong co khi = lab, south -> lab/south/-. Wait: 'Dung di qua noi gi xe' = do not go to parking. 'ci o phia nam' -> typo for co o phia nam. Wait, fragile: 'Ben trong la do thuy tinh' -> 1. Urgent: 'Khong cna voi' -> 0. What about via? None. So is v4_0113599 P? Let's check text again: \"Dung di qua noi gi xe. Doi bao ve o xuong co hki (ci o phia nam) dang cho the giu xe. Khong cna voi. Ben trong la do thuy tinh. Cam on nhieu.\" -> lab/south/- -/-/- 0 1. Everything matches! -> P"
+    },
+    {
+      "id": "v4_0113605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113631",
+      "status": "F",
+      "reason": "goal ref/anchor: provided anchor_near/library, corrected near/library ('Giang Duong O Toa Nao Nam Gan Khu Doc Sach Nhat' -> lecture/near/library, provided type is '-')"
+    },
+    {
+      "id": "v4_0113638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113656",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113686",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113687",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113826",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113854",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113879",
+      "status": "U",
+      "reason": "typo 'hu doc sach' leaves destination facility ambiguous/unclear"
+    },
+    {
+      "id": "v4_0113896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113900",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113919",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113978",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0113998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114099",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

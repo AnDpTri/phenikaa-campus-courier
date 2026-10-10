@@ -1,0 +1,52 @@
+v4_0024508	P	-
+v4_0024517	U	"hon tat ca quay phat thuoc va kham ban dau" creates conflicting/ambiguous anchor comparison vs lecture
+v4_0024559	P	-
+v4_0024579	P	-
+v4_0024597	P	-
+v4_0024600	P	-
+v4_0024612	P	-
+v4_0024615	P	-
+v4_0024625	P	-
+v4_0024626	P	-
+v4_0024628	P	-
+v4_0024632	P	-
+v4_0024634	P	-
+v4_0024645	P	-
+v4_0024665	P	-
+v4_0024666	P	-
+v4_0024670	P	-
+v4_0024671	P	-
+v4_0024679	P	-
+v4_0024681	P	-
+v4_0024701	P	-
+v4_0024710	P	-
+v4_0024722	P	-
+v4_0024742	P	-
+v4_0024754	P	-
+v4_0024760	P	-
+v4_0024761	P	-
+v4_0024769	P	-
+v4_0024781	P	-
+v4_0024788	P	-
+v4_0024790	P	-
+v4_0024797	P	-
+v4_0024817	P	-
+v4_0024827	P	-
+v4_0024836	P	-
+v4_0024848	P	-
+v4_0024859	P	-
+v4_0024865	P	-
+v4_0024870	P	-
+v4_0024877	P	-
+v4_0024878	P	-
+v4_0024884	U	"ngay canh toa nha o cua sinh vien ngay" contains ambiguous trailing word/urgency conflict
+v4_0024891	P	-
+v4_0024925	P	-
+v4_0024933	P	-
+v4_0024935	P	-
+v4_0024946	P	-
+v4_0024948	P	-
+v4_0024955	P	-
+v4_0024958	P	-
+
+STDERR:

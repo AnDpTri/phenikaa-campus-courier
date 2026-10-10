@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_14_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0137403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137446",
+      "status": "U",
+      "reason": "destroyed direction word 'phi lay' in via gate cue"
+    },
+    {
+      "id": "v4_0137453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137516",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137593",
+      "status": "U",
+      "reason": "contradictory urgency phrases 'Chieu nay giao cung duoc' vs 'dang doi ... gap'"
+    },
+    {
+      "id": "v4_0137614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137660",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137682",
+      "status": "F",
+      "reason": "urgent provided 0 corrected 1 supported by 'BAC BAO VE TRONG GIU XE TRUONG DANG DOI CON DAU GAP'"
+    },
+    {
+      "id": "v4_0137692",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137788",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137810",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137872",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137874",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0137901",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

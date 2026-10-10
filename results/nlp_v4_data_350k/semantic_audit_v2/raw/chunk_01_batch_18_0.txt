@@ -1,0 +1,52 @@
+v4_0008397	P	-
+v4_0008410	P	-
+v4_0008420	P	-
+v4_0008421	P	-
+v4_0008431	office/near/clinic	F	Goal provided -/anchor_near/clinic but text states recipient is can bo thu vien sat phong kham (office/near/clinic)
+v4_0008438	P	-
+v4_0008441	P	-
+v4_0008448	P	-
+v4_0008451	P	-
+v4_0008458	library/north_most/-	F	Goal provided -/north_most/- but text states recipient is ban quan ly thu vien o vi tri nam phia tren cung (library/north_most/-)
+v4_0008477	P	-
+v4_0008480	P	-
+v4_0008493	P	-
+v4_0008505	P	-
+v4_0008512	P	-
+v4_0008515	lab/east_most/-	F	Goal provided -/east_most/- but text specifies dem dung cu thi nghiem xuong tram nam tien sat ve phuong dong vuot troi (lab/east_most/-)
+v4_0008516	P	-
+v4_0008521	dorm/far/gate	U	Text specifies ban quan ly ky tuc xa o diem kiem soat the ra vao; unclear whether goal is gate or dorm, and lack of clear single entity
+v4_0008530	P	-
+v4_0008534	P	-
+v4_0008555	P	-
+v4_0008559	P	-
+v4_0008568	P	-
+v4_0008569	P	-
+v4_0008571	P	-
+v4_0008573	P	-
+v4_0008609	P	-
+v4_0008617	P	-
+v4_0008621	P	-
+v4_0008622	P	-
+v4_0008639	lecture/-/-	F	Goal provided lecture/-/- but text explicitly directs delivery to thay day the duc (sports/-/-) o phong hoc lon
+v4_0008651	P	-
+v4_0008656	P	-
+v4_0008660	P	-
+v4_0008670	P	-
+v4_0008675	P	-
+v4_0008683	P	-
+v4_0008684	office/near/dorm	F	Goal provided -/anchor_near/dorm but text specifies phong ke hoach dang doi tai cho sat vach khu nha o (office/near/dorm)
+v4_0008690	P	-
+v4_0008732	P	-
+v4_0008736	P	-
+v4_0008757	sports/near/dorm	F	Goal provided -/anchor_near/dorm but text specifies cau lac bo bong da o noi gan ke nha o sinh vien nhat (sports/near/dorm)
+v4_0008767	P	-
+v4_0008768	P	-
+v4_0008785	P	-
+v4_0008802	P	-
+v4_0008819	P	-
+v4_0008822	P	-
+v4_0008845	P	-
+v4_0008855	P	-
+
+STDERR:

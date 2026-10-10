@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0117126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117151",
+      "status": "F",
+      "reason": "goal type: provided 'parking', expected '-' (recipient is parking staff, but destination place type is unmentioned/no head place specified)"
+    },
+    {
+      "id": "v4_0117171",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117177",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117192",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117463",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117475",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117496",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117499",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117516",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117520",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0117597",
+      "status": "F",
+      "reason": "urgent: provided 0, expected 1 (text explicitly states 'dang doi thung hang gap')"
+    }
+  ]
+}

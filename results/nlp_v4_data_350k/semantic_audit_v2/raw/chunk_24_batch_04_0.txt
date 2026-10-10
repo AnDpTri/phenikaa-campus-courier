@@ -1,0 +1,52 @@
+v4_0231732	P	-
+v4_0231748	P	-
+v4_0231757	P	-
+v4_0231762	P	-
+v4_0231771	P	-
+v4_0231772	P	-
+v4_0231781	P	-
+v4_0231784	P	-
+v4_0231808	P	-
+v4_0231821	P	-
+v4_0231866	P	-
+v4_0231868	P	-
+v4_0231886	P	-
+v4_0231898	P	-
+v4_0231900	P	-
+v4_0231901	P	-
+v4_0231907	P	-
+v4_0231919	P	-
+v4_0231943	P	-
+v4_0231950	P	-
+v4_0231952	P	-
+v4_0231957	P	-
+v4_0231958	P	-
+v4_0231964	P	-
+v4_0231965	F	goal type: provided lecture, corrected - (tro giang / thay chu nhiem does not specify building type)
+v4_0231969	F	goal type: provided office, corrected - (nhan vien hanh chinh is recipient, no delivery location specified)
+v4_0231984	P	-
+v4_0232002	P	-
+v4_0232015	P	-
+v4_0232019	P	-
+v4_0232020	P	-
+v4_0232029	P	-
+v4_0232030	P	-
+v4_0232046	F	goal type: provided lecture, corrected - (nguoi nhan la giang vien, destination building type not specified)
+v4_0232064	F	goal type: provided office, corrected - (thu ky khoa is person, no building type specified)
+v4_0232069	P	-
+v4_0232080	P	-
+v4_0232090	P	-
+v4_0232105	P	-
+v4_0232114	P	-
+v4_0232144	P	-
+v4_0232147	P	-
+v4_0232171	P	-
+v4_0232186	P	-
+v4_0232188	P	-
+v4_0232196	F	goal type: provided lecture, corrected - (mau vat cua tro giang, destination building type not specified)
+v4_0232205	P	-
+v4_0232211	P	-
+v4_0232234	P	-
+v4_0232243	P	-
+
+STDERR:

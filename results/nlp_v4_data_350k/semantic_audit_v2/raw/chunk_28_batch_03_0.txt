@@ -1,0 +1,52 @@
+v4_0271043	P	-
+v4_0271045	P	-
+v4_0271047	P	-
+v4_0271050	P	-
+v4_0271052	P	-
+v4_0271070	F	via: expected '-' but provided 'office/-/-' ("can ghe khu hanh chinh truoc" but delivery is not canteen, "cho sat vach nha bep roi dem don hang can tra nha")
+v4_0271075	P	-
+v4_0271084	P	-
+v4_0271105	P	-
+v4_0271116	P	-
+v4_0271131	F	goal: expected 'office/-/-' but provided 'office/-/-' with contradictory text / ambiguous recipient ("o ktx o hong dao tao")
+v4_0271138	P	-
+v4_0271139	P	-
+v4_0271158	P	-
+v4_0271159	P	-
+v4_0271164	P	-
+v4_0271175	P	-
+v4_0271190	P	-
+v4_0271202	P	-
+v4_0271205	P	-
+v4_0271206	P	-
+v4_0271209	P	-
+v4_0271234	P	-
+v4_0271238	P	-
+v4_0271251	P	-
+v4_0271253	P	-
+v4_0271258	P	-
+v4_0271260	P	-
+v4_0271267	P	-
+v4_0271270	P	-
+v4_0271273	P	-
+v4_0271287	P	-
+v4_0271289	P	-
+v4_0271290	P	-
+v4_0271291	P	-
+v4_0271307	P	-
+v4_0271313	P	-
+v4_0271319	P	-
+v4_0271323	P	-
+v4_0271329	P	-
+v4_0271331	P	-
+v4_0271339	P	-
+v4_0271351	P	-
+v4_0271352	P	-
+v4_0271365	P	-
+v4_0271366	P	-
+v4_0271374	P	-
+v4_0271375	U	ambiguous extreme vs ordinary direction ("o cong trinh o le hpai trong khuon vien" indicates east/right, not necessarily east_most)
+v4_0271390	P	-
+v4_0271406	P	-
+
+STDERR:

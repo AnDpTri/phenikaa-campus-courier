@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0218015",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218026",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218216",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218360",
+      "status": "U",
+      "reason": "Contradictory or corrupted urgency phrase ('Dung alm roi' / 'Dung lam roi') conflicting with 'Cang nhanh cang tot'"
+    },
+    {
+      "id": "v4_0218366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218487",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218498",
+      "status": "U",
+      "reason": "Contradictory urgency phrase ('dung lam roi' vs not urgent)"
+    },
+    {
+      "id": "v4_0218512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0218528",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

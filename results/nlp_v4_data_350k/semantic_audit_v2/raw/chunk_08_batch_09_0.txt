@@ -1,0 +1,52 @@
+v4_0074264	P	-
+v4_0074275	P	-
+v4_0074284	F	goal is gate/north_most/- not -/north_most/- ("nhan vien an ninh truc cong chinh o cho chon o dat lech cao nhat ve huong bac cua campus dang cho giay moi")
+v4_0074285	P	-
+v4_0074286	P	-
+v4_0074297	P	-
+v4_0074300	P	-
+v4_0074306	P	-
+v4_0074316	P	-
+v4_0074335	P	-
+v4_0074338	P	-
+v4_0074343	P	-
+v4_0074347	P	-
+v4_0074363	P	-
+v4_0074388	P	-
+v4_0074396	P	-
+v4_0074416	P	-
+v4_0074417	P	-
+v4_0074434	F	goal is dorm/anchor_near/office not -/anchor_near/office ("bac bao ve truc toa nha noi tru o o o gan van phong truong nhat")
+v4_0074441	P	-
+v4_0074447	P	-
+v4_0074458	P	-
+v4_0074462	P	-
+v4_0074467	P	-
+v4_0074469	P	-
+v4_0074471	P	-
+v4_0074474	P	-
+v4_0074482	P	-
+v4_0074484	P	-
+v4_0074486	P	-
+v4_0074490	P	-
+v4_0074514	F	goal is dorm/anchor_near/canteen not -/anchor_near/canteen ("quan ly ktx o khu vuc nam gan khu an trua nhat")
+v4_0074521	P	-
+v4_0074534	P	-
+v4_0074549	P	-
+v4_0074553	P	-
+v4_0074560	P	-
+v4_0074561	P	-
+v4_0074574	P	-
+v4_0074578	F	goal is dorm/north_most/- not -/north_most/- ("ban quan ly ky tuc xa va chuyen sang toa nha o cao nhat")
+v4_0074582	P	-
+v4_0074588	P	-
+v4_0074591	P	-
+v4_0074594	P	-
+v4_0074599	P	-
+v4_0074600	P	-
+v4_0074603	P	-
+v4_0074604	P	-
+v4_0074611	P	-
+v4_0074614	P	-
+
+STDERR:

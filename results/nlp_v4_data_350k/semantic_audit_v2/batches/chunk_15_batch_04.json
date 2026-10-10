@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_15_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0141639",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141731",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'library' (\"ban quan ly thu vien o toa nha ngay canh y te truong\")"
+    },
+    {
+      "id": "v4_0141738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141786",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141812",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141893",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141896",
+      "status": "F",
+      "reason": "via ref: provided 'far' should be 'near' (\"tat qua bai do xa noi muon tra sach giao trinh\")"
+    },
+    {
+      "id": "v4_0141928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0141992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142007",
+      "status": "U",
+      "reason": "contradictory urgency phrases: \"ngay\" (urgent) vs \"khong vi phai nhanh\" (not urgent)"
+    },
+    {
+      "id": "v4_0142016",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142035",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142124",
+      "status": "F",
+      "reason": "goal ref: provided 'north_most' should be 'north' (\"can phong cuc bac cua ban do\" specifies extreme northern room, but building type is not captured as whole or ambiguous)"
+    },
+    {
+      "id": "v4_0142132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142208",
+      "status": "U",
+      "reason": "contradictory urgency phrases: \"ngay nhe\" vs \"uc nao ranh thi giao\""
+    },
+    {
+      "id": "v4_0142228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0142238",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

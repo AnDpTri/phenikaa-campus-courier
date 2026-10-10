@@ -1,0 +1,52 @@
+v4_0181025	P	-
+v4_0181030	P	-
+v4_0181037	P	-
+v4_0181040	P	-
+v4_0181061	P	-
+v4_0181072	P	-
+v4_0181078	P	-
+v4_0181098	P	-
+v4_0181121	P	-
+v4_0181131	P	-
+v4_0181161	P	-
+v4_0181167	P	-
+v4_0181174	F	goal type/ref/anchor: provided -/west_most/-, corrected canteen/-/- from 'Chi nau bep o vi tri ma o le tria dang cho goi do'
+v4_0181186	P	-
+v4_0181213	P	-
+v4_0181222	P	-
+v4_0181241	P	-
+v4_0181252	P	-
+v4_0181265	P	-
+v4_0181283	P	-
+v4_0181301	P	-
+v4_0181306	P	-
+v4_0181311	P	-
+v4_0181316	F	via type/ref/anchor: provided canteen/near/dorm, corrected canteen/-/- from 'Tat vao canteen cai ma gan khu nha o'
+v4_0181321	P	-
+v4_0181349	P	-
+v4_0181353	P	-
+v4_0181355	P	-
+v4_0181369	P	-
+v4_0181374	P	-
+v4_0181395	P	-
+v4_0181405	P	-
+v4_0181421	P	-
+v4_0181425	P	-
+v4_0181427	P	-
+v4_0181430	P	-
+v4_0181434	P	-
+v4_0181451	P	-
+v4_0181453	P	-
+v4_0181470	P	-
+v4_0181473	P	-
+v4_0181479	P	-
+v4_0181485	P	-
+v4_0181508	P	-
+v4_0181512	P	-
+v4_0181526	P	-
+v4_0181530	P	-
+v4_0181544	P	-
+v4_0181546	F	goal type/ref/anchor: provided library/-/-, corrected office/-/- from 'ban quan ly thu vine vua dat gio hoa qua'
+v4_0181552	P	-
+
+STDERR:

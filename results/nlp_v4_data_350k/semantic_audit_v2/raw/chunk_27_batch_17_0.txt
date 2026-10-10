@@ -1,0 +1,52 @@
+v4_0267914	P	-
+v4_0267916	P	-
+v4_0267919	P	-
+v4_0267923	P	-
+v4_0267927	P	-
+v4_0267951	P	-
+v4_0267962	P	-
+v4_0267976	P	-
+v4_0267977	P	-
+v4_0267982	P	-
+v4_0267985	P	-
+v4_0267993	P	-
+v4_0267999	P	-
+v4_0268015	P	-
+v4_0268016	P	-
+v4_0268026	P	-
+v4_0268038	P	-
+v4_0268056	P	-
+v4_0268069	P	-
+v4_0268070	P	-
+v4_0268073	P	-
+v4_0268079	P	-
+v4_0268083	U	Contradictory urgency phrases: 'cu tu tu, khong voi' vs 'dang doi hop thuoc gap'
+v4_0268092	P	-
+v4_0268106	P	-
+v4_0268114	P	-
+v4_0268137	P	-
+v4_0268139	P	-
+v4_0268143	P	-
+v4_0268152	P	-
+v4_0268159	P	-
+v4_0268176	P	-
+v4_0268178	P	-
+v4_0268201	P	-
+v4_0268212	P	-
+v4_0268214	F	urgent	0	1	'DEM TUI SO CUU QUA COGN TRUONG CHINH NGAY' demands immediate delivery (urgent=1)
+v4_0268233	P	-
+v4_0268235	P	-
+v4_0268236	P	-
+v4_0268244	P	-
+v4_0268245	P	-
+v4_0268246	P	-
+v4_0268256	P	-
+v4_0268301	U	Contradictory urgency phrases: 'Dung chan ... xong moi' without urgency vs 'dang doi kien hang gap'
+v4_0268308	P	-
+v4_0268351	P	-
+v4_0268361	P	-
+v4_0268368	P	-
+v4_0268372	P	-
+v4_0268377	P	-
+
+STDERR:

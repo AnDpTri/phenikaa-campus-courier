@@ -1,0 +1,52 @@
+v4_0027341	P	-
+v4_0027349	P	-
+v4_0027352	P	-
+v4_0027357	P	-
+v4_0027361	P	-
+v4_0027365	P	-
+v4_0027420	P	-
+v4_0027426	P	-
+v4_0027428	P	-
+v4_0027434	P	-
+v4_0027456	P	-
+v4_0027467	P	-
+v4_0027493	U	Text is heavily corrupted with garbled phrases ('tram st vach khong gan doc yen tinh tang tren')
+v4_0027495	P	-
+v4_0027507	P	-
+v4_0027527	P	-
+v4_0027535	P	-
+v4_0027541	P	-
+v4_0027544	P	-
+v4_0027549	P	-
+v4_0027553	P	-
+v4_0027562	P	-
+v4_0027568	P	-
+v4_0027574	P	-
+v4_0027593	P	-
+v4_0027615	P	-
+v4_0027620	P	-
+v4_0027645	P	-
+v4_0027655	P	-
+v4_0027660	P	-
+v4_0027664	P	-
+v4_0027669	P	-
+v4_0027672	P	-
+v4_0027675	P	-
+v4_0027677	P	-
+v4_0027688	P	-
+v4_0027703	P	-
+v4_0027708	P	-
+v4_0027718	P	-
+v4_0027739	P	-
+v4_0027752	P	-
+v4_0027757	P	-
+v4_0027769	P	-
+v4_0027771	P	-
+v4_0027772	P	-
+v4_0027779	P	-
+v4_0027781	P	-
+v4_0027783	U	Goal is specified only as a recipient role ('NGUOI NHAN LA GIANG VEIN') with no specific destination location or building type
+v4_0027787	P	-
+v4_0027804	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_20_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0195040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195053",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected -; text specifies toa hoc is recipient location but no destination type/ref/anchor specified or wait bep truoc o toa hoc"
+    },
+    {
+      "id": "v4_0195060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195113",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195225",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195410",
+      "status": "U",
+      "reason": "Pharse 'cham mco' is corrupted/unreadable required direction or room descriptor"
+    },
+    {
+      "id": "v4_0195421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195436",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195445",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0195472",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

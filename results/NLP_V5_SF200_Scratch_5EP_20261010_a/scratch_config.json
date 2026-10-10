@@ -1,0 +1,57 @@
+{
+  "name": "V5-SF200-Scratch-5Epochs",
+  "purpose": "Train from random initialization with the exact frozen Semantic Fusion weighted V4 generator that produced V5-SF200",
+  "generator_local_snapshot": "synth_weighted_v4.py",
+  "generator_sha256": "5379ebcb7083bf15488fe713fbe9378a27b57c7b4ea38ba538269960902e437a",
+  "v2_clone_sha256": "5fe3b442108b5d0da09cb3e0a44b9d032601723a9b5cfae2f848680b7baa30bb",
+  "epochs_per_seed": 5,
+  "model_seeds": [
+    20261008,
+    20268927,
+    20276846
+  ],
+  "synthetic_examples_per_epoch": 200000,
+  "real_train_repeat": 5,
+  "dim": 96,
+  "hidden": 192,
+  "batch_micro": 64,
+  "grad_accumulation": 2,
+  "effective_batch": 128,
+  "peak_lr": 0.002,
+  "weight_decay": 0.0001,
+  "onecycle_warmup_pct": 0.1,
+  "dropout": 0.2,
+  "gradient_clip": 1,
+  "loss": "sum of CrossEntropy over 8 heads",
+  "scheduler": "OneCycleLR across 5 epochs per seed",
+  "save_every_epoch": true,
+  "ensemble_three_seeds": true,
+  "train_synthetic_seeds": "2026110500 + 1000*seed_index + epoch_index",
+  "synthetic_recipe_weights": {
+    "v2_general": 42,
+    "contextual": 18,
+    "pickup_reasoning": 15,
+    "spatial_grounding": 12,
+    "instruction_revision": 9,
+    "distractor_negation": 4
+  },
+  "live_log_every_optimizer_steps": 200,
+  "diagnostic_synthetic_holdout": {
+    "v2": 1500,
+    "weighted": 1500,
+    "hard": 750
+  },
+  "diagnostic_policy": "DIAGNOSTICS ONLY. Fixed epoch 5 checkpoint (no official validation). No automatic test/assessment after training.",
+  "official_validation_access": false,
+  "official_test_access": false,
+  "training_data_path": "Phenikaa_Campus_Courier_2026_v3/delivery_public/train",
+  "data_generation": "200K fresh data per epoch; exact six quotas; accent-folded dedup across scratch train and previous V5 2x200K; all corpus outputs create-only",
+  "overfit_signals": [
+    "fixed probe loss per head",
+    "train-vs-heldout loss gap",
+    "heldout goal/via/all and via false positives",
+    "two consecutive epochs of increased diagnostic loss",
+    "train loss declining while diagnostic accuracy declines"
+  ],
+  "file_safety": "NEW dir results/NLP_V5_SF200_Scratch_5EP_20261010_a, create-only, original interrupted run preserved"
+}

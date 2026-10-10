@@ -1,0 +1,52 @@
+v4_0127628	P	-
+v4_0127629	U	anchor 'tram y' is truncated/incomplete word
+v4_0127646	F	via: provided sports/-/- vs corrected clinic/-/- ('Di qua phong ygm truoc' -> phong y te)
+v4_0127650	P	-
+v4_0127654	P	-
+v4_0127698	P	-
+v4_0127729	F	goal: provided -/anchor_near/gate vs corrected dorm/near/gate ('quan ly ktx o o ngay canh chot bao ve')
+v4_0127741	P	-
+v4_0127744	P	-
+v4_0127767	P	-
+v4_0127778	P	-
+v4_0127792	P	-
+v4_0127795	P	-
+v4_0127806	P	-
+v4_0127823	P	-
+v4_0127824	P	-
+v4_0127826	P	-
+v4_0127832	P	-
+v4_0127834	P	-
+v4_0127842	P	-
+v4_0127854	P	-
+v4_0127866	P	-
+v4_0127873	P	-
+v4_0127879	P	-
+v4_0127880	P	-
+v4_0127883	P	-
+v4_0127886	P	-
+v4_0127889	P	-
+v4_0127893	P	-
+v4_0127904	P	-
+v4_0127917	P	-
+v4_0127921	P	-
+v4_0127926	P	-
+v4_0127939	P	-
+v4_0127949	P	-
+v4_0127955	P	-
+v4_0127963	P	-
+v4_0127970	P	-
+v4_0127971	P	-
+v4_0127979	P	-
+v4_0127993	P	-
+v4_0127995	P	-
+v4_0128010	P	-
+v4_0128013	P	-
+v4_0128016	U	contradictory urgency cues ('dang doi ao dong phuc gap' vs 'khong vi phai nhanh')
+v4_0128018	P	-
+v4_0128028	P	-
+v4_0128047	P	-
+v4_0128081	P	-
+v4_0128089	P	-
+
+STDERR:

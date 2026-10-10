@@ -1,0 +1,81 @@
+{
+  "experiment": "fragile_holdout_lexical_swap_v1",
+  "timestamp": "2026-10-09T19:27:18.960656+00:00",
+  "n": 750,
+  "matched_swaps": 521,
+  "old_phrase_banks": [
+    "Lô hàng nhạy va chạm, phải tránh rung lắc.",
+    "Hàng này không nhạy va đập."
+  ],
+  "substituted_seen_phrase_banks": [
+    "Kiện này chứa vật dễ vỡ, cần chống va đập.",
+    "Đơn này không chứa vật dễ vỡ."
+  ],
+  "models": {
+    "epoch_1": {
+      "original": {
+        "n": 750,
+        "accuracy_all": 0.31066666666666665,
+        "fragile_accuracy": 0.556,
+        "fragile_true_n": 333,
+        "fragile_false_n": 417,
+        "fragile_true_correct": 0,
+        "fragile_false_correct": 417,
+        "fragile_true_predicted": 0,
+        "via_accuracy": 0.624,
+        "goal_accuracy": 0.7666666666666667,
+        "fragile_recall": 0.0,
+        "fragile_specificity": 1.0
+      },
+      "swapped_synonym": {
+        "n": 750,
+        "accuracy_all": 0.5106666666666667,
+        "fragile_accuracy": 1.0,
+        "fragile_true_n": 333,
+        "fragile_false_n": 417,
+        "fragile_true_correct": 333,
+        "fragile_false_correct": 417,
+        "fragile_true_predicted": 333,
+        "via_accuracy": 0.6253333333333333,
+        "goal_accuracy": 0.7666666666666667,
+        "fragile_recall": 1.0,
+        "fragile_specificity": 1.0
+      },
+      "delta_all": 0.2,
+      "delta_fragile_accuracy": 0.444
+    },
+    "epoch_2": {
+      "original": {
+        "n": 750,
+        "accuracy_all": 0.312,
+        "fragile_accuracy": 0.556,
+        "fragile_true_n": 333,
+        "fragile_false_n": 417,
+        "fragile_true_correct": 0,
+        "fragile_false_correct": 417,
+        "fragile_true_predicted": 0,
+        "via_accuracy": 0.616,
+        "goal_accuracy": 0.7786666666666666,
+        "fragile_recall": 0.0,
+        "fragile_specificity": 1.0
+      },
+      "swapped_synonym": {
+        "n": 750,
+        "accuracy_all": 0.528,
+        "fragile_accuracy": 1.0,
+        "fragile_true_n": 333,
+        "fragile_false_n": 417,
+        "fragile_true_correct": 333,
+        "fragile_false_correct": 417,
+        "fragile_true_predicted": 333,
+        "via_accuracy": 0.616,
+        "goal_accuracy": 0.7786666666666666,
+        "fragile_recall": 1.0,
+        "fragile_specificity": 1.0
+      },
+      "delta_all": 0.216,
+      "delta_fragile_accuracy": 0.444
+    }
+  },
+  "limitations": "Replaces only lexical evidence with semantically equivalent seen-bank phrases; a causal stress test, not proof of natural-language generalization."
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_03",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0261019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261129",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261349",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261381",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261398",
+      "status": "U",
+      "reason": "ban do is unreadable/ambiguous (map vs dirty/bottom vs typo)"
+    },
+    {
+      "id": "v4_0261401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261421",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261423",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0261434",
+      "status": "U",
+      "reason": "conflicting urgency: \"ngay giup em\" (urgent) vs \"khong can nhe tay\" (not fragile, but \"ngay\" indicates urgency conflict with urgent=0)"
+    }
+  ]
+}

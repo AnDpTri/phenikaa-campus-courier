@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0315092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315157",
+      "status": "U",
+      "reason": "\"can phong nao o hang adu tien\" co the la hang dau tien (north_most) hoac cot dau tien (west_most), gay mo ho vi tri cuc bien"
+    },
+    {
+      "id": "v4_0315175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315263",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315324",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315350",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315399",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315445",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315499",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0315579",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0165313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165320",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'lab' (\"acn bo phu trach phong thuc hanh o dia diem o cot cuoi\")"
+    },
+    {
+      "id": "v4_0165330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165394",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165422",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165545",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165549",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165555",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165565",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165659",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165727",
+      "status": "U",
+      "reason": "ambiguous goal reference: \"can phong hang xom cua khu ky tuc\" does not clearly determine anchor_near vs near vs a specific adjacent room"
+    },
+    {
+      "id": "v4_0165731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0165747",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

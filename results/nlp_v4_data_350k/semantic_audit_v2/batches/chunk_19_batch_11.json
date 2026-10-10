@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_19_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0184938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0184986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0184997",
+      "status": "F",
+      "reason": "goal type: provided lecture, corrected - (Nguoi nhan da roi noi giu xe roi. Thay giao dang cho thung carton, khong neu ro dia diem dich)"
+    },
+    {
+      "id": "v4_0185007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185029",
+      "status": "F",
+      "reason": "goal type: provided lab, corrected - (Nhom nghien cuu nho gui hop thuoc nhung khong neu ro dia diem dich den)"
+    },
+    {
+      "id": "v4_0185031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185037",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185073",
+      "status": "F",
+      "reason": "goal type: provided -, corrected clinic (bac si o tram it buoc nhat tu quay tra cuu luan van do an can may chieu)"
+    },
+    {
+      "id": "v4_0185085",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185097",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185098",
+      "status": "F",
+      "reason": "goal type: provided clinic, corrected - (the sinh vien la cua nhan vien y te nhung khong noi dia diem dich den la tram y te)"
+    },
+    {
+      "id": "v4_0185111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185132",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185151",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185238",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185263",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185301",
+      "status": "F",
+      "reason": "goal type: provided sports, corrected - (huan luyen vien can loa nhung khong co dia diem dich den)"
+    },
+    {
+      "id": "v4_0185309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185399",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185452",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0185507",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

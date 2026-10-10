@@ -1,0 +1,19 @@
+{
+  "N": 40000,
+  "seed": 2026100921,
+  "counts": {
+    "n": 40000,
+    "via_present": 18947,
+    "via_without_truoc": 8818,
+    "none_with_lay": 9246,
+    "accents": 23502
+  },
+  "tokens": {
+    "p50": 74,
+    "p90": 94,
+    "p99": 111,
+    "max": 137
+  },
+  "sha256": "6fa1fce1e2faf7d792c7625c5d65a8edbc6168cd3a2c3258db26177bdb59fcab",
+  "status": "PILOT_UNAUDITED_SEMANTICS"
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_33_batch_11",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0324947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0324986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325011",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325047",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'clinic' (nhan vien phong kham o toa nam xa nhat ve phia nam)"
+    },
+    {
+      "id": "v4_0325057",
+      "status": "U",
+      "reason": "Ambiguous goal: text mentions delivery of volleyball belonging to research group, but no explicit destination command/action or recipient location"
+    },
+    {
+      "id": "v4_0325068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325101",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'gate' (doi bao ve hien dnag o toa nao o mep tren cung)"
+    },
+    {
+      "id": "v4_0325109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325121",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325187",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'clinic' (nhan vien phong kham vua chuyen sang tram nam xa nhat ve phia dong)"
+    },
+    {
+      "id": "v4_0325193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325257",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325316",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325342",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'parking' (nhan vien trong xe dang doi gi do ati o sat canh noi muon tra sach)"
+    },
+    {
+      "id": "v4_0325358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325394",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325432",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0325514",
+      "status": "U",
+      "reason": "Ambiguous goal: mentions 'nguoi nhan la thay day the duc' without specifying destination building or explicit location to deliver to"
+    }
+  ]
+}

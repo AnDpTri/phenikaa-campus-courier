@@ -1,0 +1,52 @@
+v4_0271977	P	-
+v4_0271984	P	-
+v4_0271987	P	-
+v4_0272005	P	-
+v4_0272013	P	-
+v4_0272017	P	-
+v4_0272026	P	-
+v4_0272029	P	-
+v4_0272034	P	-
+v4_0272038	P	-
+v4_0272043	P	-
+v4_0272066	P	-
+v4_0272077	P	-
+v4_0272102	P	-
+v4_0272137	P	-
+v4_0272145	P	-
+v4_0272148	P	-
+v4_0272159	P	-
+v4_0272161	P	-
+v4_0272164	P	-
+v4_0272191	P	-
+v4_0272194	P	-
+v4_0272197	P	-
+v4_0272216	gate/-/-	canteen/-/-	office/-/-	dorm/-/-	F	goal type: provided dorm, text directs delivery to bac bao ve (head: gate) truc toa nha noi tru	
+v4_0272250	P	-
+v4_0272251	P	-
+v4_0272261	P	-
+v4_0272267	P	-
+v4_0272270	P	-
+v4_0272277	P	-
+v4_0272279	P	-
+v4_0272291	P	-
+v4_0272294	P	-
+v4_0272303	P	-
+v4_0272304	P	-
+v4_0272318	P	-
+v4_0272319	P	-
+v4_0272321	P	-
+v4_0272322	P	-
+v4_0272347	P	-
+v4_0272352	P	-
+v4_0272353	P	-
+v4_0272357	P	-
+v4_0272369	P	-
+v4_0272425	P	-
+v4_0272426	P	-
+v4_0272430	P	-
+v4_0272435	canteen/-/-	dorm/-/-	office/-/-	F	goal type: provided dorm, text specifies bep truong o day nha o sinh vien noi tru (head place: bep truong -> canteen)	
+v4_0272456	P	-
+v4_0272458	P	-
+
+STDERR:

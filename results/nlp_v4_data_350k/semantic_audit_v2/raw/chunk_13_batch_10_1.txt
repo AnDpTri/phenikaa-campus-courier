@@ -1,0 +1,52 @@
+v4_0124705	P	-
+v4_0124709	P	-
+v4_0124727	P	-
+v4_0124744	P	-
+v4_0124755	P	-
+v4_0124756	P	-
+v4_0124771	P	-
+v4_0124787	P	-
+v4_0124792	P	-
+v4_0124798	P	-
+v4_0124800	P	-
+v4_0124803	P	-
+v4_0124804	P	-
+v4_0124805	P	-
+v4_0124835	P	-
+v4_0124851	P	-
+v4_0124861	P	-
+v4_0124878	P	-
+v4_0124899	P	-
+v4_0124900	P	-
+v4_0124919	P	-
+v4_0124927	P	-
+v4_0124943	P	-
+v4_0124944	P	-
+v4_0124945	P	-
+v4_0124950	P	-
+v4_0124976	P	-
+v4_0125004	P	-
+v4_0125007	P	-
+v4_0125019	P	-
+v4_0125032	P	-
+v4_0125052	F	urgent provided 0 corrected 1 ("ngay")
+v4_0125070	P	-
+v4_0125076	P	-
+v4_0125078	P	-
+v4_0125090	P	-
+v4_0125118	P	-
+v4_0125139	P	-
+v4_0125146	P	-
+v4_0125151	P	-
+v4_0125164	F	goal provided sports/-/- corrected -/anchor_near/sports ("nguoi nhan la doi van dong vien" is recipient not location; no target place specified except implied sports role)
+v4_0125178	P	-
+v4_0125181	P	-
+v4_0125188	P	-
+v4_0125196	P	-
+v4_0125213	P	-
+v4_0125220	P	-
+v4_0125224	P	-
+v4_0125232	P	-
+v4_0125234	P	-
+
+STDERR:

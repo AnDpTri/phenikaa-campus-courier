@@ -1,0 +1,52 @@
+v4_0001015	P	-
+v4_0001017	P	-
+v4_0001021	P	-
+v4_0001025	P	-
+v4_0001040	P	-
+v4_0001044	P	-
+v4_0001058	P	-
+v4_0001064	P	-
+v4_0001093	P	-
+v4_0001115	P	-
+v4_0001127	P	-
+v4_0001140	P	-
+v4_0001146	P	-
+v4_0001147	F	goal type/ref/anchor provided -/anchor_near/dorm should be dorm/anchor_near/dorm (phong thu sat vach khu nha o sinh vien la dorm)
+v4_0001154	P	-
+v4_0001163	P	-
+v4_0001172	P	-
+v4_0001191	P	-
+v4_0001211	P	-
+v4_0001231	P	-
+v4_0001274	P	-
+v4_0001307	P	-
+v4_0001325	P	-
+v4_0001333	P	-
+v4_0001359	P	-
+v4_0001362	P	-
+v4_0001364	P	-
+v4_0001371	F	goal type/ref/anchor provided clinic/-/- should be -/-/- (giao trinh cua can bo y te khong chi dinh dia diem giao cu the)
+v4_0001372	P	-
+v4_0001388	P	-
+v4_0001390	U	Text bi cat ngon ngu / loi chinh ta nang "an co oxng noi giao hang tram di bo tu phong ke toan gan naht" khong ro via va goal
+v4_0001403	P	-
+v4_0001412	P	-
+v4_0001428	P	-
+v4_0001429	P	-
+v4_0001432	P	-
+v4_0001433	P	-
+v4_0001442	P	-
+v4_0001470	P	-
+v4_0001482	P	-
+v4_0001490	P	-
+v4_0001491	P	-
+v4_0001494	P	-
+v4_0001495	P	-
+v4_0001515	P	-
+v4_0001517	P	-
+v4_0001525	P	-
+v4_0001533	P	-
+v4_0001542	F	goal type/ref/anchor provided lab/-/- should be -/-/- (tro giang phong lab chi la nguoi dat hang, khong neu dia diem giao)
+v4_0001547	P	-
+
+STDERR:

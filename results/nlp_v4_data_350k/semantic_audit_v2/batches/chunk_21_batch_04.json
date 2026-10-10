@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0201699",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201760",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201780",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201783",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201820",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201825",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201842",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201844",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201848",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201875",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 (\"Thay Giao Dang Doi Khay Com Gap\")"
+    },
+    {
+      "id": "v4_0201894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201915",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201916",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201931",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201947",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201983",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0201999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202032",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202042",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202050",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202056",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202074",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202104",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202124",
+      "status": "U",
+      "reason": "\"xuong voi\" khong ro la phong thi nghiem hay loai dia diem nao khac"
+    },
+    {
+      "id": "v4_0202136",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202162",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202168",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202181",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 (\"dang doi qua bong gap\")"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "V9 focused semantic repair, paired training, independent challenge",
+  "created_utc": "2026-10-10T02:30:23.062734+00:00",
+  "seed": 202610102607,
+  "train": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v9_focused_urgent_via_train_v2.jsonl",
+  "challenge": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v9_focused_urgent_via_holdout_v2.jsonl",
+  "statistics": {
+    "training_candidates": {
+      "n": 960,
+      "counts": {
+        "urgent_pos": 424,
+        "via_pos": 394,
+        "fragile_pos": 348,
+        "accented": 680,
+        "urgent": 480,
+        "via": 480
+      },
+      "median_tokens": 50.0,
+      "p90_tokens": 54,
+      "sha256": "8cec9204c61c7f612ce2ef350c42d1fb3e91c02dc0f9b9f668566afd4194cb74"
+    },
+    "independent_holdout": {
+      "n": 192,
+      "counts": {
+        "urgent_pos": 88,
+        "via_pos": 70,
+        "fragile_pos": 66,
+        "accented": 122,
+        "urgent": 96,
+        "via": 96
+      },
+      "median_tokens": 51.0,
+      "p90_tokens": 56,
+      "sha256": "c56a8a49f55bb78dc9003ab86086f7feae8439b5aefc2f546efe2534ac0fa935"
+    }
+  },
+  "template_counts": {
+    "urgent_train": 12,
+    "via_train": 12,
+    "urgent_holdout": 6,
+    "via_holdout": 6
+  },
+  "limitations": [
+    "Automatically authored counterfactuals, NOT manually approved each row",
+    "Holdout uses separate templates but same construction system",
+    "No official val/test ever read",
+    "Some short and narrow named-target distribution",
+    "Train set must remain separate from both holdout and family challenge"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "candidate_counterfactual_v3",
+  "date_utc": "2026-10-09T19:31:11.578558+00:00",
+  "pairs": 1000,
+  "examples": 2000,
+  "via_rate": 0.5,
+  "active_via_with_cancelled_old": 500,
+  "p_via_given_marker": {
+    "lay": 0.6052,
+    "nhan": 0.5,
+    "huy": null,
+    "khong": 0.4905,
+    "truoc": 0.7525
+  },
+  "source": "candidate_data_v2.py read-only, evolved in memory only",
+  "sha256": "a056b64dbc804d23bcbdc5db64fac8593dccd70e32b439d9ab2c1c50bb300a17",
+  "source_notes": "Label contrast + explicit canceled former pickup while genuine current pickup stays active.",
+  "limitations": "Semantically reviewed by programmatic invariants, not human; named goals only; no active-run change."
+}

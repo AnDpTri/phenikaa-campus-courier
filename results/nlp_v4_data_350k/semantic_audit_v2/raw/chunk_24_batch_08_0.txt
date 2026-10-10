@@ -1,0 +1,52 @@
+v4_0233550	P	-
+v4_0233551	F	goal type/ref/anchor: provided -/anchor_near/lecture, corrected gate/near/lecture (toa sat khu hoc tap la cho ca truc bao ve)
+v4_0233554	P	-
+v4_0233567	F	goal type/ref/anchor: provided office/-/-, corrected parking/-/- (dang doi bom xe la hanh dong o bai xe, hoac dia diem chua ro la hanh chinh)
+v4_0233571	P	-
+v4_0233576	P	-
+v4_0233587	P	-
+v4_0233592	P	-
+v4_0233611	P	-
+v4_0233624	P	-
+v4_0233627	F	goal type/ref/anchor: provided -/east_most/-, corrected gate/east_most/- (nguoi gac cong o nut toa do vuon sang huong dong nhieu nhat)
+v4_0233629	P	-
+v4_0233641	P	-
+v4_0233648	P	-
+v4_0233690	P	-
+v4_0233704	P	-
+v4_0233705	P	-
+v4_0233716	P	-
+v4_0233721	P	-
+v4_0233742	P	-
+v4_0233745	P	-
+v4_0233752	P	-
+v4_0233754	P	-
+v4_0233758	P	-
+v4_0233768	P	-
+v4_0233769	P	-
+v4_0233775	P	-
+v4_0233797	P	-
+v4_0233800	P	-
+v4_0233809	P	-
+v4_0233841	P	-
+v4_0233849	P	-
+v4_0233851	P	-
+v4_0233862	P	-
+v4_0233880	P	-
+v4_0233896	P	-
+v4_0233899	P	-
+v4_0233925	U	khong co thong tin diem den cu the (chi noi lop truong nho gui ao dong phuc)
+v4_0233934	P	-
+v4_0233935	P	-
+v4_0233946	P	-
+v4_0233967	P	-
+v4_0233974	P	-
+v4_0233983	P	-
+v4_0234024	P	-
+v4_0234026	P	-
+v4_0234029	P	-
+v4_0234062	P	-
+v4_0234082	P	-
+v4_0234090	P	-
+
+STDERR:

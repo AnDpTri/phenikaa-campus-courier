@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_07_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0067053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067055",
+      "status": "F",
+      "reason": "goal type: provided '-' vs corrected 'lab' (ngoui phu trach phong thi nghiem o tram nao gan mep dui nhat dang cho bo vot)"
+    },
+    {
+      "id": "v4_0067063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067081",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067156",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067161",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067174",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067177",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067181",
+      "status": "F",
+      "reason": "goal type: provided '-' vs corrected 'gate' (muc tieu cong trinh o sat ben toa nha phong hoc ly thuyet)"
+    },
+    {
+      "id": "v4_0067191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067214",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067291",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067380",
+      "status": "F",
+      "reason": "goal type: provided '-' vs corrected 'gate' (Doi bao ve o noi nam gan phong cong vu nhat tren ban do can the giu xe)"
+    },
+    {
+      "id": "v4_0067392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067397",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067437",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067490",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067531",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0067551",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

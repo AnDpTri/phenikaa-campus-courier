@@ -1,0 +1,52 @@
+v4_0035806	P	-
+v4_0035819	P	-
+v4_0035825	F	goal: provided -/anchor_near/gate, corrected gate/south_most/- ('ke cong b hat')
+v4_0035829	P	-
+v4_0035843	P	-
+v4_0035846	P	-
+v4_0035854	P	-
+v4_0035883	P	-
+v4_0035912	P	-
+v4_0035913	P	-
+v4_0035914	P	-
+v4_0035915	P	-
+v4_0035926	P	-
+v4_0035939	P	-
+v4_0035941	P	-
+v4_0035950	P	-
+v4_0035952	P	-
+v4_0035954	P	-
+v4_0035965	P	-
+v4_0035968	P	-
+v4_0035972	P	-
+v4_0035975	P	-
+v4_0035978	P	-
+v4_0035992	P	-
+v4_0036013	P	-
+v4_0036033	P	-
+v4_0036034	P	-
+v4_0036037	P	-
+v4_0036051	P	-
+v4_0036053	P	-
+v4_0036057	P	-
+v4_0036063	P	-
+v4_0036078	P	-
+v4_0036084	P	-
+v4_0036090	P	-
+v4_0036091	P	-
+v4_0036096	P	-
+v4_0036100	P	-
+v4_0036101	P	-
+v4_0036109	P	-
+v4_0036138	P	-
+v4_0036154	P	-
+v4_0036163	P	-
+v4_0036165	P	-
+v4_0036178	P	-
+v4_0036188	P	-
+v4_0036205	P	-
+v4_0036221	P	-
+v4_0036226	F	via: provided library/near/sports, corrected library/anchor_near/sports ('noi muon rta sach giao trih gan phia san bong ro nhat')
+v4_0036252	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0215121	P	-
+v4_0215129	P	-
+v4_0215138	P	-
+v4_0215148	P	-
+v4_0215149	P	-
+v4_0215161	P	-
+v4_0215199	P	-
+v4_0215210	P	-
+v4_0215217	P	-
+v4_0215218	P	-
+v4_0215225	P	-
+v4_0215232	P	-
+v4_0215243	P	-
+v4_0215250	P	-
+v4_0215253	P	-
+v4_0215262	P	-
+v4_0215275	P	-
+v4_0215285	P	-
+v4_0215288	P	-
+v4_0215295	P	-
+v4_0215300	P	-
+v4_0215329	P	-
+v4_0215332	P	-
+v4_0215336	P	-
+v4_0215344	P	-
+v4_0215349	P	-
+v4_0215357	P	-
+v4_0215362	P	-
+v4_0215384	P	-
+v4_0215406	P	-
+v4_0215438	P	-
+v4_0215459	P	-
+v4_0215506	P	-
+v4_0215515	P	-
+v4_0215541	F	goal type: provided 'gate' should be '-' ('nguoi nhan la bac bao ve', recipient workplace/role does not define goal type without location)
+v4_0215562	P	-
+v4_0215563	P	-
+v4_0215571	P	-
+v4_0215580	P	-
+v4_0215585	P	-
+v4_0215586	P	-
+v4_0215593	P	-
+v4_0215605	P	-
+v4_0215613	P	-
+v4_0215616	F	goal type: provided 'parking' should be '-' ('Bac Giu Xe Dang Cho Micro Khogn Day', recipient person not head place destination)
+v4_0215635	P	-
+v4_0215646	P	-
+v4_0215659	P	-
+v4_0215669	P	-
+v4_0215685	P	-
+
+STDERR:

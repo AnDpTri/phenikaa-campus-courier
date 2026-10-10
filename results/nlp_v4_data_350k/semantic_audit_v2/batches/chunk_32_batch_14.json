@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0316443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316448",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'office' (bo phan mot cua giai qyet ho so)"
+    },
+    {
+      "id": "v4_0316455",
+      "status": "U",
+      "reason": "\"Le Pai\" la tu bi loi chinh ta hoac khong ro nghia de xac dinh huong east_most"
+    },
+    {
+      "id": "v4_0316468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316499",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316501",
+      "status": "U",
+      "reason": "Mau thuan urgent: \"mai giao cung duoc\" doi lap voi \"nhan vien phong kham dang doi bo tai lieu gap\""
+    },
+    {
+      "id": "v4_0316502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316549",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316558",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316672",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316736",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316774",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316778",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316787",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'parking' (nguoi trong xe)"
+    },
+    {
+      "id": "v4_0316794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316870",
+      "status": "U",
+      "reason": "\"o cuoi ban do\" mo ho giua south_most va east_most"
+    },
+    {
+      "id": "v4_0316887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316893",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0316950",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

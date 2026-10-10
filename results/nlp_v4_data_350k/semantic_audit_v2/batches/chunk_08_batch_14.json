@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_08_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0076441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076509",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076518",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076601",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076609",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076644",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076666",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076711",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076736",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076781",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076792",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0076870",
+      "status": "U",
+      "reason": "Ambiguous destination: \"nhan vien phong doc nho gui ve xe cu\" does not clearly specify delivering to library vs parking."
+    }
+  ]
+}

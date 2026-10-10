@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_28_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0275290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275314",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275321",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275393",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275519",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275626",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275645",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275721",
+      "status": "F",
+      "reason": "goal type/ref/anchor: provided -/anchor_near/office, corrected lab/near/office (thung nuoc ong cho can bo phong thi nghiem o cho gan khu hanh chinh hon tat ca)"
+    },
+    {
+      "id": "v4_0275738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0275745",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0300463	P	-
+v4_0300467	F	urgent: provided 0, expected 1 ("can gap don hang can tra truoc cua khu vuc trong giu xe")
+v4_0300474	P	-
+v4_0300480	U	Mau thuan ve tinh khan cap: "can gap thung nuoc uong" doi lap voi "chieu nay giao cung duoc"
+v4_0300498	P	-
+v4_0300503	U	Mau thuan / khong ro cuc tri: "toa nao nao o mep phai" la east hay east_most
+v4_0300532	P	-
+v4_0300535	P	-
+v4_0300540	P	-
+v4_0300546	P	-
+v4_0300549	P	-
+v4_0300552	P	-
+v4_0300558	P	-
+v4_0300576	P	-
+v4_0300578	P	-
+v4_0300599	P	-
+v4_0300601	P	-
+v4_0300605	P	-
+v4_0300607	P	-
+v4_0300624	P	-
+v4_0300627	P	-
+v4_0300632	P	-
+v4_0300657	P	-
+v4_0300661	P	-
+v4_0300664	P	-
+v4_0300666	P	-
+v4_0300692	P	-
+v4_0300703	P	-
+v4_0300709	P	-
+v4_0300713	P	-
+v4_0300714	P	-
+v4_0300720	P	-
+v4_0300728	P	-
+v4_0300739	P	-
+v4_0300749	P	-
+v4_0300758	P	-
+v4_0300792	P	-
+v4_0300798	P	-
+v4_0300812	P	-
+v4_0300828	P	-
+v4_0300839	P	-
+v4_0300852	P	-
+v4_0300853	P	-
+v4_0300855	P	-
+v4_0300872	P	-
+v4_0300881	P	-
+v4_0300885	P	-
+v4_0300889	P	-
+v4_0300897	P	-
+v4_0300937	P	-
+
+STDERR:

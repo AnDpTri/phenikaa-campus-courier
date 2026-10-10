@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_35_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0348458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348464",
+      "status": "F",
+      "reason": "goal: lab/-/- -> parking/near/lab (\"bac giu xe o pong thuc hanh can sach tham khao\")"
+    },
+    {
+      "id": "v4_0348465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348514",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348537",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348614",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348704",
+      "status": "U",
+      "reason": "ambiguous location description (\"khu vuc nao o dau ban do\" could mean north_most or start/top)"
+    },
+    {
+      "id": "v4_0348706",
+      "status": "U",
+      "reason": "unreadable/garbled required information (\"toa ma o ria tri\")"
+    },
+    {
+      "id": "v4_0348715",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348729",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348746",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348767",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348852",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348894",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348921",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348952",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0348998",
+      "status": "F",
+      "reason": "goal: -/anchor_near/canteen -> canteen/-/- (\"dua bep nau com trua sinh vien dang doi nguyen lieu nau an tai tram di bo tu khu bep gan nhat\")"
+    },
+    {
+      "id": "v4_0349013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0349021",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

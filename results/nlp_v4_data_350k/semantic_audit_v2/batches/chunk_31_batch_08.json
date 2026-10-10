@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_31_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0303562",
+      "status": "F",
+      "reason": "goal type mismatch: provided '-' but text specifies 'lab' ('tro giang lab o cho ma o cot ngoai cung ben trai') -> lab/west_most/-"
+    },
+    {
+      "id": "v4_0303568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303581",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303593",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303728",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303789",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303819",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303826",
+      "status": "F",
+      "reason": "goal type mismatch: provided '-' but text specifies 'office' ('can bo hanh chinh o chon noi co lo trinh toi phong kham... ngan hon tat ca') -> office/anchor_near/clinic"
+    },
+    {
+      "id": "v4_0303836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303877",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303891",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303924",
+      "status": "F",
+      "reason": "via ref mismatch: provided '-' but text specifies 'east_most' ('van phong khoa nhat o cugn' = east_most) -> office/east_most/-"
+    },
+    {
+      "id": "v4_0303927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303937",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303952",
+      "status": "F",
+      "reason": "via ref mismatch: provided 'east' but text specifies 'east_most' ('cong truong phia dong nhat') -> gate/east_most/-"
+    },
+    {
+      "id": "v4_0303963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303991",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0303996",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0304010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0304016",
+      "status": "F",
+      "reason": "goal ref mismatch: provided 'north_most' but text specifies 'row 1 / north_most' while label is -/north_most/- (wait, 'hang dau' is row 1 = north_most). Let's check: 'chuyen nay di dia diem ma o hang dau' -> -/north_most/- matches label. Reason: P."
+    },
+    {
+      "id": "v4_0304020",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

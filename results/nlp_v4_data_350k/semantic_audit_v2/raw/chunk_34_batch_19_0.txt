@@ -1,0 +1,52 @@
+v4_0338946	P	-
+v4_0338960	P	-
+v4_0338962	P	-
+v4_0338967	P	-
+v4_0338970	P	-
+v4_0338986	P	-
+v4_0338987	P	-
+v4_0339011	P	-
+v4_0339022	P	-
+v4_0339025	P	-
+v4_0339026	F	goal type/ref/anchor provided -/south_most/- should be parking/south_most/- (dia diem o ahng cuoi bom xe asng)
+v4_0339039	P	-
+v4_0339076	P	-
+v4_0339079	P	-
+v4_0339082	P	-
+v4_0339086	F	goal type/ref/anchor provided -/south_most/- should be parking/south_most/- (nhan vien bia xe o cong trinh o coi ban do)
+v4_0339091	P	-
+v4_0339096	P	-
+v4_0339111	P	-
+v4_0339112	P	-
+v4_0339116	P	-
+v4_0339136	P	-
+v4_0339142	P	-
+v4_0339174	P	-
+v4_0339176	P	-
+v4_0339179	P	-
+v4_0339189	P	-
+v4_0339195	P	-
+v4_0339247	P	-
+v4_0339258	P	-
+v4_0339271	P	-
+v4_0339275	P	-
+v4_0339285	P	-
+v4_0339297	P	-
+v4_0339314	P	-
+v4_0339341	P	-
+v4_0339375	P	-
+v4_0339376	P	-
+v4_0339388	P	-
+v4_0339389	P	-
+v4_0339391	P	-
+v4_0339401	P	-
+v4_0339417	P	-
+v4_0339422	P	-
+v4_0339429	P	-
+v4_0339454	P	-
+v4_0339467	P	-
+v4_0339468	P	-
+v4_0339489	P	-
+v4_0339501	P	-
+
+STDERR:

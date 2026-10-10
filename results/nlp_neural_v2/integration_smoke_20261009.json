@@ -1,0 +1,86 @@
+{
+  "split": "validation",
+  "scenes": 2,
+  "strategy_artifact": "artifacts\\solver\\candidate_strategy_trainval.joblib",
+  "nlp_model": "artifacts\\nlp\\neural_parser_v2.pt",
+  "nlp_thresholds": {
+    "goal": 0.8,
+    "via": 2.0,
+    "flags": 2.0
+  },
+  "print_detector": null,
+  "map_aware": true,
+  "repair_enabled": true,
+  "nlp_sources": {
+    "oracle_map": {},
+    "cv_map": {}
+  },
+  "seconds": 2.430474900000263,
+  "cv_scene_exact": 0.5,
+  "scenarios": {
+    "oracle": {
+      "macro_accuracy": 0.6,
+      "per_robot": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.0,
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "failures": {}
+    },
+    "nlp_only": {
+      "macro_accuracy": 0.6,
+      "per_robot": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.0,
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "failures": {}
+    },
+    "cv_only": {
+      "macro_accuracy": 0.6,
+      "per_robot": [
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.5
+      ],
+      "failures": {}
+    },
+    "full": {
+      "macro_accuracy": 0.6,
+      "per_robot": [
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.5
+      ],
+      "failures": {}
+    }
+  }
+}

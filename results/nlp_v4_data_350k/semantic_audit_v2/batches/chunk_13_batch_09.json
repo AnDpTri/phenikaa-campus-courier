@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_13_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0124234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124266",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124293",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124304",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124406",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124415",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124427",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124450",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124544",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124567",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124568",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124620",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124629",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124641",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124646",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('gap')"
+    },
+    {
+      "id": "v4_0124647",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124686",
+      "status": "U",
+      "reason": "ambiguous recipient/destination: 'nguoi gac cong o vi tri nam o duoi cung' vs missing predicate/garbled clause"
+    },
+    {
+      "id": "v4_0124688",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0124703",
+      "status": "U",
+      "reason": "ambiguous destination: 'giao vien the duc nho gui op thuo.c' lacks explicit delivery location"
+    }
+  ]
+}

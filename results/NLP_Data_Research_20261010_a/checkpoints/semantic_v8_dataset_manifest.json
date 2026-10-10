@@ -1,0 +1,234 @@
+{
+  "name": "semantic_v8_mixed_lexical_counterfactuals",
+  "created_utc": "2026-10-09T22:48:00.805891+00:00",
+  "seed": 2026101088,
+  "total_rows": 12800,
+  "total_scenes": 1600,
+  "split_families": {
+    "candidate_train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "family_challenge": [
+      6,
+      7
+    ]
+  },
+  "cue_invariance": [
+    "khong",
+    "huy",
+    "nhan",
+    "lay",
+    "truoc",
+    "sau",
+    "gap",
+    "khan",
+    "vo",
+    "nhay"
+  ],
+  "splits": {
+    "candidate_train": {
+      "rows": 9600,
+      "groups": 1200,
+      "rich_groups": 606,
+      "mild_groups": 594,
+      "regime_groups": {
+        "plain": 402,
+        "cancelled": 402,
+        "revision": 396
+      },
+      "accented_fraction": 0.5467,
+      "label_positive_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "cue_conditional": {
+        "khong": {
+          "support": 4832,
+          "prevalence": 0.5033,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 5336,
+          "prevalence": 0.5558,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 7752,
+          "prevalence": 0.8075,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "lay": {
+          "support": 8000,
+          "prevalence": 0.8333,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 4040,
+          "prevalence": 0.4208,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "sau": {
+          "support": 2288,
+          "prevalence": 0.2383,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 4800,
+          "prevalence": 0.5,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "khan": {
+          "support": 3200,
+          "prevalence": 0.3333,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "vo": {
+          "support": 4800,
+          "prevalence": 0.5,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 1600,
+          "prevalence": 0.1667,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "sha256": "a2bcee3a9e815644128d966b514e3d631b44dc8b746500a14e1b0d09f755ac09",
+      "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v8_balanced_train.jsonl"
+    },
+    "family_challenge": {
+      "rows": 3200,
+      "groups": 400,
+      "rich_groups": 202,
+      "mild_groups": 198,
+      "regime_groups": {
+        "plain": 134,
+        "cancelled": 134,
+        "revision": 132
+      },
+      "accented_fraction": 0.5675,
+      "label_positive_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "cue_conditional": {
+        "khong": {
+          "support": 1664,
+          "prevalence": 0.52,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 1608,
+          "prevalence": 0.5025,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 3200,
+          "prevalence": 1.0,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "lay": {
+          "support": 2136,
+          "prevalence": 0.6675,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 800,
+          "prevalence": 0.25,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "sau": {
+          "support": 1912,
+          "prevalence": 0.5975,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 0,
+          "prevalence": 0.0,
+          "via": null,
+          "urgent": null,
+          "fragile": null
+        },
+        "khan": {
+          "support": 1600,
+          "prevalence": 0.5,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "vo": {
+          "support": 1600,
+          "prevalence": 0.5,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 1600,
+          "prevalence": 0.5,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "sha256": "cc2a89c5d7e2fcdae0854b96f4e90696ca3edb3c5855ee019c7f3e3eba9c0d86",
+      "file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v8_family_challenge.jsonl"
+    }
+  },
+  "qa": [
+    "8 combinations per scene",
+    "3 instruction regimes",
+    "both negation-rich and normal no-negation template styles",
+    "invariant cue presence across 8 labels for each scene",
+    "no duplicate normalized text",
+    "bounded text length",
+    "typed labels"
+  ],
+  "limitations": [
+    "No human linguistic audit",
+    "No training-based efficacy check yet",
+    "Heldout families use familiar semantic concepts",
+    "Some spatial targets use negation intrinsically",
+    "All writes confined to research workspace"
+  ],
+  "elapsed_s": 12.0
+}

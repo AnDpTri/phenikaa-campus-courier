@@ -1,0 +1,52 @@
+v4_0067053	P	-
+v4_0067055	F	goal type: provided '-' vs corrected 'lab' (ngoui phu trach phong thi nghiem o tram nao gan mep dui nhat dang cho bo vot)
+v4_0067063	P	-
+v4_0067081	P	-
+v4_0067126	P	-
+v4_0067127	P	-
+v4_0067137	P	-
+v4_0067148	P	-
+v4_0067156	P	-
+v4_0067161	P	-
+v4_0067166	P	-
+v4_0067174	P	-
+v4_0067177	P	-
+v4_0067181	F	goal type: provided '-' vs corrected 'gate' (muc tieu cong trinh o sat ben toa nha phong hoc ly thuyet)
+v4_0067191	P	-
+v4_0067198	P	-
+v4_0067214	P	-
+v4_0067220	P	-
+v4_0067234	P	-
+v4_0067236	P	-
+v4_0067247	P	-
+v4_0067252	P	-
+v4_0067261	P	-
+v4_0067265	P	-
+v4_0067278	P	-
+v4_0067291	P	-
+v4_0067330	P	-
+v4_0067373	P	-
+v4_0067380	F	goal type: provided '-' vs corrected 'gate' (Doi bao ve o noi nam gan phong cong vu nhat tren ban do can the giu xe)
+v4_0067392	P	-
+v4_0067397	P	-
+v4_0067400	P	-
+v4_0067404	P	-
+v4_0067415	P	-
+v4_0067426	P	-
+v4_0067429	P	-
+v4_0067437	P	-
+v4_0067443	P	-
+v4_0067449	P	-
+v4_0067465	P	-
+v4_0067473	P	-
+v4_0067486	P	-
+v4_0067490	P	-
+v4_0067498	P	-
+v4_0067502	P	-
+v4_0067513	P	-
+v4_0067531	P	-
+v4_0067541	P	-
+v4_0067546	P	-
+v4_0067551	P	-
+
+STDERR:

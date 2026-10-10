@@ -1,0 +1,52 @@
+v4_0117126	P	-
+v4_0117130	P	-
+v4_0117151	F	goal type: provided 'parking', expected '-' (recipient is parking staff, but destination place type is unmentioned/no head place specified)
+v4_0117171	P	-
+v4_0117177	P	-
+v4_0117187	P	-
+v4_0117189	P	-
+v4_0117192	P	-
+v4_0117213	P	-
+v4_0117253	P	-
+v4_0117267	P	-
+v4_0117274	P	-
+v4_0117284	P	-
+v4_0117297	P	-
+v4_0117304	P	-
+v4_0117320	P	-
+v4_0117322	P	-
+v4_0117325	P	-
+v4_0117328	P	-
+v4_0117344	P	-
+v4_0117349	P	-
+v4_0117358	P	-
+v4_0117364	P	-
+v4_0117367	P	-
+v4_0117377	P	-
+v4_0117397	P	-
+v4_0117417	P	-
+v4_0117421	P	-
+v4_0117424	P	-
+v4_0117425	P	-
+v4_0117433	P	-
+v4_0117443	P	-
+v4_0117459	P	-
+v4_0117463	P	-
+v4_0117467	P	-
+v4_0117475	P	-
+v4_0117496	P	-
+v4_0117499	P	-
+v4_0117511	P	-
+v4_0117514	P	-
+v4_0117516	P	-
+v4_0117520	P	-
+v4_0117525	P	-
+v4_0117526	P	-
+v4_0117537	P	-
+v4_0117540	P	-
+v4_0117541	P	-
+v4_0117587	P	-
+v4_0117592	P	-
+v4_0117597	F	urgent: provided 0, expected 1 (text explicitly states 'dang doi thung hang gap')
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0164256	U	Cụm từ chỉ hướng bị lỗi chính tả/mất từ ("phia an trung tam hi nghiem") không rõ ràng
+v4_0164280	P	-
+v4_0164295	U	Người nhận là y tá nhưng chưa nêu rõ địa điểm đích đến cụ thể (chỉ nhắc may tinh bang la cua y ta)
+v4_0164297	P	-
+v4_0164319	F	via gate/near/office -> gate/-/- (cong truong chinh ngay gan bo phan mot cua giai quyet ho so, mot cua la office chu khong co hai cong de so sanh gan/xa)
+v4_0164336	P	-
+v4_0164360	P	-
+v4_0164379	P	-
+v4_0164396	P	-
+v4_0164407	P	-
+v4_0164409	P	-
+v4_0164416	P	-
+v4_0164418	P	-
+v4_0164425	P	-
+v4_0164436	P	-
+v4_0164438	P	-
+v4_0164454	P	-
+v4_0164455	P	-
+v4_0164459	P	-
+v4_0164461	P	-
+v4_0164472	P	-
+v4_0164500	P	-
+v4_0164535	U	Khong noi ro dia diem giao (chi bao mang laptop toi cho lop truong ma khong neu toa nha/phong nao)
+v4_0164539	P	-
+v4_0164541	P	-
+v4_0164543	P	-
+v4_0164557	P	-
+v4_0164573	P	-
+v4_0164586	P	-
+v4_0164609	P	-
+v4_0164622	P	-
+v4_0164626	P	-
+v4_0164632	P	-
+v4_0164639	P	-
+v4_0164640	P	-
+v4_0164653	P	-
+v4_0164660	P	-
+v4_0164681	P	-
+v4_0164691	P	-
+v4_0164697	P	-
+v4_0164719	P	-
+v4_0164721	U	Khong de cap den dia diem giao hang cu the (chi noi nguoi nhan la doi bong)
+v4_0164747	P	-
+v4_0164769	P	-
+v4_0164770	P	-
+v4_0164773	P	-
+v4_0164789	P	-
+v4_0164797	P	-
+v4_0164803	P	-
+v4_0164811	P	-
+
+STDERR:

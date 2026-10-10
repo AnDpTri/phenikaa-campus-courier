@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_02",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0310464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310465",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310476",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310494",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310500",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310501",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310552",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310577",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310587",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310605",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310606",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310644",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310649",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310683",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310709",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310719",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310743",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310755",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310794",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310839",
+      "status": "F",
+      "reason": "goal type parking should be - supported by 'Bac giu xe dang cho goi do' without specified building type"
+    },
+    {
+      "id": "v4_0310847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310863",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310876",
+      "status": "F",
+      "reason": "goal type clinic should be - supported by 'CAN BO Y TE NO GUI PHONG BI CONG VAN'"
+    },
+    {
+      "id": "v4_0310892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310897",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0310914",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

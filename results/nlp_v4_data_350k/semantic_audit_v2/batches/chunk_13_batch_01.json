@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_13_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0120050",
+      "status": "U",
+      "reason": "Text says 'ast diem kiem soat' which is corrupted/garbled for via ref/relation (near vs far vs east/west)"
+    },
+    {
+      "id": "v4_0120052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120100",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120139",
+      "status": "U",
+      "reason": "Text corrupted/garbled in via phrase 'ota na hanh chinh quan ly truong o xa tram xa' and goal 'lpo dang hoc no'"
+    },
+    {
+      "id": "v4_0120141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120145",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120171",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120377",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120393",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120422",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120438",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120504",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0120561",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

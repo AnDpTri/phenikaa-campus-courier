@@ -1,0 +1,52 @@
+v4_0272914	P	-
+v4_0272920	F	goal type: provided lab, corrected lecture ("DUNG CHAN O GIANG DUONG CHINH LY MICRO KHONG AY ORI BO VOT CAN DUOC CHO XUONG XUONG NHANH NHAT CO THE")
+v4_0272921	P	-
+v4_0272940	P	-
+v4_0272960	P	-
+v4_0272966	P	-
+v4_0272977	P	-
+v4_0272986	P	-
+v4_0272988	P	-
+v4_0273002	P	-
+v4_0273025	P	-
+v4_0273029	P	-
+v4_0273037	P	-
+v4_0273044	P	-
+v4_0273047	P	-
+v4_0273060	P	-
+v4_0273061	P	-
+v4_0273066	P	-
+v4_0273068	P	-
+v4_0273069	P	-
+v4_0273085	P	-
+v4_0273087	P	-
+v4_0273092	P	-
+v4_0273108	P	-
+v4_0273112	P	-
+v4_0273133	P	-
+v4_0273138	P	-
+v4_0273153	P	-
+v4_0273157	P	-
+v4_0273163	P	-
+v4_0273181	P	-
+v4_0273183	P	-
+v4_0273184	P	-
+v4_0273190	P	-
+v4_0273219	P	-
+v4_0273227	P	-
+v4_0273234	P	-
+v4_0273241	P	-
+v4_0273252	P	-
+v4_0273254	P	-
+v4_0273257	P	-
+v4_0273278	P	-
+v4_0273284	P	-
+v4_0273285	F	goal type: provided parking, corrected - ("nguoi nhan la nguoi trong xe" specifies recipient role, not destination building type)
+v4_0273297	P	-
+v4_0273329	P	-
+v4_0273330	P	-
+v4_0273350	P	-
+v4_0273354	P	-
+v4_0273362	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_17_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0160012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160029",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160044",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160071",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160163",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160185",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160394",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160420",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160422",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160440",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160478",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160492",
+      "status": "F",
+      "reason": "goal type: provided 'clinic', expected 'office' ('y ta dang cho hop khau trang' but context shows destination not clearly clinic vs general recipient, wait, recipient y ta is clinic)"
+    },
+    {
+      "id": "v4_0160508",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0160512",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

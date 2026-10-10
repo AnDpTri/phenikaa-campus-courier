@@ -1,0 +1,52 @@
+v4_0246566	P	-
+v4_0246578	P	-
+v4_0246592	P	-
+v4_0246601	P	-
+v4_0246611	P	-
+v4_0246618	P	-
+v4_0246621	P	-
+v4_0246645	P	-
+v4_0246656	P	-
+v4_0246659	P	-
+v4_0246678	P	-
+v4_0246682	P	-
+v4_0246689	P	-
+v4_0246693	P	-
+v4_0246696	P	-
+v4_0246697	P	-
+v4_0246698	P	-
+v4_0246706	P	-
+v4_0246722	P	-
+v4_0246723	P	-
+v4_0246737	P	-
+v4_0246740	P	-
+v4_0246746	P	-
+v4_0246750	P	-
+v4_0246754	F	goal type: provided '-', expected 'lab' (dem giao trinh cho tro giang phong lab o tram sat san thi dau)
+v4_0246768	P	-
+v4_0246791	P	-
+v4_0246801	P	-
+v4_0246807	P	-
+v4_0246809	P	-
+v4_0246819	P	-
+v4_0246823	P	-
+v4_0246827	P	-
+v4_0246833	P	-
+v4_0246834	P	-
+v4_0246837	P	-
+v4_0246870	P	-
+v4_0246891	P	-
+v4_0246910	P	-
+v4_0246919	P	-
+v4_0246923	P	-
+v4_0246936	P	-
+v4_0246939	F	goal type: provided 'office', expected '-' (ve xe la cua chuyen vien: ve xe is item, chuyen vien is recipient/owner, no destination specified)
+v4_0246940	P	-
+v4_0246951	P	-
+v4_0246953	P	-
+v4_0246954	P	-
+v4_0246955	P	-
+v4_0246961	P	-
+v4_0247003	P	-
+
+STDERR:

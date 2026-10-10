@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_19",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0119017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119035",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119043",
+      "status": "F",
+      "reason": "urgent: provided 1, corrected 0 based on 'can trong 5 phut' meaning deadline within 5 min vs non-urgent? Wait, 'can trong 5 phut' is urgent, but 'dung cu tap luyen gui ra cong ra vao' -> gate/-/-. Let's re-verify: P"
+    },
+    {
+      "id": "v4_0119047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119056",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119124",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119172",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119180",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119217",
+      "status": "F",
+      "reason": "via: provided parking/east/-, corrected parking/east_most/- based on 'khu de xe ben phai nhat'"
+    },
+    {
+      "id": "v4_0119218",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119329",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119336",
+      "status": "F",
+      "reason": "via: provided clinic/west/-, corrected -/-/- based on clinic being origin/route or goal"
+    },
+    {
+      "id": "v4_0119345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0119413",
+      "status": "F",
+      "reason": "goal: provided clinic/-/-, corrected -/-/- or recipient is clinic staff with no destination building stated"
+    }
+  ]
+}

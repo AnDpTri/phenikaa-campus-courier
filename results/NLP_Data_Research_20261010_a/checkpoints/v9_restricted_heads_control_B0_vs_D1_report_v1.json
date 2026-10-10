@@ -1,0 +1,537 @@
+{
+  "kind": "V9 restricted-head frozen backbone controlled A/B",
+  "date": "2026-10-10T02:43:53.793187+00:00",
+  "baseline": {
+    "head_history": [
+      {
+        "epoch": 1,
+        "loss": 0.520954,
+        "steps": 50
+      },
+      {
+        "epoch": 2,
+        "loss": 0.475681,
+        "steps": 50
+      }
+    ],
+    "probes": {
+      "v2": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.823125,
+          "via": 0.904375,
+          "urgent": 0.7325,
+          "fragile": 0.918125,
+          "all": 0.501875
+        },
+        "via": {
+          "false_positive_rate": 0.008827,
+          "false_negative_rate": 0.159851,
+          "counts": {
+            "tn": 786,
+            "tp": 678,
+            "fn": 129,
+            "fp": 7
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.025375,
+          "false_negative_rate": 0.553888,
+          "counts": {
+            "tp": 327,
+            "tn": 845,
+            "fn": 406,
+            "fp": 22
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.138771,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tp": 656,
+            "tn": 813,
+            "fp": 131
+          }
+        }
+      },
+      "weighted": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.80375,
+          "via": 0.778125,
+          "urgent": 0.880625,
+          "fragile": 0.861875,
+          "all": 0.466875
+        },
+        "via": {
+          "false_positive_rate": 0.113388,
+          "false_negative_rate": 0.226959,
+          "counts": {
+            "tn": 649,
+            "tp": 671,
+            "fp": 83,
+            "fn": 197
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.009101,
+          "false_negative_rate": 0.253814,
+          "counts": {
+            "tn": 871,
+            "tp": 538,
+            "fn": 183,
+            "fp": 8
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.06776,
+          "false_negative_rate": 0.232117,
+          "counts": {
+            "tn": 853,
+            "fp": 62,
+            "tp": 526,
+            "fn": 159
+          }
+        }
+      },
+      "hard": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.819,
+          "via": 0.735,
+          "urgent": 1.0,
+          "fragile": 0.825,
+          "all": 0.519
+        },
+        "via": {
+          "false_positive_rate": 0.082988,
+          "false_negative_rate": 0.339768,
+          "counts": {
+            "tn": 442,
+            "tp": 342,
+            "fp": 40,
+            "fn": 176
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tp": 450,
+            "tn": 550
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.37234,
+          "counts": {
+            "tp": 295,
+            "tn": 530,
+            "fn": 175
+          }
+        }
+      },
+      "family1200": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.969167,
+          "via": 0.625833,
+          "urgent": 0.566667,
+          "fragile": 0.79,
+          "all": 0.289167
+        },
+        "via": {
+          "false_positive_rate": 0.323333,
+          "false_negative_rate": 0.418333,
+          "counts": {
+            "tn": 406,
+            "fn": 251,
+            "fp": 194,
+            "tp": 349
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.866667,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "fp": 520,
+            "tp": 600,
+            "tn": 80
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.406667,
+          "false_negative_rate": 0.013333,
+          "counts": {
+            "fp": 244,
+            "tp": 592,
+            "tn": 356,
+            "fn": 8
+          }
+        }
+      },
+      "focus192": {
+        "n": 192,
+        "exact": {
+          "goal": 0.96875,
+          "via": 0.723958,
+          "urgent": 0.776042,
+          "fragile": 0.552083,
+          "all": 0.291667
+        },
+        "via": {
+          "false_positive_rate": 0.147541,
+          "false_negative_rate": 0.485714,
+          "counts": {
+            "tn": 104,
+            "tp": 36,
+            "fn": 34,
+            "fp": 18
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.067308,
+          "false_negative_rate": 0.409091,
+          "counts": {
+            "tp": 52,
+            "tn": 97,
+            "fn": 36,
+            "fp": 7
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.68254,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tn": 40,
+            "tp": 66,
+            "fp": 86
+          }
+        }
+      }
+    },
+    "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_restricted_B0_control_v1.pt"
+  },
+  "targeted": {
+    "head_history": [
+      {
+        "epoch": 1,
+        "loss": 0.813118,
+        "steps": 50
+      },
+      {
+        "epoch": 2,
+        "loss": 0.739443,
+        "steps": 50
+      }
+    ],
+    "probes": {
+      "v2": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.823125,
+          "via": 0.90875,
+          "urgent": 0.733125,
+          "fragile": 0.918125,
+          "all": 0.505625
+        },
+        "via": {
+          "false_positive_rate": 0.008827,
+          "false_negative_rate": 0.14746,
+          "counts": {
+            "tn": 786,
+            "tp": 688,
+            "fn": 119,
+            "fp": 7
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.025375,
+          "false_negative_rate": 0.552524,
+          "counts": {
+            "tp": 328,
+            "tn": 845,
+            "fn": 405,
+            "fp": 22
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.138771,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tp": 656,
+            "tn": 813,
+            "fp": 131
+          }
+        }
+      },
+      "weighted": {
+        "n": 1600,
+        "exact": {
+          "goal": 0.80375,
+          "via": 0.779375,
+          "urgent": 0.88125,
+          "fragile": 0.861875,
+          "all": 0.46875
+        },
+        "via": {
+          "false_positive_rate": 0.132514,
+          "false_negative_rate": 0.206221,
+          "counts": {
+            "tn": 635,
+            "tp": 689,
+            "fp": 97,
+            "fn": 179
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.009101,
+          "false_negative_rate": 0.252427,
+          "counts": {
+            "tn": 871,
+            "tp": 539,
+            "fn": 182,
+            "fp": 8
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.06776,
+          "false_negative_rate": 0.232117,
+          "counts": {
+            "tn": 853,
+            "fp": 62,
+            "tp": 526,
+            "fn": 159
+          }
+        }
+      },
+      "hard": {
+        "n": 1000,
+        "exact": {
+          "goal": 0.819,
+          "via": 0.749,
+          "urgent": 1.0,
+          "fragile": 0.825,
+          "all": 0.531
+        },
+        "via": {
+          "false_positive_rate": 0.085062,
+          "false_negative_rate": 0.301158,
+          "counts": {
+            "tn": 441,
+            "tp": 362,
+            "fp": 41,
+            "fn": 156
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tp": 450,
+            "tn": 550
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.37234,
+          "counts": {
+            "tp": 295,
+            "tn": 530,
+            "fn": 175
+          }
+        }
+      },
+      "family1200": {
+        "n": 1200,
+        "exact": {
+          "goal": 0.969167,
+          "via": 0.615833,
+          "urgent": 0.608333,
+          "fragile": 0.79,
+          "all": 0.304167
+        },
+        "via": {
+          "false_positive_rate": 0.345,
+          "false_negative_rate": 0.413333,
+          "counts": {
+            "tn": 393,
+            "fn": 248,
+            "fp": 207,
+            "tp": 352
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.783333,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "fp": 470,
+            "tp": 600,
+            "tn": 130
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.406667,
+          "false_negative_rate": 0.013333,
+          "counts": {
+            "fp": 244,
+            "tp": 592,
+            "tn": 356,
+            "fn": 8
+          }
+        }
+      },
+      "focus192": {
+        "n": 192,
+        "exact": {
+          "goal": 0.96875,
+          "via": 0.71875,
+          "urgent": 0.802083,
+          "fragile": 0.552083,
+          "all": 0.28125
+        },
+        "via": {
+          "false_positive_rate": 0.155738,
+          "false_negative_rate": 0.485714,
+          "counts": {
+            "tn": 103,
+            "tp": 36,
+            "fn": 34,
+            "fp": 19
+          }
+        },
+        "urgent": {
+          "false_positive_rate": 0.057692,
+          "false_negative_rate": 0.363636,
+          "counts": {
+            "tp": 56,
+            "tn": 98,
+            "fn": 32,
+            "fp": 6
+          }
+        },
+        "fragile": {
+          "false_positive_rate": 0.68254,
+          "false_negative_rate": 0.0,
+          "counts": {
+            "tn": 40,
+            "tp": 66,
+            "fp": 86
+          }
+        }
+      }
+    },
+    "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_restricted_D1_focused_v1.pt"
+  },
+  "comparison": {
+    "v2": {
+      "n": 1600,
+      "all_delta_pp": 0.375,
+      "exact_pp": {
+        "goal": 0.0,
+        "via": 0.437,
+        "urgent": 0.062,
+        "fragile": 0.0
+      },
+      "FPR_delta_pp": {
+        "via": 0.0,
+        "urgent": 0.0,
+        "fragile": 0.0
+      },
+      "FNR_delta_pp": {
+        "via": -1.239,
+        "urgent": -0.136,
+        "fragile": 0.0
+      }
+    },
+    "weighted": {
+      "n": 1600,
+      "all_delta_pp": 0.188,
+      "exact_pp": {
+        "goal": 0.0,
+        "via": 0.125,
+        "urgent": 0.062,
+        "fragile": 0.0
+      },
+      "FPR_delta_pp": {
+        "via": 1.913,
+        "urgent": 0.0,
+        "fragile": 0.0
+      },
+      "FNR_delta_pp": {
+        "via": -2.074,
+        "urgent": -0.139,
+        "fragile": 0.0
+      }
+    },
+    "hard": {
+      "n": 1000,
+      "all_delta_pp": 1.2,
+      "exact_pp": {
+        "goal": 0.0,
+        "via": 1.4,
+        "urgent": 0.0,
+        "fragile": 0.0
+      },
+      "FPR_delta_pp": {
+        "via": 0.207,
+        "urgent": 0.0,
+        "fragile": 0.0
+      },
+      "FNR_delta_pp": {
+        "via": -3.861,
+        "urgent": 0.0,
+        "fragile": 0.0
+      }
+    },
+    "family1200": {
+      "n": 1200,
+      "all_delta_pp": 1.5,
+      "exact_pp": {
+        "goal": 0.0,
+        "via": -1.0,
+        "urgent": 4.167,
+        "fragile": 0.0
+      },
+      "FPR_delta_pp": {
+        "via": 2.167,
+        "urgent": -8.333,
+        "fragile": 0.0
+      },
+      "FNR_delta_pp": {
+        "via": -0.5,
+        "urgent": 0.0,
+        "fragile": 0.0
+      }
+    },
+    "focus192": {
+      "n": 192,
+      "all_delta_pp": -1.042,
+      "exact_pp": {
+        "goal": 0.0,
+        "via": -0.521,
+        "urgent": 2.604,
+        "fragile": 0.0
+      },
+      "FPR_delta_pp": {
+        "via": 0.82,
+        "urgent": -0.962,
+        "fragile": 0.0
+      },
+      "FNR_delta_pp": {
+        "via": 0.0,
+        "urgent": -4.545,
+        "fragile": 0.0
+      }
+    }
+  },
+  "manifest": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\v9_restricted_heads_sampling_manifest_v1.json",
+  "elapsed_seconds": 90.1,
+  "limitations": [
+    "Only one training seed",
+    "synthetic and matched holdout",
+    "no official validation/test",
+    "frozen goal/fragile head means no learning there",
+    "research checkpoints not approved for deployment"
+  ]
+}

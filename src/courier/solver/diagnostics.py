@@ -67,6 +67,10 @@ def fallback_details(scene, robot_id, action, reason):
     mode = "heading" if int(action) == int(scene.robot_heading) and int(action) in legal else "lowest_legal_action"
     if not legal:
         mode = "heading_without_legal_action"
+    elif reason and "repaired:" in reason:
+        mode = "repaired_" + reason.rsplit("repaired:", 1)[1]
+    elif reason and reason.endswith("; greedy"):
+        mode = "greedy"
     return {
         "robot_id": robot_id,
         "action": int(action),

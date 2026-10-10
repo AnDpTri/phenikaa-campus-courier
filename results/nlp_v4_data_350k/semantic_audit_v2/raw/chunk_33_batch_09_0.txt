@@ -1,0 +1,52 @@
+v4_0323914	P	-
+v4_0323921	P	-
+v4_0323927	P	-
+v4_0323932	F	goal type/ref/anchor: provided '-/west_most/-' should be 'parking/west_most/-' (cot dau tien trong khuon vien nhe, do la the giu xe)
+v4_0323940	P	-
+v4_0323953	P	-
+v4_0323956	P	-
+v4_0323958	P	-
+v4_0324012	P	-
+v4_0324014	P	-
+v4_0324015	P	-
+v4_0324021	P	-
+v4_0324032	P	-
+v4_0324062	P	-
+v4_0324071	P	-
+v4_0324072	P	-
+v4_0324075	P	-
+v4_0324111	P	-
+v4_0324113	P	-
+v4_0324125	P	-
+v4_0324128	P	-
+v4_0324131	P	-
+v4_0324132	P	-
+v4_0324137	P	-
+v4_0324188	P	-
+v4_0324200	P	-
+v4_0324209	P	-
+v4_0324211	P	-
+v4_0324219	P	-
+v4_0324248	P	-
+v4_0324254	P	-
+v4_0324270	P	-
+v4_0324280	P	-
+v4_0324297	P	-
+v4_0324329	P	-
+v4_0324330	P	-
+v4_0324356	P	-
+v4_0324362	P	-
+v4_0324364	P	-
+v4_0324376	P	-
+v4_0324395	P	-
+v4_0324398	P	-
+v4_0324411	P	-
+v4_0324419	P	-
+v4_0324429	P	-
+v4_0324442	P	-
+v4_0324474	P	-
+v4_0324483	U	Contradictory or corrupted urgency phrasing ('An ngay trong 5 phut' instead of 'Can ngay trong 5 phut')
+v4_0324486	P	-
+v4_0324498	U	Missing head goal destination (only mentions 'Phu bep' without specifying delivery building/location)
+
+STDERR:

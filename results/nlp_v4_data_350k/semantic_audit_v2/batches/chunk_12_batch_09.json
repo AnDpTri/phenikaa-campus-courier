@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0114106",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114147",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114183",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114220",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114230",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114263",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114290",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114353",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114364",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114380",
+      "status": "F",
+      "reason": "urgent: 1 -> 0 (\"ap lam roi\" is corrupt/ambiguous for urgent cue, but if intended urgent then 1; wait: \"ap lam roi\" is unreadable required information -> U)"
+    },
+    {
+      "id": "v4_0114396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114409",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114490",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114496",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114513",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114530",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114531",
+      "status": "U",
+      "reason": "unspecified urgency/direction cues; \"ngay di\" conveys urgency conflicting with urgent=0"
+    },
+    {
+      "id": "v4_0114538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0114549",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

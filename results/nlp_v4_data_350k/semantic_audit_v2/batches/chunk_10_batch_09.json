@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_10_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0093977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0093979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094005",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094010",
+      "status": "F",
+      "reason": "goal type/ref/anchor provided -/west_most/- should be lecture/west/- (\"tro giang phu trach gio ly thuyet o can phong nao o le trai\")"
+    },
+    {
+      "id": "v4_0094018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094034",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094082",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094096",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094107",
+      "status": "F",
+      "reason": "urgent provided 0 should be 1 (\"can gap linh kien dien tu\")"
+    },
+    {
+      "id": "v4_0094117",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094126",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094128",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094211",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094212",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094243",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094283",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094292",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094310",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094375",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094403",
+      "status": "F",
+      "reason": "via type/ref/anchor provided parking/south/- should be parking/-/- (\"dung chan o ham gui xe o huong nam ban do lay hop dung cu\", huong nam describes direction of travel/action or ambiguous reference, but ham gui xe lacks directional instance specification / is parking)"
+    },
+    {
+      "id": "v4_0094419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094425",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094426",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094434",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094475",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094481",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094496",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0094507",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+ "thresholds": {
+  "goal": 0.99,
+  "via": 2.0,
+  "flags": 2.0
+ },
+ "metrics": {
+  "validation_grounded": {
+   "rules": {
+    "goal_nodes": 1.0,
+    "goal_type": 1.0,
+    "goal_ref": 1.0,
+    "via_nodes": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal_nodes": 0.9266666666666666,
+    "goal_type": 0.9366666666666666,
+    "goal_ref": 0.9833333333333333,
+    "via_nodes": 0.9233333333333333,
+    "urgent": 0.89,
+    "fragile": 0.89,
+    "all": 0.69
+   },
+   "hybrid": {
+    "goal_nodes": 1.0,
+    "goal_type": 1.0,
+    "goal_ref": 1.0,
+    "via_nodes": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  },
+  "validation": {
+   "rules": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal": 0.9166666666666666,
+    "via": 0.9233333333333333,
+    "urgent": 0.89,
+    "fragile": 0.89,
+    "all": 0.6833333333333333
+   },
+   "hybrid": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  },
+  "holdout": {
+   "rules": {
+    "goal": 0.218,
+    "via": 0.7466666666666667,
+    "urgent": 0.8766666666666667,
+    "fragile": 0.9703333333333334,
+    "all": 0.14866666666666667
+   },
+   "neural": {
+    "goal": 0.8373333333333334,
+    "via": 0.9353333333333333,
+    "urgent": 0.877,
+    "fragile": 0.9983333333333333,
+    "all": 0.6886666666666666
+   },
+   "hybrid": {
+    "goal": 0.7136666666666667,
+    "via": 0.7466666666666667,
+    "urgent": 0.8766666666666667,
+    "fragile": 0.9703333333333334,
+    "all": 0.471
+   }
+  },
+  "challenge": {
+   "rules": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   },
+   "neural": {
+    "goal": 1.0,
+    "via": 0.98,
+    "urgent": 0.98,
+    "fragile": 1.0,
+    "all": 0.96
+   },
+   "hybrid": {
+    "goal": 1.0,
+    "via": 1.0,
+    "urgent": 1.0,
+    "fragile": 1.0,
+    "all": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,52 @@
+v4_0341965	P	-
+v4_0341969	P	-
+v4_0341980	P	-
+v4_0341993	F	goal type/ref/anchor: provided '-/south_most/-', expected 'gate/south_most/-' ('abo ve o cho duoi cung cua ban do')
+v4_0341998	U	goal destination is incomplete/cancelled without explicit delivery target ('Dung De O Phong Hoc Lon. Toi Da Tu Bo Y Dinh Den Phong Mot Cua, Ma Se Chiec Hop La Cua Co Cap Duong.')
+v4_0342009	P	-
+v4_0342016	F	goal type/ref/anchor: provided 'dorm/-/-', expected 'gate/near/dorm' ('bac bao ve truc toa nha noi tru')
+v4_0342021	P	-
+v4_0342026	P	-
+v4_0342034	P	-
+v4_0342045	P	-
+v4_0342087	F	goal type/ref/anchor: provided '-/west_most/-', expected 'clinic/west_most/-' ('can bo y te o tram o ben trai cung')
+v4_0342096	P	-
+v4_0342106	P	-
+v4_0342115	P	-
+v4_0342129	P	-
+v4_0342146	P	-
+v4_0342150	P	-
+v4_0342160	P	-
+v4_0342170	P	-
+v4_0342189	P	-
+v4_0342202	P	-
+v4_0342207	P	-
+v4_0342217	P	-
+v4_0342219	P	-
+v4_0342224	F	goal type/ref/anchor: provided '-/anchor_near/clinic', expected 'parking/near/clinic' ('doi trong xe o nut lien ke phong y te')
+v4_0342266	P	-
+v4_0342273	P	-
+v4_0342277	P	-
+v4_0342291	P	-
+v4_0342306	P	-
+v4_0342314	P	-
+v4_0342322	P	-
+v4_0342328	P	-
+v4_0342330	P	-
+v4_0342345	P	-
+v4_0342347	P	-
+v4_0342353	P	-
+v4_0342359	P	-
+v4_0342369	P	-
+v4_0342370	P	-
+v4_0342382	P	-
+v4_0342388	P	-
+v4_0342391	P	-
+v4_0342406	P	-
+v4_0342411	P	-
+v4_0342422	P	-
+v4_0342432	P	-
+v4_0342453	P	-
+v4_0342462	P	-
+
+STDERR:

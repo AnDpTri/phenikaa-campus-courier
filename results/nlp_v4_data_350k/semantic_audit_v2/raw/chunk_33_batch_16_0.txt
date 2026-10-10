@@ -1,0 +1,52 @@
+v4_0327497	P	-
+v4_0327506	P	-
+v4_0327512	F	goal type: provided gate, corrected - (ve loi vao giao don hang can rta do khong vo duoc)
+v4_0327522	P	-
+v4_0327530	P	-
+v4_0327550	P	-
+v4_0327565	P	-
+v4_0327571	P	-
+v4_0327598	F	goal type: provided -, corrected canteen (dau bep nau com trua sinh vien dang doi khay com tai diem ma tien sat ve phuong tay xa hon toan bo)
+v4_0327631	P	-
+v4_0327634	P	-
+v4_0327647	F	goal type: provided -, corrected parking (nhan vien trong xe vua chuyen sang vi tri nao nam o phia duoi nhat)
+v4_0327664	P	-
+v4_0327679	P	-
+v4_0327680	P	-
+v4_0327682	P	-
+v4_0327691	P	-
+v4_0327694	P	-
+v4_0327710	U	Ambiguous whether 'o hang dau' refers to north_most (cao nhat/tren cung) or front/row
+v4_0327719	P	-
+v4_0327795	P	-
+v4_0327800	P	-
+v4_0327802	P	-
+v4_0327808	P	-
+v4_0327840	P	-
+v4_0327843	U	Contradictory urgency phrase 'ai giao cung duoc' vs 'mai giao cung duoc'
+v4_0327856	P	-
+v4_0327871	P	-
+v4_0327880	P	-
+v4_0327896	P	-
+v4_0327899	P	-
+v4_0327904	P	-
+v4_0327905	P	-
+v4_0327921	P	-
+v4_0327932	P	-
+v4_0327933	F	goal type: provided -, corrected parking (nhan vien bai xe dang doi micro khong day tai vi tri nm nam trai cung)
+v4_0327940	F	goal type: provided -, corrected gate (bac bao ve trong giu xe truong o cho nam tim diem co kinh do nho nhat tren ban do dang cho hp banh)
+v4_0327946	P	-
+v4_0327949	P	-
+v4_0327959	P	-
+v4_0327962	P	-
+v4_0327986	P	-
+v4_0327992	P	-
+v4_0327997	P	-
+v4_0327998	P	-
+v4_0328017	P	-
+v4_0328029	P	-
+v4_0328036	P	-
+v4_0328039	P	-
+v4_0328049	P	-
+
+STDERR:

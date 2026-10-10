@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_04_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0036807",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036828",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036845",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036864",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036903",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036906",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036911",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036926",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036945",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036958",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036962",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036966",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0036997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037006",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037014",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037018",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0037120",
+      "status": "U",
+      "reason": "Contradictory urgency cues ('ngay' vs absent/non-urgent context, or urgent mismatch)"
+    },
+    {
+      "id": "v4_0037121",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

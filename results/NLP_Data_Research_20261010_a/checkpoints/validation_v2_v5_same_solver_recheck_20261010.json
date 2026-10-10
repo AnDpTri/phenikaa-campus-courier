@@ -1,0 +1,417 @@
+{
+  "name": "reproducible_v2_v5_valid300_same_cv_same_solver",
+  "created_utc": "2026-10-10T01:53:23.142978+00:00",
+  "valid_scenes": 300,
+  "observations": 3000,
+  "device": "auto CV and CPU NLP",
+  "validated_source_files": {
+    "D:\\phenikaa\\artifacts\\nlp\\neural_parser_v2.pt": "0c5b1eed6b319847db788edffa4ed3cfe30ac28a8e2b8f8f259ec076794153c1",
+    "D:\\phenikaa\\artifacts\\nlp\\neural_parser_v5_sf200_scratch.pt": "528d8da84b977552d10ca7e7070ed38405c604b4867e76c7b4d9b531fe9512a4",
+    "D:\\phenikaa\\artifacts\\solver\\candidate_strategy.joblib": "1362663a220c0e32547d58fcc72b5166d5c8397f1e8a0cc446e47792ee22db35",
+    "D:\\phenikaa\\artifacts\\solver\\candidate_strategy_trainval.joblib": "417e106c43f0fbf65cab83185537a30c1e2b9d0b9b8066c65f331c9085b302b6"
+  },
+  "config": {
+    "cv_detector_threshold": 0.4,
+    "cv_semantic_threshold": 0.15,
+    "map_aware": true,
+    "repair_unreachable": true,
+    "shared_cv": true,
+    "same_threshold_comparison": {
+      "goal": 0.99,
+      "via": 2.0,
+      "flags": 2.0
+    },
+    "v5_previous_threshold": {
+      "goal": 0.8,
+      "via": 2.0,
+      "flags": 2.0
+    }
+  },
+  "cv_scene_exact": {
+    "n": 257,
+    "fraction": 0.8566666666666667
+  },
+  "nlp_raw": {
+    "V2_goal099": {
+      "hybrid_raw": {
+        "goal": 1.0,
+        "via": 1.0,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 1.0
+      },
+      "neural_raw": {
+        "goal": 0.916667,
+        "via": 0.923333,
+        "urgent": 0.89,
+        "fragile": 0.89,
+        "all": 0.683333
+      }
+    },
+    "V5_goal099": {
+      "hybrid_raw": {
+        "goal": 0.996667,
+        "via": 1.0,
+        "urgent": 1.0,
+        "fragile": 1.0,
+        "all": 0.996667
+      },
+      "neural_raw": {
+        "goal": 0.933333,
+        "via": 0.9,
+        "urgent": 0.89,
+        "fragile": 0.876667,
+        "all": 0.68
+      }
+    },
+    "V5_goal080": {}
+  },
+  "pipeline_accuracy": {
+    "solver_train_only": {
+      "oracle": {
+        "correct": 2208,
+        "total": 3000,
+        "macro_accuracy": 0.736,
+        "per_robot": [
+          0.836667,
+          0.64,
+          0.736667,
+          0.766667,
+          0.673333,
+          0.713333,
+          0.8,
+          0.733333,
+          0.743333,
+          0.716667
+        ],
+        "scene_all_10_correct": 41,
+        "scene_accuracy_mean": 0.736
+      },
+      "cv_only": {
+        "correct": 2186,
+        "total": 3000,
+        "macro_accuracy": 0.728667,
+        "per_robot": [
+          0.836667,
+          0.63,
+          0.736667,
+          0.753333,
+          0.67,
+          0.706667,
+          0.783333,
+          0.73,
+          0.723333,
+          0.716667
+        ],
+        "scene_all_10_correct": 38,
+        "scene_accuracy_mean": 0.728667
+      },
+      "V2_goal099_nlp_only": {
+        "correct": 2208,
+        "total": 3000,
+        "macro_accuracy": 0.736,
+        "per_robot": [
+          0.836667,
+          0.64,
+          0.736667,
+          0.766667,
+          0.673333,
+          0.713333,
+          0.8,
+          0.733333,
+          0.743333,
+          0.716667
+        ],
+        "scene_all_10_correct": 41,
+        "scene_accuracy_mean": 0.736
+      },
+      "V2_goal099_full": {
+        "correct": 2193,
+        "total": 3000,
+        "macro_accuracy": 0.731,
+        "per_robot": [
+          0.836667,
+          0.633333,
+          0.736667,
+          0.753333,
+          0.666667,
+          0.71,
+          0.79,
+          0.73,
+          0.733333,
+          0.72
+        ],
+        "scene_all_10_correct": 40,
+        "scene_accuracy_mean": 0.731
+      },
+      "V5_goal099_nlp_only": {
+        "correct": 2211,
+        "total": 3000,
+        "macro_accuracy": 0.737,
+        "per_robot": [
+          0.836667,
+          0.64,
+          0.736667,
+          0.766667,
+          0.673333,
+          0.716667,
+          0.803333,
+          0.736667,
+          0.743333,
+          0.716667
+        ],
+        "scene_all_10_correct": 41,
+        "scene_accuracy_mean": 0.737
+      },
+      "V5_goal099_full": {
+        "correct": 2196,
+        "total": 3000,
+        "macro_accuracy": 0.732,
+        "per_robot": [
+          0.836667,
+          0.633333,
+          0.736667,
+          0.753333,
+          0.666667,
+          0.713333,
+          0.793333,
+          0.733333,
+          0.733333,
+          0.72
+        ],
+        "scene_all_10_correct": 40,
+        "scene_accuracy_mean": 0.732
+      },
+      "V5_goal080_nlp_only": {
+        "correct": 2211,
+        "total": 3000,
+        "macro_accuracy": 0.737,
+        "per_robot": [
+          0.836667,
+          0.64,
+          0.736667,
+          0.766667,
+          0.673333,
+          0.716667,
+          0.803333,
+          0.736667,
+          0.743333,
+          0.716667
+        ],
+        "scene_all_10_correct": 41,
+        "scene_accuracy_mean": 0.737
+      },
+      "V5_goal080_full": {
+        "correct": 2196,
+        "total": 3000,
+        "macro_accuracy": 0.732,
+        "per_robot": [
+          0.836667,
+          0.633333,
+          0.736667,
+          0.753333,
+          0.666667,
+          0.713333,
+          0.793333,
+          0.733333,
+          0.733333,
+          0.72
+        ],
+        "scene_all_10_correct": 40,
+        "scene_accuracy_mean": 0.732
+      }
+    },
+    "solver_trainval": {
+      "oracle": {
+        "correct": 2620,
+        "total": 3000,
+        "macro_accuracy": 0.873333,
+        "per_robot": [
+          0.976667,
+          0.803333,
+          0.873333,
+          0.873333,
+          0.806667,
+          0.86,
+          0.88,
+          0.853333,
+          0.896667,
+          0.91
+        ],
+        "scene_all_10_correct": 119,
+        "scene_accuracy_mean": 0.873333
+      },
+      "cv_only": {
+        "correct": 2579,
+        "total": 3000,
+        "macro_accuracy": 0.859667,
+        "per_robot": [
+          0.963333,
+          0.79,
+          0.863333,
+          0.866667,
+          0.796667,
+          0.846667,
+          0.86,
+          0.843333,
+          0.873333,
+          0.893333
+        ],
+        "scene_all_10_correct": 108,
+        "scene_accuracy_mean": 0.859667
+      },
+      "V2_goal099_nlp_only": {
+        "correct": 2620,
+        "total": 3000,
+        "macro_accuracy": 0.873333,
+        "per_robot": [
+          0.976667,
+          0.803333,
+          0.873333,
+          0.873333,
+          0.806667,
+          0.86,
+          0.88,
+          0.853333,
+          0.896667,
+          0.91
+        ],
+        "scene_all_10_correct": 119,
+        "scene_accuracy_mean": 0.873333
+      },
+      "V2_goal099_full": {
+        "correct": 2585,
+        "total": 3000,
+        "macro_accuracy": 0.861667,
+        "per_robot": [
+          0.963333,
+          0.793333,
+          0.863333,
+          0.866667,
+          0.793333,
+          0.85,
+          0.863333,
+          0.843333,
+          0.883333,
+          0.896667
+        ],
+        "scene_all_10_correct": 110,
+        "scene_accuracy_mean": 0.861667
+      },
+      "V5_goal099_nlp_only": {
+        "correct": 2619,
+        "total": 3000,
+        "macro_accuracy": 0.873,
+        "per_robot": [
+          0.976667,
+          0.803333,
+          0.873333,
+          0.873333,
+          0.803333,
+          0.86,
+          0.88,
+          0.853333,
+          0.896667,
+          0.91
+        ],
+        "scene_all_10_correct": 118,
+        "scene_accuracy_mean": 0.873
+      },
+      "V5_goal099_full": {
+        "correct": 2584,
+        "total": 3000,
+        "macro_accuracy": 0.861333,
+        "per_robot": [
+          0.963333,
+          0.793333,
+          0.863333,
+          0.866667,
+          0.79,
+          0.85,
+          0.863333,
+          0.843333,
+          0.883333,
+          0.896667
+        ],
+        "scene_all_10_correct": 109,
+        "scene_accuracy_mean": 0.861333
+      },
+      "V5_goal080_nlp_only": {
+        "correct": 2619,
+        "total": 3000,
+        "macro_accuracy": 0.873,
+        "per_robot": [
+          0.976667,
+          0.803333,
+          0.873333,
+          0.873333,
+          0.803333,
+          0.86,
+          0.88,
+          0.853333,
+          0.896667,
+          0.91
+        ],
+        "scene_all_10_correct": 118,
+        "scene_accuracy_mean": 0.873
+      },
+      "V5_goal080_full": {
+        "correct": 2584,
+        "total": 3000,
+        "macro_accuracy": 0.861333,
+        "per_robot": [
+          0.963333,
+          0.793333,
+          0.863333,
+          0.866667,
+          0.79,
+          0.85,
+          0.863333,
+          0.843333,
+          0.883333,
+          0.896667
+        ],
+        "scene_all_10_correct": 109,
+        "scene_accuracy_mean": 0.861333
+      }
+    }
+  },
+  "fair_differences": {
+    "solver_train_only_nlp_only": {
+      "V5minusV2_correct_predictions": 3,
+      "V5minusV2_percentage_points": 0.1,
+      "V5_only_correct": 3,
+      "V2_only_correct": 0,
+      "scene_differences_nonzero": 1
+    },
+    "solver_train_only_full": {
+      "V5minusV2_correct_predictions": 3,
+      "V5minusV2_percentage_points": 0.1,
+      "V5_only_correct": 3,
+      "V2_only_correct": 0,
+      "scene_differences_nonzero": 1
+    },
+    "solver_trainval_nlp_only": {
+      "V5minusV2_correct_predictions": -1,
+      "V5minusV2_percentage_points": -0.0333,
+      "V5_only_correct": 0,
+      "V2_only_correct": 1,
+      "scene_differences_nonzero": 1
+    },
+    "solver_trainval_full": {
+      "V5minusV2_correct_predictions": -1,
+      "V5minusV2_percentage_points": -0.0333,
+      "V5_only_correct": 0,
+      "V2_only_correct": 1,
+      "scene_differences_nonzero": 1
+    }
+  },
+  "detail_file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\checkpoints\\validation_v2_v5_same_solver_detail_20261010.jsonl",
+  "elapsed_seconds": 1013.8,
+  "limitations": [
+    "Official validation has been reused for past comparisons, NOT blind test",
+    "solver_trainval may have seen validation; solver_train_only is the primary comparison",
+    "NLP model might have used dev split for historical tuning; training source not audited",
+    "No test or train file modified; all new artifacts only within research workspace"
+  ]
+}

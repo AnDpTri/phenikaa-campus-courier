@@ -1,0 +1,1101 @@
+{
+  "research": "corpus_distribution_audit_v1",
+  "generated_at_utc": "2026-10-09T19:23:07.385845+00:00",
+  "seconds": 92.4,
+  "source_sha256": "5379ebcb7083bf15488fe713fbe9378a27b57c7b4ea38ba538269960902e437a",
+  "data": {
+    "dataset": "train_s0_e1_200k",
+    "n": 200000,
+    "label_positive_fraction": {
+      "via": 0.5699,
+      "urgent": 0.457,
+      "fragile": 0.4303,
+      "accented": 0.3255,
+      "spatial_goal": 0.6874,
+      "spatial_via": 0.1685
+    },
+    "lexical_fraction": {
+      "lay_word": 0.4295,
+      "truoc_word": 0.2155,
+      "nhan_word": 0.5716,
+      "no_word": 0.7937,
+      "huy_word": 0.0431,
+      "fragile_lex": 0.4183,
+      "urgent_lex": 0.1722,
+      "accents": 0.3255
+    },
+    "p_via_given_lex": {
+      "lay_word": 0.6496,
+      "truoc_word": 0.6586,
+      "no_word": 0.537,
+      "huy_word": 0.5322,
+      "nhan_word": 0.6759,
+      "fragile_lex": 0.5941,
+      "accents": 0.6303,
+      "urgent_lex": 0.5397
+    },
+    "p_via_without_lex": {
+      "lay_word": 0.5099,
+      "truoc_word": 0.5456,
+      "nhan_word": 0.4286,
+      "no_word": 0.6967,
+      "huy_word": 0.5716,
+      "fragile_lex": 0.5526,
+      "urgent_lex": 0.5762,
+      "accents": 0.5408
+    },
+    "token_p50": 63.0,
+    "token_p90": 88,
+    "prefix_distinct_rate": 0.4596,
+    "max_prefix_repeat": 35,
+    "joint_flags_and_via": {
+      "(True, True, False)": 26713,
+      "(True, True, True)": 22591,
+      "(False, True, True)": 16869,
+      "(False, False, True)": 22355,
+      "(True, False, False)": 35089,
+      "(False, True, False)": 19888,
+      "(False, False, False)": 26901,
+      "(True, False, True)": 29594
+    },
+    "frequent_tokens": [
+      [
+        "khong",
+        158734
+      ],
+      [
+        "giao",
+        142907
+      ],
+      [
+        "phong",
+        123548
+      ],
+      [
+        "hang",
+        122140
+      ],
+      [
+        "nhan",
+        114310
+      ],
+      [
+        "de",
+        104307
+      ],
+      [
+        "o",
+        103240
+      ],
+      [
+        "khu",
+        102141
+      ],
+      [
+        "do",
+        100321
+      ],
+      [
+        "chuyen",
+        95449
+      ],
+      [
+        "can",
+        95320
+      ],
+      [
+        "diem",
+        93008
+      ],
+      [
+        "la",
+        90437
+      ],
+      [
+        "dia",
+        89385
+      ],
+      [
+        "co",
+        88083
+      ],
+      [
+        "ban",
+        87064
+      ],
+      [
+        "cung",
+        86965
+      ],
+      [
+        "noi",
+        86941
+      ],
+      [
+        "lay",
+        85896
+      ],
+      [
+        "den",
+        85645
+      ],
+      [
+        "da",
+        85204
+      ],
+      [
+        "robot",
+        82741
+      ],
+      [
+        "tai",
+        81133
+      ],
+      [
+        "nay",
+        78293
+      ],
+      [
+        "trong",
+        76035
+      ],
+      [
+        "chi",
+        75273
+      ],
+      [
+        "nha",
+        75106
+      ],
+      [
+        "toi",
+        71510
+      ],
+      [
+        "bo",
+        71060
+      ],
+      [
+        "don",
+        69784
+      ],
+      [
+        "dung",
+        65981
+      ],
+      [
+        "phai",
+        65884
+      ],
+      [
+        "qua",
+        63993
+      ],
+      [
+        "cong",
+        63773
+      ],
+      [
+        "nhat",
+        61586
+      ],
+      [
+        "vien",
+        61295
+      ],
+      [
+        "kien",
+        59125
+      ],
+      [
+        "sinh",
+        57516
+      ],
+      [
+        "giao.",
+        55173
+      ],
+      [
+        "xe",
+        54841
+      ]
+    ]
+  },
+  "per_recipe": {
+    "v2_general": {
+      "n": 84000,
+      "via_rate": 0.4985,
+      "fragile_rate": 0.3997,
+      "urgent_rate": 0.451,
+      "p50_tokens": 51.0,
+      "with_lay": 0.2386,
+      "with_truoc": 0.2955,
+      "accented": 0.0
+    },
+    "contextual": {
+      "n": 36000,
+      "via_rate": 0.5999,
+      "fragile_rate": 0.4497,
+      "urgent_rate": 0.4579,
+      "p50_tokens": 69.0,
+      "with_lay": 0.5213,
+      "with_truoc": 0.1637,
+      "accented": 0.5675
+    },
+    "pickup_reasoning": {
+      "n": 30000,
+      "via_rate": 0.6995,
+      "fragile_rate": 0.456,
+      "urgent_rate": 0.4688,
+      "p50_tokens": 69.0,
+      "with_lay": 0.6492,
+      "with_truoc": 0.055,
+      "accented": 0.5782
+    },
+    "spatial_grounding": {
+      "n": 24000,
+      "via_rate": 0.6489,
+      "fragile_rate": 0.453,
+      "urgent_rate": 0.4605,
+      "p50_tokens": 72.0,
+      "with_lay": 0.5096,
+      "with_truoc": 0.1492,
+      "accented": 0.5738
+    },
+    "instruction_revision": {
+      "n": 18000,
+      "via_rate": 0.5024,
+      "fragile_rate": 0.4531,
+      "urgent_rate": 0.4572,
+      "p50_tokens": 79.0,
+      "with_lay": 0.6219,
+      "with_truoc": 0.3225,
+      "accented": 0.4977
+    },
+    "distractor_negation": {
+      "n": 8000,
+      "via_rate": 0.614,
+      "fragile_rate": 0.4491,
+      "urgent_rate": 0.4621,
+      "p50_tokens": 75.0,
+      "with_lay": 0.5236,
+      "with_truoc": 0.168,
+      "accented": 0.5727
+    }
+  },
+  "probes": {
+    "v2": {
+      "dataset": "v2_probe",
+      "n": 1500,
+      "label_positive_fraction": {
+        "via": 0.516,
+        "urgent": 0.43,
+        "fragile": 0.402,
+        "accented": 0.0,
+        "spatial_goal": 0.7,
+        "spatial_via": 0.112
+      },
+      "lexical_fraction": {
+        "lay_word": 0.3613,
+        "truoc_word": 0.3853,
+        "nhan_word": 0.3067,
+        "no_word": 0.8147,
+        "huy_word": 0.0013,
+        "fragile_lex": 0.4247,
+        "urgent_lex": 0.112,
+        "accents": 0.0
+      },
+      "p_via_given_lex": {
+        "lay_word": 0.9225,
+        "no_word": 0.5262,
+        "fragile_lex": 0.5149,
+        "urgent_lex": 0.5179,
+        "truoc_word": 0.7076,
+        "nhan_word": 0.5391,
+        "huy_word": 0.5
+      },
+      "p_via_without_lex": {
+        "lay_word": 0.286,
+        "truoc_word": 0.3959,
+        "nhan_word": 0.5058,
+        "no_word": 0.4712,
+        "huy_word": 0.516,
+        "fragile_lex": 0.5168,
+        "urgent_lex": 0.5158,
+        "accents": 0.516
+      },
+      "token_p50": 55.0,
+      "token_p90": 77,
+      "prefix_distinct_rate": 0.948,
+      "max_prefix_repeat": 9,
+      "joint_flags_and_via": {
+        "(True, True, True)": 147,
+        "(True, False, False)": 263,
+        "(True, False, True)": 185,
+        "(False, False, True)": 202,
+        "(False, False, False)": 247,
+        "(False, True, True)": 111,
+        "(True, True, False)": 179,
+        "(False, True, False)": 166
+      },
+      "frequent_tokens": [
+        [
+          "khong",
+          1222
+        ],
+        [
+          "o",
+          1072
+        ],
+        [
+          "de",
+          986
+        ],
+        [
+          "can",
+          890
+        ],
+        [
+          "la",
+          868
+        ],
+        [
+          "giao",
+          867
+        ],
+        [
+          "phong",
+          845
+        ],
+        [
+          "khu",
+          824
+        ],
+        [
+          "chi",
+          718
+        ],
+        [
+          "nho",
+          656
+        ],
+        [
+          "di",
+          655
+        ],
+        [
+          "noi",
+          608
+        ],
+        [
+          "hang",
+          585
+        ],
+        [
+          "toi",
+          580
+        ],
+        [
+          "truoc",
+          578
+        ],
+        [
+          "vao",
+          576
+        ],
+        [
+          "phai",
+          567
+        ],
+        [
+          "ban",
+          547
+        ],
+        [
+          "cam",
+          545
+        ],
+        [
+          "lay",
+          542
+        ],
+        [
+          "ghe",
+          541
+        ],
+        [
+          "do",
+          528
+        ],
+        [
+          "nhe.",
+          511
+        ],
+        [
+          "so",
+          511
+        ],
+        [
+          "hoc",
+          510
+        ],
+        [
+          "cho",
+          508
+        ],
+        [
+          "va",
+          507
+        ],
+        [
+          "cuu",
+          492
+        ],
+        [
+          "chuyen",
+          487
+        ],
+        [
+          "on",
+          480
+        ],
+        [
+          "cong",
+          469
+        ],
+        [
+          "nhan",
+          460
+        ],
+        [
+          "vien",
+          459
+        ],
+        [
+          "sinh",
+          445
+        ],
+        [
+          "sang",
+          441
+        ],
+        [
+          "dang",
+          439
+        ],
+        [
+          "nham",
+          436
+        ],
+        [
+          "qua",
+          429
+        ],
+        [
+          "toa",
+          428
+        ],
+        [
+          "bo",
+          425
+        ]
+      ],
+      "vocab_oov_ratio": 0.1434,
+      "document_token_oov_fraction": 0.0405,
+      "oov_examples": [
+        "#1053]",
+        "#1071",
+        "#1390]",
+        "#1449]",
+        "#1854]",
+        "#1940]",
+        "#2268]",
+        "#2283]",
+        "#2386",
+        "#2419",
+        "#2640",
+        "#2698]",
+        "#2761]",
+        "#2777]",
+        "#2924]",
+        "#2963",
+        "#2992]",
+        "#3184",
+        "#3286]",
+        "#3586]",
+        "#3672]",
+        "#3776]",
+        "#3836",
+        "#3864]",
+        "#4209",
+        "#4672]",
+        "#4832]",
+        "#4914]",
+        "#5130",
+        "#5245]",
+        "#5251",
+        "#5316",
+        "#5482",
+        "#5840",
+        "#5972",
+        "#6268",
+        "#6562",
+        "#6574]",
+        "#6610]",
+        "#6701",
+        "#6774]",
+        "#7392",
+        "#7610]",
+        "#7934]",
+        "#8070]",
+        "#8087]",
+        "#8202",
+        "#8313]",
+        "#8404]",
+        "#8460]",
+        "#8462]",
+        "#8488",
+        "#8491]",
+        "#849]",
+        "#8911]",
+        "#9163",
+        "#9180]",
+        "#9905]",
+        "(in",
+        "(itn"
+      ]
+    },
+    "weighted": {
+      "dataset": "weighted_probe",
+      "n": 1500,
+      "label_positive_fraction": {
+        "via": 0.5213,
+        "urgent": 0.4593,
+        "fragile": 0.45,
+        "accented": 0.33,
+        "spatial_goal": 0.6993,
+        "spatial_via": 0.148
+      },
+      "lexical_fraction": {
+        "lay_word": 0.2547,
+        "truoc_word": 0.312,
+        "nhan_word": 0.55,
+        "no_word": 0.8773,
+        "huy_word": 0.058,
+        "fragile_lex": 0.322,
+        "urgent_lex": 0.2933,
+        "accents": 0.33
+      },
+      "p_via_given_lex": {
+        "no_word": 0.5289,
+        "urgent_lex": 0.5773,
+        "accents": 0.5596,
+        "fragile_lex": 0.499,
+        "nhan_word": 0.5248,
+        "truoc_word": 0.6838,
+        "huy_word": 0.4943,
+        "lay_word": 0.6414
+      },
+      "p_via_without_lex": {
+        "lay_word": 0.4803,
+        "truoc_word": 0.4477,
+        "nhan_word": 0.517,
+        "no_word": 0.4674,
+        "huy_word": 0.523,
+        "fragile_lex": 0.532,
+        "urgent_lex": 0.4981,
+        "accents": 0.5025
+      },
+      "token_p50": 65.0,
+      "token_p90": 91,
+      "prefix_distinct_rate": 0.55,
+      "max_prefix_repeat": 101,
+      "joint_flags_and_via": {
+        "(False, True, True)": 153,
+        "(True, False, True)": 193,
+        "(False, True, False)": 178,
+        "(True, True, True)": 160,
+        "(False, False, False)": 204,
+        "(True, False, False)": 245,
+        "(True, True, False)": 184,
+        "(False, False, True)": 183
+      },
+      "frequent_tokens": [
+        [
+          "khong",
+          1316
+        ],
+        [
+          "o",
+          1161
+        ],
+        [
+          "giao",
+          1105
+        ],
+        [
+          "hang",
+          1051
+        ],
+        [
+          "la",
+          939
+        ],
+        [
+          "chi",
+          857
+        ],
+        [
+          "va",
+          854
+        ],
+        [
+          "can",
+          853
+        ],
+        [
+          "nhan",
+          825
+        ],
+        [
+          "khu",
+          798
+        ],
+        [
+          "noi",
+          776
+        ],
+        [
+          "phai",
+          758
+        ],
+        [
+          "ban",
+          729
+        ],
+        [
+          "duoc",
+          729
+        ],
+        [
+          "toi",
+          727
+        ],
+        [
+          "robot",
+          699
+        ],
+        [
+          "nguoi",
+          695
+        ],
+        [
+          "tai",
+          683
+        ],
+        [
+          "don",
+          672
+        ],
+        [
+          "cung",
+          667
+        ],
+        [
+          "cho",
+          648
+        ],
+        [
+          "phong",
+          632
+        ],
+        [
+          "nhay",
+          616
+        ],
+        [
+          "trung",
+          610
+        ],
+        [
+          "chuyen",
+          604
+        ],
+        [
+          "day",
+          600
+        ],
+        [
+          "tui",
+          592
+        ],
+        [
+          "dung",
+          551
+        ],
+        [
+          "diem",
+          545
+        ],
+        [
+          "tri",
+          537
+        ],
+        [
+          "nha",
+          533
+        ],
+        [
+          "bo",
+          523
+        ],
+        [
+          "lo",
+          500
+        ],
+        [
+          "dia",
+          497
+        ],
+        [
+          "hay",
+          488
+        ],
+        [
+          "hoc",
+          479
+        ],
+        [
+          "thung",
+          476
+        ],
+        [
+          "dau",
+          476
+        ],
+        [
+          "roi",
+          471
+        ],
+        [
+          "cu",
+          469
+        ]
+      ],
+      "vocab_oov_ratio": 0.1107,
+      "document_token_oov_fraction": 0.0491,
+      "oov_examples": [
+        "#1392]",
+        "#2492",
+        "#2542]",
+        "#2588]",
+        "#2589",
+        "#2661",
+        "#2926]",
+        "#3153]",
+        "#3195]",
+        "#3559]",
+        "#4723]",
+        "#4846]",
+        "#5259",
+        "#5339]",
+        "#7295]",
+        "#7372]",
+        "#7401]",
+        "#7557]",
+        "#8262]",
+        "#8391]",
+        "#8817",
+        "#8911]",
+        "#9958]",
+        "(tin",
+        "(tn",
+        "(tni",
+        "1134",
+        "1370:",
+        "1521:",
+        "1592",
+        "2070",
+        "2082:",
+        "2426",
+        "3071:",
+        "3468:",
+        "3542",
+        "4134:",
+        "4473",
+        "5357:",
+        "5760",
+        "6085",
+        "7245:",
+        "7266:",
+        "7345:",
+        "8074:",
+        "8288:",
+        "8327:",
+        "9526:",
+        "9764",
+        "9810:",
+        "aby",
+        "axc",
+        "by",
+        "cham,",
+        "ci:",
+        "cihnh:",
+        "dinh.",
+        "er,",
+        "geing",
+        "gieng"
+      ]
+    },
+    "hard": {
+      "dataset": "hard_probe",
+      "n": 750,
+      "label_positive_fraction": {
+        "via": 0.5147,
+        "urgent": 0.472,
+        "fragile": 0.444,
+        "accented": 0.5773,
+        "spatial_goal": 0.628,
+        "spatial_via": 0.1653
+      },
+      "lexical_fraction": {
+        "lay_word": 0.16,
+        "truoc_word": 0.312,
+        "nhan_word": 0.7613,
+        "no_word": 0.9293,
+        "huy_word": 0.0733,
+        "fragile_lex": 0.2507,
+        "urgent_lex": 0.472,
+        "accents": 0.5773
+      },
+      "p_via_given_lex": {
+        "truoc_word": 0.8675,
+        "nhan_word": 0.5114,
+        "no_word": 0.5007,
+        "urgent_lex": 0.5141,
+        "fragile_lex": 0.5053,
+        "accents": 0.5381,
+        "huy_word": 0.6,
+        "lay_word": 0.5417
+      },
+      "p_via_without_lex": {
+        "lay_word": 0.5095,
+        "truoc_word": 0.3547,
+        "nhan_word": 0.5251,
+        "no_word": 0.6981,
+        "huy_word": 0.5079,
+        "fragile_lex": 0.5178,
+        "urgent_lex": 0.5152,
+        "accents": 0.4826
+      },
+      "token_p50": 68.0,
+      "token_p90": 94,
+      "prefix_distinct_rate": 0.244,
+      "max_prefix_repeat": 72,
+      "joint_flags_and_via": {
+        "(True, True, False)": 97,
+        "(True, True, True)": 83,
+        "(True, False, True)": 99,
+        "(True, False, False)": 107,
+        "(False, False, True)": 103,
+        "(False, True, False)": 84,
+        "(False, True, True)": 69,
+        "(False, False, False)": 108
+      },
+      "frequent_tokens": [
+        [
+          "hang",
+          711
+        ],
+        [
+          "khong",
+          697
+        ],
+        [
+          "duoc",
+          651
+        ],
+        [
+          "o",
+          603
+        ],
+        [
+          "giao",
+          595
+        ],
+        [
+          "nhan",
+          571
+        ],
+        [
+          "tai",
+          554
+        ],
+        [
+          "va",
+          534
+        ],
+        [
+          "nhay",
+          521
+        ],
+        [
+          "don",
+          487
+        ],
+        [
+          "la",
+          483
+        ],
+        [
+          "tri",
+          473
+        ],
+        [
+          "phai",
+          472
+        ],
+        [
+          "chi",
+          467
+        ],
+        [
+          "tui",
+          450
+        ],
+        [
+          "ban",
+          449
+        ],
+        [
+          "diem",
+          424
+        ],
+        [
+          "nguoi",
+          422
+        ],
+        [
+          "lo",
+          420
+        ],
+        [
+          "day",
+          406
+        ],
+        [
+          "trung",
+          400
+        ],
+        [
+          "noi",
+          396
+        ],
+        [
+          "robot",
+          395
+        ],
+        [
+          "pham",
+          382
+        ],
+        [
+          "thung",
+          382
+        ],
+        [
+          "buu",
+          382
+        ],
+        [
+          "cho",
+          382
+        ],
+        [
+          "hay",
+          376
+        ],
+        [
+          "cung",
+          372
+        ],
+        [
+          "toi",
+          360
+        ],
+        [
+          "khu",
+          356
+        ],
+        [
+          "hoan;",
+          354
+        ],
+        [
+          "cap.",
+          354
+        ],
+        [
+          "khan",
+          354
+        ],
+        [
+          "dung",
+          352
+        ],
+        [
+          "chuyen",
+          350
+        ],
+        [
+          "tranh",
+          333
+        ],
+        [
+          "cham,",
+          333
+        ],
+        [
+          "lac.",
+          333
+        ],
+        [
+          "rung",
+          333
+        ]
+      ],
+      "vocab_oov_ratio": 0.0641,
+      "document_token_oov_fraction": 0.0538,
+      "oov_examples": [
+        "cham,",
+        "hoan;",
+        "hop;",
+        "lac.",
+        "lay.",
+        "mo",
+        "mon,",
+        "mon.",
+        "nay;",
+        "nhanh,",
+        "nhanh;",
+        "nhay",
+        "noi,",
+        "quan.",
+        "suy",
+        "tennis",
+        "tennis,",
+        "tennis.",
+        "theo.",
+        "troi,",
+        "troi.",
+        "troi;"
+      ]
+    }
+  },
+  "interpretation_notes": [
+    "Synthetic probe holds out 20% phrase-bank positions, not families/semantics",
+    "A model can memorize generator structure despite unique sentences",
+    "Large train-vs-probe loss gap may mix overconfidence with real distribution shift",
+    "Probe diagnostic cannot establish real-life generalization or replace blind test"
+  ]
+}

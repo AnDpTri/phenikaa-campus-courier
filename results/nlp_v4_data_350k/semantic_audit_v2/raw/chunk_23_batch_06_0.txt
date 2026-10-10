@@ -1,0 +1,522 @@
+v4_0222652	P	-
+v4_0222655	P	-
+v4_0222660	clinic/-/-	F	clinic/-/- instead of clinic/north/- (tram xa ben tren: tram xa = clinic, ben tren = north, correct is clinic/north/-) -> wait: provided is clinic/north/-, but 'giang vien dung lop giang duong o tram xa ben trn' means recipient is at clinic/north. Is it P? Yes, P.
+v4_0222652	P	-
+v4_0222655	P	-
+v4_0222660	P	-
+v4_0222666	P	-
+v4_0222667	P	-
+v4_0222676	P	-
+v4_0222680	P	-
+v4_0222685	P	-
+v4_0222715	P	-
+v4_0222730	P	-
+v4_0222731	P	-
+v4_0222738	P	-
+v4_0222740	P	-
+v4_0222745	P	-
+v4_0222763	P	-
+v4_0222783	P	-
+v4_0222789	P	-
+v4_0222790	P	-
+v4_0222803	P	-
+v4_0222818	P	-
+v4_0222842	P	-
+v4_0222865	P	-
+v4_0222868	P	-
+v4_0222871	P	-
+v4_0222886	P	-
+v4_0222910	P	-
+v4_0222917	P	-
+v4_0222918	P	-
+v4_0222929	P	-
+v4_0222966	P	-
+v4_0222967	P	-
+v4_0222970	P	-
+v4_0222972	P	-
+v4_0222986	P	-
+v4_0222993	P	-
+v4_0223008	P	-
+v4_0223010	P	-
+v4_0223024	P	-
+v4_0223030	P	-
+v4_0223037	P	-
+v4_0223042	P	-
+v4_0223044	P	-
+v4_0223049	P	-
+v4_0223054	P	-
+v4_0223059	P	-
+v4_0223062	P	-
+v4_0223065	P	-
+v4_0223067	P	-
+v4_0223069	P	-
+v4_0223082	P	-
+
+Let me re-check every single line carefully:
+1. v4_0222652: gate/-/- | -/-/- | 0 | 0 | Ma don 9982: khong phai giao phong nghien cuu. Nhan vien an ninh truc cong chinh dang cho thung nuoc uong. Nho nhe. -> Goal: cong chinh (gate/-/-). via: none. urgent: 0. fragile: 0. Matches P.
+2. v4_0222655: lecture/-/- | canteen/-/- | 1 | 0 | Ma don 1637 chuyen nay xuat phat tu noi gui xe di tiep khong phai diem cuoi chay thang toi khu giang duong roi chuyen goi hang nha phai qua quan an truong lay khay com da cang nhanh cang tot hang khong de vo dau cam on nhieu. -> Goal: khu giang duong (lecture/-/-). Via: quan an truong (canteen/-/-). Urgent: cang nhanh cang tot (1). Fragile: hang khong de vo (0). Matches P.
+3. v4_0222660: clinic/north/- | -/-/- | 0 | 0 | Chao robot giang vien dung lop giang duong o tram xa ben trn dang cho o cung nho ky nhe. -> Goal: tram xa ben trn (clinic/north/-). Recipient location overrides usual. Urgent: 0. Fragile: 0. Matches P.
+4. v4_0222666: dorm/-/- | -/-/- | 1 | 1 | robot than men, minh chi luot qua khu vuc toa van phong, khong dung chan. khong phai giao kho sach. bac si o khu noi tru dang cho bien ten khach. dang rat gap. can than do su. cam on nhieu. -> Goal: khu noi tru (dorm/-/-). Urgent: dang rat gap (1). Fragile: can than do su (1). Matches P.
+5. v4_0222667: -/anchor_near/lecture | -/-/- | 0 | 1 | chao ban, o cung gui den cong trinh gan nha hoc nhat (khong tinh nha hoc). khong co gi gap. hang de v, di can than. nho nhe. -> Goal: gan nha hoc nhat (khong tinh nha hoc) -> -/anchor_near/lecture. Urgent: khong co gi gap (0). Fragile: hang de v (1). Matches P.
+6. v4_0222676: -/south_most/- | -/-/- | 0 | 0 | Thong bao don: tan truoc da giao phong y te truong roi. Chuyen nay xuat phat tu khu lop hoc di tiep, khong phai diem cuoi. Khong phai san thi dau ma la don hang gui sang o ma o mep duoi cung. Hang chac chan, khong de vo. Cam on robot. -> Goal: mep duoi cung (-/south_most/-). Urgent: 0. Fragile: 0. Matches P.
+7. v4_0222680: -/east_most/- | -/-/- | 1 | 0 | nho robot: khng lien quan gi toi van phong khoa. han cap! quen dn cu o lab di, lm on dua con dau len dia diem huong thang ve phuong dong xa hon moi vi tri. khong phai giao khu ky tuc xa. cam on ban nhe. -> Goal: huong thang ve phuong dong xa hon moi vi tri (-/east_most/-). Urgent: han cap! (1). Fragile: 0. Matches P.
+8. v4_0222685: -/anchor_near/parking | -/-/- | 0 | 1 | chao robot! khong phai khu lab ma la nho robot mang igup loa den dia diem nao do gan sat khu vuc trogn giu xe hai banh. dung di qua phong an. nguoi nhan khnog con o ky tuc x.a khong gap dau. nhe tay vi do rat de vo. -> gan sat khu vuc trogn giu xe hai banh (-/anchor_near/parking). dung di qua phong an (not via, just avoid). Urgent: khong gap dau (0). Fragile: nhe tay vi do rat de vo (1). Matches P.
+9. v4_0222715: -/anchor_near/lab | -/-/- | 1 | 1 | robot than men can gap khong can ghe nha an tap the khuon vien truong hang de vo nhe san tap thi khong can toi giang vien dang day o toa nha nam ke khu thi nghiem nhat can bo bang gac cam on nhieu -> ke khu thi nghiem nhat (-/anchor_near/lab). Urgent: can gap (1). Fragile: hang de vo (1). Matches P.
+10. v4_0222730: -/anchor_near/lab | -/-/- | 0 | 0 | Chao robot nguoi nhan da roi san van dogn roi khach hen lay chiec tiu o o o sat ben khu thi nghiem nha khong gap lam hom qua da giao o hna tap roi nho nhe -> sat ben khu thi nghiem nha (-/anchor_near/lab). Urgent: khong gap lam (0). Fragile: 0. Matches P.
+11. v4_0222731: library/-/- | -/-/- | 0 | 0 | xin chao khong vi phai nhanh do cung khong sao tranh bep truong hoc ra nhe nguoi nhan khong con o cang tin dung dung cho cu nua chay sang kho tai lieu nha cam on -> kho tai lieu (library/-/-). Urgent: khong vi phai nhanh (0). Fragile: do cung khong sao (0). Matches P.
+12. v4_0222738: -/west_most/- | lecture/-/- | 0 | 1 | Orbot Than Men Tranh Hku Thu Vien Ra Nhe Khong Gap Dau Dung Chan O Hoi Truong Lay Tap Bai Kiem Tra Xong Moi Can Bo Phu Trach Phong Thuc Hanh O Nut Tim Diem Co Iknh Do Nho Nhat Tern Ban Do Cua Campus Dang Cho Thung Sua Nguoi Nhan Da Roi Tram Y Te Cham Soc Sinh Vien Roi Minh Chi Luot Qa Khu Vuc Phong Sach Khong Dung Chan Coi Chung Vo Nhe Cam On Robot -> Via: hoi truong (lecture/-/-). Goal: diem co kinh do nho nhat tren ban do (-/west_most/-). Urgent: Khong gap dau (0). Fragile: Coi chung vo nhe (1). Matches P.
+13. v4_0222740: -/anchor_near/sports | dorm/near/canteen | 0 | 1 | robot giao hang oi, di den trong hai cho o noi tru, cai gan nha an tap the khuon vien truong hon lay qua bong da roi hyu don giao phong thi nghiem ly. thay vao o: co don giao ve xe o nut lien ke trung tam the duc. dung nham voi loi vao truong nhe. khong phai giao toa giang duong. tranh rung lac vi de vo. lcu nao ranh hi giao. thank you. -> Via: cho o noi tru, cai gan nha an tap the khuon vien truong hon = dorm/near/canteen. Goal: nut lien ke trung tam the duc = -/anchor_near/sports. Urgent: lcu nao ranh hi giao (0). Fragile: tranh rung lac vi de vo (1). Matches P.
+14. v4_0222745: clinic/-/- | canteen/-/- | 1 | 1 | Ma Don 7821 Khong Can Ghe Day Nha Ktx Dia Chi Giao Phong Cuu Thuong Hang Mong Manh Lam Uu Tien Giao Truoc Nho Ghe Ngang Can Tin Dia Chi Cu La Cong Chinh Ra Vao Khuon Vien Truong Bo Qua Minh Chi Luot Qua Khu Vuc Van Phong Khoa Khong Dung Chan Nho Nhe -> Goal: phong cuu thuong (clinic/-/-). Via: nho ghe ngang can tin (canteen/-/-). Urgent: uu tien giao truoc (1). Fragile: hang mong manh lam (1). Matches P.
+15. v4_0222763: -/south_most/- | gate/-/- | 0 | 0 | ma dno 1190: dung de o nha the chat. tuan truoc da giao khu luyen tpa the duc the thao roi. sau khi lay so ghi khach o chot bao ve, can bo phong dao tao o toa o ria duoi dang cho goi hoa qua. cam on robot. -> Via: chot bao ve (gate/-/-). Goal: toa o ria duoi (-/south_most/-). Urgent: 0. Fragile: 0. Matches P.
+16. v4_0222783: canteen/near/parking | -/-/- | 1 | 1 | thong bao don: nguoi nhan da roi thu vien roi. coi chung vo nhe. vui long giao ho atp tai lieu qua khu an uong nam gan nha giu xe. gap gap! noi o cua sinh vien hom nay ong cua. thank you. -> Goal: khu an uong nam gan nha giu xe (canteen/near/parking). Urgent: gap gap! (1). Fragile: coi chung vo nhe (1). Matches P.
+17. v4_0222789: -/north_most/- | library/-/- | 0 | 1 | thong bao don: dung lm roi, de vo lam. tat qua khong gian doc yen tinh tang tren lay the thu vien roi doi bong dang doi bang ten tai toa nao cao nhat cua campus. khong vi phai hnanh. nho ky nhe. -> Via: khong gian doc yen tinh tang tren lay the thu vien (library/-/-). Goal: toa nao cao nhat cua campus (-/north_most/-). Urgent: khong vi phai hnanh (0). Fragile: de vo lam (1). Matches P.
+18. v4_0222790: -/anchor_near/parking | lab/near/lecture | 1 | 0 | phien ban chut: dung de o phong tiep dan. sau khi lay thung nuoc uong o tung tam thi nghiem phia gan hoi truong, nguoi giu xe hien dang o phan loai can phong tiep can gan nhat toi moc cho gui xe may, nho van chuyen ve xe en do. rat khan. -> Via: trung tam thi nghiem phia gan hoi truong (lab/near/lecture). Goal: can phong tiep can gan nhat toi moc cho gui xe may (-/anchor_near/parking). Urgent: rat khan (1). Fragile: 0. Matches P.
+19. v4_0222803: library/-/- | office/-/- | 1 | 0 | Xin chao! nguoi nhan da roi phong hoc lon roi. Dung ghe tang ham de xe khu giang duong. Cong b hi khong can toi. Truoc tien vao phogn quan ly dao tao, xong roi mang bo ho so toi cho ban quan ly thu vien. Gap lam roi. Cam on! -> Via: phogn quan ly dao tao (office/-/-). Goal: ban quan ly thu vien (library/-/-). Urgent: gap lam roi (1). Fragile: 0. Matches P.
+20. v4_0222818: clinic/-/- | sports/east/- | 0 | 1 | chao ban, doan duong chay qua bai gui xe, kohng co y dinh dung lai. diem kiem soat te ra vao khuon vien thi khong can toi. xin giao bo sach ra y te truong. nho qua san bong ro phia dong truoc. khong voi dau. hang de vo, di can than. thanks root. -> Goal: y te truong (clinic/-/-). Via: san bong ro phia dong (sports/east/-). Urgent: khong voi dau (0). Fragile: hang de vo (1). Matches P.
+21. v4_0222842: canteen/-/- | -/-/- | 0 | 1 | robot giao hang oi, hom qa da gaio o bai gui xe roi. thay doi: khong giao cho o noi tru nua, giao hang tai nha an tap the. nhe tay giup. -> Goal: nha an tap the (canteen/-/-). Urgent: 0. Fragile: nhe tay giup (1). Matches P.
+22. v4_0222865: canteen/near/gate | library/north/- | 0 | 0 | [don #9809] hom qua da giao o toa nha hoc roi. Dong thoi tat qua thu vien phia bac lay tap tai lieu da. Micro khong day can duoc dua ua khu nha an gan phia cong ngoai. Lan truoc giao nham bai gui xe may sinh vien. Luc nao ranh thi giao. Huong nay chi chay song song voi coh tp the duc, khong re vao do. Thanks robot. -> Via: thu vien phia bac (library/north/-). Goal: khu nha an gan phia cong ngoai (canteen/near/gate). Urgent: Luc nao ranh thi giao (0). Fragile: 0. Matches P.
+23. v4_0222868: -/anchor_near/sports | -/-/- | 0 | 0 | xin chao! minh chi luot qua khu vuc bai do xe, khong ung chan. canteen dang sua chua, tranh ra. khong can di ngang phong thuc tap. cam phien cho ve xe den thang dia diem nao gan phng gym nhat voi. hang ben, khong lo vo. nho nhe. -> Goal: dia diem nao gan phng gym nhat (-/anchor_near/sports). Urgent: 0. Fragile: 0. Matches P.
+24. v4_0222871: -/north_most/- | -/-/- | 0 | 1 | Nho Ban Nhe: Nguoi Nhan Da Roi Ky Tuc Xa Roi. Coi Chung Vo Nh. Chuyen Ho Hpo Khau Trang Ra Can Phong Nao O Ria Tren. Nho Ky Nhe. -> Goal: ria tren (-/north_most/-). Urgent: 0. Fragile: Coi chung vo (1). Matches P.
+25. v4_0222886: -/anchor_near/sports | clinic/-/- | 0 | 0 | Ma don 8462: hang khong vo duoc. Tuan truoc da giao cong truong chinh roi. Ban hay qua phong kham da khoa truoc roi dia diem nhan hang la lay cong trinh voi khoang cach toi thieu ve phia san luyen tap. Tks. -> Via: phong kham da khoa (clinic/-/-). Goal: cong trinh voi khoang cach toi thieu ve phia san luyen tap (-/anchor_near/sports). Urgent: 0. Fragile: 0. Matches P.
+26. v4_0222910: lecture/near/library | office/-/- | 1 | 0 | Nho Robot: Minh Chi Luot Qua Khu Vuc Phong Bac Si, Khong Dung Chan. Tuy Nhien Hay Vong Qua Vn Phong Lay Ban Photo Truoc. Khong Cna Di Ngang Phong Kham Suc Kho. Doan Duong Chay Ua Phong Bao Ve, Khong Co Y Dinh Dung Lai. Cna Trong 5 Phut. Lam On Edm Hop Giay Toi Khu Vuc Lop Ohc Ly Thuyet Sat Ben Phong Sach. Thank You. -> Via: van phong (office/-/-). Goal: khu vuc lop hoc ly thuyet sat ben phong sach (lecture/near/library). Urgent: can trong 5 phut (1). Fragile: 0. Matches P.
+27. v4_0222917: canteen/east/- | -/-/- | 1 | 0 | xin chao! do chac lam. noi giu xe hom nay dong cua. thoi bo y nghi qua phong thuc hanh di, gio robot chay qua khu an trua lech phai giao dung cu tap luyen. nhanh nhat co the. thank you. -> Goal: khu an trua lech phai (canteen/east/-). Urgent: nhanh nhat co the (1). Fragile: do chac lam (0). Matches P.
+28. v4_0222918: sports/-/- | lab/near/parking | 0 | 0 | yeu cau moi: minh chi luot qua khu vuc toa giang day, khong dung chan. phong an khong phai diem giao. ban vao xuong thuc hanh canh nha xe lay buu kien da, roi cho thung carton cho doi trong xe o khu tap luyen. thong tha. khong can nhe tay. nho ky nhe. -> Via: xuong thuc hanh canh nha xe (lab/near/parking). Goal: khu tap luyen (sports/-/-). Urgent: thong tha (0). Fragile: khong can nhe tay (0). Matches P.
+29. v4_0222929: parking/-/- | gate/-/- | 0 | 1 | Hello robot hang de vo nhe dung chan o cong truong lay kien hang xong moi giao hang tai khu de xe khong phai giao toa nha o cua sinh vien nho nhe -> Via: cong truong (gate/-/-). Goal: khu de xe (parking/-/-). Urgent: 0. Fragile: hang de vo nhe (1). Matches P.
+30. v4_0222966: office/-/- | -/-/- | 1 | 0 | Alo robot, hoa toc! cap nhat: bo lop hoc, can bo hanh chinh dang doi tap bai kiem tra gap. Khong can di ngang khong gian doc yen tinh tang tren. Nguoi nhan khong con o trung tam the duc. -> Goal: can bo hanh chinh (office/-/-). Urgent: hoa toc! / gap (1). Fragile: 0. Matches P.
+31. v4_0222967: canteen/near/lecture | sports/-/- | 1 | 0 | [don #5975] robot chay snag canteen gan voi toa lop hoc hon giao phong bi. Minh chi luot qua khu vuc chot bao ve, khong dung chan. Tren duong tien ghe san bong ro nhe. Hang khong vo duoc. Viec nay khna cap. Cam on! -> Via: san bong ro (sports/-/-). Goal: canteen gan voi toa lop hoc hon (canteen/near/lecture). Urgent: khan cap (1). Fragile: 0. Matches P.
+32. v4_0222970: lab/-/- | -/-/- | 1 | 0 | Thong bao don: xe chi chay ngang tam hku nha o sinh vien, do khong phai cho moun ti. Tro giang phong ab dang cho ao dong phuc. Khan cap! do chac lam. Nho ky nhe. -> Goal: phong lab (lab/-/-). Urgent: khan cap (1). Fragile: do chac lam (0). Matches P.
+33. v4_0222972: sports/north/- | -/-/- | 1 | 0 | Nho ban nhe: hang di trung tam the duc thuoc khu vuc mien bac. Khan cap! hang khong de vo dau. Cam on ban nhe. -> Goal: trung tam the duc thuoc khu vuc mien bac (sports/north/-). Urgent: khan cap (1). Fragile: hang khong de vo dau (0). Matches P.
+34. v4_0222986: dorm/south/- | clinic/-/- | 0 | 0 | Thong Bao Don: Nguoi Nhan Khong Con O Phong Nghien Cuu. Doi Dia Chi Tu Khu Bep Sang Ban To Chuc Giai The Thao O Khu Ktx Khu Nam Dang Cho Bom Xe. Nho Di Ngang Phong Bac Si Lay Dung Cu Tap Luyen Truoc. Khong Can Gap. Nho Ky Nhe. -> Via: phong bac si (clinic/-/-). Goal: ktx khu nam (dorm/south/-). Urgent: khong can gap (0). Fragile: 0. Matches P.
+35. v4_0222993: -/north_most/- | -/-/- | 1 | 0 | nho ban nhe: hom qua da giao o bai xe roi. luc nay nhan nham la y te truong. dung ra: can phong o tren cung ban do la noi can giao. toc hanh nhe. do khong vo duco dau. nho nhe. -> Goal: can phong o tren cung ban do (-/north_most/-). Urgent: toc hanh nhe (1). Fragile: do khong vo duco dau (0). Matches P.
+36. v4_0223008: gate/-/- | canteen/-/- | 1 | 1 | phien ban chut: nho ghe ngang can tin. thay doi: khong giao noi muon giao trinh nua, vui long giao ho hoa chat ra cong chinh ra vao khuon vien truong. coi chung vo nhe. hom qua da giao o nha tap the thao roi. rat khan. cam on ban nhe. -> Via: can tin (canteen/-/-). Goal: cong chinh ra vao khuon vien truong (gate/-/-). Urgent: rat khan (1). Fragile: coi chung vo nhe (1). Matches P.
+37. v4_0223010: canteen/north/- | gate/-/- | 0 | 1 | Roobt Than Men Dung Ghe Khu Alb Di Den Cong Ngoai Lya Bo Ho So Da Roi Thya Doi Khong Giao Khu The Thao Nua Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren Di Cu Tu Tu Khong Voi Coi Chung Vo Nhe Cam On Nhiue -> Via: cong ngoai (gate/-/-). Goal: khu an trua ben tren (canteen/north/-). Urgent: Di Cu Tu Tu Khong Voi (0). Fragile: Coi Chung Vo Nhe (1). Wait, "Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren" -> wait! "can gap" here is "cần gấp tập tài liệu" (need urgently the file/document) or "can gap"?!
+Wait, let's examine: "Roobt Than Men Dung Ghe Khu Alb Di Den Cong Ngoai Lya Bo Ho So Da Roi Thya Doi Khong Giao Khu The Thao Nua Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren Di Cu Tu Tu Khong Voi Coi Chung Vo Nhe Cam On Nhiue"
+Wait! Is "Can Gap" = "Cần gấp tập tài liệu" (Need urgently the document folder) or "can giao" or what?! Wait, "Di cu tu tu khong voi" = walk slowly not rushing.
+Wait! If "Can Gap" means "cần gấp" (urgent) vs "Di Cu Tu Tu Khong Voi" (not rushing) -> "Flag contradictory urgency phrases as U"!!
+LOOK AT THE PROMPT:
+"Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"Flag contradictory urgency phrases as U."
+WAIT! Is "Can Gap Tap Tai Lieu" contradictory urgency? Or is it "cần gập / kẹp / giao"? Wait! In Vietnamese typo: "Can Gap" could be "cần giao" (giao -> gap? No, p and o are not adjacent, but p and o? On QWERTY, P is next to O!). But "Can Gap" literally spells "cần gấp" (need urgently)!
+Wait, if it is "Cần gấp tập tài liệu" (Need urgently the document file) AND "Di Cu Tu Tu Khong Voi" (Go slowly don't hurry) -> "cần gấp" vs "đi cứ từ từ không vội" -> CONTRADICTORY URGENCY PHRASES!
+Wait, let's re-read carefully: "Flag contradictory urgency phrases as U."
+That instruction specifically states: "Flag contradictory urgency phrases as U."
+Let's check if there are other contradictory urgency phrases in the dataset!
+Let's check v4_0223010:
+"Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren Di Cu Tu Tu Khong Voi"
+"Can Gap" = cần gấp (urgent). "Di Cu Tu Tu Khong Voi" = đi cứ từ từ không vội (not urgent).
+This is EXACTLY why the prompt specifically gave the guideline: "Flag contradictory urgency phrases as U."!
+Let's check all lines for any other contradictory phrases or mismatches!
+
+Let's check:
+v4_0222652:
+"Ma don 9982: khong phai giao phong nghien cuu. Nhan vien an ninh truc cong chinh dang cho thung nuoc uong. Nho nhe." -> urgent: 0, fragile: 0.
+
+v4_0222655:
+"cang nhanh cang tot hang khong de vo dau" -> urgent: 1, fragile: 0.
+
+v4_0222660:
+"giang vien dung lop giang duong o tram xa ben trn dang cho o cung nho ky nhe" -> urgent: 0, fragile: 0.
+
+v4_0222666:
+"dang rat gap. can than do su." -> urgent: 1, fragile: 1.
+
+v4_0222667:
+"khong co gi gap. hang de v, di can than." -> urgent: 0, fragile: 1.
+
+v4_0222676:
+"Hang chac chan, khong de vo." -> urgent: 0, fragile: 0.
+
+v4_0222680:
+"han cap!" -> urgent: 1, fragile: 0.
+
+v4_0222685:
+"khong gap dau. nhe tay vi do rat de vo." -> urgent: 0, fragile: 1.
+
+v4_0222715:
+"can gap khong can ghe nha an tap the... hang de vo nhe" -> urgent: 1, fragile: 1.
+
+v4_0222730:
+"khong gap lam hom qua da giao..." -> urgent: 0, fragile: 0.
+
+v4_0222731:
+"khong vi phai nhanh do cung khong sao" -> urgent: 0, fragile: 0.
+
+v4_0222738:
+"Khong Gap Dau Dung Chan O Hoi Truong... Coi Chung Vo Nhe" -> urgent: 0, fragile: 1.
+
+v4_0222740:
+"tranh rung lac vi de vo. lcu nao ranh hi giao." -> urgent: 0, fragile: 1.
+
+v4_0222745:
+"Hang Mong Manh Lam Uu Tien Giao Truoc" -> urgent: 1, fragile: 1.
+
+v4_0222763:
+"sau khi lay so ghi khach o chot bao ve, can bo phong dao tao o toa o ria duoi dang cho goi hoa qua." -> urgent: 0, fragile: 0.
+
+v4_0222783:
+"coi chung vo nhe... gap gap!" -> urgent: 1, fragile: 1.
+
+v4_0222789:
+"dung lm roi, de vo lam... khong vi phai hnanh." -> urgent: 0, fragile: 1.
+
+v4_0222790:
+"rat khan." -> urgent: 1, fragile: 0.
+
+v4_0222803:
+"Gap lam roi." -> urgent: 1, fragile: 0.
+
+v4_0222818:
+"khong voi dau. hang de vo, di can than." -> urgent: 0, fragile: 1.
+
+v4_0222842:
+"nhe tay giup." -> urgent: 0, fragile: 1.
+
+v4_0222865:
+"Luc nao ranh thi giao." -> urgent: 0, fragile: 0.
+
+v4_0222868:
+"hang ben, khong lo vo." -> urgent: 0, fragile: 0.
+
+v4_0222871:
+"Coi Chung Vo Nh." -> urgent: 0, fragile: 1.
+
+v4_0222886:
+"hang khong vo duoc... Tks." -> urgent: 0, fragile: 0.
+
+v4_0222910:
+"Cna Trong 5 Phut." -> urgent: 1, fragile: 0.
+
+v4_0222917:
+"do chac lam... nhanh nhat co the." -> urgent: 1, fragile: 0.
+
+v4_0222918:
+"thong tha. khong can nhe tay." -> urgent: 0, fragile: 0.
+
+v4_0222929:
+"hang de vo nhe" -> urgent: 0, fragile: 1.
+
+v4_0222966:
+"hoa toc!... gap." -> urgent: 1, fragile: 0.
+
+v4_0222967:
+"Hang khong vo duoc. Viec nay khna cap." -> urgent: 1, fragile: 0.
+
+v4_0222970:
+"Khan cap! do chac lam." -> urgent: 1, fragile: 0.
+
+v4_0222972:
+"Khan cap! hang khong de vo dau." -> urgent: 1, fragile: 0.
+
+v4_0222986:
+"Khong Can Gap." -> urgent: 0, fragile: 0.
+
+v4_0222993:
+"toc hanh nhe. do khong vo duco dau." -> urgent: 1, fragile: 0.
+
+v4_0223008:
+"coi chung vo nhe... rat khan." -> urgent: 1, fragile: 1.
+
+v4_0223010:
+"Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren Di Cu Tu Tu Khong Voi Coi Chung Vo Nhe"
+Wait!
+"Can Gap" (cần gấp) vs "Di Cu Tu Tu Khong Voi" (đi cứ từ từ không vội)
+Can gap = urgent, Di tu tu khong voi = not urgent!
+Contradictory urgency phrases -> U!
+Wait, could "Can Gap" mean "cần gặp" (need to meet)? "cần gặp tập tài liệu"? No, "tập tài liệu" is an inanimate object, you don't "gặp tập tài liệu". "Cần gấp tập tài liệu" means "need document file urgently" or "giao gấp". Thus "can gap" means urgently! And "di cu tu tu khong voi" means go slowly, no rush. This is a direct contradiction in urgency!
+Therefore v4_0223010 is U!
+Let's check the reason: "contradictory urgency cues ('Can Gap' vs 'Di Cu Tu Tu Khong Voi')".
+
+Let's check all the rest of the lines:
+v4_0223024:
+-/anchor_near/office	parking/-/-	0	1
+"yeu cau moi: hom qua da gao o phong hoc ly thuyet roi. thay doi: khong giao khu an uong nua, phong thu gui ra truy tim noi ke can moc phong quan ly dao tao hon ca. truoc do phai di qua khu de xe dap. en trong la do thuy tinh. tks."
+- Goal: "truy tim noi ke can moc phong quan ly dao tao hon ca" -> -/anchor_near/office.
+- Via: "truoc do phai di qua khu de xe dap" -> parking/-/-.
+- Urgent: absent -> 0.
+- Fragile: "en trong la do thuy tinh" (ben trong la do thuy tinh) -> 1.
+Matches P.
+
+v4_0223030:
+library/-/-	-/-/-	1	0
+"[don #8295] khan cap! thoi bo y nghi qua phong kham suc khoe di, gio cau lac bo bong da o kho tai lieu dang cho hop giay."
+- Goal: kho tai lieu -> library/-/-.
+- Urgent: khan cap -> 1.
+- Fragile: 0.
+Matches P.
+
+v4_0223037:
+-/anchor_near/sports	-/-/-	1	1
+"chao robot! huong nay chi chay song song voi phong cong vu, khong re vao do. quen don cu o khu an trua di, dem tap bai kiem tra xuong cong trinh sat nha thi dau the thao da nang ngay. can trong 5 phut. do gom ben trong, tranh va cham. cam on nhieu."
+- Goal: cong trinh sat nha thi dau the thao da nang -> -/anchor_near/sports.
+- Urgent: can trong 5 phut -> 1.
+- Fragile: do gom ben trong, tranh va cham -> 1.
+Matches P.
+
+v4_0223042:
+sports/near/office	-/-/-	1	0
+"Chao Robot! Loi Vao Danh Cho Phuong Tien Co Gioi Dang Sua Chua, Tranh Ra. Dung Di Qua Tram Xa. Noi Giao Hang: San Van Dong Gan Phia Phong Giao Vu. Gap Lam Roi. Do Chac Lam. Cam On Robot."
+- Goal: San Van Dong Gan Phia Phong Giao Vu -> sports/near/office.
+- Urgent: Gap Lam Roi -> 1.
+- Fragile: Do Chac Lam -> 0.
+Matches P.
+
+v4_0223044:
+-/anchor_near/sports	library/-/-	1	1
+"thong bao don hang di cong trinh ke ben san thi dau khu vuc trong giu xe hai banh dang sua chua tranh ra hang de vo nhe phai ghe phong sach truoc roi moi giao viec nay khan cap huong nay chi chay song song voi cong truong chinh khong re vao do"
+- Goal: cong trinh ke ben san thi dau -> -/anchor_near/sports.
+- Via: phai ghe phong sach truoc roi moi giao -> library/-/-.
+- Urgent: viec nay khan cap -> 1.
+- Fragile: hang de vo nhe -> 1.
+Matches P.
+
+v4_0223049:
+-/anchor_near/lecture	sports/-/-	1	0
+"Robot giao hang oi, nhung phai qua nha tap lay bien ten khach truoc. Dang gap! chuyen nay xuat phat tu khu kham benh di tiep, khong phai diem cuoi. Hang khong vo duoc. Bai do xe thi khong can toi. Cap nhat: bo day nha o sinh vien noi tru, dia chi giao: dia diem nao do nam gan khu hoc tap nhat tren ban do. Thanks robot."
+- Via: phai qua nha tap lay bien ten khach truoc -> sports/-/-.
+- Goal: dia diem nao do nam gan khu hoc tap nhat tren ban do -> -/anchor_near/lecture.
+- Urgent: Dang gap! -> 1.
+- Fragile: Hang khong vo duoc -> 0.
+Matches P.
+
+v4_0223054:
+gate/-/-	-/-/-	1	1
+"Xin chao! minh chi luot qua khu vuc phong an sinh vien, khong dung chan. Doi bao ve dang doi goi hang gap. Gap nhe! dung lam roi, de vo lam. Cam on nhieu."
+- Goal: Doi bao ve -> gate/-/-.
+- Urgent: Gap nhe! -> 1.
+- Fragile: de vo lam -> 1.
+Matches P.
+
+v4_0223059:
+-/anchor_near/gate	-/-/-	0	0
+"Xin chao! dung di qau noi muon tra sach giao trinh. Dem lo hang cho ky thuat vien o phan loai cong tinh tiep can gan nhat toi moc cong ngoa.i dung nham voi phong thuc hanh nhe. Hagn khong vo duoc. Cam on!"
+- Goal: cong tinh tiep can gan nhat toi moc cong ngoai -> -/anchor_near/gate.
+- Urgent: 0.
+- Fragile: Hagn khong vo duoc -> 0.
+Matches P.
+
+v4_0223062:
+-/anchor_near/clinic	office/-/-	1	1
+"nho abn nhe cn ngay trong 5 phut truoc tien qua bo phan omt ua gai quyet ho so nhan may chieu au do chuyen huong giao giup sang tram nao gan phong kham da khoa naht ngay oi chung vo nhe loi vao truong thi khong can toi oni tra sach hom nay dong ua cam on ban nhe"
+- Via: bo phan ... giai quyet ho so (office/-/-).
+- Goal: tram nao gan phong kham da khoa nhat -> -/anchor_near/clinic.
+- Urgent: cn ngay trong 5 phut -> 1.
+- Fragile: coi chung vo nhe -> 1.
+Matches P.
+
+v4_0223065:
+clinic/west/-	-/-/-	0	1
+"Nho robot: doi dia chi tu khu nha o sang phien robot mang giup bo sac xuong phong kham suc khoe ben trai. Dung lam roi, de vo lam. Khong can ghe lab. Thank you."
+- Goal: phong kham suc khoe ben trai -> clinic/west/-.
+- Urgent: 0.
+- Fragile: Dung lam roi, de vo lam -> 1.
+Matches P.
+
+v4_0223067:
+-/anchor_near/office	-/-/-	1	1
+"Chao! xe chi chay ngang tam cong a, do khong phai cho muon toi. Giao len toa nao gan van phong hanh chinh nhat nha. Gap nhe! nhe tay giup. Htank you."
+- Goal: toa nao gan van phong hanh chinh nhat -> -/anchor_near/office.
+- Urgent: Gap nhe! -> 1.
+- Fragile: nhe tay giup -> 1.
+Matches P.
+
+v4_0223069:
+parking/far/dorm	office/-/-	0	1
+"Doan duong chay qua phong doc, khong co y dinh dung lai. Tui rac nay can co mat o khu de xe dap nam cach xa khu noi tru. Nho qua phong tiep dan truoc. Khong gap lam. Can than do su. Tks."
+- Via: phong tiep dan truoc -> office/-/-.
+- Goal: khu de xe dap nam cach xa khu noi tru -> parking/far/dorm.
+- Urgent: Khong gap lam -> 0.
+- Fragile: Can than do su -> 1.
+Matches P.
+
+v4_0223082:
+dorm/far/library	-/-/-	1	1
+"Yeu cau moi: dia chi cu la nha thi dau the thao da nang, bo qua. Phong thi nghiem sinh dang sua chua, tranh ra. Khong phai toa giang duong dau. Khong phai van phong hanh chinh ma la muc tieu: ktx o dau xa phong tai lieu. Gap lam roi. Hang de vo, di can than. Cam on nhieu."
+- Goal: ktx o dau xa phong tai lieu -> dorm/far/library.
+- Urgent: Gap lam roi -> 1.
+- Fragile: Hang de vo, di can than -> 1.
+Matches P.
+
+Wait, let's re-verify all other lines for subtle issues:
+Wait, look at line:
+v4_0222738:
+Input: -/west_most/-	lecture/-/-	0	1	Orbot Than Men Tranh Hku Thu Vien Ra Nhe Khong Gap Dau Dung Chan O Hoi Truong Lay Tap Bai Kiem Tra Xong Moi Can Bo Phu Trach Phong Thuc Hanh O Nut Tim Diem Co Iknh Do Nho Nhat Tern Ban Do Cua Campus Dang Cho Thung Sua Nguoi Nhan Da Roi Tram Y Te Cham Soc Sinh Vien Roi Minh Chi Luot Qa Khu Vuc Phong Sach Khong Dung Chan Coi Chung Vo Nhe Cam On Robot
+Look at goal text:
+"Can Bo Phu Trach Phong Thuc Hanh O Nut Tim Diem Co Iknh Do Nho Nhat Tern Ban Do Cua Campus Dang Cho Thung Sua"
+"Can Bo Phu Trach Phong Thuc Hanh" is the person (officer in charge of lab). Where are they?
+"O Nut Tim Diem Co Iknh Do Nho Nhat Tern Ban Do Cua Campus" -> Nut/Diem co kinh do nho nhat tren ban do campus = west_most.
+Wait, type is absent (-). Correct!
+
+Wait, what about v4_0222763:
+Input: -/south_most/-	gate/-/-	0	0	ma dno 1190: dung de o nha the chat. tuan truoc da giao khu luyen tpa the duc the thao roi. sau khi lay so ghi khach o chot bao ve, can bo phong dao tao o toa o ria duoi dang cho goi hoa qua. cam on robot.
+"can bo phong dao tao o toa o ria duoi dang cho goi hoa qua"
+"toa o ria duoi" = -/south_most/-. Correct!
+
+Wait, what about v4_0222789:
+Input: -/north_most/-	library/-/-	0	1	thong bao don: dung lm roi, de vo lam. tat qua khong gian doc yen tinh tang tren lay the thu vien roi doi bong dang doi bang ten tai toa nao cao nhat cua campus. khong vi phai hnanh. nho ky nhe.
+"tai toa nao cao nhat cua campus" -> -/north_most/-. Map convention: "cao nhat/tren cung = north_most". Correct!
+
+Wait, what about v4_0222871:
+Input: -/north_most/-	-/-/-	0	1	Nho Ban Nhe: Nguoi Nhan Da Roi Ky Tuc Xa Roi. Coi Chung Vo Nh. Chuyen Ho Hpo Khau Trang Ra Can Phong Nao O Ria Tren. Nho Ky Nhe.
+"Can Phong Nao O Ria Tren" -> ria tren = north_most. Correct!
+
+Wait, what about v4_0222993:
+Input: -/north_most/-	-/-/-	1	0	nho ban nhe: hom qua da giao o bai xe roi. luc nay nhan nham la y te truong. dung ra: can phong o tren cung ban do la noi can giao. toc hanh nhe. do khong vo duco dau. nho nhe.
+"can phong o tren cung ban do" -> -/north_most/-. Map convention: tren cung = north_most. Correct!
+
+Wait, what about v4_0222660:
+Input: clinic/north/-	-/-/-	0	0	Chao robot giang vien dung lop giang duong o tram xa ben trn dang cho o cung nho ky nhe
+"tram xa ben trn" -> trn = tren = north. clinic/north/-. Correct!
+
+Wait, what about v4_0222917:
+Input: canteen/east/-	-/-/-	1	0	xin chao! do chac lam. noi giu xe hom nay dong cua. thoi bo y nghi qua phong thuc hanh di, gio robot chay qua khu an trua lech phai giao dung cu tap luyen. nhanh nhat co the. thank you.
+"khu an trua lech phai" -> lech phai = east. canteen/east/-. Correct!
+
+Wait, what about v4_0222986:
+Input: dorm/south/-	clinic/-/-	0	0	Thong Bao Don: Nguoi Nhan Khong Con O Phong Nghien Cuu. Doi Dia Chi Tu Khu Bep Sang Ban To Chuc Giai The Thao O Khu Ktx Khu Nam Dang Cho Bom Xe. Nho Di Ngang Phong Bac Si Lay Dung Cu Tap Luyen Truoc. Khong Can Gap. Nho Ky Nhe.
+"Khu Ktx Khu Nam" -> dorm/south/-. Correct!
+
+Wait, what about v4_0222972:
+Input: sports/north/-	-/-/-	1	0	Nho ban nhe: hang di trung tam the duc thuoc khu vuc mien bac. Khan cap! hang khong de vo dau. Cam on ban nhe.
+"trung tam the duc thuoc khu vuc mien bac" -> sports/north/-. Correct!
+
+Wait, what about v4_0222680:
+Input: -/east_most/-	-/-/-	1	0	nho robot: khng lien quan gi toi van phong khoa. han cap! quen dn cu o lab di, lm on dua con dau len dia diem huong thang ve phuong dong xa hon moi vi tri. khong phai giao khu ky tuc xa. cam on ban nhe.
+"dia diem huong thang ve phuong dong xa hon moi vi tri" -> east_most! Correct!
+
+Wait, what about v4_0222886:
+Input: -/anchor_near/sports	clinic/-/-	0	0	Ma don 8462: hang khong vo duoc. Tuan truoc da giao cong truong chinh roi. Ban hay qua phong kham da khoa truoc roi dia diem nhan hang la lay cong trinh voi khoang cach toi thieu ve phia san luyen tap. Tks.
+"lay cong trinh voi khoang cach toi thieu ve phia san luyen tap" -> khoang cach toi thieu = minimum distance = closest = anchor_near! anchor = san luyen tap (sports). -/anchor_near/sports. Correct!
+
+Wait, what about v4_0222790:
+Input: -/anchor_near/parking	lab/near/lecture	1	0	phien ban chut: dung de o phong tiep dan. sau khi lay thung nuoc uong o tung tam thi nghiem phia gan hoi truong, nguoi giu xe hien dang o phan loai can phong tiep can gan nhat toi moc cho gui xe may, nho van chuyen ve xe en do. rat khan.
+"can phong tiep can gan nhat toi moc cho gui xe may" -> tiep can gan nhat toi moc cho gui xe may = anchor_near to parking. Correct!
+
+Wait, what about v4_0222740:
+Input: -/anchor_near/sports	dorm/near/canteen	0	1
+"co don giao ve xe o nut lien ke trung tam the duc" -> nut lien ke trung tam the duc = anchor_near to sports. Correct!
+
+Wait, what about v4_0223010 again:
+Let's re-read:
+"Roobt Than Men Dung Ghe Khu Alb Di Den Cong Ngoai Lya Bo Ho So Da Roi Thya Doi Khong Giao Khu The Thao Nua Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren Di Cu Tu Tu Khong Voi Coi Chung Vo Nhe Cam On Nhiue"
+Wait!
+"Can Gap Tap Tai Lieu Truoc Cua Khu An Trua Ben Tren"
+Wait:
+Could "Can Gap" be:
+"Cần gấp tập tài liệu" - Wait, "gập" (fold)? "cần gập tập tài liệu"?
+Or "Cần giao tập tài liệu"? Wait, if it's "cần giao", but it's typed "Can Gap"? In Vietnamese telex/typing:
+"giao" typed as "gap"? No, G-I-A-O vs G-A-P.
+"cần gấp" = urgently need / need urgently!
+And "Di Cu Tu Tu Khong Voi" = đi cứ từ từ không vội (go slowly, don't rush).
+The instruction says:
+"Flag contradictory urgency phrases as U."
+"Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+This explicitly confirms v4_0223010 is U due to contradictory urgency phrases ("Can Gap" vs "Di Cu Tu Tu Khong Voi").
+
+Are there any other U or F?
+Let's check every single line:
+- v4_0222652: P
+- v4_0222655: P
+- v4_0222660: P
+- v4_0222666: P
+- v4_0222667: P
+- v4_0222676: P
+- v4_0222680: P
+- v4_0222685: P
+- v4_0222715: P
+- v4_0222730: P
+- v4_0222731: P
+- v4_0222738: P
+- v4_0222740: P
+- v4_0222745: P
+- v4_0222763: P
+- v4_0222783: P
+- v4_0222789: P
+- v4_0222790: P
+- v4_0222803: P
+- v4_0222818: P
+- v4_0222842: P
+- v4_0222865: P
+- v4_0222868: P
+- v4_0222871: P
+- v4_0222886: P
+- v4_0222910: P
+- v4_0222917: P
+- v4_0222918: P
+- v4_0222929: P
+- v4_0222966: P
+- v4_0222967: P
+- v4_0222970: P
+- v4_0222972: P
+- v4_0222986: P
+- v4_0222993: P
+- v4_0223008: P
+- v4_0223010: U (contradictory urgency phrases: 'Can Gap' vs 'Di Cu Tu Tu Khong Voi')
+- v4_0223024: P
+- v4_0223030: P
+- v4_0223037: P
+- v4_0223042: P
+- v4_0223044: P
+- v4_0223049: P
+- v4_0223054: P
+- v4_0223059: P
+- v4_0223062: P
+- v4_0223065: P
+- v4_0223067: P
+- v4_0223069: P
+- v4_0223082: P
+
+Format requirements:
+"For EACH input id return exactly one TSV line: id<TAB>P|F|U<TAB>short reason. P=labels semantically supported (reason '-'); F=definite mismatch (name wrong field and correction); U=uncertain/ambiguous (explain). Do not infer correctness from labels. No JSON/markdown or summary."
+
+Everything matches the formatting constraints perfectly.v4_0222652	P	-
+v4_0222655	P	-
+v4_0222660	P	-
+v4_0222666	P	-
+v4_0222667	P	-
+v4_0222676	P	-
+v4_0222680	P	-
+v4_0222685	P	-
+v4_0222715	P	-
+v4_0222730	P	-
+v4_0222731	P	-
+v4_0222738	P	-
+v4_0222740	P	-
+v4_0222745	P	-
+v4_0222763	P	-
+v4_0222783	P	-
+v4_0222789	P	-
+v4_0222790	P	-
+v4_0222803	P	-
+v4_0222818	P	-
+v4_0222842	P	-
+v4_0222865	P	-
+v4_0222868	P	-
+v4_0222871	P	-
+v4_0222886	P	-
+v4_0222910	P	-
+v4_0222917	P	-
+v4_0222918	P	-
+v4_0222929	P	-
+v4_0222966	P	-
+v4_0222967	P	-
+v4_0222970	P	-
+v4_0222972	P	-
+v4_0222986	P	-
+v4_0222993	P	-
+v4_0223008	P	-
+v4_0223010	U	contradictory urgency phrases ('Can Gap' vs 'Di Cu Tu Tu Khong Voi')
+v4_0223024	P	-
+v4_0223030	P	-
+v4_0223037	P	-
+v4_0223042	P	-
+v4_0223044	P	-
+v4_0223049	P	-
+v4_0223054	P	-
+v4_0223059	P	-
+v4_0223062	P	-
+v4_0223065	P	-
+v4_0223067	P	-
+v4_0223069	P	-
+v4_0223082	P	-
+
+STDERR:

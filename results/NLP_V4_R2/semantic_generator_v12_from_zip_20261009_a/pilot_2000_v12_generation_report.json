@@ -1,0 +1,28 @@
+{
+  "n": 2000,
+  "seed": 202610091212,
+  "metrics": {
+    "total": 2000,
+    "via": 944,
+    "former_goal": 441,
+    "former_goal_and_via": 200,
+    "former_pickup": 266,
+    "no_via_contains_lay": 466,
+    "via_without_truoc": 525,
+    "negative_role_count": 1464,
+    "supplemental_item": 501,
+    "accented": 1165
+  },
+  "tokens": {
+    "p50": 86,
+    "p90": 118,
+    "p99": 143,
+    "max": 160
+  },
+  "rejected": {
+    "semantic_or_length": 4
+  },
+  "sha256": "c281f20cad7cc74cc5a4fa4d002184e7c91534d3ff0149fcd01877cb131bd104",
+  "status": "PILOT_PENDING_INDEPENDENT_SEMANTIC_AUDIT",
+  "method": "Original phrase banks authored in new script; structural inspiration only from ZIP train schema, not sample text"
+}

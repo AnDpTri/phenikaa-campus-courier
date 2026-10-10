@@ -1,0 +1,129 @@
+{
+  "status": "FULL_POPULATION_CONTRACT_TEST_COMPLETE_SEMANTIC_REVIEW_PENDING",
+  "dataset": "D:\\phenikaa\\results\\NLP_V4_R2\\semantic_generator_v12_from_zip_20261009_a\\specialized_new_40000_v16_role_semantics.jsonl",
+  "rows_checked": 40000,
+  "sha256": "2138bcbae15d145b6ea4194447d6fe4b675e5d61a14dfd1c6d114031128f10c8",
+  "counters": {
+    "N": 40000,
+    "urgent_true": 19572,
+    "fragile_true": 19253,
+    "via_present": 19157,
+    "via_without_truoc": 11589,
+    "none_with_lay": 8578,
+    "accented": 23642,
+    "redirect": 9369,
+    "noise_clause": 17153,
+    "revised_goal": 9369,
+    "revision_and_via": 4478,
+    "neg_roles": 17986,
+    "negative_role_not_related": 4435,
+    "supplemental": 10287,
+    "negative_role_historical": 4465,
+    "anchor_near": 4963,
+    "revised_pickup": 5277,
+    "negative_role_left": 2262,
+    "negative_role_not_stop": 2283,
+    "negative_role_closed": 2291,
+    "negative_role_avoid": 2250,
+    "overlap_original40k": 0,
+    "overlap_curated200k": 0,
+    "overlap_v11": 0
+  },
+  "reference_distribution": {
+    "near": 5765,
+    "far": 3730,
+    "named": 13941,
+    "east": 1660,
+    "anchor_near": 4963,
+    "south": 1612,
+    "east_most": 1299,
+    "north_most": 1220,
+    "south_most": 1275,
+    "west_most": 1239,
+    "west": 1680,
+    "north": 1616
+  },
+  "via_distribution": {
+    "none": 20843,
+    "west": 787,
+    "far": 1188,
+    "named": 12778,
+    "near": 1977,
+    "north": 836,
+    "south": 770,
+    "east": 821
+  },
+  "p10": 49,
+  "p50": 73,
+  "p90": 102,
+  "p99": 127,
+  "max": 160,
+  "error_counts": {},
+  "error_examples": {},
+  "top8_prefixes": [
+    [
+      "nguoi nhan luc dau dat diem giao o",
+      1039
+    ],
+    [
+      "chuyen nay khong yeu cau them chang lay",
+      801
+    ],
+    [
+      "kien hang da duoc nhan tai noi xuat",
+      738
+    ],
+    [
+      "khong co diem nhan hang trung gian trong",
+      735
+    ],
+    [
+      "hang da co san tren xe; khong can",
+      731
+    ],
+    [
+      "nho robot xu ly don chuyen hang sau.",
+      629
+    ],
+    [
+      "day la lenh giao hang da xac nhan.",
+      593
+    ],
+    [
+      "kien hang chua nam tren xe; robot phai",
+      237
+    ],
+    [
+      "chang cuoi cua robot la chuyen thung buu",
+      100
+    ],
+    [
+      "dich giao kien hang cua chuyen nay la",
+      99
+    ]
+  ],
+  "independent_sample_size": 320,
+  "sample_population_strata": {
+    "revise_goal_with_via": 4478,
+    "revise_goal_no_via": 4891,
+    "revised_pickup_with_via": 2607,
+    "revised_pickup_no_via": 2670,
+    "both_revisions": 1603,
+    "goal_anchor_near": 4963,
+    "goal_most": 5033,
+    "goal_near_far": 9495,
+    "via_relative": 6379,
+    "via_named_no_truoc": 7706,
+    "no_via_take": 8578,
+    "supplement": 10287,
+    "multi_distractors": 833,
+    "urgent_fragile": 9483,
+    "both_false": 10658,
+    "unaccented": 16358
+  },
+  "limitations": [
+    "Coverage is full for programmed structural contracts, not proof of all human-language entailments.",
+    "No V2 model or test-set labels used in generation.",
+    "The ZIP's validation split was not used to author templates."
+  ]
+}

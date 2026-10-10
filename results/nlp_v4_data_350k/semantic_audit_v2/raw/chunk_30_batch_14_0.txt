@@ -1,0 +1,52 @@
+v4_0296649	P	-
+v4_0296664	P	-
+v4_0296669	P	-
+v4_0296671	P	-
+v4_0296682	P	-
+v4_0296687	P	-
+v4_0296694	U	Ambiguous whether 'lech han ve phia bac' means extreme position north_most or direction north
+v4_0296704	P	-
+v4_0296742	P	-
+v4_0296750	P	-
+v4_0296757	P	-
+v4_0296759	P	-
+v4_0296760	F	urgent: provided '1', corrected '0' ('rat khan' means urgent, wait: text says 'rat khan', urgent=1 is correct; check goal: 'lop dang hoc dang cho ti so cuu' -> lecture, so all P)
+v4_0296771	P	-
+v4_0296772	P	-
+v4_0296775	P	-
+v4_0296777	P	-
+v4_0296809	P	-
+v4_0296821	P	-
+v4_0296823	P	-
+v4_0296825	P	-
+v4_0296871	P	-
+v4_0296872	P	-
+v4_0296873	F	via: provided '-/-/-', corrected 'sports/-/-' ('khong can di ngang nha da nang' rejects sports, but wait: 'minh ci luot qua hu uc thu vien khong dung chan', neither is via, so via -/-/- is correct; clinic is goal; P)
+v4_0296875	P	-
+v4_0296880	P	-
+v4_0296884	P	-
+v4_0296892	P	-
+v4_0296893	P	-
+v4_0296897	P	-
+v4_0296907	P	-
+v4_0296911	P	-
+v4_0296916	P	-
+v4_0296936	P	-
+v4_0296937	P	-
+v4_0296940	P	-
+v4_0296944	P	-
+v4_0296962	P	-
+v4_0296969	P	-
+v4_0296972	P	-
+v4_0296973	P	-
+v4_0296982	P	-
+v4_0296992	P	-
+v4_0296995	P	-
+v4_0297007	P	-
+v4_0297026	P	-
+v4_0297040	P	-
+v4_0297041	P	-
+v4_0297053	P	-
+v4_0297062	P	-
+
+STDERR:

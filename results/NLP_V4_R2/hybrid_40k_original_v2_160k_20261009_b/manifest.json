@@ -1,0 +1,51 @@
+{
+  "status": "generated_untrained",
+  "purpose": "New 200k hybrid training corpus plus independent V2 synthetic phrase-bank holdout",
+  "quality_limit": "Specialized 38833 preserve original content exactly. Remaining V2 samples inherit original generator, NOT the same style/quality as specialized 40k. No human semantic re-audit performed.",
+  "train_path": "D:\\phenikaa\\results\\NLP_V4_R2\\hybrid_40k_original_v2_160k_20261009_b\\train_hybrid_200000.jsonl",
+  "holdout_path": "D:\\phenikaa\\results\\NLP_V4_R2\\hybrid_40k_original_v2_160k_20261009_b\\holdout_v2_5000.jsonl",
+  "specialized_original": 38833,
+  "specialized_source_original_total": 40000,
+  "specialized_quarantined_unsupported": 1167,
+  "v2_synthetic": 161167,
+  "train_total": 200000,
+  "holdout_v2_new": 5000,
+  "holdout_used_for_training": false,
+  "train_text_unique_casefolded": true,
+  "v2_generated_duplicates_rejected": 0,
+  "seeds": {
+    "v2_train": 20261102,
+    "v2_holdout": 20261103,
+    "train_shuffle": 20261104
+  },
+  "source_files": {
+    "incoming_40k": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\incoming_40000.jsonl",
+    "specialized_extracted_from": "D:\\phenikaa\\results\\nlp_v4_data_350k\\replacement_20261009_review\\retained_swap_38833_TRAINABLE.jsonl",
+    "incoming_sha256": "4f624aaf9d8dfa56dcb28ad9911728e92c5166863f4201956fc4a922cc0a99c5",
+    "trainable_swapped_sha256": "7a47cf66305d642bf2e12fe1e9b637f84187d99d93e90e8b14b35659f2aaaa4b"
+  },
+  "generated_sha256": {
+    "train": "a267a4e13ce13cacd76ed78b34a9da225300abf6ca531311f984c2ead96eb3fa",
+    "holdout": "9696d43dda6cf6e308d9dccbd1ba476a236cccf254263e7c44e8bf3ebdd699e0"
+  },
+  "counts": {
+    "total": 200000,
+    "v2_synthetic_n": 161167,
+    "v2_synthetic_via_none": 80572,
+    "v2_synthetic_via_named": 64564,
+    "v2_synthetic_long_over_160_tokens": 0,
+    "specialized_original_n": 38833,
+    "specialized_original_via_none": 20862,
+    "specialized_original_via_named": 12468,
+    "specialized_original_long_over_160_tokens": 0
+  },
+  "holdout_counts": {
+    "n": 5000,
+    "via_none": 2521,
+    "via_named": 1994
+  },
+  "elapsed_seconds": 41.7,
+  "validation_used_for_generation": false,
+  "competition_test_used_for_generation": false,
+  "source_modified": false
+}

@@ -1,0 +1,249 @@
+{
+  "name": "semantic_v7_cue_invariant_counterfactuals",
+  "created_utc": "2026-10-09T22:45:36.477170+00:00",
+  "seed": 2026101077,
+  "groups": 1600,
+  "total_rows": 12800,
+  "cue_presence_invariant_within_8way_scene": [
+    "khong",
+    "huy",
+    "nhan",
+    "lay",
+    "truoc",
+    "sau",
+    "gap",
+    "khan",
+    "vo",
+    "nhay"
+  ],
+  "split_family": {
+    "candidate_train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "family_challenge": [
+      6,
+      7
+    ]
+  },
+  "splits": {
+    "candidate_train": {
+      "rows": 9600,
+      "groups": 1200,
+      "regime_counts": {
+        "plain": 3216,
+        "cancelled": 3216,
+        "revision": 3168
+      },
+      "accented_fraction": 0.5733,
+      "mode_counts": {
+        "goal_named": 3880,
+        "via_east": 856,
+        "goal_north_most": 584,
+        "via_far": 872,
+        "via_named": 4592,
+        "goal_east": 696,
+        "via_west": 976,
+        "goal_anchor_near": 560,
+        "goal_far": 664,
+        "via_south": 728,
+        "goal_south_most": 624,
+        "via_north": 712,
+        "goal_near": 696,
+        "goal_west": 632,
+        "goal_north": 624,
+        "via_near": 864,
+        "goal_south": 640
+      },
+      "cue_conditional": {
+        "khong": {
+          "support": 9088,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 5864,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 9072,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "lay": {
+          "support": 8528,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 4792,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "sau": {
+          "support": 2304,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 4800,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "khan": {
+          "support": 3200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "vo": {
+          "support": 4800,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 1600,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "label_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v7_balanced_train.jsonl",
+      "sha256": "f7f62a6c2c8ba34c8e45ae96db6fc0758f6f33f56b076364831fc35f75a8e608"
+    },
+    "family_challenge": {
+      "rows": 3200,
+      "groups": 400,
+      "regime_counts": {
+        "plain": 1072,
+        "cancelled": 1072,
+        "revision": 1056
+      },
+      "accented_fraction": 0.5925,
+      "mode_counts": {
+        "goal_named": 1312,
+        "via_near": 288,
+        "goal_west": 144,
+        "via_far": 280,
+        "via_east": 320,
+        "via_named": 1480,
+        "goal_north_most": 232,
+        "goal_north": 232,
+        "via_north": 264,
+        "goal_near": 256,
+        "via_west": 288,
+        "goal_far": 160,
+        "goal_south": 208,
+        "goal_anchor_near": 208,
+        "goal_south_most": 216,
+        "goal_east": 232,
+        "via_south": 280
+      },
+      "cue_conditional": {
+        "khong": {
+          "support": 3200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "huy": {
+          "support": 2136,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhan": {
+          "support": 3200,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "lay": {
+          "support": 2136,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "truoc": {
+          "support": 536,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "sau": {
+          "support": 2152,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "gap": {
+          "support": 0,
+          "via": null,
+          "urgent": null,
+          "fragile": null
+        },
+        "khan": {
+          "support": 1600,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "vo": {
+          "support": 1600,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        },
+        "nhay": {
+          "support": 1600,
+          "via": 0.5,
+          "urgent": 0.5,
+          "fragile": 0.5
+        }
+      },
+      "label_rate": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5
+      },
+      "path": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\experiments\\semantic_v7_family_challenge.jsonl",
+      "sha256": "796e38e7412e11127cf983403e5452bfec387831353fe03f5d10d2ae4ce5c899"
+    }
+  },
+  "old_scratch_200k_overlap": 0,
+  "qa": [
+    "All 8 label triplets per scene",
+    "3 pickup regimes with independent goal/urgent/fragile",
+    "CUE INVARIANT within each scene across all 8 label combinations",
+    "no normalized exact duplicates",
+    "no prior scratch epoch1 text duplicates",
+    "valid spec_labels and MAX_TOKENS",
+    "family-disjoint challenge"
+  ],
+  "limits": [
+    "Lexical-cue independence alone does not prove semantic comprehension",
+    "Generator-generated labels require human spot QA",
+    "Evaluation split uses same concepts and lexicon as train",
+    "Train-only data cannot include family_challenge split",
+    "No official validation/test read; no model trained or modified"
+  ],
+  "seconds": 13.8
+}

@@ -1,0 +1,52 @@
+v4_0121536	P	-
+v4_0121543	P	-
+v4_0121567	P	-
+v4_0121582	P	-
+v4_0121606	P	-
+v4_0121608	P	-
+v4_0121631	P	-
+v4_0121633	P	-
+v4_0121643	P	-
+v4_0121660	P	-
+v4_0121662	P	-
+v4_0121664	P	-
+v4_0121666	P	-
+v4_0121672	P	-
+v4_0121677	P	-
+v4_0121686	P	-
+v4_0121697	P	-
+v4_0121707	P	-
+v4_0121708	P	-
+v4_0121714	P	-
+v4_0121719	P	-
+v4_0121739	P	-
+v4_0121757	P	-
+v4_0121762	P	-
+v4_0121790	P	-
+v4_0121807	P	-
+v4_0121827	P	-
+v4_0121832	P	-
+v4_0121848	P	-
+v4_0121850	P	-
+v4_0121893	P	-
+v4_0121912	P	-
+v4_0121924	P	-
+v4_0121949	P	-
+v4_0121970	P	-
+v4_0121971	P	-
+v4_0122003	P	-
+v4_0122018	P	-
+v4_0122024	P	-
+v4_0122043	F	goal type/ref/anchor provided -/south_most/- should be sports/south_most/- supported by 'qua bong ti nut anm nam thap nhat tren ban od' (qua bong = sports) or if nut anm is canteen (nha an)
+v4_0122108	P	-
+v4_0122117	P	-
+v4_0122121	U	destination is missing or unclear ('chia khoa phong la cua thay giao dang rat gap', recipient/destination place type not stated)
+v4_0122132	P	-
+v4_0122159	P	-
+v4_0122161	P	-
+v4_0122163	P	-
+v4_0122205	P	-
+v4_0122229	P	-
+v4_0122260	P	-
+
+STDERR:

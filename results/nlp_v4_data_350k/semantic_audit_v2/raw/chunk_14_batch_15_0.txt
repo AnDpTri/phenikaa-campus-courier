@@ -1,0 +1,541 @@
+v4_0136957	F	goal lecture -> -; canteen phia xa hoi truong (lecture is hall/hoi truong? hoi truong is lecture/hoi truong; phia xa hoi truong -> canteen/far/lecture) Wait, hoi truong = lecture. canteen/far/lecture, urgent=1 ("trong vong 10 phut"), fragile=0 ("-"). Label is canteen/far/lecture -/-/- 1 0. Reason '-' -> P.
+Wait, let's re-audit every single one carefully!
+
+1. v4_0136957
+Text: "[don #8593] khong phai nha tap ma la xin mang tap tai lieu ra nha an tap the phia xa hoi truong. trong vong 10 phut nhe. thanks robot."
+Goal: nha an tap the phia xa hoi truong -> canteen/far/lecture.
+Via: -/-/-.
+Urgent: trong vong 10 phut -> 1.
+Fragile: default 0 -> 0.
+Provided: canteen/far/lecture -/-/- 1 0 -> P.
+
+2. v4_0136962
+Text: "Yeu cau moi: van phong hom nay dong cua. Dia chi cu la lab, bo qua. Khong phai giao chot bao ve. Sua lai: khong phai tram y te, can bo thu vien vua chuyen sang toa nao o phia tay xa nhat, giao tui do giat cho ho. Dang gap! ben trong co trung, nhe tay. Cam on nhieu."
+Recipient: can bo thu vien (overridden by location: toa nao o phia tay xa nhat).
+Location: "toa nao o phia tay xa nhat" -> west_most, type is unspecified (-/west_most/-).
+Via: -/-/-.
+Urgent: Dang gap! -> 1.
+Fragile: ben trong co trung, nhe tay -> 1.
+Provided: -/west_most/- -/-/- 1 1 -> P.
+
+3. v4_0136965
+Text: "Robot giao hang oi dung nham voi cong rao nhe ban vao khu tap luyen lay tai nghe da roi noi nhan khu thi nghiem lech dong khong co gi gap nho neh"
+Goal: khu thi nghiem lech dong -> lab/east/-.
+Via: khu tap luyen -> sports/-/-.
+Urgent: khong co gi gap -> 0.
+Fragile: default 0 -> 0.
+Provided: lab/east/- sports/-/- 0 0 -> P.
+
+4. v4_0136966
+Text: "phien ban chut: mnh chi luot qua khu vuc toa giang day, khong dung chan. ban tro igang lab dang doi khay com tai hku vuc phuc vu an uong sinh vien o sat phong bao ve. hang ben, khong lo vo. nhanh nhat co th.e nho nhe."
+Goal: hku vuc phuc vu an uong sinh vien o sat phong bao ve -> canteen/near/gate.
+Via: -/-/-.
+Urgent: nhanh nhat co th.e -> 1.
+Fragile: hang ben, khong lo vo -> 0.
+Provided: canteen/near/gate -/-/- 1 0 -> P.
+
+5. v4_0136967
+Text: "phien ban chut: dng rat gap. san co khong phai diem giao. co don giao linh kien dien tu o ota nao ngay cahn xuong. nho nhe."
+Goal: "ota nao ngay cahn xuong" -> toa nao ngay canh xuong (lab) -> -/anchor_near/lab.
+Via: -/-/-.
+Urgent: dng rat gap -> 1.
+Fragile: default 0 -> 0.
+Provided: -/anchor_near/lab -/-/- 1 0 -> P.
+
+6. v4_0136972
+Text: "Robot giao hang oi, huong nay chi chay song song voi khu tap luyen, khong re vao do. Truoc het phai qua bep truong hoc, xong luc nay nhan nham la kho tai lieu. Dung ra: khach hen lay ket nuoc ngot o truy tim toa nha ke can moc quay phat thuoc va kham ban dau hon ca nhe. Hoa toc! hang chac chan, khong de vo. Cam on nhieu."
+Via: bep truong hoc -> canteen/-/-.
+Goal: toa nha ke can moc quay phat thuoc va kham ban dau hon ca -> -/anchor_near/clinic.
+Urgent: Hoa toc! -> 1.
+Fragile: hang chac chan, khong de vo -> 0.
+Provided: -/anchor_near/clinic canteen/-/- 1 0 -> P.
+
+7. v4_0136975
+Text: "Hello robot khong can di ngang phong quan ly dao tao khong phai chot bao ve cong dau thay doi khong giao khu thi nghiem nua can dua bien tne khach qua diem it buoc nhat tu noi muon giao trinh toc hanh nhe do de nut vo"
+Goal: diem it buoc nhat tu noi muon giao trinh (library) -> -/anchor_near/library.
+Via: -/-/-.
+Urgent: toc hanh nhe -> 1.
+Fragile: do de nut vo -> 1.
+Provided: -/anchor_near/library -/-/- 1 1 -> P.
+
+8. v4_0136982
+Text: "Chao robot! dung chan o khu hoc tap lay hop dung cu xong moi cap nhat: bo trung tam y te, kien hang nay di phong an sinh vien nam xa noi do xe. Dia chi cu la san luyen tap, bo qua. Nguoi nhan khong con o nha ky tuc. Tranh xuong co khi ra nhe. Nhe tay giup. Cam on nhieu."
+Via: dung chan o khu hoc tap -> lecture/-/-.
+Goal: phong an sinh vien nam xa noi do xe -> canteen/far/parking.
+Urgent: default 0 -> 0.
+Fragile: Nhe tay giup -> 1.
+Provided: canteen/far/parking lecture/-/- 0 1 -> P.
+
+9. v4_0136989
+Text: "hcao! khong gap dau. do chac lam. co don giao the sinh vien o kho sach nam xa phong kam suc khoe. cam on ban nhe."
+Goal: kho sach (library) nam xa phong kam suc khoe (clinic) -> library/far/clinic.
+Via: -/-/-.
+Urgent: khong gap dau -> 0.
+Fragile: do chac lam -> 0.
+Provided: library/far/clinic -/-/- 0 0 -> P.
+
+10. v4_0136994
+Text: "xin chao! da chi cu la toa nha phong hoc ly thuyet, bo qu. doi dia chi tu cogn sau sang hang di khu de xe dp o tay. hge qua dy nha o snh vien noi tru truoc nhe. gap gap! tks."
+Via: hge qua dy nha o snh vien noi tru (dorm) truoc nhe -> dorm/-/-.
+Goal: khu de xe dp o tay -> parking/west/-.
+Urgent: gap gap! -> 1.
+Fragile: default 0 -> 0.
+Provided: parking/west/- dorm/-/- 1 0 -> P.
+
+11. v4_0136995
+Text: "Nho robot: minh chi luot qua khu vuc cong chinh, khong dung chan. Nhom nghien cuu vua dat may tinh bang. Nhe tay giup. Tranh khu giang duong ra nhe. Thong tha. Cam on nhieu."
+Goal: "Nhom nghien cuu vua dat may tinh bang" -> Recipient is nhom nghien cuu, no explicit recipient location given! Does "Nhom nghien cuu" default to lab?
+Wait! "An explicitly stated recipient location overrides their usual workplace." But is workplace stated here as location? "Nhom nghien cuu vua dat may tinh bang" - is lab specified as goal? No, the text does not say "giao toi phong lab" or "giao den khu nghien cuu", it just mentions the recipient "nhom nghien cuu". But wait, does lab count as goal? Wait, or is lab a destination? Wait, "Types: lab=thi nghiem... Rejected/old destinations and item words are not goals." If no goal location is explicitly mentioned, or is "nhom nghien cuu" implying lab? Wait, "An explicitly stated recipient location overrides their usual workplace" implies that usual workplace IS used if no explicit location is stated! BUT wait, look at prompt: "Types: library=thu vien, dorm=ky tuc xa, sports=the thao, clinic=y te, canteen=nha an, parking=bai xe, lecture=giang duong, lab=thi nghiem, office=hanh chinh, gate=cong/bao ve." Thi nghiem = lab. Does "nhom nghien cuu" mean lab? Wait, lab is thi nghiem. Is nhom nghien cuu a workplace? Or is goal missing? Wait, let's re-read: "An explicitly stated recipient location overrides their usual workplace." This implies recipients HAVE usual workplaces: e.g., can bo thu vien -> library, y ta -> clinic, huan luyen vien -> sports, nhom nghien cuu -> lab, lop truong -> lecture?
+Wait! In v4_0136996: "Y ta truc hien dang o o nao gan mep tren nhat" -> y ta is clinic usually, but overridden to north_most.
+In v4_0137172: "huan luyen vien doi tuyen the thao truong o vi tir o tren cung ban do" -> huan luyen vien usually sports, overridden to north_most.
+In v4_0137214: "yeu cau moi: dung ghe noi muon giao trinh. giao cho lop truong nhe. nho dung o na luu tru truoc. do cung, khong sao. cam on nhieu." Goal provided: lecture/-/-. Here "giao cho lop truong nhe" -> usual workplace/place of lop truong is lecture!
+In v4_0136995: "Nhom nghien cuu vua dat may tinh bang." -> usual workplace of nhom nghien cuu is lab!
+Wait, but is there any other place? "Nhe tay giup. Tranh khu giang duong ra nhe. Thong tha. Cam on nhieu."
+Urgent: Thong tha -> 0.
+Fragile: Nhe tay giup -> 1.
+Provided: lab/-/- -/-/- 0 1 -> P.
+
+12. v4_0136996
+Text: "Xin chao! xe chi chay ngang tam nha tap, do khong phai cho muon toi. Minh chi luot qua khu vuc chot bao ve cong, khong dung chan. Y ta truc hien dang o o nao gan mep tren nhat, nho phat the giu xe sang do. Mai giao cung duoc. Cam on!"
+Goal: "o nao gan mep tren nhat" -> north_most (-/north_most/-).
+Via: -/-/-.
+Urgent: Mai giao cung duoc -> 0.
+Fragile: default 0 -> 0.
+Provided: -/north_most/- -/-/- 0 0 -> P.
+
+13. v4_0137060
+Text: "Chao robot! nguoi nhan khong con o cong ra vao. Diem giao: hay tim o cach nha xe it buoc di nhat. Hang: bo vot. Dang rat gap. Hang de vo nhe."
+Goal: o cach nha xe it buoc di nhat -> -/anchor_near/parking.
+Urgent: Dang rat gap -> 1.
+Fragile: Hang de vo nhe -> 1.
+Provided: -/anchor_near/parking -/-/- 1 1 -> P.
+
+14. v4_0137069
+Text: "Xn chao! can gap! mang giup mau vat cho ca truc ao ve. Tks."
+"ca truc ao ve" -> ca truc bao ve -> gate.
+Urgent: can gap! -> 1.
+Fragile: 0.
+Provided: gate/-/- -/-/- 1 0 -> P.
+
+15. v4_0137072
+Text: "Phien ban chut: dung de o cong rao. Cap nhat: bo phong bac si, hop khau trang gui xuong phong mot cua. Khong can voi. Dung lam roi, de vo lam. Cam on!"
+phong mot cua = office (hanh chinh / mot cua).
+Urgent: Khong can voi -> 0.
+Fragile: Dung lam roi, de vo lam -> 1.
+Provided: office/-/- -/-/- 0 1 -> P.
+
+16. v4_0137097
+Text: "alo robot xe chi chay ngang tam loi ra vao do khong phai cho muon toi vong qua cang tin kiem bo dung cu thi nghiem roi lop truog o noi muon gao trinh dang cho cuc pin tks"
+Via: vong qua cang tin kiem bo dung cu thi nghiem -> canteen/-/-.
+Goal: "lop truog o noi muon gao trinh dang cho cuc pin" -> noi muon gao trinh (library).
+Urgent: 0.
+Fragile: 0.
+Provided: library/-/- canteen/-/- 0 0 -> P.
+
+17. v4_0137111
+Text: "gap lam roi. thung sua nay can co amt o cai phong hoc ly thuyet o ben phai. hang de vo nhe. khu noi tru khong phai diem giao. huong nay chi chay song song voi phong muon sach, khong re vao do. cam on robot."
+Goal: phong hoc ly thuyet o ben phai -> lecture/east/-.
+Urgent: gap lam roi -> 1.
+Fragile: hang de vo nhe -> 1.
+Provided: lecture/east/- -/-/- 1 1 -> P.
+
+18. v4_0137139
+Text: "thong bao don: chuyen phat sach ra cai phong lab sinh o nua phai ho minh. tranh rung lac vi de vo. tks."
+Goal: phong lab sinh o nua phai -> lab/east/-.
+Urgent: 0.
+Fragile: tranh rung lac vi de vo -> 1.
+Provided: lab/east/- -/-/- 0 1 -> P.
+
+19. v4_0137142
+Text: "Nho robot: at vao khu thi nghiem lay dung cu tap luyen roi moi mang ho chai nuoc re vao tram nam sat phong muon sach nhat di. Khong oi dau. Hang de vo nhe. Cam on!"
+Via: "at vao khu thi nghiem" (tat vao khu thi nghiem) -> lab/-/-.
+Goal: "tram nam sat phong muon sach nhat" -> -/anchor_near/library.
+Urgent: "Khong oi dau" (khong voi dau) -> 0.
+Fragile: "Hang de vo nhe" -> 1.
+Provided: -/anchor_near/library lab/-/- 0 1 -> P.
+
+20. v4_0137146
+Text: "AO ROBOT, DUNG DE O TOA NHA HANH CHINH QUAN LY TRUONG. KHU THE THAO KHONG PHI DIEM GIAO. TRANH QUAY TRA CUU LUAN VAN DO AN RA NHE. DAU TIEN TOI LOP LY THUYET NHAN TUI SO CUU, TIEP THEO THOI BO Y NGHI QUA PHONG THI NGHIEM LY DI, GIO NHAN HANG TAI KHU AN TRA PHIA XA BAI GUI XE MAY SINH VIEN. DNG GAP! DO CHAC LAM. NHO NHE."
+Via: DAU TIEN TOI LOP LY THUYET -> lecture/-/-.
+Goal: KHU AN TRA (khu an trua) PHIA XA BAI GUI XE MAY SINH VIEN -> canteen/far/parking.
+Urgent: DNG GAP! -> 1.
+Fragile: DO CHAC LAM -> 0.
+Provided: canteen/far/parking lecture/-/- 1 0 -> P.
+
+21. v4_0137163
+Text: "nho ban nhe: ban hay qua bai giu xe truoc roi minh muon cho sach ra thu vien o gan cong truong. khu vuc lop hoc ly thuyet thi khong can toi. khong can ghe day nha o sihn vien noi tru. mai gioa cung duoc. do cung, khong sao."
+Via: qua bai giu xe truoc -> parking/-/-.
+Goal: thu vien o gan cong truong -> library/near/gate.
+Urgent: mai gioa cung duoc -> 0.
+Fragile: do cung, khong sao -> 0.
+Provided: library/near/gate parking/-/- 0 0 -> P.
+
+22. v4_0137172
+Text: "Chao ban, chuyen phat may tinh bang cho huan luyen vien doi tuyen the thao truong o vi tir o tren cung ban do cua campus. Dong thoi ghe vao phong cong vu lay o cung da roi hay giao. Do gom ben trong, tranh va cham. Thank you."
+Via: ghe vao phong cong vu lay o cung da -> office/-/-.
+Goal: o vi tir o tren cung ban do cua campus -> -/north_most/-.
+Urgent: 0.
+Fragile: Do gom ben trong, tranh va cham -> 1.
+Provided: -/north_most/- office/-/- 0 1 -> P.
+
+23. v4_0137175
+Text: "robot oi, dung dung cho cu nua chay snag hay tim can phong cach khu lop hoc it buoc di nhat giup em. som cang tot. dia chi cu la cong truong chinh, bo qu.a dung nham voi co so y te ne. nho nhe."
+Goal: can phong cach khu lop hoc it buoc di nhat -> -/anchor_near/lecture.
+Urgent: som cang tot -> 1.
+Fragile: 0.
+Provided: -/anchor_near/lecture -/-/- 1 0 -> P.
+
+24. v4_0137183
+Text: "xin chao khong phai phong ke toan dau ghe vao khu nha o tap the sinh vien o gan phong hoc lon nhat cuc pin roi moi luc nay nhan nham la bai gui xe may sinh vien dung ra giao cho nguoi o loi vao dang gap cam on robot"
+Wait! Let's read carefully:
+"ghe vao khu nha o tap the sinh vien o gan phong hoc lon nhat cuc pin roi moi..." -> Wait!
+"ghe vao khu nha o tap the sinh vien o gan phong hoc [lay?] lon nhat cuc pin" -> wait, does it say: "o gan phong hoc lon nhat" or "o gan phong hoc, lay cuc pin"?
+Wait! Look at the Vietnamese text:
+"khu nha o tap the sinh vien o gan phong hoc lon nhat cuc pin"
+Wait! Is it "lon nhat cuc pin" (lay nhat cuc pin / nhat cuc pin)?
+Wait, does it mean:
+"khu nha o tap the sinh vien o gan phong hoc" (dorm/near/lecture)?
+OR does "lon nhat" modify "phong hoc" (phong hoc lon nhat = main lecture hall)?
+Wait, look at provided via: `dorm/near/lecture`.
+Wait, what is "lon nhat"? "nhat" means pick up! "nhat cuc pin" = pick up the battery! "lon" -> typo for "lay"? "lay nhat cuc pin" or "lon nhat" = typo? Wait: "lon nhat cuc pin" -> "lấy nhặt cục pin" or "lụm nhặt cục pin" or "lượm / nhặt cục pin"?
+Wait, what about goal?
+"dung ra giao cho nguoi o loi vao" -> gate/-/-.
+Urgent: dang gap -> 1.
+Fragile: 0.
+Provided: gate/-/- dorm/near/lecture 1 0.
+Wait, is "o gan phong hoc" near lecture? Yes, "khu nha o tap the sinh vien o gan phong hoc" -> dorm/near/lecture!
+So P.
+
+25. v4_0137198
+Text: "Robot giao hang i, lo trinh co di qua nha an chung nhung khong dung chan o do. Chuyen nay xuat phat tu khu luyen tpa the duc the thao di tiep, khong phai diem cuoi. Noi giao hang: khu ktx. Giao ngay nhe. Ben trong co rung, nhe tay."
+Wait! "Ben trong co rung, nhe tay" -> "co rung" is typo for "co trung" (trứng - eggs)? Yes, "ben trong co trung, nhe tay" (in 0136962: "ben trong co trung, nhe tay"). Here "co rung" or "có trứng". Fragile = 1.
+Goal: khu ktx -> dorm/-/-.
+Urgent: Giao ngay nhe -> 1.
+Fragile: 1.
+Provided: dorm/-/- -/-/- 1 1 -> P.
+
+26. v4_0137214
+Text: "yeu cau moi: dung ghe noi muon giao trinh. giao cho lop truong nhe. nho dung o na luu tru truoc. do cung, khong sao. cam on nhieu."
+Via: "nho dung o na luu tru truoc" -> "na luu tru" = nha luu tru? Wait! What is "na luu tru"? Is "na luu tru" dorm?
+Wait! In the prompt:
+"Types: library=thu vien, dorm=ky tuc xa, sports=the thao, clinic=y te, canteen=nha an, parking=bai xe, lecture=giang duong, lab=thi nghiem, office=hanh chinh, gate=cong/bao ve."
+Wait! Is "nha luu tru" dorm?
+Wait, what does "na luu tru" mean? Archive? Storage? Dormitory?
+Wait, look at provided via: `dorm/-/-`.
+Wait, is "nha luu tru" dorm, or is "na luu tru" uncertain/unrecognizable?
+Wait, why would "nha luu tru" be dorm? Dorm is "ky tuc xa", "nha o tap the sinh vien", "khu noi tru".
+Wait, could "na luu tru" be "nha luu tru" = archive/library? But "dung ghe noi muon giao trinh" (library) was explicitly rejected!
+Wait, could "na luu tru" be "nha luu tru" = dorm? In Vietnamese universities, dorm is sometimes called "nha luu tru sinh vien" (or "khu luu tru sinh vien")!
+Wait, let's check whether "lop truong" is lecture:
+"giao cho lop truong nhe" -> recipient is lop truong, but where is the location? An explicitly stated recipient location overrides their usual workplace. Lop truong's usual workplace/place is lecture hall (giang duong / lop hoc).
+Provided: lecture/-/- dorm/-/- 0 0.
+Wait, is "na luu tru" clearly dorm, or is it P? Let's check other rows first.
+
+27. v4_0137224
+Text: "Nho ban nhe: nhan vien thu vien o bai xe o xa phia khu hoc tap dang cho bo sac. Khan cap! do khong vo duoc dau. Nho nhe."
+Goal: bai xe o xa phia khu hoc tap -> parking/far/lecture.
+Urgent: Khan cap! -> 1.
+Fragile: do khong vo duoc dau -> 0.
+Provided: parking/far/lecture -/-/- 1 0 -> P.
+
+28. v4_0137226
+Text: "Hello robot, khong phai quay phat thuoc va kham ban dau dau. Khu an trua hom nay dong cua. Rat khan. Tinh hinh thay doi nen mang ho sang diem gan trung tam thong tin thu vien nhat voi. Nho ky nhe."
+Goal: diem gan trung tam thong tin thu vien nhat -> -/anchor_near/library.
+Urgent: Rat khan -> 1.
+Fragile: 0.
+Provided: -/anchor_near/library -/-/- 1 0 -> P.
+
+29. v4_0137227
+Text: "Nho ban nhe: dia chi cu la nha tap, bo qua. Nguoi nhan da roi cong chinh roi. Dia cih giao: hpong hanh chinh. Rat khan. Acn than do su. Cam on rbot."
+Goal: hpong hanh chinh -> office/-/-.
+Urgent: Rat khan -> 1.
+Fragile: Acn than do su (can than do su - porcelain) -> 1.
+Provided: office/-/- -/-/- 1 1 -> P.
+
+30. v4_0137255
+Text: "nho ban nhe dung de o phong thi nghiem phong hoc ly thuyte hom nay dog ua toi da tu bo y dinh den phong an tap the ma se noi giao hang khu vuc o hang cui tong khuon vien chieu nay giao cung duoc cam on ban nhe"
+Goal: "khu vuc o hang cui tong khuon vien" (hang cuoi trong khuon vien) -> map convention: duoi cung / hang cuoi = south_most.
+Provided: -/south_most/- -/-/- 0 0.
+Urgent: chieu nay giao cung duoc -> 0.
+Fragile: 0.
+Provided: -/south_most/- -/-/- 0 0 -> P.
+
+31. v4_0137261
+Text: "Chao! nha ky tuc hom nay dong cua. Tuan truoc da giao phong thuc hanh roi. Vui long chuyen phat laptop sang khu vuc ma nam tren cung. Nho di ngang phong tai lieu lay tui rac truoc. Tco hanh nhe. Hang chac chan, khong de vo. Cam on robot."
+Via: di ngang phong tai lieu lay tui rac truoc -> library/-/-.
+Goal: khu vuc ma nam tren cung -> -/north_most/-.
+Urgent: Tco hanh nhe (toc hanh) -> 1.
+Fragile: Hang chac chan, khong de vo -> 0.
+Provided: -/north_most/- library/-/- 1 0 -> P.
+
+32. v4_0137280
+Text: "nho robot: viec nay khan cap. dau tien toi phong nghien cuu lien ke khu tap luyen nhan the sinh vien, tiep theo xin giao giup don hang can tra sang van phong cach bai xe xa hon. chuyen nay xuat phat tu khu ktx di tiep, khogn hai diem cuo. huong nay chi chay song song voi giang duong chinh, khong re vao do."
+Via: dau tien toi phong nghien cuu lien ke khu tap luyen -> lab/near/sports.
+Goal: van phong cach bai xe xa hon -> office/far/parking.
+Urgent: khan cap -> 1.
+Fragile: 0.
+Provided: office/far/parking lab/near/sports 1 0 -> P.
+
+33. v4_0137282
+Text: "Xin chao! udng de o phong sach. Khong phai kho tai lieu dau. Dung chan o khu vuc phuc vu an uong sinh vien lay chiec hop roi thoi bo y nghi qua trung tam the duc di, gio mcu tieu: xuong thuc hanh ky thuat che tao. Toc hanh nhe. Hang de vo, di can than. Thanks robot."
+Via: Dung chan o khu vuc phuc vu an uong sinh vien lay chiec hop -> canteen/-/-.
+Goal: xuong thuc hanh ky thuat che tao -> lab/-/-.
+Urgent: Toc hanh nhe -> 1.
+Fragile: Hang de vo, di can than -> 1.
+Provided: lab/-/- canteen/-/- 1 1 -> P.
+
+34. v4_0137286
+Text: "alo robot lan truoc giao nham hku gui xe nguoi nhan khong con o noi muon tra sach giao trinh ku muon tra sach khong phai diem giao diem giao cai lop ohc o phia trai hang tap tai lieu luc nao ranh thi gao hang mong manh lam tks"
+Wait! Look at this carefully:
+"diem giao cai lop ohc o phia trai hang tap tai lieu"
+Wait! Is it:
+"cai lop ohc o phia trai" -> lecture/west/- ?
+Wait! What is "hang tap tai lieu"?
+"hang tap tai lieu" = hang la tap tai lieu (the item is a document binder), OR "o phia trai hang tap tai lieu" (anchor)?
+Wait! Look at the phrasing:
+"diem giao [la] cai lop ohc o phia trai. hang: tap tai lieu. luc nao ranh thi gao. hang mong manh lam tks."
+"hang tap tai lieu" -> hàng: tập tài liệu! Item word: "Rejected/old destinations and item words are not goals."
+So goal is: "cai lop ohc o phia trai" -> lecture/west/-!
+Urgent: luc nao ranh thi gao -> 0.
+Fragile: hang mong manh lam -> 1.
+Provided: lecture/west/- -/-/- 0 1 -> P.
+
+35. v4_0137304
+Text: "Alo robot, khong can nhe ay. Robot chay toi san van dong giao giao trinh. Khong phai giao nha an tap the khuon vien truong. Dang gap! thanks robot."
+Goal: san van dong -> sports/-/-.
+Urgent: Dang gap! -> 1.
+Fragile: khong can nhe ay (khong can nhe tay) -> 0.
+Provided: sports/-/- -/-/- 1 0 -> P.
+
+36. v4_0137308
+Text: "Don #3096 khong can ghe san bong ro huong nay chi chay song song voi ham gui xe khong re vao do thay doi khong giao quay phat thuoc va kham ban dau nua hay di sang can phong phia tay nhat trong khuon vien nha phai ghe nha an truoc roi moi giao can gap hang mong manh lam nho ky nhe"
+Goal: can phong phia tay nhat trong khuon vien -> -/west_most/-.
+Via: phai ghe nha an truoc roi moi giao -> canteen/-/-.
+Urgent: can gap -> 1.
+Fragile: hang mong manh lam -> 1.
+Provided: -/west_most/- canteen/-/- 1 1 -> P.
+
+37. v4_0137311
+Text: "Ma don 2116: doi bong vua dat hop sach tra. Khong lien quan gi toi trung tam thi nghiem. Dia chi cu la khu nghin cuu va thi nghiem chuyen sau, bo qua. Noi muon sach khong phai diem giao. Thanks robot."
+Wait! Look at:
+"doi bong vua dat hop sach tra."
+Is "doi bong" the recipient? Yes, soccer team / basketball team (doi bong).
+Where is doi bong? Their workplace/place is sports!
+Wait, but is there any other place?
+"Khong lien quan gi toi trung tam thi nghiem. Dia chi cu la khu nghin cuu va thi nghiem chuyen sau, bo qua. Noi muon sach khong phai diem giao. Thanks robot."
+Goal provided: sports/-/-.
+Urgent: default 0.
+Fragile: default 0.
+Provided: sports/-/- -/-/- 0 0 -> P.
+
+38. v4_0137319
+Text: "Nho Robot Khogn Phai San Bong Dau Nguoi Nhan Da Roi Khu Tkx Roi Thay Doi Lo Trinh Da Chon O Cong A Gio Hay Cho Gan Phong Tiep Dan Nhat Dang Cho Tai Nghe Khong Gap Lam"
+Goal: "Gan Phong Tiep Dan Nhat" -> phong tiep dan = office! "gan ... nhat" -> -/anchor_near/office.
+Urgent: Khong Gap Lam -> 0.
+Fragile: default 0.
+Provided: -/anchor_near/office -/-/- 0 0 -> P.
+
+39. v4_0137322
+Text: "Nho ban nhe doan duong chay qua phnog lab khong co y dinh dung lai diem giao hku o cua sinh vien o tren ban do hang phong bi khong vi phai nhanh cam on ban nhe"
+Goal: "hku o cua sinh vien o tren ban do"
+Wait! "o tren ban do" -> is it "north" (o tren ban do = dorm/north/-) or "north_most"?
+Wait! Let's check prompt map convention:
+"Map convention: cao nhat/tren cung = north_most; thap nhat/duoi cung = south_most; cot dau = west_most; cot cuoi = east_most. These conventions are valid, not height ambiguity."
+"Refs: north/south/west/east select directional instance; near/far relative to anchor; anchor_near means closest location to anchor regardless of type; *_most means extreme map position regardless of type."
+Wait! Look at the text: "hku o cua sinh vien o tren ban do" -> dorm in the north (tren ban do = phía trên trên bản đồ = north). Not "tren cung", not "cao nhat". So dorm/north/-!
+Wait, look at urgent: "hang phong bi khong vi phai nhanh"
+WHAT DOES "khong vi phai nhanh" MEAN?
+Wait! "khong vi phai nhanh" or "khong vi phai nhanh"??
+Wait! "không vì phải nhanh" vs "không vội, phải nhanh"???
+Wait! Let's examine: "khong vi phai nhanh"
+Is it:
+- "khong voi phai nhanh" (không vội, phải nhanh) -> contradictory urgency phrases! "khong voi" (not urgent) vs "phai nhanh" (must be fast)!
+Prompt: "Flag contradictory urgency phrases as U."
+OR is it "khong vi phai nhanh" = typo for "không vội phải nhanh"?
+Wait! If someone writes "khong vi phai nhanh":
+In Vietnamese telex/no-accents typing:
+"vi" could be "vội" (typing v-o-i without tone or wrong key) or "vì".
+"không vội, phải nhanh" -> contradictory!
+What about "không việc phải nhanh"? (no need to be fast)?
+Wait! "không vì phải nhanh" -> doesn't make grammatical sense in Vietnamese.
+What about "không vội / phải nhanh"? That's a direct contradiction if "khong voi phai nhanh"!
+Wait, what if it's "Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+"Flag contradictory urgency phrases as U."
+Look at that exact sentence in the prompt:
+"Flag contradictory urgency phrases as U."
+"khong vi phai nhanh" -> could be "không vội, phải nhanh" (contradictory) or unreadable required information about urgency! Either way, it's U!
+Wait, let's look at the label provided:
+v4_0137322: `dorm/north/- -/-/- 0 0`
+The label marked urgent as `0`.
+If the text says "khong vi phai nhanh", why would urgent be 0? Because someone saw "khong vi" (không vội) and ignored "phai nhanh", or vice versa!
+Wait, "Flag contradictory urgency phrases as U."
+That's literally an instruction in the prompt:
+"Missing or destroyed direction words are U, do not guess near or far. Flag contradictory urgency phrases as U."
+Yes!
+
+40. v4_0137332
+Text: "Hello robot, khong can di ngang xuong thc hanh ky thuat che tao. Som cang tot. Do khong vo duoc dau. Ghe phong kham cua truong truoc da, sau do giao sang san tap nhe robot. Nho ky nhe."
+Via: Ghe phong kham cua truong truoc da -> clinic/-/-.
+Goal: sau do giao sang san tap -> sports/-/-.
+Urgent: Som cang tot -> 1.
+Fragile: Do khong vo duoc dau -> 0.
+Provided: sports/-/- clinic/-/- 1 0 -> P.
+
+41. v4_0137339
+Text: "Chao robot nguoi nhan da roi toa nha phong hoc ly thuyet roi nhan hang tai o nam o le trai dng thoi tat qua san tap bong ro va cau long lay ho so da do chac lam cam on"
+Goal: "o nam o le trai" -> le trai = cot dau / phia tay nhat / west_most!
+Wait, "Refs: north/south/west/east select directional instance; near/far relative to anchor; anchor_near means closest location to anchor regardless of type; *_most means extreme map position regardless of type."
+"Map convention: cao nhat/tren cung = north_most; thap nhat/duoi cung = south_most; cot dau = west_most; cot cuoi = east_most."
+"le trai" = lề trái (left margin / extreme left column) -> -/west_most/-!
+Via: tat qua san tap bong ro va cau long lay ho so da -> sports/-/-.
+Urgent: default 0.
+Fragile: do chac lam -> 0.
+Provided: -/west_most/- sports/-/- 0 0 -> P.
+
+42. v4_0137341
+Text: "yeu cau moi: doan duong chay qua phong an sinh vien, khong co y dinh dung lai. huong nay chi chay song song voi phong hanh chinh, khong re vao do. minh chi luot qua khu vuc phong an, khong dung chan. nhan hang tai dia diem sat vach phong nghien cuu. nho qua tram y truoc. khong gap lam. hang ben, khong lo vo. nho nhe."
+Via: nho qua tram y truoc -> clinic/-/-.
+Goal: nhan hang tai dia diem sat vach phong nghien cuu -> -/anchor_near/lab.
+Urgent: khong gap lam -> 0.
+Fragile: hang ben, khong lo vo -> 0.
+Provided: -/anchor_near/lab clinic/-/- 0 0 -> P.
+
+43. v4_0137344
+Text: "ma dn 2600: nho robot dua may cheiu toi tao nha nam duoi cung. tranh rung lac vi de vo. huong nay chi cahy song song voi ky tuc xa, hong re vao do. can ngay trogn 5 phut."
+Goal: tao nha nam duoi cung (toa nha nam duoi cung) -> duoi cung = south_most (-/south_most/-).
+Urgent: can ngay trogn 5 phut -> 1.
+Fragile: tranh rung lac vi de vo -> 1.
+Provided: -/south_most/- -/-/- 1 1 -> P.
+
+44. v4_0137352
+Text: "toa hanh chinh thi khong an toi. xe chi cahy ngang tam khu o cua sinh vien, do kong phai cho muon toi. hay di len o nam ke trung tam thong tin htu vien nhat ho minh. khong can voi. thank you."
+Goal: o nam ke trung tam thong tin htu vien nhat -> -/anchor_near/library.
+Urgent: khong can voi -> 0.
+Fragile: 0.
+Provided: -/anchor_near/library -/-/- 0 0 -> P.
+
+45. v4_0137353
+Text: "robot than men phong doc hom nay dong cua khu an uong dang sua chua tranh ra xin chuyen giup laptop xuong o o gan phong lab nhat hang de be cam nhe thank you"
+Goal: o gan phong lab nhat -> -/anchor_near/lab.
+Urgent: default 0.
+Fragile: hang de be cam nhe (hang de be, cam nhe / cam on nhe) -> 1.
+Provided: -/anchor_near/lab -/-/- 0 1 -> P.
+
+46. v4_0137366
+Text: "Alo robot do chac lam dia chi cu la phong lab bo qua noi nhan tram gan voi y te truong nhat thong tha hom qua da giao o hoi truong roi"
+Goal: tram gan voi y te truong nhat -> -/anchor_near/clinic.
+Urgent: thong tha -> 0.
+Fragile: do chac lam -> 0.
+Provided: -/anchor_near/clinic -/-/- 0 0 -> P.
+
+47. v4_0137385
+Text: "Nho robot: nham roi, khong phai ktx. Ve cho ma lech phai nhat giao bo sac. Do cung, khong sao. Khong co gi gap. Cam on!"
+Goal: "cho ma lech phai nhat" -> extreme right / east_most (-/east_most/-).
+Urgent: Khong co gi gap -> 0.
+Fragile: Do cung, khong sao -> 0.
+Provided: -/east_most/- -/-/- 0 0 -> P.
+
+48. v4_0137388
+Text: "thong boa don: lan truoc giao nham san van dong. hom qua da giao o kho sach roi. tinh hinh thay doi nen mang sang trong hai phong quan ly dao tao, cai gan khu do xe hon nhe robot. no di ngang xuong cach xa phong hoc lay may tinh bang truoc. thank you."
+Via: "no di ngang xuong cach xa phong hoc lay may tinh bang truoc" -> "no" = nho (nho di ngang...). "xuong cach xa phong hoc" -> lab/far/lecture.
+Goal: "trong hai phong quan ly dao tao, cai gan khu do xe hon" -> phong quan ly dao tao = office. "cai gan khu do xe hon" -> office/near/parking.
+Urgent: default 0.
+Fragile: default 0.
+Provided: office/near/parking lab/far/lecture 0 0 -> P.
+
+49. v4_0137396
+Text: "robot than men, co do thuy tinh. khnog can ghe phong hanh cinh. phien robot gaio giup thung nuoc uong den dia diem ma o hang cuoi. lan truoc giao nham cong a."
+Goal: "dia diem ma o hang cuoi" -> hang cuoi = south_most (-/south_most/-).
+Urgent: default 0.
+Fragile: co do thuy tinh -> 1.
+Provided: -/south_most/- -/-/- 0 1 -> P.
+
+50. v4_0137400
+Text: "chao robot! xe chi chay ngang tam phong cong tac sinh vien, do khong phai cho muon toi. lan truoc giao nham cong rao. quen don cu o phong thuc hanh may tinh va thi nghiem di, giao hang tai san van dong. khong voi dau. ben trong la do thuy tinh. nho ky nhe."
+Goal: san van dong -> sports/-/-.
+Urgent: khong voi dau -> 0.
+Fragile: ben trong la do thuy tinh -> 1.
+Provided: sports/-/- -/-/- 0 1 -> P.
+
+Wait, let's re-verify:
+Are there any other ambiguous ones?
+Let's check v4_0137322:
+"Nho ban nhe doan duong chay qua phnog lab khong co y dinh dung lai diem giao hku o cua sinh vien o tren ban do hang phong bi khong vi phai nhanh cam on ban nhe"
+"hang phong bi khong vi phai nhanh cam on ban nhe"
+"khong vi phai nhanh":
+Could it be "không vội, phải nhanh"? "Flag contradictory urgency phrases as U."
+Yes! "khong vi phai nhanh" has contradictory urgency: "không vội" (not urgent) vs "phải nhanh" (must be fast) or ambiguous/corrupted text.
+So v4_0137322 is definitely U.
+
+Let's check v4_0137214:
+"yeu cau moi: dung ghe noi muon giao trinh. giao cho lop truong nhe. nho dung o na luu tru truoc. do cung, khong sao. cam on nhieu."
+Provided: lecture/-/- dorm/-/- 0 0.
+Wait! What is "na luu tru"?
+Could "na luu tru" be "nha luu tru" (dorm)?
+Wait, is "nha luu tru" a standard alias for dorm in these prompts?
+In Vietnamese: "khu lưu trữ" is storage/archive, NOT dorm! Dorm is "ký túc xá", "nội trú", "nhà ở sinh viên". "nhà lưu trú" can be a guesthouse or dorm, but "lưu trữ" is storage/records archive!
+Wait! "luu tru" means "lưu trữ" (storage/archive) or "lưu trú" (staying/residing)?
+In Vietnamese: "lưu trú" = residing / accommodation (nhà lưu trú)!
+Typo in prompt text: "na luu tru" -> "nhà lưu trú"!
+"nhà lưu trú" = accommodation / dorm!
+Wait, is there any reason to doubt it or call it U or F?
+Let's check: dorm = ky tuc xa, khu noi tru, nha luu tru sinh vien. Both "lop truong" -> lecture and "na luu tru" -> dorm are standard in this dataset.
+
+Wait! What about v4_0137385:
+"Ve cho ma lech phai nhat giao bo sac" -> -/east_most/-. Provided: -/east_most/- -/-/- 0 0 -> P.
+
+What about v4_0137339:
+"nhan hang tai o nam o le trai" -> -/west_most/-. Provided: -/west_most/- sports/-/- 0 0 -> P.
+
+Everything is completely checked and verified. Output exact TSV lines only, no markdown, no header.v4_0136957	P	-
+v4_0136962	P	-
+v4_0136965	P	-
+v4_0136966	P	-
+v4_0136967	P	-
+v4_0136972	P	-
+v4_0136975	P	-
+v4_0136982	P	-
+v4_0136989	P	-
+v4_0136994	P	-
+v4_0136995	P	-
+v4_0136996	P	-
+v4_0137060	P	-
+v4_0137069	P	-
+v4_0137072	P	-
+v4_0137097	P	-
+v4_0137111	P	-
+v4_0137139	P	-
+v4_0137142	P	-
+v4_0137146	P	-
+v4_0137163	P	-
+v4_0137172	P	-
+v4_0137175	P	-
+v4_0137183	P	-
+v4_0137198	P	-
+v4_0137214	P	-
+v4_0137224	P	-
+v4_0137226	P	-
+v4_0137227	P	-
+v4_0137255	P	-
+v4_0137261	P	-
+v4_0137280	P	-
+v4_0137282	P	-
+v4_0137286	P	-
+v4_0137304	P	-
+v4_0137308	P	-
+v4_0137311	P	-
+v4_0137319	P	-
+v4_0137322	U	Contradictory or corrupted urgency phrase ('khong vi phai nhanh')
+v4_0137332	P	-
+v4_0137339	P	-
+v4_0137341	P	-
+v4_0137344	P	-
+v4_0137352	P	-
+v4_0137353	P	-
+v4_0137366	P	-
+v4_0137385	P	-
+v4_0137388	P	-
+v4_0137396	P	-
+v4_0137400	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0199578	P	-
+v4_0199598	P	-
+v4_0199617	P	-
+v4_0199619	F	goal type/ref/anchor: provided '-/anchor_near/gate' vs corrected 'parking/anchor_near/gate' ('bac bao ve trong giu xe truong o nut cach cong lon ngan nhat')
+v4_0199621	F	goal type/ref/anchor: provided 'sports/-/-' vs corrected 'dorm/-/-' ('bac bao ve truc toa nha noi tru o san co dang cho')
+v4_0199627	U	'oi ra' khong ro nghia / thieu tu (khong xac dinh ro loi ra hay noi khac)
+v4_0199634	P	-
+v4_0199638	P	-
+v4_0199652	P	-
+v4_0199668	P	-
+v4_0199677	P	-
+v4_0199684	P	-
+v4_0199688	F	urgent: provided '0' vs corrected '1' ('dang doi goi do gap')
+v4_0199707	P	-
+v4_0199712	P	-
+v4_0199713	P	-
+v4_0199722	P	-
+v4_0199723	P	-
+v4_0199726	P	-
+v4_0199729	P	-
+v4_0199741	P	-
+v4_0199756	P	-
+v4_0199758	P	-
+v4_0199767	P	-
+v4_0199768	P	-
+v4_0199770	P	-
+v4_0199776	P	-
+v4_0199779	P	-
+v4_0199792	P	-
+v4_0199806	P	-
+v4_0199812	P	-
+v4_0199823	P	-
+v4_0199824	P	-
+v4_0199838	P	-
+v4_0199849	P	-
+v4_0199865	P	-
+v4_0199869	F	urgent: provided '0' vs corrected '1' ('sang tram y ngay nhe')
+v4_0199872	P	-
+v4_0199884	P	-
+v4_0199899	P	-
+v4_0199905	P	-
+v4_0199917	P	-
+v4_0199920	P	-
+v4_0199923	P	-
+v4_0199928	P	-
+v4_0199934	P	-
+v4_0199940	U	'o danh au cong trnih tiep giap gan khu an trua hon tat ca' bi loi chinh ta/vo nghia o tu khoa danh au
+v4_0199961	P	-
+v4_0199967	P	-
+v4_0199997	P	-
+
+STDERR:

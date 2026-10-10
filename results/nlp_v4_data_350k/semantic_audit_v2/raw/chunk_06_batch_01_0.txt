@@ -1,0 +1,52 @@
+v4_0050001	P	-
+v4_0050005	P	-
+v4_0050018	P	-
+v4_0050019	F	goal type/ref/anchor: provided 'office/-/-', corrected 'lab/-/-' (thay trong phong nho gui phong ib / xuong thuc hnh)
+v4_0050020	P	-
+v4_0050026	P	-
+v4_0050032	U	Ambiguous whether 'lech han ve phia bac' indicates extreme north (north_most) or direction north
+v4_0050052	P	-
+v4_0050078	F	goal type/ref/anchor: provided '-/north_most/-', corrected 'dorm/north_most/-' (noi o dong tren cung)
+v4_0050081	P	-
+v4_0050086	P	-
+v4_0050088	P	-
+v4_0050099	P	-
+v4_0050102	P	-
+v4_0050117	P	-
+v4_0050119	P	-
+v4_0050125	P	-
+v4_0050132	P	-
+v4_0050138	F	goal type/ref/anchor: provided '-/south_most/-', corrected 'dorm/south_most/-' (noi o ria duoi)
+v4_0050144	P	-
+v4_0050152	P	-
+v4_0050158	P	-
+v4_0050177	P	-
+v4_0050194	P	-
+v4_0050197	F	urgent: provided '0', corrected '1' (can gap the giu xe)
+v4_0050226	P	-
+v4_0050228	F	urgent: provided '0', corrected '1' (chuyen vien dang doi lo hang gap)
+v4_0050232	P	-
+v4_0050255	P	-
+v4_0050262	P	-
+v4_0050264	P	-
+v4_0050265	P	-
+v4_0050292	P	-
+v4_0050293	P	-
+v4_0050321	P	-
+v4_0050323	P	-
+v4_0050326	P	-
+v4_0050334	P	-
+v4_0050340	P	-
+v4_0050371	P	-
+v4_0050390	P	-
+v4_0050392	P	-
+v4_0050423	P	-
+v4_0050429	P	-
+v4_0050430	P	-
+v4_0050431	P	-
+v4_0050440	P	-
+v4_0050442	P	-
+v4_0050453	P	-
+v4_0050489	P	-
+
+STDERR:

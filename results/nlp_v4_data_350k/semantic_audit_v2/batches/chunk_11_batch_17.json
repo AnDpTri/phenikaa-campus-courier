@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_17",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0107858",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107894",
+      "status": "F",
+      "reason": "goal canteen/-/- -> office/-/- (\"Cap Nht Bo Phong Dao Tao Nhan Ven Nha An\")"
+    },
+    {
+      "id": "v4_0107895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107910",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107946",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107950",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0107961",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108004",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108010",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108016",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108056",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108101",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108130",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108170",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108197",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108227",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108229",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108231",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108253",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108289",
+      "status": "U",
+      "reason": "Contradictory urgency cues: 'Chieu nay igao cung duoc' vs 'dang doi goi do gap'"
+    },
+    {
+      "id": "v4_0108294",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0108354",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

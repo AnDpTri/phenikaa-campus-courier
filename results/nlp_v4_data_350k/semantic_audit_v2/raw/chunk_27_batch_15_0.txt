@@ -1,0 +1,52 @@
+v4_0267098	P	-
+v4_0267108	P	-
+v4_0267109	P	-
+v4_0267111	P	-
+v4_0267112	P	-
+v4_0267114	P	-
+v4_0267116	U	Missing goal destination; only mentions previous mistaken delivery and recipient wanting to return books/ordering equipment without clear delivery target
+v4_0267125	P	-
+v4_0267134	P	-
+v4_0267138	P	-
+v4_0267152	P	-
+v4_0267169	P	-
+v4_0267184	P	-
+v4_0267193	P	-
+v4_0267200	P	-
+v4_0267201	P	-
+v4_0267210	P	-
+v4_0267217	P	-
+v4_0267222	P	-
+v4_0267224	P	-
+v4_0267240	P	-
+v4_0267245	P	-
+v4_0267265	P	-
+v4_0267269	P	-
+v4_0267272	P	-
+v4_0267276	P	-
+v4_0267284	P	-
+v4_0267295	P	-
+v4_0267309	P	-
+v4_0267325	P	-
+v4_0267335	P	-
+v4_0267352	P	-
+v4_0267357	P	-
+v4_0267363	P	-
+v4_0267366	P	-
+v4_0267372	P	-
+v4_0267374	P	-
+v4_0267387	F	goal type: provided sports, corrected - ('huan luyen vien' is recipient person, destination unstated)
+v4_0267393	P	-
+v4_0267402	P	-
+v4_0267408	P	-
+v4_0267416	P	-
+v4_0267418	P	-
+v4_0267429	P	-
+v4_0267433	P	-
+v4_0267444	P	-
+v4_0267453	P	-
+v4_0267471	P	-
+v4_0267474	P	-
+v4_0267475	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_13_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0122273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122280",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'gate' ('doi bao ve vua chuyen sang toa o sat ben khu muon tra sach')"
+    },
+    {
+      "id": "v4_0122302",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122323",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122376",
+      "status": "F",
+      "reason": "urgent: provided 0, expected 1 ('sau do chuyen huong chuyen giup sang phong thi nghiem ngay')"
+    },
+    {
+      "id": "v4_0122418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122431",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122437",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122475",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122477",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122488",
+      "status": "F",
+      "reason": "goal type: provided 'canteen', expected 'gate' ('bac bao ve tong giu xe truong o khu bep dang cho chia khoa phong')"
+    },
+    {
+      "id": "v4_0122490",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122505",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122511",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122522",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122529",
+      "status": "F",
+      "reason": "goal type: provided 'lab', expected '-' ('kien hang nay di xuong' means go down/south, not lab 'xuong')"
+    },
+    {
+      "id": "v4_0122540",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122563",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122571",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122608",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122624",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122634",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122642",
+      "status": "F",
+      "reason": "goal type: provided 'library', expected 'parking' ('bac giu xe o noi muon giao trinh dang cho mu bao hiem')"
+    },
+    {
+      "id": "v4_0122644",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122667",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122674",
+      "status": "F",
+      "reason": "goal type: provided '-', expected 'parking' ('nhan vien bai xe o truy tim toa nha ke can moc phong hanh chinh hon ca')"
+    },
+    {
+      "id": "v4_0122678",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122682",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122689",
+      "status": "U",
+      "reason": "ambiguous extreme south vs ordinary south ('khu vuc tim toa do lech han ve phuong nam')"
+    },
+    {
+      "id": "v4_0122718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122738",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122759",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0122763",
+      "status": "F",
+      "reason": "urgent: provided 0, expected 1 ('dem atp tai lieu den dia diem nao do nam sat sn van dong nhat gnay')"
+    },
+    {
+      "id": "v4_0122765",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

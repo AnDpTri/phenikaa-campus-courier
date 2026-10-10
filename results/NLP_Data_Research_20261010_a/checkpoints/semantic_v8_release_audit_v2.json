@@ -1,0 +1,427 @@
+{
+  "name": "v8_release_readiness_audit_v2",
+  "created_utc": "2026-10-10T00:59:46.604738+00:00",
+  "audit": {
+    "v8_candidate_train": {
+      "n": 9600,
+      "scenes": 1200,
+      "median_tokens": 67.0,
+      "p10_tokens": 55,
+      "p90_tokens": 78,
+      "min_tokens": 45,
+      "max_tokens": 91,
+      "token_length_ge70": 0.3697,
+      "token_length_le25": 0.0,
+      "label_rates": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5,
+        "accented": 0.5467
+      },
+      "cue_share": {
+        "khong": 0.5033,
+        "huy": 0.5558,
+        "nhan": 0.8075,
+        "lay": 0.8333,
+        "truoc": 0.4208,
+        "gap": 0.5,
+        "khan": 0.3333,
+        "vo": 0.5,
+        "nhay": 0.1667,
+        "sau": 0.2383,
+        "binh": 0.0833,
+        "thuong": 0.441,
+        "cu": 0.2596,
+        "moi": 0.46,
+        "khoi": 0.0554,
+        "phuc": 0.0963,
+        "da": 0.6628
+      },
+      "first8_distinct": 420,
+      "first8_distinct_ratio": 0.0437,
+      "top_first8": [
+        [
+          "nguoi nhan xac nhan noi nhan cuoi cung",
+          800
+        ],
+        [
+          "don van chuyen nay ket thuc khi giao",
+          792
+        ],
+        [
+          "chi dan giao cuoi: dua buu pham den",
+          736
+        ],
+        [
+          "dia chi duoc chot de giao hang: phong",
+          168
+        ],
+        [
+          "muc tieu ban giao cua don nay: dia",
+          160
+        ],
+        [
+          "uu tien cao da bi go, khong phai",
+          156
+        ],
+        [
+          "uu tien cao duoc kich hoat, khong xep",
+          156
+        ],
+        [
+          "muc tieu ban giao cua don nay: phong",
+          136
+        ]
+      ],
+      "modes": {
+        "regime:plain": 3216,
+        "phrase_style:negation_rich": 4848,
+        "goal_mode:anchor_near": 656,
+        "via_mode:west": 848,
+        "goal_mode:near": 624,
+        "via_mode:named": 4768,
+        "goal_mode:named": 3816,
+        "goal_mode:north": 584,
+        "goal_mode:south": 584,
+        "via_mode:north": 808,
+        "via_mode:east": 624,
+        "regime:cancelled": 3216,
+        "via_mode:south": 880,
+        "regime:revision": 3168,
+        "goal_mode:east": 760,
+        "goal_mode:far": 568,
+        "phrase_style:plain_lexicon": 4752,
+        "goal_mode:south_most": 712,
+        "via_mode:far": 840,
+        "via_mode:near": 832,
+        "goal_mode:west": 584,
+        "goal_mode:north_most": 712
+      },
+      "types": {
+        "goal:None": 2080,
+        "via:NONE": 4800,
+        "via:canteen": 412,
+        "goal:clinic": 808,
+        "via:parking": 436,
+        "goal:dorm": 800,
+        "goal:lab": 568,
+        "via:gate": 416,
+        "goal:sports": 680,
+        "via:clinic": 524,
+        "via:lecture": 560,
+        "goal:lecture": 792,
+        "via:sports": 460,
+        "via:library": 480,
+        "via:office": 464,
+        "goal:canteen": 800,
+        "goal:gate": 696,
+        "goal:library": 848,
+        "goal:parking": 744,
+        "via:dorm": 440,
+        "goal:office": 784,
+        "via:lab": 608
+      },
+      "n_unique_folded": 9600,
+      "sha256": "a2bcee3a9e815644128d966b514e3d631b44dc8b746500a14e1b0d09f755ac09"
+    },
+    "v8_family_challenge": {
+      "n": 3200,
+      "scenes": 400,
+      "median_tokens": 67.0,
+      "p10_tokens": 57,
+      "p90_tokens": 80,
+      "min_tokens": 45,
+      "max_tokens": 93,
+      "token_length_ge70": 0.4206,
+      "token_length_le25": 0.0,
+      "label_rates": {
+        "via": 0.5,
+        "urgent": 0.5,
+        "fragile": 0.5,
+        "accented": 0.5675
+      },
+      "cue_share": {
+        "khong": 0.52,
+        "huy": 0.5025,
+        "nhan": 1.0,
+        "lay": 0.6675,
+        "truoc": 0.25,
+        "gap": 0.0,
+        "khan": 0.5,
+        "vo": 0.5,
+        "nhay": 0.5,
+        "sau": 0.5975,
+        "binh": 0.1237,
+        "thuong": 0.4431,
+        "cu": 0.1338,
+        "moi": 0.555,
+        "khoi": 0.2075,
+        "phuc": 0.1525,
+        "da": 0.5437
+      },
+      "first8_distinct": 123,
+      "first8_distinct_ratio": 0.0384,
+      "top_first8": [
+        [
+          "diem can ban giao sau moi cong doan",
+          824
+        ],
+        [
+          "hay hoan tat lan giao hang o khu",
+          136
+        ],
+        [
+          "ben gui huy yeu cau chay hoa toc,",
+          124
+        ],
+        [
+          "ben gui huy lich thuong va yeu cau",
+          124
+        ],
+        [
+          "hay hoan tat lan giao hang o dia",
+          120
+        ],
+        [
+          "nguoi gui chuyen don khoi che do hoa",
+          96
+        ],
+        [
+          "nguoi gui chuyen don sang hoa toc, uu",
+          96
+        ],
+        [
+          "hay hoan tat lan giao hang o phong",
+          96
+        ]
+      ],
+      "modes": {
+        "regime:plain": 1072,
+        "phrase_style:negation_rich": 1616,
+        "goal_mode:named": 1408,
+        "via_mode:named": 1680,
+        "regime:cancelled": 1072,
+        "via_mode:far": 280,
+        "regime:revision": 1056,
+        "via_mode:north": 248,
+        "phrase_style:plain_lexicon": 1584,
+        "goal_mode:south": 192,
+        "via_mode:east": 264,
+        "goal_mode:north": 176,
+        "via_mode:west": 232,
+        "via_mode:near": 248,
+        "goal_mode:far": 232,
+        "goal_mode:west": 128,
+        "goal_mode:anchor_near": 224,
+        "via_mode:south": 248,
+        "goal_mode:south_most": 160,
+        "goal_mode:near": 176,
+        "goal_mode:east": 296,
+        "goal_mode:north_most": 208
+      },
+      "types": {
+        "goal:clinic": 256,
+        "via:NONE": 1600,
+        "via:lecture": 152,
+        "goal:canteen": 224,
+        "via:dorm": 156,
+        "goal:office": 280,
+        "via:sports": 128,
+        "via:gate": 156,
+        "goal:dorm": 248,
+        "via:canteen": 136,
+        "via:parking": 176,
+        "via:library": 168,
+        "via:lab": 176,
+        "goal:gate": 304,
+        "goal:lecture": 248,
+        "via:office": 188,
+        "goal:library": 288,
+        "goal:None": 592,
+        "via:clinic": 164,
+        "goal:sports": 248,
+        "goal:parking": 240,
+        "goal:lab": 272
+      },
+      "n_unique_folded": 3200,
+      "sha256": "cc2a89c5d7e2fcdae0854b96f4e90696ca3edb3c5855ee019c7f3e3eba9c0d86"
+    },
+    "original_real_training_2k": {
+      "n": 2000,
+      "median_tokens": 46.0,
+      "p10_tokens": 33,
+      "p90_tokens": 60,
+      "token_length_ge70": 0.0175,
+      "token_length_le25": 0.0195,
+      "label_rates": {
+        "via": 0.327,
+        "urgent": 0.382,
+        "fragile": 0.392,
+        "accented": 0.706
+      },
+      "cue_share": {
+        "khong": 0.6855,
+        "huy": 0.141,
+        "nhan": 0.516,
+        "lay": 0.1985,
+        "truoc": 0.419,
+        "gap": 0.236,
+        "khan": 0.0625,
+        "vo": 0.463,
+        "nhay": 0.0,
+        "sau": 0.064
+      },
+      "examples": [
+        {
+          "text": "Xin chao! Dung hnam voi phong doc nhe. Huy don giao nha xe. Thay vao do: Truoc khi chuyen bien ten khach den khong phai nha thi dau ma la cong truong gip minh, nho ghe lop hoc lay tap bai kiem tra. guoi nhan da roi khu gui xe roi. Cu tu tu, khong voi. Do gom ben trong, tranh va cham. Thanks robot.",
+          "tokens": 77,
+          "via": true,
+          "urgent": false,
+          "fragile": true
+        },
+        {
+          "text": "Không cần ghé bãi xe. Người nhận đã rời tòa hiệu bộ rồi. Càng nhanh càng tốt. Trước tiên qua nhà thi đấu nhận bộ vợt, sau đó đưa thùng hàng tới nơi cạnh hầm xe nhất. Bên trong là đồ thủy tinh.",
+          "tokens": 49,
+          "via": true,
+          "urgent": true,
+          "fragile": true
+        },
+        {
+          "text": "Nho ban nhe: Cu tu tu, khong voi. Khog can ghe khu the thao. Ban quan ly ky tuc xa o toa nha o cua sinh vien nam gan phong so cuu adng cho hop giay.",
+          "tokens": 41,
+          "via": false,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "trước khi giao quả bóng đến không phải giảng đường mà là nhà thể chất giúp mình, nhớ ghé khu hnh chính lấy tập giấy tờ. (tin trước ghi tòa nhà ở của sinh viên là nhầm) người nhận đã rời chốt bảo vệ cổng rồi. cần ngay rtong 5 phút.",
+          "tokens": 57,
+          "via": true,
+          "urgent": true,
+          "fragile": false
+        },
+        {
+          "text": "Xin chào! Nhờ robot chuyển tập tài liệu qua phòng đọc chứ không phải nhà ăn. (tin rtước ghi tòa giảng đường là nhầm) Đang cần gấp lắm. Người nhận đã rời lớp học rồi. Hôm qua đã giao ở cổng vào rồi.",
+          "tokens": 50,
+          "via": false,
+          "urgent": true,
+          "fragile": false
+        },
+        {
+          "text": "Xin chào! Lúc nãy nhắn nhầm là cổng A. Đúng ra: Điểm giao: địa điểm gần khu đọc sách nhất. Hàng: túi đồ. Nhớ ghé phòng ở sinh viên lấy túi đồ giặt trước. Đừng nhầm với phòng học lớn nhé. Không cần ghé chỗ để xe. Hàng chắc chắn, không dễ vỡ.",
+          "tokens": 65,
+          "via": true,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "xin chào! đừng nhầm với sân bóng nhé. chiều nay giao cũng được. đồ gốm bên trong, tránh va chạm. hủy đơn giao khu giảng đường. thay vào đó: đưa sách tham khảo đến khu đọc sách chứ không phải khu nội trú giúp mình. nhưng phải tạt qua khu thí nghiệm trước đã. hôm qua đã giao ở văn phòng khoa rồi. cảm ơn nhiều.",
+          "tokens": 77,
+          "via": true,
+          "urgent": false,
+          "fragile": true
+        },
+        {
+          "text": "Robot ơi, hôm qua đã giao ở phòng hành chính rồi. Đưa chồng giáo trình đến không phải chốt bảo vệ cổng mà là thư viện giúp mình. (tin trước ghi khu giảng đường là nhầm) Người nhận đã rời cổng trường rồi. Thanks robot.",
+          "tokens": 52,
+          "via": false,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "yeu cau moi: hoa toc! diem giao: thu vien. hang: hop giay. nguoi nhan da roi khu gui xe roi.",
+          "tokens": 27,
+          "via": false,
+          "urgent": true,
+          "fragile": false
+        },
+        {
+          "text": "[đơn #4466] hủy đơn giao nhà xe. thay vào đó: cần hộp thuốc ở phòng sơ cứu. việc này khẩn cấp. không cần ghé căng tin.",
+          "tokens": 33,
+          "via": false,
+          "urgent": true,
+          "fragile": false
+        },
+        {
+          "text": "Điểm giao: chỗ ở trên cùng bản đồ. Hàng: gói hàng. Đừng nhầm với cổng chính nhé. Hàng chắc chắn, không dễ vỡ. Người nhận đã rời nhà xe rồi. Chiều nay giao cũng được.",
+          "tokens": 44,
+          "via": false,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "Hom qua da giao o lab hoa roi. Luc nay nhan nham la phong thi nghiem. Dung ra: Co don giao may chieu o lop hoc. Dung nham voi thu vien nhe. Cu tu tu, khong voi. Thanks robot.",
+          "tokens": 47,
+          "via": false,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "lúc nãy nhắn nhầm là trạm y tế. đúng ra: điểm giao: địa điểm nằm sát mép phải nhất. hàng: bưu kiện. người nhận đã rời văn phòng khoa rồi. cảm ơn nhiều.",
+          "tokens": 41,
+          "via": false,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "Yeu cau moi: Ky thuat vien phong lab o lab hoa dang cho linh kien dien tu. Nhung phai tat qua toa nha o cua sinh vien truoc da. Khong can ghe toa hieu bo. Hom qua da giao o khu the thao roi.",
+          "tokens": 49,
+          "via": true,
+          "urgent": false,
+          "fragile": false
+        },
+        {
+          "text": "Yêu cầu mới: Không cần ghé cnổg A. Càng nhanh càng tốt. ang bưu kiện đến nơi ạcnh lối vào trường nhất giúp mình. Thanks robot.",
+          "tokens": 31,
+          "via": false,
+          "urgent": true,
+          "fragile": false
+        }
+      ]
+    },
+    "original_scratch_every_10th_row": {
+      "n": 20000,
+      "median_tokens": 61.0,
+      "p10_tokens": 38,
+      "p90_tokens": 88,
+      "token_length_ge70": 0.3492,
+      "token_length_le25": 0.0167,
+      "label_rates": {
+        "via": 0.5468,
+        "urgent": 0.4554,
+        "fragile": 0.4284,
+        "accented": 0.2727
+      },
+      "cue_share": {
+        "khong": 0.7967,
+        "huy": 0.0742,
+        "nhan": 0.5495,
+        "lay": 0.4219,
+        "truoc": 0.308,
+        "gap": 0.1858,
+        "khan": 0.0764,
+        "vo": 0.316,
+        "nhay": 0.0,
+        "sau": 0.2594
+      }
+    }
+  },
+  "sampled_stratified_scenes": 48,
+  "stratified_examples_file": "D:\\phenikaa\\results\\NLP_Data_Research_20261010_a\\checkpoints\\semantic_v8_release_stratified_examples_v2.jsonl",
+  "critical_checklist": {
+    "automatic_label_consistency": "PASS; 8-way labels and 10 cue-invariance tested in earlier QA",
+    "no_exact_train_challenge_duplication": "PASS",
+    "lexical_balance_selected_10_cues": "PASS within 8-way scenes",
+    "independent_human_annotation": "NOT DONE",
+    "controlled_retrain_A_B": "NOT DONE",
+    "different_sentence_length_vs_real": "REQUIRES REVIEW",
+    "test_set_independence": "TEMPLATE FAMILY ONLY",
+    "formal_approval": "NOT APPROVED"
+  },
+  "caveats": [
+    "Real training data read-only, not validation/test.",
+    "This does not prove that lexical cues are causally uninformative.",
+    "Long 4-clause sentences are intentional stress tests, not production distribution.",
+    "Underrepresented negative examples without explicit flag text cannot be checked by label balancing."
+  ]
+}

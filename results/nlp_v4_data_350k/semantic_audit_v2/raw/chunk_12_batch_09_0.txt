@@ -1,0 +1,52 @@
+v4_0114106	P	-
+v4_0114120	P	-
+v4_0114147	P	-
+v4_0114149	P	-
+v4_0114158	P	-
+v4_0114165	P	-
+v4_0114181	P	-
+v4_0114183	P	-
+v4_0114191	P	-
+v4_0114198	P	-
+v4_0114203	P	-
+v4_0114217	P	-
+v4_0114220	P	-
+v4_0114230	P	-
+v4_0114263	P	-
+v4_0114268	P	-
+v4_0114290	P	-
+v4_0114295	P	-
+v4_0114338	P	-
+v4_0114340	P	-
+v4_0114345	P	-
+v4_0114353	P	-
+v4_0114357	P	-
+v4_0114364	P	-
+v4_0114376	P	-
+v4_0114380	F	urgent: 1 -> 0 ("ap lam roi" is corrupt/ambiguous for urgent cue, but if intended urgent then 1; wait: "ap lam roi" is unreadable required information -> U)
+v4_0114396	P	-
+v4_0114404	P	-
+v4_0114409	P	-
+v4_0114416	P	-
+v4_0114418	P	-
+v4_0114419	P	-
+v4_0114433	P	-
+v4_0114459	P	-
+v4_0114461	P	-
+v4_0114462	P	-
+v4_0114479	P	-
+v4_0114480	P	-
+v4_0114484	P	-
+v4_0114486	P	-
+v4_0114490	P	-
+v4_0114493	P	-
+v4_0114496	P	-
+v4_0114505	P	-
+v4_0114513	P	-
+v4_0114525	P	-
+v4_0114530	P	-
+v4_0114531	U	unspecified urgency/direction cues; "ngay di" conveys urgency conflicting with urgent=0
+v4_0114538	P	-
+v4_0114549	P	-
+
+STDERR:

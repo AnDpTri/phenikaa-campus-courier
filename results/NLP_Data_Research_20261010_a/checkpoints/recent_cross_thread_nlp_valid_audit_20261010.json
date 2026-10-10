@@ -1,0 +1,242 @@
+{
+  "timestamp": "2026-10-10T02:17:56.576257+00:00",
+  "models": {
+    "V5_public_70_39": {
+      "filename": "neural_parser_v5_sf200_scratch_via095.pt",
+      "goal_threshold": 0.8
+    },
+    "V5_goal070": {
+      "filename": "neural_parser_v5_g070_v095.pt",
+      "goal_threshold": 0.7
+    },
+    "V5plusV9_goal070": {
+      "filename": "neural_parser_v5_v9_ensemble_g070_v095.pt",
+      "goal_threshold": 0.7
+    }
+  },
+  "n": 300,
+  "summaries": {
+    "V5_public_70_39": {
+      "neural": {
+        "goal": {
+          "correct": 281,
+          "n": 300,
+          "accuracy": 0.936667
+        },
+        "via": {
+          "correct": 270,
+          "n": 300,
+          "accuracy": 0.9
+        },
+        "urgent": {
+          "correct": 267,
+          "n": 300,
+          "accuracy": 0.89
+        },
+        "fragile": {
+          "correct": 263,
+          "n": 300,
+          "accuracy": 0.876667
+        },
+        "all": {
+          "correct": 204,
+          "n": 300,
+          "accuracy": 0.68
+        }
+      },
+      "hybrid": {
+        "goal": {
+          "correct": 298,
+          "n": 300,
+          "accuracy": 0.993333
+        },
+        "via": {
+          "correct": 297,
+          "n": 300,
+          "accuracy": 0.99
+        },
+        "urgent": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "fragile": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "all": {
+          "correct": 296,
+          "n": 300,
+          "accuracy": 0.986667
+        }
+      },
+      "via_compared": {
+        "disagree": 30,
+        "override": 3
+      }
+    },
+    "V5_goal070": {
+      "neural": {
+        "goal": {
+          "correct": 281,
+          "n": 300,
+          "accuracy": 0.936667
+        },
+        "via": {
+          "correct": 270,
+          "n": 300,
+          "accuracy": 0.9
+        },
+        "urgent": {
+          "correct": 267,
+          "n": 300,
+          "accuracy": 0.89
+        },
+        "fragile": {
+          "correct": 263,
+          "n": 300,
+          "accuracy": 0.876667
+        },
+        "all": {
+          "correct": 204,
+          "n": 300,
+          "accuracy": 0.68
+        }
+      },
+      "hybrid": {
+        "goal": {
+          "correct": 298,
+          "n": 300,
+          "accuracy": 0.993333
+        },
+        "via": {
+          "correct": 297,
+          "n": 300,
+          "accuracy": 0.99
+        },
+        "urgent": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "fragile": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "all": {
+          "correct": 296,
+          "n": 300,
+          "accuracy": 0.986667
+        }
+      },
+      "via_compared": {
+        "disagree": 30,
+        "override": 3
+      }
+    },
+    "V5plusV9_goal070": {
+      "neural": {
+        "goal": {
+          "correct": 281,
+          "n": 300,
+          "accuracy": 0.936667
+        },
+        "via": {
+          "correct": 267,
+          "n": 300,
+          "accuracy": 0.89
+        },
+        "urgent": {
+          "correct": 267,
+          "n": 300,
+          "accuracy": 0.89
+        },
+        "fragile": {
+          "correct": 265,
+          "n": 300,
+          "accuracy": 0.883333
+        },
+        "all": {
+          "correct": 200,
+          "n": 300,
+          "accuracy": 0.666667
+        }
+      },
+      "hybrid": {
+        "goal": {
+          "correct": 299,
+          "n": 300,
+          "accuracy": 0.996667
+        },
+        "via": {
+          "correct": 298,
+          "n": 300,
+          "accuracy": 0.993333
+        },
+        "urgent": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "fragile": {
+          "correct": 300,
+          "n": 300,
+          "accuracy": 1.0
+        },
+        "all": {
+          "correct": 297,
+          "n": 300,
+          "accuracy": 0.99
+        }
+      },
+      "via_compared": {
+        "disagree": 33,
+        "override": 2
+      }
+    }
+  },
+  "differences": {
+    "V5_goal070": {
+      "changed_scene_count": 0,
+      "change_breakdown": {},
+      "examples": []
+    },
+    "V5plusV9_goal070": {
+      "changed_scene_count": 2,
+      "change_breakdown": {
+        "changed_goal": 1,
+        "fixed_goal": 1,
+        "changed_via": 1,
+        "fixed_via": 1
+      },
+      "examples": [
+        {
+          "scene_index": 14,
+          "scene_id": "validation-00014",
+          "text": "Chào robot, không giao nơi khách đến trường nữa nhé, đổi lại: Lấy hóa chất ở nơi làm thí nghiệm sát khu đọc sách xong thì vận chuyển ásch tham khảo đến nơi mượn sách tham khảo giúp mình. Kện hàng này rất mng manh. Cứ từ từ, khôg vội. Bỏ qua dãy phòng học, không phải ở đó.",
+          "old": "ParsedMission(text='Chào robot, không giao nơi khách đến trường nữa nhé, đổi lại: Lấy hóa chất ở nơi làm thí nghiệm sát khu đọc sách xong thì vận chuyển ásch tham khảo đến nơi mượn sách tham khảo giúp mình. Kện hàng này rất mng manh. Cứ từ từ, khôg vội. Bỏ qua dãy phòng học, không phải ở đó.', goal=TargetSpec(type='lab', ref='near', anchor='library'), via=None, urgent=False, fragile=True)",
+          "new": "ParsedMission(text='Chào robot, không giao nơi khách đến trường nữa nhé, đổi lại: Lấy hóa chất ở nơi làm thí nghiệm sát khu đọc sách xong thì vận chuyển ásch tham khảo đến nơi mượn sách tham khảo giúp mình. Kện hàng này rất mng manh. Cứ từ từ, khôg vội. Bỏ qua dãy phòng học, không phải ở đó.', goal=TargetSpec(type='library', ref=None, anchor=None), via=None, urgent=False, fragile=True)",
+          "truth": "(TargetSpec(type='library', ref=None, anchor=None), TargetSpec(type='lab', ref='near', anchor='library'), False, True)"
+        },
+        {
+          "scene_index": 24,
+          "scene_id": "validation-00024",
+          "text": "Nho ban nhe: [Don #1378] Kien ang nay rat mong manh. Khong iao noi phuc vu bua trua nua nhe, doi lai: Lay tui so cuu o phong y te xong thi van chuyen bo dung cu thi nhiem toi phong thuc hanh. Hom qua da giao o khu van dong roi. Uu tien so mot, di ngay.",
+          "old": "ParsedMission(text='Nho ban nhe: [Don #1378] Kien ang nay rat mong manh. Khong iao noi phuc vu bua trua nua nhe, doi lai: Lay tui so cuu o phong y te xong thi van chuyen bo dung cu thi nhiem toi phong thuc hanh. Hom qua da giao o khu van dong roi. Uu tien so mot, di ngay.', goal=TargetSpec(type='lab', ref=None, anchor=None), via=None, urgent=True, fragile=True)",
+          "new": "ParsedMission(text='Nho ban nhe: [Don #1378] Kien ang nay rat mong manh. Khong iao noi phuc vu bua trua nua nhe, doi lai: Lay tui so cuu o phong y te xong thi van chuyen bo dung cu thi nhiem toi phong thuc hanh. Hom qua da giao o khu van dong roi. Uu tien so mot, di ngay.', goal=TargetSpec(type='lab', ref=None, anchor=None), via=TargetSpec(type='clinic', ref=None, anchor=None), urgent=True, fragile=True)",
+          "truth": "(TargetSpec(type='lab', ref=None, anchor=None), TargetSpec(type='clinic', ref=None, anchor=None), True, True)"
+        }
+      ]
+    }
+  },
+  "elapsed_s": 8.6,
+  "scope": "validation text-only raw NLP; no CV and no solver",
+  "limitations": [
+    "validation reused for selection and may be tuned; not blind test",
+    "map-aware NLP differences not scored here, raw semantic parse comparison only",
+    "comparison uses same rule parser and same thresholds except goal 0.7 vs 0.8",
+    "does not verify new submission used exact model, only compares artifacts"
+  ]
+}

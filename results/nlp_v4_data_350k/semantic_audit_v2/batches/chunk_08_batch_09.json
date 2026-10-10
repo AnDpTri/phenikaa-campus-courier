@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_08_batch_09",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0074264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074284",
+      "status": "F",
+      "reason": "goal is gate/north_most/- not -/north_most/- (\"nhan vien an ninh truc cong chinh o cho chon o dat lech cao nhat ve huong bac cua campus dang cho giay moi\")"
+    },
+    {
+      "id": "v4_0074285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074316",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074343",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074434",
+      "status": "F",
+      "reason": "goal is dorm/anchor_near/office not -/anchor_near/office (\"bac bao ve truc toa nha noi tru o o o gan van phong truong nhat\")"
+    },
+    {
+      "id": "v4_0074441",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074462",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074467",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074469",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074486",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074490",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074514",
+      "status": "F",
+      "reason": "goal is dorm/anchor_near/canteen not -/anchor_near/canteen (\"quan ly ktx o khu vuc nam gan khu an trua nhat\")"
+    },
+    {
+      "id": "v4_0074521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074534",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074549",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074553",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074560",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074561",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074574",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074578",
+      "status": "F",
+      "reason": "goal is dorm/north_most/- not -/north_most/- (\"ban quan ly ky tuc xa va chuyen sang toa nha o cao nhat\")"
+    },
+    {
+      "id": "v4_0074582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074604",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074611",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0074614",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

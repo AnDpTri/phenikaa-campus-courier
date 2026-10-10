@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_26_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0259526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259529",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259554",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259570",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259579",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259596",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259598",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259650",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259690",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259699",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259725",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259739",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259761",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259764",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259765",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259772",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259777",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259779",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259782",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259796",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259805",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259808",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259823",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259866",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259882",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259904",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259931",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259966",
+      "status": "F",
+      "reason": "goal type: library -> clinic (text mentions 'chai noc la cua can bo thu vien' but does not specify library as goal; recipient is at an unspecified location or clinic vs library)"
+    },
+    {
+      "id": "v4_0259967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259976",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0259987",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

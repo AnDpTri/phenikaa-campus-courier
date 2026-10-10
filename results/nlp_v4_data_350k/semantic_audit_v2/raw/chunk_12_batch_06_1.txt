@@ -1,0 +1,52 @@
+v4_0112503	P	-
+v4_0112511	P	-
+v4_0112531	P	-
+v4_0112539	P	-
+v4_0112543	P	-
+v4_0112544	F	goal type/ref/anchor: provided 'gate/north/-', should be 'gate/-/-' ('cong chinh ben tren dang cho khay com' refers to upstairs/on the floor of the gate, not directional north instance)
+v4_0112559	P	-
+v4_0112562	P	-
+v4_0112565	P	-
+v4_0112567	P	-
+v4_0112574	P	-
+v4_0112588	P	-
+v4_0112589	P	-
+v4_0112592	P	-
+v4_0112595	P	-
+v4_0112602	P	-
+v4_0112607	P	-
+v4_0112625	P	-
+v4_0112634	P	-
+v4_0112643	P	-
+v4_0112660	P	-
+v4_0112701	P	-
+v4_0112725	P	-
+v4_0112728	P	-
+v4_0112747	P	-
+v4_0112765	P	-
+v4_0112773	P	-
+v4_0112786	P	-
+v4_0112800	P	-
+v4_0112803	P	-
+v4_0112809	P	-
+v4_0112838	P	-
+v4_0112851	P	-
+v4_0112877	P	-
+v4_0112878	P	-
+v4_0112885	P	-
+v4_0112890	P	-
+v4_0112892	P	-
+v4_0112895	P	-
+v4_0112953	P	-
+v4_0112969	U	'Khu Hai' is ambiguous whether it indicates an east direction or just zone/area number 2
+v4_0113001	P	-
+v4_0113013	P	-
+v4_0113017	P	-
+v4_0113024	P	-
+v4_0113033	P	-
+v4_0113043	P	-
+v4_0113054	P	-
+v4_0113061	P	-
+v4_0113070	P	-
+
+STDERR:

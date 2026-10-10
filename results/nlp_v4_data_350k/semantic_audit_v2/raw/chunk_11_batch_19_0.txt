@@ -1,0 +1,52 @@
+v4_0108841	P	-
+v4_0108848	P	-
+v4_0108857	P	-
+v4_0108858	F	goal type/ref/anchor provided -/anchor_near/canteen should be -/-/- (nut hang oxm / nut hang xom: corrupted/unparseable spatial relation)
+v4_0108884	P	-
+v4_0108913	P	-
+v4_0108929	P	-
+v4_0108958	P	-
+v4_0108962	P	-
+v4_0108965	P	-
+v4_0108975	P	-
+v4_0108989	P	-
+v4_0108993	P	-
+v4_0108999	P	-
+v4_0109014	P	-
+v4_0109028	P	-
+v4_0109048	P	-
+v4_0109073	P	-
+v4_0109092	P	-
+v4_0109096	U	Ambiguous destination: only mentions "giao cho thay chu nhiem" without any specific building, campus facility, or spatial anchor
+v4_0109107	P	-
+v4_0109114	P	-
+v4_0109122	P	-
+v4_0109153	P	-
+v4_0109156	P	-
+v4_0109169	P	-
+v4_0109173	P	-
+v4_0109187	P	-
+v4_0109188	P	-
+v4_0109195	P	-
+v4_0109214	P	-
+v4_0109245	P	-
+v4_0109253	P	-
+v4_0109258	P	-
+v4_0109259	P	-
+v4_0109268	P	-
+v4_0109274	P	-
+v4_0109276	P	-
+v4_0109290	P	-
+v4_0109311	P	-
+v4_0109326	P	-
+v4_0109332	P	-
+v4_0109343	P	-
+v4_0109352	P	-
+v4_0109364	P	-
+v4_0109395	P	-
+v4_0109400	U	Ambiguous destination: "tap giay to la cua can bo y te" only names recipient profession without designating a clinic building or delivery location
+v4_0109415	P	-
+v4_0109438	P	-
+v4_0109449	P	-
+
+STDERR:

@@ -1,0 +1,52 @@
+v4_0241374	P	-
+v4_0241383	P	-
+v4_0241403	P	-
+v4_0241407	F	via: parking/far/clinic -> parking/-/- (nho ghe ai gui xe cai ma xa phong y te truong lay micro khong day truoc: ai gui xe cai khong xac dinh ro far clinic ma la typo 'bai gui xe', va 'xa' o day la 'qua/va' hoac typo, tuy nhien 'cai ma xa phong y te' = far clinic, nhung doc ky: 'cai ma xa phong y te truong lay micro' = 'cai nha xe phong y te'?) -> Cho kiem tra ky: "cai ma xa phong y te truong": "cai ma xa" = "cai ma gan/xa"? "cai ma xa phong y te truong" nghia la cai o xa phong y te truong -> parking/far/clinic hop ly. Kiem tra goal: "Chi nau bep dang cho micro khong day" -> canteen/-/-. Urgent: "Can gap!" = 1. Fragile: 0. Vay v4_0241407 la P.
+v4_0241413	P	-
+v4_0241429	P	-
+v4_0241432	P	-
+v4_0241448	P	-
+v4_0241449	P	-
+v4_0241485	P	-
+v4_0241487	P	-
+v4_0241503	P	-
+v4_0241513	P	-
+v4_0241539	P	-
+v4_0241548	P	-
+v4_0241550	P	-
+v4_0241558	P	-
+v4_0241576	P	-
+v4_0241592	P	-
+v4_0241602	P	-
+v4_0241612	P	-
+v4_0241614	P	-
+v4_0241625	U	"khu ky tuc xa thu vien trung tam hon cai kia la noi can giao" bi thieu tu chi quan he khoang cach (gan/xa hon) giua ky tuc xa va thu vien trung tam
+v4_0241633	P	-
+v4_0241643	P	-
+v4_0241646	P	-
+v4_0241664	P	-
+v4_0241669	P	-
+v4_0241671	P	-
+v4_0241672	P	-
+v4_0241688	P	-
+v4_0241689	P	-
+v4_0241715	P	-
+v4_0241717	P	-
+v4_0241727	P	-
+v4_0241729	P	-
+v4_0241737	P	-
+v4_0241749	P	-
+v4_0241765	P	-
+v4_0241766	P	-
+v4_0241780	P	-
+v4_0241805	P	-
+v4_0241806	P	-
+v4_0241807	P	-
+v4_0241808	P	-
+v4_0241822	P	-
+v4_0241842	P	-
+v4_0241853	P	-
+v4_0241865	P	-
+v4_0241867	P	-
+
+STDERR:

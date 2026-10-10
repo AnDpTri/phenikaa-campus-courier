@@ -1,0 +1,52 @@
+v4_0303562	P	-
+v4_0303568	P	-
+v4_0303577	P	-
+v4_0303581	P	-
+v4_0303590	P	-
+v4_0303593	P	-
+v4_0303646	P	-
+v4_0303650	P	-
+v4_0303655	P	-
+v4_0303676	P	-
+v4_0303697	P	-
+v4_0303702	P	-
+v4_0303706	P	-
+v4_0303728	P	-
+v4_0303732	P	-
+v4_0303751	P	-
+v4_0303755	P	-
+v4_0303789	P	-
+v4_0303819	P	-
+v4_0303826	P	-
+v4_0303836	P	-
+v4_0303840	P	-
+v4_0303841	P	-
+v4_0303847	P	-
+v4_0303850	P	-
+v4_0303864	P	-
+v4_0303871	P	-
+v4_0303877	P	-
+v4_0303883	P	-
+v4_0303891	P	-
+v4_0303901	P	-
+v4_0303903	P	-
+v4_0303904	P	-
+v4_0303912	P	-
+v4_0303914	P	-
+v4_0303924	P	-
+v4_0303927	P	-
+v4_0303932	P	-
+v4_0303937	P	-
+v4_0303938	P	-
+v4_0303939	P	-
+v4_0303941	P	-
+v4_0303951	office/north_most/-	goal type/ref/anchor provided -/north_most/- but head place is 'cn bo giao vu dang doi cuc pin tai tao' (can bo giao vu / phong giao vu -> office)
+v4_0303952	P	-
+v4_0303963	P	-
+v4_0303991	P	-
+v4_0303996	P	-
+v4_0304010	sports/anchor_near/dorm	goal type/ref/anchor provided -/anchor_near/dorm but text specifies recipient 'giao vien the duc' (sports)
+v4_0304016	-/north_most/-	U	'hang dau' can mean first row (north_most) or front rank/row without clear vertical axis alignment
+v4_0304020	P	-
+
+STDERR:

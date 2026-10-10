@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_14",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0086485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086492",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086494",
+      "status": "F",
+      "reason": "urgent: provided 1, corrected 0 based on \"nhanh nhat co the\" and missing fragile vs \"nho nhe\" fragile=1 mismatch"
+    },
+    {
+      "id": "v4_0086502",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086512",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086600",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086647",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086662",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086716",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086723",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086756",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086773",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086790",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086807",
+      "status": "U",
+      "reason": "Contradictory urgency phrase \"khong vi phai nhanh\""
+    },
+    {
+      "id": "v4_0086809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086830",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086832",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086833",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086846",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086856",
+      "status": "U",
+      "reason": "Contradictory urgency phrase \"khong vi phai nhanh\""
+    },
+    {
+      "id": "v4_0086861",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086865",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086890",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086914",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086923",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086932",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086935",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086940",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086986",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0086997",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087004",
+      "status": "U",
+      "reason": "Missing directional word in destination \"o sat toa hoc\""
+    }
+  ]
+}

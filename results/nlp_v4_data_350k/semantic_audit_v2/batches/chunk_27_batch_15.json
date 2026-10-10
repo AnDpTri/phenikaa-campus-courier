@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0267098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267111",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267116",
+      "status": "U",
+      "reason": "Missing goal destination; only mentions previous mistaken delivery and recipient wanting to return books/ordering equipment without clear delivery target"
+    },
+    {
+      "id": "v4_0267125",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267169",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267184",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267201",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267210",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267240",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267269",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267272",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267276",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267284",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267309",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267352",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267374",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267387",
+      "status": "F",
+      "reason": "goal type: provided sports, corrected - ('huan luyen vien' is recipient person, destination unstated)"
+    },
+    {
+      "id": "v4_0267393",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267408",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267418",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267433",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267453",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0267475",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0112070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112073",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112109",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112123",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112143",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112179",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112186",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112205",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112208",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112232",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112236",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112248",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112249",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112270",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112305",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112354",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112383",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112425",
+      "status": "F",
+      "reason": "goal type: provided 'dorm', corrected '-' (dau ebp o cong trinh canh khu de xe dap nhat dang cho laptop -> recipient is at canteen/closest to parking, or previous order mentioned dorm/manager, wait: 'quan ly ky tuc xa nho gui bo tai lieu' -> sender is manager of dorm, destination is not dorm)"
+    },
+    {
+      "id": "v4_0112443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112455",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112459",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112474",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0112497",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

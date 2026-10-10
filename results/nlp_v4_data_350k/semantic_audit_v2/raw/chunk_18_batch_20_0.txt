@@ -1,0 +1,116 @@
+v4_0179422	P	-
+v4_0179430	P	-
+v4_0179440	F	urgent: provided 1, corrected 0 (not urgent? "Gap Gap!" -> urgent is 1. Wait, goal type: "Nguoi Nhan La Giao Vien The Duc" -> sports? Wait, "Dung De O Cong Truong Chinh. Nguoi Nhan La Giao Vien The Duc." Is sports the recipient location or just workplace? "An explicitly stated recipient location overrides their usual workplace." Wait, is there a recipient location stated? No, only "Nguoi Nhan La Giao Vien The Duc" - wait, does text state a goal? "Huong Nay Chi Chay Song Song Voi Cong Truong Chinh, Khong Re Vao Do. Dung De O Cong Truong Chinh. Nguoi Nhan La Giao Vien The Duc." Where is the delivery point? No delivery point stated, or is teacher workplace inferred? But instructions say: "Item words / workplace... An explicitly stated recipient location overrides their usual workplace. Do not infer correctness from labels." Missing required information -> U)
+v4_0179422	P	-
+v4_0179430	P	-
+v4_0179440	U	Khong co dia diem giao hang cu the (chi neu nguoi nhan la giao vien the duc, khong noi giao o dau)
+v4_0179459	P	-
+v4_0179461	P	-
+v4_0179481	P	-
+v4_0179482	P	-
+v4_0179484	P	-
+v4_0179512	F	urgent: provided 0, corrected 1 ("can gap")
+v4_0179514	P	-
+v4_0179524	P	-
+v4_0179525	P	-
+v4_0179532	P	-
+v4_0179537	P	-
+v4_0179538	P	-
+v4_0179545	P	-
+v4_0179563	P	-
+v4_0179564	P	-
+v4_0179568	P	-
+v4_0179579	P	-
+v4_0179592	P	-
+v4_0179599	P	-
+v4_0179607	P	-
+v4_0179619	P	-
+v4_0179640	P	-
+v4_0179654	P	-
+v4_0179682	P	-
+v4_0179683	P	-
+v4_0179685	P	-
+v4_0179741	P	-
+v4_0179751	P	-
+v4_0179760	P	-
+v4_0179777	P	-
+v4_0179800	P	-
+v4_0179801	P	-
+v4_0179811	P	-
+v4_0179816	P	-
+v4_0179850	F	goal type: provided library, corrected - ("hay di uqa koh sach nhe" -> transit/pass by, not delivery destination; no explicit delivery destination provided)
+v4_0179852	P	-
+v4_0179855	P	-
+v4_0179894	P	-
+v4_0179912	P	-
+v4_0179918	P	-
+v4_0179923	P	-
+v4_0179927	P	-
+v4_0179931	P	-
+v4_0179940	P	-
+v4_0179954	P	-
+v4_0179965	P	-
+v4_0179973	P	-
+
+Wait, let's carefully verify v4_0179512:
+"can gap bo sac truoc cua nha an hung. nhung phai tat qua cong phia truoc truoc da. khong vi phai nhanh."
+Notice: "can gap bo sac..." -> "can gap" means "cần gấp" (urgent) OR "cần gắp / cần gặp / cần mang"? Wait! "can gap bo sac" = "cần gấp bộ sạc" vs "khong vi phai nhanh" = "không việc phải nhanh" / "không vì phải nhanh" -> contradictory urgency!
+"can gap" vs "khong vi phai nhanh" (hoặc "khong phai nhanh") -> "Flag contradictory urgency phrases as U".
+Let's check v4_0179512 as U: mau thuan ve tinh khan cap giua "can gap" va "khong vi phai nhanh".
+
+Let's check v4_0179850:
+"hello robot tarnh rung lac vi de vo cna ghe loi vao truong tuoc cu tu tu khong voi khong phai khu noi tru dau hoi truong thi khong can toi hay di uqa koh sach nhe robot cma on nhieu"
+"hay di uqa koh sach nhe" = "hãy đi qua kho sách nhé" -> transit (qua kho sach), not destination! Wait, is there a destination? No! "can ghe loi vao truong truoc" -> via gate. But no goal. So goal is absent or U. If label says library/-/- but text says "di qua kho sach" and via "ghe loi vao truong", goal type is wrong or missing. Label has goal library/-/- which is wrong -> F: goal type provided library, corrected - (hoac U vi thieu thong tin diem den). But "Do not infer correctness from labels... Missing required information as U". Let's check rule: "Treat conflicting cues, ambiguous extreme vs ordinary direction, or unreadable required information as U, not P."
+
+Let's re-audit all items systematically and output cleanly without markdown/formatting as requested.v4_0179422	P	-
+v4_0179430	P	-
+v4_0179440	U	Thieu thong tin dia diem giao hang cu the (chi co thong tin nguoi nhan la giao vien the duc)
+v4_0179459	P	-
+v4_0179461	P	-
+v4_0179481	P	-
+v4_0179482	P	-
+v4_0179484	P	-
+v4_0179512	U	Mau thuan thong tin do khan cap giua 'can gap' va 'khong vi phai nhanh'
+v4_0179514	P	-
+v4_0179524	P	-
+v4_0179525	P	-
+v4_0179532	P	-
+v4_0179537	P	-
+v4_0179538	P	-
+v4_0179545	P	-
+v4_0179563	P	-
+v4_0179564	P	-
+v4_0179568	P	-
+v4_0179579	P	-
+v4_0179592	P	-
+v4_0179599	P	-
+v4_0179607	P	-
+v4_0179619	P	-
+v4_0179640	P	-
+v4_0179654	P	-
+v4_0179682	P	-
+v4_0179683	P	-
+v4_0179685	P	-
+v4_0179741	P	-
+v4_0179751	P	-
+v4_0179760	P	-
+v4_0179777	P	-
+v4_0179800	P	-
+v4_0179801	P	-
+v4_0179811	P	-
+v4_0179816	P	-
+v4_0179850	U	Khong xac dinh duoc diem den dich thuc vi 'di qua kho sach' la di ngang, khong co diem giao cu the
+v4_0179852	P	-
+v4_0179855	P	-
+v4_0179894	P	-
+v4_0179912	P	-
+v4_0179918	P	-
+v4_0179923	P	-
+v4_0179927	P	-
+v4_0179931	P	-
+v4_0179940	P	-
+v4_0179954	P	-
+v4_0179965	P	-
+v4_0179973	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0105936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105948",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0105971",
+      "status": "U",
+      "reason": "ambiguous destination phrase 'cong trinh co nhat' does not clearly indicate north_most"
+    },
+    {
+      "id": "v4_0105985",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106008",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106012",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106052",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106098",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106102",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106122",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106144",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106155",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106157",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106171",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106247",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106251",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106255",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106261",
+      "status": "F",
+      "reason": "goal type: provided '-' should be 'parking' ('Nhan vien bai xe o toa ngay sat toa ktx can don hang')"
+    },
+    {
+      "id": "v4_0106262",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106275",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106278",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106280",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106298",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106340",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106351",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0106359",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

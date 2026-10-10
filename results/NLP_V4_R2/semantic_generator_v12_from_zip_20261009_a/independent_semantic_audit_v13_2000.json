@@ -1,0 +1,69 @@
+{
+  "source": "pilot_2000_v13_role_semantics.jsonl",
+  "status": "AUTOMATED_ROLE_CONTRACT_AUDIT_DONE; MANUAL_SEMANTIC_AUDIT_PENDING",
+  "rows": 2000,
+  "role_counts": {
+    "n": 2000,
+    "former_goal": 471,
+    "former_goal_and_via": 245,
+    "negative_mentions": 896,
+    "via_without_before": 550,
+    "supplemental_item": 496,
+    "fragile_named_physical": 265,
+    "no_via_with_take": 436,
+    "former_pickup": 277,
+    "error_former_goal_without_revocation": 6
+  },
+  "issues": {
+    "former_goal_without_revocation": [
+      {
+        "id": "sem_v13_000135",
+        "detail": "Địa chỉ trong phiếu trước là giảng đường chính, nhưng người gửi vừa thay đích giao. Địa chỉ thay thế: Đưa gói hàng đến khu ẩm thực để bàn giao. Người gửi đã bàn giao gói hàng ngay "
+      },
+      {
+        "id": "sem_v13_000172",
+        "detail": "Địa chỉ trong phiếu trước là cổng chính, nhưng người gửi vừa thay đích giao. Dự kiến nhận kiện tại nhà ăn trung tâm; xác nhận mới không còn lấy ở đó. Đích mới: Đưa thùng bưu phẩm đ"
+      },
+      {
+        "id": "sem_v13_000479",
+        "detail": "dia chi trong phieu truoc la phong hanh chinh, nhung nguoi gui vua thay dich giao. dia chi giao hien co hieu luc la: dua chong giao trinh den nha an sinh vien de ban giao. nguoi gu"
+      },
+      {
+        "id": "sem_v13_000774",
+        "detail": "Robot nhận giúp yêu cầu này nhé. Địa chỉ trong phiếu trước là tòa nhà học tập, nhưng người gửi vừa thay đích giao. Dự kiến nhận kiện tại căn tin; xác nhận mới không còn lấy ở đó. Đ"
+      },
+      {
+        "id": "sem_v13_001555",
+        "detail": "dia chi trong phieu truoc la xuong thuc hanh, nhung nguoi gui vua thay dich giao. dia chi giao hien co hieu luc la: robot phai giao phong bi niem phong tai chot bao ve. ngoai kien "
+      },
+      {
+        "id": "sem_v13_001860",
+        "detail": "Địa chỉ trong phiếu trước là tòa nhà học tập, nhưng người gửi vừa thay đích giao. Địa chỉ giao hiện có hiệu lực là: Giao hộp hàng đến phòng đọc sách. Lấy hộp hàng ngay tại nơi xuất"
+      }
+    ]
+  },
+  "issue_families": {
+    "former_goal_without_revocation": 6
+  },
+  "sample_size": 140,
+  "group_population": {
+    "revised_goal_with_via": 245,
+    "revised_goal_no_via": 226,
+    "revised_pickup_has_via": 126,
+    "revised_pickup_no_via": 151,
+    "goal_anchor_near": 249,
+    "goal_global_extreme": 233,
+    "goal_near_far": 472,
+    "via_spatial": 346,
+    "supplementary_pickup": 496,
+    "multiple_negatives": 38,
+    "negative_no_via": 447,
+    "urgent_fragile_both": 448,
+    "neither_flags": 566
+  },
+  "limitations": [
+    "Rule-based consistency checks do not prove naturalness or all labels",
+    "Only 2k pilot has been assessed, not a new 40k",
+    "Dataset ZIP text validation was not incorporated into templates"
+  ]
+}

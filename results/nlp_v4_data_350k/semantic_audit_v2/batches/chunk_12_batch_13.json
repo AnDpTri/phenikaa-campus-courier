@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_12_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0116154",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116193",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116217",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116222",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116269",
+      "status": "U",
+      "reason": "Conflicting urgency cues ('Cu Tu Tu, Khong Voi' vs 'Ngay Ho Minh')"
+    },
+    {
+      "id": "v4_0116297",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116351",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116354",
+      "status": "U",
+      "reason": "Conflicting urgency cues ('ngay' vs 'thong tha')"
+    },
+    {
+      "id": "v4_0116355",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116362",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116367",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116370",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116382",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116386",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116401",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116402",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116413",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116443",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116468",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116471",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116515",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116539",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116541",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116543",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116546",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116548",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116550",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116551",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116584",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116590",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116600",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('sang nha iu xe ngay')"
+    },
+    {
+      "id": "v4_0116603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116618",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0116622",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

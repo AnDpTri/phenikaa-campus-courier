@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_15_batch_20",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0149612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149615",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149648",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149655",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149670",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149695",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149698",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149710",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149714",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149730",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149748",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149751",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149753",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149762",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149770",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149776",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149778",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149799",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149803",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149814",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149830",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149835",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149836",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149871",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149873",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149907",
+      "status": "F",
+      "reason": "goal type: provided lecture, should be parking ('sang cuh giu xe o lop hoc')"
+    },
+    {
+      "id": "v4_0149927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149934",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149963",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0149972",
+      "status": "F",
+      "reason": "via ref: provided far, should be - ('thu vien o dau xa nha tap the thao hnat' is library/far_most/sports or library/-/-)"
+    },
+    {
+      "id": "v4_0149989",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

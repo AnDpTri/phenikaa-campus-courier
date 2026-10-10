@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_13",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0226149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226188",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226189",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226192",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226246",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226336",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226346",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226365",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226373",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226392",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226435",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226480",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226482",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226524",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226533",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226562",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226575",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226583",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226599",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226612",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226613",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226632",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226683",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0226709",
+      "status": "F",
+      "reason": "goal type: provided canteen, should be - ('ve xe la cua co cap duong' is an item/occupant, not a destination)"
+    },
+    {
+      "id": "v4_0226719",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

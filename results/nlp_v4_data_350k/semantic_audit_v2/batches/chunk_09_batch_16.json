@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_09_batch_16",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0087521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087543",
+      "status": "F",
+      "reason": "goal type: provided sports, should be gate (\"truc cong chinh o khu the thao\")"
+    },
+    {
+      "id": "v4_0087569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087576",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087582",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087588",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087594",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087616",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087622",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087625",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087654",
+      "status": "F",
+      "reason": "goal ref: provided east, should be - (\"phong thuc tap o phai ban do\" specifies extreme east_most or -/east_most, not east directional instance of lab)"
+    },
+    {
+      "id": "v4_0087657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087676",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087697",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087713",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087727",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087731",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087735",
+      "status": "F",
+      "reason": "goal type: provided -, should be gate (\"giao ra o nam o cuoi ban do\" head noun ra/cong ra is gate)"
+    },
+    {
+      "id": "v4_0087837",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087887",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087908",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087922",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087941",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087956",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087974",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0087998",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088001",
+      "status": "F",
+      "reason": "goal type: provided sports, should be - (\"Dung Ra Cau Lac Bo Bong Da Nho Gui Goi Do\" means cancelled/rejected sports: Dung ra = correctly speaking / instead of, do not go to soccer club)"
+    },
+    {
+      "id": "v4_0088002",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088007",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088013",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088020",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088031",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088047",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088058",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088067",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0088075",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

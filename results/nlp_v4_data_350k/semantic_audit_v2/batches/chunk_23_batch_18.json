@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_18",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0228479",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228492",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228507",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228521",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228535",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228586",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228597",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228623",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228636",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228665",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228692",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228704",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228717",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228718",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228733",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228734",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228778",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228811",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228813",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228838",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228850",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228928",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228944",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228951",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228970",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228979",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0228988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229003",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229019",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229035",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229040",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229043",
+      "status": "U",
+      "reason": "Unclear whether 'coch o le phai' refers to east or east_most"
+    },
+    {
+      "id": "v4_0229054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229065",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0229092",
+      "status": "U",
+      "reason": "Recipient 'phong tiep an khu tren' conflicts between canteen and office/north"
+    }
+  ]
+}

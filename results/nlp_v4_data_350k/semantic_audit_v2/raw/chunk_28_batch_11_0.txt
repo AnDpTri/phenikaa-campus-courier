@@ -1,0 +1,52 @@
+v4_0274800	P	-
+v4_0274808	P	-
+v4_0274824	P	-
+v4_0274826	P	-
+v4_0274846	P	-
+v4_0274871	P	-
+v4_0274882	P	-
+v4_0274885	P	-
+v4_0274891	P	-
+v4_0274903	P	-
+v4_0274923	P	-
+v4_0274929	P	-
+v4_0274932	P	-
+v4_0274935	P	-
+v4_0274954	P	-
+v4_0274956	P	-
+v4_0274968	P	-
+v4_0274973	P	-
+v4_0274977	P	-
+v4_0274983	P	-
+v4_0274994	P	-
+v4_0274999	P	-
+v4_0275009	P	-
+v4_0275013	F	goal type: provided '-' should be 'canteen' ('giao ho nguyen lieu nau an cho co thu thu o vi tri sat vach van phong')
+v4_0275037	P	-
+v4_0275041	P	-
+v4_0275043	P	-
+v4_0275067	P	-
+v4_0275074	P	-
+v4_0275082	P	-
+v4_0275090	P	-
+v4_0275100	P	-
+v4_0275106	U	ambiguous extreme vs ordinary direction ('tim toa do lech han ve phuong nam' lacks clear extreme superlative vs south)
+v4_0275111	P	-
+v4_0275118	P	-
+v4_0275133	P	-
+v4_0275140	P	-
+v4_0275147	P	-
+v4_0275181	P	-
+v4_0275204	P	-
+v4_0275209	P	-
+v4_0275213	P	-
+v4_0275218	P	-
+v4_0275227	F	via ref: provided 'near' should be '-' ('sat phong hoc ly thuyet hon truoc' means closer compared to before / comparative order, anchor_near, or missing target anchor)
+v4_0275230	P	-
+v4_0275248	F	via ref: provided 'far' should be '-' ('cai ma xa phong thi nghiem ly nhan hop banh' is not relative to anchor lab with another anchor)
+v4_0275257	P	-
+v4_0275262	P	-
+v4_0275265	P	-
+v4_0275270	P	-
+
+STDERR:

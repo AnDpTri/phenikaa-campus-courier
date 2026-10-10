@@ -1,0 +1,52 @@
+v4_0086485	P	-
+v4_0086492	P	-
+v4_0086494	F	urgent: provided 1, corrected 0 based on "nhanh nhat co the" and missing fragile vs "nho nhe" fragile=1 mismatch
+v4_0086502	P	-
+v4_0086512	P	-
+v4_0086527	P	-
+v4_0086589	P	-
+v4_0086600	P	-
+v4_0086617	P	-
+v4_0086621	P	-
+v4_0086623	P	-
+v4_0086647	P	-
+v4_0086662	P	-
+v4_0086677	P	-
+v4_0086694	P	-
+v4_0086708	P	-
+v4_0086710	P	-
+v4_0086716	P	-
+v4_0086723	P	-
+v4_0086748	P	-
+v4_0086756	P	-
+v4_0086762	P	-
+v4_0086773	P	-
+v4_0086784	P	-
+v4_0086790	P	-
+v4_0086806	P	-
+v4_0086807	U	Contradictory urgency phrase "khong vi phai nhanh"
+v4_0086809	P	-
+v4_0086830	P	-
+v4_0086832	P	-
+v4_0086833	P	-
+v4_0086846	P	-
+v4_0086856	U	Contradictory urgency phrase "khong vi phai nhanh"
+v4_0086861	P	-
+v4_0086865	P	-
+v4_0086887	P	-
+v4_0086890	P	-
+v4_0086912	P	-
+v4_0086914	P	-
+v4_0086923	P	-
+v4_0086932	P	-
+v4_0086935	P	-
+v4_0086940	P	-
+v4_0086957	P	-
+v4_0086963	P	-
+v4_0086970	P	-
+v4_0086981	P	-
+v4_0086986	P	-
+v4_0086997	P	-
+v4_0087004	U	Missing directional word in destination "o sat toa hoc"
+
+STDERR:

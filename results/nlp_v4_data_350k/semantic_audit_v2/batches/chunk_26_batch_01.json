@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_26_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0250028",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250039",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250054",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250055",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250056",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250082",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250092",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250131",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250149",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250158",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250202",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250234",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250237",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250254",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250266",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250283",
+      "status": "U",
+      "reason": "Contradictory urgency cues ('gap' vs 'cu tu tu khong voi')"
+    },
+    {
+      "id": "v4_0250289",
+      "status": "U",
+      "reason": "Garbled distance/direction text ('o du xa')"
+    },
+    {
+      "id": "v4_0250306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250307",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250315",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250326",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250357",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250366",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250385",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250391",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250399",
+      "status": "U",
+      "reason": "Unclear/garbled location reference ('phong ym')"
+    },
+    {
+      "id": "v4_0250400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250403",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250407",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0250408",
+      "status": "U",
+      "reason": "Unclear/garbled location reference ('phong ym')"
+    },
+    {
+      "id": "v4_0250429",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0090564	P	-
+v4_0090569	P	-
+v4_0090573	P	-
+v4_0090576	P	-
+v4_0090591	P	-
+v4_0090592	P	-
+v4_0090598	P	-
+v4_0090611	U	Ambigous recipient/goal: y ta truc nho gui bo tai lieu vs khong lien quan ktx, clinic type unanchored vs far
+v4_0090612	P	-
+v4_0090613	P	-
+v4_0090618	P	-
+v4_0090624	P	-
+v4_0090634	P	-
+v4_0090637	P	-
+v4_0090638	P	-
+v4_0090641	U	Contradictory urgency phrases: 'hno gap' vs 'khan cap/khong gap'
+v4_0090649	P	-
+v4_0090661	P	-
+v4_0090666	P	-
+v4_0090671	P	-
+v4_0090689	P	-
+v4_0090696	P	-
+v4_0090698	P	-
+v4_0090708	U	Ambiguous direction: 'le trai' (ordinary side) vs 'cot dau / lech trai nhat' (extreme west_most)
+v4_0090725	P	-
+v4_0090731	F	goal type: provided '-' should be 'lecture' ("giang vien dung lop giang duong o tram nam gan nha thi dau nhat")
+v4_0090746	P	-
+v4_0090748	P	-
+v4_0090751	P	-
+v4_0090757	P	-
+v4_0090766	P	-
+v4_0090775	P	-
+v4_0090781	P	-
+v4_0090795	P	-
+v4_0090799	P	-
+v4_0090806	P	-
+v4_0090813	P	-
+v4_0090814	P	-
+v4_0090817	U	Ambiguous goal: dem bo tai lieu cho co giang vien without clear lecture building vs recipient person
+v4_0090825	P	-
+v4_0090833	P	-
+v4_0090850	P	-
+v4_0090868	P	-
+v4_0090884	P	-
+v4_0090888	P	-
+v4_0090891	P	-
+v4_0090907	P	-
+v4_0090925	P	-
+v4_0090944	P	-
+v4_0090945	P	-
+
+STDERR:

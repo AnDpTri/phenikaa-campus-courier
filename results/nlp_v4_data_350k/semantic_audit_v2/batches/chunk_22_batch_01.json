@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_22_batch_01",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0210000",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210021",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210041",
+      "status": "U",
+      "reason": "phong tai lieu bo qua nhung sau do noi \"dm bien ten khach xuong bep truong hoc o ben duo.i khu hoc tap khong phai diem giao\", dia diem giao cuoi cung bi mau thuan/khong ro rang"
+    },
+    {
+      "id": "v4_0210048",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210087",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210115",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210137",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210148",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210167",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210176",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210178",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210198",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210209",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210268",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210272",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210277",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210285",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210295",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210296",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210315",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210319",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210322",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210325",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210356",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210371",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210376",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210378",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210388",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210396",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210454",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0210455",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

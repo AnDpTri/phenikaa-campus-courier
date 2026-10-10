@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_30_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0297076",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297077",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297099",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297107",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297108",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297131",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297140",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297150",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297175",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297181",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297187",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297195",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297199",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297207",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297221",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297249",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297252",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297256",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297261",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297265",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297279",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297289",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297301",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297331",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297335",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297339",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297342",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297344",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297345",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297347",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297380",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297389",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297407",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297447",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297456",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297473",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297484",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297489",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297492",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297499",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0297502",
+      "status": "U",
+      "reason": "Ambiguous direction/extreme cue for goal ('mep phai' could indicate east or east_most)"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_11_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0102379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102458",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102464",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102472",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102493",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102510",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102522",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102525",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102558",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102619",
+      "status": "U",
+      "reason": "Nguoi nhan la bac giu xe nhung khong noi ro dia diem giao la bai xe hay noi khac"
+    },
+    {
+      "id": "v4_0102628",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102648",
+      "status": "F",
+      "reason": "goal type: provided library, corrected dorm (quan ly ktx can goi do tai khong gian doc yen tinh)"
+    },
+    {
+      "id": "v4_0102653",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102657",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102661",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102664",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102673",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102679",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102700",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102721",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102724",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102732",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102747",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102750",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102769",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102817",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102831",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102849",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102855",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102881",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102898",
+      "status": "F",
+      "reason": "goal type: provided library, corrected lecture (tren duong tien ghe lop ly thuyet nhe so ghi khach la cua nhan vien thu vien)"
+    },
+    {
+      "id": "v4_0102907",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102920",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0102944",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

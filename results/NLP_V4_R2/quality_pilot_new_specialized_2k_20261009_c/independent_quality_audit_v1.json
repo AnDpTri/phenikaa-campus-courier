@@ -1,0 +1,410 @@
+{
+  "status": "automated_audit_only",
+  "original": {
+    "n": 40000,
+    "unique": 40000,
+    "unique_first8": 5562,
+    "p10": 44,
+    "p50": 63,
+    "p90": 85,
+    "p99": 103,
+    "max": 136,
+    "via_rate": 0.47845,
+    "accent_rate": 0.5901,
+    "features": {
+      "correction": {
+        "count": 19365,
+        "rate": 0.48413
+      },
+      "irrelevant_places": {
+        "count": 25982,
+        "rate": 0.64955
+      },
+      "spatial": {
+        "count": 29731,
+        "rate": 0.74328
+      },
+      "negation": {
+        "count": 37886,
+        "rate": 0.94715
+      },
+      "before": {
+        "count": 21998,
+        "rate": 0.54995
+      },
+      "lay": {
+        "count": 12088,
+        "rate": 0.3022
+      },
+      "wrong_direction_phrasing": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "heldout_pattern": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "via_without_truoc": 0,
+    "none_with_lay": 0
+  },
+  "v2_sample_2000": {
+    "n": 2000,
+    "unique": 2000,
+    "unique_first8": 1864,
+    "p10": 32,
+    "p50": 51,
+    "p90": 71,
+    "p99": 91,
+    "max": 116,
+    "via_rate": 0.495,
+    "accent_rate": 0.0,
+    "features": {
+      "correction": {
+        "count": 206,
+        "rate": 0.103
+      },
+      "irrelevant_places": {
+        "count": 902,
+        "rate": 0.451
+      },
+      "spatial": {
+        "count": 1421,
+        "rate": 0.7105
+      },
+      "negation": {
+        "count": 1770,
+        "rate": 0.885
+      },
+      "before": {
+        "count": 747,
+        "rate": 0.3735
+      },
+      "lay": {
+        "count": 477,
+        "rate": 0.2385
+      },
+      "wrong_direction_phrasing": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "heldout_pattern": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "via_without_truoc": 393,
+    "none_with_lay": 40
+  },
+  "pilots": {
+    "pilot_v1": {
+      "n": 2000,
+      "unique": 2000,
+      "unique_first8": 700,
+      "p10": 76,
+      "p50": 103,
+      "p90": 126,
+      "p99": 141,
+      "max": 149,
+      "via_rate": 0.48,
+      "accent_rate": 0.5925,
+      "features": {
+        "correction": {
+          "count": 1087,
+          "rate": 0.5435
+        },
+        "irrelevant_places": {
+          "count": 1490,
+          "rate": 0.745
+        },
+        "spatial": {
+          "count": 1732,
+          "rate": 0.866
+        },
+        "negation": {
+          "count": 1952,
+          "rate": 0.976
+        },
+        "before": {
+          "count": 545,
+          "rate": 0.2725
+        },
+        "lay": {
+          "count": 920,
+          "rate": 0.46
+        },
+        "wrong_direction_phrasing": {
+          "count": 169,
+          "rate": 0.0845
+        },
+        "heldout_pattern": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "via_without_truoc": 630,
+      "none_with_lay": 516
+    },
+    "pilot_v2": {
+      "n": 2000,
+      "unique": 2000,
+      "unique_first8": 533,
+      "p10": 54,
+      "p50": 71,
+      "p90": 92,
+      "p99": 111,
+      "max": 134,
+      "via_rate": 0.49,
+      "accent_rate": 0.6085,
+      "features": {
+        "correction": {
+          "count": 842,
+          "rate": 0.421
+        },
+        "irrelevant_places": {
+          "count": 705,
+          "rate": 0.3525
+        },
+        "spatial": {
+          "count": 1597,
+          "rate": 0.7985
+        },
+        "negation": {
+          "count": 1812,
+          "rate": 0.906
+        },
+        "before": {
+          "count": 220,
+          "rate": 0.11
+        },
+        "lay": {
+          "count": 905,
+          "rate": 0.4525
+        },
+        "wrong_direction_phrasing": {
+          "count": 171,
+          "rate": 0.0855
+        },
+        "heldout_pattern": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "via_without_truoc": 810,
+      "none_with_lay": 505
+    },
+    "pilot_v3": {
+      "n": 2000,
+      "unique": 2000,
+      "unique_first8": 566,
+      "p10": 55,
+      "p50": 73,
+      "p90": 93,
+      "p99": 111,
+      "max": 124,
+      "via_rate": 0.478,
+      "accent_rate": 0.611,
+      "features": {
+        "correction": {
+          "count": 1105,
+          "rate": 0.5525
+        },
+        "irrelevant_places": {
+          "count": 826,
+          "rate": 0.413
+        },
+        "spatial": {
+          "count": 1691,
+          "rate": 0.8455
+        },
+        "negation": {
+          "count": 1794,
+          "rate": 0.897
+        },
+        "before": {
+          "count": 431,
+          "rate": 0.2155
+        },
+        "lay": {
+          "count": 916,
+          "rate": 0.458
+        },
+        "wrong_direction_phrasing": {
+          "count": 146,
+          "rate": 0.073
+        },
+        "heldout_pattern": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "via_without_truoc": 694,
+      "none_with_lay": 511
+    }
+  },
+  "overlap_original_and_curated": {
+    "pilot_v1": 0,
+    "pilot_v2": 0,
+    "pilot_v3": 0
+  },
+  "flag_grounding": {
+    "pilot_v1": {
+      "counts": {
+        "urgent_positive": 926,
+        "fragile_positive": 812,
+        "fragile_missing_evidence": 70,
+        "urgent_missing_evidence": 49
+      },
+      "examples": [
+        {
+          "id": "specnew_000044",
+          "field": "fragile",
+          "text": "toi co mot chuyen chuyen hang. da lay du kien sach tai noi xuat phat, noi nhan kien sach cuoi cung la trong hai phong y te truong, chon noi o xa cong phia san truong hon. khong phai lay o mot dia diem khac. dung hieu nham don nay la viec khan. mot nguoi nhan phong thi nghiem, nhung do la thong tin cua don khac. nguoi nhan truoc day lam tai khu noi "
+        },
+        {
+          "id": "specnew_000049",
+          "field": "urgent",
+          "text": "Trạng thái dễ vỡ trong phiếu cũ là nhầm lẫn. Thông tin đơn hàng mới đây. người nhận đợi kiện bộ dụng cụ tại điểm tận cùng phía đông của sơ đồ. Không có điểm dừng nhận hàng trung gian nào. Hôm qua đã chuyển đồ qua xưởng thực hành; chuyện đó thuộc đơn trước. Chỉ xử lý các yêu cầu trong đơn này. Mình cảm ơn."
+        },
+        {
+          "id": "specnew_000063",
+          "field": "fragile",
+          "text": "Đừng giao nhầm tới quầy mượn sách, đây là nơi không liên quan. Tôi có một chuyến chuyển hàng. Robot nhận tài liệu giảng dạy tại nơi xuất phát. Bây giờ chuyển tài liệu giảng dạy sang điểm bất kỳ nằm sát khu lưu trú nội trú nhất, không tính chính địa điểm mốc. Không có chặng lấy thêm. Chỉ xử lý các yêu cầu trong đơn này. Hệ thống từng ghi sai đích là"
+        },
+        {
+          "id": "specnew_000069",
+          "field": "fragile",
+          "text": "Đơn này không có hạn chót gấp. Tôi có một chuyến chuyển hàng. nơi nhận tập biểu mẫu cuối cùng là văn phòng nhà trường nằm gần phòng thí nghiệm hơn địa điểm cùng loại còn lại. Lấy hàng từ người gửi ngay tại chỗ xuất phát; không cần ghé thêm. Đi ngang khu sơ cứu cũng được nhưng không dừng nhận hàng ở đó. Người gửi sẽ đối chiếu mã đơn khi robot hoàn t"
+        },
+        {
+          "id": "specnew_000111",
+          "field": "urgent",
+          "text": "Alo đội giao nhận. Việc đầu tiên là tìm sân bóng rổ để nhận bưu kiện. Kế tiếp mới thực hiện việc giao: điểm kết thúc đơn hàng đặt tại ký túc xá sinh viên ở gần bãi đỗ phương tiện nhất trong các nơi cùng loại. Phiếu mới có hiệu lực kể từ lúc này. Đồ mềm, rơi nhẹ cũng không hỏng. Chuyến cũ từng ghé phòng khám; lần này không cần ghé địa chỉ cũ. Chuyến"
+        }
+      ]
+    },
+    "pilot_v2": {
+      "counts": {
+        "urgent_positive": 919,
+        "fragile_positive": 831,
+        "fragile_missing_evidence": 226,
+        "urgent_missing_evidence": 259
+      },
+      "examples": [
+        {
+          "id": "specnew_000005",
+          "field": "fragile",
+          "text": "Robot đọc lại yêu cầu giúp. phát tập biểu mẫu ở ký túc xá sinh viên. Hàng đã đủ từ đầu, robot đi thẳng đến nơi nhận. Tình trạng thời hạn: cần giao gấp. Hôm qua đã chuyển đồ qua phòng hành chính; chuyện đó thuộc đơn trước. Đừng nhầm thông tin cũ nữa nhé."
+        },
+        {
+          "id": "specnew_000007",
+          "field": "urgent",
+          "text": "luc dau ghi hang ben, nhung da dinh chinh la do thuy tinh. toi co mot chuyen chuyen hang. dua hop vat tu toi nguoi nhan o phong hanh chinh phia gan thu vien nha truong hon cho thu hai. dung tao them chang nhan hang ngoai diem xuat phat. chi xu ly cac yeu cau trong don nay. cam on nhieu."
+        },
+        {
+          "id": "specnew_000008",
+          "field": "fragile",
+          "text": "he thong tung ghi sai dich la quay com; dia chi chinh thuc nam trong lenh nay. co mot viec giao hang moi. phat ho so xet duyet o vi tri cuc bac tren ban do. khong co diem dung nhan hang trung gian nao. co the van chuyen theo nhip binh thuong. nho lam dung chi dan."
+        },
+        {
+          "id": "specnew_000010",
+          "field": "urgent",
+          "text": "Đồ mềm, rơi nhẹ cũng không hỏng. Bên mình có kiện cần giao. đưa bộ tài liệu về địa điểm vị trí ngoài cùng bên phải bản đồ. Chỉ thực hiện hành trình đến đích; không ghé điểm gom hàng nào. Cảm ơn robot nhé."
+        },
+        {
+          "id": "specnew_000019",
+          "field": "urgent",
+          "text": "Hàng được xác nhận không cần chống va đập đặc biệt. Mình cần nhờ robot hỗ trợ. Robot nhận tập biểu mẫu tại nơi xuất phát. Bây giờ đích chuyển phát tập biểu mẫu: kho giáo trình. Không có chặng lấy thêm. Không giao và cũng không gom thêm hàng ở văn phòng khoa. Nhờ kiểm tra lại giúp."
+        }
+      ]
+    },
+    "pilot_v3": {
+      "counts": {
+        "urgent_positive": 938,
+        "fragile_positive": 860
+      },
+      "examples": []
+    }
+  },
+  "gates": {
+    "pilot_v1": {
+      "criteria": {
+        "exactly_2000": true,
+        "unique_exact": true,
+        "unseen_old_and_curated": true,
+        "no_more_than_160_tokens": true,
+        "token_median_within_20pct_of_old": false,
+        "token_p90_within_20pct_of_old": false,
+        "accent_rate_within_12pp": true,
+        "via_rate_within_8pp": true,
+        "corrections_at_least_60pct_old": true,
+        "irrelevant_places_at_least_50pct_old": true,
+        "spatial_at_least_75pct_old": true,
+        "via_without_truoc_at_least_25pct_true": true,
+        "none_with_lay_at_least_10pct_none": true,
+        "no_flag_true_without_explicit_evidence": false,
+        "no_syntactically_wrong_direction_phrase": false
+      },
+      "pass": false,
+      "failed": [
+        "token_median_within_20pct_of_old",
+        "token_p90_within_20pct_of_old",
+        "no_flag_true_without_explicit_evidence",
+        "no_syntactically_wrong_direction_phrase"
+      ]
+    },
+    "pilot_v2": {
+      "criteria": {
+        "exactly_2000": true,
+        "unique_exact": true,
+        "unseen_old_and_curated": true,
+        "no_more_than_160_tokens": true,
+        "token_median_within_20pct_of_old": true,
+        "token_p90_within_20pct_of_old": true,
+        "accent_rate_within_12pp": true,
+        "via_rate_within_8pp": true,
+        "corrections_at_least_60pct_old": true,
+        "irrelevant_places_at_least_50pct_old": true,
+        "spatial_at_least_75pct_old": true,
+        "via_without_truoc_at_least_25pct_true": true,
+        "none_with_lay_at_least_10pct_none": true,
+        "no_flag_true_without_explicit_evidence": false,
+        "no_syntactically_wrong_direction_phrase": false
+      },
+      "pass": false,
+      "failed": [
+        "no_flag_true_without_explicit_evidence",
+        "no_syntactically_wrong_direction_phrase"
+      ]
+    },
+    "pilot_v3": {
+      "criteria": {
+        "exactly_2000": true,
+        "unique_exact": true,
+        "unseen_old_and_curated": true,
+        "no_more_than_160_tokens": true,
+        "token_median_within_20pct_of_old": true,
+        "token_p90_within_20pct_of_old": true,
+        "accent_rate_within_12pp": true,
+        "via_rate_within_8pp": true,
+        "corrections_at_least_60pct_old": true,
+        "irrelevant_places_at_least_50pct_old": true,
+        "spatial_at_least_75pct_old": true,
+        "via_without_truoc_at_least_25pct_true": true,
+        "none_with_lay_at_least_10pct_none": true,
+        "no_flag_true_without_explicit_evidence": true,
+        "no_syntactically_wrong_direction_phrase": false
+      },
+      "pass": false,
+      "failed": [
+        "no_syntactically_wrong_direction_phrase"
+      ]
+    }
+  },
+  "limitations": [
+    "Template-grounded positive flags do not validate full natural-language entailment",
+    "Syntactic diversity/semantic human audit still required",
+    "No training was done",
+    "Report measures pilot 2k, not 40k"
+  ]
+}

@@ -1,0 +1,52 @@
+v4_0247028	P	-
+v4_0247032	P	-
+v4_0247039	P	-
+v4_0247047	P	-
+v4_0247054	P	-
+v4_0247098	P	-
+v4_0247099	F	goal type/ref/anchor: provided 'parking/-/-', corrected 'library/-/-' (nguoi giu xe dat the thu vien, khong co dia diem giao bai xe)
+v4_0247101	P	-
+v4_0247112	P	-
+v4_0247117	P	-
+v4_0247118	P	-
+v4_0247120	P	-
+v4_0247125	P	-
+v4_0247149	P	-
+v4_0247159	P	-
+v4_0247169	F	goal type/ref/anchor: provided '-/anchor_near/lecture', corrected 'parking/near/lecture' (mang ho phong thu cho bac bao ve trong giu xe truong o diem lien ke phong hoc ly thuyet)
+v4_0247175	P	-
+v4_0247178	P	-
+v4_0247187	P	-
+v4_0247194	P	-
+v4_0247216	P	-
+v4_0247223	P	-
+v4_0247227	P	-
+v4_0247230	P	-
+v4_0247233	P	-
+v4_0247236	P	-
+v4_0247245	P	-
+v4_0247313	P	-
+v4_0247316	P	-
+v4_0247339	P	-
+v4_0247360	P	-
+v4_0247382	P	-
+v4_0247387	P	-
+v4_0247405	P	-
+v4_0247422	P	-
+v4_0247430	P	-
+v4_0247443	P	-
+v4_0247444	P	-
+v4_0247448	P	-
+v4_0247455	P	-
+v4_0247473	P	-
+v4_0247479	P	-
+v4_0247493	P	-
+v4_0247496	P	-
+v4_0247498	P	-
+v4_0247502	P	-
+v4_0247513	P	-
+v4_0247517	P	-
+v4_0247521	P	-
+v4_0247574	P	-
+
+STDERR:

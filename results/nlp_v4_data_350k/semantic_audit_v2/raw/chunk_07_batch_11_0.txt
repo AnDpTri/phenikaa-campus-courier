@@ -1,0 +1,52 @@
+v4_0065154	P	-
+v4_0065155	P	-
+v4_0065157	P	-
+v4_0065170	P	-
+v4_0065181	P	-
+v4_0065182	P	-
+v4_0065183	P	-
+v4_0065187	P	-
+v4_0065191	P	-
+v4_0065196	P	-
+v4_0065209	P	-
+v4_0065217	P	-
+v4_0065223	P	-
+v4_0065250	P	-
+v4_0065255	P	-
+v4_0065270	P	-
+v4_0065276	P	-
+v4_0065298	P	-
+v4_0065307	P	-
+v4_0065332	P	-
+v4_0065333	P	-
+v4_0065335	P	-
+v4_0065337	P	-
+v4_0065368	P	-
+v4_0065373	P	-
+v4_0065375	P	-
+v4_0065381	P	-
+v4_0065399	P	-
+v4_0065403	P	-
+v4_0065429	P	-
+v4_0065441	P	-
+v4_0065442	P	-
+v4_0065446	P	-
+v4_0065453	P	-
+v4_0065454	P	-
+v4_0065464	P	-
+v4_0065474	P	-
+v4_0065503	P	-
+v4_0065517	P	-
+v4_0065523	P	-
+v4_0065524	F	goal ref: south_most -> - (hang cuoi indicates row, ambiguous between south_most or ordinary direction/matrix row without column context, but here provided south_most vs 'o nam o hang cuoi')
+v4_0065535	P	-
+v4_0065537	P	-
+v4_0065540	P	-
+v4_0065541	P	-
+v4_0065544	P	-
+v4_0065550	P	-
+v4_0065554	P	-
+v4_0065555	P	-
+v4_0065570	F	goal type: clinic -> - (nhan vien y te nho gui ket nuoc ngot to unknown recipient location, clinic is sender role not goal destination)
+
+STDERR:

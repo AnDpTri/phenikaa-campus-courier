@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_06_batch_07",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0052994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053041",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053053",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053068",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053075",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053088",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053103",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053112",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053119",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053138",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053139",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053141",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053152",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053159",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053166",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053194",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053204",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053206",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053226",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053228",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053239",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053242",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053244",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053267",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053271",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053281",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053300",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053306",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053320",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053333",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053341",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053348",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053358",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053372",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053387",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053405",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053410",
+      "status": "F",
+      "reason": "goal type: provided 'canteen', corrected '-' (\"giao cho co cap duong nhe\" specifies recipient role, not canteen destination building)"
+    },
+    {
+      "id": "v4_0053419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053444",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0053446",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

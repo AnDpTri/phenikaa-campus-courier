@@ -1,0 +1,53 @@
+v4_0310008	P	-
+v4_0310015	F	goal type: provided canteen, expected library ("len ke noi ta sach giup em")
+v4_0310020	P	-
+v4_0310024	P	-
+v4_0310041	P	-
+v4_0310042	P	-
+v4_0310054	P	-
+v4_0310064	P	-
+v4_0310071	U	Uncertain/unreadable destination text ("ma se the giu xe la cua ky thuat vien")
+v4_0310075	P	-
+v4_0310081	P	-
+v4_0310096	P	-
+v4_0310113	P	-
+v4_0310149	P	-
+v4_0310162	P	-
+v4_0310166	U	Missing goal destination clause / cut-off sentence ("NHAN VIEN PHONG OC VUA ADT HIEC TUI GAP LAM ROI")
+v4_0310190	P	-
+v4_0310206	P	-
+v4_0310212	P	-
+v4_0310219	P	-
+v4_0310232	P	-
+v4_0310236	P	-
+v4_0310250	P	-
+v4_0310253	U	Uncertain/garbled direction "ria phi"
+v4_0310265	P	-
+v4_0310268	P	-
+v4_0310269	P	-
+v4_0310277	P	-
+v4_0310279	P	-
+v4_0310280	P	-
+v4_0310283	P	-
+v4_0310297	P	-
+v4_0310308	P	-
+v4_0310309	P	-
+v4_0310311	P	-
+v4_0310312	P	-
+v4_0310322	P	-
+v4_0310337	P	-
+v4_0310340	P	-
+v4_0310342	P	-
+v4_0310345	P	-
+v4_0310350	P	-
+v4_0310353	P	-
+v4_0310367	P	-
+v4_0310389	F	urgent: provided 1, expected 0 ("trong vong 10 phut nhe" is negated/neutral or specifies 10m; actually goal anchor lab matches, but wait: 10 phut is urgent=1, anchor is lab, canteen old; wait: recipient is y te at building next to lab: supported) -> wait, let's recheck:
+v4_0310389	P	-
+v4_0310397	P	-
+v4_0310399	P	-
+v4_0310404	P	-
+v4_0310430	P	-
+v4_0310463	P	-
+
+STDERR:

@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_04",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0221591",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221633",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221643",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221654",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221668",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221700",
+      "status": "U",
+      "reason": "Text says 'noi o agn toa oc nhat' ambiguous truncated/typo phrasing"
+    },
+    {
+      "id": "v4_0221701",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221703",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221708",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221752",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221757",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221771",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221806",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221809",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221816",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221824",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221851",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221886",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221905",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221927",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221933",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221938",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221949",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221967",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221968",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221971",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0221995",
+      "status": "U",
+      "reason": "Missing goal destination location only mentions recipient huan luyen vien"
+    },
+    {
+      "id": "v4_0222045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222051",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222056",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222061",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222064",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222070",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222072",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222078",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222079",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222105",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222127",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222135",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222164",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222179",
+      "status": "U",
+      "reason": "Missing goal location, only specifies recipient can bo thu vien"
+    },
+    {
+      "id": "v4_0222191",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0222202",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

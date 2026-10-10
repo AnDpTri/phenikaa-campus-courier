@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_32_batch_05",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0311880",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311883",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311891",
+      "status": "F",
+      "reason": "goal: provided -/west_most/-, corrected -/west_most/- -> via: provided parking/north/-, corrected parking/north/-; text says \"cong trinh nao o ria trai\" (head noun: cong trinh -> gate/west_most/-)"
+    },
+    {
+      "id": "v4_0311939",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311981",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311982",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311994",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0311995",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312024",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312038",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312062",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312080",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312091",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312093",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312094",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312133",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312134",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312165",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312182",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312185",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312196",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312200",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312203",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312213",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312216",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312224",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312260",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312264",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312272",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312273",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312282",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312293",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312327",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312330",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312338",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312359",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312363",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312368",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312369",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312404",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312424",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312430",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0312433",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1; text has \"Can gap\""
+    },
+    {
+      "id": "v4_0312437",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

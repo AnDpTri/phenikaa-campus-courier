@@ -1,0 +1,140 @@
+{
+  "type": "semantic_v8_fragile_property_vs_handling_policy_ambiguity",
+  "created_utc": "2026-10-10T01:04:36.249039+00:00",
+  "counts": {
+    "train": {
+      "n": 9600,
+      "potential_ambiguity_n": 1996,
+      "potential_ambiguity_fraction": 0.2079,
+      "false_label_policy_only_n": 1196,
+      "false_label_policy_only_fraction": 0.1246,
+      "false_label_policy_only_fraction_among_false": 0.2492,
+      "by_clause": [
+        {
+          "clause": "policy_handling_active",
+          "label": true,
+          "n": 396
+        },
+        {
+          "clause": "policy_handling_expired",
+          "label": false,
+          "n": 396
+        },
+        {
+          "clause": "policy_impact_protection_expired",
+          "label": false,
+          "n": 396
+        },
+        {
+          "clause": "policy_protection_active",
+          "label": true,
+          "n": 404
+        },
+        {
+          "clause": "policy_protection_expired",
+          "label": false,
+          "n": 404
+        }
+      ],
+      "by_family": [
+        {
+          "family_id": 2,
+          "style": "negation_rich",
+          "clause": "policy_protection_active",
+          "label": true,
+          "n": 404
+        },
+        {
+          "family_id": 2,
+          "style": "negation_rich",
+          "clause": "policy_protection_expired",
+          "label": false,
+          "n": 404
+        },
+        {
+          "family_id": 2,
+          "style": "plain_lexicon",
+          "clause": "policy_handling_active",
+          "label": true,
+          "n": 396
+        },
+        {
+          "family_id": 2,
+          "style": "plain_lexicon",
+          "clause": "policy_handling_expired",
+          "label": false,
+          "n": 396
+        },
+        {
+          "family_id": 5,
+          "style": "plain_lexicon",
+          "clause": "policy_impact_protection_expired",
+          "label": false,
+          "n": 396
+        }
+      ],
+      "examples": {
+        "policy_protection_expired": {
+          "id": "sf8_00002_000",
+          "text": "Mang kiện tới tòa ký túc xá và kết thúc chuyến tại đó. Trước khi giao, robot đã nhận đủ tài liệu ở điểm xuất phát; căn tin chỉ dùng làm mốc. Trước hạn chót đã nới, không cần giao gấp. Yêu cầu bảo vệ đồ dễ bể đã hết hiệu lực.",
+          "label_fragile": false,
+          "family_id": 2,
+          "style": "negation_rich"
+        },
+        "policy_protection_active": {
+          "id": "sf8_00002_001",
+          "text": "Mang kiện tới tòa ký túc xá và kết thúc chuyến tại đó. Trước khi giao, robot đã nhận đủ tài liệu ở điểm xuất phát; căn tin chỉ dùng làm mốc. Trước hạn chót đã nới, không cần giao gấp. Yêu cầu bảo vệ đồ dễ bể vẫn còn hiệu lực.",
+          "label_fragile": true,
+          "family_id": 2,
+          "style": "negation_rich"
+        },
+        "policy_handling_expired": {
+          "id": "sf8_00026_000",
+          "text": "yeu cau giao gap chi la ban nhap cu. mang kien toi diem sat phong lab nhat, khong tinh chinh phong lab va ket thuc chuyen tai do. chang nhan them tai lieu truoc khi giao da hoan tat tai cho xuat phat; day nha ktx chi la moc. quy dinh van chuyen do de be da het hieu luc.",
+          "label_fragile": false,
+          "family_id": 2,
+          "style": "plain_lexicon"
+        },
+        "policy_handling_active": {
+          "id": "sf8_00026_001",
+          "text": "yeu cau giao gap chi la ban nhap cu. mang kien toi diem sat phong lab nhat, khong tinh chinh phong lab va ket thuc chuyen tai do. chang nhan them tai lieu truoc khi giao da hoan tat tai cho xuat phat; day nha ktx chi la moc. quy dinh van chuyen do de be van con hieu luc.",
+          "label_fragile": true,
+          "family_id": 2,
+          "style": "plain_lexicon"
+        },
+        "policy_impact_protection_expired": {
+          "id": "sf8_00029_000",
+          "text": "Chỉ dẫn giao cuối: đưa bưu phẩm đến văn phòng khoa. Sau khi kiểm tra, địa điểm phòng cấp cứu chỉ là mốc; hàng đã lấy đủ. Lịch gửi được đổi từ giao gấp sang giao thường. Yêu cầu chống va đập dành cho hàng dễ vỡ đã hết hiệu lực.",
+          "label_fragile": false,
+          "family_id": 5,
+          "style": "plain_lexicon"
+        }
+      },
+      "sha256": "a2bcee3a9e815644128d966b514e3d631b44dc8b746500a14e1b0d09f755ac09"
+    },
+    "challenge": {
+      "n": 3200,
+      "potential_ambiguity_n": 0,
+      "potential_ambiguity_fraction": 0.0,
+      "false_label_policy_only_n": 0,
+      "false_label_policy_only_fraction": 0.0,
+      "false_label_policy_only_fraction_among_false": 0.0,
+      "by_clause": [],
+      "by_family": [],
+      "examples": {},
+      "sha256": "cc2a89c5d7e2fcdae0854b96f4e90696ca3edb3c5855ee019c7f3e3eba9c0d86"
+    }
+  },
+  "interpretation": "Mission.fragile should reflect package fragility. Revocation of a handling request/policy does NOT logically prove the item is non-fragile. Continuing a handling request is suggestive but not necessarily an assertion of item composition.",
+  "release_decision": "REJECT MAIN TRAINING; REPAIR LABEL-GROUNDING POLICY CLAUSES AND GET HUMAN QA",
+  "more_review_needed": [
+    "mild family 3 and family 6 negative clauses rescinding fragile status/label without explicitly asserting item robustness",
+    "recognition of spatial target semantics in complex pickup clauses",
+    "short/default-flag absent texts and independent human-authored data"
+  ],
+  "caveats": [
+    "Clause matching is strict normalized substring; possible additional ambiguous instances are not captured.",
+    "These are potential semantic ambiguities, not independently human-confirmed label errors.",
+    "No outside file modified or validation/test data accessed."
+  ]
+}

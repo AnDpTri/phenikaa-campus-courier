@@ -1,0 +1,52 @@
+v4_0320004	P	-
+v4_0320008	P	-
+v4_0320016	F	goal type: provided canteen, should be parking (bac giu xe o nha an)
+v4_0320022	P	-
+v4_0320029	P	-
+v4_0320044	P	-
+v4_0320053	P	-
+v4_0320057	P	-
+v4_0320070	P	-
+v4_0320078	P	-
+v4_0320091	P	-
+v4_0320096	P	-
+v4_0320133	P	-
+v4_0320136	P	-
+v4_0320150	P	-
+v4_0320151	F	goal type: provided -, should be canteen (bep truong o dia diem nao do o mep tren cung)
+v4_0320161	P	-
+v4_0320164	P	-
+v4_0320179	P	-
+v4_0320193	P	-
+v4_0320214	P	-
+v4_0320215	P	-
+v4_0320231	P	-
+v4_0320233	P	-
+v4_0320244	P	-
+v4_0320281	P	-
+v4_0320289	P	-
+v4_0320294	P	-
+v4_0320306	P	-
+v4_0320324	P	-
+v4_0320330	P	-
+v4_0320355	P	-
+v4_0320358	P	-
+v4_0320378	P	-
+v4_0320383	P	-
+v4_0320389	P	-
+v4_0320391	P	-
+v4_0320395	P	-
+v4_0320396	P	-
+v4_0320406	P	-
+v4_0320429	P	-
+v4_0320439	P	-
+v4_0320441	P	-
+v4_0320442	P	-
+v4_0320460	P	-
+v4_0320470	F	goal type: provided -, should be gate (bao ve hien dang o cho sat khu hanh chinh)
+v4_0320482	P	-
+v4_0320491	P	-
+v4_0320492	P	-
+v4_0320494	P	-
+
+STDERR:

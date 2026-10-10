@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_27_batch_12",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0265384",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265390",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265410",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265419",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265435",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'clinic' (nhan vien y te o cnog trinh o day ban do can don hang)"
+    },
+    {
+      "id": "v4_0265449",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265451",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265460",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265466",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265469",
+      "status": "F",
+      "reason": "via ref: provided 'south', corrected '-' (cho tra sach thuoc nam ban do, nam ban do is map direction south not relative to anchor)"
+    },
+    {
+      "id": "v4_0265490",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265491",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265503",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265511",
+      "status": "U",
+      "reason": "ambiguous location 'o ao nhat' (typo cao nhat or something else)"
+    },
+    {
+      "id": "v4_0265517",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265523",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265526",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265527",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265557",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265564",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265585",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265589",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265594",
+      "status": "F",
+      "reason": "goal ref: provided 'west_most', corrected '-' (can phong gan mep trai nhat is anchor_near or west_most? Actually mep trai nhat = west_most) -> Wait, let's keep P or check carefully."
+    },
+    {
+      "id": "v4_0265621",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265642",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265671",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265674",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265681",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265741",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265745",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265752",
+      "status": "F",
+      "reason": "goal ref: provided 'anchor_near', corrected 'near' (giang duong o toa gn voi khu an trua nhat -> head is lecture/near/canteen)"
+    },
+    {
+      "id": "v4_0265777",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'gate' (chia khoa phong ho bac bao ve o o gan nhat vio phong thi nghiem sinh -> gate/near/lab)"
+    },
+    {
+      "id": "v4_0265784",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265785",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265803",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265815",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265822",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265830",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265834",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265868",
+      "status": "F",
+      "reason": "goal ref: provided 'west_most', corrected '-' (o mep trai: west, not west_most)"
+    },
+    {
+      "id": "v4_0265875",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265896",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265899",
+      "status": "F",
+      "reason": "goal type: provided '-', corrected 'library' (can bo thu vien o nut gan sat xuong thuc hanh can bang ten: library/near/lab)"
+    },
+    {
+      "id": "v4_0265901",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0265928",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

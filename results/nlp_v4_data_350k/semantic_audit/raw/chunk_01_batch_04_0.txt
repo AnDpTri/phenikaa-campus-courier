@@ -1,0 +1,52 @@
+v4_0001571	P	-
+v4_0001577	P	-
+v4_0001591	P	-
+v4_0001595	P	-
+v4_0001601	P	-
+v4_0001604	P	-
+v4_0001615	F	goal should be -/south_most/- or text says toa nha thap nhat (not south_most, height vs direction mismatch)
+v4_0001622	P	-
+v4_0001624	P	-
+v4_0001629	P	-
+v4_0001631	P	-
+v4_0001642	P	-
+v4_0001651	P	-
+v4_0001652	P	-
+v4_0001655	P	-
+v4_0001662	P	-
+v4_0001666	P	-
+v4_0001669	P	-
+v4_0001670	P	-
+v4_0001677	P	-
+v4_0001689	P	-
+v4_0001700	P	-
+v4_0001721	P	-
+v4_0001731	P	-
+v4_0001740	P	-
+v4_0001764	P	-
+v4_0001767	P	-
+v4_0001773	P	-
+v4_0001778	P	-
+v4_0001783	P	-
+v4_0001791	P	-
+v4_0001808	P	-
+v4_0001816	P	-
+v4_0001818	P	-
+v4_0001821	P	-
+v4_0001825	F	goal should be parking/-/- with recipient at parking; text says chu giu xe dang doi (parking recipient)
+v4_0001834	P	-
+v4_0001835	P	-
+v4_0001836	P	-
+v4_0001839	P	-
+v4_0001861	P	-
+v4_0001872	P	-
+v4_0001891	P	-
+v4_0001899	P	-
+v4_0001931	P	-
+v4_0001934	P	-
+v4_0001946	P	-
+v4_0001949	P	-
+v4_0001957	P	-
+v4_0001974	P	-
+
+STDERR:

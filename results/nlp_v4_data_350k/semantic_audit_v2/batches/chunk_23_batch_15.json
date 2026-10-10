@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_15",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0227215",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227228",
+      "status": "F",
+      "reason": "urgent: provided 0, corrected 1 ('Can Gap')"
+    },
+    {
+      "id": "v4_0227245",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227250",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227274",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227286",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227287",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227288",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227299",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227308",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227311",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227312",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227313",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227315",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227317",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227318",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227328",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227332",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227379",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227395",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227398",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227400",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227411",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227412",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227416",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227417",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227428",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227429",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227442",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227457",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227461",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227470",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227485",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227498",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227506",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227532",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227536",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227538",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227547",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227550",
+      "status": "F",
+      "reason": "goal ref: provided east_most, corrected - ('le phai' is ordinary direction east, not extreme east_most)"
+    },
+    {
+      "id": "v4_0227556",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227559",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227566",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227569",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227580",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227592",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227603",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227609",
+      "status": "U",
+      "reason": "'o dau bna do' is ambiguous between north_most, extreme edge, or a general location"
+    },
+    {
+      "id": "v4_0227619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0227638",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

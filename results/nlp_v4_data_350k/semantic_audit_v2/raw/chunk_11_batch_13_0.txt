@@ -1,0 +1,52 @@
+v4_0105936	P	-
+v4_0105944	P	-
+v4_0105948	P	-
+v4_0105951	P	-
+v4_0105965	P	-
+v4_0105967	P	-
+v4_0105971	U	ambiguous destination phrase 'cong trinh co nhat' does not clearly indicate north_most
+v4_0105985	P	-
+v4_0106008	P	-
+v4_0106012	P	-
+v4_0106022	P	-
+v4_0106033	P	-
+v4_0106048	P	-
+v4_0106052	P	-
+v4_0106067	P	-
+v4_0106092	P	-
+v4_0106098	P	-
+v4_0106102	P	-
+v4_0106122	P	-
+v4_0106140	P	-
+v4_0106144	P	-
+v4_0106155	P	-
+v4_0106157	P	-
+v4_0106164	P	-
+v4_0106171	P	-
+v4_0106181	P	-
+v4_0106191	P	-
+v4_0106199	P	-
+v4_0106202	P	-
+v4_0106242	P	-
+v4_0106247	P	-
+v4_0106251	P	-
+v4_0106255	P	-
+v4_0106260	P	-
+v4_0106261	F	goal type: provided '-' should be 'parking' ('Nhan vien bai xe o toa ngay sat toa ktx can don hang')
+v4_0106262	P	-
+v4_0106264	P	-
+v4_0106275	P	-
+v4_0106277	P	-
+v4_0106278	P	-
+v4_0106280	P	-
+v4_0106296	P	-
+v4_0106298	P	-
+v4_0106308	P	-
+v4_0106319	P	-
+v4_0106327	P	-
+v4_0106340	P	-
+v4_0106347	P	-
+v4_0106351	P	-
+v4_0106359	P	-
+
+STDERR:

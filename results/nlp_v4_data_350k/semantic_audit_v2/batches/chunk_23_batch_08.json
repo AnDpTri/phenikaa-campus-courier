@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_23_batch_08",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0223617",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223619",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223627",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223630",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223635",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223637",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223638",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223646",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223652",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223658",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223669",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223675",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223677",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223685",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223694",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223706",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223707",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223722",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223737",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223744",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223763",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223787",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223821",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223827",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223840",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223843",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223860",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223868",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223876",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223892",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223904",
+      "status": "U",
+      "reason": "\"mien abc\" khong ro mien bac hay mien nao khac"
+    },
+    {
+      "id": "v4_0223925",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223942",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223973",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223977",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223992",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0223999",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224009",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224022",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224027",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224030",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224057",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224069",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224083",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224084",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224086",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0224111",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}

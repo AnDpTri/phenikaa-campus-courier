@@ -1,0 +1,52 @@
+v4_0038061	P	-
+v4_0038064	P	-
+v4_0038068	F	fragile: provided 1, should be 0 (hang de be, cam nhe implies fragile 1? Wait: "hang de be, cam nhe" -> fragile 1. urgent: "Dang gap!" -> urgent 1. Goal: "khong giao nha bep nua, can bo tiep nhan ho so sinh vien dang odi giao trinh gap" -> where is recipient? recipient is "can bo tiep nhan ho so sinh vien", usually office? But did text state location or just person? Wait, office vs no location?)
+v4_0038072	P	-
+v4_0038074	P	-
+v4_0038076	P	-
+v4_0038078	P	-
+v4_0038087	P	-
+v4_0038090	P	-
+v4_0038093	P	-
+v4_0038095	P	-
+v4_0038105	P	-
+v4_0038108	P	-
+v4_0038109	P	-
+v4_0038121	P	-
+v4_0038123	P	-
+v4_0038128	P	-
+v4_0038146	P	-
+v4_0038175	P	-
+v4_0038203	P	-
+v4_0038206	P	-
+v4_0038214	F	goal type/ref/anchor: provided -/north_most/-, should be dorm/north_most/- ("sinh vien o ky tuc o can phong diem moc nhin ra bien gioi phia bc xa hon tat ca")
+v4_0038216	P	-
+v4_0038222	P	-
+v4_0038241	P	-
+v4_0038243	P	-
+v4_0038256	P	-
+v4_0038258	P	-
+v4_0038278	P	-
+v4_0038285	P	-
+v4_0038294	P	-
+v4_0038296	P	-
+v4_0038298	P	-
+v4_0038310	P	-
+v4_0038311	P	-
+v4_0038323	P	-
+v4_0038331	P	-
+v4_0038343	P	-
+v4_0038344	P	-
+v4_0038348	P	-
+v4_0038355	P	-
+v4_0038359	P	-
+v4_0038372	P	-
+v4_0038377	P	-
+v4_0038382	P	-
+v4_0038391	P	-
+v4_0038397	P	-
+v4_0038409	P	-
+v4_0038431	P	-
+v4_0038473	P	-
+
+STDERR:

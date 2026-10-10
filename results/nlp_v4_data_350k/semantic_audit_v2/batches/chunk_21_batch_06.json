@@ -1,0 +1,256 @@
+{
+  "batch": "chunk_21_batch_06",
+  "complete": true,
+  "verdicts": [
+    {
+      "id": "v4_0202680",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202702",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202705",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202712",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202726",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202730",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202740",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202749",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202753",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202754",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202758",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202775",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202793",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202795",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202797",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202800",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202804",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202818",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202841",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202847",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202859",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202862",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202895",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202899",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202912",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202917",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202929",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202936",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202943",
+      "status": "U",
+      "reason": "Goal building type is not mentioned or missing in text (only recipient mentioned as lop truong, no goal building specified)"
+    },
+    {
+      "id": "v4_0202957",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202960",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202964",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202965",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202980",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0202988",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203017",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203023",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203032",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203033",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203045",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203059",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203060",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203063",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203066",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203067",
+      "status": "U",
+      "reason": "Contradictory urgency cues ('khong vi' vs 'phai nhanh')"
+    },
+    {
+      "id": "v4_0203105",
+      "status": "U",
+      "reason": "Goal building type is not mentioned (only recipient is quan ly ktx, no stated delivery location)"
+    },
+    {
+      "id": "v4_0203114",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203116",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203120",
+      "status": "P",
+      "reason": "-"
+    },
+    {
+      "id": "v4_0203129",
+      "status": "P",
+      "reason": "-"
+    }
+  ]
+}
