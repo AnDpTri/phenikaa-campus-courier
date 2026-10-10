@@ -187,7 +187,7 @@ Phenikaa_Campus_Courier_2026_v3/
   DE_BAI.md               Challenge specification
 ```
 
-The **original competition dataset is not bundled** in this repository. Some tests require that dataset and skip when it is absent. Final NLP checkpoints and an additional solver checkpoint are distributed in the GitHub Release instead of under the tracked `artifacts/nlp/` directory.
+The **original competition dataset is not bundled** in this repository. Some tests require that dataset; without it they are skipped or fail during setup. Final NLP checkpoints and an additional solver checkpoint are distributed in the GitHub Release instead of under the tracked `artifacts/nlp/` directory.
 
 ## Installation and reproducibility
 
