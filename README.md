@@ -95,7 +95,9 @@ The NLP stack deliberately combines two different approaches:
 1. A **rule-based parser** using domain lexicons, token normalization, typo handling, clause analysis, negation/correction cues, spatial expressions, and intermediate-stop detection.
 2. A **multi-task neural parser** with hashed word/character-trigram embeddings, a two-layer bidirectional GRU, and separate attention/classification heads for the goal, via, spatial anchors, urgency, and fragility.
 
-A **confidence-gated hybrid** uses the rule parser as a starting point and accepts neural corrections only when configured thresholds are met. **Map-aware grounding** resolves relative descriptions such as the northernmost landmark or a location nearest an anchor against the landmarks extracted by CV.
+A **confidence-gated hybrid** (`HybridMissionParser`) uses the rule parser as the starting point. The neural reading fills in a goal whenever the rules find none; it replaces a rule goal, via, or flag only when its confidence reaches the corresponding threshold (`goal`, `via`, `flags`). A threshold of `2.0` disables that override, which is how the urgent/fragile flags were left to the rules in the stronger configurations. Ensembles average the softmax outputs of several networks.
+
+**Map-aware grounding** resolves relative descriptions such as the northernmost landmark or a location nearest an anchor against the landmarks extracted by CV. When the chosen goal type does not exist on the predicted map, the parser falls back to the neural reading, then to the most probable neural goal type that is present.
 
 Synthetic Vietnamese examples, real annotated training scenes, held-out phrasing, and multiple model seeds were used to develop and evaluate NLP variants. The repository contains the generators and training scripts; several final NLP checkpoints are distributed via [GitHub Releases](https://github.com/AnDpTri/Top13-Phenikaa-AI-Hackathon-2026/releases/tag/v1.0.0).
 
@@ -114,9 +116,9 @@ The solver first builds a **legal, directed road graph**:
 - Only robot `R4` may traverse stairs.
 - When a mission specifies a `via`, the route must visit it before the final `goal`.
 
-A configurable shortest-path engine then evaluates legal first actions under **48 route-cost hypotheses**, covering step count, crowded roads, covered roads, turning, U-turns, stairs, and combinations fitted to known robot behavior. Pathfinding tracks both **heading** and **whether the via has been reached**, so route cost depends on more than the current node.
+A configurable shortest-path engine then evaluates legal first actions under **48 route-cost hypotheses**, covering step count, crowded roads, covered roads, turning, U-turns, stairs, and ten combinations fitted per robot by a coordinate search on the training split (`scripts/solver/fit_cost_weights.py`). Pathfinding tracks both **heading** and **whether the via has been reached**, so route cost depends on more than the current node.
 
-Rather than predicting an absolute direction with a single four-class model, the final source implementation constructs **candidate-level features** for every legal first move: local road characteristics, turns, distance to the next waypoint, and **cost/regret/rank/optimality** under each profile. It uses **one histogram gradient-boosting candidate classifier per robot** to rank the alternatives.
+Rather than predicting an absolute direction with a single four-class model, the final source implementation constructs **candidate-level features** for every legal first move: local road characteristics, turns, distance to the next waypoint, and **cost/regret/rank/optimality** under each profile. Each candidate row has 219 features. **One histogram gradient-boosting binary classifier per robot** scores the rows and the highest-scoring legal move is chosen. The two tracked artifacts (`candidate_strategy.joblib`, `candidate_strategy_trainval.joblib`) hold one classifier per robot; the "Ultra" artifact used for the last two submissions replaces each with a soft-voting ensemble of five seeds (see [Final submissions](#final-submissions-1201-and-1208)).
 
 On validation using **ground-truth maps and missions** (isolating the strategy stage):
 
@@ -154,9 +156,10 @@ The project started without an implemented solution. **52.39% was the first succ
 | Oct 9, 09:08 | NLP V2 with neural via overrides (`#1107`) | 68.78% |
 | Oct 10, 08:24 | V5, via overrides disabled (`#1180`) | 65.28% |
 | Oct 10, 08:54 | V5, via overrides enabled (`#1182`) | 70.39% |
-| Later submissions | Reported improvements to 70.83% and a **71.17% peak** | **71.17%** |
+| Oct 10, 11:50 | V5 + five-seed "Ultra" solver (`#1201`) | 70.83% |
+| Oct 10, 12:00 | V5+V9 ensemble, goal threshold 0.70 + Ultra solver (`#1208`) | **71.17%** |
 
-**Reported final standing: 13th out of 25 teams.** The competition uses a separate hidden final evaluation; public leaderboard scores and final placement should not be treated as the same metric. Submission identifiers and early scores are documented in the reports under [`docs/`](docs/). The last two figures are reported in the project record/README, rather than independently reconstructed from test labels in this repository.
+**Reported final standing: 13th out of 25 teams.** The competition uses a separate hidden final evaluation; public leaderboard scores and final placement should not be treated as the same metric. Submission identifiers and scores up to `#1182` are documented in the reports under [`docs/`](docs/). The scores and times of `#1201` and `#1208` come from leaderboard screenshots; the configuration behind each is taken from the development session's command log, as described in [Final submissions](#final-submissions-1201-and-1208).
 
 Two lessons from the submission history are worth highlighting:
 
@@ -250,25 +253,49 @@ To check your output:
 
 A matching hash confirms byte-identical output to the reported `#1182` prediction file; a nonmatching hash requires checking the dataset, model versions, runtime environment, and thresholds. The script refuses to overwrite an existing output or diagnostics directory, so use a fresh path on subsequent runs.
 
-### Inspect the later V5+V9 / F90 release model
+### Final submissions (`#1201` and `#1208`)
 
-A separate final NLP artifact is available as `neural_parser_v5_v9_assault_g070_v095_f90.pt`. The tracked diagnostics for `submission_total_assault_f90_20261010` reference **`candidate_strategy_trainval.joblib`**; they do not establish that the released Ultra solver produced this particular file.
+Both use the Ultra solver artifact from the release. Download it and the V5+V9 NLP ensemble:
 
 ```powershell
 gh release download v1.0.0 `
   --repo AnDpTri/Top13-Phenikaa-AI-Hackathon-2026 `
-  --pattern "neural_parser_v5_v9_assault_g070_v095_f90.pt" `
+  --pattern "candidate_strategy_ultra.joblib" `
+  --dir artifacts/solver
+gh release download v1.0.0 `
+  --repo AnDpTri/Top13-Phenikaa-AI-Hackathon-2026 `
+  --pattern "neural_parser_v5_v9_ensemble_g070_v095.pt" `
   --dir artifacts/nlp
-
-py -3.12 scripts/create_submission.py `
-  --detector-device auto `
-  --nlp-model artifacts/nlp/neural_parser_v5_v9_assault_g070_v095_f90.pt `
-  --strategy-artifact artifacts/solver/candidate_strategy_trainval.joblib `
-  --out results/reproduction_f90/predictions.json `
-  --diagnostics-dir results/reproduction_f90/diagnostics
 ```
 
-This is a **source- and artifact-grounded configuration example**, **not a claim that the peak 71.17% submission can currently be reproduced bit-for-bit**. The repository does not contain hidden test labels, and the supplied Ultra solver artifact does not have a corresponding complete five-seed training workflow in the checked-in source.
+Configuration recorded for `#1208` (71.17%):
+
+```powershell
+py -3.12 scripts/create_submission.py `
+  --detector-device auto `
+  --nlp-model artifacts/nlp/neural_parser_v5_v9_ensemble_g070_v095.pt `
+  --nlp-goal-threshold 0.70 `
+  --strategy-artifact artifacts/solver/candidate_strategy_ultra.joblib `
+  --out results/reproduction_1208/predictions.json `
+  --diagnostics-dir results/reproduction_1208/diagnostics
+```
+
+Expected SHA-256 of the prediction file:
+
+```text
+6FDF71235BD08ACEF371A65DD464B8FA426C0D5AE211642572330FC5D2DF64F8
+```
+
+`#1201` (70.83%) is the same command with `--nlp-model artifacts/nlp/neural_parser_v5_sf200_scratch_via095.pt` and without `--nlp-goal-threshold`; its recorded prediction file has SHA-256 `097B9390AFA19F788DE74E3FC69C90FCF3733DD06E776EF7C3E1A1B98C28AE75`.
+
+What has and has not been verified:
+
+- The `#1208` command was re-run after the competition from a clean copy of the source with the released artifacts, on Windows 11 / Python 3.12.10 / PyTorch 2.14.1 (CUDA) / scikit-learn 1.7.2. It produced a file byte-identical to the one generated during the competition with that configuration (the hash above). The `#1201` command has not been re-run.
+- The prediction files for these two runs were generated at 11:24 and 11:49 on Oct 10 and are not tracked in this repository. The session log identifies the 11:49 file as `#1201`. `#1208` was submitted at 12:00 and attributed in the log to the V5+V9 NLP ensemble; the 11:24 file is the only Ultra + V5+V9 output that existed at that time, but the upload itself was not logged, so this mapping is an inference.
+- The V5+V9 artifact is the three V5 seeds plus one "V9" network fine-tuned from V5 seed 0. Merging those four checkpoints with `scripts/nlp/merge_checkpoints.py` reproduces the released weights exactly.
+- The Ultra solver was trained by an ad-hoc command: five `HistGradientBoostingClassifier` seeds per robot (`learning_rate=0.04`, `max_iter=350`, `max_leaf_nodes=31`, `l2_regularization=0.5`, `min_samples_leaf=20`) in a soft `VotingClassifier`, fitted on train + validation. With train-only fitting it scored 74.20% oracle-input macro accuracy on validation, against 73.60% for the single-seed ranker. That training script is not checked in to this repository.
+
+The release also contains `neural_parser_v5_v9_assault_g070_v095_f90.pt`, the same four networks with the flag threshold lowered to 0.90. The tracked diagnostics for `submission_total_assault_f90_20261010` reference `candidate_strategy_trainval.joblib`, not the Ultra solver.
 
 ### Run tests and evaluate the system
 
@@ -295,7 +322,7 @@ This is a hackathon snapshot, and several limitations are explicit:
 - **Distribution shift:** validation and public test can favor different configurations; test labels are unavailable for detailed attribution.
 - **Model approximation:** the candidate ranker learns from many route-cost hypotheses but does not prove that the ten hidden policies have been exactly recovered.
 - **Graph repair:** fallback relaxations help on damaged graphs but do not constitute verified, physical-robot-safe navigation; the final action should be rechecked against the original inferred legal action set in a future revision.
-- **Reproducibility:** the current release provides final checkpoints, but not every historical training run and artifact has a complete end-to-end reconstruction procedure.
+- **Reproducibility:** inference for the final configuration is reproducible from the released checkpoints (see above), but not every historical training run has a complete end-to-end procedure in this repository. In particular the Ultra solver's training command is not checked in, and the V5 NLP training scripts under `results/` use absolute paths from the development machine.
 - **Dataset availability:** dataset-dependent integration tests require locally supplied competition data.
 
 ## Development and acknowledgments
