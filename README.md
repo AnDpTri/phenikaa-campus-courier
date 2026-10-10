@@ -96,7 +96,16 @@ py -3.12 -m pip install -e ".[solver,cv]"
 $env:PYTHONPATH = "src"
 ```
 
-### 2. Run Verification Tests
+### 2. Download Pre-trained Weights
+
+Official model weights and serialized strategies can be downloaded directly from the [v1.0.0 Release Assets](https://github.com/AnDpTri/Top13-Phenikaa-AI-Hackathon-2026/releases/tag/v1.0.0):
+
+```powershell
+# Download all artifacts automatically via GitHub CLI
+gh release download v1.0.0 --dir artifacts
+```
+
+### 3. Run Verification Tests
 
 ```powershell
 py -3.12 -m unittest discover -s tests -v
